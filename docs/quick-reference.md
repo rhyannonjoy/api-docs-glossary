@@ -2,7 +2,9 @@
 
 ## `#`
 
-**12 Cognitive Dimensions of API Usability**: a framework for evaluation and enhancing the
+### 12 Cognitive Dimensions of API Usability
+
+A framework for evaluation and enhancing the
 usability of APIs
 
 ## A
