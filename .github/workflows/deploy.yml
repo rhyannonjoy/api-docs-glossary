@@ -1,9 +1,8 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
-      - issue-1-create-IA-draft  # Add your branch name 
+      - issue-5-reorg-quick-reference
       - main
   workflow_dispatch:
 
@@ -23,24 +22,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-
       - name: Install dependencies
         run: npm ci
-      
       - name: Build website
         run: npm run build
-
       - name: Upload artifact
+        if: github.ref == 'refs/heads/main'  # Only upload on main
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./build
 
   deploy:
+    if: github.ref == 'refs/heads/main'  # Only deploy from main
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
