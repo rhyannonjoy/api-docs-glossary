@@ -24,7 +24,7 @@ processes, and best practices in the API documentation space.
 
 ## Getting started
 
-[quick reference draft here](./docs/quick-reference.md)
+[quick reference draft here]([./docs/quick-reference.md](https://rhyannonjoy.github.io/api-docs-glossary/docs/quick-reference))
 
 ### Prerequisites
 
