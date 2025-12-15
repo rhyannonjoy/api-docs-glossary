@@ -51,11 +51,11 @@ Each glossary entry includes:
 
 | Scenario | Start here |
 |--------------|------------|
-| **New to API documentation** | [API](link) → [REST APIs](link) → [API Reference Topic](link) |
-| **Learning OpenAPI Specification** | [OpenAPI Specification](link) → [JSON](link) → [YAML](link) |
-| **Preparing for technical interviews** | [12 Cognitive Dimensions of API Usability](link) and [End-user Software Engineer](link) personas |
-| **Working on your first API tutorial** | [API Overview Topic](link) → [Audience](link) → [Rhetorical Approach](link) |
-| **Setting up documentation tooling** | [Git](link) → [GitHub](link) → [Markdown](link) → [Docusaurus](link) |
+| **New to API documentation** | API → REST APIs → API Reference Topic |
+| **Learning OpenAPI Specification** | OpenAPI Specification → JSON → YAML |
+| **Preparing for technical interviews** | 12 Cognitive Dimensions of API Usability → End-user Software Engineer personas |
+| **Working on your first API tutorial** | API Overview Topic → Audience → Rhetorical Approach |
+| **Setting up documentation tooling** | Git → GitHub → Markdown → Docusaurus |
 
 For questions, corrections, or suggestions, please visit the
 [GitHub repository](https://github.com/rhyannonjoy/api-docs-glossary).
