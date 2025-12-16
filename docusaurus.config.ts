@@ -107,6 +107,17 @@ const config: Config = {
       rel: 'stylesheet',
     },
   ],
+
+  themes: [
+  [
+    require.resolve("@easyops-cn/docusaurus-search-local"),
+    {
+      hashed: true,
+      indexDocs: true,
+      indexBlog: false,
+    },
+  ],
+]
 };
 
 export default config;
