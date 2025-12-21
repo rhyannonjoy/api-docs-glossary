@@ -30,9 +30,9 @@ const config: Config = {
 
   themeConfig: {
     colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'API Docs Glossary',
@@ -45,7 +45,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Glossary',
+          label: 'Explore',
         },
         {
           href: 'https://github.com/rhyannonjoy/api-docs-glossary',
