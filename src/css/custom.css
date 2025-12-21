@@ -1,268 +1,104 @@
 /**
  * Custom CSS for API Docs Glossary
- * Inspired by Temporal Documentation theme
- * 
- * NOTE: Fonts are loaded via docusaurus.config.ts stylesheets array
  */
 
 /* ============================================
-   CSS VARIABLES - LIGHT MODE
+   CSS VARIABLES - DARK MODE ONLY
    ============================================ */
 
 :root {
-  /* Primary colors - Temporal's blue theme */
-  --ifm-color-primary: #1d4ed8;
-  --ifm-color-primary-dark: #1a46c4;
-  --ifm-color-primary-darker: #1842b9;
-  --ifm-color-primary-darkest: #143798;
-  --ifm-color-primary-light: #2156ec;
-  --ifm-color-primary-lighter: #2d60f0;
-  --ifm-color-primary-lightest: #4a75f3;
-
-  /* Typography - Using Inter (Aeonik alternative) */
+  /* Force pure black background everywhere */
+  --ifm-background-color: #000000;
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #000000;
+  --ifm-background-surface-color: #000000;
+  
+  /* Cream text color */
+  --ifm-font-color-base: #f5f1e8;
+  
+  /* Typography */
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --ifm-font-family-monospace: 'Noto Sans Mono', 'Consolas', 'Monaco', monospace;
   --ifm-font-size-base: 16px;
   --ifm-line-height-base: 1.65;
-  --ifm-code-font-size: 95%;
-  --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
-
-  /* Background colors */
-  --ifm-background-color: #f9fafb;
-  --ifm-footer-background-color: #ffffff;
-  --ifm-navbar-background-color: #ffffff;
-  --ifm-card-background-color: #ffffff;
-
-  /* Text colors */
-  --ifm-color: #111827;
-  --ifm-link-color: #111827;
-  --ifm-link-hover-color: var(--ifm-color-primary);
-
-  /* Spacing */
-  --ifm-spacing-horizontal: 1.5rem;
-  --ifm-spacing-vertical: 1.5rem;
-
-  /* Layout */
+  
+  /* Navbar */
   --ifm-navbar-height: 60px;
-  --ifm-sidebar-width: 280px;
-
-  /* Link styling */
-  --ifm-link-decoration: underline;
-
-  /* Custom variables for alerts/callouts */
-  --alert--competency-background: #a8fcff;
-  --alert--copycode-background: #e0cdfa;
-  --alert--info-background: #ebeded;
+  --ifm-navbar-link-color: #f5f1e8;
+  
+  /* Links */
+  --ifm-link-color: #f5f1e8;
+  --ifm-link-hover-color: #ffffff;
 }
-
-/* ============================================
-   CSS VARIABLES - DARK MODE
-   ============================================ */
 
 [data-theme='dark'] {
-  --ifm-color-primary: #bfdbfe;
-  --ifm-color-primary-dark: #9dc9fd;
-  --ifm-color-primary-darker: #8abffd;
-  --ifm-color-primary-darkest: #51a2fc;
-  --ifm-color-primary-light: #d1e5fe;
-  --ifm-color-primary-lighter: #deedfe;
-  --ifm-color-primary-lightest: #f0f7ff;
-
-  /* Background colors */
-  --ifm-background-color: #141414;
-  --ifm-footer-background-color: #000000;
+  --ifm-background-color: #000000;
   --ifm-navbar-background-color: #000000;
-  --ifm-card-background-color: #1a1a1a;
-
-  /* Text colors */
-  --ifm-color: #f9fafb;
-  --ifm-link-color: #f9fafb;
-  --ifm-link-hover-color: var(--ifm-color-primary);
-
-  /* Code highlighting */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
-  /* Custom variables for dark mode */
-  --alert--competency-background: #00474a;
-  --alert--copycode-background: #29005e;
-  --alert--info-background: #353536;
+  --ifm-footer-background-color: #000000;
+  --ifm-background-surface-color: #000000;
+  --ifm-font-color-base: #f5f1e8;
 }
 
 /* ============================================
-   TYPOGRAPHY STYLES
+   TYPOGRAPHY
    ============================================ */
-
-/* Apply Inter font consistently across all elements */
-* {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-}
 
 body,
 html {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f5f1e8;
 }
 
-/* Headings use Inter with Temporal-inspired styling */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+/* ============================================
+   CONTENT AREAS
+   ============================================ */
+
+/* Main content text */
+.markdown {
+  color: #f5f1e8;
 }
 
-/* Ensure all text elements use Inter */
-p,
-li,
-td,
-th,
-div,
-span,
-a,
-.markdown,
-article,
-section {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+/* Sidebar */
+.theme-doc-sidebar-container {
+  background-color: #000000;
 }
 
-/* H1 styling inspired by Temporal */
-h1 {
-  font-size: 1.6rem;
-  font-weight: 300;
-  letter-spacing: -1px;
+.menu__link {
+  color: #f5f1e8;
 }
 
-/* H2 and H3 styling */
-h2 {
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  font-size: 1.8rem;
-}
-
-h3 {
+.menu__link--active {
+  color: #ffffff;
   font-weight: 600;
-  letter-spacing: -0.5px;
-  font-size: 1.4rem;
 }
 
-/* Body text styling for better readability */
-p {
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 1.7;
+/* Navbar */
+.navbar__link {
+  color: #f5f1e8;
 }
 
-/* Responsive H1 sizes */
-@media only screen and (min-width: 1280px) {
-  h1 {
-    font-size: 3rem;
-  }
+.navbar__title {
+  color: #f5f1e8;
 }
 
-@media only screen and (max-width: 1279px) and (min-width: 640px) {
-  h1 {
-    font-size: 2rem;
-  }
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.footer {
+  background-color: #000000 !important;
+  color: #f5f1e8 !important;
 }
 
-/* Code blocks use Noto Sans Mono */
+.footer__copyright {
+  color: #f5f1e8 !important;
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+
 code,
-pre,
-kbd,
-samp,
-.prism-code,
-.token {
-  font-family: 'Noto Sans Mono', 'Consolas', 'Monaco', monospace !important;
-}
-
-/* ============================================
-   LINK STYLES
-   ============================================ */
-
-a,
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* Remove underlines from navigation links */
-.menu__link,
-.navbar__link,
-.dropdown__link,
-.table-of-contents__link {
-  text-decoration: none;
-  font-weight: 400;
-}
-
-/* ============================================
-   ALERT/ADMONITION STYLES
-   ============================================ */
-
-.alert {
-  border-radius: 3px !important;
-  border-width: 1px;
-  border-style: solid;
-}
-
-.alert--competency {
-  background-color: var(--alert--competency-background);
-}
-
-.alert--copycode {
-  background-color: var(--alert--copycode-background);
-}
-
-.alert--info {
-  background-color: var(--alert--info-background);
-}
-
-/* ============================================
-   CODE STYLING
-   ============================================ */
-
-code {
-  vertical-align: baseline;
-}
-
-/* ============================================
-   NAVBAR CUSTOMIZATION
-   ============================================ */
-
-.navbar__logo img {
-  height: 35px;
-}
-
-.navbar__items--right {
-  flex-direction: row-reverse;
-}
-
-/* ============================================
-   CARD STYLES
-   ============================================ */
-
-.card {
-  background-color: var(--ifm-card-background-color);
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 8px;
-  padding: 1.5rem;
-  transition: all 0.3s ease;
-}
-
-.card:hover {
-  border-color: var(--ifm-color-primary);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* ============================================
-   UTILITY CLASSES
-   ============================================ */
-
-.bold {
-  font-weight: 500;
-}
-
-.nowrap {
-  white-space: nowrap;
+pre {
+  font-family: 'Noto Sans Mono', 'Consolas', 'Monaco', monospace;
 }
