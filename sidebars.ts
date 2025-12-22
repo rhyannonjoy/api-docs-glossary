@@ -14,6 +14,10 @@ const sidebars: SidebarsConfig = {
     'core-concepts',
     'quick-reference',
     'tools-techniques',
+    'processes',
+    'concepts',
+    'writing-style',
+    'ai-and-apis',
     'contribution-guide',
   ],
 };
