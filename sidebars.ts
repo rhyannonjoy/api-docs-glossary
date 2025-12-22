@@ -14,6 +14,7 @@ const sidebars: SidebarsConfig = {
     'core-concepts',
     'quick-reference',
     'tools-techniques',
+    'contribution-guide',
   ],
 };
 
