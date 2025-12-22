@@ -12,6 +12,13 @@
   --ifm-navbar-background-color: #000000;
   --ifm-footer-background-color: #000000;
   --ifm-background-surface-color: #000000;
+
+  /* Match the cyan from the computer screen */
+  --ifm-link-color: #f5f1e8;
+  --ifm-link-hover-color: #00D4FF; /* Cyan from computer */
+  
+  /* For active/selected states */
+  --ifm-color-primary: #00D4FF;
   
   /* Cream text color */
   --ifm-font-color-base: #f5f1e8;
@@ -37,6 +44,9 @@
   --ifm-footer-background-color: #000000;
   --ifm-background-surface-color: #000000;
   --ifm-font-color-base: #f5f1e8;
+  --ifm-link-color: #f5f1e8;
+  --ifm-link-hover-color: #00D4FF;
+  --ifm-color-primary: #00D4FF;
 }
 
 /* ============================================
@@ -68,13 +78,18 @@ html {
 }
 
 .menu__link--active {
-  color: #ffffff;
+  color: #00D4FF !important;
   font-weight: 600;
 }
 
 /* Navbar */
 .navbar__link {
   color: #f5f1e8;
+}
+
+/* Navbar link hover */
+.navbar__link:hover {
+  color: #00D4FF;
 }
 
 .navbar__title {
