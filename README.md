@@ -1,9 +1,11 @@
 # [API Docs Glossary](https://rhyannonjoy.github.io/api-docs-glossary/)
 
 A comprehensive glossary of API documentation fundamental concepts, tools, processes,
-and best practices. This project originated from coursework in the University of
-Washington's AI-Enhanced API Documentation certification program. Thank you to the
-[Write the Docs](https://www.writethedocs.org/) community for inspiration and resources.
+and best practices. This project originated from coursework in the 
+[University of Washington's AI-Enhanced API Documentation certification program](https://www.pce.uw.edu/specializations/api-documentation).
+Thank you to [Docs By Design](https://docsbydesign.com/)
+and the [Write the Docs](https://www.writethedocs.org/)
+community for inspiration and resources.
 
 This glossary is a living document, intended to evolve as the terms do. The API Docs
 Glossary is a personal learning project, but suggestions and corrections are welcome.
