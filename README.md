@@ -1,4 +1,4 @@
-# API Docs Glossary
+# [API Docs Glossary](https://rhyannonjoy.github.io/api-docs-glossary/)
 
 A comprehensive glossary of API documentation fundamental concepts, tools, processes,
 and best practices. This project originated from coursework in the University of
