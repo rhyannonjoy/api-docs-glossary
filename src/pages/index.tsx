@@ -14,7 +14,7 @@ import React from 'react';
          <main className={styles.heroBanner}>
            <div className="container">
              <img 
-               src={useBaseUrl('/img/glossary-logo.svg')}
+               src={useBaseUrl('/img/glossary-logo.png')}
                alt="API Docs Glossary Logo" 
                className={styles.logo}
              />
