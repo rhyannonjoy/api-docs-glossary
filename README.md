@@ -13,7 +13,7 @@ for more information.
 
 ## Topics covered
 
-- **[API Fundamentals]([https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals))**: REST APIs, security, OpenAPI Specification
+- **[API Fundamentals]([https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals)**: REST APIs, security, OpenAPI Specification
 - **[Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts)**: Overview topics, reference documentation, tutorials
 - **[Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques)**: cURL, Postman, Git/GitHub, Markdown
 - **Processes**: Agile, DDLC, project management, usability testing
