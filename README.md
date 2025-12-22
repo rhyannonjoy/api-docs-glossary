@@ -13,9 +13,9 @@ for more information.
 
 ## Topics covered
 
-- **API Fundamentals**: REST APIs, security, OpenAPI Specification
-- **Documentation Types**: Overview topics, reference documentation, tutorials
-- **Tools & Technologies**: cURL, Postman, Git/GitHub, Markdown
+- **[API Fundamentals]([https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals))**: REST APIs, security, OpenAPI Specification
+- **[Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts)**: Overview topics, reference documentation, tutorials
+- **[Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques)**: cURL, Postman, Git/GitHub, Markdown
 - **Processes**: Agile, DDLC, project management, usability testing
 - **Concepts**: Cognitive dimensions of API usability, audience analysis, domain knowledge
 - **Writing Style**: Rhetorical approaches, content strategy
