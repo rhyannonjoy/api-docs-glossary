@@ -135,9 +135,9 @@ new content
 
 Command-line program that executes version control functions
 
-### Git base
+### Git Bash
 
-Command-line interface for Windows and MacOS that emultes Unix Bash command line
+Command-line interface for Windows that emulates Unix Bash command line
 
 ### GitHub
 
@@ -194,15 +194,15 @@ Space in which customers access your company or products
 
 Moving the changes from one branch to another branch
 
-### Merge conflict
-
-2 commits have changes in the same file, blocking merging,
-requires manual resolution
-
 ### Merge commit
 
-Combines changes in 1 branch with the changes that took place
-in the original branch after
+Integrates changes from a feature branch with updates that occurred
+in the original branch after branching
+
+### Merge conflict
+
+Two commits have changes in the same file, blocking merging,
+requires manual resolution
 
 ## N
 
