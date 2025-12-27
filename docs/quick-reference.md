@@ -9,7 +9,7 @@ usability of APIs
 
 ## A
 
-### Affect vs effect 
+### affect vs effect 
 
 Affect (_verb_): to influence\
 Effect (_noun_): the result
@@ -36,56 +36,56 @@ operation or object
 
 Measures taken to protect APIs from unauthorized access, misuse, attacks
 
-### Artificial intelligence (AI)
+### artificial intelligence (AI)
 
 Both a research field and set of technologies that use computers and large
 datasets to perform tasks, make predictions or recommendations and solve
 problems that normally require human intelligence
 
-### Authentication
+### authentication
 
 Determines who you are
 
-### Authorization
+### authorization
 
 Determines what you can do
 
 ## B
 
-### Branch
+### branch
 
 Parallel version of a repository
 
 ## C
 
-### Cherry-pick
+### cherry-pick
 
 Copying selected commits from one branch to another branch
 
-### Clone
+### clone
 
 Copy of a repository that lives on your in your development environment,
 instead of hosted on GitHub
 
-### Commit
+### commit
 
 Repository snapshot at a certain point-in-time, has a hash
 
-### Commit hash
+### commit hash
 
 Unique identifier generated using the SHA-1 hash function
 
-### Content
+### content
 
 Anything you write for someone else to read
 
-### Critical chain project management (CCPM)
+### Critical Chain Project Management (CCPM)
 
 Project management method\
 Focuses on resources needed to complete the project’s tasks by adding
 resource availability to the critical path
 
-### Critical path method (CPM)
+### Critical Path Method (CPM)
 
 Project management method\
 Some tasks you can’t start until you finish the previous one
@@ -96,18 +96,18 @@ Client URL, command-Line tool available on Windows, MacOS, Linux
 
 ## D
 
-### Document development life cycle (DDLC)
+### Document Development Life Cycle (DDLC)
 
 Process of writing and delivering particular content in the form
 of documentation - PDF, Word doc, online articles, website content
 
-### Domain knowledge
+### domain knowledge
 
 Understanding of a specific industry, discipline, or activity
 
 ## E
 
-### End-user software engineer
+### end-user software engineer
 
 Way to describe and categorize different developer work styles,
 characteristics, and motivations that are common to particular
@@ -115,18 +115,18 @@ groups of people or personas using products
 
 ## F
 
-### Force-push
+### force push
 
 Moving changes upstream that rewrite commits that are already present upstream
 
-### Fork
+### fork
 
 Personal copy of another user’s repository that lives
 in your GitHub account, a forked repository
 
 ## G
 
-### Generative AI
+### generative AI
 
 Draws upon the patterns identified through machine learning processes to generate
 new content
@@ -147,11 +147,11 @@ Cloud-based storage, version control, automation service
 
 User interface that manages GitHub repositories and local clones
 
-### Graphical user interface (GUI)
+### graphical user interface (GUI)
 
 Form of user interface with graphical icons and visual indicators
 
-### Guerilla usability testing (GUT)
+### guerilla usability testing (GUT)
 
 Way to assess how effective an interface is by testing out
 its visual design, capability, and general message on its
@@ -159,24 +159,24 @@ intended audience and capturing their responses
 
 ## H
 
-### Hypertext transfer protocol (HTTP)
+### Hypertext Transfer Protocol (HTTP)
 
 Synchronous request/response protocol
 
-### Hypertext transfer protocol secure (HTTPS)
+### Hypertext Transfer Protocol Secure (HTTPS)
 
 Secure version of HTTP
 
 ## L
 
-### Large language model (LLM)
+### large language model (LLM)
 
 Form of generative AI that's trained on enormous amounts of texts
 and can generate text-based responses that look and feel human-like
 
 ## M
 
-### Machine learning
+### machine learning
 
 Practice of using algorithms and large datasets to train computers
 to recognize patterns and to apply what's known about those patterns
@@ -186,39 +186,39 @@ to complete new tasks
 
 Markup language designed to format plain text documents
 
-### Market
+### market
 
 Space in which customers access your company or products
 
-### Merge
+### merge
 
 Moving the changes from one branch to another branch
 
-### Merge commit
+### merge commit
 
 Integrates changes from a feature branch with updates that occurred
 in the original branch after branching
 
-### Merge conflict
+### merge conflict
 
 Two commits have changes in the same file, blocking merging,
 requires manual resolution
 
 ## N
 
-### Natural language processing (NLP)
+### natural language processing (NLP)
 
 Ability of computers to analyze and generate responses in ways
 that mimic humans’ use of language
 
 ## O
 
-### OpenAPI specification (OAS)
+### OpenAPI Specification (OAS)
 
 Way to define the interface of an API, used to create
 the interface and documentation
 
-### Origin repository
+### origin repository
 
 Default upstream repository, typically clone source repository
 
@@ -228,48 +228,48 @@ Default upstream repository, typically clone source repository
 
 App that creates and records HTTP/HTTPS requests and responses
 
-### Project management methodology
+### project management methodology
 
 Different ways to approach a project
 
-### Pull
+### pull
 
 Fetching changes from upstream, such as pulling the changes
 down from an origin or upstream repository
 
-### Pull request (PR)
+### pull request (PR)
 
 Request to someone that invites them to pull your changes from
 a repository/branch into their repository
 
-### Push
+### push
 
 Moving changes upstream, such as from your local computer
 to its origin repository
 
 ## R
 
-### Rebase
+### rebase
 
 Used to resync a feature branch to its source branch
 after the source branch has changed
 
-### Repository
+### repository
 
 Place to store files that are under Git’s version control
 
-### REST APIs
+### REST API
 
 *RE*presentational state transfer interface, one of the most
 widely used approaches for building web-based APIs
 
-### Rhetorical approach
+### rhetorical approach
 
 Also known as "the tone" or editorial voice
 
 ## S
 
-### Sales collateral
+### sales collateral
 
 Used to inform and educate, either internal, empower sales reps,
 or external, convert new customers
@@ -280,44 +280,44 @@ Project management method\
 Work in short-cycles of 2 weeks call “sprints”
 and meet daily to discuss work
 
-### Skunkworks
+### skunkworks
 
 Used in business, engineering, and technical fields to describe a group
 within an organization given a high degree of autonomy and unhampered
 by bureaucracy, with the task of working on advanced or secret projects
 
-### Squash
+### squash
 
 Action of combining many commits into a single commit
 
 ## U
 
-### Upstream repository
+### upstream repository
 
 Original repository, source of fork
 
-### Usability testing
+### usability testing
 
 Practice of testing how easy a design is to use with
 a group of representative users
 
-### User interface (UI)
+### user interface (UI)
 
 Space where interactions between humans and machines occur
 
 ## V
 
-### Version control
+### version control
 
 System that tracks changes in documents and other files
 
 ## W
 
-### Waterfall
+### waterfall
 
 Project management method\
 Traditional, sequential, linear, simple, idealistic
 
-### Workspace
+### workspace
 
 Directory on your computer that contains your cloned repoitories
