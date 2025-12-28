@@ -1,15 +1,12 @@
 # Contribution guide
 
-Documentation improvements are always welcome. Contributions
-must benefit API Docs Glossary readers. Create
-[an issue](https://github.com/rhyannonjoy/api-docs-glossary/issues) and/or
-make [a pull request](https://github.com/rhyannonjoy/api-docs-glossary/pulls).
-Contributions are especially welcome if they:
+This guide covers the technical process for contributing to the
+API Docs Glossary: forking the repository, setting up the
+development environment, submitting pull requests,
+and troubleshooting common issues.
 
-- Add new API documentation terms with clear definitions
-- Improve clarity of existing definitions
-- Add relevant examples to existing terms
-- Fix technical inaccuracies
+For content standards, writing conventions, and formatting
+requirements, visit the [Style Guide](style-guide.md).
 
 ## Code of conduct
 
@@ -37,45 +34,6 @@ placeholder content or partial entries.
 but this isn't required.
 8. Don't submit pull requests with lint or Vale errors in
 the content or code examples.
-
-## Add a new glossary term
-
-Most terms live in existing category files. To add a new term:
-
-1. Identify which category file the term belongs in:
-   - `core-concepts.md` - Fundamental API documentation concepts
-   - `quick-reference.md` - Common terms and quick definitions
-   - `tools-and-techniques.md` - Tools, software, and methods
-
-2. Add the term using this format:
-
-    ```markdown
-    ## Term Name
-   
-    **Definition**: Brief, clear definition
-   
-    **Purpose**: Why this matters for API documentation
-   
-    **Example**: Real-world example or use case (optional)
-   
-    **Related terms**: Link to other relevant terms
-    ```
-
-3. Place the term alphabetically within its section
-or at the end of the appropriate subsection
-
-4. Test locally with `npm start` to ensure formatting looks correct
-
-5. Submit the pull request
-
-## Create a new category
-
-If the term doesn't fit existing categories and warrants a new one:
-
-1. Create a new Markdown file in the `docs/` directory, such as `advanced-topics.md`
-2. Add the term and/or terms using the format described in the previous section
-3. Add the new file to `sidebars.ts` in the logical position within the array
-4. Test the navigation locally to ensure the new category appears correctly
 
 ## Troubleshooting
 
@@ -116,3 +74,4 @@ if changes still don't appear.
 - [Introduction](introduction.md)
 - [Getting Started](getting-started.md)
 - [Quick Reference](quick-reference.md)
+- [Style Guide](style-guide.md)

@@ -18,7 +18,8 @@ const sidebars: SidebarsConfig = {
     'concepts',
     'writing-style',
     'ai-and-apis',
-    'contribution-guide',
+    'style-guide',
+    'contribution-guide'
   ],
 };
 
