@@ -43,7 +43,7 @@ Most terms live in existing category files. To add a new term:
    
     **Example**: Real-world example or use case (optional)
    
-    **Related terms**: Link to other relevant terms
+    **Related Terms**: Link to other relevant terms
 
     **Source**: Acknowledgement of the information's origin
     ```
