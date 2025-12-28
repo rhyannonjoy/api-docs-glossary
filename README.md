@@ -17,9 +17,9 @@ for more information.
 
 - [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals): REST APIs, security, OpenAPI Specification
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts): Overview topics, reference documentation, tutorials
+- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy): Cognitive dimensions of API usability, audience analysis, domain knowledge
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques): cURL, Postman, Git/GitHub, Markdown
 - [Processes](https://rhyannonjoy.github.io/api-docs-glossary/docs/processes): Agile, DDLC, project management, usability testing
-- [Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/concepts): Cognitive dimensions of API usability, audience analysis, domain knowledge
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style): Rhetorical approaches, content strategy
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis): Artificial intelligence in API documentation
 

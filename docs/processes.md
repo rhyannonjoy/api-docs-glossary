@@ -2,4 +2,4 @@
 
 _coming soon_
 
-<!-- TODO: include Agile, DDLC, project management, usability testing -->
+<!-- TODO: include Agile, DDLC, project management, guerilla usability testing -->

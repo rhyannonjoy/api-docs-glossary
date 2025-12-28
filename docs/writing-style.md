@@ -2,4 +2,4 @@
 
 _coming soon_
 
-<!-- TODO: include rhetorical approaches, content strategy -->
+<!-- TODO: include affect vs effect, rhetorical approach, content -->

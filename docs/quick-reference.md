@@ -188,7 +188,7 @@ Markup language designed to format plain text documents
 
 ### market
 
-Space in which customers access your company or products
+Space in which customers access a company or products
 
 ### merge
 
