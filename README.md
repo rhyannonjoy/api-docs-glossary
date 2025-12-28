@@ -1,7 +1,7 @@
 # [API Docs Glossary](https://rhyannonjoy.github.io/api-docs-glossary/)
 
-A comprehensive glossary of API documentation fundamental concepts, tools, processes,
-and best practices. This project originated from coursework in the 
+A comprehensive glossary of API documentation fundamental concepts, processes,
+tools, and best practices. This project originated from coursework in the
 [University of Washington's AI-Enhanced API Documentation certification program](https://www.pce.uw.edu/specializations/api-documentation).
 Thank you to [Docs By Design](https://docsbydesign.com/)
 and the [Write the Docs](https://www.writethedocs.org/)
@@ -15,13 +15,13 @@ for more information.
 
 ## Topics covered
 
-- [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals): REST APIs, security, OpenAPI Specification
-- [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts): Overview topics, reference documentation, tutorials
-- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy): Cognitive dimensions of API usability, audience analysis, domain knowledge
-- [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques): cURL, Postman, Git/GitHub, Markdown
-- [Processes](https://rhyannonjoy.github.io/api-docs-glossary/docs/processes): Agile, DDLC, project management, usability testing
-- [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style): Rhetorical approaches, content strategy
-- [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis): Artificial intelligence in API documentation
+- [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals): REST APIs, security
+- [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts): OpenAPI specification, overview topics
+- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy): audience analysis, domain knowledge
+- [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques): cURL, Postman
+- [Processes](https://rhyannonjoy.github.io/api-docs-glossary/docs/processes): project management, usability testing
+- [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style): content strategy, rhetorical approach
+- [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis): artificial intelligence in API documentation
 
 ## Getting started
 
