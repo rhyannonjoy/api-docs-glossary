@@ -21,7 +21,9 @@ who does what in API documentation
 
 **Related Terms**: rhetorical approach, tone, voice
 
-_Source - [Style Guide](style-guide.md)_
+**Source**: [Style Guide](style-guide.md)
+
+---
 
 ## affect vs effect
 
@@ -39,10 +41,12 @@ technical writing by using correct grammar
 
 **Related Terms**: content, voice
 
-_Sources -_
+**Sources**:
 
 - [Affect vs. Effect: Understanding the Difference and Choosing the Right Word](https://www.wordrake.com/resources/affect-vs.-effect-understanding-the-difference-and-choosing-the-right-word)
-- ["How do design, length, and relevance affect how people use API reference docs" -- interview with Bob Watson](https://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/)
+- ["How do design, length, and relevance affect how people use API reference docs" - Interview with Bob Watson](https://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/)
+
+---
 
 ## content
 
@@ -58,7 +62,9 @@ and conceptual explanations all constitute content
 
 **Related Terms**: rhetorical approach, tone, voice
 
-_Source - [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)_
+**Source**: [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+
+---
 
 ## rhetorical approach
 
@@ -77,10 +83,12 @@ demonstrates rhetorical awareness
 
 **Related Terms**: active voice, content, tone, voice
 
-_Sources -_
+**Sources**:
 
 - [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Understanding Rhetoric by Brigitte Mussack and Evelyn Dsouza](https://pressbooks.umn.edu/techwriting/chapter/chapter-1/#:~:text=A%20rhetorical%20approach%20frames%20communication,systems%20of%20power%20and%20oppression.)
+
+---
 
 ## tone
 
@@ -97,7 +105,9 @@ both - "authentication is required"
 
 **Related Terms**: active voice, rhetorical approach, voice
 
-_Source - [Style Guide](style-guide.md)_
+**Source**: [Style Guide](style-guide.md)
+
+---
 
 ## voice
 
@@ -112,4 +122,6 @@ or "technically precise but accessible," maintained across all content types
 
 **Related Terms**: active voice, rhetorical approach, tone
 
-_Source - [Style Guide](style-guide.md)_
+**Source**: [Style Guide](style-guide.md)
+
+---

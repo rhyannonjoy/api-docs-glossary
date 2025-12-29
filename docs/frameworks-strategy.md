@@ -5,7 +5,7 @@ This section covers frameworks for understanding API usability, developer
 personas, organizational contexts, and market dynamics that inform how
 documentation teams plan their work.
 
-## 12 cognitive dimensions of API usability
+## cognitive dimensions of API usability
 
 **Definition**: a framework for evaluating and enhancing API usability
 by considering both designer and user perspectives to identify usability
@@ -41,10 +41,12 @@ burying the comparison deep in reference docs
 
 **Related terms**: API, API Reference Topic, Usability Testing, End-user Software Engineer
 
-_Sources_
+**Sources**:
 
 - [Applying the Cognitive Dimensions of API Usability to Improve API Documentation Planning by Robert Watson](https://docsbydesign.com/wp-content/uploads/2015/01/SIGDOC2014_CogDimForDocEstimate_PosterPaper.pdf)
 - [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+
+---
 
 ## domain knowledge
 
@@ -65,7 +67,9 @@ for different account types
 
 **Related Terms**: API, end-user software engineer
 
-_Source_ ["API documentation - What software engineers can teach us"](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
+**Source**: ["API documentation - What software engineers can teach us"](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
+
+---
 
 ## end-user software engineer
 
@@ -95,10 +99,12 @@ first payment" tutorial
 
 **Related Terms**: domain knowledge, usability testing
 
-_Sources_
+**Sources**:
 
-- _Module 4, Lesson 1, "Audience analysis and readers' goals"_
+- UW API Docs - Module 4, Lesson 1, "Audience analysis and readers' goals"
 - [What is an End-User Software Engineer? by Steven Clarke](https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.07081.26)
+
+---
 
 ## market
 
@@ -119,7 +125,9 @@ API can focus on advanced use cases and optimization
 
 **Related Terms**: sales collateral
 
-_Source - [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)_
+**Source**: [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+
+---
 
 ## sales collateral
 
@@ -139,10 +147,12 @@ business metrics
 
 **Related Terms**: market, API Overview Topic
 
-_Sources_
+**Sources**:
 
 - [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Turtl - What is Sales Collateral?](https://turtl.co/blog/sales-collateral/#:~:text=Sales%20collateral%20examples%20can%20either,convert%20them%20into%20new%20customers%29.)
+
+---
 
 ## skunkworks
 
@@ -163,7 +173,9 @@ with clear disclaimers about experimental status
 
 **Related Terms**: Agile
 
-_Sources_
+**Sources**:
 
 - [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Wikipedia: Skunk Works](https://en.wikipedia.org/wiki/Skunk_Works)
+
+---

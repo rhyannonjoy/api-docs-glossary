@@ -38,7 +38,9 @@ often stored in a file
 for other computers, programs, or services, also known as
 the server
 
-_Source - Module 5, Lesson 1 "REST API Fundamentals"_
+**Source**: UW API Docs - Module 5, Lesson 1, "REST API Fundamentals"
+
+---
 
 ### API security
 
@@ -62,7 +64,9 @@ that's included in a request header or request URL
 they claim to be by using techniques such as checking ID to
 verify identity
 
-_Source - API Docs Intentional Outcomes, Canvas Forum Thread_
+**Source**: UW API Docs Intentional Outcomes, Canvas Forum Thread
+
+---
 
 <!-- determine if this term is needed
 ### HTTP/HTTPS
@@ -147,10 +151,12 @@ resource formatted as a JSON document:
 
 **Related Terms**: API, HTTP, HTTPS
 
-_Sources_
+**Sources**:
 
-- _Module 5, Lesson 1, "REST API Fundamentals"_
+- UW API Docs - Module 5, Lesson 1, "REST API Fundamentals"
 - [What is REST?](https://restfulapi.net/)
+
+---
 
 ## Documentation-specific concepts
 
@@ -198,7 +204,9 @@ be significant
 | Conceptual | Learn | Teach |
 | Reference | Delivery, Maintenance | Assist |
 
-_Source - Module 6, Lesson 1, "API Documentation Overview Topics"_
+**Source**: UW API Docs - Module 6, Lesson 1, "API Documentation Overview Topics"
+
+---
 
 ### API reference topic
 
@@ -235,7 +243,9 @@ suitability
 
 **Related Terms**: API Overview Topic, OpenAPI Specification
 
-_Source - Module 6, Lesson 3, "Review of API Reference Topics"_
+**Source**: UW API Docs - Module 6, Lesson 1, "API Documentation Overview Topics"
+
+---
 
 ### OpenAPI specification (OAS)
 
@@ -276,10 +286,12 @@ it requires interpretation before it can become either
 
 **Related terms**: REST APIs, API Reference Topic
 
-_Sources_:
+**Sources**:
 
-- Module 5, Lesson 2, "Open API specification (OAS) documents"
+- UW API Docs - Module 5, Lesson 2, "Open API specification (OAS) documents"
 - [Wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
+
+---
 
 <!-- Todo: determine if these terms are needed
 ## Supporting technical concepts

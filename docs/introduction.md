@@ -57,13 +57,8 @@ not just definitions.
 
 ## Get started
 
-New to API documentation? Start with REST APIs and API
-Documentation Basics.
-
-Looking for something specific? Use the search function or browse
-categories in the sidebar.
-
----
-
-**Found an error or have a suggestion?**
-See the contributing guidelines.
+| Scenario | Action |
+| ---------------- | --------- |
+| New to API documentation? | Explore [Core Concepts](core-concepts.md) |
+| Looking for something specific? | Use the search function or browse categories in the sidebar |
+| Found an error or have a suggestion? | Visit the [Contribution Guide](contribution-guide.md) |

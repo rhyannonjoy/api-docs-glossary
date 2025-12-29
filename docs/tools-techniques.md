@@ -18,7 +18,9 @@ them into the published version
 **Related Terms**: dev branch, feature branch, main branch,
 merge, rebase
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## cherry-pick
 
@@ -31,7 +33,9 @@ unrelated changes
 
 **Related Terms**: branch, commit, merge
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## clone
 
@@ -44,7 +48,9 @@ changes back to the remote repository
 
 **Related Terms**: fork, origin repo, pull, push
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## commit
 
@@ -57,7 +63,9 @@ authentication endpoints" or "fix typo in rate limiting docs"
 
 **Related Terms**: cherry-pick, commit hash, pull, push, squash
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## commit hash
 
@@ -78,7 +86,9 @@ the repository size to ensure uniqueness
 
 **Related Terms**: branch, cherry-pick, commit
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## cURL
 
@@ -95,7 +105,7 @@ documentation development
 **Example**: `curl -X GET https://api.example.com/users`
 retrieves user data from an API endpoint
 
-**Related terms**: json-server, REST API, Postman, Swagger
+**Related Terms**: json-server, REST API, Postman, Swagger
 
 **Further Reading**:
 
@@ -103,10 +113,12 @@ retrieves user data from an API endpoint
 - [Everything cURL](https://everything.curl.dev/index.html)
 - [What is cURL and how does it relate to APIs?](https://developer.ibm.com/articles/what-is-curl-command/)
 
-_Sources_
+**Sources**:
 
-- _Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"_
-- _Module 5, Lesson 3, "API Test and Documentation Tools"_
+- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+- UW API Docs - Module 5, Lesson 3, "API Test and Documentation Tools"
+
+---
 
 ## dev branch
 
@@ -122,7 +134,9 @@ together before merging to main
 **Related Terms**: branch, feature branch, main branch,
 merge
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## feature branch
 
@@ -139,7 +153,9 @@ only the documentation for a new webhook feature
 
 **Related Terms**: branch, dev branch, main branch, merge
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## fork
 
@@ -154,7 +170,9 @@ fork, then submit pull requests to the upstream repository
 **Related Terms**: clone, pull request, repository,
 upstream repository
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## force push
 
@@ -169,7 +187,9 @@ branches like `main`
 **Related Terms**: dev branch, feature branch, push, rebase,
 squash
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## Git
 
@@ -196,7 +216,9 @@ maintain published versions separate from draft content
 
 **Related Terms**: Git Bash, GitHub, GitHub Desktop
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## Git Bash
 
@@ -217,10 +239,12 @@ Terminal app
 
 **Related Terms**: Git, GitHub, GitHub Desktop
 
-_Sources_ 
+**Sources**:
 
 - [Git](https://git-scm.com/)
-- _Module 2, Lesson 1, "Getting Started with Git"_
+- UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## GitHub
 
@@ -235,10 +259,12 @@ complement local Git operations
 
 **Related Terms**: Git, Git Base, GitHub Desktop
 
-_Sources_ 
+**Sources**:
 
-- _Module 2, Lesson 1, "Getting Started with Git"_
 - [GitHub](https://github.com/)
+- UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## GitHub Desktop
 
@@ -253,10 +279,12 @@ non-technical writers
 
 **Related Terms**: Git, GitHub, Git Bash, repository
 
-_Sources_ 
+**Sources**:
 
-- _Module 2, Lesson 1, "Getting Started with Git"_
 - [GitHub Desktop](https://github.com/apps/desktop)
+- UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## json-server
 
@@ -277,10 +305,12 @@ creates REST endpoints: `/users` returns all users,
 
 **Related Terms**: cURL, Postman, REST API, Swagger
 
-_Sources_
+**Sources**:
 
 - [json-server.dev](https://json-server.dev/)
-- _Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"_
+- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+
+---
 
 ## main branch
 
@@ -295,7 +325,9 @@ directly from this branch
 **Related Terms**: branch, deploy, dev branch, feature branch,
 merge
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## Markdown
 
@@ -307,10 +339,12 @@ links, lists, and tables
 
 **Related Terms**: cURL, Git, Git Bash
 
-_Sources_
+**Sources**:
 
-- _Mentioned in class Canvas question thread_
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- UW API Docs - Canvas General Forum
+
+---
 
 ## merge
 
@@ -325,7 +359,9 @@ history from both branches
 **Related Terms**: branch, merge conflict, pull request,
 rebase
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## merge commit
 
@@ -346,7 +382,9 @@ with lots of branches splitting and rejoining
 
 **Related Terms**: commit, feature branch, merge, squash
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## merge conflict
 
@@ -365,7 +403,9 @@ are too complex and require resolution from the text editor
 
 **Related Terms**: branch, commit, merge, pull request
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## origin repo
 
@@ -378,7 +418,9 @@ configures origin when cloning a repository
 
 **Related Terms**: clone, pull, push, upstream repo
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## pull
 
@@ -391,7 +433,9 @@ with remote changes made by other team members; running
 
 **Related Terms**: clone, merge, origin repo, push
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## pull request (PR)
 
@@ -406,7 +450,9 @@ before merging
 
 **Related Terms**: branch, feature branch, fork, merge
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## push
 
@@ -419,7 +465,9 @@ repository
 
 **Related Terms**: commit, force push, origin repo, pull
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## Postman
 
@@ -435,10 +483,12 @@ documentation generation.
 
 **Related Terms**: cURL, json-server, REST API, Swagger
 
-_Sources_
+**Sources**:
 
-- _Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"_
+- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 - [What is Postman?](https://www.postman.com/product/)
+
+---
 
 ## rebase
 
@@ -461,7 +511,9 @@ merge commits or squashed history
 **Related Terms**: branch, commit, feature branch, force push,
 merge, squash
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## repository (repo)
 
@@ -474,7 +526,9 @@ hub for collaborative documentation work
 
 **Related Terms**: branch, clone, fork, Git, GitHub
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## squash
 
@@ -490,7 +544,9 @@ become one commit: "Add OAuth 2.0 authentication guide"
 
 **Related Terms**: commit, merge, pull request, rebase
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## Swagger
 
@@ -512,7 +568,9 @@ Generates client libraries and server stubs from OAS files
 
 **Related terms**: OpenAPI Specification (OAS), REST API, YAML
 
-_Source - [What is Swagger](https://swagger.io/docs/specification/v2_0/what-is-swagger/)_
+**Source**: [What is Swagger](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
+
+---
 
 ## upstream repository
 
@@ -525,7 +583,9 @@ creating pull requests
 
 **Related Terms**: clone, fork, origin repo, pull
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## version control
 
@@ -542,7 +602,9 @@ the repository to their own GitHub account
 
 **Related Terms**: branch, commit, Git, Git Bash, GitHub
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
 
 ## workspace
 
@@ -555,4 +617,6 @@ before pushing to remote repositories
 
 **Related Terms**: clone, fork, repository
 
-_Source - Module 2, Lesson 1, "Getting Started with Git"_
+**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
