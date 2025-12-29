@@ -11,11 +11,11 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'introduction',
     'getting-started',
-    'core-concepts',
     'quick-reference',
+    'core-concepts',
     'frameworks-strategy',
     'tools-techniques',
-    'processes',
+    'workflows-methodologies',
     'writing-style',
     'ai-and-apis',
     'style-guide',

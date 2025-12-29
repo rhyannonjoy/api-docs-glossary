@@ -15,13 +15,20 @@ for more information.
 
 ## Topics covered
 
-- [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals): REST APIs, security
-- [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts): OpenAPI specification, overview topics
-- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy): audience analysis, domain knowledge
-- [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques): cURL, Postman
-- [Processes](https://rhyannonjoy.github.io/api-docs-glossary/docs/processes): project management, usability testing
-- [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style): content strategy, rhetorical approach
-- [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis): artificial intelligence in API documentation
+- [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals):
+REST APIs, security
+- [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
+OpenAPI specification, overview topics
+- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
+audience analysis, domain knowledge
+- [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
+cURL, Postman
+- [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
+project management, usability testing
+- [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
+content strategy, rhetorical approach
+- [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
+artificial intelligence in API documentation
 
 ## Getting started
 
