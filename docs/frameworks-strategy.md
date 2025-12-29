@@ -5,6 +5,27 @@ This section covers frameworks for understanding API usability, developer
 personas, organizational contexts, and market dynamics that inform how
 documentation teams plan their work.
 
+**Explore the cognitive dimensions framework**:
+
+```mermaid
+flowchart TD
+    CD[cognitive dimensions<br/>framework]
+    CD --> U[usability factors]
+    CD --> D[design factors]
+    
+    U --> U1[learning style]
+    U --> U2[working framework]
+    U --> U3[progressive evaluation]
+    
+    D --> D1[consistency]
+    D --> D2[role expressiveness]
+    D --> D3[domain correspondence]
+
+    style CD fill:#4A90E2,color:#fff
+    style U fill:#50C878,color:#fff
+    style D fill:#FFB347,color:#fff
+```
+
 ## cognitive dimensions of API usability
 
 **Definition**: a framework for evaluating and enhancing API usability

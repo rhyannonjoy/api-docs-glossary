@@ -1,7 +1,5 @@
 # Getting started
 
-## Overview
-
 From REST fundamentals to documentation best practices, API Docs
 Glossary is a comprehensive reference for anyone working with API
 documentation. Whether you're a technical writer, developer, or
@@ -12,6 +10,8 @@ This glossary originated from coursework in the University of
 Washington's AI-Enhanced API Documentation certification program
 and is a living document - terms and definitions are
 regularly updated as the field evolves.
+
+---
 
 ## Glossary structure
 
@@ -26,6 +26,8 @@ Explore terms across seven main categories:
 | **Concepts** | Theoretical frameworks: 12 Cognitive Dimensions of API Usability, audience analysis, domain knowledge, developer personas |
 | **Writing Style** | Communication approaches: rhetorical strategies, content strategy, tone considerations |
 | **AI & APIs** | Artificial intelligence concepts relevant to modern API documentation: LLMs, machine learning, generative AI |
+
+---
 
 ## Navigate this glossary
 
@@ -47,6 +49,8 @@ Each glossary entry includes:
 - **Context**: References to related coursework
 - **Related terms**: Connections to other glossary entries
 
+---
+
 ## Common use cases
 
 | Scenario | Start here |
@@ -56,6 +60,6 @@ Each glossary entry includes:
 | **Preparing for technical interviews** | 12 Cognitive Dimensions of API Usability → End-user Software Engineer personas |
 | **Working on your first API tutorial** | API Overview Topic → Audience → Rhetorical Approach |
 | **Setting up documentation tooling** | Git → GitHub → Markdown → Docusaurus |
+| **Reporting issues, suggesting improvements** | [Contribution Guide](contribution-guide.md) → [Style Guide](style-guide.md)|
 
-For questions, corrections, or suggestions, please visit the
-[GitHub repository](https://github.com/rhyannonjoy/api-docs-glossary).
+---

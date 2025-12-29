@@ -5,6 +5,16 @@ covers methodologies, testing approaches, and lifecycle management
 practices that guide how API documentation teams plan, create,
 validate, and maintain their work.
 
+```mermaid
+graph LR
+    A[analysis & planning] --> B[design]
+    B --> C[content development]
+    C --> D[review & edit]
+    D --> E[publish]
+    E --> F[maintain]
+    F --> A
+```
+
 ## Agile
 
 **Definition**: methodology with a collection of project management

@@ -5,8 +5,27 @@ API Docs Glossary: forking the repository, setting up the
 development environment, submitting pull requests,
 and troubleshooting common issues.
 
-For content standards, writing conventions, and formatting
-requirements, visit the [Style Guide](style-guide.md).
+**Contribution workflow**:
+
+```mermaid
+sequenceDiagram
+    participant contributor
+    participant local
+    participant GitHub
+    
+    contributor->>GitHub: fork repo
+    contributor->>local: setup environment
+    contributor->>local: make changes
+    contributor->>local: test & lint
+    local-->>contributor: all checks pass
+    contributor->>GitHub: submit PR
+    GitHub-->>contributor: review & merge
+```
+
+_For content standards, writing conventions, and formatting
+requirements, visit the [Style Guide](style-guide.md)._
+
+---
 
 ## Code of conduct
 

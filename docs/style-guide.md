@@ -5,8 +5,10 @@ what makes a good term entry, how to format definitions,
 capitalization rules, and writing conventions. All contributions
 must follow these standards to maintain consistency and quality.
 
-For technical setup and the pull request process, visit the
-[Contribution Guide](contribution-guide.md).
+_For technical setup and the pull request process, visit the
+[Contribution Guide](contribution-guide.md)._
+
+---
 
 ## What to contribute
 
