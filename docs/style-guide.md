@@ -23,14 +23,20 @@ Before contributing, create
 [an issue](https://github.com/rhyannonjoy/api-docs-glossary/issues)
 to discuss additions or changes.
 
+---
+
 ## Add a new glossary term
 
 Most terms live in existing category files. To add a new term:
 
 1. Identify which category file the term belongs in:
+   - `quick-reference.md` - Common terms, concise definitions
    - `core-concepts.md` - Fundamental API documentation concepts
-   - `quick-reference.md` - Common terms and quick definitions
-   - `tools-and-techniques.md` - Tools, software, and methods
+   - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
+   - `tools-techniques.md` - Tools, software, methods
+   - `workflows-methodologies.md` - Development, documentation workflows for API projects
+   - `frameworks-strategy.md` - Conceptual models, strategic approaches for API documentation work
+   - `writing-style.md` - Language conventions, tone guidelines, rhetorical approaches
 
 2. Add the term using this format:
 
@@ -54,6 +60,8 @@ or at the end of the appropriate subsection
 4. Test locally with `npm start` to ensure formatting looks correct
 
 5. Submit the pull request
+
+---
 
 ## Capitalization
 
@@ -107,6 +115,8 @@ even if it's the term itself:
 which a branch was created.
 ```
 
+---
+
 ## Related terms linking strategy
 
 Link related terms to help readers navigate connected concepts
@@ -128,6 +138,8 @@ such as cURL → API testing, command line
 then workflow-related, then alternatives
 - Use the exact term name as it appears in its heading
 - Separate with commas: `**Related Terms**: branch, commit, merge, rebase`
+
+---
 
 ## Voice and tone
 
@@ -165,6 +177,8 @@ when describing who performs actions:
 If passive voice improves clarity or readability, use it -
 but this is likely rare. When in doubt, rewrite in active voice.
 
+---
+
 ## Create a new category
 
 If the term doesn't fit existing categories and warrants a new one:
@@ -194,3 +208,5 @@ If the term doesn't fit existing categories and warrants a new one:
 [Add a new glossary term](#add-a-new-glossary-term)
 4. Add the new file to `sidebars.ts` in the logical position within the array
 5. Test the navigation locally to ensure the new category appears correctly
+
+---
