@@ -19,16 +19,16 @@ for more information.
 REST APIs, security
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
 OpenAPI specification, overview topics
-- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
-audience analysis, domain knowledge
+- [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
+artificial intelligence in API documentation
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
 cURL, Postman
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
 project management, usability testing
+- [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
+audience analysis, domain knowledge
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
 content strategy, rhetorical approach
-- [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
-artificial intelligence in API documentation
 
 ## Getting started
 

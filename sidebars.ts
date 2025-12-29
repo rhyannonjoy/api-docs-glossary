@@ -13,11 +13,11 @@ const sidebars: SidebarsConfig = {
     'getting-started',
     'quick-reference',
     'core-concepts',
-    'frameworks-strategy',
+    'ai-and-apis',
     'tools-techniques',
     'workflows-methodologies',
+    'frameworks-strategy',
     'writing-style',
-    'ai-and-apis',
     'style-guide',
     'contribution-guide'
   ],
