@@ -4,6 +4,23 @@ Essential terms and concepts for API documentation. This section defines
 the key terminology encountered when documenting REST APIs, from basic
 architecture to documentation standards.
 
+**API documentation stages and user journeys**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Docs
+    
+    User->>Docs: First visit → Getting Started
+    Docs-->>User: overview, quickstart
+    User->>Docs: Learn more → task-based
+    Docs-->>User: tutorials, examples
+    User->>Docs: Need details → Reference
+    Docs-->>User: endpoints, parameters
+    User->>Docs: Need help → Support
+    Docs-->>User: FAQ, troubleshooting
+```
+
 ## API fundamentals
 
 ### API
@@ -125,6 +142,18 @@ Breaking down this URL:
 - **How:** Uses the `GET` method of the HTTP protocol
 - **Where:** From `localhost:3000` server
 - **What:** `users/2` instance of this resource
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant API Server
+    participant Database
+    
+    Client->>API Server: GET /users/123
+    API Server->>Database: Query user data
+    Database-->>API Server: User record
+    API Server-->>Client: 200 OK + JSON response
+```
 
 **Example response**:
 

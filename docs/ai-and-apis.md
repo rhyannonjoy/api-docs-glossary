@@ -4,6 +4,22 @@ Artificial intelligence technologies and concepts relevant to API
 documentation. This section covers AI tools, terminology, and practices
 that impact how API documentation is created, enhanced, and consumed.
 
+**AI-assisted documentation workflow**:
+
+```mermaid
+flowchart LR
+    A[plan] --> B[draft with AI]
+    B --> C[human review]
+    C --> D[refine & verify]
+    D --> E[publish]
+    E --> F[maintain]
+    F --> B
+    
+    style B fill:#8B4789,stroke:#00D4FF,color:#f5f1e8
+    style C fill:#2a2a2a,stroke:#00D4FF,color:#f5f1e8
+    style D fill:#2a2a2a,stroke:#00D4FF,color:#f5f1e8
+```
+
 ## AI-assisted documentation
 
 **Definition**: documentation created or enhanced using AI tools while

@@ -2,9 +2,29 @@
 
 Welcome to the API Docs Glossary. From REST fundamentals to documentation
 best practices, API Docs Glossary is a comprehensive reference for anyone
-working with API documentation. Whether you're a technical writer,
-developer, or student learning API documentation, this resource provides
-clear definitions and context for essential concepts.
+working with API documentation. Whether technical writer, developer, or
+student learning API documentation, this resource provides clear definitions
+and context for essential concepts.
+
+**Find a path through the glossary**:
+
+```mermaid
+flowchart LR
+    Start[API Docs Glossary] --> Question{What's your<br/>background?}
+    Question -->|New to APIs| Core[Core Concepts]
+    Question -->|Technical Writer| Writing[Writing Style<br/>& Workflows]
+    Question -->|Developer| Tools[Tools &<br/>Techniques]
+    Question -->|Student| Quick[Quick<br/>Reference]
+    
+    Core --> AI[AI & APIs]
+    Writing --> Workflows[Workflows &<br/>Methodologies]
+    Tools --> Frameworks[Frameworks<br/>& Strategy]
+    
+    style Start fill:#00D4FF,stroke:#2E5C8A,color:#fff
+    style Question fill:#50C878,stroke:#2E7D4E,color:#fff
+```
+
+---
 
 ## Why this glossary?
 
@@ -35,30 +55,30 @@ This resource serves as a practical reference built from a
 learner's journey, designed for learners and practitioners who want
 clear explanations grounded in current API documentation practices.
 
+---
+
 ## Scope & approach
 
 This glossary covers:
 
 - API architecture and design patterns
-- Documentation types and best practices  
+- Documentation types and best practices
+- AI applications in technical documentation  
 - Tools commonly used in API documentation workflows
 - Processes for creating and maintaining API docs
-- AI applications in technical documentation
 
 Each entry includes practical context and real-world applications,
 not just definitions.
 
-## How to use this resource
-
-- **Browse by category** using the sidebar navigation
-- **Search** for specific terms using the search bar
-- **Start with fundamentals** if you're new to API documentation
-- **Jump to advanced topics** if you need quick reference material
+---
 
 ## Get started
 
 | Scenario | Action |
 | ---------------- | --------- |
-| New to API documentation? | Explore [Core Concepts](core-concepts.md) |
+| New to API documentation? | Start with [Core Concepts](core-concepts.md) |
+| Need a concise definition? | Check [Quick Reference](quick-reference.md) |
 | Looking for something specific? | Use the search function or browse categories in the sidebar |
 | Found an error or have a suggestion? | Visit the [Contribution Guide](contribution-guide.md) |
+
+---

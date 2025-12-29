@@ -5,6 +5,23 @@ From version control to interactive documentation generators,
 this section covers the software, platforms, and practices used
 to create, test, validate, and publish API documentation.
 
+**Git branch workflow example:**
+
+```mermaid
+gitGraph
+    commit id: "initial commit"
+    branch feature-branch
+    checkout feature-branch
+    commit id: "add new endpoint docs"
+    commit id: "update examples"
+    checkout main
+    commit id: "fix typo"
+    checkout feature-branch
+    commit id: "address review feedback"
+    checkout main
+    merge feature-branch tag: "v1.2.0"
+```
+
 ## branch
 
 **Definition**: a parallel version of a repository, enabling users

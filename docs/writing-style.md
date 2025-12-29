@@ -6,6 +6,23 @@ This section covers grammar distinctions, content strategy principles,
 and stylistic choices that affect clarity, professionalism, and user
 engagement in technical writing.
 
+**Example audience communication workflow**:
+
+```mermaid
+flowchart TD
+    Rhetorical[rhetorical approach] --> Audience[consider audience]
+    Rhetorical --> Purpose[consider purpose]
+    Rhetorical --> Context[consider context]
+    
+    Audience --> Tone[choose tone]
+    Purpose --> Tone
+    Context --> Tone
+    
+    Tone --> Voice[express consistent voice]
+```
+
+---
+
 ## active voice
 
 **Definition**: sentence structure where the subject performs the
