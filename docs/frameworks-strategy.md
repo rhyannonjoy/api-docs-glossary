@@ -130,7 +130,7 @@ first payment" tutorial
 ## market
 
 **Definition**: the space in which customers access a company or products
-and compete with similar offerings
+that compete with similar offerings
 
 **Purpose**: influences content priorities and documentation strategy based
 on competitive positioning, as an open source API competing in a crowded

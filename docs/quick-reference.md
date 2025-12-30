@@ -1,323 +1,677 @@
 # Quick reference
 
-## _#_
-
-### 12 cognitive dimensions of API usability
-
-Framework for evaluating and enhancing the
-usability of APIs
+This quick reference provides concise definitions and filing locations
+for common terms across technical writing, development, and project
+management. Look up terminology and find where terms
+belong in the full documentation structure.
 
 ## A
 
+================================================================================
+
 ### affect vs effect 
 
-Affect (_verb_): to influence\
-Effect (_noun_): the result
+- affect - _verb_: to influence
+- effect - _noun_: the result
+
+**Glossary Term Entry Location**: [Writing Style - affect vs effect](writing-style.md#affect-vs-effect)
+
+---
 
 ### Agile
 
-Project management method\
-Breaks projects down into smaller phases, relies on iterative cycles
+- project management method
+- breaks projects down into smaller phases, relies on iterative cycles
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - Agile](workflows-methodologies.md#agile)
+
+---
 
 ### API
 
-Application programming interface
+- application programming interface
+- enables resource sharing
+
+**Glossary Term Entry Location**: [Core Concepts - API](core-concepts.md#api)
+
+---
 
 ### API overview topic
 
-Landing page in which the audience is everyone
+- landing page in which the audience is everyone
+
+**Glossary Term Entry Location**: [Core Concepts - API overview topic](core-concepts.md#api-overview-topic)
+
+---
 
 ### API reference topic
 
-"Getting finished topics" that describe aspects of an API
+- "getting finished topics" that describe aspects of an API
 operation or object
+
+**Glossary Term Entry Location**: [Core Concepts - API reference topic](core-concepts.md#api-reference-topic)
+
+---
 
 ### API security
 
-Measures taken to protect APIs from unauthorized access, misuse, attacks
+- measures taken to protect APIs from unauthorized access, misuse, attacks
+
+**Glossary Term Entry Location**: [Core Concepts - API security](core-concepts.md#api-security)
+
+---
 
 ### artificial intelligence (AI)
 
-Both a research field and set of technologies that use computers and large
-datasets to perform tasks, make predictions or recommendations and solve
-problems that normally require human intelligence
+- a research field
+- set of technologies that use computers and large datasets to perform tasks
+- make predictions or recommendations and solve problems that normally
+require human intelligence
+
+**Glossary Term Entry Location**: [AI & APIs - artificial intelligence](ai-and-apis.md#artificial-intelligence-ai)
+
+---
 
 ### authentication
 
-Determines who you are
+- API security measure that determines who users are
+
+**Glossary Term Entry Location**: [Core Concepts - authentication](core-concepts.md#authentication)
+
+---
 
 ### authorization
 
-Determines what you can do
+- An API secutiry measure that determines what users can do
+
+**Glossary Term Entry Location**: [Core Concepts - authorization](core-concepts.md#authorization)
+
+---
 
 ## B
 
+================================================================================
+
 ### branch
 
-Parallel version of a repository
+- version control concept
+- Git feature
+- parallel version of a code repository and/or separate line of development
+in a repository
+
+**Glossary Term Entry Location**: [Tools & Techniques - branch](tools-techniques.md#branch)
+
+---
 
 ## C
 
+================================================================================
+
 ### cherry-pick
 
-Copying selected commits from one branch to another branch
+- version control concept
+- Git feature
+- copying selected commits from one branch to another branch
+
+**Glossary Term Entry Location**: [Tools & Techniques - cherry-pick](tools-techniques.md#cherry-pick)
+
+---
 
 ### clone
 
-Copy of a repository that lives on your in your development environment,
+- version control concept
+- Git feature
+- copy of a code repository that lives in the development environment,
 instead of hosted on GitHub
+
+**Glossary Term Entry Location**: [Tools & Techniques - clone](tools-techniques.md#clone)
+
+---
+
+### cognitive dimensions of API usability
+
+- framework for evaluating and enhancing the usability of APIs
+- includes 12 dimensions
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - cognitive dimensions of API usability](frameworks-strategy.md#cognitive-dimensions-of-api-usability)
+
+---
 
 ### commit
 
-Repository snapshot at a certain point-in-time, has a hash
+- version control concept
+- Git feature
+- code repository snapshot at a certain point-in-time
+- includes commit hash
+
+**Glossary Term Entry Location**: [Tools & Techniques - commit](tools-techniques.md#commit)
+
+---
 
 ### commit hash
 
-Unique identifier generated using the SHA-1 hash function
+- version control concept
+- Git feature
+- alphanumeric unique identifier auto-generated for each commit by
+using the SHA-1 hash function
+
+**Glossary Term Entry Location**: [Tools & Techniques - commit hash](tools-techniques.md#commit-hash)
+
+---
 
 ### content
 
-Anything you write for someone else to read
+- anything written for someone else to read
+
+**Glossary Term Entry Location**: [Writing Style - content](writing-style.md#content)
+
+---
 
 ### Critical Chain Project Management (CCPM)
 
-Project management method\
-Focuses on resources needed to complete the project’s tasks by adding
+- project management method
+- focuses on resources needed to complete the project’s tasks by adding
 resource availability to the critical path
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management](workflows-methodologies.md#critical-chain-project-management-ccpm)
+
+---
 
 ### Critical Path Method (CPM)
 
-Project management method\
-Some tasks you can’t start until you finish the previous one
+- project management method
+- identifying a "critical path" of task sequences
+- some tasks can't start until previous ones finish
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method](workflows-methodologies.md#critical-path-method-cpm)
+
+---
 
 ### cURL
 
-Client URL, command-Line tool available on Windows, MacOS, Linux
+- acronym for "client URL"
+- command-Line tool available on Windows, MacOS, Linux
+- sends and receives HTTP and/or HTTPs requests
+
+**Glossary Term Entry Location**: [Tools & Techniques - cURL](tools-techniques.md#curl)
+
+---
 
 ## D
 
+================================================================================
+
 ### Document Development Life Cycle (DDLC)
 
-Process of writing and delivering particular content in the form
-of documentation - PDF, Word doc, online articles, website content
+- process of writing and delivering particular content in the form
+of documentation
+- example formats: PDF, Word doc, online articles, website content
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle](workflows-methodologies.md#document-development-life-cycle-ddlc)
+
+---
 
 ### domain knowledge
 
-Understanding of a specific industry, discipline, or activity
+- understanding of a specific industry, discipline, or activity
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - domain knowledge](frameworks-strategy.md#domain-knowledge)
+
+---
 
 ## E
 
+================================================================================
+
 ### end-user software engineer
 
-Way to describe and categorize different developer work styles,
+- way to describe and categorize different developer work styles,
 characteristics, and motivations that are common to particular
 groups of people or personas using products
+- typically includes three personas
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - end-user software engineer](frameworks-strategy.md#end-user-software-engineer)
+
+---
 
 ## F
 
+================================================================================
+
 ### force push
 
-Moving changes upstream that rewrite commits that are already present upstream
+- version control concept
+- Git feature
+- moving changes upstream that rewrite commits that are already present upstream
+
+**Glossary Term Entry Location**: [Tools & Techniques - force push](tools-techniques.md#force-push)
+
+---
 
 ### fork
 
-Personal copy of another user’s repository that lives
-in your GitHub account, a forked repository
+- version control concept
+- Git feature
+- a forked code repository
+- personal copy of another user’s repository that lives
+in one's GitHub account
+
+**Glossary Term Entry Location**: [Tools & Techniques - fork](tools-techniques.md#fork)
+
+---
 
 ## G
 
-### generative AI
+================================================================================
 
-Draws upon the patterns identified through machine learning processes to generate
-new content
+### generative AI (genAI)
+
+- draws upon the patterns identified through machine learning processes
+to generate new content
+
+**Glossary Term Entry Location**: [AI & APIs - generative AI](ai-and-apis.md#generative-ai-genai)
+
+---
 
 ### Git
 
-Command-line program that executes version control functions
+- command-line program that executes version control functions
+
+**Glossary Term Entry Location**: [Tools & Techniques - Git](tools-techniques.md#git)
+
+---
 
 ### Git Bash
 
-Command-line interface for Windows that emulates Unix Bash command line
+- command-line interface for Windows that emulates the
+Unix Bash command line
+
+**Glossary Term Entry Location**: [Tools & Techniques - Git Bash](tools-techniques.md#git-bash)
+
+---
 
 ### GitHub
 
-Cloud-based storage, version control, automation service
+- cloud-based storage, version control, and automation service
+
+**Glossary Term Entry Location**: [Tools & Techniques - GitHub](tools-techniques.md#github)
+
+---
 
 ### GitHub Desktop
 
-User interface that manages GitHub repositories and local clones
+- user interface that manages GitHub repositories and local clones
+
+**Glossary Term Entry Location**: [Tools & Techniques - GitHub Desktop](tools-techniques.md#github-desktop)
+
+---
 
 ### graphical user interface (GUI)
 
-Form of user interface with graphical icons and visual indicators
+- form of user interface with graphical icons and visual indicators
+
+**Glossary Term Entry Location**: [Tools & Techniques - graphical user interface](tools-techniques.md#graphical-user-interface-gui)
+
+---
 
 ### guerilla usability testing (GUT)
 
-Way to assess how effective an interface is by testing out
+- way to assess how effective an interface is by testing out
 its visual design, capability, and general message on its
 intended audience and capturing their responses
+- typically low maintenance with predefined tasks
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing)
+
+---
 
 ## H
 
+================================================================================
+
 ### Hypertext Transfer Protocol (HTTP)
 
-Synchronous request/response protocol
+- synchronous request/response protocol
+- enables communication between clients and servers over the web
+
+**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol](core-concepts.md#hypertext-transfer-protocol-http)
+
+---
 
 ### Hypertext Transfer Protocol Secure (HTTPS)
 
-Secure version of HTTP
+- secure version of HTTP
+- protects data from interception and tampering during transmission
+
+**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol Secure](core-concepts.md#hypertext-transfer-protocol-secure-https)
+
+---
 
 ## L
 
+================================================================================
+
 ### large language model (LLM)
 
-Form of generative AI that's trained on enormous amounts of texts
-and can generate text-based responses that look and feel human-like
+- form of generative AI that's trained on enormous amounts of text
+- can generate text-based responses that look and feel human-like
+
+**Glossary Term Entry Location**: [AI & APIs - large language model](ai-and-apis.md#large-language-model-llm)
+
+---
 
 ## M
 
+================================================================================
+
 ### machine learning
 
-Practice of using algorithms and large datasets to train computers
+- practice of using algorithms and large datasets to train computers
 to recognize patterns and to apply what's known about those patterns
 to complete new tasks
 
+**Glossary Term Entry Location**: [AI & APIs - machine learning](ai-and-apis.md#machine-learning)
+
+---
+
 ### Markdown
 
-Markup language designed to format plain text documents
+- markup language designed to format plain text documents
+
+**Glossary Term Entry Location**: [Tools & Techniques - Markdown](tools-techniques.md#markdown)
+
+---
 
 ### market
 
-Space in which customers access a company or products
+- space in which customers access a company and/or products
+that compete with similar offerings
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - market](frameworks-strategy.md#market)
+
+---
 
 ### merge
 
-Moving the changes from one branch to another branch
+- version control concept
+- Git feature
+- moving the changes from one branch to another branch
+
+**Glossary Term Entry Location**: [Tools & Techniques - merge](tools-techniques.md#merge)
+
+---
 
 ### merge commit
 
-Integrates changes from a feature branch with updates that occurred
-in the original branch after branching
+- version control concept
+- Git feature
+- a commit that after branching, integrates changes from
+a feature branch with updates that occurred in the original branch
+
+**Glossary Term Entry Location**: [Tools & Techniques - merge commit](tools-techniques.md#merge-commit)
+
+---
 
 ### merge conflict
 
-Two commits have changes in the same file, blocking merging,
-requires manual resolution
+- version control concept
+- Git feature
+- scenario in which two commits have changes in the same
+file
+- blocks merging and requires manual resolution
+
+**Glossary Term Entry Location**: [Tools & Techniques - merge conflict](tools-techniques.md#merge-conflict)
+
+---
 
 ## N
 
+================================================================================
+
 ### natural language processing (NLP)
 
-Ability of computers to analyze and generate responses in ways
+- ability of computers to analyze and generate responses in ways
 that mimic humans’ use of language
+
+**Glossary Term Entry Location**: [AI & APIs - natural language processing](ai-and-apis.md#natural-language-processing-nlp)
+
+---
 
 ## O
 
+================================================================================
+
 ### OpenAPI Specification (OAS)
 
-Way to define the interface of an API, used to create
-the interface and documentation
+- a standard, language-agnostic way to define an API interface
+- used to create the interface and documentation
+- format: YAML
+
+**Glossary Term Entry Location**: [Core Concepts - OpenAPI specification](core-concepts.md#openapi-specification-oas)
+
+---
 
 ### origin repository
 
-Default upstream repository, typically clone source repository
+- version control concept
+- default upstream repository, typically clone source repository
+
+**Glossary Term Entry Location**: [Tools & Techniques - origin repository](tools-techniques.md#origin-repository)
+
+---
 
 ## P
 
+================================================================================
+
 ### Postman
 
-App that creates and records HTTP/HTTPS requests and responses
+- API development platform
+- commonly used for REST API development and testing workflows
+
+**Glossary Term Entry Location**: [Tools & Techniques - Postman](tools-techniques.md#postman)
+
+---
 
 ### project management methodology
 
-Different ways to approach a project
+- different ways to approach and organize a project
+- ranges from sequential to iterative frameworks
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - project management methodology](workflows-methodologies.md#project-management-methodology)
+
+---
 
 ### pull
 
-Fetching changes from upstream, such as pulling the changes
+- version control concept
+- Git feature
+- fetching changes from upstream, such as pulling the changes
 down from an origin or upstream repository
+
+**Glossary Term Entry Location**: [Tools & Techniques - pull](tools-techniques.md#pull)
+
+---
 
 ### pull request (PR)
 
-Request to someone that invites them to pull your changes from
+- version control concept
+- GitHub feature
+- request to another user that invites them to pull one's changes from
 a repository/branch into their repository
+
+**Glossary Term Entry Location**: [Tools & Techniques - pull request](tools-techniques.md#pull-request-pr)
+
+---
 
 ### push
 
-Moving changes upstream, such as from your local computer
+- version control concept
+- Git feature
+- moving changes upstream, such as from a local computer
 to its origin repository
+
+**Glossary Term Entry Location**: [Tools & Techniques - push](tools-techniques.md#push)
+
+---
 
 ## R
 
+================================================================================
+
 ### rebase
 
-Used to resync a feature branch to its source branch
+- version control concept
+- Git feature
+- used to resync a feature branch to its source branch
 after the source branch has changed
+
+**Glossary Term Entry Location**: [Tools & Techniques - rebase](tools-techniques.md#rebase)
+
+---
 
 ### repository
 
-Place to store files that are under Git’s version control
+- place to store files that are under Git’s version control
+
+**Glossary Term Entry Location**: [Tools & Techniques - repository](tools-techniques.md#repository-repo)
+
+---
 
 ### REST API
 
-*RE*presentational state transfer interface, one of the most
-widely used approaches for building web-based APIs
+- acronym for *RE*presentational state transfer, application programming interface
+- a convention, not a regulated standard
+- an architectural style for distributed hypermedia systems
+- one of the most widely used approaches for building web-based APIs
+
+**Glossary Term Entry Location**: [Core Concepts - REST API](core-concepts.md#rest-api)
+
+---
 
 ### rhetorical approach
 
-Also known as "the tone" or editorial voice
+- communication framework
+- also known as "the tone" or "editorial voice"
+
+**Glossary Term Entry Location**: [Writing Style - rhetorical approach](writing-style.md#rhetorical-approach)
+
+---
 
 ## S
 
+================================================================================
+
 ### sales collateral
 
-Used to inform and educate, either internal, empower sales reps,
-or external, convert new customers
+- communications strategy focused on business value
+- materials used internally to inform sales representatives
+or externally to educate and convert prospective customers
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - sales collateral](frameworks-strategy.md#sales-collateral)
+
+---
 
 ### Scrum
 
-Project management method\
-Work in short-cycles of 2 weeks call “sprints”
-and meet daily to discuss work
+- project management method
+- Agile framework
+- work in short-cycles of 2 weeks call “sprints”
+- meet daily to discuss work
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - Scrum](workflows-methodologies.md#scrum)
+
+---
 
 ### skunkworks
 
-Used in business, engineering, and technical fields to describe a group
+- used in business, engineering, and technical fields to describe a group
 within an organization given a high degree of autonomy and unhampered
-by bureaucracy, with the task of working on advanced or secret projects
+by bureaucracy
+- typically given the task of working on advanced or secret projects
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - skunkworks](frameworks-strategy.md#skunkworks)
+
+---
 
 ### squash
 
-Action of combining many commits into a single commit
+- version control concept
+- Git feature
+- action of combining many commits into a single commit
+
+**Glossary Term Entry Location**: [Tools & Techniques - squash](tools-techniques.md#squash)
+
+---
+
+### Swagger
+
+- open source suite for REST API development
+- based on OpenAPI specification
+
+**Glossary Term Entry Location**: [Tools & Techniques - Swagger](tools-techniques.md#swagger)
+
+---
 
 ## U
 
+================================================================================
+
 ### upstream repository
 
-Original repository, source of fork
+- version control concept
+- original repository, source of fork
+
+**Glossary Term Entry Location**: [Tools & Techniques - upstream repository](tools-techniques.md#upstream-repository)
+
+---
 
 ### usability testing
 
-Practice of testing how easy a design is to use with
+- practice of testing how easy a design is to use with
 a group of representative users
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - usability testing](workflows-methodologies.md#usability-testing)
+
+---
 
 ### user interface (UI)
 
-Space where interactions between humans and machines occur
+- space where interactions between humans and machines occur
+
+**Glossary Term Entry Location**: [Tools & Techniques - user interface](tools-techniques.md#user-interface-ui)
+
+---
 
 ## V
 
+================================================================================
+
 ### version control
 
-System that tracks changes in documents and other files
+- system that tracks changes in documents and other files
+
+**Glossary Term Entry Location**: [Tools & Techniques - version control](tools-techniques.md#version-control)
+
+---
 
 ## W
 
+================================================================================
+
 ### waterfall
 
-Project management method\
-Traditional, sequential, linear, simple, idealistic
+- project management method
+- traditional, sequential, linear, idealistic
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - waterfall](workflows-methodologies.md#waterfall)
+
+---
 
 ### workspace
 
-Directory on your computer that contains your cloned repoitories
+- local computer directory that stores cloned repositories
+
+**Glossary Term Entry Location**: [Tools & Techniques - workspace](tools-techniques.md#workspace)
+
+---

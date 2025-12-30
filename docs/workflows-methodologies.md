@@ -230,7 +230,7 @@ provides user perspective before product release
 **Definition**: traditional, sequential, linear project management
 methodology where each phase must complete before the next begins
 
-**Purpose**: provides simple, idealistic approach for projects with
+**Purpose**: provides idealistic approach for projects with
 well-defined requirements and minimal expected changes
 
 **Characteristics**:
