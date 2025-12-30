@@ -3,7 +3,7 @@
 Development and documentation workflows for API projects. This section
 covers methodologies, testing approaches, and lifecycle management
 practices that guide how API documentation teams plan, create,
-validate, and maintain their work.
+test, and maintain their work.
 
 ```mermaid
 graph LR
@@ -31,32 +31,36 @@ their work through flexibility rather than linear, rigid planning
 - Customer collaboration over rigid contracts
 - Adapting to change over following a strict plan
 
-**Related Terms**: Document Development Life Cycle, project management
-methodology, Scrum, Waterfall
+**Related Terms**:
+[Document Development Life Cycle (DDLC)](#document-development-life-cycle-ddlc),
+[project management methodology](#project-management-methodology),
+[Scrum](#scrum), [Waterfall](#waterfall)
 
 **Sources**:
 
 - [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [What Is Agile Methodology in Project Management?](https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/)
+- [Wrike: What Is Agile Methodology in Project Management?](https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/)
 
 ---
 
 ## Critical Chain Project Management (CCPM)
 
-**Definition**: approach that focuses on resources needed to complete
-tasks rather than solely on task dependencies; takes the critical
-path method one step further
+**Definition**: takes the critical path method one step further -
+focuses on resources needed to complete tasks rather than solely
+on task dependencies
 
 **Purpose**: ensures project schedules account for resource constraints,
 not just task dependencies
 
-**Related Terms**: Agile, Critical Path Method, project management methodology
+**Related Terms**: [Agile](#agile),
+[Critical Path Method](#critical-path-method-cpm),
+[project management methodology](#project-management-methodology)
 
 **Sources**:
 
-- [Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -73,14 +77,15 @@ bottlenecks in project timelines
 freeze → QA testing → documentation review → deployment, where delays in
 any step delay the entire release
 
-**Related Terms**: Agile, Critical Chain Project Management,
-project management methodology
+**Related Terms**: [Agile](#agile),
+[Critical Chain Project Management](#critical-chain-project-management-ccpm),
+[project management methodology](#project-management-methodology)
 
 **Sources**:
 
-- [A Gantt Chart Guide](https://www.projectmanager.com/guides/gantt-chart)
-- [Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
+- [ProjectManager: A Gantt Chart Guide with Definitions & Examples](https://www.projectmanager.com/guides/gantt-chart)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -104,7 +109,9 @@ with well-defined phases that ensure content meets user needs
 7. Approval
 8. Maintenance
 
-**Related Terms**: Agile, project management methodology, usability testing
+**Related Terms**: [Agile](#agile),
+[project management methodology](#project-management-methodology),
+[usability testing](#usability-testing)
 
 **Sources**:
 
@@ -136,7 +143,9 @@ from target users without formal recruitment processes
 - Summary report with key findings and next steps
 - Presentation covering findings and recommendations
 
-**Related Terms**: AI-assisted usability analysis, usability testing
+**Related Terms**:
+[AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[usability testing](#usability-testing)
 
 **Sources**:
 
@@ -163,13 +172,16 @@ projects based on team needs and project characteristics
 | Agile | Iterative, flexible | Adaptation | Changing requirements, feedback loops |
 | Scrum | Sprint-based | Team collaboration | Fast-paced development, quick iterations |
 
-**Related Terms**: Agile, Critical Chain Project Management,
-Critical Path Method, Document Development Life Cycle, Scrum, Waterfall
+**Related Terms**: [Agile](#agile),
+[Critical Chain Project Management](#critical-chain-project-management-ccpm),
+[Critical Path Method](#critical-path-method-cpm),
+[Document Development Life Cycle](#document-development-life-cycle-ddlc),
+[Scrum](#scrum), [Waterfall](#waterfall)
 
 **Sources**:
 
-- [Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -188,12 +200,13 @@ obstacles to efficient work
 - Daily team meetings to discuss progress
 - Iterative approach to development
 
-**Related Terms**: Agile, project management methodology
+**Related Terms**: [Agile](#agile),
+[project management methodology](#project-management-methodology)
 
 **Sources**:
 
-- [Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -219,7 +232,9 @@ provides user perspective before product release
 - Not statistically significant but still useful
 - Participant recruitment is challenging
 
-**Related Terms**: AI-assisted usability analysis, Guerrilla Usability Testing
+**Related Terms**:
+[AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[Guerrilla Usability Testing](#guerrilla-usability-testing)
 
 **Source**: UW API Docs - Module 4, Lesson 3, "Review usability testing for API"
 
@@ -240,12 +255,14 @@ well-defined requirements and minimal expected changes
 - Each phase gates the next
 - Limited flexibility for changes
 
-**Related Terms**: Agile, project management methodology, Scrum
+**Related Terms**: [Agile](#agile),
+[project management methodology](#project-management-methodology),
+[Scrum](#scrum)
 
 **Sources**:
 
-- [Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
 - [Waterfall Model - Software Engineering](https://www.geeksforgeeks.org/software-engineering/waterfall-model/)
+- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
