@@ -181,19 +181,19 @@ but this is likely rare. When in doubt, rewrite in active voice.
 
 ## Add a term to Quick Reference
 
-_**Note**: every quick reference entry must have a corresponding full entry in a
-category file; don't create quick reference entries for terms that lack detailed
+_**Note**: every Quick Reference entry must have a corresponding full entry in a
+category file; don't create Quick Reference entries for terms that lack detailed
 definitions elsewhere in the glossary_
 
-The quick reference page provides concise definitions and filing
-locations for commonly used terms. Add terms to quick reference when
+The Quick Reference page provides concise definitions and filing
+locations for commonly used terms. Add terms to Quick Reference when
 they meet these criteria:
 
 - Frequently referenced across many contexts
-- Benefits from a brief, scannable definition
+- Benefit from a brief, scannable definition
 - Already have a full entry in one of the main category files
 
-To add a term to quick reference:
+To add a term to Quick Reference:
 
 1. **Add the term alphabetically** under the appropriate letter
 heading in `quick-reference.md`
