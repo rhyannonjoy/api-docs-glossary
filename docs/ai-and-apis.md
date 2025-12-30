@@ -2,7 +2,7 @@
 
 Artificial intelligence technologies and concepts relevant to API
 documentation. This section covers AI tools, terminology, and practices
-that impact how API documentation is created, enhanced, and consumed.
+that impact how technical writers create and enhance API documentation.
 
 **AI-assisted documentation workflow**:
 
@@ -34,8 +34,9 @@ accuracy verification, and user experience
 descriptions, then manually reviewing and enhancing with technical
 details and examples
 
-**Related Terms**: Artificial Intelligence (AI), Generative AI (genAI),
-Large Language Model (LLM)
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Generative AI (genAI)](#generative-ai-genai),
+[Large Language Model (LLM)](#large-language-model-llm)
 
 **Source**: UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
 
@@ -71,10 +72,13 @@ usability research
 - Interpretation quality depends on the specific AI tools and
 prompts used
 
-**Note**: this represents current perspectives on AI application
-to usability testing and may evolve as AI capabilities develop
+_**Note**: this represents current perspectives on AI implementation
+into usability testing strategies and may evolve as AI capabilities
+develop_
 
-**Related Terms**: Guerrilla Usability Testing, usability testing
+**Related Terms**:
+[Guerrilla Usability Testing](workflows-methodologies.md#guerrilla-usability-testing),
+[usability testing](workflows-methodologies.md#usability-testing)
 
 **Source**: UW API Docs - Module 4, Lesson 3, "Review usability testing for API"
 
@@ -89,7 +93,8 @@ reflect prejudices present in training data or model design
 assess AI-generated content rather than accepting it as authoritative,
 particularly for examples involving people, places, or cultural contexts
 
-**Related Terms**: Artificial Intelligence (AI), Training Data
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[training data](#training-data)
 
 **Sources**:
 
@@ -107,8 +112,10 @@ intelligence
 **Purpose**: encompasses tools and techniques increasingly used in API
 documentation workflows, from content generation to automated testing
 
-**Related Terms**: Generative AI (genAI), Large Language Model (LLM),
-Machine Learning, Natural Language Processing (NLP)
+**Related Terms**: [Generative AI (genAI)](#generative-ai-genai),
+[Large Language Model (LLM)](#large-language-model-llm),
+[Machine Learning](#machine-learning),
+[Natural Language Processing (NLP)](#natural-language-processing-nlp)
 
 **Sources**:
 
@@ -130,8 +137,9 @@ and quality
 **Example**: using Claude or ChatGPT to draft initial API endpoint
 descriptions that writers then refine and verify
 
-**Related Terms**: Artificial Intelligence (AI), Large Language Model (LLM),
-Machine Learning
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Large Language Model (LLM)](#large-language-model-llm),
+[Machine Learning](#machine-learning)
 
 **Sources**:
 
@@ -153,8 +161,9 @@ or translating text
 **Example**: LLMs can draft initial OpenAPI specification descriptions
 or generate code examples in many programming languages
 
-**Related Terms**: Artificial Intelligence (AI), Generative AI (genAI),
-Natural Language Processing (NLP)
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Generative AI (genAI)](#generative-ai-genai),
+[Natural Language Processing (NLP)](#natural-language-processing-nlp)
 
 **Sources**:
 
@@ -173,8 +182,9 @@ to complete new tasks
 pattern recognition in existing documentation, automated categorization,
 and predictive suggestions
 
-**Related Terms**: Artificial Intelligence (AI), Generative AI (genAI),
-Natural Language Processing (NLP)
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Generative AI (genAI)](#generative-ai-genai),
+[Natural Language Processing (NLP)](#natural-language-processing-nlp)
 
 **Sources**:
 
@@ -194,9 +204,9 @@ autocomplete, spell-check, and automated translation of API documentation
 **Example**: NLP enables smart search in API documentation that understands
 queries like "how to authenticate" and returns relevant authentication endpoints
 
-**Related Terms**: Artificial Intelligence (AI), Large Language Model (LLM),
-Machine Learning
-
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Large Language Model (LLM)](#large-language-model-llm),
+[Machine Learning](#machine-learning)
 **Sources**:
 
 - [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
@@ -217,7 +227,8 @@ and expected output formats
 `GET` endpoint that retrieves user profiles, including response codes
 and example JSON" rather than "describe this endpoint"
 
-**Related Terms**: Artificial Intelligence (AI), Large Language Model (LLM)
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Large Language Model (LLM)](#large-language-model-llm)
 
 **Sources**:
 
@@ -235,8 +246,9 @@ recognize patterns and generate responses
 recognize when AI outputs may contain biases, outdated information, or
 inaccuracies requiring verification
 
-**Related Terms**: Artificial Intelligence (AI), Large Language Model (LLM),
-Machine Learning
+**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
+[Large Language Model (LLM)](#large-language-model-llm),
+[Machine Learning](#machine-learning)
 
 **Sources**:
 
