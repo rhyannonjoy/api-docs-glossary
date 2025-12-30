@@ -85,19 +85,65 @@ verify identity
 
 ---
 
-<!-- determine if this term is needed
-### HTTP/HTTPS
--->
+### Hypertext Transfer Protocol (HTTP)
+
+**Definition**: synchronous request/response protocol that enables
+communication between clients and servers over the web; defines
+message format and transmission type, and how web servers and
+browsers should respond to a variety of commands
+
+**Purpose**: HTTP forms the foundation of API communication;
+understanding HTTP is essential for documenting API endpoints,
+request methods- `GET`, `POST`, `PUT`, `DELETE` - status codes,
+headers, and error handling; most RESTful APIs rely on HTTP
+as their underlying protocol
+
+**Example**: when a user submits a form on a website, the browser
+sends an HTTP POST request to the server with the form data; the
+server processes the request and returns an HTTP response with a
+status code, such as `200` for success or `400` for a bad request,
+and any relevant data
+
+**Related Terms**: HTTPS, REST API, API endpoint, status codes,
+request methods
+
+**Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+
+---
+
+### Hypertext Transfer Protocol Secure (HTTPS)
+
+**Definition**: a secure version of HTTP that encrypts communication
+between clients and servers using Transport Layer Security (TLS) or
+its predecessor, Secure Sockets Layer (SSL); HTTPS protects data from
+interception and tampering during transmission
+
+**Purpose**: HTTPS is critical for API security documentation; all
+modern APIs should use HTTPS to protect sensitive data like authentication
+tokens, user credentials, and personal information; API documentation must
+specify HTTPS endpoints and explain security requirements
+
+**Example**: When users log into a banking app, their credentials travel
+over HTTPS; the encrypted connection ensures that even if someone intercepts
+the network traffic, they can't read the username, password, or account
+information
+
+**Related Terms**: HTTP, TLS/SSL, API security, authentication, encryption
+
+**Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+
+---
 
 ### REST API
 
-**Definition**: REpresentational State Transfer interface -
-one of the most widely used approaches for building web-based APIs
+**Definition**: acronym for *RE*presentational State Transfer
+application programming interface - one of the most widely used
+approaches for building web-based APIs
 
 **What it is**: an architectural style for distributed hypermedia systems,
-first presented by Roy Fielding in 2000. REST is a convention,
+first presented by Roy Fielding in 2000; REST is a convention,
 not a regulated standard, used by APIs exposed through HTTP/HTTPS web
-services to exchange data.
+services to exchange data
 
 **Key characteristics:**
 

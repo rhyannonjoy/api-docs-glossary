@@ -24,8 +24,9 @@ gitGraph
 
 ## branch
 
-**Definition**: a parallel version of a repository, enabling users
-to work on changes without affecting the main codebase
+**Definition**: version control concept and Git feature; a parallel
+version of a repository, enabling users to work on changes without
+affecting the main codebase
 
 **Purpose**: enables many developers to work on different features
 simultaneously - in API documentation workflows, branches allow
@@ -41,8 +42,8 @@ merge, rebase
 
 ## cherry-pick
 
-**Definition**: copy selected commits from one branch to another
-without merging the entire branch
+**Definition**: version control concept and Git feature; copy selected
+commits from one branch to another without merging the entire branch
 
 **Purpose**: allows users to port specific documentation fixes
 or updates between branches without bringing along
@@ -56,8 +57,8 @@ unrelated changes
 
 ## clone
 
-**Definition**: a copy of a repository that lives on a user's local
-computer rather than on GitHub
+**Definition**: version control concept and Git feature; a copy of a
+repository that lives on a user's local computer rather than on GitHub
 
 **Purpose**: enables users to work on API documentation locally,
 using their preferred text editor and build tools, before pushing
@@ -71,8 +72,8 @@ changes back to the remote repository
 
 ## commit
 
-**Definition**: a repository snapshot at a specific point-in-time,
-identified by hash
+**Definition**: version control concept and Git feature; a repository
+snapshot at a specific point-in-time, identified by hash
 
 **Purpose**: creates a trackable history of documentation changes;
 each commit represents a logical unit of work such as "add
@@ -86,8 +87,8 @@ authentication endpoints" or "fix typo in rate limiting docs"
 
 ## commit hash
 
-**Definition**: a unique alphanumeric automatically generated for
-each commit in a Git repository
+**Definition**: version control concept and Git feature; a unique
+alphanumeric automatically generated for each commit in a Git repository
 
 **Purpose**: enables precise referencing of specific documentation
 versions; use commit hashes to troubleshoot issues,
@@ -139,9 +140,9 @@ retrieves user data from an API endpoint
 
 ## dev branch
 
-**Definition**: short for "development" branch -
-a version of the repository actively undergoing development,
-separate from the published `main` branch
+**Definition**: version control concept; short for
+"development" branch - a version of the repository actively
+undergoing development, separate from the published `main` branch
 
 **Purpose**: provides a testing ground for documentation
 changes before publishing; users can stage many updates,
@@ -157,8 +158,8 @@ merge
 
 ## feature branch
 
-**Definition**: a development branch dedicated to work on a
-specific feature or documentation update
+**Definition**: version control concept; a development
+branch dedicated to work on a specific feature or documentation update
 
 **Purpose**: isolates changes for a particular API endpoint,
 guide, or documentation section and allows parallel work on
@@ -176,8 +177,8 @@ only the documentation for a new webhook feature
 
 ## fork
 
-**Definition**: a personal copy of another user's repository
-that lives in a GitHub account
+**Definition**: version control concept and Git feature; a personal copy
+of another user's repository that lives in a GitHub account
 
 **Purpose**: enables contributions to open source API
 documentation without requiring direct write access to the
@@ -193,8 +194,9 @@ upstream repository
 
 ## force push
 
-**Definition**: move changes to a remote repository that
-rewrites commits already present in that repository
+**Definition**: version control concept and Git feature; move changes
+to a remote repository that rewrites commits already present in
+that repository
 
 **Purpose**: allows cleanup of commit history in feature
 branches, particularly after rebasing or squashing commits -
@@ -303,6 +305,29 @@ non-technical writers
 
 ---
 
+## graphical user interface (GUI)
+
+**Definition**: a form of user interface that allows users
+to interact with software through graphical icons, visual
+indicators, and pointing devices rather than text-based commands
+
+**Purpose**: GUI design principles inform API documentation
+when explaining visual elements, interface components, and user
+interactions; documentation often needs to describe both GUI
+applications that consume APIs and developer tools with graphical
+interfaces for API testing and exploration
+
+**Example**: a REST API documentation portal with clickable endpoints,
+visual request builders, and interactive response viewers provides
+a GUI for developers to explore the API without writing code first
+
+**Related Terms**: command-line interface (CLI), user interface (UI),
+Postman
+
+**Source**: UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+
+---
+
 ## json-server
 
 **Definition**: a [Node.js](https://nodejs.org/en)
@@ -331,8 +356,9 @@ creates REST endpoints: `/users` returns all users,
 
 ## main branch
 
-**Definition**: the default branch of a repository containing
-the published, released, or trusted version of content
+**Definition**: version control concept; the default branch of
+a repository containing the published, released, or trusted
+version of content
 
 **Purpose**: represents the single source of truth for live
 API documentation; all feature branches merge into `main`,
@@ -365,8 +391,8 @@ links, lists, and tables
 
 ## merge
 
-**Definition**: move changes from one branch into another
-branch, combining their histories
+**Definition**: version control concept and Git feature; move changes from
+one branch into another branch, combining their histories
 
 **Purpose**: integrates completed documentation updates
 from feature branches into the `main` branch for
@@ -382,9 +408,9 @@ rebase
 
 ## merge commit
 
-**Definition**: integrates changes from a feature branch
-with updates that occurred in the original branch after
-branching
+**Definition**: version control concept and Git feature; a commit in which,
+after branching, integrates changes from a feature branch with updates
+that occurred in the original branch
 
 **Purpose**: bundles all commits from a feature branch
 together with updates to `main` into a single commit,
@@ -405,8 +431,9 @@ with lots of branches splitting and rejoining
 
 ## merge conflict
 
-**Definition**: situation where two commits contain changes
-to the same file that Git can't automatically resolve
+**Definition**: version control concept and Git feature; situation where
+two commits contain changes to the same file that Git can't automatically
+resolve
 
 **Purpose**: requires manual intervention to decide which changes
 to keep; common in collaborative documentation environments
@@ -424,10 +451,10 @@ are too complex and require resolution from the text editor
 
 ---
 
-## origin repo
+## origin repository
 
-**Definition**: the default upstream repository, typically
-the clone source repository
+**Definition**: version control concept; the default
+upstream repository, typically the clone source repository
 
 **Purpose**: serves as the primary remote destination when
 pushing local documentation changes; Git automatically
@@ -439,10 +466,31 @@ configures origin when cloning a repository
 
 ---
 
+## Postman
+
+**Definition**: API development platform for designing, testing,
+documenting, and monitoring APIs through a graphical interface
+
+**Purpose**: commonly used for REST API development and testing
+workflows; enables API testing and exploration without
+command-line tools; provides a graphical user interface (GUI)
+alternative to cURL for making HTTP requests, supports
+automated test suites, collection sharing, and API
+documentation generation
+
+**Related Terms**: cURL, json-server, REST API, Swagger
+
+**Sources**:
+
+- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+- [What is Postman?](https://www.postman.com/product/)
+
+---
+
 ## pull
 
-**Definition**: fetch changes from a remote repository and
-integrating them into the local branch
+**Definition**: version control concept and Git feature; fetch changes
+from a remote repository and integrating them into the local branch
 
 **Purpose**: keep local documentation copies synchronized
 with remote changes made by other team members; running
@@ -456,9 +504,9 @@ with remote changes made by other team members; running
 
 ## pull request (PR)
 
-**Definition**: invites repository maintainers to review
-and merge changes from one branch or fork into their
-repository
+**Definition**: version control concept and GitHub feature; invites
+repository maintainers to review and merge changes from one branch or
+fork into their repository
 
 **Purpose**: enables peer review of documentation changes
 before publication; team members can comment on specific
@@ -473,7 +521,8 @@ before merging
 
 ## push
 
-**Definition**: move local commits to a remote repository
+**Definition**: version control concept and Git feature; move local
+commits to a remote repository
 
 **Purpose**: shares documentation changes with the team
 by uploading commits from a local machine to GitHub;
@@ -486,32 +535,11 @@ repository
 
 ---
 
-## Postman
-
-**Definition**: API development platform for designing, testing,
-documenting, and monitoring APIs through a graphical interface
-
-**Purpose**: Commonly used for REST API development and testing
-workflows. Enables API testing and exploration without
-command-line tools. Provides a graphical user interface (GUI)
-alternative to cURL for making HTTP requests, supports
-automated test suites, collection sharing, and API
-documentation generation.
-
-**Related Terms**: cURL, json-server, REST API, Swagger
-
-**Sources**:
-
-- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
-- [What is Postman?](https://www.postman.com/product/)
-
----
-
 ## rebase
 
-**Definition**: updates the base commit from the source branch,
-relocating commits to appear after current commits in
-the target branch
+**Definition**: version control concept and Git feature; updates
+the base commit from the source branch, relocating commits to
+appear after current commits in the target branch
 
 **Purpose**: maintains a clean, linear commit history in the
 `main` branch; resyncs feature branches with `main` after the
@@ -549,7 +577,8 @@ hub for collaborative documentation work
 
 ## squash
 
-**Definition**: combining many commits into a single commit
+**Definition**: version control concept and Git feature; combining
+many commits into a single commit
 
 **Purpose**: allows writers to save small, incremental commits
 during work while condensing them into one logical unit before
@@ -591,7 +620,7 @@ Generates client libraries and server stubs from OAS files
 
 ## upstream repository
 
-**Definition**: the original, source repository of a fork
+**Definition**: version control concept; the original, source repository of a fork
 
 **Purpose**: serves as the authoritative source for open source
 documentation projects; contributors sync their forks with
@@ -601,6 +630,30 @@ creating pull requests
 **Related Terms**: clone, fork, origin repo, pull
 
 **Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+
+---
+
+## user interface (UI)
+
+**Definition**: space where interactions between humans and machines occur;
+includes all visual elements, controls, and interaction patterns that allow
+users to communicate with software or hardware systems
+
+**Purpose**: API documentation often needs to describe UI elements, explain
+how API responses appear in user interfaces, or clarify the relationship
+between backend capability and frontend display; understanding UI terminology
+helps technical writers bridge the gap between developer-focused API
+specifications and user-facing product behavior
+
+**Example**: a REST API returns JSON data that populates a dashboard's user
+interface, where buttons, forms, and data visualizations allow users to
+interact with the underlying system; documentation might specify which UI
+elements trigger specific API calls or how API responses render in the interface
+
+**Related Terms**: UX (user experience), frontend, GUI (graphical user interface),
+API endpoint
+
+**Source**: UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
 ---
 
@@ -625,8 +678,8 @@ the repository to their own GitHub account
 
 ## workspace
 
-**Definition**: the directory on a local computer that
-contains cloned repositories
+**Definition**: version control concept; the directory on a local
+computer that contains cloned repositories
 
 **Purpose**: provides the local environment where writers
 edit documentation files, test builds, and prepare commits
