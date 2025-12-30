@@ -658,12 +658,12 @@ a group of representative users
 
 ==========================================================================================
 
-### waterfall
+### Waterfall
 
 - project management method
 - traditional, sequential, linear, idealistic
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - waterfall](workflows-methodologies.md#waterfall)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Waterfall](workflows-methodologies.md#waterfall)
 
 ---
 

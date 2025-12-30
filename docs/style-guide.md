@@ -61,8 +61,6 @@ or at the end of the appropriate subsection
 
 4. Test locally with `npm start` to ensure formatting looks correct
 
-5. Submit the pull request
-
 ---
 
 ## Capitalization
@@ -181,6 +179,62 @@ but this is likely rare. When in doubt, rewrite in active voice.
 
 ---
 
+## Add a term to quick reference
+
+_**Note**: every quick reference entry must have a corresponding full entry in a
+category file; don't create quick reference entries for terms that lack detailed
+definitions elsewhere in the glossary_
+
+The quick reference page provides concise definitions and filing
+locations for commonly used terms. Add terms to quick reference when
+they meet these criteria:
+
+- Frequently referenced across many contexts
+- Benefits from a brief, scannable definition
+- Already have a full entry in one of the main category files
+
+To add a term to quick reference:
+
+1. **Add the term alphabetically** under the appropriate letter
+heading in `quick-reference.md`
+
+2. **Use this format**:
+
+   ```markdown
+      ### term name
+
+      - category or ecosystem context
+      - brief definition or key characteristic
+
+      **Glossary Term Entry Location**: [Category Name - term name](category-file.md#term-name)
+
+      ---
+   ```
+
+3. **Link to the full entry** using the syntax: `[Link Text](page-name.md#header-id)`
+
+   - `page-name.md` is the category filename
+   - `header-id` is the exact heading, including capitalization
+   - Match the `header-id` to the heading exactly as it appears in the target file
+
+4. **Example**:
+
+   ```markdown
+      ### Waterfall
+
+      - project management method
+      - traditional, sequential, linear, idealistic
+
+      **Glossary Term Entry Location**: [Workflows & Methodologies - Waterfall](workflows-methodologies.md#waterfall)
+
+      ---
+   ```
+
+5. **Test the link** locally with `npm start` to ensure it navigates
+correctly to the full entry
+
+---
+
 ## Create a new category
 
 If the term doesn't fit existing categories and warrants a new one:
@@ -209,6 +263,7 @@ If the term doesn't fit existing categories and warrants a new one:
 3. Add the term and/or terms using the format described in
 [Add a new glossary term](#add-a-new-glossary-term)
 4. Add the new file to `sidebars.ts` in the logical position within the array
-5. Test the navigation locally to ensure the new category appears correctly
+5. Test the navigation locally with `npm start` to ensure the new category
+appears correctly
 
 ---
