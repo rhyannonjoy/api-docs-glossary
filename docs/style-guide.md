@@ -179,7 +179,7 @@ but this is likely rare. When in doubt, rewrite in active voice.
 
 ---
 
-## Add a term to quick reference
+## Add a term to Quick Reference
 
 _**Note**: every quick reference entry must have a corresponding full entry in a
 category file; don't create quick reference entries for terms that lack detailed
