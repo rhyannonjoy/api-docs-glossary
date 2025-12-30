@@ -36,7 +36,8 @@ who does what in API documentation
 - ✅ Active - "The API returns a JSON response"
 - ❌ Passive - "A JSON response is returned by the API"
 
-**Related Terms**: rhetorical approach, tone, voice
+**Related Terms**: [rhetorical approach](#rhetorical-approach),
+[tone](#tone), [voice](#voice)
 
 **Source**: [Style Guide](style-guide.md)
 
@@ -56,7 +57,7 @@ technical writing by using correct grammar
 - Verb - "API latency affects user experience"
 - Noun - "The effect of caching improves response time"
 
-**Related Terms**: content, voice
+**Related Terms**: [content](#content), [voice](#voice)
 
 **Sources**:
 
@@ -77,7 +78,8 @@ and emphasizes the reader-focused nature of documentation
 **Example**: API reference topics, tutorials, quickstart guides,
 and conceptual explanations all constitute content
 
-**Related Terms**: rhetorical approach, tone, voice
+**Related Terms**: [rhetorical approach](#rhetorical-approach),
+[tone](#tone), [voice](#voice)
 
 **Source**: [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
@@ -98,7 +100,8 @@ one-size-fits-all solutions
 experienced developers versus conversational tutorials for beginners
 demonstrates rhetorical awareness
 
-**Related Terms**: active voice, content, tone, voice
+**Related Terms**: [active voice](#active-voice), [content](#content),
+[tone](#tone)
 
 **Sources**:
 
@@ -120,7 +123,9 @@ and readers, affecting engagement, trust, and comprehension
 address - "you'll need to authenticate," while formal tone avoids
 both - "authentication is required"
 
-**Related Terms**: active voice, rhetorical approach, voice
+**Related Terms**: [active voice](#active-voice),
+[rhetorical approach](#rhetorical-approach),
+[tone](#tone)
 
 **Source**: [Style Guide](style-guide.md)
 
@@ -137,7 +142,9 @@ coming from a unified source regardless of who writes individual pieces
 **Example**: a documentation voice might be "helpful but not condescending"
 or "technically precise but accessible," maintained across all content types
 
-**Related Terms**: active voice, rhetorical approach, tone
+**Related Terms**: [active voice](#active-voice),
+[rhetorical approach](#rhetorical-approach),
+[tone](#tone)
 
 **Source**: [Style Guide](style-guide.md)
 
