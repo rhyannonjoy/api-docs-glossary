@@ -10,16 +10,37 @@ _For technical setup and the pull request process, visit the
 
 ---
 
+## Glossary philosophy
+
+The API Docs Glossary exists to demystify API documentation terminology
+for writers, developers, and technical communicators.
+Good glossary entries:
+
+- **Aim for clarity over comprehensiveness** - brief, scannable
+definitions that get readers oriented quickly
+- **Connect concepts** - show how terms relate to each other through
+thoughtful linking
+- **Focus on API documentation context** - explain why terms matter
+specifically for documenting APIs
+- **Serve real needs** - address terms readers actually encounter in
+API documentation work
+
+_This glossary isn't an exhaustive technical reference. It's a practical
+resource for people learning or working in API documentation who need
+quick, reliable definitions._
+
+---
+
 ## What to contribute
 
 Documentation improvements are always welcome. Contributions must
 benefit API Docs Glossary readers. Contributions are _especially_
 welcome if they:
 
-- Add new API documentation terms with clear definitions
-- Improve clarity of existing definitions
-- Add relevant examples to existing terms
-- Fix technical inaccuracies
+- add new API documentation terms with clear definitions
+- improve clarity of existing definitions
+- add relevant examples to existing terms
+- fix technical inaccuracies
 
 Before contributing, create
 [an issue](https://github.com/rhyannonjoy/api-docs-glossary/issues)
@@ -87,7 +108,7 @@ Match term headings with the capitalization of the term itself:
 
 - `## branch` not `## Branch`
 - `## GitHub` not `## github`
-- This breaks Vale rules, but that's OK
+- this preference breaks Vale rules, but that's OK
 
 ### Definition and purpose fields
 
@@ -134,10 +155,101 @@ such as cURL → API testing, command line
 
 ### Link format
 
-- List terms in alphabetical or local order: prerequisites first,
+- list terms in alphabetical or local order: prerequisites first,
 then workflow-related, then alternatives
-- Use the exact term name as it appears in its heading
-- Separate with commas: `**Related Terms**: branch, commit, merge, rebase`
+- use the exact term name as it appears in its heading
+- separate with commas: `**Related Terms**: branch, commit, merge, rebase`
+
+### Linking syntax
+
+**For terms in the same file:**
+
+```markdown
+**Related Terms**: [term name](#term-name)
+```
+
+Example: `**Related Terms**: [API](#api), [REST API](#rest-api)`
+
+**For terms in different files:**
+
+```markdown
+**Related Terms**: [term name](filename.md#term-name)
+```
+
+Example: `**Related Terms**: [Git](tools-techniques.md#git), [GitHub](tools-techniques.md#github)`
+
+**Important**:
+
+- the anchor link - `#term-name` - must exactly match the heading
+- use lowercase and hyphens for multi-word terms: `#http-status-codes`
+- acronyms are lowercase in anchors: `#rest-api` not `#REST-API`
+- test all links locally with `npm start` before submitting
+- _**only link to terms that exist** - don't list terms in the
+Related Terms list that don't have glossary entries_
+
+---
+
+## Source references
+
+Provide specific, verifiable sources for all term definitions
+and information. Sources acknowledge where information originates
+and allow readers to explore topics further.
+
+### Format guidelines
+
+**For web sources**, use descriptive link text with the full URL:
+
+```markdown
+**Source**: [Organization Name: "Page Title"](https://full-url.com)
+```
+
+Example:
+
+```markdown
+**Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+```
+
+**For course materials**, include course name, module, lesson, and topic title:
+
+```markdown
+**Source**: Course Name: Module X, Lesson Y, "Topic Title"
+```
+
+Example:
+
+```markdown
+**Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
+```
+
+**For multiple sources**, use a bulleted list:
+
+```markdown
+**Sources**:
+
+- [Organization: "Title"](https://url.com)
+- Course Name: Module X, Lesson Y, "Topic"
+```
+
+Example:
+
+```markdown
+**Sources**:
+
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
+```
+
+### Best practices
+
+- be as specific as possible - include authors' names, exact page titles,
+section names, or RFC numbers
+- for official specifications - HTTP, OpenAPI - link to the authoritative
+source
+- for course materials without public URLs, provide enough detail for
+verification
+- if citing forum discussions or informal sources, note the context:
+"UW API Docs Canvas Forum"
+- when a term draws from many sources, sort them alphabetically
 
 ---
 
