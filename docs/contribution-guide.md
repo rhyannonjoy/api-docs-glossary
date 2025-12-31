@@ -5,6 +5,9 @@ API Docs Glossary: forking the repository, setting up the
 development environment, submitting pull requests,
 and troubleshooting common issues.
 
+_For content standards, writing conventions, and formatting
+requirements, visit the [Style Guide](style-guide.md)._
+
 **Contribution workflow**:
 
 ```mermaid
@@ -21,11 +24,6 @@ sequenceDiagram
     contributor->>GitHub: submit PR
     GitHub-->>contributor: review & merge
 ```
-
-==========================================================================================
-
-_For content standards, writing conventions, and formatting
-requirements, visit the [Style Guide](style-guide.md)._
 
 ---
 

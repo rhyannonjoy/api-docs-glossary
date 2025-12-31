@@ -21,11 +21,11 @@ sequenceDiagram
     Docs-->>User: FAQ, troubleshooting
 ```
 
-==========================================================================================
+---
 
 ## API fundamentals
 
-==========================================================================================
+---
 
 ### API
 
@@ -470,7 +470,7 @@ or character strings
 - UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 - [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
 
-==========================================================================================
+---
 
 ## Documentation-specific concepts
 

@@ -26,7 +26,7 @@ flowchart TD
     style D fill:#FFB347,color:#fff
 ```
 
-==========================================================================================
+---
 
 ## cognitive dimensions of API usability
 
