@@ -15,6 +15,8 @@ graph LR
     F --> A
 ```
 
+==========================================================================================
+
 ## Agile
 
 **Definition**: methodology with a collection of project management
@@ -38,9 +40,9 @@ their work through flexibility rather than linear, rigid planning
 
 **Sources**:
 
-- [Manifesto for Agile Software Development](https://agilemanifesto.org/)
-- UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [Wrike: What Is Agile Methodology in Project Management?](https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/)
+- ["Manifesto for Agile Software Development"](https://agilemanifesto.org/)
+- UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: "What Is Agile Methodology in Project Management?" by Artem Gurnov](https://www.wrike.com/project-management-guide/faq/what-is-agile-methodology-in-project-management/)
 
 ---
 
@@ -59,8 +61,8 @@ not just task dependencies
 
 **Sources**:
 
-- UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
+- UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -83,9 +85,9 @@ any step delay the entire release
 
 **Sources**:
 
-- [ProjectManager: A Gantt Chart Guide with Definitions & Examples](https://www.projectmanager.com/guides/gantt-chart)
+- [ProjectManager: "A Gantt Chart Guide with Definitions & Examples"](https://www.projectmanager.com/guides/gantt-chart)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
+- [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -115,8 +117,8 @@ with well-defined phases that ensure content meets user needs
 
 **Sources**:
 
-- [Geeks for Geeks: Document Development Life Cycle](https://www.geeksforgeeks.org/software-engineering/document-development-life-cycle-ddlc/)
-- UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Geeks for Geeks: "Document Development Life Cycle"](https://www.geeksforgeeks.org/software-engineering/document-development-life-cycle-ddlc/)
+- UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
 
 ---
 
@@ -149,8 +151,8 @@ from target users without formal recruitment processes
 
 **Sources**:
 
-- [Guerrilla Usability Testing: How To Introduce It In Your Next UX Project](https://usabilitygeek.com/guerrilla-usability-testing-how-to/)
-- UW API Docs - Module 4, Lesson 3, "Review usability testing for API"
+- [Usability Geek: "Guerrilla Usability Testing: How To Introduce It In Your Next UX Project" by Emily Grace Adiseshiah](https://usabilitygeek.com/guerrilla-usability-testing-how-to/)
+- UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
 ---
 
@@ -180,8 +182,8 @@ projects based on team needs and project characteristics
 
 **Sources**:
 
-- UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
+- UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -205,8 +207,8 @@ obstacles to efficient work
 
 **Sources**:
 
-- UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
+- UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---
 
@@ -236,7 +238,7 @@ provides user perspective before product release
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
 [Guerrilla Usability Testing](#guerrilla-usability-testing)
 
-**Source**: UW API Docs - Module 4, Lesson 3, "Review usability testing for API"
+**Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
 ---
 
@@ -261,8 +263,8 @@ well-defined requirements and minimal expected changes
 
 **Sources**:
 
-- UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
-- [Waterfall Model - Software Engineering](https://www.geeksforgeeks.org/software-engineering/waterfall-model/)
-- [Wrike: Project Management Methodologies](https://www.wrike.com/project-management-guide/methodologies/)
+- [Geeks for Geeks: "Waterfall Model - Software Engineering"](https://www.geeksforgeeks.org/software-engineering/waterfall-model/)
+- UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
+- [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
 
 ---

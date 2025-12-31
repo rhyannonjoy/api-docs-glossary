@@ -22,6 +22,8 @@ sequenceDiagram
     GitHub-->>contributor: review & merge
 ```
 
+==========================================================================================
+
 _For content standards, writing conventions, and formatting
 requirements, visit the [Style Guide](style-guide.md)._
 

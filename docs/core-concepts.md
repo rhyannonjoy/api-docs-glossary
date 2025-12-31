@@ -21,7 +21,6 @@ sequenceDiagram
     Docs-->>User: FAQ, troubleshooting
 ```
 
-
 ==========================================================================================
 
 ## API fundamentals
@@ -453,13 +452,13 @@ resource formatted as a JSON document:
 
 #### JavaScript Object Notation (JSON)
 
-- Describes data using text characters in name-value pairs
-- Consists of objects, arrays, properties, and values
-- Objects contain properties; properties have values
-- Values can be objects, arrays, numbers, Boolean values,
+- describes data using text characters in name-value pairs
+- consists of objects, arrays, properties, and values
+- objects contain properties; properties have values
+- values can be objects, arrays, numbers, Boolean values,
 or character strings
-- Generally, a JSON document contains one object
-- _**Note**: JSON isn't the only format REST APIs can use_
+- generally, a JSON document contains one object
+- _**note**: JSON isn't the only format REST APIs can use_
 
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
 [HTTP](#hypertext-transfer-protocol-http),
@@ -469,7 +468,7 @@ or character strings
 **Sources**:
 
 - UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
-- ["What is REST?" by Lokesh Gupta](https://restfulapi.net/)
+- [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
 
 ==========================================================================================
 
