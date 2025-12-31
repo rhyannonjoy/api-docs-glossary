@@ -221,7 +221,7 @@ Example:
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 ```
 
-**For multiple sources**, use a bulleted list:
+**For many sources**, use a bulleted list:
 
 ```markdown
 **Sources**:
@@ -242,7 +242,7 @@ Example:
 ### Best practices
 
 - be as specific as possible - include authors' names, exact page titles,
-section names, or RFC numbers
+section names, or RFC, Requests for Comments, numbers
 - for official specifications - HTTP, OpenAPI - link to the authoritative
 source
 - for course materials without public URLs, provide enough detail for

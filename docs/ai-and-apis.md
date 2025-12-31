@@ -20,7 +20,7 @@ flowchart LR
     style D fill:#2a2a2a,stroke:#00D4FF,color:#f5f1e8
 ```
 
-==========================================================================================
+---
 
 ## AI-assisted documentation
 

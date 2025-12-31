@@ -21,7 +21,7 @@ flowchart TD
     Tone --> Voice[express consistent voice]
 ```
 
-==========================================================================================
+---
 
 ## active voice
 

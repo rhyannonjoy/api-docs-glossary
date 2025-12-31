@@ -24,7 +24,7 @@ flowchart LR
     style Question fill:#50C878,stroke:#2E7D4E,color:#fff
 ```
 
-==========================================================================================
+---
 
 ## Why this glossary?
 
