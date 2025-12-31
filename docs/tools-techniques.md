@@ -1,4 +1,5 @@
-# Tools & techniques
+# Tools & Techniques
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Essential tools and methods for API documentation workflows.
 From version control to interactive documentation generators,

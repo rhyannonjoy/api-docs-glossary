@@ -1,4 +1,5 @@
-# Quick reference
+# Quick Reference
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This quick reference provides concise definitions and filing locations
 for common terms across technical writing, development, and project

@@ -1,4 +1,5 @@
-# Core concepts
+# Core Concepts
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Essential terms and concepts for API documentation. This section defines
 the key terminology encountered when documenting REST APIs, from basic
@@ -23,7 +24,8 @@ sequenceDiagram
 
 ---
 
-## API fundamentals
+## API Fundamentals
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ---
 
@@ -502,7 +504,8 @@ endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
 
 ---
 
-## Documentation-specific concepts
+## Documentation-specific Concepts
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ### API overview topic
 

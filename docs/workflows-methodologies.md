@@ -1,4 +1,5 @@
-# Workflows & methodologies
+# Workflows & Methodologies
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Development and documentation workflows for API projects. This section
 covers methodologies, testing approaches, and lifecycle management

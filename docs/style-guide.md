@@ -1,4 +1,5 @@
-# Style guide
+# Style Guide
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This guide defines content standards for the API Docs Glossary:
 what makes a good term entry, how to format definitions,
@@ -10,7 +11,8 @@ _For technical setup and the pull request process, visit the
 
 ---
 
-## Glossary philosophy
+## Glossary Philosophy
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 The API Docs Glossary exists to demystify API documentation terminology
 for writers, developers, and technical communicators.
@@ -31,7 +33,8 @@ quick, reliable definitions._
 
 ---
 
-## What to contribute
+## Contribution Content Strategy
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Documentation improvements are always welcome. Contributions must
 benefit API Docs Glossary readers. Contributions are _especially_
@@ -89,7 +92,8 @@ or at the end of the appropriate subsection
 Use consistent capitalization to maintain clarity and
 professionalism.
 
-### Term rules by category
+### Term Rules by Category
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 | Category | Rule | Examples |
 | -------- | -------- | --------- |
@@ -108,9 +112,36 @@ Match term headings with the capitalization of the term itself:
 
 - `## branch` not `## Branch`
 - `## GitHub` not `## github`
-- this preference breaks Vale rules, but that's OK
+- `##REST API` not `##REST api`
 
-### Definition and purpose fields
+**Category and section headings** use different capitalization based
+on their function:
+
+- **Labels and titles** use title case: `# Core Concepts`,
+`# Tools & Techniques`, `## Glossary Philosophy`
+- **Task-based or action phrases** use sentence case:
+`## Add a new glossary term`, `## Create a new category`
+
+**Rationale**: term headings follow the natural capitalization of the
+term definition - lowercase for common terms, proper capitalization for
+brands and/or acronyms; category headings use title case because they
+function as navigation labels and section titles rather than as terms
+themselves
+
+_**Note**: this approach intentionally breaks `Vale's Google.Headings`
+rule, which prefers sentence-case headings; for this glossary, matching
+term capitalization and using title case for categories improves clarity
+and usability_
+
+When breaking the `Vale's Google.Headings` rule, add the following
+comment below said heading:
+
+```markdown
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+```
+
+### Definition and Purpose Fields
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Use sentence fragments and/or phrases rather than complete sentences.
 Start with lowercase unless the word is a proper noun:
@@ -138,7 +169,8 @@ which a branch was created.
 
 ---
 
-## Related terms linking strategy
+## Related Terms Linking Strategy
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Link related terms to help readers navigate connected concepts
 and build understanding of how terms relate to each other.
@@ -153,14 +185,16 @@ first, such as REST API → HTTP, JSON
 - **Higher-level concepts**: category terms that provide context,
 such as cURL → API testing, command line
 
-### Link format
+### Link Format
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 - list terms in alphabetical or local order: prerequisites first,
 then workflow-related, then alternatives
 - use the exact term name as it appears in its heading
 - separate with commas: `**Related Terms**: branch, commit, merge, rebase`
 
-### Linking syntax
+### Linking Syntax
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **For terms in the same file:**
 
@@ -189,13 +223,15 @@ Related Terms list that don't have glossary entries_
 
 ---
 
-## Source references
+## Source References
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Provide specific, verifiable sources for all term definitions
 and information. Sources acknowledge where information originates
 and allow readers to explore topics further.
 
-### Format guidelines
+### Format Guidelines
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **For web sources**, use descriptive link text with the full URL:
 
@@ -239,7 +275,8 @@ Example:
 - UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 ```
 
-### Best practices
+### Best Practices
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 - be as specific as possible - include authors' names, exact page titles,
 section names, or RFC, Requests for Comments, numbers
@@ -253,12 +290,14 @@ verification
 
 ---
 
-## Voice and tone
+## Voice and Tone
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Write in active voice without first-person pronouns to maintain
 directness and professional tone.
 
-### Active voice
+### Active Voice
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Use active voice where the subject performs the action:
 
@@ -276,7 +315,8 @@ Write from a neutral, instructional perspective:
 - ✅ "Branches isolate work without affecting the main codebase"
 - ✅ "Frequent commits create detailed project history"
 
-### Exception for purpose and example fields
+### Purpose and Example Fields Exception
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Use second person - "users," "developers," "writers" -
 when describing who performs actions:
@@ -284,7 +324,8 @@ when describing who performs actions:
 - ✅ `**Purpose**: enables developers to work on different features simultaneously`
 - ✅ `**Example**: developers create a branch named docs/add-webhook-guide`
 
-### Clarity over rules
+### Clarity Over Rules
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 If passive voice improves clarity or readability, use it -
 but this is likely rare. When in doubt, rewrite in active voice.
