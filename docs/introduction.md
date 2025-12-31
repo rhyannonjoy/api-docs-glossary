@@ -57,7 +57,8 @@ clear explanations grounded in current API documentation practices.
 
 ---
 
-## Scope & approach
+## Scope & Approach
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This glossary covers:
 
@@ -72,7 +73,8 @@ not just definitions.
 
 ---
 
-## Get started
+## Get Started
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 | Scenario | Action |
 | ---------------- | --------- |
