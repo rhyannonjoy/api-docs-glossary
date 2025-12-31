@@ -122,7 +122,7 @@ with well-defined phases that ensure content meets user needs
 
 ---
 
-## Guerrilla Usability Testing
+## Guerrilla Usability Testing (GUT)
 
 **Definition**: evaluation method that tests interface effectiveness
 by approaching participants in public spaces for quick feedback rather
