@@ -36,6 +36,15 @@ belong in the full documentation structure.
 
 ---
 
+### API endpoint
+
+- specific URL where an API can access resources
+- client touchpoint with the API server
+
+**Glossary Term Entry Location**: [Core Concepts - API endpoint](core-concepts.md#api-endpoint)
+
+---
+
 ### API overview topic
 
 - landing page in which the audience is everyone
@@ -346,6 +355,15 @@ intended audience and capturing their responses
 
 ---
 
+### HTTP status codes
+
+- three-digit codes servers return in HTTP responses
+- show whether a specific request succeeded or failed
+
+**Glossary Term Entry Location**: [Core Concepts - HTTP status codes](core-concepts.md#http-status-codes)
+
+---
+
 ## L
 
 ==========================================================================================
@@ -463,6 +481,15 @@ that mimic humans’ use of language
 
 ==========================================================================================
 
+### parameters
+
+- variables passed in API requests
+- specify, filter, or change data based on the operation in use
+
+**Glossary Term Entry Location**: [Core Concepts - parameters](core-concepts.md#parameters)
+
+---
+
 ### Postman
 
 - API development platform
@@ -534,6 +561,16 @@ after the source branch has changed
 - place to store files that are under Git’s version control
 
 **Glossary Term Entry Location**: [Tools & Techniques - repository](tools-techniques.md#repository-repo)
+
+---
+
+### request/response
+
+- two-part communication pattern in API interactions
+- client sends a request
+- server returns a response
+
+**Glossary Term Entry Location**: [Core Concepts - request/response](core-concepts.md#requestresponse)
 
 ---
 
