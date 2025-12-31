@@ -1,4 +1,5 @@
-# [API Docs Glossary](https://rhyannonjoy.github.io/api-docs-glossary/)
+# API Docs Glossary
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 A comprehensive glossary of API documentation fundamental concepts, processes,
 tools, and best practices. This project originated from coursework in the
@@ -7,38 +8,43 @@ Thank you to [Docs By Design](https://docsbydesign.com/)
 and the [Write the Docs](https://www.writethedocs.org/)
 community for inspiration and resources.
 
-This glossary is a living document, intended to evolve as the terms do. The API Docs
+[This glossary](https://rhyannonjoy.github.io/api-docs-glossary/)
+is a living document, intended to evolve as the terms do. The API Docs
 Glossary is a personal learning project, but suggestions and corrections are welcome.
 Visit the
 [Contribution Guide](https://rhyannonjoy.github.io/api-docs-glossary/docs/contribution-guide)
 for more information.
 
-## Topics covered
+## Topics
 
 - [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals):
-REST APIs, security
+core concepts, REST APIs, security
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
-OpenAPI specification, overview topics
+OpenAPI specification, overview topic, reference topic
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
 artificial intelligence in API documentation
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
-cURL, Postman
+cURL, Git, Postman, Swagger
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
-project management, usability testing
+project management approaches, usability testing
 - [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
-audience analysis, domain knowledge
+audience analysis, domain knowledge, sales collateral
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
-content strategy, rhetorical approach
+content strategy, rhetorical approach, tone style
 
-## Getting started
+## Getting Started
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
-Whether you're a technical writer, developer, or student learning API documentation,
-this resource provides clear definitions and context for essential concepts. Visit
-the following for more information:
+This resource provides essential concept definitions and context for
+anyone working with and/or learning about API documentation.
+Visit the following documentation pages for more information:
 
-- [Introduction](https://rhyannonjoy.github.io/api-docs-glossary/docs/introduction)
-- [Getting Started](https://rhyannonjoy.github.io/api-docs-glossary/docs/getting-started)
-- [Quick Reference](https://rhyannonjoy.github.io/api-docs-glossary/docs/quick-reference)
+- [Introduction](https://rhyannonjoy.github.io/api-docs-glossary/docs/introduction):
+find a path through the glossary
+- [Getting Started](https://rhyannonjoy.github.io/api-docs-glossary/docs/getting-started):
+navigate glossary structure
+- [Quick Reference](https://rhyannonjoy.github.io/api-docs-glossary/docs/quick-reference):
+find a specific term refresher
 
 ### Prerequisites
 
@@ -58,7 +64,8 @@ cd api-docs-glossary
 npm install
 ```
 
-### Local development
+### Local Development
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This command starts a local development server and opens up a browser
 window at `http://localhost:3000/`. Most changes display live
@@ -79,13 +86,14 @@ which any static contents hosting service can serve.
 npm run build
 ```
 
-## Built with
+## Build Components
 
 - [Docusaurus](https://docusaurus.io/): Documentation site generator
 - [React](https://reactjs.org/): UI framework
 - [Markdown](https://www.markdownguide.org/): Content format
 
-## Project structure
+## Project Structure
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ```shell
 api-docs-glossary/
@@ -98,4 +106,7 @@ api-docs-glossary/
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License,
+visit the
+[LICENSE](https://github.com/rhyannonjoy/api-docs-glossary/LICENSE)
+for details.
