@@ -604,6 +604,34 @@ hub for collaborative documentation work
 
 ---
 
+## Request for Comments (RFC)
+
+**Definition**: numbered technical documents published by the Internet
+Engineering Task Force (IETF) that define standards, protocols, and
+procedures for internet technologies
+
+**Purpose**: RFCs provide authoritative specifications for protocols
+like HTTP, HTTPS, and other web standards; API documentation writers
+reference RFCs to ensure accurate technical descriptions and link to
+them as sources for protocol definitions and behavior
+
+**Example**: when documenting HTTP status codes, writers cite
+[IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+as the authoritative source; RFC numbers, such as RFC 9110, provide
+a permanent, verifiable reference that remains accessible even as
+web pages change
+
+**Related Terms**: [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
+[HTTPS](core-concepts.md#hypertext-transfer-protocol-secure-https),
+[REST API](core-concepts.md#rest-api)
+
+**Sources**:
+
+- [Geeks for Geeks: "RFC (Request For Comment)"](https://www.geeksforgeeks.org/computer-networks/rfc-request-for-comment/)
+- [IETF: About Page](https://www.ietf.org/about/)
+
+---
+
 ## squash
 
 **Definition**: version control concept and Git feature; combining

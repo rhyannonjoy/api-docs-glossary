@@ -72,14 +72,14 @@ operation or object
 
 ---
 
-### artificial intelligence (AI)
+### Artificial Intelligence (AI)
 
 - a research field
 - set of technologies that use computers and large datasets to perform tasks
 - make predictions or recommendations and solve problems that normally
 require human intelligence
 
-**Glossary Term Entry Location**: [AI & APIs - artificial intelligence](ai-and-apis.md#artificial-intelligence-ai)
+**Glossary Term Entry Location**: [AI & APIs - Artificial Intelligence (AI)](ai-and-apis.md#artificial-intelligence-ai)
 
 ---
 
@@ -184,7 +184,7 @@ using the SHA-1 hash function
 - focuses on resources needed to complete the project’s tasks by adding
 resource availability to the critical path
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management](workflows-methodologies.md#critical-chain-project-management-ccpm)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management (CCPM)](workflows-methodologies.md#critical-chain-project-management-ccpm)
 
 ---
 
@@ -194,7 +194,7 @@ resource availability to the critical path
 - identifying a "critical path" of task sequences
 - some tasks can't start until previous ones finish
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method](workflows-methodologies.md#critical-path-method-cpm)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method (CPM)](workflows-methodologies.md#critical-path-method-cpm)
 
 ---
 
@@ -218,7 +218,7 @@ resource availability to the critical path
 of documentation
 - example formats: PDF, Word doc, online articles, website content
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle](workflows-methodologies.md#document-development-life-cycle-ddlc)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle (DDLC)](workflows-methodologies.md#document-development-life-cycle-ddlc)
 
 ---
 
@@ -275,12 +275,12 @@ in one's GitHub account
 
 ---
 
-### generative AI (genAI)
+### Generative AI (genAI)
 
 - draws upon the patterns identified through machine learning processes
 to generate new content
 
-**Glossary Term Entry Location**: [AI & APIs - generative AI](ai-and-apis.md#generative-ai-genai)
+**Glossary Term Entry Location**: [AI & APIs - Generative AI (genAI)](ai-and-apis.md#generative-ai-genai)
 
 ---
 
@@ -321,7 +321,7 @@ Unix Bash command line
 
 - form of user interface with graphical icons and visual indicators
 
-**Glossary Term Entry Location**: [Tools & Techniques - graphical user interface](tools-techniques.md#graphical-user-interface-gui)
+**Glossary Term Entry Location**: [Tools & Techniques - graphical user interface (GUI)](tools-techniques.md#graphical-user-interface-gui)
 
 ---
 
@@ -332,7 +332,7 @@ its visual design, capability, and general message on its
 intended audience and capturing their responses
 - typically low maintenance with predefined tasks
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - guerilla usability testing (GUT)](workflows-methodologies.md#guerrilla-usability-testing)
 
 ---
 
@@ -345,7 +345,7 @@ intended audience and capturing their responses
 - synchronous request/response protocol
 - enables communication between clients and servers over the web
 
-**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol](core-concepts.md#hypertext-transfer-protocol-http)
+**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol (HTTP)](core-concepts.md#hypertext-transfer-protocol-http)
 
 ---
 
@@ -354,7 +354,7 @@ intended audience and capturing their responses
 - secure version of HTTP
 - protects data from interception and tampering during transmission
 
-**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol Secure](core-concepts.md#hypertext-transfer-protocol-secure-https)
+**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol Secure (HTTPS)](core-concepts.md#hypertext-transfer-protocol-secure-https)
 
 ---
 
@@ -371,12 +371,12 @@ intended audience and capturing their responses
 
 ---
 
-### large language model (LLM)
+### Large Language Model (LLM)
 
 - form of generative AI that's trained on enormous amounts of text
 - can generate text-based responses that look and feel human-like
 
-**Glossary Term Entry Location**: [AI & APIs - large language model](ai-and-apis.md#large-language-model-llm)
+**Glossary Term Entry Location**: [AI & APIs - Large Language Model (LLM)](ai-and-apis.md#large-language-model-llm)
 
 ---
 
@@ -384,13 +384,13 @@ intended audience and capturing their responses
 
 ---
 
-### machine learning
+### Machine Learning
 
 - practice of using algorithms and large datasets to train computers
 to recognize patterns and to apply what's known about those patterns
 to complete new tasks
 
-**Glossary Term Entry Location**: [AI & APIs - machine learning](ai-and-apis.md#machine-learning)
+**Glossary Term Entry Location**: [AI & APIs - Machine Learning](ai-and-apis.md#machine-learning)
 
 ---
 
@@ -448,12 +448,12 @@ file
 
 ---
 
-### natural language processing (NLP)
+### Natural Language Processing (NLP)
 
 - ability of computers to analyze and generate responses in ways
 that mimic humans’ use of language
 
-**Glossary Term Entry Location**: [AI & APIs - natural language processing](ai-and-apis.md#natural-language-processing-nlp)
+**Glossary Term Entry Location**: [AI & APIs - Natural Language Processing (NLP)](ai-and-apis.md#natural-language-processing-nlp)
 
 ---
 
@@ -467,7 +467,7 @@ that mimic humans’ use of language
 - used to create the interface and documentation
 - format: YAML
 
-**Glossary Term Entry Location**: [Core Concepts - OpenAPI specification](core-concepts.md#openapi-specification-oas)
+**Glossary Term Entry Location**: [Core Concepts - OpenAPI specification (OAS)](core-concepts.md#openapi-specification-oas)
 
 ---
 
@@ -564,6 +564,16 @@ after the source branch has changed
 - place to store files that are under Git’s version control
 
 **Glossary Term Entry Location**: [Tools & Techniques - repository](tools-techniques.md#repository-repo)
+
+---
+
+### Request for Comments (RFC)
+
+- Internet Engineering Task Force (IETF) concept
+- numbered technical documents
+- provide authoritative specifications for web standards
+
+**Glossary Term Entry Location**: [Tools & Techniques - Request for Comments (RFC)](tools-techniques.md#request-for-comments-rfc)
 
 ---
 
@@ -678,7 +688,7 @@ a group of representative users
 
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques - user interface](tools-techniques.md#user-interface-ui)
+**Glossary Term Entry Location**: [Tools & Techniques - user interface (UI)](tools-techniques.md#user-interface-ui)
 
 ---
 
