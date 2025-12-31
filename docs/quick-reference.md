@@ -598,6 +598,16 @@ after the source branch has changed
 
 ---
 
+### REST vs *REST*ful
+
+- "REST" refers to the architectural style
+- "RESTful" describes APIs that follow REST principles
+- terms are often used interchangeably
+
+**Glossary Term Entry Location**: [Core Concepts - REST vs *REST*ful](core-concepts.md#rest-vs-restful)
+
+---
+
 ### rhetorical approach
 
 - communication framework

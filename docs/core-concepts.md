@@ -472,6 +472,36 @@ or character strings
 
 ---
 
+### REST vs *REST*ful
+
+**Definition**: terms are often used interchangeably, though technically
+"REST" refers to the architectural style itself while "RESTful"
+describes APIs that follow REST principles; in practice, both terms
+describe APIs that use HTTP methods, stateless communication, and
+resource-based URLs
+
+**Purpose**: understanding this distinction helps API documentation
+writers use consistent terminology; while some sources differentiate
+between the two, most modern API documentation treats them as synonyms;
+what matters is plainly explaining whether an API follows REST
+architectural constraints rather than debating terminology
+
+**Example**: documentation might say "this RESTful API uses HTTP methods"
+or "this REST API returns JSON responses" - both are acceptable; the key
+is explaining the API's behavior: stateless requests, resource-based
+endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
+`DELETE`
+
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#hypertext-transfer-protocol-http),
+[REST API](#rest-api)
+
+**Sources**:
+
+- [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
+- [Roy Thomas Fielding's University of California Dissertation: Chapter 5 - "Representational State Transfer (REST)"](https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm)
+
+---
+
 ## Documentation-specific concepts
 
 ### API overview topic
