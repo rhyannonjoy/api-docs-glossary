@@ -3,7 +3,7 @@
 Essential tools and methods for API documentation workflows.
 From version control to interactive documentation generators,
 this section covers the software, platforms, and practices used
-to create, test, validate, and publish API documentation.
+to create, test, verify, and publish API documentation.
 
 **Git branch workflow example:**
 
@@ -271,7 +271,7 @@ Terminal app
 
 **Sources**:
 
-- [Git-SCM](https://git-scm.com/)
+- [Software Freedom Conservancy: Git-SCM Homepage](https://git-scm.com/)
 - UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
@@ -292,7 +292,7 @@ complement local Git operations
 
 **Sources**:
 
-- [GitHub Homepage](https://github.com/)
+- [GitHub, Inc.: GitHub Homepage](https://github.com/)
 - UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
@@ -314,7 +314,7 @@ non-technical writers
 
 **Sources**:
 
-- [GitHub Desktop Homepage](https://github.com/apps/desktop)
+- [GitHub, Inc.: GitHub Desktop Homepage](https://github.com/apps/desktop)
 - UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
@@ -345,7 +345,12 @@ a GUI for developers to explore the API without writing code first
 ## json-server
 
 **Definition**: a [Node.js](https://nodejs.org/en)
-tool that creates a mock REST API from a JSON file
+tool that creates a mock REST API from a JSON file;
+commonly referred to as "json-server" in lowercase when
+discussing
+[the npm package](https://www.npmjs.com/package/json-server),
+while "JSON Server" is often used in a more general context
+to describe the tool itself
 
 **Purpose**: allows documentation writers and developers to
 prototype and test API documentation without a live backend;
@@ -364,7 +369,7 @@ creates REST endpoints: `/users` returns all users,
 
 **Sources**:
 
-- [json-server.dev](https://json-server.dev/)
+- [JSON Server Homepage](https://json-server.dev/)
 - UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
 ---
@@ -502,7 +507,7 @@ documentation generation
 **Sources**:
 
 - UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
-- [What is Postman?](https://www.postman.com/product/)
+- [Postman, Inc.: "What is Postman?"](https://www.postman.com/product/)
 
 ---
 
@@ -641,7 +646,7 @@ Generates client libraries and server stubs from OAS files
 [OpenAPI Specification (OAS)](core-concepts.md#openapi-specification-oas),
 [REST API](core-concepts.md#rest-api)
 
-**Source**: [What is Swagger](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
+**Source**: [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
 
 ---
 

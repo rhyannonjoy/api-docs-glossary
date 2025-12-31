@@ -5,6 +5,8 @@ for common terms across technical writing, development, and project
 management. Look up terminology and find where terms
 belong in the full documentation structure.
 
+---
+
 ## A
 
 ==========================================================================================

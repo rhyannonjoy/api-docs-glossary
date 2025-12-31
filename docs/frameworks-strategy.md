@@ -26,6 +26,8 @@ flowchart TD
     style D fill:#FFB347,color:#fff
 ```
 
+==========================================================================================
+
 ## cognitive dimensions of API usability
 
 **Definition**: a framework for evaluating and enhancing API usability
@@ -67,8 +69,8 @@ burying the comparison deep in reference docs
 
 **Sources**:
 
-- ["Applying the Cognitive Dimensions of API Usability to Improve API Documentation Planning" by Robert Watson](https://docsbydesign.com/wp-content/uploads/2015/01/SIGDOC2014_CogDimForDocEstimate_PosterPaper.pdf)
-- [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- [Docs By Design: "Applying the Cognitive Dimensions of API Usability to Improve API Documentation Planning" by Robert Watson](https://docsbydesign.com/wp-content/uploads/2015/01/SIGDOC2014_CogDimForDocEstimate_PosterPaper.pdf)
+- [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
 ---
 
@@ -92,7 +94,7 @@ for different account types
 **Related Terms**: [API](core-concepts.md#api),
 [end-user software engineer](#end-user-software-engineer)
 
-**Source**: [Parson: "API documentation - What software engineers can teach us"](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
+**Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
 ---
 
@@ -127,8 +129,8 @@ first payment" tutorial
 
 **Sources**:
 
+- [Dagstuhl Seminar Proceedings: "What is an End-User Software Engineer?" by Steven Clarke](https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.07081.26)
 - UW API Docs: Module 4, Lesson 1, "Audience analysis and readers' goals"
-- ["What is an End-User Software Engineer?" by Steven Clarke](https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.07081.26)
 
 ---
 
@@ -152,7 +154,7 @@ API can focus on advanced use cases and optimization
 **Related Terms**: [API overview topic](core-concepts.md#api-overview-topic),
 [sales collateral](#sales-collateral)
 
-**Source**: [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+**Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
 ---
 
@@ -164,8 +166,8 @@ or externally to educate and convert prospective customers
 **Purpose**: bridges the gap between technical documentation and business
 value communication; technical writers often create or contribute to sales
 collateral by translating API capabilities into business benefits, use cases,
-and return on investment (ROI) narratives that sales teams and prospects can understand without
-deep technical knowledge
+and return on investment (ROI) narratives that sales teams and prospects
+can understand without deep technical knowledge
 
 **Example**: a technical writer transforms detailed webhook documentation
 into a one-page sales sheet explaining how real-time notifications reduce
@@ -177,8 +179,8 @@ business metrics
 
 **Sources**:
 
-- [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
-- [Turtl: What is Sales Collateral?](https://turtl.co/blog/sales-collateral/#:~:text=Sales%20collateral%20examples%20can%20either,convert%20them%20into%20new%20customers%29.)
+- [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- [Turtl: "What is Sales Collateral?"](https://turtl.co/blog/sales-collateral/#:~:text=Sales%20collateral%20examples%20can%20either,convert%20them%20into%20new%20customers%29.)
 
 ---
 
@@ -204,7 +206,7 @@ with clear disclaimers about experimental status
 
 **Sources**:
 
-- [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Wikipedia: Skunk Works](https://en.wikipedia.org/wiki/Skunk_Works)
 
 ---

@@ -21,7 +21,7 @@ flowchart TD
     Tone --> Voice[express consistent voice]
 ```
 
----
+==========================================================================================
 
 ## active voice
 
@@ -39,7 +39,7 @@ who does what in API documentation
 **Related Terms**: [rhetorical approach](#rhetorical-approach),
 [tone](#tone), [voice](#voice)
 
-**Source**: [Style Guide](style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](style-guide.md)
 
 ---
 
@@ -52,17 +52,17 @@ functions as a _noun_ meaning "the result"
 **Purpose**: maintains professional credibility and clarity in
 technical writing by using correct grammar
 
-**Example**:
+**Examples**:
 
-- Verb - "API latency affects user experience"
-- Noun - "The effect of caching improves response time"
+- verb - "API latency affects user experience"
+- noun - "The effect of caching improves response time"
 
 **Related Terms**: [content](#content), [voice](#voice)
 
 **Sources**:
 
-- [Affect vs. Effect: Understanding the Difference and Choosing the Right Word](https://www.wordrake.com/resources/affect-vs.-effect-understanding-the-difference-and-choosing-the-right-word)
-- ["How do design, length, and relevance affect how people use API reference docs" - Interview with Bob Watson](https://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/)
+- [I'd Rather Be Writing: "How do design, length, and relevance affect how people use API reference docs -- interview with Bob Watson"](https://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/)
+- [Wordrake: "Affect vs. Effect: Understanding the Difference and Choosing the Right Word" by Ivy B.Grey](https://www.wordrake.com/resources/affect-vs.-effect-understanding-the-difference-and-choosing-the-right-word)
 
 ---
 
@@ -81,7 +81,7 @@ and conceptual explanations all constitute content
 **Related Terms**: [rhetorical approach](#rhetorical-approach),
 [tone](#tone), [voice](#voice)
 
-**Source**: [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+**Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
 ---
 
@@ -105,8 +105,8 @@ demonstrates rhetorical awareness
 
 **Sources**:
 
-- [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
-- [Understanding Rhetoric by Brigitte Mussack and Evelyn Dsouza](https://pressbooks.umn.edu/techwriting/chapter/chapter-1/#:~:text=A%20rhetorical%20approach%20frames%20communication,systems%20of%20power%20and%20oppression.)
+- [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- [Pressbooks, University of Minnesota, Introduction to Technical and Professional Communication: "Understanding Rhetoric" by Brigitte Mussack and Evelyn Dsouza](https://pressbooks.umn.edu/techwriting/chapter/chapter-1/#:~:text=A%20rhetorical%20approach%20frames%20communication,systems%20of%20power%20and%20oppression.)
 
 ---
 
@@ -127,7 +127,7 @@ both - "authentication is required"
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
-**Source**: [Style Guide](style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](style-guide.md)
 
 ---
 
@@ -146,6 +146,6 @@ or "technically precise but accessible," maintained across all content types
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
-**Source**: [Style Guide](style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](style-guide.md)
 
 ---

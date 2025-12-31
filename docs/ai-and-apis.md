@@ -20,6 +20,8 @@ flowchart LR
     style D fill:#2a2a2a,stroke:#00D4FF,color:#f5f1e8
 ```
 
+==========================================================================================
+
 ## AI-assisted documentation
 
 **Definition**: documentation created or enhanced using AI tools while
@@ -38,7 +40,7 @@ details and examples
 [Generative AI (genAI)](#generative-ai-genai),
 [Large Language Model (LLM)](#large-language-model-llm)
 
-**Source**: UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+**Source**: UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -63,7 +65,7 @@ click paths
 
 **Limitations**:
 
-- Cannot reliably assess human factors: credibility,
+- Can't reliably assess human factors: credibility,
 perception, satisfaction, emotional responses
 - AI capabilities and best practices evolve rapidly, requiring
 ongoing evaluation
@@ -80,7 +82,7 @@ develop_
 [Guerrilla Usability Testing](workflows-methodologies.md#guerrilla-usability-testing),
 [usability testing](workflows-methodologies.md#usability-testing)
 
-**Source**: UW API Docs - Module 4, Lesson 3, "Review usability testing for API"
+**Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
 ---
 
@@ -98,8 +100,8 @@ particularly for examples involving people, places, or cultural contexts
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -119,8 +121,8 @@ documentation workflows, from content generation to automated testing
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -143,8 +145,8 @@ descriptions that writers then refine and verify
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -167,8 +169,8 @@ or generate code examples in many programming languages
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -188,7 +190,7 @@ and predictive suggestions
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
 - UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
@@ -209,8 +211,8 @@ queries like "how to authenticate" and returns relevant authentication endpoints
 [Machine Learning](#machine-learning)
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -232,8 +234,8 @@ and example JSON" rather than "describe this endpoint"
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---
 
@@ -252,7 +254,7 @@ inaccuracies requiring verification
 
 **Sources**:
 
-- [UW AI + Teaching](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs - Module 1, Lesson 4, "Intro to AI and API docs"
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
 ---

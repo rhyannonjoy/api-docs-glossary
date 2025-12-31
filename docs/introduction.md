@@ -24,18 +24,18 @@ flowchart LR
     style Question fill:#50C878,stroke:#2E7D4E,color:#fff
 ```
 
----
+==========================================================================================
 
 ## Why this glossary?
 
-This glossary emerged organically from real learning needs during the
-University of Washington's AI-Enhanced API Documentation certification
-program. The project began as study notes - a way to define and
-cross-reference terms from course materials, industry resources, and
-hands-on work. What started as personal reference material quickly
-evolved into something more comprehensive, and comprehensive enough
-that the course instructor called it a "hidden gem" and encouraged
-sharing it with the broader Write the Docs community.
+This glossary emerged organically from real learning needs during
+[the University of Washington's AI-Enhanced API Documentation certification program](https://www.pce.uw.edu/specializations/api-documentation). The project began as
+study notes - a way to define and cross-reference terms from course
+materials, industry resources, and hands-on work. What started as
+personal reference material quickly evolved into something more
+comprehensive, and comprehensive enough that the course instructor
+called it a "hidden gem" and encouraged sharing it with the broader
+[Write the Docs](https://www.writethedocs.org/) community.
 
 **What makes this resource different:**
 

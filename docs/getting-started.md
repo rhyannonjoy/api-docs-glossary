@@ -2,30 +2,27 @@
 
 From REST fundamentals to documentation best practices, API Docs
 Glossary is a comprehensive reference for anyone working with API
-documentation. Whether you're a technical writer, developer, or
-student learning API documentation, this resource provides clear
-definitions and context for essential concepts.
+documentation.
 
-This glossary originated from coursework in the University of
-Washington's AI-Enhanced API Documentation certification program
-and is a living document - terms and definitions are
-regularly updated as the field evolves.
+This glossary originated from coursework in
+[the University of Washington's AI-Enhanced API Documentation certification program](https://www.pce.uw.edu/specializations/api-documentation)
+and is a living document - terms and definitions are regularly
+updated as the field evolves.
 
 ---
 
 ## Glossary structure
 
-Explore terms across seven main categories:
+Explore terms across six main categories:
 
 | Category | What's Covered |
-|----------|----------------|
-| **API Fundamentals** | Core concepts: REST APIs, API security, authentication, authorization, OpenAPI Specification |
-| **Documentation Types** | Different doc formats: overview topics, reference documentation, tutorials, and quick start guides |
-| **Tools & Technologies** | API documentation tools: cURL, Postman, Git/GitHub, Markdown, and Docusaurus |
-| **Processes** | Project management approaches relevant to documentation: Agile, Document Development Life Cycle, usability testing |
-| **Concepts** | Theoretical frameworks: 12 Cognitive Dimensions of API Usability, audience analysis, domain knowledge, developer personas |
+| ---------- | ---------------- |
+| **API Fundamentals** | Core concepts: REST APIs, API security, different doc formats |
+| **AI & APIs** | Artificial intelligence concepts relevant to modern API documentation: generative AI, LLMs, machine learning |
+| **Tools & Technologies** | API documentation tools: cURL, Postman, Git/GitHub, Markdown |
+| **Workflows & Methodologies** | Project management approaches relevant to documentation: Agile, Document Development Life Cycle, usability testing |
+| **Frameworks & Strategy** | Theoretical frameworks: cognitive dimensions of API usability, domain knowledge, developer personas |
 | **Writing Style** | Communication approaches: rhetorical strategies, content strategy, tone considerations |
-| **AI & APIs** | Artificial intelligence concepts relevant to modern API documentation: LLMs, machine learning, generative AI |
 
 ---
 
@@ -37,29 +34,29 @@ Explore terms across seven main categories:
 - **Alphabetical index**: Browse the [Quick Reference](quick-reference.md)
 for a complete alphabetical list with brief definitions
 - **Browse by topic**: From fundamentals to modern frameworks,
-review terms across seven categories
+review terms across six categories
 
 ### Understanding entries
 
 Each glossary entry includes:
 
-- **Core definition**: Concept explanation
-- **Key details**: Relevant information, best practices, or technical specifications
-- **Sources**: Links to original references and/or further reading
-- **Context**: References to related coursework
-- **Related terms**: Connections to other glossary entries
+- **Core definition**: concept explanation
+- **Key details**: relevant information, best practices, or technical specifications
+- **Examples**: code snippets and/or technical writing scenarios
+- **Related terms**: connections to other glossary term entries
+- **Sources**: links to original references and/or further reading
 
 ---
 
 ## Common use cases
 
 | Scenario | Start here |
-|--------------|------------|
-| **New to API documentation** | API → REST APIs → API Reference Topic |
+| -------------- | ------------ |
+| **New to API documentation** | API → REST APIs → API reference topic |
 | **Learning OpenAPI Specification** | OpenAPI Specification → JSON → YAML |
-| **Preparing for technical interviews** | 12 Cognitive Dimensions of API Usability → End-user Software Engineer personas |
-| **Working on your first API tutorial** | API Overview Topic → Audience → Rhetorical Approach |
-| **Setting up documentation tooling** | Git → GitHub → Markdown → Docusaurus |
-| **Reporting issues, suggesting improvements** | [Contribution Guide](contribution-guide.md) → [Style Guide](style-guide.md)|
+| **Preparing for technical interviews** | cognitive dimensions of API usability → end-user software engineer personas |
+| **Working on your first API tutorial** | API overview topic → market → rhetorical approach |
+| **Setting up documentation tooling** | Git → GitHub → GitHub Desktop → Markdown |
+| **Reporting issues, suggesting improvements** | [Contribution Guide](contribution-guide.md) → [Style Guide](style-guide.md) |
 
 ---
