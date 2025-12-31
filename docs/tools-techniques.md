@@ -22,6 +22,8 @@ gitGraph
     merge feature-branch tag: "v1.2.0"
 ```
 
+==========================================================================================
+
 ## branch
 
 **Definition**: version control concept and Git feature; a parallel
@@ -33,10 +35,10 @@ simultaneously - in API documentation workflows, branches allow
 users to draft documentation updates independently before merging
 them into the published version
 
-**Related Terms**: dev branch, feature branch, main branch,
-merge, rebase
+**Related Terms**: [dev branch](#dev-branch), [feature branch](#feature-branch),
+[main branch](#main-branch), [merge](#merge), [rebase](#rebase)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -49,9 +51,10 @@ commits from one branch to another without merging the entire branch
 or updates between branches without bringing along
 unrelated changes
 
-**Related Terms**: branch, commit, merge
+**Related Terms**: [branch](#branch), [commit](#commit),
+[merge](#merge)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -64,24 +67,26 @@ repository that lives on a user's local computer rather than on GitHub
 using their preferred text editor and build tools, before pushing
 changes back to the remote repository
 
-**Related Terms**: fork, origin repo, pull, push
+**Related Terms**: [fork](#fork), [origin repository](#origin-repository),
+[pull](#pull), [push](#push), [upstream repository](#upstream-repository)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
 ## commit
 
 **Definition**: version control concept and Git feature; a repository
-snapshot at a specific point-in-time, identified by hash
+snapshot at a specific point-in-time, identified by commit hash
 
 **Purpose**: creates a trackable history of documentation changes;
 each commit represents a logical unit of work such as "add
 authentication endpoints" or "fix typo in rate limiting docs"
 
-**Related Terms**: cherry-pick, commit hash, pull, push, squash
+**Related Terms**: [cherry-pick](#cherry-pick), [commit hash](#commit-hash),
+[pull](#pull), [push](#push), [squash](#squash)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -102,9 +107,10 @@ authentication endpoint updates
 that are 7-characters long, can be longer depending on
 the repository size to ensure uniqueness
 
-**Related Terms**: branch, cherry-pick, commit
+**Related Terms**: [branch](#branch), [cherry-pick](#cherry-pick),
+[commit](#commit)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -123,18 +129,20 @@ documentation development
 **Example**: `curl -X GET https://api.example.com/users`
 retrieves user data from an API endpoint
 
-**Related Terms**: json-server, REST API, Postman, Swagger
+**Related Terms**: [json-server](#json-server),
+[REST API](core-concepts.md#rest-api), [Postman](#postman),
+[Swagger](#swagger)
 
 **Further Reading**:
 
-- [curl Command in Linux with Examples](https://www.geeksforgeeks.org/linux-unix/curl-command-in-linux-with-examples/)
-- [Everything cURL](https://everything.curl.dev/index.html)
-- [What is cURL and how does it relate to APIs?](https://developer.ibm.com/articles/what-is-curl-command/)
+- [everything.curl.dev](https://everything.curl.dev/index.html)
+- [Geeks for Geeks: "curl Command in Linux with Examples"](https://www.geeksforgeeks.org/linux-unix/curl-command-in-linux-with-examples/)
+- [IBM Developer: "What is cURL and how does it relate to APIs?"](https://developer.ibm.com/articles/what-is-curl-command/)
 
 **Sources**:
 
-- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
-- UW API Docs - Module 5, Lesson 3, "API Test and Documentation Tools"
+- UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+- UW API Docs: Module 5, Lesson 3, "API Test and Documentation Tools"
 
 ---
 
@@ -149,10 +157,10 @@ changes before publishing; users can stage many updates,
 review them collectively, and ensure all changes work
 together before merging to main
 
-**Related Terms**: branch, feature branch, main branch,
-merge
+**Related Terms**: [branch](#branch), [feature branch](#feature-branch),
+[main branch](#main-branch), [merge](#merge)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -169,9 +177,10 @@ merging into the `main` branch
 **Example**: a branch names `docs/add-webhook-guide` contains
 only the documentation for a new webhook feature
 
-**Related Terms**: branch, dev branch, main branch, merge
+**Related Terms**: [branch](#branch), [dev branch](#dev-branch),
+[main branch](#main-branch), [merge](#merge)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -185,10 +194,10 @@ documentation without requiring direct write access to the
 original repository; contributors make changes in their
 fork, then submit pull requests to the upstream repository
 
-**Related Terms**: clone, pull request, repository,
-upstream repository
+**Related Terms**: [clone](#clone), [pull request](#pull-request-pr),
+[repository](#repository-repo), [upstream repository](#upstream-repository)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -203,10 +212,10 @@ branches, particularly after rebasing or squashing commits -
 only use on personal dev branches, never on shared
 branches like `main`
 
-**Related Terms**: dev branch, feature branch, push, rebase,
-squash
+**Related Terms**: [dev branch](#dev-branch), [feature branch](#feature-branch),
+[push](#push), [rebase](#rebase), [squash](#squash)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -233,9 +242,10 @@ maintain published versions separate from draft content
 | rebase | update the base commit from its source branch |
 | squash | bundle many commits into a single commit |
 
-**Related Terms**: Git Bash, GitHub, GitHub Desktop
+**Related Terms**: [Git Bash](#git-bash), [GitHub](#github),
+[GitHub Desktop](#github-desktop)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -256,12 +266,13 @@ installation, while macOS users install Git either through the same
 site or [Homebrew](https://brew.sh/) and user their existing
 Terminal app
 
-**Related Terms**: Git, GitHub, GitHub Desktop
+**Related Terms**: [Git](#git), [GitHub](#github),
+[GitHub Desktop](#github-desktop)
 
 **Sources**:
 
-- [Git](https://git-scm.com/)
-- UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+- [Git-SCM](https://git-scm.com/)
+- UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -276,12 +287,13 @@ and integrated workflows; provides web-based tools for
 code review, issue tracking, and continuous integration that
 complement local Git operations
 
-**Related Terms**: Git, Git Base, GitHub Desktop
+**Related Terms**: [Git](#git), [Git Bash](#git-bash),
+[GitHub Desktop](#github-desktop)
 
 **Sources**:
 
-- [GitHub](https://github.com/)
-- UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+- [GitHub Homepage](https://github.com/)
+- UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -296,12 +308,14 @@ manage branches, and sync repositories without memorizing
 Git commands, making version control more accessible to
 non-technical writers
 
-**Related Terms**: Git, GitHub, Git Bash, repository
+**Related Terms**: [Git](#git), [Git Bash](#git-bash),
+[GitHub](#github), [graphical user interface (GUI)](#graphical-user-interface-gui),
+[repository](#repository-repo), [user interface(UI)](#user-interface-ui)
 
 **Sources**:
 
-- [GitHub Desktop](https://github.com/apps/desktop)
-- UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+- [GitHub Desktop Homepage](https://github.com/apps/desktop)
+- UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -321,10 +335,10 @@ interfaces for API testing and exploration
 visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
-**Related Terms**: command-line interface (CLI), user interface (UI),
-Postman
+**Related Terms**: [Postman](#postman), [Swagger](#swagger),
+[user interface (UI)](#user-interface-ui)
 
-**Source**: UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+**Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
 ---
 
@@ -335,8 +349,8 @@ tool that creates a mock REST API from a JSON file
 
 **Purpose**: allows documentation writers and developers to
 prototype and test API documentation without a live backend;
-generates a fully functional REST API with CRUD
-(create, read, update, delete) operations using methods
+generates a fully functional REST API with CRUD operations -
+create, read, update, delete - using methods
 `GET`, `POST`, `PUT`, and `DELETE` based on a
 streamlined JSON structure, enabling realistic examples
 and testing scenarios
@@ -345,12 +359,13 @@ and testing scenarios
 creates REST endpoints: `/users` returns all users,
 `/users/1` returns the user with `id` 1
 
-**Related Terms**: cURL, Postman, REST API, Swagger
+**Related Terms**: [cURL](#postman), [Postman](#postman),
+[REST API](core-concepts.md#rest-api), [Swagger](#swagger)
 
 **Sources**:
 
 - [json-server.dev](https://json-server.dev/)
-- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+- UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
 ---
 
@@ -365,10 +380,10 @@ API documentation; all feature branches merge into `main`,
 and development systems typically publish documentation
 directly from this branch
 
-**Related Terms**: branch, deploy, dev branch, feature branch,
-merge
+**Related Terms**: [branch](#branch), [dev branch](#dev-branch),
+[feature branch](#feature-branch), [merge](#merge)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -380,12 +395,12 @@ merge
 text documents and allows users to add elements like headers,
 links, lists, and tables
 
-**Related Terms**: cURL, Git, Git Bash
+**Related Terms**: [Git](#git), [Git Bash](#git-bash), [GitHub](#github)
 
 **Sources**:
 
-- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
-- UW API Docs - Canvas General Forum
+- [Markdown Guide: Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- UW API Docs: Canvas General Forum
 
 ---
 
@@ -399,18 +414,18 @@ from feature branches into the `main` branch for
 publication; the merge process preserves the commit
 history from both branches
 
-**Related Terms**: branch, merge conflict, pull request,
-rebase
+**Related Terms**: [branch](#branch), [merge conflict](#merge-conflict),
+[pull request](#pull-request-pr), [rebase](#rebase)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
 ## merge commit
 
-**Definition**: version control concept and Git feature; a commit in which,
-after branching, integrates changes from a feature branch with updates
-that occurred in the original branch
+**Definition**: version control concept and Git feature; a commit
+in which, after branching, integrates changes from a feature branch
+with updates that occurred in the original branch
 
 **Purpose**: bundles all commits from a feature branch
 together with updates to `main` into a single commit,
@@ -423,9 +438,10 @@ a linear commit sequence; they're _clear markers_ as in,
 "this feature was added here" - but _create complex graphs_
 with lots of branches splitting and rejoining
 
-**Related Terms**: commit, feature branch, merge, squash
+**Related Terms**: [commit](#commit), [feature branch](#feature-branch),
+[merge](#merge), [rebase](#rebase), [squash](#squash)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -445,9 +461,10 @@ resolution before completing the merge; resolution can
 sometimes be in the GitHub UI directly, but some conflicts
 are too complex and require resolution from the text editor
 
-**Related Terms**: branch, commit, merge, pull request
+**Related Terms**: [branch](#branch), [commit](#commit),
+[merge](#merge), [pull request](#pull-request-pr)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -460,9 +477,10 @@ upstream repository, typically the clone source repository
 pushing local documentation changes; Git automatically
 configures origin when cloning a repository
 
-**Related Terms**: clone, pull, push, upstream repo
+**Related Terms**: [clone](#clone), [pull](#pull),
+[push](#push), [upstream repository](#upstream-repository)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -478,11 +496,12 @@ alternative to cURL for making HTTP requests, supports
 automated test suites, collection sharing, and API
 documentation generation
 
-**Related Terms**: cURL, json-server, REST API, Swagger
+**Related Terms**: [cURL](#curl), [json-server](#json-server),
+[REST API](core-concepts.md#rest-api), [Swagger](#swagger)
 
 **Sources**:
 
-- UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+- UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 - [What is Postman?](https://www.postman.com/product/)
 
 ---
@@ -496,9 +515,10 @@ from a remote repository and integrating them into the local branch
 with remote changes made by other team members; running
 `git pull` before starting work prevents merge conflicts
 
-**Related Terms**: clone, merge, origin repo, push
+**Related Terms**: [clone](#clone), [merge](#merge),
+[origin repository](#origin-repository), [push](#push)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -513,9 +533,10 @@ before publication; team members can comment on specific
 lines, suggest edits, and approve or request changes
 before merging
 
-**Related Terms**: branch, feature branch, fork, merge
+**Related Terms**: [branch](#branch), [feature branch](#feature-branch),
+[fork](#fork), [merge](#merge)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -529,9 +550,10 @@ by uploading commits from a local machine to GitHub;
 enables collaboration and backs up work to the remote
 repository
 
-**Related Terms**: commit, force push, origin repo, pull
+**Related Terms**: [commit](#commit), [force push](#force-push),
+[origin repository](#origin-repository), [pull](#pull)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -553,10 +575,11 @@ resolving the same conflict across many commits, and
 rebasing becomes impossible if the branch already contains
 merge commits or squashed history
 
-**Related Terms**: branch, commit, feature branch, force push,
-merge, squash
+**Related Terms**: [branch](#branch), [commit](#commit),
+[feature branch](#feature-branch), [force push](#force-push),
+[merge](#merge), [squash](#squash)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -569,9 +592,10 @@ version control that tracks the complete history of changes
 configuration, and revision history; serves as the central
 hub for collaborative documentation work
 
-**Related Terms**: branch, clone, fork, Git, GitHub
+**Related Terms**: [branch](#branch), [clone](#clone),
+[fork](#fork), [Git](#git), [GitHub](#github)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -588,9 +612,10 @@ documentation history by grouping related changes
 **Example**: ten commits like "fix typo," "clean whitespace"
 become one commit: "Add OAuth 2.0 authentication guide"
 
-**Related Terms**: commit, merge, pull request, rebase
+**Related Terms**: [commit](#commit), [merge](#merge),
+[pull request](#pull-request-pr), [rebase](#rebase)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -612,7 +637,9 @@ Web-based editor for creating and editing OAS documents
 - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) -
 Generates client libraries and server stubs from OAS files
 
-**Related terms**: OpenAPI Specification (OAS), REST API, YAML
+**Related terms**:
+[OpenAPI Specification (OAS)](core-concepts.md#openapi-specification-oas),
+[REST API](core-concepts.md#rest-api)
 
 **Source**: [What is Swagger](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
 
@@ -627,9 +654,10 @@ documentation projects; contributors sync their forks with
 the upstream repo to incorporate the latest changes before
 creating pull requests
 
-**Related Terms**: clone, fork, origin repo, pull
+**Related Terms**: [clone](#clone), [fork](#fork),
+[origin repository](#origin-repository), [pull](#pull)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -641,7 +669,7 @@ users to communicate with software or hardware systems
 
 **Purpose**: API documentation often needs to describe UI elements, explain
 how API responses appear in user interfaces, or clarify the relationship
-between backend capability and frontend display; understanding UI terminology
+between backend API capability and frontend display; understanding UI terminology
 helps technical writers bridge the gap between developer-focused API
 specifications and user-facing product behavior
 
@@ -650,10 +678,11 @@ interface, where buttons, forms, and data visualizations allow users to
 interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
-**Related Terms**: UX (user experience), frontend, GUI (graphical user interface),
-API endpoint
+**Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
+[graphical user interface (GUI)](#graphical-user-interface-gui),
+[REST API](core-concepts.md#rest-api)
 
-**Source**: UW API Docs - Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+**Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
 ---
 
@@ -664,15 +693,16 @@ and other files over time
 
 **Purpose**: records the complete history of documentation
 changes, enabling teams to see who made what changes and when,
-revert to previous versions, and work on multiple updates
+revert to previous versions, and work on many updates
 simultaneously without overwriting each other's work; Git
 repositories store projects under the control of the project
 owner, who can grant access or require contributors to fork
 the repository to their own GitHub account
 
-**Related Terms**: branch, commit, Git, Git Bash, GitHub
+**Related Terms**: [branch](#branch), [commit](#commit),
+[Git](#git), [Git Bash](#git-bash), [GitHub](#github)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
@@ -685,8 +715,9 @@ computer that contains cloned repositories
 edit documentation files, test builds, and prepare commits
 before pushing to remote repositories
 
-**Related Terms**: clone, fork, repository
+**Related Terms**: [clone](#clone), [fork](#fork),
+[repository](#repository-repo)
 
-**Source**: UW API Docs - Module 2, Lesson 1, "Getting Started with Git"
+**Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
