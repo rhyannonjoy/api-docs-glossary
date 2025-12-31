@@ -60,12 +60,15 @@ commitment, in which developers must choose OAuth vs. API keys early,
 documentation should provide a clear decision guide upfront rather than
 burying the comparison deep in reference docs
 
-**Related terms**: API, API Reference Topic, Usability Testing, End-user Software Engineer
+**Related terms**: [API](core-concepts.md#api),
+[API reference topic](core-concepts.md#api-reference-topic),
+[end-user software engineer](#end-user-software-engineer),
+[usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
 
-- [Applying the Cognitive Dimensions of API Usability to Improve API Documentation Planning by Robert Watson](https://docsbydesign.com/wp-content/uploads/2015/01/SIGDOC2014_CogDimForDocEstimate_PosterPaper.pdf)
-- [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- ["Applying the Cognitive Dimensions of API Usability to Improve API Documentation Planning" by Robert Watson](https://docsbydesign.com/wp-content/uploads/2015/01/SIGDOC2014_CogDimForDocEstimate_PosterPaper.pdf)
+- [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
 ---
 
@@ -86,9 +89,10 @@ and regulatory requirements - allowing them to write clearer explanations
 of rate limiting during market hours or authentication requirements
 for different account types
 
-**Related Terms**: API, end-user software engineer
+**Related Terms**: [API](core-concepts.md#api),
+[end-user software engineer](#end-user-software-engineer)
 
-**Source**: ["API documentation - What software engineers can teach us"](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
+**Source**: [Parson: "API documentation - What software engineers can teach us"](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
 ---
 
@@ -118,12 +122,13 @@ developers need step-by-step integration guides with error handling,
 and opportunistic developers need a five-minute "process your
 first payment" tutorial
 
-**Related Terms**: domain knowledge, usability testing
+**Related Terms**: [domain knowledge](#domain-knowledge),
+[usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
 
-- UW API Docs - Module 4, Lesson 1, "Audience analysis and readers' goals"
-- [What is an End-User Software Engineer? by Steven Clarke](https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.07081.26)
+- UW API Docs: Module 4, Lesson 1, "Audience analysis and readers' goals"
+- ["What is an End-User Software Engineer?" by Steven Clarke](https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.07081.26)
 
 ---
 
@@ -144,9 +149,10 @@ established players needs documentation that highlights unique
 features and migration guides from competitors, while an established
 API can focus on advanced use cases and optimization
 
-**Related Terms**: sales collateral
+**Related Terms**: [API overview topic](core-concepts.md#api-overview-topic),
+[sales collateral](#sales-collateral)
 
-**Source**: [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+**Source**: [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
 ---
 
@@ -166,12 +172,13 @@ into a one-page sales sheet explaining how real-time notifications reduce
 customer support tickets by 40%, using non-technical language and
 business metrics
 
-**Related Terms**: market, API Overview Topic
+**Related Terms**: [API overview topic](core-concepts.md#api-overview-topic),
+[market](#market)
 
 **Sources**:
 
-- [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
-- [Turtl - What is Sales Collateral?](https://turtl.co/blog/sales-collateral/#:~:text=Sales%20collateral%20examples%20can%20either,convert%20them%20into%20new%20customers%29.)
+- [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- [Turtl: What is Sales Collateral?](https://turtl.co/blog/sales-collateral/#:~:text=Sales%20collateral%20examples%20can%20either,convert%20them%20into%20new%20customers%29.)
 
 ---
 
@@ -192,11 +199,12 @@ API may need lightweight, frequently updated documentation focused on
 current capabilities rather than comprehensive reference materials,
 with clear disclaimers about experimental status
 
-**Related Terms**: Agile
+**Related Terms**: [Agile](workflows-methodologies.md#agile),
+[project management methodologies](workflows-methodologies#project-management-methodology)
 
 **Sources**:
 
-- [Docs By Design - Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+- [Docs By Design: Audience, Market, Product Webinar](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Wikipedia: Skunk Works](https://en.wikipedia.org/wiki/Skunk_Works)
 
 ---
