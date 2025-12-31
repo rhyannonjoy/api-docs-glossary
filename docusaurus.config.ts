@@ -38,6 +38,10 @@ const config: Config = {
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
+    tableOfContents: {
+    minHeadingLevel: 2,
+    maxHeadingLevel: 4, // Shows h2, h3, and h4
+    },
     navbar: {
       title: 'API Docs Glossary',
       logo: {

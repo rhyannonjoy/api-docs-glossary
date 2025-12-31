@@ -21,7 +21,12 @@ sequenceDiagram
     Docs-->>User: FAQ, troubleshooting
 ```
 
+
+==========================================================================================
+
 ## API fundamentals
+
+==========================================================================================
 
 ### API
 
@@ -31,6 +36,14 @@ sequenceDiagram
 the resources of another program or service, in which the resources
 are program functions, data, or shared devices that with
 other computers
+
+**Understanding API components**:
+
+- **Program**: sequence of instructions for a computer to perform,
+often stored in a file
+- **Interface**: program that runs on a computer and provides resources
+for other computers, programs, or services, also known as
+the server
 
 **Every API description must describe**:
 
@@ -47,15 +60,54 @@ response must be predictable for the program to use it effectively
 - Prevents developers from needing to reverse-engineer, which is
 often prohibited by license
 
-**Related terms**:
+**Related Terms**: [API endpoint](#api-endpoint), [API security](#api-security),
+[REST API](#rest-api)
 
-- **Program**: sequence of instructions for a computer to perform,
-often stored in a file
-- **Interface**: program that runs on a computer and provides resources
-for other computers, programs, or services, also known as
-the server
+**Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
-**Source**: UW API Docs - Module 5, Lesson 1, "REST API Fundamentals"
+---
+
+### API endpoint
+
+**Definition**: specific URL where an API can access resources;
+the touchpoint where clients interact with the API server to perform operations
+
+**Purpose**: define the structure of API requests and enable developers to access
+specific resources or perform specific actions; each endpoint represents a distinct
+function or resource in the API
+
+**Key characteristics**:
+
+- **URL structure**: combines base URL with resource path
+- **HTTP method**: defines the operation - `GET`, `POST`, `PUT`, `DELETE`
+- **Unique purpose**: each endpoint performs a specific function
+
+**Example**:
+
+```bash
+https://api.example.com/v1/users/123
+```
+
+Breaking down this endpoint:
+
+- **Base URL**: `https://api.example.com`
+- **Version**: `/v1`
+- **Resource path**: `/users/123`
+- **Action**: determined by HTTP method
+- `GET` retrieves user 123 while `DELETE` removes user 123
+
+**Common endpoint patterns**:
+
+| Pattern | Purpose | Example |
+| --------- | --------- | --------- |
+| `/resource` | Collection operations | `GET /users` lists all users |
+| `/resource/{id}` | Single resource operations | `GET /users/123` retrieves one user |
+| `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
+
+**Related Terms**: [API](#api), [HTTP](#hypertext-transfer-protocol-http),
+[parameters](#parameters), [request/response](#requestresponse), [REST API](#rest-api)
+
+**Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
 ---
 
@@ -68,20 +120,22 @@ misuse, and attacks
 sensitive software functions and data - in result, they're becoming an
 increasingly desired target for attackers
 
-#### Authentication
+#### authentication
 
-**Definition**: determines who you are - a technique invented
+**Definition**: determines who users are - a technique invented
 to overcome the weakness of shared credentials; an API
 authentication key is commonly a long series of numbers and letters
 that's included in a request header or request URL
 
-#### Authorization
+#### authorization
 
-**Definition**: determines what you can do - confirms users are who
+**Definition**: determines what users can do - confirms users are who
 they claim to be by using techniques such as checking ID to
 verify identity
 
-**Source**: UW API Docs Intentional Outcomes, Canvas Forum Thread
+**Related Terms**: [API](#api), [HTTPS](#hypertext-transfer-protocol-secure-https)
+
+**Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
 
 ---
 
@@ -104,8 +158,10 @@ server processes the request and returns an HTTP response with a
 status code, such as `200` for success or `400` for a bad request,
 and any relevant data
 
-**Related Terms**: HTTPS, REST API, API endpoint, status codes,
-request methods
+**Related Terms**: [API endpoint](#api-endpoint),
+[HTTPS](#hypertext-transfer-protocol-http),
+[HTTP status codes](#http-status-codes),
+[REST API](#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -113,24 +169,197 @@ request methods
 
 ### Hypertext Transfer Protocol Secure (HTTPS)
 
-**Definition**: a secure version of HTTP that encrypts communication
+**Definition**: secure version of HTTP that encrypts communication
 between clients and servers using Transport Layer Security (TLS) or
 its predecessor, Secure Sockets Layer (SSL); HTTPS protects data from
-interception and tampering during transmission
+interception and tampering during transmission through encryption -
+the process of encoding data so only authorized parties can read it
 
 **Purpose**: HTTPS is critical for API security documentation; all
 modern APIs should use HTTPS to protect sensitive data like authentication
 tokens, user credentials, and personal information; API documentation must
 specify HTTPS endpoints and explain security requirements
 
-**Example**: When users log into a banking app, their credentials travel
-over HTTPS; the encrypted connection ensures that even if someone intercepts
-the network traffic, they can't read the username, password, or account
-information
+**Example**: when users log into a banking app, their credentials travel
+over HTTPS; the encrypted connection ensures that even if someone
+intercepts the network traffic, they can't read the username, password,
+or account information
 
-**Related Terms**: HTTP, TLS/SSL, API security, authentication, encryption
+**Related Terms**: [API security](#api-security),
+[HTTP](#hypertext-transfer-protocol-http),[authentication](#authentication)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+
+---
+
+### HTTP status codes
+
+**Definition**: three-digit codes returned by servers in HTTP responses that
+show whether a specific request succeeded or failed, and why
+
+**Purpose**: status codes enable developers to handle different response
+scenarios appropriately, add proper error handling, and debug API issues;
+API documentation must explain which status codes an endpoint returns
+and what they mean
+
+**Status code categories**:
+
+| Code Range | Category | Meaning |
+| ------------ | ---------- | --------- |
+| 1xx | Informational | Request received, continuing process |
+| 2xx | Success | Request successfully received, understood, and accepted |
+| 3xx | Redirection | Further action needed to complete the request |
+| 4xx | Client Error | Request contains bad syntax and/or server can't process |
+| 5xx | Server Error | Server failed to fulfill an apparently valid request |
+
+**Common status codes**:
+
+| Code | Label | Meaning |
+| ------ | ------ | --------- |
+| `200` | `OK` | Request succeeded |
+| `201` | `Created` | New resource successfully created |
+| `204` | `No Content` | Request succeeded but no content to return |
+| `400` | `Bad Request` | Server can't process due to client error |
+| `401` | `Unauthorized` | Authentication required or failed |
+| `403` | `Forbidden` | Server understood but refuses to process |
+| `404` | `Not Found` | Requested resource doesn't exist |
+| `500` | `Internal Server Error` | Server encountered an unexpected condition |
+| `503` | `Service Unavailable` | Server temporarily unable to handle request |
+
+**Client requests a user that doesn't exist**:
+
+```bash
+GET https://api.example.com/users/999
+```
+
+**Response**:
+
+```json
+{
+  "status": 404,
+  "error": "Not Found",
+  "message": "User with ID 999 does not exist"
+}
+```
+
+**Related Terms**: [API endpoint](#api-endpoint),
+[HTTP](#hypertext-transfer-protocol-http),
+[request/response](#requestresponse), [REST API](#rest-api)
+
+**Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+
+---
+
+### parameters
+
+**Definition**: variables passed in API requests to specify or filter
+the data returned, change behavior, or provide necessary information for
+the operation
+
+**Purpose**: parameters enable flexible, precise API requests without
+requiring separate endpoints for every variation; API documentation must
+describe each parameter's purpose, data type, whether it's required
+or optional, and valid values
+
+**Parameter types**:
+
+| Type | Location | Purpose | Example |
+| ------ | ---------- | --------- | --------- |
+| Path parameters | In the URL path | Identify specific resources | `/users/{id}` |
+| Query parameters | After `?` in URL | Filter, sort, or paginate results | `/users?role=admin&limit=10` |
+| Header parameters | HTTP headers | Authentication, content type | `Authorization: Bearer token123` |
+| Body parameters | Request body | Complex data for `POST/PUT` | JSON object with user details |
+
+**Example using many parameter types**:
+
+```bash
+GET https://api.example.com/v1/users/123/orders?status=pending&limit=5
+Authorization: Bearer abc123xyz
+```
+
+Breaking down the parameters:
+
+- **Path parameter**: `123` - user ID
+- **Query parameters**: `status=pending` and `limit=5`
+- **Header parameter**: `Authorization: Bearer abc123xyz`
+
+**Documentation requirements for each parameter**:
+
+- Name and data type - string, integer, boolean
+- Whether it's required or optional
+- Valid values or format
+- Default value if applicable
+- Description of what it does
+
+**Related Terms**: [API endpoint](#api-endpoint),
+[request/response](#requestresponse), [REST API](#rest-api)
+
+**Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
+
+---
+
+### request/response
+
+**Definition**: the two-part communication pattern in API interactions
+where a client sends a request to a server and receives a response
+
+**Purpose**: understanding the request/response cycle is fundamental
+to using and documenting APIs; documentation must show what requests
+look like, what data to include, and what responses to expect
+
+**Request components**:
+
+| Component | Description | Example |
+| ----------- | ------------- | --------- |
+| HTTP method | Action to perform | `GET`, `POST`, `PUT`, `DELETE` |
+| Endpoint URL | Resource location | `https://api.example.com/users` |
+| Headers | Metadata about the request | `Content-Type: application/json` |
+| Body | Data sent with request - `POST/PUT` | JSON object |
+| Parameters | Request specifications | Query or path parameters |
+
+**Response components**:
+
+| Component | Description | Example |
+| ----------- | ------------- | --------- |
+| Status code | Outcome of the request | `200`, `404`, `500` |
+| Headers | Metadata about the response | `Content-Type: application/json` |
+| Body | Data returned from server | JSON object |
+
+**Example request**:
+
+```bash
+POST https://api.example.com/users
+Content-Type: application/json
+Authorization: Bearer token123
+
+{
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "email": "jane.doe@example.com"
+}
+```
+
+**Example response**:
+
+```bash
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "id": 456,
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "email": "jane.doe@example.com",
+  "created_at": "2025-12-30T10:30:00Z"
+}
+```
+
+**Related Terms**: [API endpoint](#api-endpoint),
+[HTTP](#hypertext-transfer-protocol-http),
+[HTTP status codes](#http-status-codes),
+[parameters](#parameters), [REST API](#rest-api)
+
+**Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
 ---
 
@@ -140,12 +369,12 @@ information
 application programming interface - one of the most widely used
 approaches for building web-based APIs
 
-**What it is**: an architectural style for distributed hypermedia systems,
-first presented by Roy Fielding in 2000; REST is a convention,
-not a regulated standard, used by APIs exposed through HTTP/HTTPS web
+**REST isn't a regulated standard**, but an architectural style for
+distributed hypermedia systems, first presented by Roy Fielding in 2000;
+REST is a convention, used by APIs exposed through HTTP/HTTPS web
 services to exchange data
 
-**Key characteristics:**
+**Key characteristics**:
 
 - **Client-server architecture**: assumes "clients," resource users,
 and "servers," resource providers
@@ -155,27 +384,34 @@ servers provide only self-contained resources
 - **Uniform interface**: standardized way of communicating between
 client and server
 
-**How REST APIs work**:
-
-REST APIs use HTTP methods to perform actions on resources:
+**REST APIs use HTTP methods**:
 
 | HTTP Method | Resource Action |
-|-------------|-----------------|
-| GET | Read resource |
-| POST | Create a new resource |
-| PUT/PATCH | Update a resource |
-| DELETE | Delete a resource |
+| ------------- | ----------------- |
+| `GET` | Read resource |
+| `POST` | Create a new resource |
+| `PUT/PATCH` | Update a resource |
+| `DELETE` | Remove a resource |
 
-**HTTP Protocol**: synchronous request/response protocol,
-webhooks can support asynchronous interactions
+#### HTTP protocol
 
-**Resource identification**:
+- synchronous request/response protocol
+- webhooks can support asynchronous interactions
+- visit full term entries [HTTP](#hypertext-transfer-protocol-http)
+and [HTTPS](#hypertext-transfer-protocol-secure-https)
+for more information
 
-- **URI, Uniform Resource Identifier**: Identifies a resource,
-but doesn't necessarily locate it
-- **URL, Uniform Resource Locator**: Locates a resource on the web
-and identifies what to access in your HTTP request, which
-contains the how, where, and what
+#### Uniform Resource Identifier (URI)
+
+- resource identification concept
+- identifies a resource, but doesn't necessarily locate it
+
+#### Uniform Resource Locator (URL)
+
+- resource identification concept
+- locates a resource on the web and identifies what to access
+in the HTTP request
+- contains the how, where, and what
 
 **Example request**:
 
@@ -215,23 +451,27 @@ resource formatted as a JSON document:
 }
 ```
 
-**JSON, JavaScript Object Notation**:
+#### JavaScript Object Notation (JSON)
 
 - Describes data using text characters in name-value pairs
 - Consists of objects, arrays, properties, and values
 - Objects contain properties; properties have values
-- Values can be objects, arrays, numbers, Boolean values, or character strings
+- Values can be objects, arrays, numbers, Boolean values,
+or character strings
 - Generally, a JSON document contains one object
-- Note: JSON isn't the only format REST APIs can use
+- _**Note**: JSON isn't the only format REST APIs can use_
 
-**Related Terms**: API, HTTP, HTTPS
+**Related Terms**: [API](#api), [API endpoint](#api-endpoint),
+[HTTP](#hypertext-transfer-protocol-http),
+[HTTP status codes](#http-status-codes),
+[parameters](#parameters), [request/response](#requestresponse)
 
 **Sources**:
 
-- UW API Docs - Module 5, Lesson 1, "REST API Fundamentals"
-- [What is REST?](https://restfulapi.net/)
+- UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
+- ["What is REST?" by Lokesh Gupta](https://restfulapi.net/)
 
----
+==========================================================================================
 
 ## Documentation-specific concepts
 
@@ -279,7 +519,11 @@ be significant
 | Conceptual | Learn | Teach |
 | Reference | Delivery, Maintenance | Assist |
 
-**Source**: UW API Docs - Module 6, Lesson 1, "API Documentation Overview Topics"
+**Related Terms**: [API reference topic](#api-reference-topic),
+[market](frameworks-strategy.md#market),
+[sales collateral](frameworks-strategy.md#sales-collateral)
+
+**Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
 
 ---
 
@@ -316,9 +560,10 @@ suitability
 | Examples | Sample requests and responses |
 | Related links | Navigation to related topics |
 
-**Related Terms**: API Overview Topic, OpenAPI Specification
+**Related Terms**: [API overview topic](#api-overview-topic),
+[OpenAPI specification (OAS)](#openapi-specification-oas)
 
-**Source**: UW API Docs - Module 6, Lesson 1, "API Documentation Overview Topics"
+**Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
 
 ---
 
@@ -359,23 +604,12 @@ it requires interpretation before it can become either
 | `parameters` | URL and query parameters - URL parameters appear in the path itself |
 | `responses` | All possible HTTP responses for requests to this path |
 
-**Related terms**: REST APIs, API Reference Topic
+**Related terms**: [API](#api), [API reference topic](#api-reference-topic),
+[REST API](#rest-api)
 
 **Sources**:
 
-- UW API Docs - Module 5, Lesson 2, "Open API specification (OAS) documents"
+- UW API Docs: Module 5, Lesson 2, "Open API specification (OAS) documents"
 - [Wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
 
 ---
-
-<!-- Todo: determine if these terms are needed
-## Supporting technical concepts
-
-### Request/response
-
-### Endpoints
-
-### Parameters
-
-### Status codes
---->
