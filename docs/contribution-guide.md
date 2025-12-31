@@ -192,9 +192,9 @@ if changes still don't appear.
 
 ---
 
-## Related topics
+## MIT License
 
-- [Introduction](introduction.md): find a path through the glossary
-- [Getting Started](getting-started.md): explore glossary term entries
-- [Quick Reference](quick-reference.md): get a specific term refresher
-- [Style Guide](style-guide.md): identify contribution content standards
+_By contributing to this project, you agree to contribution license
+under the MIT License; visit the [LICENSE](..//LICENSE) for details_
+
+---
