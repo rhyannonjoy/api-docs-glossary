@@ -195,6 +195,6 @@ if changes still don't appear.
 ## MIT License
 
 _By contributing to this project, you agree to contribution license
-under the MIT License; visit the [LICENSE](..//LICENSE) for details_
+under the MIT License; visit the [LICENSE](../LICENSE) for details_
 
 ---

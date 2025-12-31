@@ -107,6 +107,4 @@ api-docs-glossary/
 ## License
 
 This project is open source and available under the MIT License,
-visit the
-[LICENSE](https://github.com/rhyannonjoy/api-docs-glossary/LICENSE)
-for details.
+visit the [LICENSE](LICENSE) for details.
