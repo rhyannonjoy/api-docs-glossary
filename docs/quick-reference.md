@@ -246,6 +246,16 @@ groups of people or personas using products
 
 ---
 
+### event-driven
+
+- architectural pattern where actions trigger in response to
+specific events
+- reduces unnecessary network traffic and server load
+
+**Glossary Term Entry Location**: [API Types & Architectures - event-driven](api-types-architectures.md#event-driven)
+
+---
+
 ## F
 
 ---

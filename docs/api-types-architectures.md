@@ -4,7 +4,28 @@
 Different architectural patterns and protocols for building APIs.
 Understanding these API types helps documentarians choose appropriate
 documentation approaches, explain implementation differences to users,
-and recognize when standard REST documentation patterns don't apply.
+and recognize when standard REST documentation conventions don't apply.
+
+---
+
+## event-driven
+
+**Definition**: architectural pattern where actions trigger in response
+to specific events rather than through continuous polling or scheduled
+intervals
+
+**Purpose**: improves efficiency and responsiveness by processing only
+when relevant changes occur; reduces unnecessary network traffic and
+server load
+
+**Example**: a webhook API notifies an e-commerce system when payment
+completes, triggering immediate order fulfillment rather than checking
+payment status every few minutes
+
+**Related Terms**: [API](core-concepts.md#api), [real-time](#real-time),
+[webhook API](#webhook-api), [WebSocket API (WebSockets)](#websocket-api-websockets)
+
+**Source**: [Amazon Web Service, Inc., (AWS): "What is an Event-Driven Architecture?"](https://aws.amazon.com/event-driven-architecture/)
 
 ---
 
@@ -29,7 +50,6 @@ requesting:
 
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint),
-[REST API](core-concepts.md#rest-api),
 [schema (Schema Object)](core-concepts.md#schema-schema-object)
 
 **Source**: [The GraphQL Foundation: "Learn GraphQL"](https://graphql.org/learn/)
@@ -51,7 +71,7 @@ messages rather than JSON
 
 **Related Terms**: [API](core-concepts.md#api), HTTP/2,
 [Protocol Buffers](tools-techniques.md#protocol-buffers),
-[REST API](core-concepts.md#rest-api), serialization
+serialization
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
 
@@ -69,7 +89,7 @@ dashboards
 **Example**: a WebSocket API delivers stock price changes to trading
 applications within milliseconds of market movements
 
-**Related Terms**: event-driven,
+**Related Terms**: [event-driven](#event-driven),
 [webhook API](api-types-architectures.md#webhook-api),
 [WebSocket API (WebSockets)](api-types-architectures.md#websocket-api-websockets)
 
@@ -97,7 +117,7 @@ automatically run tests
 
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint),
-event-driven, [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
+[event-driven](#event-driven), [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
 POST, [real-time](#real-time)
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
@@ -119,9 +139,9 @@ collaborative tools
 to receive price updates instantly as they occur, rather than polling the
 server every few seconds
 
-**Related Terms**: [API](core-concepts.md#api),
+**Related Terms**: [API](core-concepts.md#api), [event-driven](#event-driven),
 [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
-[real-time](#real-time), [REST API](core-concepts.md#rest-api)
+[real-time](#real-time)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
