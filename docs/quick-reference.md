@@ -531,6 +531,16 @@ that mimic humans’ use of language
 
 ---
 
+### Protocol Buffers
+
+- developed by Google
+- language and platform neutral mechanism for serializing structured data
+- enables strongly typed contracts between services
+
+**Glossary Term Entry Location**: [Tools & Techniques - Protocol Buffers](tools-techniques.md#protocol-buffers)
+
+---
+
 ### pull
 
 - version control concept
