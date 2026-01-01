@@ -58,6 +58,7 @@ Most terms live in existing category files. To add a new term:
 1. Identify which category file the term belongs in:
    - `quick-reference.md` - Common terms, concise definitions
    - `core-concepts.md` - Fundamental API documentation concepts
+   - `api-types-architectures.md` - Different architectural patterns and protocols
    - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
    - `tools-techniques.md` - Tools, software, methods
    - `workflows-methodologies.md` - Development, documentation workflows for API projects

@@ -92,6 +92,7 @@ The scope identifies which glossary section the changes impact:
 
 - glossary term category names:
     - `core-concepts`
+    - `api-types-architectures`
     - `ai-and-apis`
     - `tools-techniques`
     - `workflows-methodologies`
