@@ -512,6 +512,29 @@ documentation generation
 
 ---
 
+## Protocol Buffers
+
+**Definition**: language and platform neutral mechanism for serializing
+structured data developed by Google; uses `.proto` files to define data
+schemas that compile into efficient binary format
+
+**Purpose**: "like JSON, except smaller and faster, and it generates
+native language bindings" -  provides compact, fast serialization for gRPC
+APIs and other high-performance systems; enables strongly typed contracts
+between services
+
+**Example**: a `.proto` file defines a user message with fields like
+`string_name` and `int32_id`, which compiles into classes for many
+programming languages
+
+**Related Terms**: [API](core-concepts.md#api),
+[gRPC API](api-types-architectures.md#graphql-api),
+serialization, schema
+
+**Source**: [Google, LLC: Protocol Buffers Documentation: "Overview"](https://protobuf.dev/overview/)
+
+---
+
 ## pull
 
 **Definition**: version control concept and Git feature; fetch changes

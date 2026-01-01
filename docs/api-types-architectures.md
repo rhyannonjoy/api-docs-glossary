@@ -49,7 +49,8 @@ safety matter more than human readability
 `ProcessPayment()` that accept and return strongly typed Protocol Buffers
 messages rather than JSON
 
-**Related Terms**: [API](core-concepts.md#api), HTTP/2, Protocol Buffers,
+**Related Terms**: [API](core-concepts.md#api), HTTP/2,
+[Protocol Buffers](tools-techniques.md#protocol-buffers),
 [REST API](core-concepts.md#rest-api), serialization,
 schema
 
