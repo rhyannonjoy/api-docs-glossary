@@ -779,3 +779,41 @@ before pushing to remote repositories
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
+
+## XML
+
+**Definition**: acronym for Extensible Markup Language; a text-based
+format for representing structured data using tags like HTML,
+commonly used for data exchange in APIs and configuration files
+
+**Purpose**: provides a standardized way to encode documents and data
+that's both human-readable and machine-parsable; while JSON has
+essentially replaced XML in modern REST APIs, XML remains important
+in enterprise systems, SOAP APIs, and legacy integrations
+
+**Example**: representing a user in XML format
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <id>123</id>
+  <firstName>Jane</firstName>
+  <lastName>Doe</lastName>
+  <email>jane.doe@example.com</email>
+</user>
+```
+
+| Aspect | XML | JSON |
+| ---------------- | ---------------- | ---------------- |
+| Syntax | Tag-based with opening/closing tags | Key-value pairs with braces |
+| Verbosity | More verbose | More concise |
+| Data types | Everything is text | Supports numbers, booleans, `null` |
+| Common use | SOAP APIs, enterprise systems | REST APIs, web applications |
+
+**Related Terms**: [JSON](core-concepts.md#javascript-object-notation-json),
+[REST API](core-concepts.md#rest-api),
+[serialization](core-concepts.md#serialization), SOAP API
+
+**Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)
+
+---
