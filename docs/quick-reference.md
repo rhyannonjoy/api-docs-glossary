@@ -578,6 +578,15 @@ to its origin repository
 
 ---
 
+### real-time
+
+- describes systems and/or APIs that process data with minimal delay
+- supports use cases requiring instant updates
+
+**Glossary Term Entry Location**: [Core Concepts - real-time](core-concepts.md#real-time)
+
+---
+
 ### rebase
 
 - version control concept
