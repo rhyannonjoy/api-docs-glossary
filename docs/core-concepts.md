@@ -391,6 +391,28 @@ for age field
 
 ---
 
+### serialization
+
+**Definition**: the process of converting data structures and/or objects
+into a format appropriate for network transmission or storage,
+then reconstructed later
+
+**Purpose**: enables data exchange between systems by transforming
+programming language objects into formats like JSON, XML, or binary
+that can travel across network boundaries
+
+**Example**: serializing a JavaScript user object `{name: "Alice", age: 30}`
+into JSON string `{"name":"Alice", "age":30}` before sending it in an
+API request
+
+**Related Terms**: [JSON](#javascript-object-notation-json),
+[protocol buffers](tools-techniques.md#protocol-buffers),
+XML
+
+**Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
+
+---
+
 ### REST API
 
 **Definition**: acronym for *RE*presentational State Transfer

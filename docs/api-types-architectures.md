@@ -71,7 +71,7 @@ messages rather than JSON
 
 **Related Terms**: [API](core-concepts.md#api), HTTP/2,
 [Protocol Buffers](tools-techniques.md#protocol-buffers),
-serialization
+[serialization](core-concepts.md#serialization)
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
 
