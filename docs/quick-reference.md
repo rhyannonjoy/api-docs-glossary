@@ -701,6 +701,16 @@ relationships within an API's requests and responses
 
 ---
 
+### serialization
+
+- process of converting data structures and/or objects for
+network transmission or storage, then reconstruction
+- enables data exchange between systems
+
+**Glossary Term Entry Location**: [Core Concepts - serialization](core-concepts.md#serialization)
+
+---
+
 ### skunkworks
 
 - used in business, engineering, and technical fields to describe a group
