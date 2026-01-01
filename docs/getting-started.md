@@ -15,11 +15,12 @@ updated as the field evolves.
 ## Glossary Structure
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
-Explore terms across six main categories:
+Explore terms across seven main categories:
 
 | Category | What's Covered |
 | ---------- | ---------------- |
 | **API Fundamentals** | Core concepts: REST APIs, API security, different doc formats |
+| **API Types & Architectures** | Different architectural patterns and protocols for building APIs |
 | **AI & APIs** | Artificial intelligence concepts relevant to modern API documentation: generative AI, LLMs, machine learning |
 | **Tools & Technologies** | API documentation tools: cURL, Postman, Git/GitHub, Markdown |
 | **Workflows & Methodologies** | Project management approaches relevant to documentation: Agile, Document Development Life Cycle, usability testing |
@@ -37,7 +38,7 @@ Explore terms across six main categories:
 - **Alphabetical index**: Browse the [Quick Reference](quick-reference.md)
 for a complete alphabetical list with brief definitions
 - **Browse by topic**: From fundamentals to modern frameworks,
-review terms across six categories
+review terms across seven categories
 
 ### Term Entry Structure
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->

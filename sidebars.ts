@@ -13,6 +13,7 @@ const sidebars: SidebarsConfig = {
     'getting-started',
     'quick-reference',
     'core-concepts',
+    'api-types-architectures',
     'ai-and-apis',
     'tools-techniques',
     'workflows-methodologies',

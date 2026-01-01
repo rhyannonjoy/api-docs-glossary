@@ -21,6 +21,8 @@ for more information.
 core concepts, REST APIs, security
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
 OpenAPI specification, overview topic, reference topic
+- [API Types & Architectures](https://rhyannonjoy.github.io/api-docs-glossary/docs/api-types-architectures):
+GraphQL, gRPC, Webhook, WebSocket
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
 artificial intelligence in API documentation
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
