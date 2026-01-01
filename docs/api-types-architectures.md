@@ -6,8 +6,6 @@ Understanding these API types helps documentarians choose appropriate
 documentation approaches, explain implementation differences to users,
 and recognize when standard REST documentation patterns don't apply.
 
-<!-- TODO: add WebSocket API, Webhook API-->
-
 ---
 
 ## GraphQL API
@@ -60,6 +58,7 @@ schema
 ---
 
 ## webhook API
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **Definition**: pattern where a service sends HTTP `POST` requests to
 client-specified URLs when specific events occur, enabling event-driven
@@ -79,5 +78,28 @@ event-driven, [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
 POST
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
+
+---
+
+## WebSocket API (WebSockets)
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+
+**Definition**: maintains persistent, bidirectional connections between
+client and server, enabling real-time data exchange without repeated
+HTTP requests
+
+**Purpose**: supports live updates, streaming data, and instant communication;
+essential for chat applications, live dashboards, multiplayer games, and
+collaborative tools
+
+**Example**: a stock trading dashboard maintains a WebSocket connection
+to receive price updates instantly as they occur, rather than polling the
+server every few seconds
+
+**Related Terms**: [API](core-concepts.md#api),
+[HTTP](core-concepts.md#hypertext-transfer-protocol-http),
+real-time, [REST API](core-concepts.md#rest-api)
+
+**Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 ---
