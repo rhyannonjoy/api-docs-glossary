@@ -1,10 +1,12 @@
 # Frameworks & Strategy
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
-Conceptual models and strategic approaches for API documentation work.
-This section covers frameworks for understanding API usability, developer
-personas, organizational contexts, and market dynamics that inform how
-documentation teams plan their work.
+Meta-level frameworks and strategic approaches for API documentation work.
+This section covers evaluation frameworks for API usability, developer
+personas, organizational contexts, and market dynamics—the conceptual
+models that inform how documentation teams plan and execute their work.
+For technical API architectures and implementation
+patterns, see [API Types & Architectures](api-types-architectures.md).
 
 **Explore the cognitive dimensions framework**:
 
