@@ -58,3 +58,26 @@ schema
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
 
 ---
+
+## webhook API
+
+**Definition**: pattern where a service sends HTTP `POST` requests to
+client-specified URLs when specific events occur, enabling event-driven
+integrations
+
+**Purpose**: eliminates constant polling by pushing data to clients only
+when relevant events happen; commonly used for notifications, integrations,
+and workflow automation
+
+**Example**: GitHub sends a webhook `POST` request to a specified URL
+whenever someone opens a pull request, allowing CI/CD systems to
+automatically run tests
+
+**Related Terms**: [API](core-concepts.md#api),
+[API endpoint](core-concepts.md#api-endpoint),
+event-driven, [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
+POST
+
+**Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
+
+---

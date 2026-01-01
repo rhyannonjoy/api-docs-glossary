@@ -747,6 +747,16 @@ a group of representative users
 
 ---
 
+### webhook API
+
+- pattern that enables event-driven integrations
+- service sends a `POST` request to client-specified URLs
+when specific events occur
+
+**Glossary Term Entry Location**: [API Types & Architectures - webhook API](api-types-architectures.md#webhook-api)
+
+---
+
 ### workspace
 
 - local computer directory that stores cloned repositories
