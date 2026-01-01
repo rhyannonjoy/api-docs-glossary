@@ -6,7 +6,37 @@ Understanding these API types helps documentarians choose appropriate
 documentation approaches, explain implementation differences to users,
 and recognize when standard REST documentation patterns don't apply.
 
-<!-- TODO: add GraphQL API, WebSocket API, Webhook API-->
+<!-- TODO: add WebSocket API, Webhook API-->
+
+---
+
+## GraphQL API
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+
+**Definition**: uses GraphQL, _Graph Query Language_ - to let clients
+request exactly the data they need through a single endpoint with
+a strongly typed schema
+
+**Purpose**: reduces over-fetching and under-fetching of data by
+allowing clients to specify their exact requirements; particularly
+valuable for complex, interconnected data models
+
+**Example**: instead of calling `/users/123`, `/users/123/posts`, and
+`/users/123/followers` separately, a client queries one endpoint
+requesting:
+
+```graphQL
+`{ user(id: 123) { name, posts { title }, followers { name } } }`
+```
+
+**Related Terms**: [API](core-concepts.md#api),
+[API endpoint](core-concepts.md#api-endpoint),
+[REST API](core-concepts.md#rest-api),
+schema
+
+**Source**: [The GraphQL Foundation: "Learn GraphQL"](https://graphql.org/learn/)
+
+---
 
 ## gRPC API
 

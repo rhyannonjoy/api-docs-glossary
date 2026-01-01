@@ -326,6 +326,16 @@ Unix Bash command line
 
 ---
 
+### GraphQL API
+
+- uses GraphQL, _Graph Query Language_ - to enable clients
+to request exactly the data they need through a single endpoint
+- valuable for complex, interconnected data models
+
+**Glossary Term Entry Location**: [API Types & Architectures - GraphQL API](api-types-architectures.md#graphql-api)
+
+---
+
 ### gRPC API
 
 - uses gRPC - _Google's Remote Procedure Call_ - framework
