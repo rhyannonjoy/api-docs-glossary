@@ -757,6 +757,15 @@ when specific events occur
 
 ---
 
+### WebSocket API (WebSockets)
+
+- enables real-time data exchange without repeated HTTP requests
+- maintains persistent, client and server bidirectional connections
+
+**Glossary Term Entry Location**: [API Types & Architectures - WebSocket API (WebSockets)](api-types-architectures.md#websocket-api-websockets)
+
+---
+
 ### workspace
 
 - local computer directory that stores cloned repositories
