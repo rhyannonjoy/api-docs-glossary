@@ -326,6 +326,15 @@ Unix Bash command line
 
 ---
 
+### gRPC API
+
+- uses gRPC - _Google's Remote Procedure Call_ - framework
+- relies on Protocol Buffers  
+
+**Glossary Term Entry Location**: [API Types & Architectures - gRPC API](api-types-architectures.md#grpc-api)
+
+---
+
 ### guerilla usability testing (GUT)
 
 - way to assess how effective an interface is by testing out
