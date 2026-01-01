@@ -822,3 +822,17 @@ when specific events occur
 **Glossary Term Entry Location**: [Tools & Techniques - workspace](tools-techniques.md#workspace)
 
 ---
+
+## X
+
+---
+
+### XML
+
+- acronym for Extensible Markup Language
+- commonly used for data exchange in APIs and configuration files
+- essentially replaced by JSON, but remains in legacy integrations
+
+**Glossary Term Entry Location**: [Tools & Techniques - XML](tools-techniques.md#xml)
+
+---

@@ -407,7 +407,7 @@ API request
 
 **Related Terms**: [JSON](#javascript-object-notation-json),
 [protocol buffers](tools-techniques.md#protocol-buffers),
-XML
+[XML](tools-techniques.md#xml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
 
