@@ -2,8 +2,9 @@
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Essential terms and concepts for API documentation. This section defines
-the key terminology encountered when documenting REST APIs, from basic
-architecture to documentation standards.
+foundational terminology encountered when documenting APIs, from basic
+architectural principles to documentation standards that apply across
+different API types.
 
 **API documentation stages and user journeys**:
 
