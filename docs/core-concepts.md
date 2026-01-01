@@ -365,6 +365,32 @@ Content-Type: application/json
 
 ---
 
+### schema (Schema Object)
+
+**Definition**: also know as the Schema Object, the formal definition that
+describes the structure, data types, constraints, and relationships within
+an API's requests and responses
+
+**Purpose**: enables validation, auto-generated documentation, and type
+safety; helps both API providers and consumers understand exactly what
+data format to expect
+
+**Example**: an OpenAPI schema defines that a `POST` `/users` endpoint
+requires a request body with string type for email field and integer type
+for age field
+
+**Related Terms**: [API](#api), [API endpoint](#api-endpoint),
+[GraphQL API](api-types-architectures.md#graphql-api),
+[OpenAPI specification](#openapi-specification-oas),
+[request/response](#requestresponse), validation
+
+**Sources**:
+
+- [Geeks for Geeks: "What is API Schema?"](https://www.geeksforgeeks.org/websites-apps/what-is-api-schema/)
+- [OpenAPI Initiative, Specification v3.2.0: "Schema Object"](https://spec.openapis.org/oas/latest.html#schema-object)
+
+---
+
 ### REST API
 
 **Definition**: acronym for *RE*presentational State Transfer
@@ -638,7 +664,7 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[REST API](#rest-api)
+[REST API](#rest-api), [schema (Schema Object)](#schema-schema-object)
 
 **Sources**:
 
