@@ -98,7 +98,7 @@ server every few seconds
 
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
-real-time, [REST API](core-concepts.md#rest-api)
+[real-time](core-concepts.md#real-time), [REST API](core-concepts.md#rest-api)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
