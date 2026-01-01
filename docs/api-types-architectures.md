@@ -30,7 +30,7 @@ requesting:
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint),
 [REST API](core-concepts.md#rest-api),
-schema
+[schema (Schema Object)](core-concepts.md#schema-schema-object)
 
 **Source**: [The GraphQL Foundation: "Learn GraphQL"](https://graphql.org/learn/)
 
@@ -51,8 +51,7 @@ messages rather than JSON
 
 **Related Terms**: [API](core-concepts.md#api), HTTP/2,
 [Protocol Buffers](tools-techniques.md#protocol-buffers),
-[REST API](core-concepts.md#rest-api), serialization,
-schema
+[REST API](core-concepts.md#rest-api), serialization
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
 
