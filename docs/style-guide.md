@@ -397,7 +397,8 @@ If the term doesn't fit existing categories and warrants a new one:
 2. Add a category overview following this format:
 
    ```markdown
-   # Category name
+   # Category Name
+   <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
    
    Brief description of what this category covers. This section explains
    the scope and purpose, helping readers understand what types of terms
@@ -406,7 +407,7 @@ If the term doesn't fit existing categories and warrants a new one:
 
    ```markdown
    <!-- Example overview with value proposition -->
-   # Tools & techniques
+   # Tools & Techniques
    
    Essential tools and methods for API documentation workflows.
    From version control to interactive documentation generators,
@@ -415,9 +416,44 @@ If the term doesn't fit existing categories and warrants a new one:
    ```
 
 3. Add the term and/or terms using the format described in
-[Add a new glossary term](#add-a-new-glossary-term)
-4. Add the new file to `sidebars.ts` in the logical position within the array
-5. Test the navigation locally with `npm start` to ensure the new category
-appears correctly
+[Add a new glossary term section](#add-a-new-glossary-term)
+4. Add the new file to `sidebars.ts` in the logical position within the array:
+  
+   ```typescript
+   items: [
+     'quick-reference',
+     'core-concepts',
+     'api-types-architectures', // New category added here
+     'ai-and-apis',
+     'tools-techniques',
+     // ... other categories
+   ],
+   ```
+
+5. Update this `style-guide.md` by adding the new term category to the list in
+the [Add a new glossary term section](#add-a-new-glossary-term):
+
+    ```markdown
+   1. Identify which category file the term belongs in:
+   
+   - `quick-reference.md` - Common terms, concise definitions
+   - `core-concepts.md` - Fundamental API documentation concepts
+   - `api-types-architectures.md` - Different architectural patterns and protocols
+   - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
+   <!--> ... continue list-->
+   ```
+
+6. Update the `contribution-guide.md` by adding the new term category to any lists
+or descriptions of the glossary structure
+7. Update `getting-started.md` by adding the new term category to any lists or
+descriptions of the glossary structure
+8. Update the `README.md` by adding the new category to the `Topics` section with
+a brief description of the category contents and a link to its
+documentation page
+9. Test the navigation locally with `npm start` to ensure:
+
+   - the new category appears correctly in navigation
+   - all links work properly
+   - the new category is accessible from all relevant locations
 
 ---
