@@ -246,6 +246,16 @@ groups of people or personas using products
 
 ---
 
+### event-driven
+
+- architectural pattern where actions trigger in response to
+specific events
+- reduces unnecessary network traffic and server load
+
+**Glossary Term Entry Location**: [API Types & Architectures - event-driven](api-types-architectures.md#event-driven)
+
+---
+
 ## F
 
 ---
@@ -583,7 +593,7 @@ to its origin repository
 - describes systems and/or APIs that process data with minimal delay
 - supports use cases requiring instant updates
 
-**Glossary Term Entry Location**: [Core Concepts - real-time](core-concepts.md#real-time)
+**Glossary Term Entry Location**: [API Types & Architectures - real-time](api-types-architectures.md#real-time)
 
 ---
 

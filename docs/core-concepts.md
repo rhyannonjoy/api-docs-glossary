@@ -300,29 +300,6 @@ Breaking down the parameters:
 
 ---
 
-### real-time
-
-**Definition**: describes systems and/or APIs that process and deliver data
-with minimal delay, enabling immediate responses to events as they occur
-
-**Purpose**: supports use cases requiring instant updates like live
-notifications, streaming data, collaborative editing, and monitoring
-dashboards
-
-**Example**: a WebSocket API delivers stock price changes to trading
-applications within milliseconds of market movements
-
-**Related Terms**: event-driven,
-[webhook API](api-types-architectures.md#webhook-api),
-[WebSocket API (WebSockets)](api-types-architectures.md#websocket-api-websockets)
-
-**Sources**:
-
-- [Mozilla Corporation, MDN: "WebRTC API (Web Real-time Communication)"](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
-- [Wikipedia: "Real-time computing"](https://en.wikipedia.org/wiki/Real-time_computing)
-
----
-
 ### request/response
 
 **Definition**: the two-part communication pattern in API interactions
