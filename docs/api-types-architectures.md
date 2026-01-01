@@ -57,6 +57,29 @@ messages rather than JSON
 
 ---
 
+## real-time
+
+**Definition**: describes systems and/or APIs that process and deliver data
+with minimal delay, enabling immediate responses to events as they occur
+
+**Purpose**: supports use cases requiring instant updates like live
+notifications, streaming data, collaborative editing, and monitoring
+dashboards
+
+**Example**: a WebSocket API delivers stock price changes to trading
+applications within milliseconds of market movements
+
+**Related Terms**: event-driven,
+[webhook API](api-types-architectures.md#webhook-api),
+[WebSocket API (WebSockets)](api-types-architectures.md#websocket-api-websockets)
+
+**Sources**:
+
+- [Mozilla Corporation, MDN: "WebRTC API (Web Real-time Communication)"](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
+- [Wikipedia: "Real-time computing"](https://en.wikipedia.org/wiki/Real-time_computing)
+
+---
+
 ## webhook API
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
@@ -75,7 +98,7 @@ automatically run tests
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint),
 event-driven, [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
-POST
+POST, [real-time](#real-time)
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
 
@@ -98,7 +121,7 @@ server every few seconds
 
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
-[real-time](core-concepts.md#real-time), [REST API](core-concepts.md#rest-api)
+[real-time](#real-time), [REST API](core-concepts.md#rest-api)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 

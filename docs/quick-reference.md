@@ -583,7 +583,7 @@ to its origin repository
 - describes systems and/or APIs that process data with minimal delay
 - supports use cases requiring instant updates
 
-**Glossary Term Entry Location**: [Core Concepts - real-time](core-concepts.md#real-time)
+**Glossary Term Entry Location**: [API Types & Architectures - real-time](api-types-architectures.md#real-time)
 
 ---
 
