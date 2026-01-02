@@ -6,23 +6,6 @@ foundational terminology encountered when documenting APIs, from basic
 architectural principles to documentation standards that apply across
 different API types.
 
-**API documentation stages and user journeys**:
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Docs
-    
-    User->>Docs: First visit → Getting Started
-    Docs-->>User: overview, quickstart
-    User->>Docs: Learn more → task-based
-    Docs-->>User: tutorials, examples
-    User->>Docs: Need details → Reference
-    Docs-->>User: endpoints, parameters
-    User->>Docs: Need help → Support
-    Docs-->>User: FAQ, troubleshooting
-```
-
 ---
 
 ## API Fundamentals
@@ -34,36 +17,50 @@ sequenceDiagram
 
 **Definition**: acronym for _application programming interface_
 
-**Purpose**: enables resource sharing - how one program or service uses
-the resources of another program or service, in which the resources
-are program functions, data, or shared devices that with
-other computers
-
-**Understanding API components**:
-
+- **Application**: software for end-users -
+not operating, administering or programming a computer
 - **Program**: sequence of instructions for a computer to perform,
 often stored in a file
 - **Interface**: program that runs on a computer and provides resources
 for other computers, programs, or services, also known as
 the server
 
+**Purpose**: enables resource sharing - how one program or service uses
+the resources of another program or service, in which the resources
+are program functions, data, or shared devices that with
+other computers
+
 **Every API description must describe**:
 
-- **What the program wants**: procedure name, URL of resource
-- **Where they want it from**: address/location of the procedure or resource
-- **How they want it**: parameters to change or specify aspects of the request;
+- _What the program wants_: procedure name, URL of resource
+- _Where they want it from_: address/location of the procedure or resource
+- _How they want it_: parameters to change or specify aspects of the request;
 response must be predictable for the program to use it effectively
 
 **Why documentation matters**:
 
-- Acts as the contract between resources and programs using them
-- Without documentation, crossing the interface likely fails
-- Enables programmers to contruct correct code
-- Prevents developers from needing to reverse-engineer, which is
+- acts as the contract between resources and programs using them
+- without documentation, crossing the interface likely fails
+- enables programmers to contruct correct code
+- prevents developers from needing to reverse-engineer, which is
 often prohibited by license
 
+**Example API request/response flow**:
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant API Server
+    participant Database
+    
+    Client->>API Server: GET /users/123
+    API Server->>Database: Query user data
+    Database-->>API Server: User record
+    API Server-->>Client: 200 OK + response
+```
+
 **Related Terms**: [API endpoint](#api-endpoint), [API security](#api-security),
-[REST API](#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -108,7 +105,7 @@ Breaking down this endpoint:
 
 **Related Terms**: [API](#api), [HTTP](#http-hypertext-transfer-protocol),
 [HTTP method](#http-method), [parameters](#parameters), [request/response](#requestresponse),
-[REST API](#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -259,7 +256,7 @@ and any relevant data
 [HTTPS](#https-hypertext-transfer-protocol-secure),
 [HTTP status codes](#http-status-codes),
 [HTTP versions](#http-versions),
-[REST API](#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -364,7 +361,7 @@ GET https://api.example.com/users/999
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http-hypertext-transfer-protocol),
-[request/response](#requestresponse), [REST API](#rest-api),
+[request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
 [validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
@@ -390,7 +387,7 @@ available in HTTP/1.1
 
 **Related Terms**: [gRPC API](api-types-architectures.md#grpc-api),
 [HTTP](#http-hypertext-transfer-protocol), [HTTPS](#https-hypertext-transfer-protocol-secure),
-[REST API](#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -473,7 +470,8 @@ with JavaScript
 | Configuration | Storing API settings and options |
 | Error messages | Structured error information |
 
-**Related Terms**: [REST API](#rest-api), [serialization](#serialization),
+**Related Terms**: [REST API](api-types-architectures.md#rest-api),
+[serialization](#serialization),
 [XML](tools-techniques.md#xml)
 
 **Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
@@ -522,7 +520,7 @@ Breaking down the parameters:
 - Description of what it does
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[request/response](#requestresponse), [REST API](#rest-api)
+[request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -650,7 +648,7 @@ Content-Type: application/json
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http-hypertext-transfer-protocol), [HTTP method](#http-method),
 [HTTP status codes](#http-status-codes), [parameters](#parameters),
-[REST API](#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -704,6 +702,20 @@ API request
 
 ---
 
+### Uniform Resource Identifier (URI)
+
+- resource identification concept
+- identifies a resource, but doesn't necessarily locate it
+
+### Uniform Resource Locator (URL)
+
+- resource identification concept
+- locates a resource on the web and identifies what to access
+in the HTTP request
+- contains the how, where, and what
+
+---
+
 ### validation
 
 **Definition**: process of checking whether data meets specified rules,
@@ -734,140 +746,10 @@ creating a user account
 
 ---
 
-### REST API
-
-**Definition**: acronym for *RE*presentational State Transfer
-application programming interface - one of the most widely used
-approaches for building web-based APIs
-
-**REST isn't a regulated standard**, but an architectural style for
-distributed hypermedia systems, first presented by Roy Fielding in 2000;
-REST is a convention, used by APIs exposed through HTTP/HTTPS web
-services to exchange data
-
-**Key characteristics**:
-
-- **Client-server architecture**: assumes "clients," resource users,
-and "servers," resource providers
-- **Stateless**: clients maintain the complete state of the interaction;
-servers provide only self-contained resources
-- **Cacheable**: resources saved locally to improve performance
-- **Uniform interface**: standardized way of communicating between
-client and server
-- **Commonly uses JSON**: due to its wide support in programming
-languages, REST APIs use JSON, but it's not required and also
-support other formats like XML
-
-**REST APIs use HTTP methods**:
-
-| HTTP Method | Resource Action |
-| ------------- | ----------------- |
-| `GET` | Read resource |
-| `POST` | Create a new resource |
-| `PUT/PATCH` | Update a resource |
-| `DELETE` | Remove a resource |
-
-#### HTTP protocol
-
-- synchronous request/response protocol
-- webhooks can support asynchronous interactions
-- visit full term entries [HTTP](#http-hypertext-transfer-protocol)
-and [HTTPS](#https-hypertext-transfer-protocol-secure)
-for more information
-
-#### Uniform Resource Identifier (URI)
-
-- resource identification concept
-- identifies a resource, but doesn't necessarily locate it
-
-#### Uniform Resource Locator (URL)
-
-- resource identification concept
-- locates a resource on the web and identifies what to access
-in the HTTP request
-- contains the how, where, and what
-
-**Example request**:
-
-```bash
-GET http://localhost:3000/users/2
-```
-
-Breaking down this URL:
-
-- **How:** Uses the `GET` method of the HTTP protocol
-- **Where:** From `localhost:3000` server
-- **What:** `users/2` instance of this resource
-
-```mermaid
-sequenceDiagram
-    participant Client
-    participant API Server
-    participant Database
-    
-    Client->>API Server: GET /users/123
-    API Server->>Database: Query user data
-    Database-->>API Server: User record
-    API Server-->>Client: 200 OK + JSON response
-```
-
-**Example response**:
-
-`GET` requests a user resource, and the response body contains the
-resource formatted as a JSON document:
-
-```json
-{
-  "id": 2,
-  "first_name": "Ferdinand",
-  "last_name": "Smith",
-  "email": "f.smith@example.com"
-}
-```
-
-**Related Terms**: [API](#api), [HTTP](#http-hypertext-transfer-protocol),
-[HTTP status codes](#http-status-codes), [JSON](#json),
-[parameters](#parameters), [request/response](#requestresponse)
-
-**Sources**:
-
-- UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
-- [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
-
----
-
-### REST vs *REST*ful
-
-**Definition**: terms are often used interchangeably, though technically
-"REST" refers to the architectural style itself while "RESTful"
-describes APIs that follow REST principles; in practice, both terms
-describe APIs that use HTTP methods, stateless communication, and
-resource-based URLs
-
-**Purpose**: understanding this distinction helps API documentation
-writers use consistent terminology; while some sources differentiate
-between the two, most modern API documentation treats them as synonyms;
-what matters is plainly explaining whether an API follows REST
-architectural constraints rather than debating terminology
-
-**Example**: documentation might say "this RESTful API uses HTTP methods"
-or "this REST API returns JSON responses" - both are acceptable; the key
-is explaining the API's behavior: stateless requests, resource-based
-endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
-`DELETE`
-
-**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http-hypertext-transfer-protocol),
-[REST API](#rest-api)
-
-**Sources**:
-
-- [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
-- [Roy Thomas Fielding's University of California Dissertation: Chapter 5 - "Representational State Transfer (REST)"](https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm)
-
----
-
 ## Documentation-specific Concepts
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+
+---
 
 ### API overview topic
 
@@ -883,27 +765,29 @@ information
 
 **Reader's goals**:
 
-- Become aware of the product
-- Learn more about the product
-- Navigate to other documentation about the product
+- become aware of the product
+- learn more about the product
+- navigate to other documentation about the product
 
 **Key characteristics**:
 
-- A value proposition, a tagline
-- Calls-to-action (CTA) as in "Get started," "Contact us,"
-and/or "Learn more"
-- Links to common destinations such as "Docs," "FAQ,"
+- a value proposition, a tagline
+- CTAs, call-to-action, as in "Get Started," "Contact Us,"
+and/or "Learn More"
+- links to common destinations such as "Docs," "FAQ,"
 "Reference," and/or "Support"
 
 **When designing user-centered API overview topics**:
 
-- Consider the audience and their goals, and consider
+- consider the audience and their goals, and consider
 many users, use cases and goals
-- How readers might use the overview topic, "might
+- how readers might use the overview topic, "might
 adding or removing this content help the reader
 achieve their goal?"
-- Determine how visual design and branding might
+- determine how visual design and branding might
 be significant
+
+**Topic &harr; Reader &harr; Doc Relationships**
 
 | Topic Type | Reader Goal | Doc Task |
 | --------- | --------- | ---------- |
@@ -912,6 +796,23 @@ be significant
 | Tutorials, Examples | Adoption, Application | Exhibit, Apply |
 | Conceptual | Learn | Teach |
 | Reference | Delivery, Maintenance | Assist |
+
+**API Documentation Stages &harr; User Journeys**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Docs
+    
+    User->>Docs: First visit → Getting Started
+    Docs-->>User: overview, quickstart
+    User->>Docs: Learn more → task-based
+    Docs-->>User: tutorials, examples
+    User->>Docs: Need details → Reference
+    Docs-->>User: endpoints, parameters
+    User->>Docs: Need help → Support
+    Docs-->>User: FAQ, troubleshooting
+```
 
 **Related Terms**: [API reference topic](#api-reference-topic),
 [market](frameworks-strategy.md#market),
@@ -999,7 +900,7 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[REST API](#rest-api), [schema (Schema Object)](#schema-schema-object)
+[REST API](api-types-architectures.md#rest-api), [schema (Schema Object)](#schema-schema-object)
 
 **Sources**:
 
