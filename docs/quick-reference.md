@@ -659,6 +659,16 @@ to its origin repository
 
 ---
 
+### `PUT`
+
+- HTTP method
+- replaces an existing resource with new data
+- creates a resource at a specific URL if it doesn't exist
+
+**Glossary Term Entry Location**: [Core Concepts - `PUT`](core-concepts.md#put)
+
+---
+
 ## R
 
 ---
