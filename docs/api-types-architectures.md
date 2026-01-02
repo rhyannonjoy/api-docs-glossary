@@ -134,6 +134,7 @@ requirements, and transaction guarantees
 | Common use | Enterprise, legacy systems | Modern web/mobile APIs |
 
 **Related Terms**: [API](core-concepts.md#api),
+[error handling](core-concepts.md#error-handling),
 [REST API](core-concepts.md#rest-api),
 [XML](tools-techniques.md#xml)
 

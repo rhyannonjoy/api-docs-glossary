@@ -135,9 +135,65 @@ that's included in a request header or request URL
 they claim to be by using techniques such as checking ID to
 verify identity
 
-**Related Terms**: [API](#api), [HTTPS](#hypertext-transfer-protocol-secure-https)
+**Related Terms**: [API](#api), [error handling](#error-handling),
+[HTTPS](#hypertext-transfer-protocol-secure-https)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
+
+---
+
+### error handling
+
+**Definition**: the process of anticipating, detecting, and responding
+to errors that occur during API operations; includes both how the API
+communicates errors and how clients should handle them
+
+**Purpose**: enables developers to build robust applications that
+gracefully handle failures, provide meaningful feedback to users, and
+recover from issues; good error handling documentation explains which
+errors can occur, what they mean, and how to resolve them
+
+**Example**: when a client sends invalid data in a `POST` request,
+the API returns a `400 Bad Request` status code with a JSON response
+body that specifies which fields are invalid and why:
+
+**Common Pattern**:
+
+```json
+{
+  "error": "Bad Request",
+  "message": "Invalid email format"
+}
+```
+
+_**Note**: This is the most widely used format, though field names vary
+`error`, `code`, `message`, etc._
+
+**RFC 9457:**
+
+```json
+{
+  "type": "https://api.example.com/errors/validation-error",
+  "title": "Validation Error",
+  "status": 400,
+  "detail": "Invalid email format",
+  "instance": "/users/123"
+}
+```
+
+_**Note**: This is a standardized format that provides machine-
+readable error types and more context; uses `application/problem+json`
+media type; less common but increasingly adopted by modern APIs;
+only required field is `type`, defaults to `"about:blank"`_
+
+**Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
+validation
+
+**Sources**:
+
+- [Baeldung: "Best Practices for REST API Error Handling"](https://www.baeldung.com/rest-api-error-handling-best-practices)
+- [IETF RFC 9457 - Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457.html)
+- [Mozilla Corporation, MDN: "HTTP response status codes"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ---
 
@@ -161,6 +217,7 @@ status code, such as `200` for success or `400` for a bad request,
 and any relevant data
 
 **Related Terms**: [API endpoint](#api-endpoint),
+[error-handling](#error-handling),
 [HTTPS](#hypertext-transfer-protocol-http),
 [HTTP status codes](#http-status-codes),
 [REST API](#rest-api)
@@ -252,7 +309,7 @@ GET https://api.example.com/users/999
 
 ---
 
-## idempotent
+### idempotent
 
 **Definition**: describes an operation that produces the same result
 regardless of how many times it's executed; making the same request
