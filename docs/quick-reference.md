@@ -397,6 +397,20 @@ intended audience and capturing their responses
 
 ---
 
+## I
+
+---
+
+### idempotent
+
+- describes an operation that produces the same result regardless
+of how many times it's executed
+- enables safe request retries without unintended side effects
+
+**Glossary Term Entry Location**: [Core Concepts - idempotent](core-concepts.md#idempotent)
+
+---
+
 ## L
 
 ---

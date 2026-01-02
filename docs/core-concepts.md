@@ -252,6 +252,37 @@ GET https://api.example.com/users/999
 
 ---
 
+## idempotent
+
+**Definition**: describes an operation that produces the same result
+regardless of how many times it's executed; making the same request
+many times has the same effect as making it once
+
+**Purpose**: enables safe request retries without unintended
+side effects; critical for network reliability when timeouts and/or
+connection issues risk request duplication
+
+**Example**: `DELETE /users/123` is idempotent as deleting the same user
+many times results in the same state: "user deleted" - while `POST /users`
+isn't idempotent, as posting the same user data many times creates
+many user records
+
+**HTTP methods & idempotency**:
+
+| Method | Idempotent | Reason |
+| ------ | ------ | ------ |
+| `GET` | Yes | Reading data doesn’t change server state |
+| `DELETE` | Yes | Deleting an already-deleted resource has same outcome |
+| `PATCH` | Depends | Partial updates may or may not be idempotent based on implementation |
+| `POST` | No | Creating resources many times produces different results |
+| `PUT` | Yes | Replacing a resource with the same data produces identical result |
+
+**Related Terms**: `DELETE`, `GET`, `HTTP method`, `PUT`
+
+**Source**: [IETF RFC 9110 - HTTP Semantics: Section 9.2.2](https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods)
+
+---
+
 ### parameters
 
 **Definition**: variables passed in API requests to specify or filter
