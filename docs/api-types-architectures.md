@@ -135,6 +135,7 @@ requirements, and transaction guarantees
 
 **Related Terms**: [API](core-concepts.md#api),
 [error handling](core-concepts.md#error-handling),
+[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
 [REST API](core-concepts.md#rest-api),
 [XML](tools-techniques.md#xml)
 
@@ -158,8 +159,8 @@ whenever someone opens a pull request, allowing CI/CD systems to
 automatically run tests
 
 **Related Terms**: [API](core-concepts.md#api),
-[API endpoint](core-concepts.md#api-endpoint),
-[event-driven](#event-driven), [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
+[API endpoint](core-concepts.md#api-endpoint), [event-driven](#event-driven),
+[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
 POST, [real-time](#real-time)
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
@@ -182,7 +183,7 @@ to receive price updates instantly as they occur, rather than polling the
 server every few seconds
 
 **Related Terms**: [API](core-concepts.md#api), [event-driven](#event-driven),
-[HTTP](core-concepts.md#hypertext-transfer-protocol-http),
+[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
 [real-time](#real-time)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
