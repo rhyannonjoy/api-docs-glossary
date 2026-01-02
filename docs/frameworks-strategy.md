@@ -128,6 +128,7 @@ and opportunistic developers need a five-minute "process your
 first payment" tutorial
 
 **Related Terms**: [domain knowledge](#domain-knowledge),
+[error handling](core-concepts.md#error-handling),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:

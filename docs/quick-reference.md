@@ -246,6 +246,16 @@ groups of people or personas using products
 
 ---
 
+### error handling
+
+- process of anticipating, detecting, and responding to errors that
+occur during API operations
+- enables developers to build robust applications
+
+**Glossary Term Entry Location**: [Core Concepts - error handling](core-concepts.md#error-handling)
+
+---
+
 ### event-driven
 
 - architectural pattern where actions trigger in response to
