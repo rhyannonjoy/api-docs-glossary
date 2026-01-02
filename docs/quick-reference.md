@@ -435,6 +435,18 @@ deletes data
 
 ---
 
+### HTTP versions
+
+- iterations of the Hypertext Transfer Protocol with different
+performance and feature capabilities
+- HTTP/1.1 (1997) uses sequential requests
+- HTTP/2 (2015) enables concurrent requests over one connection
+- HTTP/3 (2022) uses QUIC protocol for improved reliability
+
+**Glossary Term Entry Location**: [Core Concepts - HTTP versions](core-concepts.md#http-versions)
+
+---
+
 ## I
 
 ---
