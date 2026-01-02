@@ -305,6 +305,15 @@ to generate new content
 
 ---
 
+### `GET`
+
+- read-only HTTP method
+- the most common method for retrieving information
+
+**Glossary Term Entry Location**: [Core Concepts - `GET`](core-concepts.md#get)
+
+---
+
 ### Git
 
 - command-line program that executes version control functions
