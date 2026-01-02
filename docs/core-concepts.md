@@ -156,7 +156,7 @@ clean up resources through standardized HTTP operations
 with ID 123 from the system
 
 **Related Terms**: [`GET`](#get), [HTTP method](#http-method),
-`PATCH`, [`POST`](#post), [`PUT`](#put)
+[`PATCH`](#patch), [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "`DELETE` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
 
@@ -229,7 +229,7 @@ while ensuring the request remains safe and idempotent
 user with ID 123 without changing any data
 
 **Related Terms**: [`DELETE`](#delete), [HTTP method](#http-method),
-[idempotent](#idempotent), `PATCH`, [`POST`](#post), [`PUT`](#put)
+[idempotent](#idempotent), [`PATCH`](#patch), [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "`GET` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
 
@@ -279,7 +279,7 @@ deletes data
 updating whole resources, and `DELETE` for removing resources
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
-[HTTP](#http-hypertext-transfer-protocol),`PATCH`,
+[HTTP](#http-hypertext-transfer-protocol), [`PATCH`](#patch),
 [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
@@ -502,6 +502,28 @@ Breaking down the parameters:
 
 ---
 
+### `PATCH`
+
+**Definition**: HTTP method that applies partial modifications to
+an existing resource; sends only the fields that need updates
+rather than the entire resource
+
+**Purpose**: enables clients to update specific fields of a resource
+efficiently without sending unchanged data; reduces bandwidth usage
+and streamlines updates when only a few fields need modification
+
+**Example**: sending `PATCH /api/users/123` with a JSON body
+containing `{"email": "newemail@example.com"}` updates only the email
+field of user 123, leaving other fields like `name` and
+`phone_number` unchanged
+
+**Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
+[`POST`](#post), [`PUT`](#put)
+
+**Source**: [Mozilla Corporation, MDN: "`PATCH` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)
+
+---
+
 ### `POST`
 
 **Definition**: HTTP method that submits data to a server to create
@@ -515,8 +537,8 @@ upload files, or execute operations that change server state
 `{"name": "Alice", "email": "alice@example.com"}` creates a
 new user account
 
-Related Terms: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
-[`PUT`](#put), [webhook API](api-types-architectures.md#webhook-api)
+**Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
+[`PATCH`](#patch), [`PUT`](#put), [webhook API](api-types-architectures.md#webhook-api)
 
 **Source**: [Mozilla Corporation, MDN: "`POST` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
 
@@ -537,7 +559,7 @@ replaces all existing data for user 123 with the new data
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
 [HTTP method](#http-method), [idempotent](#idempotent),
-`PATCH`, [`POST`](#post)
+[`PATCH`](#patch), [`POST`](#post)
 
 **Source**: [Mozilla Corporation, MDN: "`PUT` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
 

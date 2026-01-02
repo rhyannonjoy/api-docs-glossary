@@ -589,6 +589,15 @@ that mimic humans’ use of language
 
 ---
 
+### `PATCH`
+
+- HTTP method
+- applies partial modifications to an existing resource
+
+**Glossary Term Entry Location**: [Core Concepts -  `PATCH`](core-concepts.md#patch)
+
+---
+
 ### `POST`
 
 - HTTP method
