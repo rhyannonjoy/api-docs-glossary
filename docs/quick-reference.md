@@ -440,6 +440,20 @@ of how many times it's executed
 
 ---
 
+## J
+
+---
+
+### JSON
+
+- acronym for JavaScript Object Notation
+- text-based data format that uses human-readable key-value pairs
+to represent structured data
+
+**Glossary Term Entry Location**: [Core Concepts - JSON](core-concepts.md#json)
+
+---
+
 ## L
 
 ---

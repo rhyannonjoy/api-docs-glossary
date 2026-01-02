@@ -810,7 +810,7 @@ in enterprise systems, SOAP APIs, and legacy integrations
 | Data types | Everything is text | Supports numbers, booleans, `null` |
 | Common use | SOAP APIs, enterprise systems | REST APIs, web applications |
 
-**Related Terms**: [JSON](core-concepts.md#javascript-object-notation-json),
+**Related Terms**: [JSON](core-concepts.md#json),
 [REST API](core-concepts.md#rest-api),
 [serialization](core-concepts.md#serialization),
 [SOAP API](api-types-architectures.md#soap-api)
