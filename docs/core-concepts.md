@@ -189,7 +189,7 @@ media type; less common but increasingly adopted by modern APIs;
 only required field is `type`, defaults to `"about:blank"`_
 
 **Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
-[validation](#validation)
+[JSON](#json), [validation](#validation)
 
 **Sources**:
 
@@ -382,6 +382,58 @@ many user records
 
 ---
 
+### JSON
+
+**Definition**: acronym for JavaScript Object Notation; a lightweight,
+text-based data format that uses human-readable key-value pairs to
+represent structured data
+
+**Purpose**: provides an efficient way to exchange data between
+clients and servers; JSON has become the dominant format for modern
+REST APIs due to its readability, compact size, and native compatibility
+with JavaScript
+
+**Key characteristics**:
+
+- Objects: collections of key-value pairs enclosed in curly braces `{}`
+- Arrays: ordered lists of values enclosed in square brackets `[]`
+- Values: can be strings, numbers, booleans, `null`, objects, or arrays
+- Properties: keys that identify values within objects
+
+**Example**:
+
+```json
+{
+  "id": 123,
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane.doe@example.com",
+  "active": true,
+  "roles": ["user", "admin"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Seattle",
+    "state": "WA"
+  }
+}
+```
+
+**Common API use cases**:
+
+| Use Case | Example |
+| -------- | -------- |
+| Request body | Sending data in `POST` or `PUT` requests |
+| Response body | Returning data from API endpoints |
+| Configuration | Storing API settings and options |
+| Error messages | Structured error information |
+
+**Related Terms**: [REST API](#rest-api), [serialization](#serialization),
+[XML](tools-techniques.md#xml)
+
+**Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
+
+---
+
 ### parameters
 
 **Definition**: variables passed in API requests to specify or filter
@@ -535,7 +587,7 @@ that can travel across network boundaries
 into JSON string `{"name":"Alice", "age":30}` before sending it in an
 API request
 
-**Related Terms**: [JSON](#javascript-object-notation-json),
+**Related Terms**: [JSON](#json),
 [protocol buffers](tools-techniques.md#protocol-buffers),
 [XML](tools-techniques.md#xml)
 
@@ -593,6 +645,9 @@ servers provide only self-contained resources
 - **Cacheable**: resources saved locally to improve performance
 - **Uniform interface**: standardized way of communicating between
 client and server
+- **Commonly uses JSON**: due to its wide support in programming
+languages, REST APIs use JSON, but it's not required and also
+support other formats like XML
 
 **REST APIs use HTTP methods**:
 
@@ -661,19 +716,8 @@ resource formatted as a JSON document:
 }
 ```
 
-#### JavaScript Object Notation (JSON)
-
-- describes data using text characters in name-value pairs
-- consists of objects, arrays, properties, and values
-- objects contain properties; properties have values
-- values can be objects, arrays, numbers, Boolean values,
-or character strings
-- generally, a JSON document contains one object
-- _**note**: JSON isn't the only format REST APIs can use_
-
-**Related Terms**: [API](#api), [API endpoint](#api-endpoint),
-[HTTP](#http-hypertext-transfer-protocol),
-[HTTP status codes](#http-status-codes),
+**Related Terms**: [API](#api), [HTTP](#http-hypertext-transfer-protocol),
+[HTTP status codes](#http-status-codes), [JSON](#json),
 [parameters](#parameters), [request/response](#requestresponse)
 
 **Sources**:
