@@ -100,6 +100,47 @@ applications within milliseconds of market movements
 
 ---
 
+## SOAP API
+
+**Definition**: acronym for Simple Object Access Protocol; uses XML-based
+messaging protocol to exchange structured information between systems,
+typically over HTTP or HTTPS
+
+**Purpose**: provides standardized, contract-based communication with
+built-in error handling and security; common in enterprise environments
+where formal contracts, transactions, and ACID compliance matter more
+than simplicity or performance
+
+**Key characteristics**:
+
+- **WSDL contracts**: Web Services Description Language defines the API contract
+- **XML-only**: all requests and responses use XML format
+- **Protocol-independent**: can work over HTTP, SMTP, TCP, or other protocols
+- **Built-in standards**: includes WS-Security, WS-AtomicTransaction,
+and other enterprise features
+
+**Example**: a banking system exposes a SOAP API for account transfers
+with a formal WSDL contract specifying exact XML structure, security
+requirements, and transaction guarantees
+
+**SOAP vs REST**:
+
+| Aspect | SOAP | REST |
+| ------ | ------ | ------ |
+| Protocol | Strict with rules | Architectural style with guidelines |
+| Format | XML only | JSON, XML, others |
+| Contract | WSDL required | Optional - OpenAPI |
+| Overhead | Higher, verbose XML | Lower, lightweight JSON |
+| Common use | Enterprise, legacy systems | Modern web/mobile APIs |
+
+**Related Terms**: [API](core-concepts.md#api),
+[REST API](core-concepts.md#rest-api),
+[XML](tools-techniques.md#xml)
+
+**Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
+
+---
+
 ## webhook API
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 

@@ -722,6 +722,16 @@ by bureaucracy
 
 ---
 
+### SOAP API
+
+- acronym for Simple Object Access Protocol
+- uses XML-based messaging protocol to exchange structured information between systems
+- was the enterprise API standard before REST took over
+
+**Glossary Term Entry Location**: [API Types & Architectures - SOAP API](api-types-architectures.md#soap-api)
+
+---
+
 ### squash
 
 - version control concept
