@@ -258,6 +258,7 @@ and any relevant data
 [error-handling](#error-handling),
 [HTTPS](#https-hypertext-transfer-protocol-secure),
 [HTTP status codes](#http-status-codes),
+[HTTP versions](#http-versions),
 [REST API](#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
@@ -305,7 +306,7 @@ intercepts the network traffic, they can't read the username, password,
 or account information
 
 **Related Terms**: [API security](#api-security), [authentication](#authentication),
-[HTTP](#http-hypertext-transfer-protocol)
+[HTTP](#http-hypertext-transfer-protocol), [HTTP versions](#http-versions)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -365,6 +366,31 @@ GET https://api.example.com/users/999
 [HTTP](#http-hypertext-transfer-protocol),
 [request/response](#requestresponse), [REST API](#rest-api),
 [validation](#validation)
+
+**Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+
+---
+
+### HTTP versions
+
+**Definition**: iterations of the Hypertext Transfer Protocol
+with different performance and feature capabilities;
+HTTP/1.1 (1997) uses sequential requests, HTTP/2 (2015) enables
+concurrent requests over one connection, HTTP/3 (2022) uses
+QUIC protocol - originally "Quick UDP Internet Connections," now
+just QUIC - for improved reliability
+
+**Purpose**: understanding version differences helps explain
+why certain API architectures like gRPC require specific HTTP
+versions for their performance characteristics
+
+**Example**: a gRPC API requires HTTP/2 because it relies on
+features like multiplexing and bidirectional streaming that aren't
+available in HTTP/1.1
+
+**Related Terms**: [gRPC API](api-types-architectures.md#grpc-api),
+[HTTP](#http-hypertext-transfer-protocol), [HTTPS](#https-hypertext-transfer-protocol-secure),
+[REST API](#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
