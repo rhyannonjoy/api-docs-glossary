@@ -589,6 +589,15 @@ that mimic humans’ use of language
 
 ---
 
+### `POST`
+
+- HTTP method
+- submits data to a server to create new resources
+
+**Glossary Term Entry Location**: [Core Concepts - `POST`](core-concepts.md#post)
+
+---
+
 ### Postman
 
 - API development platform
