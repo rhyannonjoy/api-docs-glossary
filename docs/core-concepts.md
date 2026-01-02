@@ -156,7 +156,7 @@ clean up resources through standardized HTTP operations
 with ID 123 from the system
 
 **Related Terms**: [`GET`](#get), [HTTP method](#http-method),
-`PATCH`, `POST`, `PUT`
+`PATCH`, [`POST`](#post), `PUT`
 
 **Source**: [Mozilla Corporation, MDN: "`DELETE` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
 
@@ -229,7 +229,7 @@ while ensuring the request remains safe and idempotent
 user with ID 123 without changing any data
 
 **Related Terms**: [`DELETE`](#delete), [HTTP method](#http-method),
-[idempotent](#idempotent), `PATCH`, `POST`, `PUT`
+[idempotent](#idempotent), `PATCH`, [`POST`](#post), `PUT`
 
 **Source**: [Mozilla Corporation, MDN: "`GET` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
 
@@ -279,7 +279,8 @@ deletes data
 updating whole resources, and `DELETE` for removing resources
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
-[HTTP](#http-hypertext-transfer-protocol),`PATCH`, `POST`, `PUT`
+[HTTP](#http-hypertext-transfer-protocol),`PATCH`,
+[`POST`](#post), `PUT`
 
 **Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
@@ -395,7 +396,7 @@ many user records
 | `PUT` | Yes | Replacing a resource with the same data produces identical result |
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
-[HTTP method](#http-method), `PUT`
+[HTTP method](#http-method), [`POST`](#post)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics: Section 9.2.2](https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods)
 
@@ -498,6 +499,26 @@ Breaking down the parameters:
 [request/response](#requestresponse), [REST API](#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
+
+---
+
+### `POST`
+
+**Definition**: HTTP method that submits data to a server to create
+new resources or trigger actions; submission data typically
+includes a request body
+
+**Purpose**: enables clients to add new records, submit forms,
+upload files, or execute operations that change server state
+
+**Example**: sending `POST /api/users` with a JSON body containing
+`{"name": "Alice", "email": "alice@example.com"}` creates a
+new user account
+
+Related Terms: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
+`PUT`, [webhook API](api-types-architectures.md#webhook-api)
+
+**Source**: [Mozilla Corporation, MDN: "`POST` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
 
 ---
 

@@ -161,7 +161,7 @@ automatically run tests
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint), [event-driven](#event-driven),
 [HTTP](core-concepts.md#http-hypertext-transfer-protocol),
-`POST`, [real-time](#real-time)
+[`POST`](core-concepts.md#post), [real-time](#real-time)
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
 
