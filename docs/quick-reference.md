@@ -213,6 +213,15 @@ resource availability to the critical path
 
 ---
 
+### `DELETE`
+
+- HTTP method
+- requests removal of a specified resource from the server
+
+**Glossary Term Entry Location**: [Core Concepts - `DELETE`](core-concepts.md#delete)
+
+---
+
 ### Document Development Life Cycle (DDLC)
 
 - process of writing and delivering particular content in the form
