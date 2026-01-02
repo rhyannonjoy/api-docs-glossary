@@ -380,21 +380,31 @@ intended audience and capturing their responses
 
 ---
 
-### Hypertext Transfer Protocol (HTTP)
+### HTTP (Hypertext Transfer Protocol)
 
 - synchronous request/response protocol
 - enables communication between clients and servers over the web
 
-**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol (HTTP)](core-concepts.md#hypertext-transfer-protocol-http)
+**Glossary Term Entry Location**: [Core Concepts - HTTP (Hypertext Transfer Protocol)](core-concepts.md#http-hypertext-transfer-protocol)
 
 ---
 
-### Hypertext Transfer Protocol Secure (HTTPS)
+### HTTP method
+
+- defines what operation the client wants the server to execute
+- makes it clear whether a request reads, creates, updates, or
+deletes data
+
+**Glossary Term Entry Location**: [Core Concepts - HTTP method](core-concepts.md#http-method)
+
+---
+
+### HTTPS (Hypertext Transfer Protocol Secure)
 
 - secure version of HTTP
 - protects data from interception and tampering during transmission
 
-**Glossary Term Entry Location**: [Core Concepts - Hypertext Transfer Protocol Secure (HTTPS)](core-concepts.md#hypertext-transfer-protocol-secure-https)
+**Glossary Term Entry Location**: [Core Concepts - HTTPS (Hypertext Transfer Protocol Secure)](core-concepts.md#https-hypertext-transfer-protocol-secure)
 
 ---
 

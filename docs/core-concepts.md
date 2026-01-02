@@ -106,8 +106,9 @@ Breaking down this endpoint:
 | `/resource/{id}` | Single resource operations | `GET /users/123` retrieves one user |
 | `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
 
-**Related Terms**: [API](#api), [HTTP](#hypertext-transfer-protocol-http),
-[parameters](#parameters), [request/response](#requestresponse), [REST API](#rest-api)
+**Related Terms**: [API](#api), [HTTP](#http-hypertext-transfer-protocol),
+[HTTP method](#http-method), [parameters](#parameters), [request/response](#requestresponse),
+[REST API](#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -136,7 +137,7 @@ they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api), [error handling](#error-handling),
-[HTTPS](#hypertext-transfer-protocol-secure-https),
+[HTTPS](#https-hypertext-transfer-protocol-secure),
 [validation](#validation)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
@@ -198,7 +199,7 @@ only required field is `type`, defaults to `"about:blank"`_
 
 ---
 
-### Hypertext Transfer Protocol (HTTP)
+### HTTP (Hypertext Transfer Protocol)
 
 **Definition**: synchronous request/response protocol that enables
 communication between clients and servers over the web; defines
@@ -219,7 +220,7 @@ and any relevant data
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [error-handling](#error-handling),
-[HTTPS](#hypertext-transfer-protocol-http),
+[HTTPS](#https-hypertext-transfer-protocol-secure),
 [HTTP status codes](#http-status-codes),
 [REST API](#rest-api)
 
@@ -227,7 +228,28 @@ and any relevant data
 
 ---
 
-### Hypertext Transfer Protocol Secure (HTTPS)
+### HTTP method
+
+**Definition**: verb that indicates the desired action to perform
+on a resource in an HTTP request; defines what operation the client
+wants the server to execute
+
+**Purpose**: provides standardized semantics for API operations,
+making it clear whether a request reads, creates, updates, or
+deletes data
+
+**Example**: REST APIs use methods like `GET` for reading,
+`POST` for creating, `PATCH` for editing specific fields, `PUT` for
+updating whole resources, and `DELETE` for removing resources
+
+**Related Terms**: `DELETE`, `GET`, [HTTP](#http-hypertext-transfer-protocol),
+`PATCH`, `POST`, `PUT`
+
+**Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+---
+
+### HTTPS (Hypertext Transfer Protocol Secure)
 
 **Definition**: secure version of HTTP that encrypts communication
 between clients and servers using Transport Layer Security (TLS) or
@@ -245,8 +267,8 @@ over HTTPS; the encrypted connection ensures that even if someone
 intercepts the network traffic, they can't read the username, password,
 or account information
 
-**Related Terms**: [API security](#api-security),
-[HTTP](#hypertext-transfer-protocol-http),[authentication](#authentication)
+**Related Terms**: [API security](#api-security), [authentication](#authentication),
+[HTTP](#http-hypertext-transfer-protocol),
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -303,7 +325,7 @@ GET https://api.example.com/users/999
 ```
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](#hypertext-transfer-protocol-http),
+[HTTP](#http-hypertext-transfer-protocol),
 [request/response](#requestresponse), [REST API](#rest-api),
 [validation](#validation)
 
@@ -336,7 +358,7 @@ many user records
 | `POST` | No | Creating resources many times produces different results |
 | `PUT` | Yes | Replacing a resource with the same data produces identical result |
 
-**Related Terms**: `DELETE`, `GET`, `HTTP method`, `PUT`
+**Related Terms**: `DELETE`, `GET`, [HTTP method](#http-method), `PUT`
 
 **Source**: [IETF RFC 9110 - HTTP Semantics: Section 9.2.2](https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods)
 
@@ -447,9 +469,9 @@ Content-Type: application/json
 ```
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](#hypertext-transfer-protocol-http),
-[HTTP status codes](#http-status-codes),
-[parameters](#parameters), [REST API](#rest-api)
+[HTTP](#http-hypertext-transfer-protocol), [HTTP method](#http-method),
+[HTTP status codes](#http-status-codes), [parameters](#parameters),
+[REST API](#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -567,8 +589,8 @@ client and server
 
 - synchronous request/response protocol
 - webhooks can support asynchronous interactions
-- visit full term entries [HTTP](#hypertext-transfer-protocol-http)
-and [HTTPS](#hypertext-transfer-protocol-secure-https)
+- visit full term entries [HTTP](#http-hypertext-transfer-protocol)
+and [HTTPS](#https-hypertext-transfer-protocol-secure)
 for more information
 
 #### Uniform Resource Identifier (URI)
@@ -632,7 +654,7 @@ or character strings
 - _**note**: JSON isn't the only format REST APIs can use_
 
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
-[HTTP](#hypertext-transfer-protocol-http),
+[HTTP](#http-hypertext-transfer-protocol),
 [HTTP status codes](#http-status-codes),
 [parameters](#parameters), [request/response](#requestresponse)
 
@@ -663,7 +685,7 @@ is explaining the API's behavior: stateless requests, resource-based
 endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
 `DELETE`
 
-**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#hypertext-transfer-protocol-http),
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http-hypertext-transfer-protocol),
 [REST API](#rest-api)
 
 **Sources**:

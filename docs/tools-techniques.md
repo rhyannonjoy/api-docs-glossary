@@ -646,8 +646,8 @@ as the authoritative source; RFC numbers, such as RFC 9110, provide
 a permanent, verifiable reference that remains accessible even as
 web pages change
 
-**Related Terms**: [HTTP](core-concepts.md#hypertext-transfer-protocol-http),
-[HTTPS](core-concepts.md#hypertext-transfer-protocol-secure-https),
+**Related Terms**: [HTTP](core-concepts.md#http-hypertext-transfer-protocol),
+[HTTPS](core-concepts.md#https-hypertext-transfer-protocol-secure),
 [REST API](core-concepts.md#rest-api)
 
 **Sources**:
