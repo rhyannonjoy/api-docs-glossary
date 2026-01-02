@@ -156,7 +156,7 @@ clean up resources through standardized HTTP operations
 with ID 123 from the system
 
 **Related Terms**: [`GET`](#get), [HTTP method](#http-method),
-`PATCH`, [`POST`](#post), `PUT`
+`PATCH`, [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "`DELETE` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
 
@@ -229,7 +229,7 @@ while ensuring the request remains safe and idempotent
 user with ID 123 without changing any data
 
 **Related Terms**: [`DELETE`](#delete), [HTTP method](#http-method),
-[idempotent](#idempotent), `PATCH`, [`POST`](#post), `PUT`
+[idempotent](#idempotent), `PATCH`, [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "`GET` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
 
@@ -280,7 +280,7 @@ updating whole resources, and `DELETE` for removing resources
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
 [HTTP](#http-hypertext-transfer-protocol),`PATCH`,
-[`POST`](#post), `PUT`
+[`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
@@ -305,7 +305,7 @@ intercepts the network traffic, they can't read the username, password,
 or account information
 
 **Related Terms**: [API security](#api-security), [authentication](#authentication),
-[HTTP](#http-hypertext-transfer-protocol),
+[HTTP](#http-hypertext-transfer-protocol)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -389,14 +389,14 @@ many user records
 
 | Method | Idempotent | Reason |
 | ------ | ------ | ------ |
-| `GET` | Yes | Reading data doesn’t change server state |
 | `DELETE` | Yes | Deleting an already-deleted resource has same outcome |
+| `GET` | Yes | Reading data doesn’t change server state |
 | `PATCH` | Depends | Partial updates may or may not be idempotent based on implementation |
 | `POST` | No | Creating resources many times produces different results |
 | `PUT` | Yes | Replacing a resource with the same data produces identical result |
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
-[HTTP method](#http-method), [`POST`](#post)
+[HTTP method](#http-method), [`POST`](#post), [`PUT`](#put)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics: Section 9.2.2](https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods)
 
@@ -516,9 +516,30 @@ upload files, or execute operations that change server state
 new user account
 
 Related Terms: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
-`PUT`, [webhook API](api-types-architectures.md#webhook-api)
+[`PUT`](#put), [webhook API](api-types-architectures.md#webhook-api)
 
 **Source**: [Mozilla Corporation, MDN: "`POST` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+
+---
+
+### `PUT`
+
+**Definition**: HTTP method that replaces an existing resource
+with new data or creates a resource at a specific URL if it
+doesn't exist
+
+**Purpose**: enables clients to update entire resources with complete
+replacement semantics; differs from `PATCH` which performs partial
+updates
+
+**Example**: sending `PUT /api/users/123` with a complete user object
+replaces all existing data for user 123 with the new data
+
+**Related Terms**: [`DELETE`](#delete), [`GET`](#get),
+[HTTP method](#http-method), [idempotent](#idempotent),
+`PATCH`, [`POST`](#post)
+
+**Source**: [Mozilla Corporation, MDN: "`PUT` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
 
 ---
 
