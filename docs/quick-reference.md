@@ -809,6 +809,16 @@ a group of representative users
 
 ---
 
+### validation
+
+- process of checking whether data meets specified requirements
+before processing or storage
+- ensures data quality and improves API reliability
+
+**Glossary Term Entry Location**: [Core Concepts - validation](core-concepts.md#validation)
+
+---
+
 ### version control
 
 - system that tracks changes in documents and other files

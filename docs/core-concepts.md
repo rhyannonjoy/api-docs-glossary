@@ -136,7 +136,8 @@ they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api), [error handling](#error-handling),
-[HTTPS](#hypertext-transfer-protocol-secure-https)
+[HTTPS](#hypertext-transfer-protocol-secure-https),
+[validation](#validation)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
 
@@ -187,7 +188,7 @@ media type; less common but increasingly adopted by modern APIs;
 only required field is `type`, defaults to `"about:blank"`_
 
 **Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
-validation
+[validation](#validation)
 
 **Sources**:
 
@@ -303,7 +304,8 @@ GET https://api.example.com/users/999
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#hypertext-transfer-protocol-http),
-[request/response](#requestresponse), [REST API](#rest-api)
+[request/response](#requestresponse), [REST API](#rest-api),
+[validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -470,7 +472,7 @@ for age field
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
 [GraphQL API](api-types-architectures.md#graphql-api),
 [OpenAPI specification](#openapi-specification-oas),
-[request/response](#requestresponse), validation
+[request/response](#requestresponse), [validation](#validation)
 
 **Sources**:
 
@@ -498,6 +500,36 @@ API request
 [XML](tools-techniques.md#xml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
+
+---
+
+### validation
+
+**Definition**: process of checking whether data meets specified rules,
+constraints, and format requirements before processing or storage
+
+**Purpose**: ensures data quality, prevents errors, and protects systems
+from invalid input; improves API reliability by catching problems early
+
+**Security Implications**: validation is a fundamental operation
+that happens on every request regardless of security context - even
+authenticated and authorized users need their input validated; while
+primarly a core data handling concept, validation can also prevent
+injection attacks and enforce data constraints
+
+**Example**: validating that an email field contains a properly formatted
+email address and that an age field contains a positive integer before
+creating a user account
+
+**Related Terms**: [API security](#api-security),
+[error handling](#error-handling),
+[HTTP status codes](#http-status-codes),
+[schema (Schema Object)](#schema-schema-object)
+
+**Sources**:
+
+- [OpenAPI Initiative: "Data Validation"](https://spec.openapis.org/oas/latest.html#data-types)
+- [Open Worldwide Application Security Project - OWASP: "API data validation - API security"](https://owasp10.com/api-data-validation-api-security/)
 
 ---
 
