@@ -749,7 +749,7 @@ after the source branch has changed
 - an architectural style for distributed hypermedia systems
 - one of the most widely used approaches for building web-based APIs
 
-**Glossary Term Entry Location**: [Core Concepts - REST API](core-concepts.md#rest-api)
+**Glossary Term Entry Location**: [API Types & Architectures - REST API](api-types-architectures.md#rest-api)
 
 ---
 
@@ -759,7 +759,7 @@ after the source branch has changed
 - "RESTful" describes APIs that follow REST principles
 - terms are often used interchangeably
 
-**Glossary Term Entry Location**: [Core Concepts - REST vs *REST*ful](core-concepts.md#rest-vs-restful)
+**Glossary Term Entry Location**: [API Types & Architectures - REST vs *REST*ful](api-types-architectures.md#rest-vs-restful)
 
 ---
 

@@ -101,6 +101,117 @@ applications within milliseconds of market movements
 
 ---
 
+## REST API
+
+**Definition**: acronym for *RE*presentational State Transfer
+application programming interface - one of the most widely used
+approaches for building web-based APIs
+
+**REST isn't a regulated standard**, but an architectural style for
+distributed hypermedia systems, first presented by Roy Fielding in 2000;
+REST is a convention, used by APIs exposed through HTTP/HTTPS web
+services to exchange data.
+
+**Key characteristics**:
+
+- **Client-server architecture**: assumes "clients," resource users,
+and "servers," resource providers
+- **Stateless**: clients maintain the complete state of the interaction;
+servers provide only self-contained resources
+- **Cacheable**: resources saved locally to improve performance
+- **Uniform interface**: standardized way of communicating between
+client and server
+- **Uses HTTP methods**: [`DELETE` (remove)](core-concepts.md#delete),
+[`GET` (read)](core-concepts.md#get),
+[`PATCH` (edit)](core-concepts.md#patch),
+[`POST` (create)](core-concepts.md#post),
+[`PUT` (replace)](core-concepts.md#put)
+- **Commonly uses JSON**: due to its wide support in programming
+languages, REST APIs use JSON, but it's not required and also
+support other formats like XML
+
+**Example request**:
+
+```bash
+GET http://localhost:3000/users/2
+```
+
+Break down this URL:
+
+- _How_: Uses the `GET` method of the HTTP protocol
+- _Where_: From `localhost:3000` server
+- _What_: `users/2` instance of this resource
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant API Server
+    participant Database
+    
+    Client->>API Server: GET /users/2
+    API Server->>Database: Query user data
+    Database-->>API Server: User record
+    API Server-->>Client: 200 OK + JSON response
+```
+
+**Example response**:
+
+`GET` requests a user resource, and the response body contains the
+resource formatted as a JSON document:
+
+```json
+{
+  "id": 2,
+  "first_name": "Ferdinand",
+  "last_name": "Smith",
+  "email": "f.smith@example.com"
+}
+```
+
+**Related Terms**: [API](core-concepts.md#api),
+[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
+[HTTP status codes](core-concepts.md#http-status-codes), [JSON](core-concepts.md#json),
+[parameters](core-concepts.md#parameters), [request/response](core-concepts.md#requestresponse)
+
+**Sources**:
+
+- UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
+- [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
+
+---
+
+## REST vs *REST*ful
+
+**Definition**: terms are often used interchangeably, though technically
+"REST" refers to the architectural style itself while "RESTful"
+describes APIs that follow REST principles; in practice, both terms
+describe APIs that use HTTP methods, stateless communication, and
+resource-based URLs
+
+**Purpose**: understanding this distinction helps API documentation
+writers use consistent terminology; while some sources differentiate
+between the two, most modern API documentation treats them as synonyms;
+what matters is plainly explaining whether an API follows REST
+architectural constraints rather than debating terminology
+
+**Example**: documentation might say "this RESTful API uses HTTP methods"
+or "this REST API returns JSON responses" - both are acceptable; the key
+is explaining the API's behavior: stateless requests, resource-based
+endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
+`DELETE`
+
+**Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
+[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
+[HTTP method](core-concepts.md#http-method),
+[REST API](#rest-api)
+
+**Sources**:
+
+- [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
+- [Roy Thomas Fielding's University of California Dissertation: Chapter 5 - "Representational State Transfer (REST)"](https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm)
+
+---
+
 ## SOAP API
 
 **Definition**: acronym for Simple Object Access Protocol; uses XML-based
