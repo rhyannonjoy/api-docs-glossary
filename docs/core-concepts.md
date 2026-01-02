@@ -199,6 +199,24 @@ only required field is `type`, defaults to `"about:blank"`_
 
 ---
 
+### `GET`
+
+**Definition**: HTTP method that requests data from a server without
+modifying any resources; the most common method for retrieving information
+
+**Purpose**: enables clients to read data, view resources, or query information
+while ensuring the request remains safe and idempotent
+
+**Example**: sending `GET /api/users/123` retrieves information about the
+user with ID 123 without changing any data
+
+**Related Terms**: `DELETE`, [HTTP method](#http-method),
+[idempotent](#idempotent), `PATCH`, `POST`, `PUT`
+
+**Source**: [Mozilla Corporation, MDN: "GET"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
+
+---
+
 ### HTTP (Hypertext Transfer Protocol)
 
 **Definition**: synchronous request/response protocol that enables
@@ -242,7 +260,7 @@ deletes data
 `POST` for creating, `PATCH` for editing specific fields, `PUT` for
 updating whole resources, and `DELETE` for removing resources
 
-**Related Terms**: `DELETE`, `GET`, [HTTP](#http-hypertext-transfer-protocol),
+**Related Terms**: `DELETE`, [`GET`](#get), [HTTP](#http-hypertext-transfer-protocol),
 `PATCH`, `POST`, `PUT`
 
 **Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
@@ -358,7 +376,7 @@ many user records
 | `POST` | No | Creating resources many times produces different results |
 | `PUT` | Yes | Replacing a resource with the same data produces identical result |
 
-**Related Terms**: `DELETE`, `GET`, [HTTP method](#http-method), `PUT`
+**Related Terms**: `DELETE`, [`GET`](#get), [HTTP method](#http-method), `PUT`
 
 **Source**: [IETF RFC 9110 - HTTP Semantics: Section 9.2.2](https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods)
 
