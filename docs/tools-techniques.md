@@ -812,7 +812,8 @@ in enterprise systems, SOAP APIs, and legacy integrations
 
 **Related Terms**: [JSON](core-concepts.md#javascript-object-notation-json),
 [REST API](core-concepts.md#rest-api),
-[serialization](core-concepts.md#serialization), SOAP API
+[serialization](core-concepts.md#serialization),
+[SOAP API](api-types-architectures.md#soap-api)
 
 **Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)
 
