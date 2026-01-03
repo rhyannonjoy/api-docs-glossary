@@ -629,11 +629,11 @@ hub for collaborative documentation work
 
 ---
 
-## Request for Comments (RFC)
+## RFC
 
-**Definition**: numbered technical documents published by the Internet
-Engineering Task Force (IETF) that define standards, protocols, and
-procedures for internet technologies
+**Definition**: acronym for Request for Comments; numbered technical documents
+published by the IETF - Internet Engineering Task Force - that define standards,
+protocols, and procedures for internet technologies
 
 **Purpose**: RFCs provide authoritative specifications for protocols
 like HTTP, HTTPS, and other web standards; API documentation writers
