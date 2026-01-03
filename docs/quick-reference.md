@@ -390,7 +390,7 @@ its visual design, capability, and general message on its
 intended audience and capturing their responses
 - typically low maintenance with predefined tasks
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - guerilla usability testing (GUT)](workflows-methodologies.md#guerrilla-usability-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - guerilla usability testing (GUT)](workflows-methodologies.md#guerrilla-usability-testing-gut)
 
 ---
 
@@ -569,13 +569,14 @@ that mimic humans’ use of language
 
 ---
 
-### OpenAPI Specification (OAS)
+### OpenAPI Specification
 
+- also known as the OAS
 - a standard, language-agnostic way to define an API interface
 - used to create the interface and documentation
 - format: YAML
 
-**Glossary Term Entry Location**: [Core Concepts - OpenAPI specification (OAS)](core-concepts.md#openapi-specification-oas)
+**Glossary Term Entry Location**: [Core Concepts - OpenAPI Specification](core-concepts.md#openapi-specification)
 
 ---
 

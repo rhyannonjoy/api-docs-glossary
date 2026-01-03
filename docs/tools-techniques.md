@@ -131,7 +131,7 @@ documentation development
 retrieves user data from an API endpoint
 
 **Related Terms**: [json-server](#json-server),
-[REST API](core-concepts.md#rest-api), [Postman](#postman),
+[REST API](api-types-architectures.md#rest-api), [Postman](#postman),
 [Swagger](#swagger)
 
 **Further Reading**:
@@ -366,7 +366,7 @@ creates REST endpoints: `/users` returns all users,
 `/users/1` returns the user with `id` 1
 
 **Related Terms**: [cURL](#postman), [Postman](#postman),
-[REST API](core-concepts.md#rest-api), [Swagger](#swagger)
+[REST API](api-types-architectures.md#rest-api), [Swagger](#swagger)
 
 **Sources**:
 
@@ -421,7 +421,7 @@ publication; the merge process preserves the commit
 history from both branches
 
 **Related Terms**: [branch](#branch), [merge conflict](#merge-conflict),
-[pull request](#pull-request-pr), [rebase](#rebase)
+[pull request](#pull-request), [rebase](#rebase)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -503,7 +503,7 @@ automated test suites, collection sharing, and API
 documentation generation
 
 **Related Terms**: [cURL](#curl), [json-server](#json-server),
-[REST API](core-concepts.md#rest-api), [Swagger](#swagger),
+[REST API](api-types-architectures.md#rest-api), [Swagger](#swagger),
 [UI](#ui)
 
 **Sources**:
@@ -649,7 +649,7 @@ web pages change
 
 **Related Terms**: [HTTP](core-concepts.md#http-hypertext-transfer-protocol),
 [HTTPS](core-concepts.md#https-hypertext-transfer-protocol-secure),
-[REST API](core-concepts.md#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Sources**:
 
@@ -697,8 +697,8 @@ Web-based editor for creating and editing OAS documents
 Generates client libraries and server stubs from OAS files
 
 **Related terms**:
-[OpenAPI Specification (OAS)](core-concepts.md#openapi-specification-oas),
-[REST API](core-concepts.md#rest-api)
+[OpenAPI Specification](core-concepts.md#openapi-specification),
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
 
@@ -740,7 +740,7 @@ elements trigger specific API calls or how API responses render in the interface
 
 **Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
 [graphical user interface (GUI)](#graphical-user-interface-gui),
-[REST API](core-concepts.md#rest-api)
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -813,7 +813,7 @@ in enterprise systems, SOAP APIs, and legacy integrations
 | Common use | SOAP APIs, enterprise systems | REST APIs, web applications |
 
 **Related Terms**: [JSON](core-concepts.md#json),
-[REST API](core-concepts.md#rest-api),
+[REST API](api-types-architectures.md#rest-api),
 [serialization](core-concepts.md#serialization),
 [SOAP API](api-types-architectures.md#soap-api)
 

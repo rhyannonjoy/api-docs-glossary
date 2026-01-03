@@ -248,8 +248,7 @@ requirements, and transaction guarantees
 **Related Terms**: [API](core-concepts.md#api),
 [error handling](core-concepts.md#error-handling),
 [HTTP](core-concepts.md#http-hypertext-transfer-protocol),
-[REST API](core-concepts.md#rest-api),
-[XML](tools-techniques.md#xml)
+[REST API](#rest-api), [XML](tools-techniques.md#xml)
 
 **Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
 

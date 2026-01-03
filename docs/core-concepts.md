@@ -670,7 +670,7 @@ for age field
 
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
 [GraphQL API](api-types-architectures.md#graphql-api),
-[OpenAPI specification](#openapi-specification-oas),
+[OpenAPI specification](#openapi-specification),
 [request/response](#requestresponse), [validation](#validation)
 
 **Sources**:
@@ -904,16 +904,16 @@ suitability
 | Related links | Navigation to related topics |
 
 **Related Terms**: [API overview topic](#api-overview-topic),
-[OpenAPI specification (OAS)](#openapi-specification-oas)
+[OpenAPI specification](#openapi-specification)
 
 **Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
 
 ---
 
-### OpenAPI specification (OAS)
+### OpenAPI Specification
 
-**Definition**: a standard, language-agnostic way to define
-the interface of an HTTP API, allowing both humans and computers
+**Definition**: also known as the OAS, a standard, language-agnostic way
+to define the interface of an HTTP API, allowing both humans and computers
 to discover and understand the service's capabilities without
 accessing source code, documentation, or inspecting network traffic
 
