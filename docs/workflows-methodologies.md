@@ -237,7 +237,7 @@ provides user perspective before product release
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
-[Guerrilla Usability Testing](#guerrilla-usability-testing)
+[guerrilla usability testing (GUT)](#guerrilla-usability-testing-gut)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
