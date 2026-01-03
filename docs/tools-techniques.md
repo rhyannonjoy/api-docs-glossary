@@ -311,7 +311,7 @@ non-technical writers
 
 **Related Terms**: [Git](#git), [Git Bash](#git-bash),
 [GitHub](#github), [graphical user interface (GUI)](#graphical-user-interface-gui),
-[repository](#repository-repo), [user interface(UI)](#user-interface-ui)
+[repository](#repository-repo), [UI](#ui)
 
 **Sources**:
 
@@ -337,7 +337,7 @@ visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
 **Related Terms**: [Postman](#postman), [Swagger](#swagger),
-[user interface (UI)](#user-interface-ui)
+[UI](#ui)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -503,7 +503,8 @@ automated test suites, collection sharing, and API
 documentation generation
 
 **Related Terms**: [cURL](#curl), [json-server](#json-server),
-[REST API](core-concepts.md#rest-api), [Swagger](#swagger)
+[REST API](core-concepts.md#rest-api), [Swagger](#swagger),
+[UI](#ui)
 
 **Sources**:
 
@@ -719,11 +720,12 @@ creating pull requests
 
 ---
 
-## user interface (UI)
+## UI
 
-**Definition**: space where interactions between humans and machines occur;
-includes all visual elements, controls, and interaction patterns that allow
-users to communicate with software or hardware systems
+**Definition**: acronym for user interface; space where interactions
+between humans and machines occur; includes all visual elements, controls,
+and interaction patterns that allow users to communicate with software or
+hardware systems
 
 **Purpose**: API documentation often needs to describe UI elements, explain
 how API responses appear in user interfaces, or clarify the relationship
