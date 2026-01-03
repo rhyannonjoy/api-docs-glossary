@@ -530,8 +530,7 @@ programming languages
 
 **Related Terms**: [API](core-concepts.md#api),
 [gRPC API](api-types-architectures.md#graphql-api),
-[schema (Schema Object)](core-concepts.md#schema-schema-object),
-[serialization](core-concepts.md#serialization)
+[schema](core-concepts.md#schema), [serialization](core-concepts.md#serialization)
 
 **Source**: [Google, LLC: Protocol Buffers Documentation: "Overview"](https://protobuf.dev/overview/)
 

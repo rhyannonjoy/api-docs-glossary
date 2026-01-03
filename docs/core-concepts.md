@@ -654,7 +654,7 @@ Content-Type: application/json
 
 ---
 
-### schema (Schema Object)
+### schema
 
 **Definition**: also know as the Schema Object, the formal definition that
 describes the structure, data types, constraints, and relationships within
@@ -748,7 +748,7 @@ https://api.example.com:443/v1/users/123?include=orders
 
 | Category | Component | Example | Description |
 | ---------- | ----------- | --------- | ------------- |
-| how | scheme | `https://` | protocol for accessing the resource |
+| how | schema | `https://` | protocol for accessing the resource |
 | where | host | `api.example.com` | server location |
 | _optional_ | port | `:443` | HTTPS default, directs traffic |
 | what | endpoint/path | `/v1/users/123` | specific resource location |
@@ -756,7 +756,7 @@ https://api.example.com:443/v1/users/123?include=orders
 
 **Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http-hypertext-transfer-protocol),
 [parameters](#parameters), [REST API](api-types-architectures.md#rest-api),
-[URI](#uri)
+[schema](#schema), [URI](#uri)
 
 **Sources**:
 
@@ -784,9 +784,8 @@ email address and that an age field contains a positive integer before
 creating a user account
 
 **Related Terms**: [API security](#api-security),
-[error handling](#error-handling),
-[HTTP status codes](#http-status-codes),
-[schema (Schema Object)](#schema-schema-object)
+[error handling](#error-handling), [HTTP status codes](#http-status-codes),
+[schema](#schema)
 
 **Sources**:
 
@@ -949,7 +948,7 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[REST API](api-types-architectures.md#rest-api), [schema (Schema Object)](#schema-schema-object)
+[REST API](api-types-architectures.md#rest-api), [schema](#schema)
 
 **Sources**:
 
