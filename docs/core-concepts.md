@@ -722,18 +722,46 @@ both identify resources without specifying network locations
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http-hypertext-transfer-protocol),
 [REST API](api-types-architectures.md#rest-api),
-URL
+[URL](#url)
 
 **Source**: [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
 
 ---
 
-### Uniform Resource Locator (URL)
+### URL
 
-- resource identification concept
-- locates a resource on the web and identifies what to access
-in the HTTP request
-- contains the how, where, and what
+**Definition**: acronym for Uniform Resource Locator; specific URI type
+that _not only_ identifies a resource but also provides the means to locate
+it on a network by describing its primary access mechanism and network location
+
+**Purpose**: enables clients to locate and retrieve resources over the web;
+essential for API documentation as URLs define exactly where endpoints exist
+and how to reach them
+
+**Example**:
+
+```markdown
+https://api.example.com:443/v1/users/123?include=orders
+```
+
+**Break down this URL**:
+
+| Category | Component | Example | Description |
+| ---------- | ----------- | --------- | ------------- |
+| how | scheme | `https://` | protocol for accessing the resource |
+| where | host | `api.example.com` | server location |
+| _optional_ | port | `:443` | HTTPS default, directs traffic |
+| what | endpoint/path | `/v1/users/123` | specific resource location |
+| _optional_ | query parameters | `?include=orders` | request modifications |
+
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http-hypertext-transfer-protocol),
+[parameters](#parameters), [REST API](api-types-architectures.md#rest-api),
+[URI](#uri)
+
+**Sources**:
+
+- [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
+- [Mozilla Corporation, MDN: "What is a URL?"](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL)
 
 ---
 

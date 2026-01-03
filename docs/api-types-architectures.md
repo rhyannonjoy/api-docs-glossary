@@ -171,7 +171,7 @@ resource formatted as a JSON document:
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP](core-concepts.md#http-hypertext-transfer-protocol),
 [HTTP status codes](core-concepts.md#http-status-codes), [JSON](core-concepts.md#json),
-[parameters](core-concepts.md#parameters), [request/response](core-concepts.md#requestresponse)
+[parameters](core-concepts.md#parameters), [URL](core-concepts.md#url)
 
 **Sources**:
 

@@ -878,7 +878,17 @@ by bureaucracy
 
 **Glossary Term Entry Location**: [Core Concepts - URI](core-concepts.md#uri)
 
---- 
+---
+
+### URL
+
+- acronym for Uniform Resource Locator
+- specific URI type that includes network location
+- defines exactly where endpoints exist, how to reach them
+
+**Glossary Term Entry Location**: [Core Concepts - URL](core-concepts.md#url)
+
+---
 
 ### usability testing
 
