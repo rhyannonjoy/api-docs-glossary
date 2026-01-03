@@ -88,6 +88,96 @@ or at the end of the appropriate subsection
 
 ---
 
+## Acronyms
+
+Acronym use is most impactful in headings because headings serve as both
+navigation labels and anchor links in Docusaurus. Consider the relationship
+of the glossary term's official name and how someone is _most_ likely to
+reference it in conversation. Use the _most_ recognizable form of a term in
+headings to create clean, scannable navigation and maintainable anchor links.
+
+### Rules
+
+**Use the acronym alone** when it's widely recognized and commonly used:
+
+- ✅ `## API` not `## API (Application Programming Interface)`
+- ✅ `## HTTP` not `## HTTP (Hypertext Transfer Protocol)`
+- ✅ `## JSON` not `## JSON (JavaScript Object Notation)`
+- ✅ `## REST API` not `## REST (Representational State Transfer) API`
+
+**Rationale**: acronyms in headings create shorter, cleaner navigation panels
+and anchor links; `[HTTP](#http)` is easier to write and maintain than
+`[HTTP](#http-hypertext-transfer-protocol)`
+
+**Explain the full name in the definition field** immediately after
+the heading:
+
+```markdown
+## REST API
+
+**Definition**: acronym for *RE*presentational State Transfer
+application programming interface...
+```
+
+```markdown
+## gRPC API
+
+**Definition**: uses gRPC - _Google's Remote Procedure Call_ - framework...
+```
+
+```markdown
+<!-- definition structure in Quick Reference-->
+
+### UI
+
+- acronym for user interface
+- space where interactions between humans and machines occur
+
+**Glossary Term Entry Location**: [Tools & Techniques - UI](tools-techniques.md#ui)
+```
+
+**Use the full name** when the acronym isn't widely recognized or when the
+full name is more commonly used:
+
+- ✅ `## Critical Chain Project Management` not `## CCPM`
+- ✅ `## Waterfall` not `## Waterfall Project Management Methodology`
+- ✅ `## guerilla usability testing` not `## GUT`
+
+**When unsure**, check common usage patterns:
+
+- Search API documentation, technical articles, and MDN Web Docs
+- If the acronym appears more frequently than the full name, use the acronym
+- If the full name is more recognizable, use the full name
+- Consider the glossary target audience - what term would they search for?
+
+**Never use parenthetical expansions in headings** - they clutter navigation
+and create unnecessarily long anchor links:
+
+- ❌ `## SOAP (Simple Object Access Protocol) API`
+- ✅ `## SOAP API` with definition explaining "Simple Object Access Protocol"
+- ❌ `## URI (Uniform Resource Identifier)`
+- ✅ `## URI` with definition explaining "Uniform Resource Identifier"
+
+### Anchor Link Consistency
+<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+
+Headings become anchor links automatically. Keep them concise to:
+
+- streamline cross-referencing between terms
+- reduce errors when creating links
+- improve navigation panel readability
+
+**Example of the difference**:
+
+| Heading Style | Anchor Link | Usability |
+| ------------- | ----------- | --------- |
+| `## HTTP` | `[HTTP](#http)` | ✅ Short, clear, maintainable |
+| `## HTTP (Hypertext Transfer Protocol)` | `[HTTP](#http-hypertext-transfer-protocol)` | ❌ Long, error-prone |
+| `## URL` | `[URL](#url)` | ✅ Short, clear, maintainable |
+| `## URL (Uniform Resource Locator)` | `[URL](#uniform-resource-locator-url)` | ❌ Long, error-prone |
+
+---
+
 ## Capitalization
 
 Use consistent capitalization to maintain clarity and
