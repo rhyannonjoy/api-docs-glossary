@@ -23,7 +23,7 @@ completes, triggering immediate order fulfillment rather than checking
 payment status every few minutes
 
 **Related Terms**: [API](core-concepts.md#api), [real-time](#real-time),
-[webhook API](#webhook-api), [WebSocket API (WebSockets)](#websocket-api-websockets)
+[webhook API](#webhook-api), [WebSocket API](#websocket-api)
 
 **Source**: [Amazon Web Service, Inc., (AWS): "What is an Event-Driven Architecture?"](https://aws.amazon.com/event-driven-architecture/)
 
@@ -92,7 +92,7 @@ applications within milliseconds of market movements
 
 **Related Terms**: [event-driven](#event-driven),
 [webhook API](api-types-architectures.md#webhook-api),
-[WebSocket API (WebSockets)](api-types-architectures.md#websocket-api-websockets)
+[WebSocket API](api-types-architectures.md#websocket-api)
 
 **Sources**:
 
@@ -279,12 +279,12 @@ automatically run tests
 
 ---
 
-## WebSocket API (WebSockets)
+## WebSocket API
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
-**Definition**: maintains persistent, bidirectional connections between
-client and server, enabling real-time data exchange without repeated
-HTTP requests
+**Definition**: also known as WebSockets; maintains persistent, bidirectional
+connections between client and server, enabling real-time data exchange without
+repeated HTTP requests
 
 **Purpose**: supports live updates, streaming data, and instant communication;
 essential for chat applications, live dashboards, multiplayer games, and

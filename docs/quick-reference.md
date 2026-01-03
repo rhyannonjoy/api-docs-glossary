@@ -952,12 +952,13 @@ when specific events occur
 
 ---
 
-### WebSocket API (WebSockets)
+### WebSocket API
 
+- also known as WebSockets
 - enables real-time data exchange without repeated HTTP requests
 - maintains persistent, client and server bidirectional connections
 
-**Glossary Term Entry Location**: [API Types & Architectures - WebSocket API (WebSockets)](api-types-architectures.md#websocket-api-websockets)
+**Glossary Term Entry Location**: [API Types & Architectures - WebSocket API](api-types-architectures.md#websocket-api)
 
 ---
 
