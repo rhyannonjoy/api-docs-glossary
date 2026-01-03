@@ -899,11 +899,12 @@ a group of representative users
 
 ---
 
-### user interface (UI)
+### UI
 
+- acronym for user interface
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques - user interface (UI)](tools-techniques.md#user-interface-ui)
+**Glossary Term Entry Location**: [Tools & Techniques - UI](tools-techniques.md#ui)
 
 ---
 
