@@ -159,7 +159,7 @@ review them collectively, and ensure all changes work
 together before merging to main
 
 **Related Terms**: [branch](#branch), [feature branch](#feature-branch),
-[main branch](#main-branch), [merge](#merge)
+[main branch](#main-branch), [merge](#merge), [pull request](#pull-request)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -179,7 +179,7 @@ merging into the `main` branch
 only the documentation for a new webhook feature
 
 **Related Terms**: [branch](#branch), [dev branch](#dev-branch),
-[main branch](#main-branch), [merge](#merge)
+[main branch](#main-branch), [merge](#merge), [pull request](#pull-request)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -195,7 +195,7 @@ documentation without requiring direct write access to the
 original repository; contributors make changes in their
 fork, then submit pull requests to the upstream repository
 
-**Related Terms**: [clone](#clone), [pull request](#pull-request-pr),
+**Related Terms**: [clone](#clone), [pull request](#pull-request),
 [repository](#repository-repo), [upstream repository](#upstream-repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -468,7 +468,7 @@ sometimes be in the GitHub UI directly, but some conflicts
 are too complex and require resolution from the text editor
 
 **Related Terms**: [branch](#branch), [commit](#commit),
-[merge](#merge), [pull request](#pull-request-pr)
+[merge](#merge), [pull request](#pull-request)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -546,16 +546,17 @@ with remote changes made by other team members; running
 `git pull` before starting work prevents merge conflicts
 
 **Related Terms**: [clone](#clone), [merge](#merge),
-[origin repository](#origin-repository), [push](#push)
+[origin repository](#origin-repository), [pull request](#pull-request),
+[push](#push)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
 ---
 
-## pull request (PR)
+## pull request
 
-**Definition**: version control concept and GitHub feature; invites
-repository maintainers to review and merge changes from one branch or
+**Definition**: also known as a PR; version control concept and GitHub feature;
+invites repository maintainers to review and merge changes from one branch or
 fork into their repository
 
 **Purpose**: enables peer review of documentation changes
@@ -671,7 +672,7 @@ documentation history by grouping related changes
 become one commit: "Add OAuth 2.0 authentication guide"
 
 **Related Terms**: [commit](#commit), [merge](#merge),
-[pull request](#pull-request-pr), [rebase](#rebase)
+[pull request](#pull-request), [rebase](#rebase)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 

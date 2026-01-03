@@ -658,14 +658,15 @@ down from an origin or upstream repository
 
 ---
 
-### pull request (PR)
+### pull request
 
+- also known as a PR
 - version control concept
 - GitHub feature
 - request to another user that invites them to pull one's changes from
 a repository/branch into their repository
 
-**Glossary Term Entry Location**: [Tools & Techniques - pull request](tools-techniques.md#pull-request-pr)
+**Glossary Term Entry Location**: [Tools & Techniques - pull request](tools-techniques.md#pull-request)
 
 ---
 
