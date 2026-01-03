@@ -702,10 +702,31 @@ API request
 
 ---
 
-### Uniform Resource Identifier (URI)
+### URI
 
-- resource identification concept
-- identifies a resource, but doesn't necessarily locate it
+**Definition**: acronym for Uniform Resource Identifier; standard
+format for identifying resources in a way that enables consistent
+reference across different systems; identifies a resource but
+doesn't necessarily specify how to locate or access it
+
+**Purpose**: provides a unified way to name resources regardless of
+their location or access method; forms the foundation for both URLs
+and URNs - Uniform Resource Names - creating a consistent
+identification system across the web
+
+**Example**: `mailto:user@example.com` is a URI that identifies an
+email address resource; `urn:isbn:0-486-27557-4` is a URI that
+identifies a book by its ISBN - International Standard Book Number;
+both identify resources without specifying network locations
+
+**Related Terms**: [API endpoint](#api-endpoint),
+[HTTP](#http-hypertext-transfer-protocol),
+[REST API](api-types-architectures.md#rest-api),
+URL
+
+**Source**: [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
+
+---
 
 ### Uniform Resource Locator (URL)
 
