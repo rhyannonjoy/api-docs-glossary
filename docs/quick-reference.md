@@ -786,13 +786,14 @@ or externally to educate and convert prospective customers
 
 ---
 
-### schema (Schema Object)
+### schema
 
+- also known as the Schema Object
 - describes the structure, data types, constraints, and
 relationships within an API's requests and responses
 - enables validation, auto-generated documentation, and type safety
 
-**Glossary Term Entry Location**: [Core Concepts - schema (Schema Object)](core-concepts.md#schema-schema-object)
+**Glossary Term Entry Location**: [Core Concepts - schema](core-concepts.md#schema)
 
 ---
 

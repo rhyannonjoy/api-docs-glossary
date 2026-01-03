@@ -50,7 +50,7 @@ requesting:
 
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint),
-[schema (Schema Object)](core-concepts.md#schema-schema-object)
+[schema](core-concepts.md#schema)
 
 **Source**: [The GraphQL Foundation: "Learn GraphQL"](https://graphql.org/learn/)
 
