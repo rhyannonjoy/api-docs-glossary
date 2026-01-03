@@ -178,6 +178,87 @@ Headings become anchor links automatically. Keep them concise to:
 
 ---
 
+#### Updating Anchor Links
+
+When renaming terms or reorganizing the glossary, don't forget to update
+all anchor links that reference the changed term. Use grep to find all
+instances in Markdown files:
+
+**Find all links to a specific anchor:**
+
+```bash
+grep -rn "](#anchor-name)" . --include="*.md"
+```
+
+**Example - find links to `#openapi-specification-oas`:**
+
+```bash
+grep -rn "](#openapi-specification-oas)" . --include="*.md"
+```
+
+**Break down the command:**
+
+- `grep` - search tool
+- `-r` - recursive, searches all subdirectories
+- `-n` - shows line numbers in results
+- `"](#anchor-name)"` - the pattern to find, Markdown link syntax
+- `.` - current directory
+- `--include="*.md"` - only search Markdown files, _exclude config files_
+
+**After finding all instances:**
+
+1. Review each result to determine if it needs updating
+2. Some links may need just the anchor changed: `#new-anchor`
+3. Others may need the specific file in the path changed: `glossary.md#anchor`
+4. Update each link manually based on context
+
+#### Troubleshooting Broken Anchor Links
+
+After updating headings, run `npm run build` to verify that all anchor
+links are working. Docusaurus reports any broken anchors it finds.
+
+**Example build output with broken anchors:**
+
+```shell
+[WARNING] Docusaurus found broken anchors!
+- Broken anchor on source page path = /docs/tools-techniques:
+   -> linking to #pull-request-pr
+```
+
+**Find and fix broken anchors:**
+
+1. Run the build command to identify broken links:
+
+   ```bash
+   npm run build
+   ```
+
+2. Use grep to find all instances of the old anchor format. Common
+patterns when removing acronyms from headings:
+
+   ```bash
+   # Find links with acronym suffixes that need updating
+   grep -rn "#guerrilla-usability-testing-gut" . --include="*.md"
+   grep -rn "#pull-request-pr" . --include="*.md"
+   grep -rn "#openapi-specification-oas" . --include="*.md"
+
+   # Find cross-file links that may have changed
+   grep -rn "core-concepts#rest" . --include="*.md"
+   ```
+
+3. Update each link manually to match the new heading format
+
+4. Run `npm run build` again to verify the corrections
+
+**Common causes of broken anchors:**
+
+- updated a heading but forgot to update the **Related Terms** links
+- removed acronyms from headings but left them in anchor links
+- changed file organization but didn't update cross-file references
+- typos in manually created anchor links
+
+---
+
 ## Capitalization
 
 Use consistent capitalization to maintain clarity and
