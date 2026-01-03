@@ -370,7 +370,7 @@ Example:
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 - be as specific as possible - include authors' names, exact page titles,
-section names, or RFC, Requests for Comments, numbers
+section names, or [RFC numbers](tools-techniques.md#rfc)
 - for official specifications - HTTP, OpenAPI - link to the authoritative
 source
 - for course materials without public URLs, provide enough detail for

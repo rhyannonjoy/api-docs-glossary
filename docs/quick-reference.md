@@ -722,16 +722,6 @@ after the source branch has changed
 
 ---
 
-### Request for Comments (RFC)
-
-- Internet Engineering Task Force (IETF) concept
-- numbered technical documents
-- provide authoritative specifications for web standards
-
-**Glossary Term Entry Location**: [Tools & Techniques - Request for Comments (RFC)](tools-techniques.md#request-for-comments-rfc)
-
----
-
 ### request/response
 
 - two-part communication pattern in API interactions
@@ -760,6 +750,17 @@ after the source branch has changed
 - terms are often used interchangeably
 
 **Glossary Term Entry Location**: [API Types & Architectures - REST vs *REST*ful](api-types-architectures.md#rest-vs-restful)
+
+---
+
+### RFC
+
+- acronym for Request for Comments
+- IETF - Internet Engineering Task Force - concept
+- numbered technical documents
+- provide authoritative specifications for web standards
+
+**Glossary Term Entry Location**: [Tools & Techniques - RFC](tools-techniques.md#rfc)
 
 ---
 
