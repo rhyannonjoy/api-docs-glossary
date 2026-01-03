@@ -870,6 +870,16 @@ by bureaucracy
 
 ---
 
+### URI
+
+- acronym for Uniform Resource Identifer
+- standard format for identifying resources
+- forms the foundation for both URLs and URNs
+
+**Glossary Term Entry Location**: [Core Concepts - URI](core-concepts.md#uri)
+
+--- 
+
 ### usability testing
 
 - practice of testing how easy a design is to use with
