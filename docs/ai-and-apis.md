@@ -22,6 +22,26 @@ flowchart LR
 
 ---
 
+## AI
+
+**Definition**: acronym for Artificial Intelligence; technologies that
+use computers and large datasets to perform tasks, make predictions,
+or solve problems that typically require human intelligence
+
+**Purpose**: encompasses tools and techniques increasingly used in API
+documentation workflows, from content generation to automated testing
+
+**Related Terms**: [genAI](#genai), [Large Language Model](#large-language-model),
+[Machine Learning](#machine-learning),
+[Natural Language Processing](#natural-language-processing)
+
+**Sources**:
+
+- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
+- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
+
+---
+
 ## AI-assisted documentation
 
 **Definition**: documentation created or enhanced using AI tools while
@@ -36,8 +56,8 @@ accuracy verification, and user experience
 descriptions, then manually reviewing and enhancing with technical
 details and examples
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[genAI](#genai), [Large Language Model](#large-language-model)
+**Related Terms**: [AI](#ai), [genAI](#genai),
+[Large Language Model](#large-language-model)
 
 **Source**: UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
@@ -77,7 +97,7 @@ _**Note**: this represents current perspectives on AI implementation
 into usability testing strategies and may evolve as AI capabilities
 develop_
 
-**Related Terms**:
+**Related Terms**: [AI](#ai),
 [guerrilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
 [usability testing](workflows-methodologies.md#usability-testing)
 
@@ -94,28 +114,7 @@ reflect prejudices present in training data or model design
 assess AI-generated content rather than accepting it as authoritative,
 particularly for examples involving people, places, or cultural contexts
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[training data](#training-data)
-
-**Sources**:
-
-- [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
-- UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
-
----
-
-## Artificial Intelligence (AI)
-
-**Definition**: technologies that use computers and large datasets to perform
-tasks, make predictions, or solve problems that typically require human
-intelligence
-
-**Purpose**: encompasses tools and techniques increasingly used in API
-documentation workflows, from content generation to automated testing
-
-**Related Terms**: [genAI](#genai), [Large Language Model](#large-language-model),
-[Machine Learning](#machine-learning),
-[Natural Language Processing](#natural-language-processing)
+**Related Terms**: [AI](#ai), [training data](#training-data)
 
 **Sources**:
 
@@ -137,8 +136,7 @@ and quality
 **Example**: using Claude or ChatGPT to draft initial API endpoint
 descriptions that writers then refine and verify
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model](#large-language-model),
+**Related Terms**: [AI](#ai), [Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning)
 
 **Sources**:
@@ -161,8 +159,8 @@ or translating text
 **Example**: LLMs can draft initial OpenAPI specification descriptions
 or generate code examples in many programming languages
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[genAI](#genai), [Natural Language Processing](#natural-language-processing)
+**Related Terms**: [AI](#ai), [genAI](#genai),
+[Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
@@ -181,8 +179,8 @@ to complete new tasks
 pattern recognition in existing documentation, automated categorization,
 and predictive suggestions
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[genAI](#genai), [Natural Language Processing](#natural-language-processing)
+**Related Terms**: [AI](#ai), [genAI](#genai),
+[Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
@@ -203,8 +201,7 @@ autocomplete, spell-check, and automated translation of API documentation
 **Example**: NLP enables smart search in API documentation that understands
 queries like "how to authenticate" and returns relevant authentication endpoints
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model](#large-language-model),
+**Related Terms**: [AI](#ai), [Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning)
 
 **Sources**:
@@ -227,8 +224,7 @@ and expected output formats
 `GET` endpoint that retrieves user profiles, including response codes
 and example JSON" rather than "describe this endpoint"
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model](#large-language-model)
+**Related Terms**: [AI](#ai), [Large Language Model](#large-language-model)
 
 **Sources**:
 
@@ -246,8 +242,7 @@ recognize patterns and generate responses
 recognize when AI outputs may contain biases, outdated information, or
 inaccuracies requiring verification
 
-**Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model](#large-language-model),
+**Related Terms**: [AI](#ai), [Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning)
 
 **Sources**:
