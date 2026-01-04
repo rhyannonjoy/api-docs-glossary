@@ -123,7 +123,7 @@ with well-defined phases that ensure content meets user needs
 
 ---
 
-## guerrilla usability testing (GUT)
+## guerrilla usability testing
 
 **Definition**: evaluation method that tests interface effectiveness
 by approaching participants in public spaces for quick feedback rather
@@ -237,7 +237,7 @@ provides user perspective before product release
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
-[guerrilla usability testing (GUT)](#guerrilla-usability-testing-gut)
+[guerrilla usability testing](#guerrilla-usability-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
