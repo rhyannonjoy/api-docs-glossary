@@ -305,12 +305,13 @@ in one's GitHub account
 
 ---
 
-### Generative AI (genAI)
+### genAI
 
+- acronym for Generative AI
 - draws upon the patterns identified through machine learning processes
 to generate new content
 
-**Glossary Term Entry Location**: [AI & APIs - Generative AI (genAI)](ai-and-apis.md#generative-ai-genai)
+**Glossary Term Entry Location**: [AI & APIs - genAI](ai-and-apis.md#genai)
 
 ---
 
