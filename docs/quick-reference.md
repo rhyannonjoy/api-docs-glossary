@@ -30,6 +30,18 @@ belong in the full documentation structure.
 
 ---
 
+### AI
+
+- acronym for Artificial Intelligence
+- a research field
+- set of technologies that use computers and large datasets to perform tasks
+- make predictions or recommendations and solve problems that normally
+require human intelligence
+
+**Glossary Term Entry Location**: [AI & APIs - AI](ai-and-apis.md#ai)
+
+---
+
 ### API
 
 - application programming interface
@@ -70,17 +82,6 @@ operation or object
 - measures taken to protect APIs from unauthorized access, misuse, attacks
 
 **Glossary Term Entry Location**: [Core Concepts - API security](core-concepts.md#api-security)
-
----
-
-### Artificial Intelligence (AI)
-
-- a research field
-- set of technologies that use computers and large datasets to perform tasks
-- make predictions or recommendations and solve problems that normally
-require human intelligence
-
-**Glossary Term Entry Location**: [AI & APIs - Artificial Intelligence (AI)](ai-and-apis.md#artificial-intelligence-ai)
 
 ---
 
