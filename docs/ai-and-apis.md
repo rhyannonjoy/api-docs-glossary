@@ -38,7 +38,7 @@ details and examples
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
 [Generative AI (genAI)](#generative-ai-genai),
-[Large Language Model (LLM)](#large-language-model-llm)
+[Large Language Model](#large-language-model)
 
 **Source**: UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
@@ -115,7 +115,7 @@ intelligence
 documentation workflows, from content generation to automated testing
 
 **Related Terms**: [Generative AI (genAI)](#generative-ai-genai),
-[Large Language Model (LLM)](#large-language-model-llm),
+[Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning),
 [Natural Language Processing](#natural-language-processing)
 
@@ -140,7 +140,7 @@ and quality
 descriptions that writers then refine and verify
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model (LLM)](#large-language-model-llm),
+[Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning)
 
 **Sources**:
@@ -150,11 +150,11 @@ descriptions that writers then refine and verify
 
 ---
 
-## Large Language Model (LLM)
+## Large Language Model
 
-**Definition**: form of genAI trained on large amounts of text
-that generates human-like responses using deep learning and neural
-networks
+**Definition**: also known as an LLM; form of genAI trained on large
+amounts of text that generates human-like responses using deep learning
+and neural networks
 
 **Purpose**: handles repetitive or foundational documentation tasks
 such as generating boilerplate descriptions, summarizing content,
@@ -208,7 +208,7 @@ autocomplete, spell-check, and automated translation of API documentation
 queries like "how to authenticate" and returns relevant authentication endpoints
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model (LLM)](#large-language-model-llm),
+[Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning)
 
 **Sources**:
@@ -232,7 +232,7 @@ and expected output formats
 and example JSON" rather than "describe this endpoint"
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model (LLM)](#large-language-model-llm)
+[Large Language Model](#large-language-model)
 
 **Sources**:
 
@@ -251,7 +251,7 @@ recognize when AI outputs may contain biases, outdated information, or
 inaccuracies requiring verification
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Large Language Model (LLM)](#large-language-model-llm),
+[Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning)
 
 **Sources**:
