@@ -383,14 +383,14 @@ to request exactly the data they need through a single endpoint
 
 ---
 
-### guerilla usability testing (GUT)
+### guerrilla usability testing
 
 - way to assess how effective an interface is by testing out
 its visual design, capability, and general message on its
 intended audience and capturing their responses
 - typically low maintenance with predefined tasks
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - guerilla usability testing (GUT)](workflows-methodologies.md#guerrilla-usability-testing-gut)
+**Glossary Term Entry Location**: [Workflows & Methodologies - guerrilla usability testing](workflows-methodologies.md#guerrilla-usability-testing)
 
 ---
 

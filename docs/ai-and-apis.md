@@ -79,7 +79,7 @@ into usability testing strategies and may evolve as AI capabilities
 develop_
 
 **Related Terms**:
-[guerrilla usability testing (GUT)](workflows-methodologies.md#guerrilla-usability-testing-gut),
+[guerrilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
