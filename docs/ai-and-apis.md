@@ -117,7 +117,7 @@ documentation workflows, from content generation to automated testing
 **Related Terms**: [Generative AI (genAI)](#generative-ai-genai),
 [Large Language Model (LLM)](#large-language-model-llm),
 [Machine Learning](#machine-learning),
-[Natural Language Processing (NLP)](#natural-language-processing-nlp)
+[Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
@@ -165,7 +165,7 @@ or generate code examples in many programming languages
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
 [Generative AI (genAI)](#generative-ai-genai),
-[Natural Language Processing (NLP)](#natural-language-processing-nlp)
+[Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
@@ -186,7 +186,7 @@ and predictive suggestions
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
 [Generative AI (genAI)](#generative-ai-genai),
-[Natural Language Processing (NLP)](#natural-language-processing-nlp)
+[Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
@@ -195,10 +195,11 @@ and predictive suggestions
 
 ---
 
-## Natural Language Processing (NLP)
+## Natural Language Processing
 
-**Definition**: computer's ability to analyze and generate responses that
-mimic human language use through machine learning on large text datasets
+**Definition**: also known as NLP; computer's ability to analyze and
+generate responses that mimic human language use through machine learning
+on large text datasets
 
 **Purpose**: powers features in documentation tools such as search capability,
 autocomplete, spell-check, and automated translation of API documentation
@@ -209,6 +210,7 @@ queries like "how to authenticate" and returns relevant authentication endpoints
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
 [Large Language Model (LLM)](#large-language-model-llm),
 [Machine Learning](#machine-learning)
+
 **Sources**:
 
 - [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)

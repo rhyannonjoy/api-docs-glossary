@@ -556,12 +556,13 @@ file
 
 ---
 
-### Natural Language Processing (NLP)
+### Natural Language Processing
 
+- also known as NLP
 - ability of computers to analyze and generate responses in ways
 that mimic humans’ use of language
 
-**Glossary Term Entry Location**: [AI & APIs - Natural Language Processing (NLP)](ai-and-apis.md#natural-language-processing-nlp)
+**Glossary Term Entry Location**: [AI & APIs - Natural Language Processing](ai-and-apis.md#natural-language-processing)
 
 ---
 
