@@ -168,8 +168,7 @@ resource formatted as a JSON document:
 }
 ```
 
-**Related Terms**: [API](core-concepts.md#api),
-[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
+**Related Terms**: [API](core-concepts.md#api), [HTTP](core-concepts.md#http),
 [HTTP status codes](core-concepts.md#http-status-codes), [JSON](core-concepts.md#json),
 [parameters](core-concepts.md#parameters), [URL](core-concepts.md#url)
 
@@ -201,8 +200,7 @@ endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
 `DELETE`
 
 **Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
-[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
-[HTTP method](core-concepts.md#http-method),
+[HTTP](core-concepts.md#http), [HTTP method](core-concepts.md#http-method),
 [REST API](#rest-api)
 
 **Sources**:
@@ -247,7 +245,7 @@ requirements, and transaction guarantees
 
 **Related Terms**: [API](core-concepts.md#api),
 [error handling](core-concepts.md#error-handling),
-[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
+[HTTP](core-concepts.md#http),
 [REST API](#rest-api), [XML](tools-techniques.md#xml)
 
 **Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
@@ -271,8 +269,8 @@ automatically run tests
 
 **Related Terms**: [API](core-concepts.md#api),
 [API endpoint](core-concepts.md#api-endpoint), [event-driven](#event-driven),
-[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
-[`POST`](core-concepts.md#post), [real-time](#real-time)
+[HTTP](core-concepts.md#http), [`POST`](core-concepts.md#post),
+[real-time](#real-time)
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
 
@@ -294,8 +292,7 @@ to receive price updates instantly as they occur, rather than polling the
 server every few seconds
 
 **Related Terms**: [API](core-concepts.md#api), [event-driven](#event-driven),
-[HTTP](core-concepts.md#http-hypertext-transfer-protocol),
-[real-time](#real-time)
+[HTTP](core-concepts.md#http), [real-time](#real-time)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
