@@ -630,6 +630,16 @@ that mimic humans’ use of language
 
 ---
 
+### payload
+
+- defines what data clients send and receive
+- actual data transmitted in an API request or response
+body
+
+**Glossary Term Entry Location**: [Core Concepts -  payload](core-concepts.md#payload)
+
+---
+
 ### `POST`
 
 - HTTP method
