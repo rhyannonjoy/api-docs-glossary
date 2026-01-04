@@ -140,6 +140,39 @@ verify identity
 
 ---
 
+### CRUD
+
+**Definition**: acronym for "Create, Read, Update, Delete"; the four basic
+operations for persistent storage and data management in APIs
+
+**Purpose**: provides a standard framework for API operations that maps
+directly to HTTP methods, making API design intuitive and predictable;
+CRUD operations form the foundation of most REST API interactions
+
+**HTTP method mapping**:
+
+| CRUD Operation | HTTP Method | Action | Example |
+| -------------- | ----------- | ------ | ------- |
+| Create | `POST` | Add new resource | `POST /users` creates a new user |
+| Read | `GET` | Retrieve resource | `GET /users/123` retrieves user 123 |
+| Update | `PUT` or `PATCH` | Change resource | `PUT /users/123` edits entire user record |
+| Delete | `DELETE` | Remove resource | `DELETE /users/123` removes user 123 |
+
+**Example**: a typical CRUD API for managing blog posts supports creating
+new posts via `POST /posts`, reading posts via `GET /posts/{id}`, updating
+posts via `PUT /posts/{id}`, and deleting posts via `DELETE /posts/{id}`
+
+**Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
+[`PATCH`](#patch), [`POST`](#post), [`PUT`](#put), resource,
+[REST API](api-types-architectures.md#rest-api)
+
+**Sources**:
+
+- [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- UW API Docs: Module 2, Lesson 5: "Create a Master Prompt"
+
+---
+
 ### `DELETE`
 
 **Definition**: HTTP method that requests removal of a specified
@@ -274,7 +307,7 @@ deletes data
 `POST` for creating, `PATCH` for editing specific fields, `PUT` for
 updating whole resources, and `DELETE` for removing resources
 
-**Related Terms**: [`DELETE`](#delete), [`GET`](#get),
+**Related Terms**: [CRUD](#crud), [`DELETE`](#delete), [`GET`](#get),
 [HTTP](core-concepts.md#http), [`PATCH`](#patch),
 [`POST`](#post), [`PUT`](#put)
 
