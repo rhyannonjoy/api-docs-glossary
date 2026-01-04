@@ -202,6 +202,16 @@ resource availability to the critical path
 
 ---
 
+### CRUD
+
+- acronym for "Create, Read, Update, Delete"
+- provides a standard framework for API operations that maps
+directly to HTTP methods
+
+**Glossary Term Entry Location**: [Core Concepts - CRUD](core-concepts.md#crud)
+
+---
+
 ### cURL
 
 - acronym for "client URL"
