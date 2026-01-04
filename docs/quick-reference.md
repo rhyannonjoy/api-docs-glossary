@@ -225,13 +225,14 @@ resource availability to the critical path
 
 ---
 
-### Document Development Life Cycle (DDLC)
+### Document Development Life Cycle
 
+- also known as DDLC
 - process of writing and delivering particular content in the form
 of documentation
 - example formats: PDF, Word doc, online articles, website content
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle (DDLC)](workflows-methodologies.md#document-development-life-cycle-ddlc)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle](workflows-methodologies.md#document-development-life-cycle)
 
 ---
 

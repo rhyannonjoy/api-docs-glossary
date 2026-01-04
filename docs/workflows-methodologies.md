@@ -35,7 +35,7 @@ their work through flexibility rather than linear, rigid planning
 - Adapting to change over following a strict plan
 
 **Related Terms**:
-[Document Development Life Cycle (DDLC)](#document-development-life-cycle-ddlc),
+[Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
 [Scrum](#scrum), [Waterfall](#waterfall)
 
@@ -92,11 +92,11 @@ any step delay the entire release
 
 ---
 
-## Document Development Life Cycle (DDLC)
+## Document Development Life Cycle
 
-**Definition**: process of writing and delivering content in the form
-of documentation such as PDFs, Word documents, online articles, or
-website content
+**Definition**: also known as DDLC; process of writing and delivering
+content in the form of documentation such as PDFs, Word documents,
+online articles, or website content
 
 **Purpose**: provides a structured approach to creating documentation
 with well-defined phases that ensure content meets user needs
@@ -148,6 +148,7 @@ from target users without formal recruitment processes
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[Document Development Life Cycle](#document-development-life-cycle),
 [usability testing](#usability-testing)
 
 **Sources**:
@@ -178,7 +179,7 @@ projects based on team needs and project characteristics
 **Related Terms**: [Agile](#agile),
 [Critical Chain Project Management](#critical-chain-project-management),
 [Critical Path Method](#critical-path-method),
-[Document Development Life Cycle](#document-development-life-cycle-ddlc),
+[Document Development Life Cycle](#document-development-life-cycle),
 [Scrum](#scrum), [Waterfall](#waterfall)
 
 **Sources**:
@@ -237,6 +238,7 @@ provides user perspective before product release
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[Document Development Life Cycle](#document-development-life-cycle),
 [guerrilla usability testing](#guerrilla-usability-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
