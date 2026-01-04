@@ -404,12 +404,13 @@ intended audience and capturing their responses
 
 ---
 
-### HTTP (Hypertext Transfer Protocol)
+### HTTP
 
+- acronym for Hypertext Transfer Protocol
 - synchronous request/response protocol
 - enables communication between clients and servers over the web
 
-**Glossary Term Entry Location**: [Core Concepts - HTTP (Hypertext Transfer Protocol)](core-concepts.md#http-hypertext-transfer-protocol)
+**Glossary Term Entry Location**: [Core Concepts - HTTP](core-concepts.md#http)
 
 ---
 

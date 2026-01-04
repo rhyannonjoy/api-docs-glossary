@@ -103,7 +103,7 @@ Breaking down this endpoint:
 | `/resource/{id}` | Single resource operations | `GET /users/123` retrieves one user |
 | `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
 
-**Related Terms**: [API](#api), [HTTP](#http-hypertext-transfer-protocol),
+**Related Terms**: [API](#api), [HTTP](core-concepts.md#http),
 [HTTP method](#http-method), [parameters](#parameters), [request/response](#requestresponse),
 [REST API](api-types-architectures.md#rest-api)
 
@@ -232,12 +232,13 @@ user with ID 123 without changing any data
 
 ---
 
-### HTTP (Hypertext Transfer Protocol)
+### HTTP
 
-**Definition**: synchronous request/response protocol that enables
-communication between clients and servers over the web; defines
-message format and transmission type, and how web servers and
-browsers should respond to a variety of commands
+**Definition**: acronym for Hypertext Transfer Protocol;
+synchronous request/response protocol that enables communication
+between clients and servers over the web; defines message format
+and transmission type, and how web servers and browsers should
+respond to a variety of commands
 
 **Purpose**: HTTP forms the foundation of API communication;
 understanding HTTP is essential for documenting API endpoints,
@@ -277,7 +278,7 @@ deletes data
 updating whole resources, and `DELETE` for removing resources
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
-[HTTP](#http-hypertext-transfer-protocol), [`PATCH`](#patch),
+[HTTP](core-concepts.md#http), [`PATCH`](#patch),
 [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
@@ -303,7 +304,7 @@ intercepts the network traffic, they can't read the username, password,
 or account information
 
 **Related Terms**: [API security](#api-security), [authentication](#authentication),
-[HTTP](#http-hypertext-transfer-protocol), [HTTP versions](#http-versions)
+[HTTP](core-concepts.md#http), [HTTP versions](#http-versions)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -359,8 +360,7 @@ GET https://api.example.com/users/999
 }
 ```
 
-**Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](#http-hypertext-transfer-protocol),
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
 [request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
 [validation](#validation)
 
@@ -386,7 +386,7 @@ features like multiplexing and bidirectional streaming that aren't
 available in HTTP/1.1
 
 **Related Terms**: [gRPC API](api-types-architectures.md#grpc-api),
-[HTTP](#http-hypertext-transfer-protocol), [HTTPS](#https-hypertext-transfer-protocol-secure),
+[HTTP](core-concepts.md#http), [HTTPS](#https-hypertext-transfer-protocol-secure),
 [REST API](api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
@@ -646,7 +646,7 @@ Content-Type: application/json
 ```
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](#http-hypertext-transfer-protocol), [HTTP method](#http-method),
+[HTTP](core-concepts.md#http), [HTTP method](#http-method),
 [HTTP status codes](#http-status-codes), [parameters](#parameters),
 [REST API](api-types-architectures.md#rest-api)
 
@@ -720,8 +720,7 @@ identifies a book by its ISBN - International Standard Book Number;
 both identify resources without specifying network locations
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](#http-hypertext-transfer-protocol),
-[REST API](api-types-architectures.md#rest-api),
+[HTTP](core-concepts.md#http), [REST API](api-types-architectures.md#rest-api),
 [URL](#url)
 
 **Source**: [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
@@ -754,7 +753,7 @@ https://api.example.com:443/v1/users/123?include=orders
 | what | endpoint/path | `/v1/users/123` | specific resource location |
 | _optional_ | query parameters | `?include=orders` | request modifications |
 
-**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http-hypertext-transfer-protocol),
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
 [parameters](#parameters), [REST API](api-types-architectures.md#rest-api),
 [schema](#schema), [URI](#uri)
 
