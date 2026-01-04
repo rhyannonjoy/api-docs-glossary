@@ -479,12 +479,13 @@ to represent structured data
 
 ---
 
-### Large Language Model (LLM)
+### Large Language Model
 
+- also known as an LLM
 - form of generative AI that's trained on enormous amounts of text
 - can generate text-based responses that look and feel human-like
 
-**Glossary Term Entry Location**: [AI & APIs - Large Language Model (LLM)](ai-and-apis.md#large-language-model-llm)
+**Glossary Term Entry Location**: [AI & APIs - Large Language Model](ai-and-apis.md#large-language-model)
 
 ---
 
