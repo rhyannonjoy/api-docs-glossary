@@ -180,13 +180,14 @@ using the SHA-1 hash function
 
 ---
 
-### Critical Chain Project Management (CCPM)
+### Critical Chain Project Management
 
+- also known as CCPM
 - project management method
 - focuses on resources needed to complete the project’s tasks by adding
 resource availability to the critical path
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management (CCPM)](workflows-methodologies.md#critical-chain-project-management-ccpm)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management](workflows-methodologies.md#critical-chain-project-management)
 
 ---
 
