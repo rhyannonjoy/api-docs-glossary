@@ -191,13 +191,14 @@ resource availability to the critical path
 
 ---
 
-### Critical Path Method (CPM)
+### Critical Path Method
 
+- also known as CPM
 - project management method
 - identifying a "critical path" of task sequences
 - some tasks can't start until previous ones finish
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method (CPM)](workflows-methodologies.md#critical-path-method-cpm)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method](workflows-methodologies.md#critical-path-method)
 
 ---
 

@@ -57,7 +57,7 @@ rather than solely on task dependencies
 not just task dependencies
 
 **Related Terms**: [Agile](#agile),
-[Critical Path Method](#critical-path-method-cpm),
+[Critical Path Method](#critical-path-method),
 [project management methodology](#project-management-methodology)
 
 **Sources**:
@@ -67,11 +67,11 @@ not just task dependencies
 
 ---
 
-## Critical Path Method (CPM)
+## Critical Path Method
 
-**Definition**: project management technique identifying task sequences
-where some tasks can't start until previous ones finish, often visualized
-with Gantt charts
+**Definition**: also known as CPM; project management technique
+identifying task sequences where some tasks can't start until
+previous ones finish, often visualized with Gantt charts
 
 **Purpose**: helps teams understand task dependencies and identify
 bottlenecks in project timelines
@@ -177,7 +177,7 @@ projects based on team needs and project characteristics
 
 **Related Terms**: [Agile](#agile),
 [Critical Chain Project Management](#critical-chain-project-management),
-[Critical Path Method](#critical-path-method-cpm),
+[Critical Path Method](#critical-path-method),
 [Document Development Life Cycle](#document-development-life-cycle-ddlc),
 [Scrum](#scrum), [Waterfall](#waterfall)
 
