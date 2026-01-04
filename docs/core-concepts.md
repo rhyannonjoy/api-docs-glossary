@@ -105,7 +105,7 @@ Breaking down this endpoint:
 
 **Related Terms**: [API](#api), [HTTP](core-concepts.md#http),
 [HTTP method](#http-method), [parameters](#parameters), [request/response](#requestresponse),
-[REST API](api-types-architectures.md#rest-api)
+[resource](core-concepts.md#resource), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -163,7 +163,7 @@ new posts via `POST /posts`, reading posts via `GET /posts/{id}`, updating
 posts via `PUT /posts/{id}`, and deleting posts via `DELETE /posts/{id}`
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
-[`PATCH`](#patch), [`POST`](#post), [`PUT`](#put), resource,
+[`PATCH`](#patch), [`POST`](#post), [`PUT`](#put), [resource](#resource),
 [REST API](api-types-architectures.md#rest-api)
 
 **Sources**:
@@ -689,6 +689,47 @@ Content-Type: application/json
 
 ---
 
+### resource
+
+**Definition**: a distinct piece of data or entity available for reference
+or modification through an API; REST architecture fundamental concept
+in which everything is a resource with a unique identifier
+
+**Purpose**: provides a consistent mental model for API design and usage;
+resources map to real-world entities and enable intuitive API structures
+where URLs represent resources and HTTP methods represent actions on those
+resources
+
+**Key characteristics for each resource**:
+
+- **Unique identifier**: has a distinct URI or ID
+- **Representations**: return in different formats like JSON or XML
+- **State**: have properties available for reading or updating
+- **Relationships**: can relate to other resources
+
+**Common resource types**:
+
+| Type | Example | Typical Operations |
+| ---- | ------- | ------------------ |
+| Collection | `/users` | List all, create new |
+| Individual | `/users/123` | Read, edit, delete one |
+| Nested | `/users/123/orders` | Access related resources |
+| Singleton | `/profile` | Read or change single instance |
+
+**Example**: in an e-commerce API, resources include users, products,
+orders, and payments; each resource type has its own endpoint structure
+like `/products/456` for a specific product resource
+
+**Related Terms**: [API endpoint](#api-endpoint), [CRUD](#crud), [HTTP method](#http-method),
+[REST API](api-types-architectures.md#rest-api), [URI](#uri), [URL](#url)
+
+**Sources**: 
+
+- [IETF RFC 9110 - HTTP Semantics: Section 3.1](https://www.rfc-editor.org/rfc/rfc9110.html#name-resources)
+- UW API Docs: Module 2, Lesson 5: "Create a Master Prompt"
+
+---
+
 ### schema
 
 **Definition**: also know as the Schema Object, the formal definition that
@@ -755,8 +796,8 @@ identifies a book by its ISBN - International Standard Book Number;
 both identify resources without specifying network locations
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](core-concepts.md#http), [REST API](api-types-architectures.md#rest-api),
-[URL](#url)
+[HTTP](core-concepts.md#http), [resource](#resource),
+[REST API](api-types-architectures.md#rest-api), [URL](#url)
 
 **Source**: [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
 
@@ -789,8 +830,8 @@ https://api.example.com:443/v1/users/123?include=orders
 | _optional_ | query parameters | `?include=orders` | request modifications |
 
 **Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
-[parameters](#parameters), [REST API](api-types-architectures.md#rest-api),
-[schema](#schema), [URI](#uri)
+[parameters](#parameters), [resource](#resource),
+[REST API](api-types-architectures.md#rest-api), [schema](#schema), [URI](#uri)
 
 **Sources**:
 

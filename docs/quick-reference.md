@@ -753,6 +753,16 @@ after the source branch has changed
 
 ---
 
+### resource
+
+- REST architecture fundamental concept
+- distinct piece of data or entity available for reference
+or modification through an API
+
+**Glossary Term Entry Location**: [Core Concepts - resource](core-concepts.md#resource)
+
+---
+
 ### REST API
 
 - acronym for *RE*presentational state transfer, application programming interface

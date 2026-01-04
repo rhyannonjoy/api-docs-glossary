@@ -170,7 +170,8 @@ resource formatted as a JSON document:
 
 **Related Terms**: [API](core-concepts.md#api), [HTTP](core-concepts.md#http),
 [HTTP status codes](core-concepts.md#http-status-codes), [JSON](core-concepts.md#json),
-[parameters](core-concepts.md#parameters), [URL](core-concepts.md#url)
+[parameters](core-concepts.md#parameters), [resource](core-concepts.md#resource),
+[URL](core-concepts.md#url)
 
 **Sources**:
 
@@ -201,7 +202,7 @@ endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
 
 **Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
 [HTTP](core-concepts.md#http), [HTTP method](core-concepts.md#http-method),
-[REST API](#rest-api)
+[resource](core-concepts.md#resource), [REST API](#rest-api)
 
 **Sources**:
 
