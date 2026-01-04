@@ -505,7 +505,8 @@ with JavaScript
 | Configuration | Storing API settings and options |
 | Error messages | Structured error information |
 
-**Related Terms**: [REST API](api-types-architectures.md#rest-api),
+**Related Terms**: [payload](#payload),
+[REST API](api-types-architectures.md#rest-api),
 [serialization](#serialization),
 [XML](tools-techniques.md#xml)
 
@@ -558,6 +559,48 @@ Breaking down the parameters:
 [request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
+
+---
+
+### payload
+
+**Definition**: the actual data transmitted in an API request or response
+body, excluding headers and metadata; contains the information sent
+and/or received
+
+**Purpose**: distinguishes the meaningful content from the technical
+transmission details; understanding payload structure is essential for API
+documentation as it defines what data clients send and receive
+
+**Example**: in a `POST /users` request, the payload contains the data
+required to create a user:
+
+```json
+{
+  "firstName": "Alice",
+  "lastName": "Smith",
+  "email": "alice@example.com",
+  "role": "developer"
+}
+```
+
+**Common payload formats**:
+
+| Format | Use Case | Example |
+| ------ | -------- | ------- |
+| JSON | Most REST APIs | `{"name": "value"}` |
+| XML | Legacy systems, SOAP | `<name>value</name>` |
+| Form data | File uploads, form submissions | `name=value&email=user@example.com` |
+| Binary | File transfers, images | Raw bytes |
+
+**Related Terms**: [HTTP method](#http-method), [JSON](#json),
+[request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
+[serialization](#serialization), [XML](tools-techniques.md#xml)
+
+**Sources**:
+
+- [Mozilla Corporation, MDN: "HTTP Messages"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
+- UW API Docs: Module 2, Lesson 5: "Create a Master Prompt"
 
 ---
 
@@ -770,7 +813,7 @@ that can travel across network boundaries
 into JSON string `{"name":"Alice", "age":30}` before sending it in an
 API request
 
-**Related Terms**: [JSON](#json),
+**Related Terms**: [JSON](#json), [payload](#payload),
 [protocol buffers](tools-techniques.md#protocol-buffers),
 [XML](tools-techniques.md#xml)
 
