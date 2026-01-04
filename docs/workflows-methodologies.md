@@ -47,11 +47,11 @@ their work through flexibility rather than linear, rigid planning
 
 ---
 
-## Critical Chain Project Management (CCPM)
+## Critical Chain Project Management
 
-**Definition**: takes the critical path method one step further -
-focuses on resources needed to complete tasks rather than solely
-on task dependencies
+**Definition**: also known as CCPM; takes the critical path method
+one step further - focuses on resources needed to complete tasks
+rather than solely on task dependencies
 
 **Purpose**: ensures project schedules account for resource constraints,
 not just task dependencies
@@ -81,7 +81,7 @@ freeze → QA testing → documentation review → deployment, where delays in
 any step delay the entire release
 
 **Related Terms**: [Agile](#agile),
-[Critical Chain Project Management](#critical-chain-project-management-ccpm),
+[Critical Chain Project Management](#critical-chain-project-management),
 [project management methodology](#project-management-methodology)
 
 **Sources**:
@@ -176,7 +176,7 @@ projects based on team needs and project characteristics
 | Scrum | Sprint-based | Team collaboration | Fast-paced development, quick iterations |
 
 **Related Terms**: [Agile](#agile),
-[Critical Chain Project Management](#critical-chain-project-management-ccpm),
+[Critical Chain Project Management](#critical-chain-project-management),
 [Critical Path Method](#critical-path-method-cpm),
 [Document Development Life Cycle](#document-development-life-cycle-ddlc),
 [Scrum](#scrum), [Waterfall](#waterfall)
