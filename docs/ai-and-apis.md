@@ -37,8 +37,7 @@ descriptions, then manually reviewing and enhancing with technical
 details and examples
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Generative AI (genAI)](#generative-ai-genai),
-[Large Language Model](#large-language-model)
+[genAI](#genai), [Large Language Model](#large-language-model)
 
 **Source**: UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 
@@ -114,8 +113,7 @@ intelligence
 **Purpose**: encompasses tools and techniques increasingly used in API
 documentation workflows, from content generation to automated testing
 
-**Related Terms**: [Generative AI (genAI)](#generative-ai-genai),
-[Large Language Model](#large-language-model),
+**Related Terms**: [genAI](#genai), [Large Language Model](#large-language-model),
 [Machine Learning](#machine-learning),
 [Natural Language Processing](#natural-language-processing)
 
@@ -126,11 +124,11 @@ documentation workflows, from content generation to automated testing
 
 ---
 
-## Generative AI (genAI)
+## genAI
 
-**Definition**: AI systems that create new content by identifying
-patterns in training data and using probability to generate text,
-images, or other media
+**Definition**: acronym for Generative AI; AI systems that create
+new content by identifying patterns in training data and using
+probability to generate text, images, or other media
 
 **Purpose**: assists API documentation writers with drafting, editing,
 and formatting tasks while requiring human oversight for accuracy
@@ -164,8 +162,7 @@ or translating text
 or generate code examples in many programming languages
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Generative AI (genAI)](#generative-ai-genai),
-[Natural Language Processing](#natural-language-processing)
+[genAI](#genai), [Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
@@ -185,8 +182,7 @@ pattern recognition in existing documentation, automated categorization,
 and predictive suggestions
 
 **Related Terms**: [Artificial Intelligence (AI)](#artificial-intelligence-ai),
-[Generative AI (genAI)](#generative-ai-genai),
-[Natural Language Processing](#natural-language-processing)
+[genAI](#genai), [Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
