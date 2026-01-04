@@ -310,8 +310,8 @@ Git commands, making version control more accessible to
 non-technical writers
 
 **Related Terms**: [Git](#git), [Git Bash](#git-bash),
-[GitHub](#github), [graphical user interface (GUI)](#graphical-user-interface-gui),
-[repository](#repository-repo), [UI](#ui)
+[GitHub](#github), [GUI](#gui), [repository](#repository-repo),
+[UI](#ui)
 
 **Sources**:
 
@@ -320,11 +320,12 @@ non-technical writers
 
 ---
 
-## graphical user interface (GUI)
+## GUI
 
-**Definition**: a form of user interface that allows users
-to interact with software through graphical icons, visual
-indicators, and pointing devices rather than text-based commands
+**Definition**: acronym for graphical user interface;
+a form of user interface that allows users to interact with
+software through graphical icons, visual indicators, and pointing
+devices rather than text-based commands
 
 **Purpose**: GUI design principles inform API documentation
 when explaining visual elements, interface components, and user
@@ -497,12 +498,11 @@ documenting, and monitoring APIs through a graphical interface
 
 **Purpose**: commonly used for REST API development and testing
 workflows; enables API testing and exploration without
-command-line tools; provides a graphical user interface (GUI)
-alternative to cURL for making HTTP requests, supports
-automated test suites, collection sharing, and API
-documentation generation
+command-line tools; provides a [GUI](#gui) alternative to cURL
+for making HTTP requests, supports automated test suites, collection
+sharing, and API documentation generation
 
-**Related Terms**: [cURL](#curl), [json-server](#json-server),
+**Related Terms**: [cURL](#curl), [GUI](#gui), [json-server](#json-server),
 [REST API](api-types-architectures.md#rest-api), [Swagger](#swagger),
 [UI](#ui)
 
@@ -696,7 +696,7 @@ Web-based editor for creating and editing OAS documents
 - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) -
 Generates client libraries and server stubs from OAS files
 
-**Related terms**:
+**Related terms**: [GUI](#gui),
 [OpenAPI Specification](core-concepts.md#openapi-specification),
 [REST API](api-types-architectures.md#rest-api)
 
@@ -739,8 +739,7 @@ interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
 **Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
-[graphical user interface (GUI)](#graphical-user-interface-gui),
-[REST API](api-types-architectures.md#rest-api)
+[GUI](#gui), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 

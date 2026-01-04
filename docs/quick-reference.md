@@ -356,14 +356,6 @@ Unix Bash command line
 
 ---
 
-### graphical user interface (GUI)
-
-- form of user interface with graphical icons and visual indicators
-
-**Glossary Term Entry Location**: [Tools & Techniques - graphical user interface (GUI)](tools-techniques.md#graphical-user-interface-gui)
-
----
-
 ### GraphQL API
 
 - uses GraphQL, _Graph Query Language_ - to enable clients
@@ -391,6 +383,15 @@ intended audience and capturing their responses
 - typically low maintenance with predefined tasks
 
 **Glossary Term Entry Location**: [Workflows & Methodologies - guerrilla usability testing](workflows-methodologies.md#guerrilla-usability-testing)
+
+---
+
+### GUI
+
+- acronym for graphical user interface
+- form of user interface with graphical icons and visual indicators
+
+**Glossary Term Entry Location**: [Tools & Techniques - GUI](tools-techniques.md#gui)
 
 ---
 
