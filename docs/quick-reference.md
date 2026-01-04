@@ -424,12 +424,12 @@ deletes data
 
 ---
 
-### HTTPS (Hypertext Transfer Protocol Secure)
+### HTTPS
 
-- secure version of HTTP
+- acronym for Hypertext Transfer Protocol Secure
 - protects data from interception and tampering during transmission
 
-**Glossary Term Entry Location**: [Core Concepts - HTTPS (Hypertext Transfer Protocol Secure)](core-concepts.md#https-hypertext-transfer-protocol-secure)
+**Glossary Term Entry Location**: [Core Concepts - HTTPS](core-concepts.md#https)
 
 ---
 

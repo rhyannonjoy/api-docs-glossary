@@ -134,8 +134,7 @@ they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api), [error handling](#error-handling),
-[HTTPS](#https-hypertext-transfer-protocol-secure),
-[validation](#validation)
+[HTTPS](core-concepts.md#https), [validation](#validation)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
 
@@ -253,10 +252,8 @@ status code, such as `200` for success or `400` for a bad request,
 and any relevant data
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[error-handling](#error-handling),
-[HTTPS](#https-hypertext-transfer-protocol-secure),
-[HTTP status codes](#http-status-codes),
-[HTTP versions](#http-versions),
+[error-handling](#error-handling), [HTTPS](core-concepts.md#https),
+[HTTP status codes](#http-status-codes), [HTTP versions](#http-versions),
 [REST API](api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
@@ -285,18 +282,23 @@ updating whole resources, and `DELETE` for removing resources
 
 ---
 
-### HTTPS (Hypertext Transfer Protocol Secure)
+### HTTPS
 
-**Definition**: secure version of HTTP that encrypts communication
-between clients and servers using Transport Layer Security (TLS) or
-its predecessor, Secure Sockets Layer (SSL); HTTPS protects data from
-interception and tampering during transmission through encryption -
-the process of encoding data so only authorized parties can read it
+**Definition**: acronym for Hypertext Transfer Protocol Secure;
+encrypts communication between clients and servers using Transport
+Layer Security - TLS, or its predecessor, Secure Sockets Layer - SSL;
+HTTPS protects data from interception and tampering during transmission
+through encryption - the process of encoding data so only authorized
+parties can read it
 
 **Purpose**: HTTPS is critical for API security documentation; all
 modern APIs should use HTTPS to protect sensitive data like authentication
 tokens, user credentials, and personal information; API documentation must
 specify HTTPS endpoints and explain security requirements
+
+**Security Note**: while HTTPS provides security, it's not an API security
+_measure_ or _technique_, but a protocol implementation; security is one
+aspect of HTTPS, but not its defining characteristic
 
 **Example**: when users log into a banking app, their credentials travel
 over HTTPS; the encrypted connection ensures that even if someone
@@ -386,7 +388,7 @@ features like multiplexing and bidirectional streaming that aren't
 available in HTTP/1.1
 
 **Related Terms**: [gRPC API](api-types-architectures.md#grpc-api),
-[HTTP](core-concepts.md#http), [HTTPS](#https-hypertext-transfer-protocol-secure),
+[HTTP](core-concepts.md#http), [HTTPS](core-concepts.md#https),
 [REST API](api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
