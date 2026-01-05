@@ -45,7 +45,7 @@ const config: Config = {
       {
         apiKey: process.env.DOCUSAURUS_POSTHOG_API_KEY || 'placeholder',
         appUrl: process.env.DOCUSAURUS_POSTHOG_APP_URL || 'https://us.i.posthog.com',
-        enableInDevelopment: false, // optional, defaults to false
+        enableInDevelopment: false, // set to true only for local testing, never deploy as true
       },
     ],
   ],
