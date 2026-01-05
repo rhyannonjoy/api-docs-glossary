@@ -725,6 +725,17 @@ to its origin repository
 
 ---
 
+### rate limiting
+
+- mechanism that restricts the number of API requests a
+client can make within a specified time window
+- prevents abuse, maintains service stability, and ensures
+fair access for all users
+
+**Glossary Term Entry Location**: [Core Concepts - rate limiting](core-concepts.md#rate-limiting)
+
+---
+
 ### real-time
 
 - describes systems and/or APIs that process data with minimal delay

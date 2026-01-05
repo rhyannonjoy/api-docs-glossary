@@ -134,7 +134,8 @@ they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api), [error handling](#error-handling),
-[HTTPS](core-concepts.md#https), [validation](#validation)
+[HTTPS](core-concepts.md#https), [rate limiting](#rate-limiting),
+[validation](#validation)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
 
@@ -236,7 +237,7 @@ media type; less common but increasingly adopted by modern APIs;
 only required field is `type`, defaults to `"about:blank"`_
 
 **Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
-[JSON](#json), [validation](#validation)
+[JSON](#json), [rate limiting](#rate-limiting), [validation](#validation)
 
 **Sources**:
 
@@ -396,8 +397,8 @@ GET https://api.example.com/users/999
 ```
 
 **Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
-[request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
-[validation](#validation)
+[rate limiting](#rate-limiting), [request/response](#requestresponse),
+[REST API](api-types-architectures.md#rest-api), [validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -667,6 +668,54 @@ replaces all existing data for user 123 with the new data
 
 ---
 
+### rate limiting
+
+**Definition**: mechanism that restricts the number of API requests a
+client can make within a specified time window; protects servers from
+overload and ensures fair resource distribution
+
+**Purpose**: prevents abuse, maintains service stability, and ensures
+fair access for all users; API documentation must explain rate limits,
+how they're enforced, and what happens as they're exceeded
+
+**Security Implications**: rate limiting is a fundamental operational
+and/or data handling concept that affects all API usage - not just security
+scenarios; it's about resource management, fair access, and system stability
+as much as it's about preventing abuse
+
+**Common rate limiting patterns**:
+
+| Pattern | Description | Example |
+| ------- | ----------- | ------- |
+| Fixed window | Set number of requests per time unit | 1000 requests per hour |
+| Sliding window | Rolling time window for more precision | 1000 requests per 60-minute window |
+| Token bucket | Requests consume tokens that regenerate | 10 tokens/second, burst up to 100 |
+| Per-user | Limits apply to individual users/keys | 100 requests/minute per API key |
+
+**Example**: an API with rate limiting returns `429 Too Many Requests`
+when a client exceeds the rate limit, along with headers indicating when
+the client can retry:
+
+```bash
+HTTP/1.1 429 Too Many Requests
+X-RateLimit-Limit: 1000
+X-RateLimit-Remaining: 0
+X-RateLimit-Reset: 1704398400
+Retry-After: 3600
+```
+
+**Related Terms**: [API security](#api-security), [authentication](#authentication),
+[authorization](#authorization), [error handling](#error-handling),
+[HTTP status codes](#http-status-codes), [validation](#validation)
+
+**Sources**:
+
+- [IETF RFC 6585 - Additional HTTP Status Codes: Section 4](https://www.rfc-editor.org/rfc/rfc6585.html#section-4)
+- [Mozilla Corporation, MDN: "429 Too Many Requests"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429)
+- UW API Docs: Module 2, Lesson 5, "Create a Master Prompt"
+
+---
+
 ### request/response
 
 **Definition**: the two-part communication pattern in API interactions
@@ -903,7 +952,7 @@ creating a user account
 
 **Related Terms**: [API security](#api-security),
 [error handling](#error-handling), [HTTP status codes](#http-status-codes),
-[schema](#schema)
+[rate limiting](#rate-limiting), [schema](#schema)
 
 **Sources**:
 
