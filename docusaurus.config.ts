@@ -32,6 +32,24 @@ const config: Config = {
     mermaid: true,
   },
 
+  // Add custom fields to access env variables
+  customFields: {
+    posthogApiKey: process.env.DOCUSAURUS_POSTHOG_API_KEY,
+    posthogAppUrl: process.env.DOCUSAURUS_POSTHOG_APP_URL || 'https://us.i.posthog.com',
+  },
+
+  // Add PostHog plugin here
+  plugins: [
+    [
+      'posthog-docusaurus',
+      {
+        apiKey: process.env.DOCUSAURUS_POSTHOG_API_KEY || 'placeholder',
+        appUrl: process.env.DOCUSAURUS_POSTHOG_APP_URL || 'https://us.i.posthog.com',
+        enableInDevelopment: false, // optional, defaults to false
+      },
+    ],
+  ],
+
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
