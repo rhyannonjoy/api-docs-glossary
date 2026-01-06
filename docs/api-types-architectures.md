@@ -8,6 +8,27 @@ and recognize when standard REST documentation conventions don't apply.
 
 ---
 
+## API gateway
+
+**Definition**: server that acts as a single entry point for many backend
+services, handling request routing, authentication, rate limiting, and
+response transformation
+
+**Purpose**: simplifies client integration by providing a unified interface
+to many microservices; enables centralized security, monitoring, and versioning
+without clients needing to know about backend architecture
+
+**Example**: an e-commerce API gateway routes `/products` requests to the product
+service, `/orders` to the order service, and `/users` to the user service, while
+handling authentication for all three
+
+**Related Terms**: [API](core-concepts.md#api), [API endpoint](core-concepts.md#api-endpoint),
+microservices, [rate limiting](core-concepts.md#rate-limiting)
+
+**Source**: [F5, Inc., NGINX: "What Is an API Gateway?"](https://www.f5.com/glossary/api-gateway)
+
+---
+
 ## event-driven
 
 **Definition**: architectural pattern where actions trigger in response
