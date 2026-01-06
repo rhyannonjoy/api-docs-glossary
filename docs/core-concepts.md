@@ -59,8 +59,9 @@ sequenceDiagram
     API Server-->>Client: 200 OK + response
 ```
 
-**Related Terms**: [API endpoint](#api-endpoint), [API security](#api-security),
-[REST API](api-types-architectures.md#rest-api)
+**Related Terms**: [API endpoint](#api-endpoint),
+[API gateway](api-types-architectures.md#api-gateway),
+[API security](#api-security), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 

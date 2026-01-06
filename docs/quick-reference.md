@@ -60,6 +60,16 @@ require human intelligence
 
 ---
 
+### API gateway
+
+- server as single entry for many backend services
+- enables centralized security, monitoring, and versioning
+without clients needing to know about backend architecture
+
+**Glossary Term Entry Location**: [APT Types & Architectures - API gateway](api-types-architectures.md#api-gateway)
+
+---
+
 ### API overview topic
 
 - landing page in which the audience is everyone
