@@ -580,6 +580,15 @@ file
 
 ---
 
+### microservices
+
+- architectural approach
+- apps as a collection of small, independently deployable services
+
+**Glossary Term Entry Location**: [API Types & Architectures - microservices](api-types-architectures.md#microservices)
+
+---
+
 ## N
 
 ---

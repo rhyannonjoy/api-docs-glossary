@@ -23,7 +23,7 @@ service, `/orders` to the order service, and `/users` to the user service, while
 handling authentication for all three
 
 **Related Terms**: [API](core-concepts.md#api), [API endpoint](core-concepts.md#api-endpoint),
-microservices, [rate limiting](core-concepts.md#rate-limiting)
+[microservices](#microservices), [rate limiting](core-concepts.md#rate-limiting)
 
 **Source**: [F5, Inc., NGINX: "What Is an API Gateway?"](https://www.f5.com/glossary/api-gateway)
 
@@ -96,6 +96,25 @@ messages rather than JSON
 [serialization](core-concepts.md#serialization)
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
+
+---
+
+## microservices
+
+**Definition**: architectural approach in which applications are collections
+of small, independently deployable services that communicate via APIs
+
+**Purpose**: enables teams to develop, deploy, and scale services independently;
+improves fault isolation and technology flexibility compared to
+[monolithic architectures](https://www.geeksforgeeks.org/system-design/monolithic-architecture-system-design/)
+
+**Example**: Netflix's streaming platform uses hundreds of microservices for
+recommendations, playback, billing, and user profiles, each with its own API
+
+**Related Terms**: [API](core-concepts.md#api), [API gateway](#api-gateway),
+[REST API](#rest-api)
+
+**Source**: [Martin Fowler: "Microservices"](https://martinfowler.com/articles/microservices.html)
 
 ---
 
