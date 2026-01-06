@@ -844,6 +844,17 @@ or modification through an API
 
 ---
 
+### RPC API
+
+- acronym for Remote Procedure Call API
+- simplifies distributed computing
+- allows clients to execute functions on remote servers
+as if calling local functions
+
+**Glossary Term Entry Location**: [API Types & Architectures - RPC API](api-types-architectures.md#rpc-api)
+
+---
+
 ## S
 
 ---

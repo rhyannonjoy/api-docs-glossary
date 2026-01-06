@@ -93,6 +93,7 @@ messages rather than JSON
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP versions](core-concepts.md#http-versions),
 [Protocol Buffers](tools-techniques.md#protocol-buffers),
+[RPC API](#rpc-api),
 [serialization](core-concepts.md#serialization)
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
@@ -248,6 +249,25 @@ endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
 
 - [RESTful API: "What is REST?" by Lokesh Gupta](https://restfulapi.net/)
 - [Roy Thomas Fielding's University of California Dissertation: Chapter 5 - "Representational State Transfer (REST)"](https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm)
+
+---
+
+## RPC API
+
+**Definition**: acronym for Remote Procedure Call API; allows clients
+to execute functions on remote servers as if calling local functions,
+abstracting network communication details
+
+**Purpose**: simplifies distributed computing by making remote operations
+look like local function calls; common in internal service-to-service
+communication
+
+**Example**: a client calls `getUserProfile(userId)` which executes on
+a remote server and returns the result, hiding the network request details
+
+**Related Terms**: [API](core-concepts.md#api), [gRPC API](#grpc-api)
+
+**Source**: [Geeks for Geeks: "Difference Between REST API and RPC API"](https://www.geeksforgeeks.org/system-design/difference-between-rest-api-and-rpc-api/)
 
 ---
 
