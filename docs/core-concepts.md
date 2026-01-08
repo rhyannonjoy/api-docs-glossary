@@ -238,7 +238,8 @@ media type; less common but increasingly adopted by modern APIs;
 only required field is `type`, defaults to `"about:blank"`_
 
 **Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
-[JSON](#json), [rate limiting](#rate-limiting), [validation](#validation)
+[JSON](#json), [rate limiting](#rate-limiting),
+[troubleshooting](#troubleshooting), [validation](#validation)
 
 **Sources**:
 
@@ -399,7 +400,8 @@ GET https://api.example.com/users/999
 
 **Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
 [rate limiting](#rate-limiting), [request/response](#requestresponse),
-[REST API](api-types-architectures.md#rest-api), [validation](#validation)
+[REST API](api-types-architectures.md#rest-api),
+[troubleshooting](#troubleshooting), [validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -1103,7 +1105,7 @@ different authentication methods compare, without providing setup
 instructions
 
 **Related Terms**: [glossary](#glossary), [reference](#reference),
-[task](#task), [top-level](#top-level), troubleshooting,
+[task](#task), [top-level](#top-level), [troubleshooting](#troubleshooting),
 [tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
@@ -1232,7 +1234,8 @@ understand all underlying concepts
 steps to configure OAuth credentials and enable the authentication flow
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[reference](#reference), troubleshooting, [tutorial](#tutorial)
+[reference](#reference), [troubleshooting](#troubleshooting),
+[tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
 
@@ -1263,6 +1266,35 @@ best practices
 [getting started](#getting-started)
 
 **Source**: [GitLab Docs: "Top-level page type"](https://docs.gitlab.com/development/documentation/topic_types/top_level_page/)
+
+---
+
+### troubleshooting
+
+**Definition**: documentation topic type; helps users diagnose and resolve
+specific problems or error conditions; structured around symptoms, causes,
+and solutions
+
+**Purpose**: enables users to fix issues independently by providing targeted
+guidance for common problems; reduces support burden and improves user
+experience
+
+**Key Characteristics**:
+
+- describes the problem or error condition
+- lists possible causes
+- provides step-by-step solutions
+- may include diagnostic steps to identify the issue
+- often organized by error message or symptom
+
+**Example**: a troubleshooting topic for API errors explains common HTTP
+status codes like `401 Unauthorized` and `429 Too Many Requests`, describes
+why they occur, and provides steps to resolve them
+
+**Related Terms**: [concept](#concept), [error handling](#error-handling),
+[HTTP status codes](#http-status-codes), [task](#task)
+
+**Source**: [GitLab Docs: "Troubleshooting topic type"](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/)
 
 ---
 
