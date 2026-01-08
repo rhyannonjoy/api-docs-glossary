@@ -805,6 +805,16 @@ after the source branch has changed
 
 ---
 
+### reference
+
+- documentation topic type
+- provides detailed, factual information or system specifications
+- designed for lookup rather than learning
+
+**Glossary Term Entry Location**: [Core Concepts - reference](core-concepts.md#reference)
+
+---
+
 ### repository
 
 - place to store files that are under Git’s version control
