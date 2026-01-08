@@ -1072,7 +1072,8 @@ suitability
 | Related links | Navigation to related topics |
 
 **Related Terms**: [API overview topic](#api-overview-topic),
-[OpenAPI specification](#openapi-specification)
+[OpenAPI specification](#openapi-specification),
+[reference](#reference)
 
 **Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
 
@@ -1100,8 +1101,8 @@ authentication is, why it's necessary for API security, and how
 different authentication methods compare, without providing setup
 instructions
 
-**Related Terms**: [glossary](#glossary), reference, task,
-troubleshooting
+**Related Terms**: [glossary](#glossary), [reference](#reference),
+task, troubleshooting
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
 
@@ -1173,9 +1174,37 @@ search elsewhere
 **Example**: an API glossary defines terms like "endpoint," "rate limiting,"
 and "webhook" with brief explanations and links to detailed documentation
 
-**Related Terms**: [concept](#concept), reference
+**Related Terms**: [concept](#concept), [reference](#reference)
 
 **Source**: [GitLab Docs: "Glossary topic type"](https://docs.gitlab.com/development/documentation/topic_types/glossary/)
+
+---
+
+### reference
+
+**Definition**: documentation topic type; provides detailed, factual
+information about APIs, commands, parameters, or system specifications;
+designed for lookup rather than learning
+
+**Purpose**: serves as a comprehensive source of technical details that
+developers consult during implementation; prioritizes completeness and
+accuracy over explanation
+
+**Key Characteristics**:
+
+- structured, consistent format
+- lists all available options, parameters, or endpoints
+- includes data types, default values, and constraints
+- minimal explanatory text
+- optimized for scanning and searching
+
+**Example**: an API reference lists all endpoints with their HTTP methods,
+parameters, request/response formats, and status codes
+
+**Related Terms**: [API reference topic](#api-reference-topic), [concept](#concept),
+[glossary](#glossary), [OpenAPI Specification](#openapi-specification), task
+
+**Source**: [GitLab Docs: "Reference topic type"](https://docs.gitlab.com/development/documentation/topic_types/reference/)
 
 ---
 
@@ -1217,7 +1246,8 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[REST API](api-types-architectures.md#rest-api), [schema](#schema)
+[reference](#reference), [REST API](api-types-architectures.md#rest-api),
+[schema](#schema)
 
 **Sources**:
 
