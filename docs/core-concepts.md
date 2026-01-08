@@ -1031,7 +1031,7 @@ sequenceDiagram
 ```
 
 **Related Terms**: [API reference topic](#api-reference-topic),
-[market](frameworks-strategy.md#market),
+[getting started](#getting-started), [market](frameworks-strategy.md#market),
 [sales collateral](frameworks-strategy.md#sales-collateral)
 
 **Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
@@ -1103,6 +1103,52 @@ instructions
 **Related Terms**: glossary, reference, task, troubleshooting
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
+
+---
+
+### getting started
+
+**Definition**: documentation topic type; also known as "get started" -
+comprehensive onboarding documentation that helps new users complete
+their first meaningful interaction with a product or feature; provides
+detailed setup, configuration, and foundational knowledge
+
+**Purpose**: reduces time-to-value by guiding users through essential
+setup and first use; builds confidence and momentum for deeper
+engagement with the product through thorough, step-by-step guidance
+
+**Key Characteristics**:
+
+- covers complete setup and configuration process
+- assumes minimal prior knowledge
+- provides clear, sequential steps with explanations
+- includes prerequisites and troubleshooting
+- often spans many pages or sections
+- balances depth with accessibility
+
+**Onboarding Topics Comparison**:
+
+| Aspect | Introduction | Getting Started | Quickstart |
+| ------ | ------------ | --------------- | ---------- |
+| **Purpose** | Awareness | Foundation building | Immediate action |
+| **Action required** | None | Yes - comprehensive | Yes - minimal |
+| **Length** | Variable | Longer - Many pages | Shortest - single page |
+| **Depth** | Conceptual only | Detailed guidance | Essential steps only |
+| **Audience** | All levels | New users | Experienced users |
+| **Content** | What and why | Setup &rarr; config &rarr; examples | Fastest path to success |
+
+**Example**: a getting started guide for an API walks through obtaining
+API credentials, installing required libraries, configuring authentication,
+understanding key concepts, making many API calls with different parameters,
+and interpreting different response types
+
+**Related Terms**: [API overview topic](#api-overview-topic), introduction,
+quickstart, task, top-level, tutorial
+
+**Sources**:
+
+- [Document360: "How to Write a Getting Started Guide"](https://document360.com/blog/write-a-getting-started-guide/)
+- [GitLab Docs: "Get started"](https://docs.gitlab.com/development/documentation/topic_types/get_started/)
 
 ---
 

@@ -358,6 +358,17 @@ to generate new content
 
 ---
 
+### getting started
+
+- documentation topic type
+- also known as "get started"
+- comprehensive onboarding documentation that helps new users complete their
+first meaningful interaction with a product or feature
+
+**Glossary Term Entry Location**: [Core Concepts - getting started](core-concepts.md#getting-started)
+
+---
+
 ### Git
 
 - command-line program that executes version control functions
