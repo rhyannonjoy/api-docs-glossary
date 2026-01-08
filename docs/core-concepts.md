@@ -1102,7 +1102,7 @@ different authentication methods compare, without providing setup
 instructions
 
 **Related Terms**: [glossary](#glossary), [reference](#reference),
-task, troubleshooting
+[task](#task), troubleshooting
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
 
@@ -1145,7 +1145,7 @@ understanding key concepts, making many API calls with different parameters,
 and interpreting different response types
 
 **Related Terms**: [API overview topic](#api-overview-topic), introduction,
-quickstart, task, top-level, tutorial
+quickstart, [task](#task), top-level, tutorial
 
 **Sources**:
 
@@ -1202,9 +1202,37 @@ accuracy over explanation
 parameters, request/response formats, and status codes
 
 **Related Terms**: [API reference topic](#api-reference-topic), [concept](#concept),
-[glossary](#glossary), [OpenAPI Specification](#openapi-specification), task
+[glossary](#glossary), [OpenAPI Specification](#openapi-specification),
+[task](#task)
 
 **Source**: [GitLab Docs: "Reference topic type"](https://docs.gitlab.com/development/documentation/topic_types/reference/)
+
+---
+
+### task
+
+**Definition**: documentation topic type; guides users through completing a
+specific goal; focuses on "how to" perform an action with step-by-step
+instructions
+
+**Purpose**: enables users to complete work efficiently without needing to
+understand all underlying concepts
+
+**Key Characteristics**:
+
+- starts with a clear goal
+- provides numbered steps in logical order
+- includes prerequisites when necessary
+- may include expected results or verification steps
+- focuses on one specific outcome
+
+**Example**: a task topic titled "Authenticate with OAuth 2.0" lists the exact
+steps to configure OAuth credentials and enable the authentication flow
+
+**Related Terms**: [concept](#concept), [getting started](#getting-started),
+[reference](#reference), troubleshooting, tutorial
+
+**Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
 
 ---
 
