@@ -1004,6 +1004,15 @@ instructions
 
 ---
 
+### troubleshooting
+
+- documentation topic type
+- helps users diagnose and resolve specific problems or error conditions
+
+**Glossary Term Entry Location**: [Core Concepts - troubleshooting](core-concepts.md#troubleshooting)
+
+---
+
 ### tutorial
 
 - documentation topic type
