@@ -981,6 +981,20 @@ by bureaucracy
 
 ---
 
+## T
+
+---
+
+### task
+
+- documentation topic type
+- focuses on "how to" perform an action with step-by-step
+instructions
+
+**Glossary Term Entry Location**: [Core Concepts - task](core-concepts.md#task)
+
+---
+
 ## U
 
 ---
