@@ -1032,7 +1032,8 @@ sequenceDiagram
 
 **Related Terms**: [API reference topic](#api-reference-topic),
 [getting started](#getting-started), [market](frameworks-strategy.md#market),
-[sales collateral](frameworks-strategy.md#sales-collateral)
+[sales collateral](frameworks-strategy.md#sales-collateral),
+[top-level](#top-level)
 
 **Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
 
@@ -1102,7 +1103,7 @@ different authentication methods compare, without providing setup
 instructions
 
 **Related Terms**: [glossary](#glossary), [reference](#reference),
-[task](#task), troubleshooting
+[task](#task), [top-level](#top-level), troubleshooting
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
 
@@ -1145,7 +1146,7 @@ understanding key concepts, making many API calls with different parameters,
 and interpreting different response types
 
 **Related Terms**: [API overview topic](#api-overview-topic), introduction,
-quickstart, [task](#task), top-level, tutorial
+quickstart, [task](#task), [top-level](#top-level), tutorial
 
 **Sources**:
 
@@ -1233,6 +1234,34 @@ steps to configure OAuth credentials and enable the authentication flow
 [reference](#reference), troubleshooting, tutorial
 
 **Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
+
+---
+
+### top-level
+
+**Definition**: documentation topic type; high-level page that introduces a
+subject area and provides navigation to related topics; serves as an entry
+point for a documentation section
+
+**Purpose**: orients readers to available resources, establishes information
+architecture, and helps users find relevant documentation quickly
+
+**Key Characteristics**:
+
+- broad overview of the subject area
+- links to child topics organized logically
+- minimal detailed content
+- may include brief descriptions of linked topics
+- focuses on navigation and discoverability
+
+**Example**: a "Security" top-level page introduces security concepts and
+links to topics about authentication, authorization, encryption, and security
+best practices
+
+**Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
+[getting started](#getting-started)
+
+**Source**: [GitLab Docs: "Top-level page type"](https://docs.gitlab.com/development/documentation/topic_types/top_level_page/)
 
 ---
 

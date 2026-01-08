@@ -995,6 +995,15 @@ instructions
 
 ---
 
+### top-level
+
+- documentation topic type
+- introduces a subject area and provides navigation to related topics
+
+**Glossary Term Entry Location**: [Core Concepts - top-level](core-concepts.md#top-level)
+
+---
+
 ## U
 
 ---
