@@ -1100,7 +1100,8 @@ authentication is, why it's necessary for API security, and how
 different authentication methods compare, without providing setup
 instructions
 
-**Related Terms**: glossary, reference, task, troubleshooting
+**Related Terms**: [glossary](#glossary), reference, task,
+troubleshooting
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
 
@@ -1148,7 +1149,33 @@ quickstart, task, top-level, tutorial
 **Sources**:
 
 - [Document360: "How to Write a Getting Started Guide"](https://document360.com/blog/write-a-getting-started-guide/)
-- [GitLab Docs: "Get started"](https://docs.gitlab.com/development/documentation/topic_types/get_started/)
+- [GitLab Docs: "Get started page type"](https://docs.gitlab.com/development/documentation/topic_types/get_started/)
+
+---
+
+### glossary
+
+**Definition**: documentation topic type; alphabetically organized collection
+of terms and their definitions; provides quick reference for terminology
+specific to a product, domain, or technology
+
+**Purpose**: establishes consistent vocabulary, reduces confusion, and helps
+readers understand specialized terms without interrupting their workflow to
+search elsewhere
+
+**Key Characteristics**:
+
+- terms listed alphabetically
+- concise, clear definitions
+- may include links to related terms or detailed concept topics
+- focused on domain-specific or product-specific terminology
+
+**Example**: an API glossary defines terms like "endpoint," "rate limiting,"
+and "webhook" with brief explanations and links to detailed documentation
+
+**Related Terms**: [concept](#concept), reference
+
+**Source**: [GitLab Docs: "Glossary topic type"](https://docs.gitlab.com/development/documentation/topic_types/glossary/)
 
 ---
 
