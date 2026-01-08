@@ -1184,6 +1184,54 @@ and "webhook" with brief explanations and links to detailed documentation
 
 ---
 
+### OpenAPI Specification
+
+**Definition**: also known as the OAS, a standard, language-agnostic way
+to define the interface of an HTTP API, allowing both humans and computers
+to discover and understand the service's capabilities without
+accessing source code, documentation, or inspecting network traffic
+
+**Format**: YAML - human-readable data serialization language -
+with a hierarchical collection of properties and values that describe
+a REST API
+
+**Purpose**: used to create both the interface and documentation, but,
+the OAS document itself is neither implementation nor documentation -
+it requires interpretation before it can become either
+
+**Document structure:**
+
+| Section | Purpose |
+| --------- | --------- |
+| `info` | Metadata about the specification document |
+| `servers` | List of servers that support the API |
+| `tags` | Tokens used to group and organize endpoints such as resource names |
+| `security` | Security schemes used to restrict API access |
+| `paths` | URL path segments and their operations |
+| `components` | Reusable objects referenced throughout the document |
+
+**Path properties:**
+
+| Property | Description |
+| ---------- | ------------- |
+| `summary` | Short description; appears as the API operation name |
+| `description` | Detailed explanation of the API and how to use it |
+| `tags` | Groups similar paths together |
+| `operationId` | Unique identifier for this operation |
+| `parameters` | URL and query parameters - URL parameters appear in the path itself |
+| `responses` | All possible HTTP responses for requests to this path |
+
+**Related terms**: [API](#api), [API reference topic](#api-reference-topic),
+[reference](#reference), [REST API](api-types-architectures.md#rest-api),
+[schema](#schema)
+
+**Sources**:
+
+- UW API Docs: Module 5, Lesson 2, "Open API specification (OAS) documents"
+- [Wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
+
+---
+
 ### reference
 
 **Definition**: documentation topic type; provides detailed, factual
@@ -1324,53 +1372,5 @@ requests, handling responses, and implementing error handling
 [task](#task)
 
 **Source**: [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
-
----
-
-### OpenAPI Specification
-
-**Definition**: also known as the OAS, a standard, language-agnostic way
-to define the interface of an HTTP API, allowing both humans and computers
-to discover and understand the service's capabilities without
-accessing source code, documentation, or inspecting network traffic
-
-**Format**: YAML - human-readable data serialization language -
-with a hierarchical collection of properties and values that describe
-a REST API
-
-**Purpose**: used to create both the interface and documentation, but,
-the OAS document itself is neither implementation nor documentation -
-it requires interpretation before it can become either
-
-**Document structure:**
-
-| Section | Purpose |
-| --------- | --------- |
-| `info` | Metadata about the specification document |
-| `servers` | List of servers that support the API |
-| `tags` | Tokens used to group and organize endpoints such as resource names |
-| `security` | Security schemes used to restrict API access |
-| `paths` | URL path segments and their operations |
-| `components` | Reusable objects referenced throughout the document |
-
-**Path properties:**
-
-| Property | Description |
-| ---------- | ------------- |
-| `summary` | Short description; appears as the API operation name |
-| `description` | Detailed explanation of the API and how to use it |
-| `tags` | Groups similar paths together |
-| `operationId` | Unique identifier for this operation |
-| `parameters` | URL and query parameters - URL parameters appear in the path itself |
-| `responses` | All possible HTTP responses for requests to this path |
-
-**Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[reference](#reference), [REST API](api-types-architectures.md#rest-api),
-[schema](#schema)
-
-**Sources**:
-
-- UW API Docs: Module 5, Lesson 2, "Open API specification (OAS) documents"
-- [Wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
 
 ---
