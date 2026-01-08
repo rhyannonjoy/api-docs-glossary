@@ -402,6 +402,15 @@ Unix Bash command line
 
 ---
 
+### glossary
+
+- documentation topic type
+- alphabetically organized collection of terms and their definitions
+
+**Glossary Term Entry Location**: [Core Concepts - glossary](core-concepts.md#glossary)
+
+---
+
 ### GraphQL API
 
 - uses GraphQL, _Graph Query Language_ - to enable clients
