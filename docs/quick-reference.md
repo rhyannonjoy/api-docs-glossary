@@ -182,6 +182,16 @@ using the SHA-1 hash function
 
 ---
 
+### concept
+
+- documentation topic type
+- provides understanding without instructing readers to perform
+specific tasks
+
+**Glossary Term Entry Location**: [Core Concepts - concept](core-concepts.md#concept)
+
+---
+
 ### content
 
 - anything written for someone else to read

@@ -1078,6 +1078,34 @@ suitability
 
 ---
 
+### concept
+
+**Definition**: documentation topic type; explains what something is,
+how it works, or why it matters; provides understanding without
+instructing readers to perform specific tasks
+
+**Purpose**: builds foundational knowledge that helps readers
+understand the context, principles, and reasoning behind features
+or systems; concept topics answer "what" and "why" questions
+
+**Key Characteristics**:
+
+- explains ideas, principles, or components
+- provides context and background information
+- avoids step-by-step instructions
+- may include diagrams, analogies, or examples to illustrate concepts
+
+**Example**: a concept topic about API authentication explains what
+authentication is, why it's necessary for API security, and how
+different authentication methods compare, without providing setup
+instructions
+
+**Related Terms**: glossary, reference, task, troubleshooting
+
+**Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
+
+---
+
 ### OpenAPI Specification
 
 **Definition**: also known as the OAS, a standard, language-agnostic way
