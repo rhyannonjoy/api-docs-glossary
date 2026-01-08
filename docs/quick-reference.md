@@ -1004,6 +1004,15 @@ instructions
 
 ---
 
+### tutorial
+
+- documentation topic type
+- guides users through a complete, real-world scenario from start to finish
+
+**Glossary Term Entry Location**: [Core Concepts - tutorial](core-concepts.md#tutorial)
+
+---
+
 ## U
 
 ---

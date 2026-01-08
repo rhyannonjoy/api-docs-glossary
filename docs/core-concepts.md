@@ -1103,7 +1103,8 @@ different authentication methods compare, without providing setup
 instructions
 
 **Related Terms**: [glossary](#glossary), [reference](#reference),
-[task](#task), [top-level](#top-level), troubleshooting
+[task](#task), [top-level](#top-level), troubleshooting,
+[tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
 
@@ -1146,7 +1147,7 @@ understanding key concepts, making many API calls with different parameters,
 and interpreting different response types
 
 **Related Terms**: [API overview topic](#api-overview-topic), introduction,
-quickstart, [task](#task), [top-level](#top-level), tutorial
+quickstart, [task](#task), [top-level](#top-level), [tutorial](#tutorial)
 
 **Sources**:
 
@@ -1231,7 +1232,7 @@ understand all underlying concepts
 steps to configure OAuth credentials and enable the authentication flow
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[reference](#reference), troubleshooting, tutorial
+[reference](#reference), troubleshooting, [tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
 
@@ -1262,6 +1263,35 @@ best practices
 [getting started](#getting-started)
 
 **Source**: [GitLab Docs: "Top-level page type"](https://docs.gitlab.com/development/documentation/topic_types/top_level_page/)
+
+---
+
+### tutorial
+
+**Definition**: documentation topic type; guides users through a complete,
+real-world scenario from start to finish; combines many tasks and concepts
+into a cohesive learning experience
+
+**Purpose**: teaches users how to apply a product or feature to solve a
+practical problem; builds skills and confidence through hands-on practice
+with a meaningful outcome
+
+**Key Characteristics**:
+
+- focuses on a realistic use case or scenario
+- includes many steps or stages
+- combines tasks with conceptual explanations
+- takes longer to complete than a single task
+- often includes a working example or project as the result
+
+**Example**: a tutorial titled "Build a REST API client" walks through
+setting up a development environment, authenticating with an API, making
+requests, handling responses, and implementing error handling
+
+**Related Terms**: [concept](#concept), [getting started](#getting-started),
+[task](#task)
+
+**Source**: [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
 
 ---
 
