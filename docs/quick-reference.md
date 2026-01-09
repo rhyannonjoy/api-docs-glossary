@@ -454,6 +454,15 @@ intended audience and capturing their responses
 
 ---
 
+### how-to guide
+
+- documentation topic type
+- step-by-step instructions for completing a specific real-world task
+
+**Glossary Term Entry Location**: [Core Concepts - how-to guide](core-concepts.md#how-to-guide)
+
+---
+
 ### HTTP
 
 - acronym for Hypertext Transfer Protocol
