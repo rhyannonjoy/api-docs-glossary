@@ -1328,6 +1328,35 @@ parameters, request/response formats, and status codes
 
 ---
 
+### runbook
+
+**Definition**: documentation topic type; step-by-step team guide for
+completing common tasks or procedures; provides standardized instructions
+for operational or maintenance activities
+
+**Purpose**: ensures consistency and reliability when executing routine
+or critical procedures; enables any team member to perform necessary
+tasks correctly
+
+**Key Characteristics**:
+
+- procedural instructions for specific operations
+- designed for scanning for specific steps or in sequence
+- often includes context about when and why to use the procedure
+- targets team members at many experience levels
+- critical for incident response and routine maintenance
+
+**Example**: a deployment runbook details the exact steps to deploy code to
+production, including pre-deployment checks, deployment commands, verification
+steps, and rollback procedures
+
+**Related Terms**: how-to guide, onboarding guide,
+[task](#task), [troubleshooting](#troubleshooting)
+
+**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
+
+---
+
 ### task
 
 **Definition**: documentation topic type; guides users through completing a
@@ -1349,7 +1378,7 @@ understand all underlying concepts
 steps to configure OAuth credentials and enable the authentication flow
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[quickstart](#quickstart), [reference](#reference),
+[quickstart](#quickstart), [reference](#reference), [runbook](#runbook),
 [troubleshooting](#troubleshooting), [tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
@@ -1407,7 +1436,7 @@ status codes like `401 Unauthorized` and `429 Too Many Requests`, describes
 why they occur, and provides steps to resolve them
 
 **Related Terms**: [concept](#concept), [error handling](#error-handling),
-[HTTP status codes](#http-status-codes), [task](#task)
+[HTTP status codes](#http-status-codes), [runbook](#runbook), [task](#task)
 
 **Source**: [GitLab Docs: "Troubleshooting topic type"](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/)
 

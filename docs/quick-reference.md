@@ -917,6 +917,15 @@ as if calling local functions
 
 ---
 
+### runbook
+
+- documentation topic type
+- provides standardized instructions for operational or maintenance activities
+
+**Glossary Term Entry Location**: [Core Concepts - runbook](core-concepts.md#runbook)
+
+---
+
 ## S
 
 ---
