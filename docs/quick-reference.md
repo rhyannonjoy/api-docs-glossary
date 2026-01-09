@@ -779,6 +779,19 @@ to its origin repository
 
 ---
 
+## Q
+
+---
+
+### quickstart
+
+- documentation topic type
+- the absolute least amount of steps needed to achieve first success with a product
+
+**Glossary Term Entry Location**: [Core Concepts - quickstart](core-concepts.md#quickstart)
+
+---
+
 ## R
 
 ---

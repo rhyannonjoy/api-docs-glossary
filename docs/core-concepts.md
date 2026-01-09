@@ -1150,8 +1150,8 @@ understanding key concepts, making many API calls with different parameters,
 and interpreting different response types
 
 **Related Terms**: [API overview topic](#api-overview-topic),
-[introduction](#introduction), quickstart, [task](#task), [top-level](#top-level),
-[tutorial](#tutorial)
+[introduction](#introduction), [quickstart](#quickstart), [task](#task),
+[top-level](#top-level), [tutorial](#tutorial)
 
 **Sources**:
 
@@ -1208,7 +1208,8 @@ solves, key features, and typical use cases without providing setup
 instructions or code examples
 
 **Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
-[getting started](#getting-started), quickstart, [top-level](#top-level)
+[getting started](#getting-started), [quickstart](#quickstart),
+[top-level](#top-level)
 
 **Sources**:
 
@@ -1265,6 +1266,39 @@ it requires interpretation before it can become either
 
 ---
 
+### quickstart
+
+**Definition**: condensed documentation that provides the absolute least
+amount of steps needed to achieve first success with a product; prioritizes
+speed over comprehensiveness
+
+**Purpose**: enables immediate hands-on experience and demonstrates value
+within minutes; hooks developers quickly before they explore deeper documentation
+
+**Key Characteristics**:
+
+- concise - often a tenth the length of full documentation
+- action-oriented with minimal explanation
+- shows one clear path to success
+- may use simplified examples or defaults
+- targets developers who want fast results
+- single page or short video format
+
+**Example**: a quickstart for a payment API provides a pre-configured code snippet
+that processes a test transaction in three steps: copy the code, add an API key,
+run the script - achievable in under five minutes
+
+**Related Terms**: [getting started](#getting-started), [introduction](#introduction),
+[task](#task), [tutorial](#tutorial)
+
+**Sources**:
+
+- [Document360: "How to Write a Getting Started Guide" by Jubina Prabhakaran](https://document360.com/blog/write-a-getting-started-guide/)
+- [Document360: "Quick Start Guide: What is it & how do you create one" by Pradeepa Somasundaram](https://document360.com/blog/quick-start-guide/)
+- ["Quick start guides and in-depth API documentation" by Dr. Jarkko Moilanen](https://medium.com/@kyyberi/quick-start-guides-and-in-depth-api-documentation-4697e8056fea)
+
+---
+
 ### reference
 
 **Definition**: documentation topic type; provides detailed, factual
@@ -1315,8 +1349,8 @@ understand all underlying concepts
 steps to configure OAuth credentials and enable the authentication flow
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[reference](#reference), [troubleshooting](#troubleshooting),
-[tutorial](#tutorial)
+[quickstart](#quickstart), [reference](#reference),
+[troubleshooting](#troubleshooting), [tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
 
@@ -1402,7 +1436,7 @@ setting up a development environment, authenticating with an API, making
 requests, handling responses, and implementing error handling
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[task](#task)
+[quickstart](#quickstart), [task](#task)
 
 **Source**: [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
 
