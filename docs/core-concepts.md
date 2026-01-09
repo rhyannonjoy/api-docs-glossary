@@ -1187,6 +1187,35 @@ and "webhook" with brief explanations and links to detailed documentation
 
 ---
 
+### how-to guide
+
+**Definition**: documentation topic type; step-by-step instructions for
+completing a specific real-world task; limited to a single task without
+detailed conceptual explanations
+
+**Purpose**: enables users to complete a practical task successfully;
+provides focused, action-oriented guidance for readers who know what they
+want to achieve
+
+**Key Characteristics**:
+
+- focused on a single, specific task
+- provides numbered steps in sequence
+- minimal conceptual explanation
+- often links to explanation guides for deeper context
+- assumes basic familiarity with the product
+
+**Example**: a how-to guide titled "Add OAuth authentication to your API"
+provides the exact steps to configure OAuth without explaining authentication
+concepts in depth
+
+**Related Terms**: explanation guide, [getting started](#getting-started),
+[quickstart](#quickstart), [task](#task), [tutorial](#tutorial)
+
+**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
+
+---
+
 ### introduction
 
 **Definition**: broad overview documentation that explains what a product or
@@ -1241,7 +1270,7 @@ for new hires
 up their development environment, understanding the team's Git workflow, learning
 deployment processes, and accessing team resources
 
-**Related Terms**: [getting started](#getting-started), how-to guide,
+**Related Terms**: [getting started](#getting-started), [how-to guide](#how-to-guide),
 [runbook](#runbook), [tutorial](#tutorial)
 
 **Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
@@ -1318,8 +1347,8 @@ within minutes; hooks developers quickly before they explore deeper documentatio
 that processes a test transaction in three steps: copy the code, add an API key,
 run the script - achievable in under five minutes
 
-**Related Terms**: [getting started](#getting-started), [introduction](#introduction),
-[task](#task), [tutorial](#tutorial)
+**Related Terms**: [getting started](#getting-started), [how-to guide](#how-to-guide),
+[introduction](#introduction), [task](#task), [tutorial](#tutorial)
 
 **Sources**:
 
@@ -1380,7 +1409,7 @@ tasks correctly
 production, including pre-deployment checks, deployment commands, verification
 steps, and rollback procedures
 
-**Related Terms**: how-to guide, [onboarding guide](#onboarding-guide),
+**Related Terms**: [how-to guide](#how-to-guide), [onboarding guide](#onboarding-guide),
 [task](#task), [troubleshooting](#troubleshooting)
 
 **Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
@@ -1495,7 +1524,8 @@ setting up a development environment, authenticating with an API, making
 requests, handling responses, and implementing error handling
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[onboarding guide](#onboarding-guide), [quickstart](#quickstart), [task](#task)
+[how-to guide](#how-to-guide), [onboarding guide](#onboarding-guide),
+[quickstart](#quickstart), [task](#task)
 
 **Source**: [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
 
