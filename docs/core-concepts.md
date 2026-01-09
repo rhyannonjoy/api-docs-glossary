@@ -1150,8 +1150,9 @@ understanding key concepts, making many API calls with different parameters,
 and interpreting different response types
 
 **Related Terms**: [API overview topic](#api-overview-topic),
-[introduction](#introduction), [quickstart](#quickstart), [task](#task),
-[top-level](#top-level), [tutorial](#tutorial)
+[introduction](#introduction), [onboarding guide](#onboarding-guide),
+[quickstart](#quickstart), [task](#task), [top-level](#top-level),
+[tutorial](#tutorial)
 
 **Sources**:
 
@@ -1215,6 +1216,35 @@ instructions or code examples
 
 - [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
 - [Hedera: "Understanding different types of documentation"](https://docs.hedera.com/hedera/support-and-community/contributing-guide/style-guide/understanding-different-types-of-documentation)
+
+---
+
+### onboarding guide
+
+**Definition**: documentation topic type; handbook for new team members that
+provides broader understanding of team systems, processes, and practices;
+helps teammates gain necessary context to work effectively
+
+**Purpose**: enables new team members to complete essential setup and
+understand team workflows, tools, and conventions; reduces time-to-productivity
+for new hires
+
+**Key Characteristics**:
+
+- comprehensive coverage of team-specific information
+- combines setup tasks with team context
+- may include checklists and milestones
+- targets new team members specifically
+- often covers tools, processes, coding standards, and team culture
+
+**Example**: an engineering onboarding guide walks new developers through setting
+up their development environment, understanding the team's Git workflow, learning
+deployment processes, and accessing team resources
+
+**Related Terms**: [getting started](#getting-started), how-to guide,
+[runbook](#runbook), [tutorial](#tutorial)
+
+**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
 
 ---
 
@@ -1350,7 +1380,7 @@ tasks correctly
 production, including pre-deployment checks, deployment commands, verification
 steps, and rollback procedures
 
-**Related Terms**: how-to guide, onboarding guide,
+**Related Terms**: how-to guide, [onboarding guide](#onboarding-guide),
 [task](#task), [troubleshooting](#troubleshooting)
 
 **Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
@@ -1465,7 +1495,7 @@ setting up a development environment, authenticating with an API, making
 requests, handling responses, and implementing error handling
 
 **Related Terms**: [concept](#concept), [getting started](#getting-started),
-[quickstart](#quickstart), [task](#task)
+[onboarding guide](#onboarding-guide), [quickstart](#quickstart), [task](#task)
 
 **Source**: [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
 

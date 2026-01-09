@@ -646,6 +646,15 @@ that mimic humans’ use of language
 
 ---
 
+### onboarding guide
+
+- documentation topic type
+- new team member handbook designed to reduce time-to-productivity
+
+**Glossary Term Entry Location**: [Core Concepts - onboarding guide](core-concepts.md#onboarding-guide)
+
+---
+
 ### OpenAPI Specification
 
 - also known as the OAS
