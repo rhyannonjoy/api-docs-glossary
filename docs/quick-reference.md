@@ -518,6 +518,15 @@ of how many times it's executed
 
 ---
 
+### introduction
+
+- documentation topic type
+- explains what a product or feature is, why it exists, and what problems it solves
+
+**Glossary Term Entry Location**: [Core Concepts - introduction](core-concepts.md#introduction)
+
+---
+
 ## J
 
 ---
