@@ -1089,27 +1089,75 @@ suitability
 how it works, or why it matters; provides understanding without
 instructing readers to perform specific tasks
 
-**Purpose**: builds foundational knowledge that helps readers
-understand the context, principles, and reasoning behind features
-or systems; concept topics answer "what" and "why" questions
+**Purpose**: builds foundational knowledge that helps readers understand
+the context, principles, and reasoning behind features or systems;
+concept topics answer "what" and "why" questions at an accessible,
+introductory level
 
 **Key Characteristics**:
 
-- explains ideas, principles, or components
+- explains ideas, principles, or components at a foundational level
 - provides context and background information
 - avoids step-by-step instructions
 - may include diagrams, analogies, or examples to illustrate concepts
+- typically more standalone, focused on building knowledge without
+explicit connections to procedural content
+
+**Scope**: concept topics provide introductory-level understanding,
+offering the essential knowledge readers need to grasp what something
+is and why it matters before diving deeper
 
 **Example**: a concept topic about API authentication explains what
 authentication is, why it's necessary for API security, and how
 different authentication methods compare, without providing setup
 instructions
 
-**Related Terms**: [glossary](#glossary), [introduction](#introduction),
+**Related Terms**: [explanation guide](#explanation-guide),
+[glossary](#glossary), [introduction](#introduction),
 [reference](#reference), [task](#task), [top-level](#top-level),
 [troubleshooting](#troubleshooting), [tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
+
+---
+
+### explanation guide
+
+**Definition**: documentation topic type; clarifies a single topic in
+depth without providing step-by-step instructions; focuses on
+comprehensive understanding of concepts, principles, or features rather
+than completing tasks
+
+**Purpose**: builds in-depth knowledge that helps readers understand
+how and why something works; enables users to get the most value from
+a product by providing extensive context and conceptual background that
+goes beyond foundational understanding
+
+**Key Characteristics**:
+
+- explains concepts rather than procedures with greater depth than
+concept topics
+- no step-by-step instructions
+- may include diagrams, code examples, or real-life scenarios
+- explicitly links to related how-to guides, tutorials, or getting
+started guides
+- helps readers understand the "what" and "why" at a comprehensive level
+- serves as a bridge between understanding and doing
+
+**Scope**: explanation guides provide comprehensive, in-depth understanding
+that goes beyond introductory concepts, offering the extensive context
+needed to fully grasp how systems work and make informed decisions
+
+**Example**: an explanation guide about API rate limiting explains what
+rate limiting is, why it exists, how different rate limiting algorithms
+work, when to use each approach, and the trade-offs between them -
+without providing setup instructions but linking to implementation guides
+
+**Related Terms**: [concept](#concept), [getting started](#getting-started),
+[how-to guide](#how-to-guide), [introduction](#introduction),
+[reference](#reference), [tutorial](#tutorial)
+
+**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
 
 ---
 
@@ -1209,8 +1257,9 @@ want to achieve
 provides the exact steps to configure OAuth without explaining authentication
 concepts in depth
 
-**Related Terms**: explanation guide, [getting started](#getting-started),
-[quickstart](#quickstart), [task](#task), [tutorial](#tutorial)
+**Related Terms**: [explanation guide](#explanation-guide),
+[getting started](#getting-started), [quickstart](#quickstart), [task](#task),
+[tutorial](#tutorial)
 
 **Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
 
@@ -1238,8 +1287,8 @@ solves, key features, and typical use cases without providing setup
 instructions or code examples
 
 **Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
-[getting started](#getting-started), [quickstart](#quickstart),
-[top-level](#top-level)
+[explanation guide](#explanation-guide), [getting started](#getting-started),
+[quickstart](#quickstart), [top-level](#top-level)
 
 **Sources**:
 
@@ -1380,8 +1429,8 @@ accuracy over explanation
 parameters, request/response formats, and status codes
 
 **Related Terms**: [API reference topic](#api-reference-topic), [concept](#concept),
-[glossary](#glossary), [OpenAPI Specification](#openapi-specification),
-[task](#task)
+[explanation guide](#explanation-guide), [glossary](#glossary),
+[OpenAPI Specification](#openapi-specification), [task](#task)
 
 **Source**: [GitLab Docs: "Reference topic type"](https://docs.gitlab.com/development/documentation/topic_types/reference/)
 

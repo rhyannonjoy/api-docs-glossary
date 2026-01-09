@@ -187,6 +187,8 @@ using the SHA-1 hash function
 - documentation topic type
 - provides understanding without instructing readers to perform
 specific tasks
+- answer "what" and "why" questions at an accessible,
+introductory level
 
 **Glossary Term Entry Location**: [Core Concepts - concept](core-concepts.md#concept)
 
@@ -306,6 +308,16 @@ specific events
 - reduces unnecessary network traffic and server load
 
 **Glossary Term Entry Location**: [API Types & Architectures - event-driven](api-types-architectures.md#event-driven)
+
+---
+
+### explanation guide
+
+- documentation topic type
+- clarifies a single topic without providing step-by-step instructions
+- focuses on comprehensive understanding of concepts, principles, or features
+
+**Glossary Term Entry Location**: [Core Concepts - explanation guide](core-concepts.md#explanation-guide)
 
 ---
 
