@@ -1033,7 +1033,8 @@ sequenceDiagram
 ```
 
 **Related Terms**: [API reference topic](#api-reference-topic),
-[getting started](#getting-started), [market](frameworks-strategy.md#market),
+[getting started](#getting-started), [introduction](#introduction),
+[market](frameworks-strategy.md#market),
 [sales collateral](frameworks-strategy.md#sales-collateral),
 [top-level](#top-level)
 
@@ -1104,9 +1105,9 @@ authentication is, why it's necessary for API security, and how
 different authentication methods compare, without providing setup
 instructions
 
-**Related Terms**: [glossary](#glossary), [reference](#reference),
-[task](#task), [top-level](#top-level), [troubleshooting](#troubleshooting),
-[tutorial](#tutorial)
+**Related Terms**: [glossary](#glossary), [introduction](#introduction),
+[reference](#reference), [task](#task), [top-level](#top-level),
+[troubleshooting](#troubleshooting), [tutorial](#tutorial)
 
 **Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
 
@@ -1148,8 +1149,9 @@ API credentials, installing required libraries, configuring authentication,
 understanding key concepts, making many API calls with different parameters,
 and interpreting different response types
 
-**Related Terms**: [API overview topic](#api-overview-topic), introduction,
-quickstart, [task](#task), [top-level](#top-level), [tutorial](#tutorial)
+**Related Terms**: [API overview topic](#api-overview-topic),
+[introduction](#introduction), quickstart, [task](#task), [top-level](#top-level),
+[tutorial](#tutorial)
 
 **Sources**:
 
@@ -1181,6 +1183,37 @@ and "webhook" with brief explanations and links to detailed documentation
 **Related Terms**: [concept](#concept), [reference](#reference)
 
 **Source**: [GitLab Docs: "Glossary topic type"](https://docs.gitlab.com/development/documentation/topic_types/glossary/)
+
+---
+
+### introduction
+
+**Definition**: broad overview documentation that explains what a product or
+feature is, why it exists, and what problems it solves; provides context without
+requiring hands-on action
+
+**Purpose**: builds awareness and understanding; helps readers determine if the
+product meets their needs before investing time in setup or implementation
+
+**Key Characteristics**:
+
+- focuses on the "what" and "why"
+- no step-by-step instructions
+- often includes use cases, benefits, and high-level architecture
+- may appear as landing page or overview topic content
+- suitable for all experience levels
+
+**Example**: an API introduction explains what the API does, which problems it
+solves, key features, and typical use cases without providing setup
+instructions or code examples
+
+**Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
+[getting started](#getting-started), quickstart, [top-level](#top-level)
+
+**Sources**:
+
+- [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
+- [Hedera: "Understanding different types of documentation"](https://docs.hedera.com/hedera/support-and-community/contributing-guide/style-guide/understanding-different-types-of-documentation)
 
 ---
 
@@ -1311,7 +1344,7 @@ links to topics about authentication, authorization, encryption, and security
 best practices
 
 **Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
-[getting started](#getting-started)
+[getting started](#getting-started), [introduction](#introduction)
 
 **Source**: [GitLab Docs: "Top-level page type"](https://docs.gitlab.com/development/documentation/topic_types/top_level_page/)
 
