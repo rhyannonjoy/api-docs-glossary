@@ -19,6 +19,7 @@ const sidebars: SidebarsConfig = {
     'workflows-methodologies',
     'frameworks-strategy',
     'writing-style',
+    'how-glossary-built',
     'style-guide',
     'contribution-guide'
   ],
