@@ -49,7 +49,7 @@ navigate glossary structure
 find a specific term refresher
 - [How This Glossary is Built](https://rhyannonjoy.github.io/api-docs-glossary/docs/meta/how-glossary-built):
 learn about the current glossary tools and processes
-- [Style Guild](https://rhyannonjoy.github.io/api-docs-glossary/docs/meta/style-guide):
+- [Style Guide](https://rhyannonjoy.github.io/api-docs-glossary/docs/meta/style-guide):
 review the current glossary formatting and writing conventions
 
 ### Prerequisites
