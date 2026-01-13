@@ -6,7 +6,6 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  - render a sidebar for each doc of that group
  - provide next/previous navigation
  */
-
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'introduction',
@@ -19,9 +18,15 @@ const sidebars: SidebarsConfig = {
     'workflows-methodologies',
     'frameworks-strategy',
     'writing-style',
-    'how-glossary-built',
-    'style-guide',
-    'contribution-guide'
+    {
+     type: 'category',
+     label: 'Meta',
+     items: [
+       'meta/how-glossary-built',
+       'meta/style-guide',
+       'meta/contribution-guide',
+    ],
+   },
   ],
 };
 

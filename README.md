@@ -12,7 +12,7 @@ community for inspiration and resources.
 is a living document, intended to evolve as the terms do. The API Docs
 Glossary is a personal learning project, but suggestions and corrections are welcome.
 Visit the
-[Contribution Guide](https://rhyannonjoy.github.io/api-docs-glossary/docs/contribution-guide)
+[Contribution Guide](https://rhyannonjoy.github.io/api-docs-glossary/docs/meta/contribution-guide)
 for more information.
 
 ## Topics
@@ -47,6 +47,10 @@ find a path through the glossary
 navigate glossary structure
 - [Quick Reference](https://rhyannonjoy.github.io/api-docs-glossary/docs/quick-reference):
 find a specific term refresher
+- [How This Glossary is Built](https://rhyannonjoy.github.io/api-docs-glossary/docs/meta/how-glossary-built):
+learn about the current glossary tools and processes
+- [Style Guild](https://rhyannonjoy.github.io/api-docs-glossary/docs/meta/style-guide):
+review the current glossary formatting and writing conventions
 
 ### Prerequisites
 

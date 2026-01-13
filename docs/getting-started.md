@@ -63,6 +63,6 @@ Each glossary entry includes:
 | **Preparing for technical interviews** | cognitive dimensions of API usability → end-user software engineer personas |
 | **Working on your first API tutorial** | API overview topic → market → rhetorical approach |
 | **Setting up documentation tooling** | Git → GitHub → GitHub Desktop → Markdown |
-| **Reporting issues, suggesting improvements** | [Contribution Guide](contribution-guide.md) → [Style Guide](style-guide.md) |
+| **Reporting issues, suggesting improvements** | [Contribution Guide](../docs/meta/contribution-guide.md) → [Style Guide](../docs/meta/style-guide.md) |
 
 ---

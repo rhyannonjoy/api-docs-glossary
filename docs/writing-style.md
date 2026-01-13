@@ -40,7 +40,7 @@ who does what in API documentation
 **Related Terms**: [rhetorical approach](#rhetorical-approach),
 [tone](#tone), [voice](#voice)
 
-**Source**: [API Docs Glossary: Style Guide](style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.md)
 
 ---
 
@@ -128,7 +128,7 @@ both - "authentication is required"
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
-**Source**: [API Docs Glossary: Style Guide](style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.md)
 
 ---
 
@@ -147,6 +147,6 @@ or "technically precise but accessible," maintained across all content types
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
-**Source**: [API Docs Glossary: Style Guide](style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.md)
 
 ---

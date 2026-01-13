@@ -81,6 +81,6 @@ not just definitions.
 | New to API documentation? | Start with [Core Concepts](core-concepts.md) |
 | Need a concise definition? | Check [Quick Reference](quick-reference.md) |
 | Looking for something specific? | Use the search function or browse categories in the sidebar |
-| Found an error or have a suggestion? | Visit the [Contribution Guide](contribution-guide.md) |
+| Found an error or have a suggestion? | Visit the [Contribution Guide](../docs/meta/contribution-guide.md) |
 
 ---
