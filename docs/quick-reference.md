@@ -267,6 +267,17 @@ four content types: explanation, how-to-guides, reference, and tutorials
 
 ---
 
+### docs-as-code
+
+- methodology for developing and publishing documentation using the same tools
+as software development
+- enables documentation teams to manage content in version control systems
+alongside code
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - docs-as-code](workflows-methodologies.md#docs-as-code)
+
+---
+
 ### Document Development Life Cycle
 
 - also known as DDLC

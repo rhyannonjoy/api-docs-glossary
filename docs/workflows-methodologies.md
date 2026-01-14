@@ -34,7 +34,7 @@ their work through flexibility rather than linear, rigid planning
 - Customer collaboration over rigid contracts
 - Adapting to change over following a strict plan
 
-**Related Terms**:
+**Related Terms**: [docs-as-code](#docs-as-code),
 [Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
 [Scrum](#scrum), [Waterfall](#waterfall)
@@ -108,13 +108,14 @@ fundamentally a methodology for organizing work, not a specific tool or
 analytical framework; it describes a strategic approach to documentation
 processes and operational workflows, how teams organize daily documentation
 work within development cycles, rather than an evaluation framework like
-cognitive dimensions, or a specific software platform, like Git or Swagger
+cognitive dimensions, or a specific software platform, like
+[Git](tools-techniques.md#git) or [Swagger](tools-techniques.md#swagger)
 
-**Example**: a technical writing team stores Markdown documentation files
-in the same Git repository as app code, uses GitHub or GitLab issues to
-track documentation tasks, reviews changes through pull/merge requests,
-previews content in staging environments, and automatically deploys to
-production when changes merge to the `main` branch
+**Example**: a technical writing team stores [Markdown](tools-techniques.md#markdown)
+documentation files in the same Git repository as app code, uses
+GitHub or GitLab issues to track documentation tasks, reviews changes through
+pull/merge requests, previews content in staging environments, and
+automatically deploys to production when changes merge to the `main` branch
 
 **Benefits**:
 
