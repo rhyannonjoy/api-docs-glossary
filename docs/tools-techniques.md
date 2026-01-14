@@ -243,8 +243,8 @@ maintain published versions separate from draft content
 | rebase | update the base commit from its source branch |
 | squash | bundle many commits into a single commit |
 
-**Related Terms**: [Git Bash](#git-bash), [GitHub](#github),
-[GitHub Desktop](#github-desktop)
+**Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
+[Git Bash](#git-bash), [GitHub](#github), [GitHub Desktop](#github-desktop)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -288,8 +288,8 @@ and integrated workflows; provides web-based tools for
 code review, issue tracking, and continuous integration that
 complement local Git operations
 
-**Related Terms**: [Git](#git), [Git Bash](#git-bash),
-[GitHub Desktop](#github-desktop)
+**Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
+[Git](#git), [Git Bash](#git-bash), [GitHub Desktop](#github-desktop)
 
 **Sources**:
 
@@ -388,6 +388,7 @@ and development systems typically publish documentation
 directly from this branch
 
 **Related Terms**: [branch](#branch), [dev branch](#dev-branch),
+[docs-as-code](workflows-methodologies.md#docs-as-code),
 [feature branch](#feature-branch), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -564,8 +565,8 @@ before publication; team members can comment on specific
 lines, suggest edits, and approve or request changes
 before merging
 
-**Related Terms**: [branch](#branch), [feature branch](#feature-branch),
-[fork](#fork), [merge](#merge)
+**Related Terms**: [branch](#branch), [docs-as-code](workflows-methodologies.md#docs-as-code),
+[feature branch](#feature-branch), [fork](#fork), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -758,6 +759,7 @@ owner, who can grant access or require contributors to fork
 the repository to their own GitHub account
 
 **Related Terms**: [branch](#branch), [commit](#commit),
+[docs-as-code](workflows-methodologies.md#docs-as-code),
 [Git](#git), [Git Bash](#git-bash), [GitHub](#github)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"

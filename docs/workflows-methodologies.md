@@ -34,7 +34,7 @@ their work through flexibility rather than linear, rigid planning
 - Customer collaboration over rigid contracts
 - Adapting to change over following a strict plan
 
-**Related Terms**:
+**Related Terms**: [docs-as-code](#docs-as-code),
 [Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
 [Scrum](#scrum), [Waterfall](#waterfall)
@@ -89,6 +89,69 @@ any step delay the entire release
 - [ProjectManager: "A Gantt Chart Guide with Definitions & Examples"](https://www.projectmanager.com/guides/gantt-chart)
 - UW API Docs - Module 2, Lesson 3, "Introduction to Project Scheduling"
 - [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
+
+---
+
+## docs-as-code
+
+**Definition**: methodology for developing and publishing documentation
+using the same tools, processes, and workflows as software development
+
+**Purpose**: enables documentation teams to manage content in version
+control systems alongside code, leverage developer workflows like pull
+requests and code review, and automate publishing through CI/CD pipelines;
+treats documentation files as code artifacts that follow the same quality
+standards, testing processes, and deployment procedures as software
+
+**Why this belongs in Workflows & Methodologies**: docs-as-code is
+fundamentally a methodology for organizing work, not a specific tool or
+analytical framework; it describes a strategic approach to documentation
+processes and operational workflows, how teams organize daily documentation
+work within development cycles, rather than an evaluation framework like
+cognitive dimensions, or a specific software platform, like
+[Git](tools-techniques.md#git) or [Swagger](tools-techniques.md#swagger)
+
+**Example**: a technical writing team stores [Markdown](tools-techniques.md#markdown)
+documentation files in the same Git repository as app code, uses
+GitHub or GitLab issues to track documentation tasks, reviews changes through
+pull/merge requests, previews content in staging environments, and
+automatically deploys to production when changes merge to the `main` branch
+
+**Benefits**:
+
+- **Transparency**: all documentation discussions, decisions, and changes
+visible in one place
+- **Collaboration**: developers draft initial documentation, writers review
+and refine, everyone can contribute feedback
+- **Traceability**: complete history of what changed and why, accessible
+years later
+- **Efficiency**: eliminates context-switching between many tools, reduces
+time searching through email or chat for past decisions
+- **Integration**: documentation stays synchronized with code changes
+through the same review and deployment process
+
+**Considerations**:
+
+- requires all contributors to learn the version control system and
+documentation toolchain
+- may limit spontaneous collaboration if team relies solely on formal issue
+tracking
+- effectiveness depends on comprehensive documentation testing and review
+processes
+- demands clear communication standards, especially for asynchronous,
+distributed teams
+- success requires balancing standardization with space for creative,
+informal discussion
+
+**Related Terms**: [Agile](#agile), [Git](tools-techniques.md#git),
+[GitHub](tools-techniques.md#github), [main branch](tools-techniques.md#main-branch),
+[pull request](tools-techniques.md#pull-request),
+[version control](tools-techniques.md#version-control)
+
+**Sources**:
+
+- [GitLab: "Five fast facts about docs as code at GitLab"](https://about.gitlab.com/blog/five-fast-facts-about-docs-as-code-at-gitlab/)
+- UW API Docs: Module 3, Lesson 1, "Introduction to Docs-as-Code"
 
 ---
 
