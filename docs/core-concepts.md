@@ -1153,11 +1153,14 @@ rate limiting is, why it exists, how different rate limiting algorithms
 work, when to use each approach, and the trade-offs between them -
 without providing setup instructions but linking to implementation guides
 
-**Related Terms**: [concept](#concept), [getting started](#getting-started),
-[how-to guide](#how-to-guide), [introduction](#introduction),
-[reference](#reference), [tutorial](#tutorial)
+**Related Terms**: [concept](#concept), [Diátaxis](frameworks-strategy.md#diátaxis),
+[getting started](#getting-started), [how-to guide](#how-to-guide),
+[introduction](#introduction), [reference](#reference), [tutorial](#tutorial)
 
-**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
+**Sources**:
+
+- [Diátaxis by Daniele Procida: "Explanation"](https://diataxis.fr/explanation/)
+- [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
 
 ---
 
@@ -1257,11 +1260,14 @@ want to achieve
 provides the exact steps to configure OAuth without explaining authentication
 concepts in depth
 
-**Related Terms**: [explanation guide](#explanation-guide),
-[getting started](#getting-started), [quickstart](#quickstart), [task](#task),
-[tutorial](#tutorial)
+**Related Terms**: [Diátaxis](frameworks-strategy.md#diátaxis),
+[explanation guide](#explanation-guide), [getting started](#getting-started),
+[quickstart](#quickstart), [task](#task), [tutorial](#tutorial)
 
-**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
+**Sources**:
+
+- [Diátaxis by Daniele Procida: "How-to guides"](https://diataxis.fr/how-to-guides/)
+- [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
 
 ---
 
@@ -1429,10 +1435,14 @@ accuracy over explanation
 parameters, request/response formats, and status codes
 
 **Related Terms**: [API reference topic](#api-reference-topic), [concept](#concept),
-[explanation guide](#explanation-guide), [glossary](#glossary),
-[OpenAPI Specification](#openapi-specification), [task](#task)
+[Diátaxis](frameworks-strategy.md#diátaxis), [explanation guide](#explanation-guide),
+[glossary](#glossary), [OpenAPI Specification](#openapi-specification),
+[task](#task)
 
-**Source**: [GitLab Docs: "Reference topic type"](https://docs.gitlab.com/development/documentation/topic_types/reference/)
+**Sources**:
+
+- [Diátaxis by Daniele Procida: "Reference"](https://diataxis.fr/reference/)
+- [GitLab Docs: "Reference topic type"](https://docs.gitlab.com/development/documentation/topic_types/reference/)
 
 ---
 
@@ -1572,10 +1582,13 @@ with a meaningful outcome
 setting up a development environment, authenticating with an API, making
 requests, handling responses, and implementing error handling
 
-**Related Terms**: [concept](#concept), [getting started](#getting-started),
-[how-to guide](#how-to-guide), [onboarding guide](#onboarding-guide),
-[quickstart](#quickstart), [task](#task)
+**Related Terms**: [concept](#concept), [Diátaxis](frameworks-strategy.md#diátaxis),
+[getting started](#getting-started), [how-to guide](#how-to-guide),
+[onboarding guide](#onboarding-guide), [quickstart](#quickstart), [task](#task)
 
-**Source**: [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
+**Sources**:
+
+- [Diátaxis by Daniele Procida: "Tutorials"](https://diataxis.fr/tutorials/)
+- [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
 
 ---
