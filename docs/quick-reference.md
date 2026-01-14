@@ -257,6 +257,16 @@ directly to HTTP methods
 
 ---
 
+### Diátaxis
+
+- systematic framework for organizing technical documentation into
+four content types: explanation, how-to-guides, reference, and tutorials
+- results in more user-friendly documentation
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - Diátaxis](frameworks-strategy.md#diátaxis)
+
+---
+
 ### Document Development Life Cycle
 
 - also known as DDLC

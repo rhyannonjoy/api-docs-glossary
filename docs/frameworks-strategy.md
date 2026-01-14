@@ -67,13 +67,68 @@ burying the comparison deep in reference docs
 
 **Related terms**: [API](core-concepts.md#api),
 [API reference topic](core-concepts.md#api-reference-topic),
-[end-user software engineer](#end-user-software-engineer),
+[Diátaxis](#diátaxis), [end-user software engineer](#end-user-software-engineer),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
 
 - [Docs By Design: "Applying the Cognitive Dimensions of API Usability to Improve API Documentation Planning" by Robert Watson](https://docsbydesign.com/wp-content/uploads/2015/01/SIGDOC2014_CogDimForDocEstimate_PosterPaper.pdf)
 - [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+
+---
+
+## Diátaxis
+
+**Definition**: a systematic framework for organizing technical
+documentation into four distinct content types: tutorials, how-to guides,
+reference, and explanation - based on whether content serves acquisition
+or knowledge use, and whether it's focused on practical steps
+or theoretical knowledge
+
+**Purpose**: provides documentation teams with a structured approach to
+content planning and organization by identifying which documentation type
+to create and how to write it; helps prevent common documentation problems
+like mixing instructional content with reference material or explanations
+with tutorials, resulting in clearer, more user-friendly documentation
+that serves both beginners and experts effectively
+
+### the four content types
+
+| Content Type | Orientation | Focus | User Question |
+| ------------ | ----------- | ----- | ------------- |
+| **Tutorial** | Learning | Practical steps | "Can you teach me to - ?" |
+| **How-to Guide** | Goals | Practical steps | "How do I - ?" |
+| **Reference** | Information | Theoretical knowledge | "What is - ?" |
+| **Explanation** | Understanding | Theoretical knowledge | "Why - ?" |
+
+**The framework's two axes**:
+
+- **Acquisition vs. Application**: whether users are learning something new,
+acquisition, or applying existing knowledge to complete work, application
+- **Practical Steps vs. Theoretical Knowledge**: whether content focuses on
+doing, practical steps, or understanding, theoretical knowledge
+
+**Example**: when documenting a payment API, Diátaxis guides writers to create
+separate content types rather than combining all approaches into one confusing
+page
+
+| Content Type | Title | Orientation | Focus |
+| ------------ | ----- | ----------- | ----- |
+| Tutorial | "Process your first payment" | Learning | Practical |
+| How-to Guide | "Handle payment failures" | Goals | Practical |
+| Reference | "Payment API reference" | Information | Theoretical |
+| Explanation | "How payment processing works" | Understanding | Theoretical |
+
+**Related Terms**: [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
+[domain knowledge](#domain-knowledge), [end-user software engineer](#end-user-software-engineer),
+[explanation guide](core-concepts.md#explanation-guide),
+[how-to guide](core-concepts.md#how-to-guide), [reference](core-concepts.md#reference),
+[tutorial](core-concepts.md#tutorial)
+
+**Sources**:
+
+- [Diátaxis by Daniele Procida](https://diataxis.fr/)
+- [GitHub: diataxis-documentation-framework](https://github.com/evildmp/diataxis-documentation-framework)
 
 ---
 
@@ -94,7 +149,7 @@ and regulatory requirements - allowing them to write clearer explanations
 of rate limiting during market hours or authentication requirements
 for different account types
 
-**Related Terms**: [API](core-concepts.md#api),
+**Related Terms**: [API](core-concepts.md#api), [Diátaxis](#diátaxis),
 [end-user software engineer](#end-user-software-engineer)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
@@ -127,7 +182,7 @@ developers need step-by-step integration guides with error handling,
 and opportunistic developers need a five-minute "process your
 first payment" tutorial
 
-**Related Terms**: [domain knowledge](#domain-knowledge),
+**Related Terms**: [Diátaxis](#diátaxis), [domain knowledge](#domain-knowledge),
 [error handling](core-concepts.md#error-handling),
 [usability testing](workflows-methodologies.md#usability-testing)
 
