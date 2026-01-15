@@ -35,6 +35,7 @@ their work through flexibility rather than linear, rigid planning
 - Adapting to change over following a strict plan
 
 **Related Terms**: [docs-as-code](#docs-as-code),
+[docs-as-tests](#docs-as-tests),
 [Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
 [Scrum](#scrum), [Waterfall](#waterfall)
@@ -152,6 +153,44 @@ informal discussion
 
 - [GitLab: "Five fast facts about docs as code at GitLab"](https://about.gitlab.com/blog/five-fast-facts-about-docs-as-code-at-gitlab/)
 - UW API Docs: Module 3, Lesson 1, "Introduction to Docs-as-Code"
+
+---
+
+## docs-as-tests
+
+**Definition**: documentation strategy that treats documentation as
+testable assertions to verify content accuracy against the current
+product state
+
+**Purpose**: maintains documentation accuracy through automated testing
+that validates docs work as written by directly testing against product
+UIs, APIs, and CLIs; catches documentation and product issues before
+users encounter them while reducing manual maintenance effort in
+environments with frequent product updates; enables technical writers to
+identify breaking changes in products before release, like how developers
+use automated tests to catch code regressions
+
+**Why this belongs in Workflows & Methodologies**: describes an operational
+workflow approach that focuses on processes and practices rather than
+specific tools or conceptual frameworks
+
+**Example**: a team implements automated tests that execute each step in
+their API integration guide against their staging environment, verifying
+that endpoints respond correctly and code examples produce expected results;
+when an API endpoint changes, the test fails immediately, alerting writers
+to update the documentation before the change reaches production; a UI
+documentation test fails when a button label changes from "Sign Up" to
+"Create Account," catching the discrepancy before users see inconsistent
+documentation
+
+**Related Terms**: [Agile](#agile), API testing, CI/CD pipeline,
+[docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
+
+**Sources**:
+
+- [Boffin Education: "About Docs as Tests" by Manny Silva](https://boffin.education/about-docs-as-tests/)
+- [James Tasse: "Docs as Tests: Part I - On a High Level"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
+- [Manny Silva, Docs as Tests: "Never have stale docs again"](https://www.docsastests.com/)
 
 ---
 
