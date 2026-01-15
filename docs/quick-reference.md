@@ -278,6 +278,16 @@ alongside code
 
 ---
 
+### docs-as-tests
+
+- documentation strategy
+- treats documentation as testable assertions
+- maintains documentation accuracy through automated testing
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - docs-as-tests](workflows-methodologies.md#docs-as-tests)
+
+---
+
 ### Document Development Life Cycle
 
 - also known as DDLC
