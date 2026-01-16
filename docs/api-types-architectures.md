@@ -209,7 +209,8 @@ resource formatted as a JSON document:
 }
 ```
 
-**Related Terms**: [API](core-concepts.md#api), [HTTP](core-concepts.md#http),
+**Related Terms**: [API](core-concepts.md#api), 
+[API testing](workflows-methodologies.md#api-testing), [HTTP](core-concepts.md#http),
 [HTTP status codes](core-concepts.md#http-status-codes), [JSON](core-concepts.md#json),
 [parameters](core-concepts.md#parameters), [resource](core-concepts.md#resource),
 [URL](core-concepts.md#url)

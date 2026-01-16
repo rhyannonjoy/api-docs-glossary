@@ -48,6 +48,54 @@ their work through flexibility rather than linear, rigid planning
 
 ---
 
+## API testing
+
+**Definition**: the practice of validating that APIs function correctly,
+return expected responses, handle errors appropriately, and meet performance
+requirements
+
+**Purpose**: ensures API reliability and accuracy before production deployment;
+in API documentation contexts, validates that documented endpoints, parameters,
+and code examples work as written; catches breaking changes that would make
+documentation inaccurate or misleading to developers
+
+**Why this belongs in `Workflows & Methodologies`**: describes a testing
+practice and validation workflow that focuses on how teams verify APIs
+as part of documentation maintenance and _emphasizes the practice_ of
+testing rather than a specific tool; `Core Concepts` covers what APIs are and
+API testing is about _what teams do with APIs, not a fundamental API
+characteristic_
+
+**How this differs from QA testing**: both testing approaches are necessary and
+complementary - QA ensures the product works correctly, while documentation
+testing ensures that user content is accurate:
+
+| Aspect | QA Testing | Documentation Testing |
+| -------- | ------------ | ---------------------- |
+| **What it tests** | APIs meet engineering specifications and function correctly | Documented workflows, code examples, and instructions work as written |
+| **Source of truth** | Engineering specifications and technical requirements | User-facing documentation and tutorials |
+| **Purpose** | Validates product works to spec | Validates user-facing instructions remain accurate |
+| **Can catch documentation drift?** | **No** - validates against different source of truth | **Yes** - specifically designed to catch this |
+| **Example scenario** | Developers add a required parameter, tests pass &rarr; API works correctly | Developers add a required parameter, tests fail &rarr; documented examples no longer work |
+
+**Example**: a technical writer implements automated tests that send HTTP requests
+to each documented API endpoint with the exact parameters shown in code examples,
+verifying that responses match documented schemas and status codes; when developers
+change an endpoint's required parameters, the test fails, alerting the documentation
+team to update their integration guides
+
+**Related Terms**: [API](core-concepts.md#api), [docs-as-tests](#docs-as-tests),
+Doc Detective, [HTTP status codes](core-concepts.md#http-status-codes),
+[REST API](api-types-architectures.md#rest-api)
+
+**Sources**:
+
+- [James Tasse: "Docs as Tests: Part I - On a High (Level)"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
+- [Manny Silva, Docs as Tests: "Validate an API with Doc Detective" by Niko Berry](https://www.docsastests.com/validate-api-with-doc-detective)
+- Write the Docs Book Club Slack discussions while reading Manny Silva's _Docs as Tests_, December 2025 - January 2026
+
+---
+
 ## Critical Chain Project Management
 
 **Definition**: also known as CCPM; takes the critical path method
@@ -104,9 +152,9 @@ requests and code review, and automate publishing through CI/CD pipelines;
 treats documentation files as code artifacts that follow the same quality
 standards, testing processes, and deployment procedures as software
 
-**Why this belongs in Workflows & Methodologies**: docs-as-code is
-fundamentally a methodology for organizing work, not a specific tool or
-analytical framework; it describes a strategic approach to documentation
+**Why this belongs in `Workflows & Methodologies`**: docs-as-code is
+fundamentally a methodology for organizing work, _not a specific tool or
+analytical framework_; it describes a strategic approach to documentation
 processes and operational workflows, how teams organize daily documentation
 work within development cycles, rather than an evaluation framework like
 cognitive dimensions, or a specific software platform, like
@@ -170,7 +218,7 @@ environments with frequent product updates; enables technical writers to
 identify breaking changes in products before release, like how developers
 use automated tests to catch code regressions
 
-**Why this belongs in Workflows & Methodologies**: describes an operational
+**Why this belongs in `Workflows & Methodologies`**: describes an operational
 workflow approach that focuses on processes and practices rather than
 specific tools or conceptual frameworks
 
@@ -183,8 +231,8 @@ documentation test fails when a button label changes from "Sign Up" to
 "Create Account," catching the discrepancy before users see inconsistent
 documentation
 
-**Related Terms**: [Agile](#agile), API testing, CI/CD pipeline,
-[docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
+**Related Terms**: [Agile](#agile), [API testing](#api-testing),
+CI/CD pipeline, [docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
 
 **Sources**:
 

@@ -95,6 +95,17 @@ operation or object
 
 ---
 
+### API testing
+
+- practice of validating API function and performance requirements
+- interacts with the API similarly to QA testing, but with a different purpose
+- QA ensures the product works correctly, while documentation
+testing ensures user content accuracy
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - API testing](workflows-methodologies.md#api-testing)
+
+---
+
 ### authentication
 
 - API security measure that determines who users are
