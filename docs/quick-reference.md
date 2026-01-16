@@ -1075,6 +1075,15 @@ relationships within an API's requests and responses
 
 ---
 
+### Selenium
+
+- open-source suite of tools for automating web browsers
+- validates that documented UI procedures execute correctly
+
+**Glossary Term Entry Location**: [Tools & Techniques - Selenium](tools-techniques.md#selenium)
+
+---
+
 ### serialization
 
 - process of converting data structures and/or objects for

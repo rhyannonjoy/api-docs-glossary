@@ -244,7 +244,7 @@ response; when developers change the button text from "Create Account" to
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[Playwrite](#playwright), Selenium, [Vale](#vale)
+[Playwrite](#playwright), [Selenium](#selenium), [Vale](#vale)
 
 **Sources**:
 
@@ -604,7 +604,7 @@ documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[UI](#ui), [Vale](#vale)
+[Selenium](#selenium), [UI](#ui), [Vale](#vale)
 
 **Sources**:
 
@@ -777,6 +777,35 @@ web pages change
 
 - [Geeks for Geeks: "RFC (Request For Comment)"](https://www.geeksforgeeks.org/computer-networks/rfc-request-for-comment/)
 - [IETF: About Page](https://www.ietf.org/about/)
+
+---
+
+## Selenium
+
+**Definition**: an open-source framework for automating web browser
+interactions used for testing web applications
+
+**Purpose**: enables automated testing of web-based documentation and
+tutorials by simulating user actions in browsers; supports docs-as-tests
+workflows by validating that documented UI procedures execute correctly;
+allows technical writers to create test scripts that verify documented
+workflows across different browsers and platforms
+
+**Example**: a technical writer creates a Selenium script that automates
+the steps in their "Getting Started" guide, opening the application URL,
+entering credentials in the login form, clicking through each documented
+menu option, and verifying that each action produces the expected result;
+the script runs nightly to catch any UI changes that would make the
+documentation inaccurate
+
+**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+[Doc Detective](#doc-detective), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[Playwright](#playwright), [UI](#ui)
+
+**Sources**:
+
+- [Software Freedom Conservancy, Selenium: Official Documentation](https://www.selenium.dev/)
+- [Manny Silva, Docs as Tests: "Tools"](https://www.docsastests.com/tools)
 
 ---
 
