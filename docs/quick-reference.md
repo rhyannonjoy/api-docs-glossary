@@ -161,6 +161,16 @@ production environments with minimal manual intervention
 
 ---
 
+### CLI
+
+- acronym for Command Line Interface
+- text-based interface where users interact with software by typing
+commands rather than clicking graphical elements
+
+**Glossary Term Entry Location**: [Tools & Techniques - CLI](tools-techniques.md#cli)
+
+---
+
 ### clone
 
 - version control concept

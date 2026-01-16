@@ -89,6 +89,35 @@ all tests, the pipeline automatically publishes updated docs to the production s
 
 ---
 
+## CLI
+
+**Definition**: acronym for Command Line Interface; a text-based interface where
+users interact with software by typing commands rather than clicking graphical
+elements
+
+**Purpose**: enables developers and technical users to automate tasks, script
+workflows, and integrate tools into their development environments; many APIs
+provide CLI tools as alternatives to direct API calls, offering simplified
+command syntax and built-in authentication handling; documentation teams must
+document CLI commands, arguments, flags, and expected outputs
+
+**Example**: [GitHub CLI](https://cli.github.com/) allows developers to run
+`gh api repos/owner/repo` instead of manually constructing HTTP requests with
+authentication headers; documentation describes each command's syntax, required
+arguments, optional flags, and example outputs; docs-as-tests validates that
+documented CLI commands execute successfully and produce expected results
+
+**Related Terms**: [API](core-concepts.md#api),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[GUI](#gui), [REST API](api-types-architectures.md#rest-api), [UI](#ui)
+
+**Sources**:
+
+- [Boffin Education: "About Docs as Tests" by Manny Silva](https://boffin.education/about-docs-as-tests/)
+- [Manny Silva, Docs as Tests: "Validate Commands and Scripts with Doc Detective"](https://www.docsastests.com/validate-scripts-with-doc-detective)
+
+---
+
 ## clone
 
 **Definition**: version control concept and Git feature; a copy of a
@@ -367,8 +396,8 @@ interfaces for API testing and exploration
 visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
-**Related Terms**: [Postman](#postman), [Swagger](#swagger),
-[UI](#ui)
+**Related Terms**: [CLI](#cli), [Postman](#postman),
+[Swagger](#swagger), [UI](#ui)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -770,7 +799,7 @@ interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
 **Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
-[GUI](#gui), [REST API](api-types-architectures.md#rest-api)
+[CLI](#cli), [GUI](#gui), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
