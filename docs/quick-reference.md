@@ -151,6 +151,16 @@ in a repository
 
 ---
 
+### CI/CD pipeline
+
+- acronym for Continuous Integration/Continuous Deployment pipeline
+- automated workflow that builds, tests, and deploys code changes to
+production environments with minimal manual intervention
+
+**Glossary Term Entry Location**: [Tools & Techniques - CI/CD pipeline](tools-techniques.md#cicd-pipeline)
+
+---
+
 ### clone
 
 - version control concept

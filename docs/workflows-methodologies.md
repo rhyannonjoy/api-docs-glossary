@@ -34,8 +34,8 @@ their work through flexibility rather than linear, rigid planning
 - Customer collaboration over rigid contracts
 - Adapting to change over following a strict plan
 
-**Related Terms**: [docs-as-code](#docs-as-code),
-[docs-as-tests](#docs-as-tests),
+**Related Terms**: [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
+[docs-as-code](#docs-as-code), [docs-as-tests](#docs-as-tests),
 [Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
 [Scrum](#scrum), [Waterfall](#waterfall)
@@ -232,7 +232,8 @@ documentation test fails when a button label changes from "Sign Up" to
 documentation
 
 **Related Terms**: [Agile](#agile), [API testing](#api-testing),
-CI/CD pipeline, [docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
+[CI/CD pipeline](tools-techniques.md#cicd-pipeline),
+[docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
 
 **Sources**:
 
@@ -262,7 +263,7 @@ with well-defined phases that ensure content meets user needs
 7. Approval
 8. Maintenance
 
-**Related Terms**: [Agile](#agile),
+**Related Terms**: [Agile](#agile), [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
 [project management methodology](#project-management-methodology),
 [usability testing](#usability-testing)
 

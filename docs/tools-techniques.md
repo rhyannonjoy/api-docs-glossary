@@ -59,6 +59,36 @@ unrelated changes
 
 ---
 
+## CI/CD pipeline
+
+**Definition**: acronym for Continuous Integration/Continuous Deployment pipeline;
+an automated workflow that builds, tests, and deploys code changes to production
+environments with minimal manual intervention
+
+**Purpose**: enables documentation teams to integrate automated documentation
+testing into the software development lifecycle; allows docs-as-tests strategies to
+run automatically whenever code or documentation changes, catching
+documentation-product mismatches before deployment; validate and publish
+documentation updates alongside product releases
+
+**Example**: a documentation team configures their CI/CD pipeline to run
+docs-as-tests validation during each pull request submission; if a developer's code
+change breaks documented API examples, the pipeline fails and prevents the merge
+until the team releases code and/or documentation fixes; when documentation passes
+all tests, the pipeline automatically publishes updated docs to the production site
+
+**Related Terms**: [Agile](workflows-methodologies.md#agile),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[Documentation Development Life Cycle](workflows-methodologies.md#document-development-life-cycle),
+[pull request](#pull-request)
+
+**Sources**:
+
+- [Docs as Tests: "Add Docs as Tests to Your CI/CD Pipeline with GitHub Actions"](https://www.docsastests.com/ci-with-github-actions)
+- [James Tasse: "Docs as Tests: Part I - On a High Level"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
+
+---
+
 ## clone
 
 **Definition**: version control concept and Git feature; a copy of a
@@ -565,7 +595,8 @@ before publication; team members can comment on specific
 lines, suggest edits, and approve or request changes
 before merging
 
-**Related Terms**: [branch](#branch), [docs-as-code](workflows-methodologies.md#docs-as-code),
+**Related Terms**: [branch](#branch), [CI/CD pipeline](#cicd-pipeline),
+[docs-as-code](workflows-methodologies.md#docs-as-code),
 [feature branch](#feature-branch), [fork](#fork), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
