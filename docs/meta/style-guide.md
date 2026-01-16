@@ -1,5 +1,4 @@
 # Style Guide
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This guide defines content standards for the API Docs Glossary:
 what makes a good term entry, how to format definitions,
@@ -12,7 +11,6 @@ _For technical setup and the pull request process, visit the
 ---
 
 ## Glossary Philosophy
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 The API Docs Glossary exists to demystify API documentation terminology
 for writers, developers, and technical communicators.
@@ -26,15 +24,19 @@ thoughtful linking
 specifically for documenting APIs
 - **Serve real needs** - address terms readers actually encounter in
 API documentation work
+- **Make decision-making visible** - document the "why" behind structural
+choices, demonstrating that good technical writing includes **explaining
+the reasoning, not just presenting information**
 
 _This glossary isn't an exhaustive technical reference. It's a practical
 resource for people learning or working in API documentation who need
-quick, reliable definitions._
+quick, reliable definitions. The Style Guide itself models this philosophy:
+when making non-obvious choices about structure, formatting, or categorization,
+document the reasoning explicitly._
 
 ---
 
 ## Contribution Content Strategy
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Documentation improvements are always welcome. Contributions must
 benefit API Docs Glossary readers. Contributions are _especially_
@@ -56,35 +58,201 @@ to discuss additions or changes.
 Most terms live in existing category files. To add a new term:
 
 1. Identify which category file the term belongs in:
-   - `quick-reference.md` - Common terms, concise definitions
-   - `core-concepts.md` - Fundamental API documentation concepts
-   - `api-types-architectures.md` - Different architectural patterns and protocols
+   - `quick-reference.md` - common terms, concise definitions
+   - `core-concepts.md` - fundamental API documentation concepts
+   - `api-types-architectures.md` - different architectural patterns and protocols
    - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
-   - `tools-techniques.md` - Tools, software, methods
-   - `workflows-methodologies.md` - Development, documentation workflows for API projects
-   - `frameworks-strategy.md` - Conceptual models, strategic approaches for API documentation work
-   - `writing-style.md` - Language conventions, tone guidelines, rhetorical approaches
+   - `tools-techniques.md` - tools, software, methods
+   - `workflows-methodologies.md` - development, documentation workflows for API projects
+   - `frameworks-strategy.md` - conceptual models, strategic approaches for API documentation work
+   - `writing-style.md` - language conventions, tone guidelines, rhetorical approaches
 
 2. Add the term using this format:
 
     ```markdown
-    ## Term Name
-   
-    **Definition**: Brief, clear definition
-   
-    **Purpose**: Why this matters for API documentation
-   
-    **Example**: Real-world example or use case (optional)
-   
-    **Related Terms**: Link to other relevant terms
+    ## term name
 
-    **Source**: Acknowledgement of the information's origin
+    **Definition**: [brief, clear definition]
+
+    **Purpose**: [why this matters for API documentation]
+
+    **Example**: [real-world example or use case]
+
+    **Related Terms**: [links to related glossary terms]
+
+    **Source**: [acknowledgement of the information's origin]
     ```
 
 3. Place the term alphabetically within its section
 or at the end of the appropriate subsection
 
-4. Test locally with `npm start` to ensure formatting looks correct
+4. Test locally with `npm run build` and `npm start` to ensure links work and
+formatting looks correct
+
+---
+
+## Category Placement
+
+Choosing the correct category for a glossary term ensures readers can find
+information intuitively and understand how concepts relate to each other.
+Most terms have an obvious category home, but some terms span multiple
+domains or represent emerging practices that don't fit neatly into existing
+categories.
+
+### Selection Guidelines
+
+When determining where a glossary term belongs, consider:
+
+1. **Primary function**: _What does this glossary term fundamentally describe?_
+2. **User context**: _When would readers need this term?_
+3. **Distinguishing characteristics**: _Concept type and/or tool?_
+
+```mermaid
+   flowchart TD
+   Start([New Term to Categorize]) --> Q1{What does this term<br/>fundamentally describe?}
+
+   Q1 -->|Tool or software| Tools[Tools & Techniques]
+   Q1 -->|Process or workflow| Workflows[Workflows & Methodologies]
+   Q1 -->|Architectural pattern| API[API Types & Architectures]
+   Q1 -->|Conceptual framework| Frameworks[Frameworks & Strategy]
+   Q1 -->|Fundamental API concept| Core[Core Concepts]
+   Q1 -->|Unclear| Q2
+
+   Q2{When would readers<br/>need this term?} -->|Planning/strategy| Frameworks
+   Q2 -->|Implementing workflows| Workflows
+   Q2 -->|Selecting/using tools| Tools
+   Q2 -->|Understanding API basics| Core
+   Q2 -->|Still unclear| Q3
+
+   Q3{Distinguishing<br/>characteristics} -->|Meta-level concepts,<br/>evaluation models| Frameworks
+   Q3 -->|Operational practices,<br/>process approaches| Workflows
+   Q3 -->|Specific software,<br/>platforms| Tools
+   Q3 -->|Essential API<br/>building blocks| Core
+   Q3 -->|Architecture patterns,<br/>protocols| API
+
+   Tools:::toolsStyle
+   Workflows:::workflowsStyle
+   API:::apiStyle
+   Frameworks:::frameworksStyle
+   Core:::coreStyle
+
+   classDef toolsStyle fill:#4a9eff,stroke:#2e5f8f,color:#fff
+   classDef workflowsStyle fill:#9b59b6,stroke:#6c3483,color:#fff
+   classDef apiStyle fill:#e67e22,stroke:#a04000,color:#fff
+   classDef frameworksStyle fill:#27ae60,stroke:#186a3b,color:#fff
+   classDef coreStyle fill:#e74c3c,stroke:#922b21,color:#fff
+```
+
+### When to Document
+
+Most glossary terms _don't need explicit_ category justification. Consider
+the following when determining whether category reasoning serves
+[the Glossary Philosophy](#glossary-philosophy) or not:
+
+| **Scenario** | **Document?** | **Example** | **Why** |
+| ------------ | -------------- | ------------- | --------- |
+| Term could reasonably fit multiple categories | ✅ Yes | docs-as-tests involves both tools and workflow methodology | Clarifies the primary classification and prevents confusion |
+| Term represents emerging practice without clear precedent | ✅ Yes | docs-as-tests is relatively new | Explaining the decision helps readers and future contributors understand the pattern |
+| Category choice might be questioned or challenged | ✅ Yes | API testing could be a technique or part of a broader workflow | Anticipating confusion and addressing it proactively helps readers understand the term's scope |
+| Decision establishes a pattern for similar future terms | ✅ Yes | Explaining why docs-as-tests goes in `Workflows & Methodologies` | Creates a reference point for similar methodology terms |
+| Understanding the category helps readers grasp the term's nature | ✅ Yes | Category placement itself is educational context | Enriches understanding of what the term fundamentally is |
+| Term has obvious category fit | ❌ No | Git clearly belongs in `Tools & Techniques` | Adding reasoning would be redundant and clutter the entry |
+| Category is self-evident from the definition | ❌ No | API obviously belongs in `Core Concepts` | Readers don't need explanation for clear categorization |
+
+### Reasoning Format
+
+Add category placement reasoning as a visible field in the term entry using the
+**"Why this belongs in `[Category]`"** format. This makes the reasoning transparent
+to readers and helps them understand the scope and nature of the term.
+
+**Why category reasoning gets its own field**:
+
+Separating category reasoning into its own field demonstrates a core technical writing
+principle: make decision-making processes explicit and structured. This Style Guide
+emphasizes _concise, scannable_ definitions using sentence fragments and phrases.
+Category placement reasoning needs its own dedicated field to:
+
+- **Preserve clarity in `Definition` and `Purpose` fields** - these fields should remain
+focused on what the term means and why it matters, not why it's categorized a certain way
+- **Avoid overloading `Example` fields** - examples should illustrate usage, not justify
+categorization
+- **Maintain scannability** - readers can quickly find core information without wading
+through meta-commentary about category decisions
+- **Be explicit and structured** - category reasoning is meta-information that deserves
+clear separation from the term's actual definition and purpose
+
+**Use this format:**
+
+```markdown
+## term name
+
+**Definition**: [brief, clear definition]
+
+**Purpose**: [why this matters for API documentation]
+
+**Why this belongs in `[Category Name]`**: [explain why this category is the best fit,
+focusing on the term's primary function and distinguishing characteristics]
+
+**Example**: [real-world example or use case]
+
+**Related Terms**: [links to related glossary terms]
+
+**Source**: [acknowledgement of the information's origin]
+```
+
+**Example with placement reasoning:**
+
+```markdown
+## docs-as-tests
+
+**Definition**: documentation strategy that treats documentation as testable assertions
+to verify content accuracy against the current product state
+
+**Purpose**: maintains documentation accuracy through automated testing that validates
+docs work as written by directly testing against product UIs, APIs, and CLIs
+
+**Why this belongs in `Workflows & Methodologies`**: describes an operational workflow
+approach that focuses on processes and practices rather than specific tools or conceptual
+frameworks; represents a documentation methodology similar to Agile or docs-as-code,
+emphasizing the practice of continuous validation rather than the tools that implement it
+
+...
+```
+
+**Example showing distinction from another category:**
+
+```markdown
+## API testing
+
+**Definition**: the practice of validating that APIs function correctly, return expected
+responses, handle errors appropriately, and meet performance requirements
+
+**Purpose**: ensures API reliability and accuracy before production deployment; in
+API documentation contexts, validates that documented endpoints, parameters, and code
+examples work as written
+
+**Why this belongs in `Workflows & Methodologies`**: describes a testing practice and
+validation workflow that focuses on how teams verify APIs as part of documentation
+maintenance and emphasizes the practice of testing rather than a specific tool;
+`Core Concepts` covers what APIs are fundamentally, while API testing is about what
+teams do with APIs—a workflow practice, not a fundamental API characteristic
+
+...
+
+```
+
+### Reasoning Best Practices
+
+- **Don't over-document**: most terms don't need placement reasoning -
+only include it when it adds value for readers
+- **Be concise**: keep reasoning focused and clear; explain the primary reason first
+- **Show distinctions**: when relevant, briefly explain why the term doesn't fit
+in another obvious category
+- **Think forward**: consider how the decision guides future similar terms
+- **Test the placement**: if articulating why a term belongs in its category is too
+difficult, reconsider the placement
+- **Ask for feedback**: when uncertain, create an issue to discuss with other
+contributors before committing to a category
 
 ---
 
@@ -122,7 +290,7 @@ application programming interface...
 ```markdown
 ## gRPC API
 
-**Definition**: uses gRPC - _Google's Remote Procedure Call_ - framework...
+**Definition**: uses gRPC - *Google's Remote Procedure Call* - framework...
 ```
 
 ```markdown
@@ -148,7 +316,7 @@ full name is more commonly used:
 - Search API documentation, technical articles, and MDN Web Docs
 - If the acronym appears more frequently than the full name, use the acronym
 - If the full name is more recognizable, use the full name
-- Consider the glossary target audience - what term would they search for?
+- Consider the glossary target audience - _what term would they search for?_
 
 **Never use parenthetical expansions in headings** - they clutter navigation
 and create unnecessarily long anchor links:
@@ -178,7 +346,7 @@ Headings become anchor links automatically. Keep them concise to:
 
 ---
 
-#### Updating Anchor Links
+#### Updating Links
 
 When renaming terms or reorganizing the glossary, don't forget to update
 all anchor links that reference the changed term. Use grep to find all
@@ -212,7 +380,7 @@ grep -rn "](#openapi-specification-oas)" . --include="*.md"
 3. Others may need the specific file in the path changed: `glossary.md#anchor`
 4. Update each link manually based on context
 
-#### Troubleshooting Broken Anchor Links
+#### Troubleshooting Broken Links
 
 After updating headings, run `npm run build` to verify that all anchor
 links are working. Docusaurus reports any broken anchors it finds.
@@ -265,7 +433,6 @@ Use consistent capitalization to maintain clarity and
 professionalism.
 
 ### Term Rules by Category
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 | Category | Rule | Examples |
 | -------- | -------- | --------- |
@@ -342,7 +509,6 @@ which a branch was created.
 ---
 
 ## Related Terms Linking Strategy
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Link related terms to help readers navigate connected concepts
 and build understanding of how terms relate to each other.
@@ -357,16 +523,14 @@ first, such as REST API → HTTP, JSON
 - **Higher-level concepts**: category terms that provide context,
 such as cURL → API testing, command line
 
-### Link Format
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+### Related Terms Format
 
 - list terms in alphabetical or local order: prerequisites first,
 then workflow-related, then alternatives
 - use the exact term name as it appears in its heading
 - separate with commas: `**Related Terms**: branch, commit, merge, rebase`
 
-### Linking Syntax
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+### Related Terms Syntax
 
 **For terms in the same file:**
 
@@ -389,21 +553,19 @@ Example: `**Related Terms**: [Git](tools-techniques.md#git), [GitHub](tools-tech
 - the anchor link - `#term-name` - must exactly match the heading
 - use lowercase and hyphens for multi-word terms: `#http-status-codes`
 - acronyms are lowercase in anchors: `#rest-api` not `#REST-API`
-- test all links locally with `npm start` before submitting
+- test all links locally with `npm run build` and `npm start` before submitting
 - _**only link to terms that exist** - don't list terms in the
 Related Terms list that don't have glossary entries_
 
 ---
 
 ## Source References
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Provide specific, verifiable sources for all term definitions
 and information. Sources acknowledge where information originates
 and allow readers to explore topics further.
 
-### Format Guidelines
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+### Source Format
 
 **For web sources**, use descriptive link text with the full URL:
 
@@ -447,7 +609,7 @@ Example:
 - UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 ```
 
-### Best Practices
+### Source Best Practices
 <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 - be as specific as possible - include authors' names, exact page titles,
@@ -463,13 +625,11 @@ verification
 ---
 
 ## Voice and Tone
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Write in active voice without first-person pronouns to maintain
 directness and professional tone.
 
 ### Active Voice
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Use active voice where the subject performs the action:
 
@@ -488,7 +648,6 @@ Write from a neutral, instructional perspective:
 - ✅ "Frequent commits create detailed project history"
 
 ### Purpose and Example Fields Exception
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Use second person - "users," "developers," "writers" -
 when describing who performs actions:
@@ -497,7 +656,6 @@ when describing who performs actions:
 - ✅ `**Example**: developers create a branch named docs/add-webhook-guide`
 
 ### Clarity Over Rules
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 If passive voice improves clarity or readability, use it -
 but this is likely rare. When in doubt, rewrite in active voice.
@@ -510,13 +668,13 @@ _**Note**: every Quick Reference entry must have a corresponding full entry in a
 category file; don't create Quick Reference entries for terms that lack detailed
 definitions elsewhere in the glossary_
 
-The Quick Reference page provides concise definitions and filing
+[The Quick Reference page](../quick-reference.md) provides concise definitions and filing
 locations for commonly used terms. Add terms to Quick Reference when
 they meet these criteria:
 
-- Frequently referenced across many contexts
-- Benefit from a brief, scannable definition
-- Already have a full entry in one of the main category files
+- frequently referenced across many contexts
+- benefit from a brief, scannable definition
+- already have a full entry in one of the main category files
 
 To add a term to Quick Reference:
 
@@ -539,8 +697,21 @@ heading in `quick-reference.md`
 3. **Link to the full entry** using the syntax: `[Link Text](page-name.md#header-id)`
 
    - `page-name.md` is the category filename
-   - `header-id` is the exact heading, including capitalization
-   - Match the `header-id` to the heading exactly as it appears in the target file
+   - `header-id` follows these conversion rules from the heading:
+     - convert all letters to lowercase
+     - replace spaces with hyphens
+     - remove special characters - keep existing hyphens and alphanumerics
+     - remove slashes, parentheses, and other punctuation
+
+   **Heading → Anchor examples:**
+
+   | Heading | Anchor Link |
+   | --------- | ------------- |
+   | `## HTTP` | `#http` |
+   | `## API` | `#api` |
+   | `## CI/CD pipeline` | `#cicd-pipeline` |
+   | `## REST API` | `#rest-api` |
+   | `## docs-as-code` | `#docs-as-code` |
 
 4. **Example**:
 
@@ -555,8 +726,8 @@ heading in `quick-reference.md`
       ---
    ```
 
-5. **Test the link** locally with `npm start` to ensure it navigates
-correctly to the full entry
+5. **Test the link** locally with `npm run build` and `npm start` to
+ensure it navigates correctly to the full entry
 
 ---
 
@@ -569,7 +740,6 @@ If the term doesn't fit existing categories and warrants a new one:
 
    ```markdown
    # Category Name
-   <!-- ignore this Vale capitalization error, see Style Guide #Headings-->
    
    Brief description of what this category covers. This section explains
    the scope and purpose, helping readers understand what types of terms
@@ -607,9 +777,9 @@ the [Add a new glossary term section](#add-a-new-glossary-term):
     ```markdown
    1. Identify which category file the term belongs in:
    
-   - `quick-reference.md` - Common terms, concise definitions
-   - `core-concepts.md` - Fundamental API documentation concepts
-   - `api-types-architectures.md` - Different architectural patterns and protocols
+   - `quick-reference.md` - common terms, concise definitions
+   - `core-concepts.md` - fundamental API documentation concepts
+   - `api-types-architectures.md` - different architectural patterns and protocols
    - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
    <!--> ... continue list-->
    ```
@@ -621,7 +791,7 @@ descriptions of the glossary structure
 8. Update the `README.md` by adding the new category to the `Topics` section with
 a brief description of the category contents and a link to its
 documentation page
-9. Test the navigation locally with `npm start` to ensure:
+9. Test the navigation locally with `npm run build` and `npm start` to ensure:
 
    - the new category appears correctly in navigation
    - all links work properly
