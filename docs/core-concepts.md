@@ -61,7 +61,8 @@ sequenceDiagram
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [API gateway](api-types-architectures.md#api-gateway),
-[API security](#api-security), [REST API](api-types-architectures.md#rest-api)
+[API security](#api-security), [API testing](workflows-methodologies.md#api-testing),
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -104,9 +105,10 @@ Breaking down this endpoint:
 | `/resource/{id}` | Single resource operations | `GET /users/123` retrieves one user |
 | `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
 
-**Related Terms**: [API](#api), [HTTP](core-concepts.md#http),
-[HTTP method](#http-method), [parameters](#parameters), [request/response](#requestresponse),
-[resource](core-concepts.md#resource), [REST API](api-types-architectures.md#rest-api)
+**Related Terms**: [API](#api), [API testing](workflows-methodologies.md#api-testing),
+[HTTP](core-concepts.md#http), [HTTP method](#http-method), [parameters](#parameters),
+[request/response](#requestresponse), [resource](core-concepts.md#resource),
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -398,10 +400,11 @@ GET https://api.example.com/users/999
 }
 ```
 
-**Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
+**Related Terms**: [API endpoint](#api-endpoint),
+[API testing](workflows-methodologies.md#api-testing), [HTTP](core-concepts.md#http),
 [rate limiting](#rate-limiting), [request/response](#requestresponse),
-[REST API](api-types-architectures.md#rest-api),
-[troubleshooting](#troubleshooting), [validation](#validation)
+[REST API](api-types-architectures.md#rest-api), [troubleshooting](#troubleshooting),
+[validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
