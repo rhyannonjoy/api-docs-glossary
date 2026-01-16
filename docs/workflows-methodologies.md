@@ -86,7 +86,7 @@ team to update their integration guides
 
 **Related Terms**: [API](core-concepts.md#api), [Doc Detective](tools-techniques.md#doc-detective),
 [docs-as-tests](#docs-as-tests), [HTTP status codes](core-concepts.md#http-status-codes),
-[REST API](api-types-architectures.md#rest-api)
+[Playwright](tools-techniques.md#playwright), [REST API](api-types-architectures.md#rest-api)
 
 **Sources**:
 
