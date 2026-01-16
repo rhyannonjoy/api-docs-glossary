@@ -234,7 +234,8 @@ documentation
 **Related Terms**: [Agile](#agile), [API testing](#api-testing),
 [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
 [CLI](tools-techniques.md#cli), [Doc Detective](tools-techniques.md#doc-detective),
-[docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
+[docs-as-code](#docs-as-code), [Selenium](tools-techniques.md#selenium),
+[UI](tools-techniques.md#ui)
 
 **Sources**:
 
