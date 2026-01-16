@@ -800,6 +800,17 @@ body
 
 ---
 
+### Playwright
+
+- open-source browser automation framework created by Microsoft
+- focuses on multi-browser testing across Chromium, Firefox, and WebKit
+- supports docs-as-tests workflows by validating that documented UI
+procedures work as written
+
+**Glossary Term Entry Location**: [Tools & Techniques - Playwright](tools-techniques.md#playwright)
+
+---
+
 ### `POST`
 
 - HTTP method

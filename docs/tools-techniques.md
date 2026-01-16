@@ -244,7 +244,7 @@ response; when developers change the button text from "Create Account" to
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
-Playwrite, Selenium, Vale
+[Playwrite](#playwright), Selenium, Vale
 
 **Sources**:
 
@@ -578,6 +578,37 @@ configures origin when cloning a repository
 [push](#push), [upstream repository](#upstream-repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
+
+---
+
+## Playwright
+
+**Definition**: an open-source browser automation framework created by
+Microsoft that enables automated testing of web applications across multiple
+browsers; focuses on [Chromium](https://www.chromium.org/chromium-projects/),
+[Firefox](https://www.firefox.com/en-US/?redirect_source=mozilla-org),
+and [Webkit](https://webkit.org/)
+
+**Purpose**: allows technical writers to create automated tests for UI
+documentation by programmatically controlling browsers, simulating user
+interactions, and verifying page behavior; supports docs-as-tests workflows
+by validating that documented UI procedures work as written; can capture
+screenshots, test responsive designs, and verify accessibility
+
+**Example**: a documentation team uses Playwright to automate testing of
+their web application tutorial, scripting the exact steps users should follow -
+clicking buttons, filling forms, navigating between pages - and verifying that
+each step produces the documented result; when a UI change breaks the
+documented workflow, the Playwright test fails during CI/CD pipeline execution
+
+**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+[CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[UI](#ui)
+
+**Sources**:
+
+- [Manny Silva, Docs as Tests: "Tools"](https://www.docsastests.com/tools)
+- [Microsoft, Playwright: Official Documentation](https://playwright.dev/)
 
 ---
 
