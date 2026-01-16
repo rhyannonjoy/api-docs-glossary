@@ -275,6 +275,16 @@ directly to HTTP methods
 
 ---
 
+### Cypress
+
+- open-source end-to-end testing framework
+- enables automated testing of web applications through browser automation
+- JavaScript/TypeScript focused, has a visual test runner, developer-friendly
+
+**Glossary Term Entry Location**: [Tools & Techniques - Cypress](tools-techniques.md#cypress)
+
+---
+
 ## D
 
 ---

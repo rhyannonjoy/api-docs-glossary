@@ -206,6 +206,37 @@ retrieves user data from an API endpoint
 
 ---
 
+## Cypress
+
+**Definition**: an open-source end-to-end testing framework that enables
+automated testing of web applications through browser automation, designed
+with developer experience and ease of use as priorities
+
+**Purpose**: allows technical writers to create automated tests for UI
+documentation by controlling browsers, simulating user interactions, and
+verifying page behavior; supports docs-as-tests workflows by validating
+that documented UI procedures execute correctly; provides visual test runner
+for debugging and can capture screenshots at each test step; tests written
+in JavaScript or TypeScript
+
+**Example**: a documentation team writes a Cypress test that validates
+their "Google Search" tutorial by navigating to Google, entering search
+terms in the search bar, pressing Enter, and verifying search results appear;
+the test automatically captures a screenshot of the results page to include
+in documentation; when Google changes their search bar selector, the Cypress
+test fails, alerting writers that their documented instructions need updating
+
+**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+[CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[Playwright](#playwright), [UI](#ui)
+
+**Sources**:
+
+- [Cypress.io: Official Documentation](https://docs.cypress.io/)
+- [Manny Silva, Docs as Tests: "Validate a UI with Cypress"](https://www.docsastests.com/validate-ui-with-cypress)
+
+---
+
 ## dev branch
 
 **Definition**: version control concept; short for
@@ -603,7 +634,8 @@ each step produces the documented result; when a UI change breaks the
 documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
-[CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[CI/CD pipeline](#cicd-pipeline), [Cypress](#cypress),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Selenium](#selenium), [UI](#ui), [Vale](#vale)
 
 **Sources**:
@@ -799,7 +831,8 @@ the script runs nightly to catch any UI changes that would make the
 documentation inaccurate
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
-[Doc Detective](#doc-detective), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[Cypress](#cypress), [Doc Detective](#doc-detective),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Playwright](#playwright), [UI](#ui)
 
 **Sources**:
