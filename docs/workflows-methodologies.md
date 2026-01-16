@@ -84,8 +84,8 @@ verifying that responses match documented schemas and status codes; when develop
 change an endpoint's required parameters, the test fails, alerting the documentation
 team to update their integration guides
 
-**Related Terms**: [API](core-concepts.md#api), [docs-as-tests](#docs-as-tests),
-Doc Detective, [HTTP status codes](core-concepts.md#http-status-codes),
+**Related Terms**: [API](core-concepts.md#api), [Doc Detective](tools-techniques.md#doc-detective),
+[docs-as-tests](#docs-as-tests), [HTTP status codes](core-concepts.md#http-status-codes),
 [REST API](api-types-architectures.md#rest-api)
 
 **Sources**:
@@ -233,8 +233,8 @@ documentation
 
 **Related Terms**: [Agile](#agile), [API testing](#api-testing),
 [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
-[CLI](tools-techniques.md#cli), [docs-as-code](#docs-as-code),
-[UI](tools-techniques.md#ui)
+[CLI](tools-techniques.md#cli), [Doc Detective](tools-techniques.md#doc-detective),
+[docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
 
 **Sources**:
 

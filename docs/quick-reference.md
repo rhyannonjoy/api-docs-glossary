@@ -298,6 +298,16 @@ four content types: explanation, how-to-guides, reference, and tutorials
 
 ---
 
+### Doc Detective
+
+- open-source testing tool
+- designed specifically for implementing docs-as-code workflows by
+validating documentation against APIs, CLIs, UIs
+
+**Glossary Term Entry Location**: [Tools & Techniques - Doc Detective](tools-techniques.md#doc-detective)
+
+---
+
 ### docs-as-code
 
 - methodology for developing and publishing documentation using the same tools

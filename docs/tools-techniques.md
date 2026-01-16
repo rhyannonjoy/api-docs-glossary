@@ -78,7 +78,7 @@ until the team releases code and/or documentation fixes; when documentation pass
 all tests, the pipeline automatically publishes updated docs to the production site
 
 **Related Terms**: [Agile](workflows-methodologies.md#agile),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[Doc Detective](#doc-detective), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Documentation Development Life Cycle](workflows-methodologies.md#document-development-life-cycle),
 [pull request](#pull-request)
 
@@ -107,7 +107,7 @@ authentication headers; documentation describes each command's syntax, required
 arguments, optional flags, and example outputs; docs-as-tests validates that
 documented CLI commands execute successfully and produce expected results
 
-**Related Terms**: [API](core-concepts.md#api),
+**Related Terms**: [API](core-concepts.md#api), [Doc Detective](#doc-detective),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [GUI](#gui), [REST API](api-types-architectures.md#rest-api), [UI](#ui)
 
@@ -221,6 +221,36 @@ together before merging to main
 [main branch](#main-branch), [merge](#merge), [pull request](#pull-request)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
+
+---
+
+## Doc Detective
+
+**Definition**: an open-source testing tool designed specifically for
+implementing docs-as-tests workflows by validating documentation against
+product APIs, CLIs, and UIs
+
+**Purpose**: enables technical writers to create automated tests that execute
+documented procedures, verify UI interactions, test API endpoints, and
+validate command-line instructions; catches documentation-product discrepancies
+before users encounter them; integrates with CI/CD pipelines to run tests
+automatically when code or documentation changes
+
+**Example**: a documentation team writes a Doc Detective test specification
+that navigates to a sign-up page, verifies the presence of specific form fields,
+enters test data, clicks the "Create Account" button, and validates the expected
+response; when developers change the button text from "Create Account" to
+"Sign Up Now," the test fails, alerting writers to update their documentation
+
+**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+[CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
+Playwrite, Selenium, Vale
+
+**Sources**:
+
+- [Doc Detective: Official Documentation](https://doc-detective.com/)
+- [Manny Silva, Docs as Tests: "Validate a UI with Doc Detective"](https://www.docsastests.com/validate-ui-with-doc-detective)
+- [James Tasse: "Docs as Tests: Part I — On a High Level"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
 
 ---
 
