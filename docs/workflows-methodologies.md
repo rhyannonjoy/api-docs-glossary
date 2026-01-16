@@ -233,7 +233,8 @@ documentation
 
 **Related Terms**: [Agile](#agile), [API testing](#api-testing),
 [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
-[docs-as-code](#docs-as-code), [UI](tools-techniques.md#ui)
+[CLI](tools-techniques.md#cli), [docs-as-code](#docs-as-code),
+[UI](tools-techniques.md#ui)
 
 **Sources**:
 

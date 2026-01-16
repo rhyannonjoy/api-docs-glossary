@@ -62,7 +62,7 @@ sequenceDiagram
 **Related Terms**: [API endpoint](#api-endpoint),
 [API gateway](api-types-architectures.md#api-gateway),
 [API security](#api-security), [API testing](workflows-methodologies.md#api-testing),
-[REST API](api-types-architectures.md#rest-api)
+[CLI](tools-techniques.md#cli), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
