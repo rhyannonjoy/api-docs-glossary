@@ -78,7 +78,9 @@ until the team releases code and/or documentation fixes; when documentation pass
 all tests, the pipeline automatically publishes updated docs to the production site
 
 **Related Terms**: [Agile](workflows-methodologies.md#agile),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests), [pull request](#pull-request)
+[docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[Documentation Development Life Cycle](workflows-methodologies.md#document-development-life-cycle),
+[pull request](#pull-request)
 
 **Sources**:
 

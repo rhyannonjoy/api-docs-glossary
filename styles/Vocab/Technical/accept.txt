@@ -1,0 +1,30 @@
+Open `styles/Vocab/Technical/accept.txt` and add:
+```
+validate
+validates
+validating
+validation
+APIs
+API
+OAuth
+rebase
+rebasing
+rebased
+dev
+repo
+Gruber
+booleans
+resyncs
+```
+
+## The repository structure should now look like:
+```
+api-docs-glossary/
+├── .vale.ini
+├── styles/
+│   └── Vocab/
+│       └── Technical/
+│           └── accept.txt
+├── .gitignore
+├── docs/
+└── ...
