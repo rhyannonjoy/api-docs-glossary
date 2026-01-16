@@ -1221,6 +1221,16 @@ a group of representative users
 
 ---
 
+### Vale
+
+- open-source command-line tool
+- lints prose and enforces editorial style rules in documentation
+- supports multiple style guides including Microsoft, Google, and custom rules
+
+**Glossary Term Entry Location**: [Tools & Techniques - Vale](tools-techniques.md#vale)
+
+---
+
 ### validation
 
 - process of checking whether data meets specified requirements
