@@ -244,7 +244,7 @@ response; when developers change the button text from "Create Account" to
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[Playwrite](#playwright), Selenium, Vale
+[Playwrite](#playwright), Selenium, [Vale](#vale)
 
 **Sources**:
 
@@ -492,7 +492,8 @@ directly from this branch
 text documents and allows users to add elements like headers,
 links, lists, and tables
 
-**Related Terms**: [Git](#git), [Git Bash](#git-bash), [GitHub](#github)
+**Related Terms**: [Git](#git), [Git Bash](#git-bash), [GitHub](#github),
+[Vale](#vale)
 
 **Sources**:
 
@@ -603,7 +604,7 @@ documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[UI](#ui)
+[UI](#ui), [Vale](#vale)
 
 **Sources**:
 
@@ -863,6 +864,35 @@ elements trigger specific API calls or how API responses render in the interface
 [CLI](#cli), [GUI](#gui), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+
+---
+
+## Vale
+
+**Definition**: an open-source command-line tool for linting prose and enforcing
+editorial style rules in documentation
+
+**Purpose**: maintains consistency in technical writing by automatically checking
+documentation against customizable style guides; catches grammar errors,
+terminology inconsistencies, and style violations; integrates with docs-as-code
+workflows and CI/CD pipelines to enforce writing standards before content is
+published; supports multiple style guides including Microsoft, Google, and
+custom rules
+
+**Example**: a documentation team configures Vale to enforce their API documentation
+style guide, which requires using "endpoint" instead of "API call" and prohibits
+passive voice in code examples; when a writer submits a pull request with
+documentation that violates these rules, Vale flags the issues in the CI/CD pipeline,
+preventing merge until corrections are made
+
+**Related Terms**: [CI/CD pipeline](#cicd-pipeline),
+[docs-as-code](workflows-methodologies.md#docs-as-code),
+[Markdown](#markdown), [pull request](#pull-request)
+
+**Sources**:
+
+- [JD Kato, Vale: Official Documentation](https://vale.sh/)
+- [Manny Silva, Docs as Tests: "Tools"](https://www.docsastests.com/tools)
 
 ---
 
