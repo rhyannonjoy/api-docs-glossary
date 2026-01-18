@@ -215,7 +215,6 @@ docs work as written by directly testing against product UIs, APIs, and CLIs
 approach that focuses on processes and practices rather than specific tools or conceptual
 frameworks; represents a documentation methodology similar to Agile or docs-as-code,
 emphasizing the practice of continuous validation rather than the tools that implement it
-
 ...
 ```
 
@@ -236,7 +235,6 @@ validation workflow that focuses on how teams verify APIs as part of documentati
 maintenance and emphasizes the practice of testing rather than a specific tool;
 `Core Concepts` covers what APIs are fundamentally, while API testing is about what
 teams do with APIs—a workflow practice, not a fundamental API characteristic
-
 ...
 
 ```
@@ -559,7 +557,7 @@ Related Terms list that don't have glossary entries_
 
 ---
 
-## Source References
+## Source Reference
 
 Provide specific, verifiable sources for all term definitions
 and information. Sources acknowledge where information originates
@@ -610,7 +608,6 @@ Example:
 ```
 
 ### Source Best Practices
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 - be as specific as possible - include authors' names, exact page titles,
 section names, or [RFC numbers](tools-techniques.md#rfc)
@@ -621,6 +618,187 @@ verification
 - if citing forum discussions or informal sources, note the context:
 "UW API Docs Canvas Forum"
 - when a term draws from many sources, sort them alphabetically
+
+---
+
+## Expanding Glossary Term Entries
+
+While the basic term structure - `Definition`, `Purpose`, `Example`,
+`Related Terms`, `Sources` - provides a solid foundation, some terms benefit
+from additional context, clarification, or community insights. The glossary
+should grow organically to address real confusion, document important
+distinctions, and capture valuable perspectives from the API documentation
+community.
+
+The goal is a living glossary that grows thoughtfully in response to real
+needs while maintaining its core mission: demystifying API documentation
+terminology with clarity and practical focus.
+
+### When to Create Comparison Entries
+
+Some terms benefit from direct comparison rather than separate entries.
+Consider creating a dedicated comparison entry when:
+
+| **Scenario** | **Example** | **Action** |
+| ------------ | ----------- | ---------- |
+| Terms are frequently confused or used interchangeably | [REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful) - often treated as synonyms despite technical distinction | Create a comparison entry that explains both the technical distinction and practical usage |
+| The relationship between terms is more important than individual definitions | Understanding that REST is the architectural style while *REST*ful describes implementations | Focus the entry on the relationship and when each term applies |
+| Explaining the difference helps writers make better terminology choices | Knowing both terms are acceptable in API docs reduces terminology anxiety | Document that consistency matters more than picking the "right" term |
+| Common usage differs from technical precision | Practitioners use REST and *REST*ful interchangeably in documentation | Acknowledge both the technical distinction and real-world practice |
+
+**Format for comparison entries:**
+
+Use "Term A vs Term B" as the entry name/header, then structure as:
+
+- **Definition**: explain both terms and their relationship
+- **Purpose**: focus on why understanding the distinction, or lack thereof,
+matters for API documentation
+- **Example**: show both terms in practical use
+- **Related Terms**: link to the underlying concepts both terms reference
+- **Sources**: cite relevant discussions or information origin
+
+### When to Expand Entries
+
+| **Scenario** | **Example** | **Action** |
+| ------------ | ----------- | ---------- |
+| The term is frequently misunderstood or misapplied | API testing in documentation contexts vs. QA testing | Add clarification fields to address common confusion points |
+| Important distinctions exist that readers need to understand | How docs-as-tests differs from traditional QA workflows | Add dedicated comparison or distinction fields |
+| Category placement is non-obvious or could be questioned | Whether API testing belongs in `Workflows & Methodologies` vs. `Tools & Techniques` | Add **Why This Belongs in `[Category]`**: |
+| Community discussions have surfaced valuable insights | Write the Docs book club observations about documentation testing | Incorporate these perspectives into **Purpose** or add dedicated insight fields |
+| The term represents emerging practices that need context | Docs-as-tests as a relatively new methodology | Provide additional background to help readers understand adoption and implementation |
+| Sharp observations or nuanced perspectives exist that serve readers | The distinction between testing "what the product does" vs. "what we tell users to do" | Don't hide these insights, make them explicit |
+
+### Available Expansion Fields
+
+Beyond the standard structure, consider adding these fields when appropriate:
+
+**Comparison fields** - clarify distinctions:
+
+```markdown
+**How this differs from [related concept]**: explain the key differences, what each validates, why both might be necessary
+```
+
+**Context fields** - provide background:
+
+```markdown
+**Historical context**: how this practice evolved, what problems it addresses
+
+**Current adoption**: where this practice is common, who uses it
+```
+
+**Implementation fields** - offer practical guidance:
+
+```markdown
+**Getting started**: first steps for implementing this practice
+
+**Common pitfalls**: what to avoid, where teams struggle
+```
+
+**Community perspective fields** - capture collective wisdom:
+
+```markdown
+**Community insights**: observations from Write the Docs, conference talks, practitioner discussions
+
+**Practitioner perspectives**: how technical writers describe using this in practice
+```
+
+### Expansion Guidelines
+
+**Expand when it serves readers**:
+
+- addresses documented confusion - course discussions, Slack questions,
+conference talks
+- provides clarity that prevents misapplication of concepts
+- captures hard-won insights from practitioners
+- documents emerging patterns before they become entrenched misconceptions
+
+**Don't expand unnecessarily**:
+
+- avoid expansion just for comprehensiveness - stay focused on API
+documentation context
+- don't add fields that repeat information already in **Definition** or
+**Purpose**
+- don't expand terms that are already clear and unambiguous
+- resist the urge to document every possible edge case
+
+**Balance brevity with completeness**:
+
+- core information should remain scannable
+- expansion fields should be skimmable - use clear field labels
+- readers should be able to get the basics quickly and dive deeper if needed
+- _"Would a confused reader find this additional context helpful?"_
+
+### Format Considerations
+
+Treat maintainer and reader content the same. Whether it's category
+placement reasoning, editorial notes, or distinctions, comparisons,
+or insights:
+
+- don't keep it hidden from the rendered documentation
+- use visible fields with clear labels
+- place after **Purpose** but before **Example**
+- document decision-making for future contributors
+- keep concise and focused on practical value
+
+**Example of expanded entry structure:**
+
+```markdown
+## term name
+
+**Definition**: [brief, clear definition]
+
+**Purpose**: [why this matters for API documentation]
+
+**How this differs from [related term]**: [visible clarification for readers]
+...
+```
+
+### Documenting Points of View
+
+| **Scenario** | **Approach** | **Example** |
+| ------------ | ------------ | ----------- |
+| Practitioners hold different valid views | Acknowledge different approaches without prescribing one "right" way | "Some teams integrate docs testing in CI/CD, others run tests manually" |
+| Organizational context affects implementation | Note when practices work differently in different environments | "In skunkworks environments, documentation testing may be lightweight" |
+| The field is evolving and consensus is forming | Document emerging consensus while acknowledging it's still developing | "Docs-as-tests is gaining adoption as teams recognize documentation drift" |
+| Sharp observations challenge conventional thinking | Don't shy away from documenting insights that question assumptions | The observation that QA and docs testing validate different sources of truth |
+
+**Voice for points of view:**
+
+- remain neutral in presentation: "Some practitioners argue..." not "We believe..."
+- attribute perspectives when possible: "Write the Docs discussions suggest..."
+- present multiple viewpoints fairly when legitimate disagreement exists
+- be clear when documenting emerging vs. established practices
+
+### Evolution Through Community Input
+
+**Capture community wisdom such as**:
+
+1. **Classroom confusion** - common struggles with a concept
+2. **Book club discussions** - insights from Write the Docs reading groups
+3. **Conference presentations** - practitioner experiences shared at events
+4. **Slack conversations** - recurring questions or "aha" moments
+5. **Blog posts and articles** - practitioner perspectives from published work
+
+**When adding community-sourced insights**:
+
+- cite the source appropriately as documented in the
+[Source Reference section](#source-reference)
+- consider adding a **Community Insights** or **Practitioner Perspectives** field
+- ensure the insight serves the glossary's API documentation focus
+- get permission if directly quoting individuals from informal contexts
+
+### Maintaining Consistency as Entries Expand
+
+**As glossary terms grow more detailed**:
+
+1. **Keep the basic structure intact** - `Definition`, `Purpose`, `Example`, `Sources`
+remain standard
+2. **Use consistent field naming** - if adding "How this differs from X" to one term,
+use the same phrasing for similar distinctions in other terms
+3. **Update this Style Guide** - document new patterns as they emerge so future
+contributors follow them
+4. **Review periodically** - expanded entries may need trimming as concepts become
+better understood in the field
 
 ---
 
