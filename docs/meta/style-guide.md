@@ -675,31 +675,31 @@ Beyond the standard structure, consider adding these fields when appropriate:
 **Comparison fields** - clarify distinctions:
 
 ```markdown
-**How this differs from [related concept]**: explain the key differences, what each validates, why both might be necessary
+**How [term name] Differs From [related term]**: explain the key differences, what each validates, why both might be necessary
 ```
 
 **Context fields** - provide background:
 
 ```markdown
-**Historical context**: how this practice evolved, what problems it addresses
+**Historical Context**: how this practice evolved, what problems it addresses
 
-**Current adoption**: where this practice is common, who uses it
+**Current Adoption**: where this practice is common, who uses it
 ```
 
 **Implementation fields** - offer practical guidance:
 
 ```markdown
-**Getting started**: first steps for implementing this practice
+**Getting Started**: first steps for implementing this practice
 
-**Common pitfalls**: what to avoid, where teams struggle
+**Common Pitfalls**: what to avoid, where teams struggle
 ```
 
 **Community perspective fields** - capture collective wisdom:
 
 ```markdown
-**Community insights**: observations from Write the Docs, conference talks, practitioner discussions
+**Community Insights**: observations from Write the Docs, conference talks, practitioner discussions
 
-**Practitioner perspectives**: how technical writers describe using this in practice
+**Practitioner Perspectives**: how technical writers describe using this in practice
 ```
 
 ### Expansion Guidelines
@@ -749,7 +749,7 @@ or insights:
 
 **Purpose**: [why this matters for API documentation]
 
-**How this differs from [related term]**: [visible clarification for readers]
+**How [term name] Differs From [related term]**: [visible clarification for readers]
 ...
 ```
 
