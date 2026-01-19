@@ -19,7 +19,7 @@ for more information.
 - [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals):
 core concepts, CRUD, HTTP, security, validation
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
-explanation guide, OpenAPI specification, overview, reference, runbook
+AsyncAPI, OpenAPI specification, overview, reference, runbook
 - [API Types & Architectures](https://rhyannonjoy.github.io/api-docs-glossary/docs/api-types-architectures):
 event-driven, GraphQL, gRPC, microservices, REST, SOAP, Webhook, WebSocket
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
