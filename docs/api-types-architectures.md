@@ -52,27 +52,40 @@ payment status every few minutes
 
 ## GraphQL API
 
-**Definition**: uses GraphQL, _Graph Query Language_ - to let clients
-request exactly the data they need through a single endpoint with
-a strongly typed schema
+**Definition**: uses GraphQL - _a query language and runtime_ - to let
+clients request exactly the data they need through a single endpoint
+with a strongly typed schema
 
-**Purpose**: reduces over-fetching and under-fetching of data by
-allowing clients to specify their exact requirements; particularly
-valuable for complex, interconnected data models
+**Purpose**: compared to REST APIs, reduces over-fetching and
+under-fetching of data; provides strongly typed schema and introspection
+capabilities for self-documenting APIs; particularly valuable for complex,
+interconnected data models; GraphQL can test query validation, field-level
+access controls, and schema compliance
+
+**Why this belongs in `API Types & Architectures`**: GraphQL is both a
+query language and an architectural approach that fundamentally defines
+API design, structure, and function; unlike AsyncAPI and OpenAPI Specification
+which are documentation formats for describing existing APIs, _GraphQL is
+the API implementation itself_ - it determines endpoint structure,
+data fetching patterns, and client-server interaction models; belongs
+alongside REST API and WebSocket API as an architectural pattern rather than
+in `Core Concepts` with documentation specification formats
 
 **Example**: instead of calling `/users/123`, `/users/123/posts`, and
-`/users/123/followers` separately, a client queries one endpoint
-requesting:
+`/users/123/followers` separately, a client queries one endpoint requesting
 
 ```graphQL
-`{ user(id: 123) { name, posts { title }, followers { name } } }`
+{ user(id: 123) { name, posts { title }, followers { name } } }
 ```
 
 **Related Terms**: [API](core-concepts.md#api),
-[API endpoint](core-concepts.md#api-endpoint),
-[schema](core-concepts.md#schema)
+[AsyncAPI](core-concepts.md#asyncapi), [REST API](#rest-api),
+[schema](core-concepts.md#schema), [validation](core-concepts.md#validation)
 
-**Source**: [The GraphQL Foundation: "Learn GraphQL"](https://graphql.org/learn/)
+**Sources**:
+
+- [The GraphQL Foundation: "Learn GraphQL"](https://graphql.org/learn/)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 
