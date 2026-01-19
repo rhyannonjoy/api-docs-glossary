@@ -34,7 +34,9 @@ their work through flexibility rather than linear, rigid planning
 - Adapting to change over following a strict plan
 
 **Related Terms**: [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
-[docs-as-code](#docs-as-code), [docs-as-tests](#docs-as-tests),
+[docs-as-code](#docs-as-code),
+[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[docs-as-tests](#docs-as-tests),
 [Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
 [Scrum](#scrum), [Waterfall](#waterfall)
@@ -192,8 +194,10 @@ distributed teams
 - success requires balancing standardization with space for creative,
 informal discussion
 
-**Related Terms**: [Agile](#agile), [Git](tools-techniques.md#git),
-[GitHub](tools-techniques.md#github), [main branch](tools-techniques.md#main-branch),
+**Related Terms**: [Agile](#agile),
+[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[Git](tools-techniques.md#git), [GitHub](tools-techniques.md#github),
+[main branch](tools-techniques.md#main-branch),
 [pull request](tools-techniques.md#pull-request),
 [version control](tools-techniques.md#version-control)
 
@@ -235,7 +239,9 @@ documentation
 [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
 [CLI](tools-techniques.md#cli), [Cypress](tools-techniques.md#cypress),
 [Doc Detective](tools-techniques.md#doc-detective),
-[docs-as-code](#docs-as-code), [Selenium](tools-techniques.md#selenium),
+[docs-as-code](#docs-as-code),
+[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[Selenium](tools-techniques.md#selenium),
 [UI](tools-techniques.md#ui)
 
 **Sources**:
@@ -392,6 +398,7 @@ provides user perspective before product release
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Document Development Life Cycle](#document-development-life-cycle),
 [guerrilla usability testing](#guerrilla-usability-testing)
 

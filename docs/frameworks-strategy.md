@@ -131,6 +131,53 @@ page
 
 ---
 
+## docs-as-ecosystem
+
+**Definition**: comprehensive framework for treating documentation as a complex,
+dynamic system managed and nurtured through collaboration across diverse
+stakeholders rather than as static code or isolated content
+
+**Purpose**: expands beyond docs-as-code by recognizing that documentation
+encompasses technical writing, design, community feedback, community management,
+accessibility, SEO - search engine optimization - UX, and AI tools; encourages
+holistic, multidisciplinary, and community-centered approaches to creating and
+maintaining API documentation that foster sustained engagement and
+collaborative growth
+
+**Why this belongs in `Frameworks & Strategy`**: represents a conceptual paradigm
+shift in how organizations approach documentation rather than a specific
+operational workflow; docs-as-ecosystem expands the operational approaches of
+docs-as-code and docs-as-tests into a _broader strategic framework_ that
+encompasses the full complexity of documentation systems _beyond just code
+management and testing practices_
+
+| Term | Category | Focus |
+| ---- | -------- | ----- |
+| **docs-as-code** | `Workflows & Methodologies` | methodology for organizing documentation work using developer tools and processes |
+| **docs-as-tests** | `Workflows & Methodologies` | concrete practice of running automated tests against documentation |
+| **docs-as-ecosystem** | `Frameworks & Strategy` | _meta-level philosophy and organizational mindset_ for understanding documentation as a living system with multiple stakeholders, feedback loops, and interdisciplinary components |
+
+**Example**: rather than treating API documentation as markdown files managed only by
+technical writers, a docs-as-ecosystem approach establishes feedback channels through
+GitHub discussions, social media, and forums, involves developer relations in analyzing
+feedback trends, coordinates with product managers on documentation roadmap, and
+integrates contributions from engineers, community members, and customer support to
+create living documentation that evolves with community needs
+
+**Related Terms**: [Agile](workflows-methodologies.md#agile),
+[docs-as-code](workflows-methodologies.md#docs-as-code),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests),
+[domain knowledge](#domain-knowledge),
+[end-user software engineer](#end-user-software-engineer),
+[usability testing](workflows-methodologies.md#usability-testing)
+
+**Sources**:
+
+- [Docs-as-Ecosystem: "The Community Approach to Engineering Documentation" by Alejandra Quetzalli](https://www.docsasecosystem.com/)
+- [GovFresh: "Docs-as-Ecosystem" Review by Luke Fretwell](https://govfresh.com/books/docs-as-ecosystem)
+
+---
+
 ## domain knowledge
 
 **Definition**: the understanding of a specific industry, discipline,
@@ -149,6 +196,7 @@ of rate limiting during market hours or authentication requirements
 for different account types
 
 **Related Terms**: [API](core-concepts.md#api), [Diátaxis](#diátaxis),
+[docs-as-ecosystem](#docs-as-ecosystem),
 [end-user software engineer](#end-user-software-engineer)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
@@ -181,8 +229,8 @@ developers need step-by-step integration guides with error handling,
 and opportunistic developers need a five-minute "process your
 first payment" tutorial
 
-**Related Terms**: [Diátaxis](#diátaxis), [domain knowledge](#domain-knowledge),
-[error handling](core-concepts.md#error-handling),
+**Related Terms**: [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
+[domain knowledge](#domain-knowledge), [error handling](core-concepts.md#error-handling),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
