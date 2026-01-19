@@ -328,6 +328,17 @@ alongside code
 
 ---
 
+### docs-as-ecosystem
+
+- strategic framework for understanding documentation systems
+- encourages holistic, multidisciplinary, and community-centered approaches to
+creating and maintaining API documentation that foster sustained engagement
+and collaborative growth
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem)
+
+---
+
 ### docs-as-tests
 
 - documentation strategy
