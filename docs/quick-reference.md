@@ -105,6 +105,17 @@ testing ensures user content accuracy
 
 ---
 
+### AsyncAPI
+
+- documentation standard
+- specification for defining asynchronous, event-driven APIs
+- enables standardized documentation and tooling for APIs that work over
+many different protocols
+
+**Glossary Term Entry Location**: [Core Concepts - AsyncAPI](core-concepts.md#asyncapi)
+
+---
+
 ### authentication
 
 - API security measure that determines who users are
