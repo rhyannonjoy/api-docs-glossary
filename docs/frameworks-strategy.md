@@ -1,5 +1,4 @@
 # Frameworks & Strategy
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Meta-level frameworks and strategic approaches for API documentation work.
 This section covers evaluation frameworks for API usability, developer

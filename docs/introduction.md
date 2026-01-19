@@ -29,15 +29,15 @@ flowchart LR
 ## Why this glossary?
 
 This glossary emerged organically from real learning needs during
-[the University of Washington's AI-Enhanced API Documentation certification program](https://www.pce.uw.edu/specializations/api-documentation). The project began as
-study notes - a way to define and cross-reference terms from course
-materials, industry resources, and hands-on work. What started as
-personal reference material quickly evolved into something more
-comprehensive, and comprehensive enough that the course instructor
-called it a "hidden gem" and encouraged sharing it with the broader
+[the University of Washington's AI-Enhanced API Documentation certification program](https://www.pce.uw.edu/specializations/api-documentation).
+The project began as study notes - a way to define and cross-reference terms from
+course materials, industry resources, and hands-on work. What started as
+personal reference material quickly evolved into something more comprehensive, and
+comprehensive enough that the course instructor called it a "hidden gem" and
+encouraged sharing it with the broader
 [Write the Docs](https://www.writethedocs.org/) community.
 
-**What makes this resource different:**
+**How this glossary is different:**
 
 - **Learner-perspective definitions**: terms include the context that
 help concepts click, rather than isolated dictionary-style definitions
@@ -58,7 +58,6 @@ clear explanations grounded in current API documentation practices.
 ---
 
 ## Scope & Approach
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This glossary covers:
 
@@ -74,7 +73,6 @@ not just definitions.
 ---
 
 ## Get Started
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 | Scenario | Action |
 | ---------------- | --------- |

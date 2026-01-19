@@ -1,5 +1,4 @@
 # Quick Reference
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This quick reference provides concise definitions and filing locations
 for common terms across technical writing, development, and project
@@ -12,7 +11,7 @@ belong in the full documentation structure.
 
 ---
 
-### affect vs effect 
+### affect vs effect
 
 - affect - _verb_: to influence
 - effect - _noun_: the result
@@ -962,9 +961,10 @@ after the source branch has changed
 
 ### repository
 
+- also known as "repo"
 - place to store files that are under Git’s version control
 
-**Glossary Term Entry Location**: [Tools & Techniques - repository](tools-techniques.md#repository-repo)
+**Glossary Term Entry Location**: [Tools & Techniques - repository](tools-techniques.md#repository)
 
 ---
 

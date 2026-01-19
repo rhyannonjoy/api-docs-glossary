@@ -1,5 +1,4 @@
 # Core Concepts
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Essential terms and concepts for API documentation. This section defines
 foundational terminology encountered when documenting APIs, from basic
@@ -9,7 +8,6 @@ different API types.
 ---
 
 ## API Fundamentals
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ---
 
@@ -968,7 +966,6 @@ creating a user account
 ---
 
 ## Documentation-specific Concepts
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ---
 

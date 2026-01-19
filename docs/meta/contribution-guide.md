@@ -1,5 +1,4 @@
 # Contribution Guide
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This guide covers the technical process for contributing to the
 API Docs Glossary: forking the repository, setting up the

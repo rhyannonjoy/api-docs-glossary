@@ -1,5 +1,4 @@
 # How This Glossary is Built
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This page documents the workflow, tools, and processes used to create
 and maintain the API Docs Glossary. Transparency about methodology helps
@@ -20,7 +19,6 @@ graph LR
 ---
 
 ### Research & Collection
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Term identification happens through:
 
@@ -40,7 +38,6 @@ AI assistance, specifically Claude AI, standardizes entries to match the
 - related term connections
 
 ### Review & Refinement
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Human review ensures:
 
@@ -50,7 +47,6 @@ Human review ensures:
 - appropriate examples for API documentation context
 
 ### Testing & Validation
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Each entry undergoes:
 
@@ -62,10 +58,8 @@ Each entry undergoes:
 ---
 
 ## AI Tools and Usage
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ### Claude AI Role
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Claude AI assists with:
 
@@ -77,7 +71,6 @@ Claude AI assists with:
 | **Feature Development** | Pair programming on tooling | Directs implementation, tests |
 
 ### What AI Generates
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **AI-assisted content:**
 
@@ -87,7 +80,6 @@ Claude AI assists with:
 - example code blocks and tables
 
 ### AI Limitations
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **AI assistance doesn't replace**:
 
@@ -99,12 +91,10 @@ Claude AI assists with:
 ---
 
 ## Master Prompts
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Reusable prompts maintain consistency across contributions.
 
 ### Adding New Terms
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ```markdown
 Please generate glossary term entries for my API Docs Glossary:
@@ -127,7 +117,6 @@ them easily.
 ```
 
 ### Standardizing Existing Entries
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ```markdown
 Please review these glossary entries against the style guide and 
@@ -147,10 +136,8 @@ Focus on:
 ---
 
 ## Quality Control Process
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ### Verification Checklist
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Before merging new entries:
 
@@ -164,7 +151,6 @@ Before merging new entries:
 - [ ] **Build success**: `npm run build` completes without errors
 
 ### Testing Commands
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ```bash
 # Verify build and check for broken links
@@ -178,7 +164,6 @@ npm start
 ```
 
 ### Common Issues and Solutions
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 | Issue | Solution |
 | ----- | -------- |
@@ -190,12 +175,10 @@ npm start
 ---
 
 ## Contribution Workflow
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Contributors can use similar AI-assisted workflows:
 
 ### Recommended Approach
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 1. **Create an issue** describing the proposed additions or changes
 2. **Use master prompts** to generate initial drafts with AI assistance
@@ -205,7 +188,6 @@ Contributors can use similar AI-assisted workflows:
 6. **Reference the issue** in the pull request
 
 ### When to Use AI Assistance
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **Appropriate use cases:**
 
@@ -224,10 +206,8 @@ Contributors can use similar AI-assisted workflows:
 ---
 
 ## Maintaining Consistency
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ### Style Guide Evolution
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 The [Style Guide](style-guide.md) documents standards as they emerge:
 
@@ -236,7 +216,6 @@ The [Style Guide](style-guide.md) documents standards as they emerge:
 - rules get refined based on experience
 
 ### Version Control
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Git history provides:
 
@@ -247,10 +226,8 @@ Git history provides:
 ---
 
 ## Lessons Learned
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ### What Works Well
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **AI assistance excels at:**
 
@@ -267,7 +244,6 @@ Git history provides:
 - making editorial decisions
 
 ### Continuous Improvement
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 The workflow evolves through:
 
@@ -279,7 +255,6 @@ The workflow evolves through:
 ---
 
 ## Replicating This Process
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Others can adapt this workflow for similar documentation projects:
 
@@ -292,7 +267,6 @@ Others can adapt this workflow for similar documentation projects:
 - commitment to human review
 
 ### Adaptation Tips
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **For different content types:**
 
@@ -307,7 +281,6 @@ Others can adapt this workflow for similar documentation projects:
 - customize verification scripts
 
 ### Key Success Factors
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 1. **Clear standards**: comprehensive style guide
 2. **Transparent process**: document what AI does
@@ -318,7 +291,6 @@ Others can adapt this workflow for similar documentation projects:
 ---
 
 ## Feedback and Questions
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This workflow documentation evolves based on contributor experience and feedback.
 Questions about this workflow or suggestions for improvement?
