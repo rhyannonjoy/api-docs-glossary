@@ -1,5 +1,4 @@
 # API Docs Glossary
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 A comprehensive glossary of API documentation fundamental concepts, processes,
 tools, and best practices. This project originated from coursework in the
@@ -18,24 +17,23 @@ for more information.
 ## Topics
 
 - [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals):
-core concepts, CRUD, HTTP, security
+core concepts, CRUD, HTTP, security, validation
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
-OpenAPI specification, overview topic, reference topic
+concept, explanation guide, OpenAPI specification, reference, runbook, tutorial
 - [API Types & Architectures](https://rhyannonjoy.github.io/api-docs-glossary/docs/api-types-architectures):
-GraphQL, gRPC, REST, SOAP, Webhook, WebSocket
+event-driven, GraphQL, gRPC, microservices, REST, SOAP, Webhook, WebSocket
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
-artificial intelligence in API documentation
+AI bias, genAI, Large Language Model, training data
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
-cURL, Git, Postman, Swagger
+cURL, Doc Detective, Git, Postman, Swagger, Vale
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
-project management approaches, usability testing
+API testing, docs-as-code, docs-as-tests, project management approaches, usability testing
 - [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
-audience analysis, domain knowledge, sales collateral
+audience analysis, Diátaxis, docs-as-ecosystem, domain knowledge, sales collateral
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
 content strategy, rhetorical approach, tone style
 
 ## Getting Started
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This resource provides essential concept definitions and context for
 anyone working with and/or learning about API documentation.
@@ -71,7 +69,6 @@ npm install
 ```
 
 ### Local Development
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 This command starts a local development server and opens up a browser
 window at `http://localhost:3000/`. Most changes display live
@@ -99,7 +96,6 @@ npm run build
 - [Markdown](https://www.markdownguide.org/): Content format
 
 ## Project Structure
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 ```shell
 api-docs-glossary/
