@@ -19,7 +19,7 @@ for more information.
 - [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#api-fundamentals):
 core concepts, CRUD, HTTP, security, validation
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts#documentation-specific-concepts):
-concept, explanation guide, OpenAPI specification, reference, runbook, tutorial
+concept, explanation guide, OpenAPI specification, reference, runbook
 - [API Types & Architectures](https://rhyannonjoy.github.io/api-docs-glossary/docs/api-types-architectures):
 event-driven, GraphQL, gRPC, microservices, REST, SOAP, Webhook, WebSocket
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
@@ -27,7 +27,7 @@ AI bias, genAI, Large Language Model, training data
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
 cURL, Doc Detective, Git, Postman, Swagger, Vale
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
-API testing, docs-as-code, docs-as-tests, project management approaches, usability testing
+Agile, API testing, docs-as-code, docs-as-tests, usability testing
 - [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
 audience analysis, Diátaxis, docs-as-ecosystem, domain knowledge, sales collateral
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
