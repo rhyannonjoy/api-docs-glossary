@@ -1,5 +1,4 @@
 # Writing Style
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Language conventions, tone guidelines, and rhetorical approaches
 that shape how API documentation communicates with its audience.

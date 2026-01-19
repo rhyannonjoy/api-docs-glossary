@@ -1,5 +1,4 @@
 # Tools & Techniques
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Essential tools and methods for API documentation workflows.
 From version control to interactive documentation generators,
@@ -208,7 +207,7 @@ retrieves user data from an API endpoint
 
 ## Cypress
 
-**Definition**: an open-source end-to-end testing framework that enables
+**Definition**: an open source end-to-end testing framework that enables
 automated testing of web applications through browser automation, designed
 with developer experience and ease of use as priorities
 
@@ -257,7 +256,7 @@ together before merging to main
 
 ## Doc Detective
 
-**Definition**: an open-source testing tool designed specifically for
+**Definition**: an open source testing tool designed specifically for
 implementing docs-as-tests workflows by validating documentation against
 product APIs, CLIs, and UIs
 
@@ -281,7 +280,7 @@ response; when developers change the button text from "Create Account" to
 
 - [Doc Detective: Official Documentation](https://doc-detective.com/)
 - [Manny Silva, Docs as Tests: "Validate a UI with Doc Detective"](https://www.docsastests.com/validate-ui-with-doc-detective)
-- [James Tasse: "Docs as Tests: Part I — On a High Level"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
+- [James Tasse: "Docs as Tests: Part I - On a High Level"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
 
 ---
 
@@ -316,7 +315,7 @@ original repository; contributors make changes in their
 fork, then submit pull requests to the upstream repository
 
 **Related Terms**: [clone](#clone), [pull request](#pull-request),
-[repository](#repository-repo), [upstream repository](#upstream-repository)
+[repository](#repository), [upstream repository](#upstream-repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -420,7 +419,7 @@ complement local Git operations
 
 ## GitHub Desktop
 
-**Definition**: graphical user interface (GUI) app that
+**Definition**: graphical user interface - GUI - app that
 manages GitHub repositories
 
 **Purpose**: offers a visual alternative to command-line
@@ -430,7 +429,7 @@ Git commands, making version control more accessible to
 non-technical writers
 
 **Related Terms**: [Git](#git), [Git Bash](#git-bash),
-[GitHub](#github), [GUI](#gui), [repository](#repository-repo),
+[GitHub](#github), [GUI](#gui), [repository](#repository),
 [UI](#ui)
 
 **Sources**:
@@ -607,7 +606,8 @@ pushing local documentation changes; Git automatically
 configures origin when cloning a repository
 
 **Related Terms**: [clone](#clone), [pull](#pull),
-[push](#push), [upstream repository](#upstream-repository)
+[push](#push), [repository](#repository),
+[upstream repository](#upstream-repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -615,7 +615,7 @@ configures origin when cloning a repository
 
 ## Playwright
 
-**Definition**: an open-source browser automation framework created by
+**Definition**: an open source browser automation framework created by
 Microsoft that enables automated testing of web applications across multiple
 browsers; focuses on [Chromium](https://www.chromium.org/chromium-projects/),
 [Firefox](https://www.firefox.com/en-US/?redirect_source=mozilla-org),
@@ -769,9 +769,9 @@ merge commits or squashed history
 
 ---
 
-## repository (repo)
+## repository
 
-**Definition**: a storage location for files under Git
+**Definition**: also known as "repo"; a storage location for files under Git
 version control that tracks the complete history of changes
 
 **Purpose**: contains all API documentation source files,
@@ -814,7 +814,7 @@ web pages change
 
 ## Selenium
 
-**Definition**: an open-source framework for automating web browser
+**Definition**: an open source framework for automating web browser
 interactions used for testing web applications
 
 **Purpose**: enables automated testing of web-based documentation and
@@ -898,7 +898,8 @@ the upstream repo to incorporate the latest changes before
 creating pull requests
 
 **Related Terms**: [clone](#clone), [fork](#fork),
-[origin repository](#origin-repository), [pull](#pull)
+[origin repository](#origin-repository), [pull](#pull),
+[repository](#repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -931,21 +932,21 @@ elements trigger specific API calls or how API responses render in the interface
 
 ## Vale
 
-**Definition**: an open-source command-line tool for linting prose and enforcing
+**Definition**: an open source command-line tool for linting prose and enforcing
 editorial style rules in documentation
 
 **Purpose**: maintains consistency in technical writing by automatically checking
 documentation against customizable style guides; catches grammar errors,
 terminology inconsistencies, and style violations; integrates with docs-as-code
-workflows and CI/CD pipelines to enforce writing standards before content is
-published; supports multiple style guides including Microsoft, Google, and
+workflows and CI/CD pipelines to enforce writing standards before publishing;
+supports multiple style guides including Microsoft, Google, and
 custom rules
 
 **Example**: a documentation team configures Vale to enforce their API documentation
 style guide, which requires using "endpoint" instead of "API call" and prohibits
 passive voice in code examples; when a writer submits a pull request with
 documentation that violates these rules, Vale flags the issues in the CI/CD pipeline,
-preventing merge until corrections are made
+preventing merge until the team releases corrections
 
 **Related Terms**: [CI/CD pipeline](#cicd-pipeline),
 [docs-as-code](workflows-methodologies.md#docs-as-code),
@@ -973,7 +974,8 @@ the repository to their own GitHub account
 
 **Related Terms**: [branch](#branch), [commit](#commit),
 [docs-as-code](workflows-methodologies.md#docs-as-code),
-[Git](#git), [Git Bash](#git-bash), [GitHub](#github)
+[Git](#git), [Git Bash](#git-bash), [GitHub](#github),
+[repository](#repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -989,7 +991,7 @@ edit documentation files, test builds, and prepare commits
 before pushing to remote repositories
 
 **Related Terms**: [clone](#clone), [fork](#fork),
-[repository](#repository-repo)
+[repository](#repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 

@@ -1,5 +1,4 @@
 # Getting Started
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 From REST fundamentals to documentation best practices, API Docs
 Glossary is a comprehensive reference for anyone working with API
@@ -13,7 +12,6 @@ updated as the field evolves.
 ---
 
 ## Glossary Structure
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Explore terms across seven main categories:
 
@@ -32,7 +30,6 @@ Explore terms across seven main categories:
 ## Navigation
 
 ### Find Terms Quickly
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 - **Search**: Use the search bar in the top navigation to instantly find any term
 - **Alphabetical index**: Browse the [Quick Reference](quick-reference.md)
@@ -41,7 +38,6 @@ for a complete alphabetical list with brief definitions
 review terms across seven categories
 
 ### Term Entry Structure
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Each glossary entry includes:
 
@@ -54,7 +50,6 @@ Each glossary entry includes:
 ---
 
 ## Common Use Cases
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 | Scenario | Start here |
 | -------------- | ------------ |

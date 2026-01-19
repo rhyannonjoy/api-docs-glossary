@@ -1,5 +1,4 @@
 # API Types & Architectures
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Different architectural patterns and protocols for building APIs.
 Understanding these API types helps documentarians choose appropriate
@@ -51,7 +50,6 @@ payment status every few minutes
 ---
 
 ## GraphQL API
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **Definition**: uses GraphQL, _Graph Query Language_ - to let clients
 request exactly the data they need through a single endpoint with
@@ -315,7 +313,6 @@ requirements, and transaction guarantees
 ---
 
 ## webhook API
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **Definition**: pattern where a service sends HTTP `POST` requests to
 client-specified URLs when specific events occur, enabling event-driven
@@ -339,7 +336,6 @@ automatically run tests
 ---
 
 ## WebSocket API
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 **Definition**: also known as WebSockets; maintains persistent, bidirectional
 connections between client and server, enabling real-time data exchange without
