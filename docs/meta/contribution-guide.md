@@ -170,7 +170,7 @@ then attempt the build again.
 
 Install the extensions from
 [the Visual Studio Code marketplace](https://marketplace.visualstudio.com/VSCode).
-Reload VS Code (`Ctrl+R` on Windows/Linux, `Cmd+R` on Mac) after installation.
+Reload VS Code - `Ctrl+R` on Windows/Linux and `Cmd+R` on Mac -  after installation.
 
 ### Vale reports errors but the content appears correct
 

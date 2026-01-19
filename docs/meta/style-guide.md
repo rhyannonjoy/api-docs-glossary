@@ -153,7 +153,7 @@ the following when determining whether category reasoning serves
 | ------------ | -------------- | ------------- | --------- |
 | Term could reasonably fit multiple categories | ✅ Yes | docs-as-tests involves both tools and workflow methodology | Clarifies the primary classification and prevents confusion |
 | Term represents emerging practice without clear precedent | ✅ Yes | docs-as-tests is relatively new | Explaining the decision helps readers and future contributors understand the pattern |
-| Category choice might be questioned or challenged | ✅ Yes | API testing could be a technique or part of a broader workflow | Anticipating confusion and addressing it proactively helps readers understand the term's scope |
+| Category choice questioned or challenged | ✅ Yes | API testing could be a technique or part of a broader workflow | Anticipating confusion and addressing it proactively helps readers understand the term's scope |
 | Decision establishes a pattern for similar future terms | ✅ Yes | Explaining why docs-as-tests goes in `Workflows & Methodologies` | Creates a reference point for similar methodology terms |
 | Understanding the category helps readers grasp the term's nature | ✅ Yes | Category placement itself is educational context | Enriches understanding of what the term fundamentally is |
 | Term has obvious category fit | ❌ No | Git clearly belongs in `Tools & Techniques` | Adding reasoning would be redundant and clutter the entry |
@@ -325,7 +325,6 @@ and create unnecessarily long anchor links:
 - ✅ `## URI` with definition explaining "Uniform Resource Identifier"
 
 ### Anchor Link Consistency
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
 
 Headings become anchor links automatically. Keep them concise to:
 
@@ -465,20 +464,14 @@ brands and/or acronyms; category headings use title case because they
 function as navigation labels and section titles rather than as terms
 themselves
 
-_**Note**: this approach intentionally breaks `Vale's Google.Headings`
-rule, which prefers sentence-case headings; for this glossary, matching
-term capitalization and using title case for categories improves clarity
-and usability_
+_**Note**: this glossary disables `Google.Headings` in
+[`.vale.ini`](https://github.com/rhyannonjoy/api-docs-glossary/blob/main/.vale.ini),
+which prefers sentence-case headings. Matching term capitalization and using
+title case for categories improves clarity and usability for this project.
+Disable any Vale or Google rules that conflict with the project's goals -
+style guides should serve the documentation, not constrain it._
 
-When breaking the `Vale's Google.Headings` rule, add the following
-comment below said heading:
-
-```markdown
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
-```
-
-### Definition and Purpose Fields
-<!-- ignore this Vale capitalization error, see Style Guide #Headings-->
+### Field Content
 
 Use sentence fragments and/or phrases rather than complete sentences.
 Start with lowercase unless the word is a proper noun:
@@ -486,11 +479,9 @@ Start with lowercase unless the word is a proper noun:
 ```markdown
 ## branch
 
-**Definition**: a parallel version of a repository that
-enables work on changes without affecting the main codebase
+**Definition**: a parallel version of a repository that enables work on changes without affecting the main codebase
 
-**Purpose**: enables multiple developers to work on different
-features simultaneously in API documentation workflows
+**Purpose**: enables multiple developers to work on different features simultaneously in API documentation workflows
 ```
 
 **Rare exception:** if a definition must be a complete sentence
@@ -500,8 +491,7 @@ even if it's the term itself:
 ```markdown
 ## rebase
 
-**Definition**: Rebase updates the base commit from
-which a branch was created.
+**Definition**: Rebase updates the base commit from which a branch was created.
 ```
 
 ---
@@ -818,17 +808,20 @@ Use active voice where the subject performs the action:
 
 ### Avoid first-person pronouns
 
-Write from a neutral, instructional perspective:
+Write from a neutral, instructional perspective without first-person pronouns:
 
 - ❌ "We use branches to isolate work"
-- ❌ "You should commit changes frequently"
+- ❌ "I recommend committing changes frequently"
 - ✅ "Branches isolate work without affecting the main codebase"
 - ✅ "Frequent commits create detailed project history"
 
-### Purpose and Example Fields Exception
+Avoid second-person pronouns - "you":
 
-Use second person - "users," "developers," "writers" -
-when describing who performs actions:
+- ❌ "You should commit changes frequently"
+- ✅ "Frequent commits create detailed project history"
+
+**When describing who performs actions** in the fields content,
+use third-person references like "users," "developers," or "writers":
 
 - ✅ `**Purpose**: enables developers to work on different features simultaneously`
 - ✅ `**Example**: developers create a branch named docs/add-webhook-guide`
