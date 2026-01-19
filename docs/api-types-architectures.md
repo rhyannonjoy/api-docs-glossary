@@ -42,7 +42,8 @@ server load
 completes, triggering immediate order fulfillment rather than checking
 payment status every few minutes
 
-**Related Terms**: [API](core-concepts.md#api), [real-time](#real-time),
+**Related Terms**: [API](core-concepts.md#api),
+[AsyncAPI](core-concepts.md#asyncapi), [real-time](#real-time),
 [webhook API](#webhook-api), [WebSocket API](#websocket-api)
 
 **Source**: [Amazon Web Service, Inc., (AWS): "What is an Event-Driven Architecture?"](https://aws.amazon.com/event-driven-architecture/)
@@ -349,8 +350,8 @@ collaborative tools
 to receive price updates instantly as they occur, rather than polling the
 server every few seconds
 
-**Related Terms**: [API](core-concepts.md#api), [event-driven](#event-driven),
-[HTTP](core-concepts.md#http), [real-time](#real-time)
+**Related Terms**: [API](core-concepts.md#api), [AsyncAPI](core-concepts.md#asyncapi),
+[event-driven](#event-driven), [HTTP](core-concepts.md#http), [real-time](#real-time)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 

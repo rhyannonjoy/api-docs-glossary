@@ -288,9 +288,9 @@ status code, such as `200` for success or `400` for a bad request,
 and any relevant data
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[error-handling](#error-handling), [HTTPS](core-concepts.md#https),
-[HTTP status codes](#http-status-codes), [HTTP versions](#http-versions),
-[REST API](api-types-architectures.md#rest-api)
+[AsyncAPI](#asyncapi), [error-handling](#error-handling),
+[HTTPS](core-concepts.md#https), [HTTP status codes](#http-status-codes),
+[HTTP versions](#http-versions), [REST API](api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -1083,6 +1083,43 @@ suitability
 
 ---
 
+### AsyncAPI
+
+**Definition**: specification for defining asynchronous, event-driven
+APIs in machine-readable format using JSON or YAML
+
+**Purpose**: enables standardized documentation and tooling for APIs
+that work over protocols like AMQP, HTTP, Kafka, Mercure, MQTT, STOMP,
+and WebSockets; provides similar benefits to OpenAPI but for
+message-driven architectures
+
+**Why this belongs in `Core Concepts`**: AsyncAPI is a documentation
+specification format, not an architectural pattern; consistency with
+OpenAPI Specification placement is essential since both are fundamental
+specification standards for documenting APIs; _OpenAPI for synchronous
+REST APIs, AsyncAPI for asynchronous event-driven APIs_;
+`API Types & Architectures` covers architectural patterns and protocols -
+REST, GraphQL as a query language -  while `Core Concepts` covers the
+documentation specification formats that API documentation writers use
+to describe those architectures
+
+**Example**: developers create AsyncAPI specifications to document
+event-driven systems, then generate documentation, code, and tests from
+the specification
+
+**Related Terms**: AMQP, [event-driven](api-types-architectures.md#event-driven),
+MQTT, Kafka, GraphQL, [HTTP](#http), Mercure,
+[OpenAPI Specification](#openapi-specification),
+[REST API](api-types-architectures.md#rest-api), STOMP,
+[WebSockets](api-types-architectures.md#websocket-api)
+
+**Sources**:
+
+- [LF Projects, LLC, AsyncAPI Initiative: "AsyncAPI Specification"](https://www.asyncapi.com/docs/reference/specification/v3.0.0)
+- [GitHub Repository: asyncapi/spec](https://github.com/asyncapi/spec)
+
+---
+
 ### concept
 
 **Definition**: documentation topic type; explains what something is,
@@ -1370,7 +1407,7 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[reference](#reference), [REST API](api-types-architectures.md#rest-api),
+[AsyncAPI](#asyncapi), [reference](#reference), [REST API](api-types-architectures.md#rest-api),
 [schema](#schema)
 
 **Sources**:
