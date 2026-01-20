@@ -1435,7 +1435,8 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[AsyncAPI](#asyncapi), [reference](#reference), [REST API](api-types-architectures.md#rest-api),
+[AsyncAPI](#asyncapi), [Dredd](tools-techniques.md#dredd),
+[reference](#reference), [REST API](api-types-architectures.md#rest-api),
 [schema](#schema)
 
 **Sources**:

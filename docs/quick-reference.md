@@ -408,6 +408,16 @@ of documentation
 
 ---
 
+### Dredd
+
+- language-agnostic command-line tool for validating API descriptions
+against the backend implementation of the API
+- particularly valuable for contract testing
+
+**Glossary Term Entry Location**: [Tools & Techniques - Dredd](tools-techniques.md#dredd)
+
+---
+
 ## E
 
 ---

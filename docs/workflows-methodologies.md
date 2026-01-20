@@ -135,8 +135,9 @@ catching breaking changes before deployment
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
 [Bruno](tools-techniques.md#bruno), [docs-as-tests](#docs-as-tests),
-Microcks, Pact, Spectral, [snippet testing](#snippet-testing),
-[Vale](tools-techniques.md#vale), [workflow testing](#workflow-testing)
+[Dredd](tools-techniques.md#dredd), Microcks, Pact, Spectral,
+[snippet testing](#snippet-testing), [Vale](tools-techniques.md#vale),
+[workflow testing](#workflow-testing)
 
 **Sources**:
 
