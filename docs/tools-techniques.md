@@ -374,7 +374,34 @@ response; when developers change the button text from "Create Account" to
 
 - [Doc Detective: Official Documentation](https://doc-detective.com/)
 - [Manny Silva, Docs as Tests: "Validate a UI with Doc Detective"](https://www.docsastests.com/validate-ui-with-doc-detective)
-- [James Tasse: "Docs as Tests: Part I - On a High Level"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
+- [James Tasse: "Docs as Tests: Part I - On a High (Level)"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
+
+---
+
+## Dredd
+
+**Definition**: command-line tool that tests API implementations against
+API Blueprint and OpenAPI specifications
+
+**Purpose**: validates that actual API behavior matches documented specifications;
+catches discrepancies between API documentation and implementation;
+runs tests against a live API server, particularly valuable for
+contract testing; supports hooks in many different languages
+for test setup and cleanup
+
+**Example**: developers run Dredd in CI/CD pipelines to verify API responses
+match OpenAPI examples before deploying documentation updates
+
+**Related Terms**: API Blueprint,
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[CI/CD pipeline](#cicd-pipeline),
+[contract testing](workflows-methodologies.md#contract-testing),
+[OpenAPI Specification](core-concepts.md#openapi-specification)
+
+**Sources**:
+
+- [Dredd - HTTP API Testing Framework](https://dredd.org/en/latest/index.html)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 
