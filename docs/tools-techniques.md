@@ -253,7 +253,7 @@ Feature: User API retrieval
     And the response includes "name" and "email" fields
 ```
 
-**Related Terms**: Karate,
+**Related Terms**: [Karate](#karate),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [contract testing](workflows-methodologies.md#contract-testing),
 [snippet testing](workflows-methodologies.md#snippet-testing),
@@ -613,6 +613,33 @@ creates REST endpoints: `/users` returns all users,
 
 - [JSON Server Homepage](https://json-server.dev/)
 - UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
+
+---
+
+## Karate
+
+**Definition**: open source testing framework that combines API testing,
+mocks, performance testing, and UI automation using BDD - _behavior-driven
+development_ - syntax; more structured and opinionated than Cucumber,
+but with lower barrier to entry
+
+**Purpose**: enables comprehensive API testing with minimal code and/or
+without requiring comprehensive programming knowledge; supports
+both functional testing and performance testing in unified framework
+and reads like documentation
+
+**Example**: testers write API test scenarios in Gherkin-like syntax that
+validate responses, chain requests, and verify data transformations
+
+**Related Terms**:
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[contract testing](workflows-methodologies.md#contract-testing),
+[Cucumber](#cucumber), [UI](#ui)
+
+**Sources**:
+
+- [Karate Labs, Inc.: "API Automation Testing with Karate"](https://www.karatelabs.io/api-testing)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 
