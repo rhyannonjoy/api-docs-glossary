@@ -135,6 +135,7 @@ they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api), [Bruno](tools-techniques.md#bruno),
+[environment variables](#environment-variables),
 [error handling](#error-handling), [HTTPS](core-concepts.md#https),
 [rate limiting](#rate-limiting), [validation](#validation)
 
@@ -190,6 +191,30 @@ with ID 123 from the system
 [`PATCH`](#patch), [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "`DELETE` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
+
+---
+
+### environment variables
+
+**Definition**: dynamic values stored outside app code that
+configure program behavior across different deployment environments
+
+**Purpose**: enables secure configuration management without hardcoding
+sensitive values; allows same codebase to work across development,
+staging, and production environments; often store configuration
+details, allowing tests to run in different environments
+without code changes
+
+**Example**: API base URLs, authentication tokens, and database
+credentials stored as environment variables rather than committed
+to version control
+
+**Related Terms**: [API](#api), [API security](#api-security),
+[API testing](workflows-methodologies.md#api-testing),
+[authentication](core-concepts.md#authentication),
+[Bruno](tools-techniques.md#bruno)
+
+**Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 

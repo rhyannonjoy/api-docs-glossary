@@ -50,7 +50,7 @@ markup language Bru to save API request information
 
 **Purpose**: enables API testing and documentation through offline-first
 approach that integrates with Git workflows; local-first architecture
-supports environmenal variables, request chaining, response assertions,
+supports environment variables, request chaining, response assertions,
 and JavaScript-based test scripts, making it suitable for both
 contract and workflow testing
 
@@ -70,7 +70,9 @@ test collections in Git repositories alongside their code
 **Related Terms**: [API security](core-concepts.md#api-security),
 [API testing](workflows-methodologies.md#api-testing),
 [contract testing](workflows-methodologies.md#contract-testing),
-Newman, [Postman](#postman), workflow testing
+[environment variables](core-concepts.md#environment-variables),
+Newman, [Postman](#postman),
+[workflow testing](workflows-methodologies.md#workflow-testing)
 
 **Sources**:
 
