@@ -414,6 +414,17 @@ groups of people or personas using products
 
 ---
 
+### environment variables
+
+- values stored outside app code accessible during
+testing or execution
+- allows tests to run in different environments without
+code changes
+
+**Glossary Term Entry Location**: [Core Concepts - environment variables](core-concepts.md#environment-variables)
+
+---
+
 ### error handling
 
 - process of anticipating, detecting, and responding to errors that
