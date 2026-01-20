@@ -69,7 +69,8 @@ test collections in Git repositories alongside their code
 
 **Related Terms**: [API security](core-concepts.md#api-security),
 [API testing](workflows-methodologies.md#api-testing),
-contract testing, Newman, [Postman](#postman), workflow testing
+[contract testing](workflows-methodologies.md#contract-testing),
+Newman, [Postman](#postman), workflow testing
 
 **Sources**:
 

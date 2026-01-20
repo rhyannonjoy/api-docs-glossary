@@ -253,6 +253,16 @@ introductory level
 
 ---
 
+### contract testing
+
+- verifies communication compatibility between systems
+- ensures that the API does what the docs says it does, keeps its "definition promises"
+or satisfies its "contract" with the client/consumers
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - contract testing](workflows-methodologies.md#contract-testing)
+
+---
+
 ### Critical Chain Project Management
 
 - also known as CCPM
