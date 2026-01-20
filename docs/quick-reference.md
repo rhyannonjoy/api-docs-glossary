@@ -715,6 +715,20 @@ to represent structured data
 
 ---
 
+## K
+
+---
+
+### Karate
+
+- open source testing framework
+- combines API testing, mocks, performance testing, and UI automation using
+behavior-driven development syntax
+
+**Glossary Term Entry Location**: [Tools & Techniques - Karate](tools-techniques.md#karate)
+
+---
+
 ## L
 
 ---
