@@ -95,11 +95,13 @@ verifying that responses match documented schemas and status codes; when develop
 change an endpoint's required parameters, the test fails, alerting the documentation
 team to update their integration guides
 
-**Related Terms**: [API](core-concepts.md#api), [Bruno](tools-techniques.md#bruno),
-[contract testing](#contract-testing), [Cypress](tools-techniques.md#cypress),
-[Doc Detective](tools-techniques.md#doc-detective), [docs-as-tests](#docs-as-tests),
-[HTTP status codes](core-concepts.md#http-status-codes),
-[Playwright](tools-techniques.md#playwright),
+**Related Terms**: [API](core-concepts.md#api),
+[Bruno](./tools-techniques-temp/testing-validation.md#bruno),
+[contract testing](#contract-testing),
+[Cypress](./tools-techniques-temp/testing-validation.md#cypress),
+[Doc Detective](./tools-techniques-temp/testing-validation.md#doc-detective),
+[docs-as-tests](#docs-as-tests), [HTTP status codes](core-concepts.md#http-status-codes),
+[Playwright](./tools-techniques-temp/testing-validation.md#playwright),
 [REST API](api-types-architectures.md#rest-api), [workflow testing](#workflow-testing)
 
 **Sources**:
@@ -134,8 +136,10 @@ provider team verifies their API implementation satisfies these expectations,
 catching breaking changes before deployment
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
-[Bruno](tools-techniques.md#bruno), [docs-as-tests](#docs-as-tests),
-[Dredd](tools-techniques.md#dredd), Microcks, Pact, Spectral,
+[Bruno](./tools-techniques-temp/testing-validation.md#bruno),
+[docs-as-tests](#docs-as-tests),
+[Dredd](./tools-techniques-temp/testing-validation.md#dredd),
+Microcks, Pact, Spectral,
 [snippet testing](#snippet-testing), [Vale](tools-techniques.md#vale),
 [workflow testing](#workflow-testing)
 
@@ -285,10 +289,10 @@ documentation
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
 [CI/CD pipeline](tools-techniques.md#cicd-pipeline), [CLI](tools-techniques.md#cli),
-[contract testing](#contract-testing), [Cypress](tools-techniques.md#cypress),
-[Doc Detective](tools-techniques.md#doc-detective),
+[contract testing](#contract-testing),
+[Doc Detective](../docs/tools-techniques-temp/testing-validation.md#doc-detective),
 [guerilla usability testing](#guerrilla-usability-testing),
-[Selenium](tools-techniques.md#selenium), [snippet testing](#snippet-testing),
+[snippet testing](#snippet-testing),
 [UI](tools-techniques.md#ui), [usability testing](#usability-testing),
 [workflow testing](#workflow-testing)
 
