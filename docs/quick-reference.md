@@ -1343,6 +1343,16 @@ when specific events occur
 
 ---
 
+### workflow testing
+
+- validates multi-step API interactions and user journeys across
+multiple endpoints and operations
+- verifies APIs support real-world use cases and user workflows
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - workflow testing](workflows-methodologies.md#workflow-testing)
+
+---
+
 ### workspace
 
 - local computer directory that stores cloned repositories

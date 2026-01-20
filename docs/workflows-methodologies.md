@@ -90,7 +90,7 @@ team to update their integration guides
 [Doc Detective](tools-techniques.md#doc-detective), [docs-as-tests](#docs-as-tests),
 [HTTP status codes](core-concepts.md#http-status-codes),
 [Playwright](tools-techniques.md#playwright),
-[REST API](api-types-architectures.md#rest-api)
+[REST API](api-types-architectures.md#rest-api), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -123,7 +123,7 @@ catching breaking changes before deployment
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
 [Bruno](tools-techniques.md#bruno), Microcks, Pact, Spectral,
-[Vale](tools-techniques.md#vale)
+[Vale](tools-techniques.md#vale), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -464,5 +464,31 @@ well-defined requirements and minimal expected changes
 - [Geeks for Geeks: "Waterfall Model - Software Engineering"](https://www.geeksforgeeks.org/software-engineering/waterfall-model/)
 - UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
 - [Wrike: "Project Management Methodologies" by Artem Gurnov](https://www.wrike.com/project-management-guide/methodologies/)
+
+---
+
+## workflow testing
+
+**Definition**: validates the sequences of API calls that accomplish
+real tasks - multi-step interactions and user journeys across
+multiple endpoints and operations
+
+**Purpose**: ensures complete business processes work correctly beyond
+individual endpoint testing; verifies APIs support real-world use cases
+and user workflows; specifically validates that a series of API calls
+work together as defined, confirming that users can successfully complete
+tasks by following documentation procedures
+
+**Example**: e-commerce workflow test validates entire checkout process by
+testing user authentication, cart management, payment processing, and order
+confirmation endpoints in sequence
+
+**Related Terms**: [API testing](#api-testing),
+[contract testing](#contract-testing), Karate
+
+**Sources**:
+
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- [Testsigma Technologies Inc., Automation Testing: "Workflow Testing | What it is & How to Perform?" by Ranjana Kodlekere](https://testsigma.com/blog/workflow-testing/)
 
 ---
