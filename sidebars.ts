@@ -17,11 +17,11 @@ const sidebars: SidebarsConfig = {
     'tools-techniques',
     {
      type: 'category',
-     label: 'Tools & Techniques',
+     label: 'Tools & Techniques - Temp',
      items: [
-       'tools-techniques/development-essentials',
-       'tools-techniques/documentation-specific',
-       'tools-techniques/testing-validation',
+       'tools-techniques-temp/development-essentials',
+       'tools-techniques-temp/documentation-specific',
+       'tools-techniques-temp/testing-validation',
     ],
    },
     'workflows-methodologies',
