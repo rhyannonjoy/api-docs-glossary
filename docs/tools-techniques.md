@@ -212,6 +212,61 @@ the repository size to ensure uniqueness
 
 ---
 
+## Cucumber
+
+**Definition**:
+[BDD - behavior-driven development](https://www.geeksforgeeks.org/software-engineering/behavioral-driven-development-bdd-in-software-engineering/) -
+testing framework that enables writing tests in plain language using Gherkin
+syntax, a set of grammar rules
+
+**Purpose**: allows non-technical stakeholders to read and write test
+scenarios; bridges communication between business requirements and technical
+implementation in API testing
+
+### Given-When-Then
+
+Gherkin's structured syntax for describing test scenarios in natural language
+uses
+[the _Given-When-Then_ format](https://martinfowler.com/bliki/GivenWhenThen.html);
+equivalent to
+[the AAA pattern, _Arrange-Act-Assert_](https://semaphore.io/blog/aaa-pattern-test-automation),
+in unit testing, but uses business-friendly language
+
+| BDD - Gherkin | Unit Testing | Purpose | API Testing Example |
+| --------------- | -------------- | --------- | --------------------- |
+| **Given** | **Arrange** | Establishes preconditions and initial context | Given the API endpoint `/users/{id}` exists &rarr; server authenticates user with a valid token |
+| **When** | **Act** | Describes the test action/event | When client/user sends `GET` request to `/users/123` |
+| **Then** | **Assert** | Specifies expected outcomes and assertions | Then the response status code should be `200` &rarr; response body contains `"id": 123` &rarr; response time is under 500 ms |
+
+**Example**: teams write API test scenarios that both product managers and
+developers can understand and validate
+
+```gherkin
+Feature: User API retrieval
+
+  Scenario: Successfully retrieve user by ID
+    Given the API endpoint "/users/{id}" exists
+    And the user is authenticated with a valid token
+    When a GET request is sent to "/users/123"
+    Then the response status code should be 200
+    And the response body contains "id": 123
+    And the response includes "name" and "email" fields
+```
+
+**Related Terms**: Karate,
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[contract testing](workflows-methodologies.md#contract-testing),
+[snippet testing](workflows-methodologies.md#snippet-testing),
+[usability testing](workflows-methodologies.md#usability-testing),
+[workflow testing](workflows-methodologies.md#workflow-testing)
+
+**Sources**:
+
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- [The Cucumber Open Source Project, Introduction: "What is Cucumber?"](https://cucumber.io/docs)
+
+---
+
 ## cURL
 
 **Definition**: an acronym for "client URL" - a command-line tool
