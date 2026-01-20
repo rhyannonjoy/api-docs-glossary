@@ -43,10 +43,21 @@ require human intelligence
 
 ### API
 
-- application programming interface
-- enables resource sharing
+- acronym for application programming interface
+- enables resource sharing between systems and/or products
 
 **Glossary Term Entry Location**: [Core Concepts - API](core-concepts.md#api)
+
+---
+
+### API documentation testing
+
+- practice of validating API function and performance requirements
+- interacts with the API similarly to QA testing, but with a different purpose
+- QA ensures the product works correctly, while documentation
+testing ensures user content accuracy
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - API documentation testing](workflows-methodologies.md#api-documentation-testing)
 
 ---
 
@@ -91,17 +102,6 @@ operation or object
 - measures taken to protect APIs from unauthorized access, misuse, attacks
 
 **Glossary Term Entry Location**: [Core Concepts - API security](core-concepts.md#api-security)
-
----
-
-### API testing
-
-- practice of validating API function and performance requirements
-- interacts with the API similarly to QA testing, but with a different purpose
-- QA ensures the product works correctly, while documentation
-testing ensures user content accuracy
-
-**Glossary Term Entry Location**: [Workflows & Methodologies - API testing](workflows-methodologies.md#api-testing)
 
 ---
 
