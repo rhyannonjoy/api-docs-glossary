@@ -15,6 +15,15 @@ const sidebars: SidebarsConfig = {
     'api-types-architectures',
     'ai-and-apis',
     'tools-techniques',
+    {
+     type: 'category',
+     label: 'Tools & Techniques',
+     items: [
+       'tools-techniques/development-essentials',
+       'tools-techniques/documentation-specific',
+       'tools-techniques/testing-validation',
+    ],
+   },
     'workflows-methodologies',
     'frameworks-strategy',
     'writing-style',
