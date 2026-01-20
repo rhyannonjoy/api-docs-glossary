@@ -134,9 +134,9 @@ that's included in a request header or request URL
 they claim to be by using techniques such as checking ID to
 verify identity
 
-**Related Terms**: [API](#api), [error handling](#error-handling),
-[HTTPS](core-concepts.md#https), [rate limiting](#rate-limiting),
-[validation](#validation)
+**Related Terms**: [API](#api), [Bruno](tools-techniques.md#bruno),
+[error handling](#error-handling), [HTTPS](core-concepts.md#https),
+[rate limiting](#rate-limiting), [validation](#validation)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
 
