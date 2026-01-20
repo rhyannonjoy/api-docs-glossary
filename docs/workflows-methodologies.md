@@ -86,15 +86,49 @@ change an endpoint's required parameters, the test fails, alerting the documenta
 team to update their integration guides
 
 **Related Terms**: [API](core-concepts.md#api), [Bruno](tools-techniques.md#bruno),
-[Cypress](tools-techniques.md#cypress), [Doc Detective](tools-techniques.md#doc-detective),
-[docs-as-tests](#docs-as-tests), [HTTP status codes](core-concepts.md#http-status-codes),
-[Playwright](tools-techniques.md#playwright), [REST API](api-types-architectures.md#rest-api)
+[contract testing](#contract-testing), [Cypress](tools-techniques.md#cypress),
+[Doc Detective](tools-techniques.md#doc-detective), [docs-as-tests](#docs-as-tests),
+[HTTP status codes](core-concepts.md#http-status-codes),
+[Playwright](tools-techniques.md#playwright),
+[REST API](api-types-architectures.md#rest-api)
 
 **Sources**:
 
 - [James Tasse: "Docs as Tests: Part I - On a High (Level)"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
 - [Manny Silva, Docs as Tests: "Validate an API with Doc Detective" by Niko Berry](https://www.docsastests.com/validate-api-with-doc-detective)
 - Write the Docs Book Club Slack discussions while reading Manny Silva's _Docs as Tests_, December 2025 - January 2026
+
+---
+
+## contract testing
+
+**Definition**: verifies APIs and services conform to agreed-upon
+contracts between consumers/client and providers/server by
+validating message formats, protocols, and behaviors
+
+**Purpose**: verifies that the API does what the docs say it does;
+catches integration issues early without requiring full end-to-end
+testing environments; ensures API changes don't break existing consumers;
+specifically ensures that the API definition, implementation, and
+consumer's code all remain accurate and trustworthy
+
+**How contract testing differs from linters**: contract testing validates
+_runtime behavior_ against executable specifications by testing actual API responses,
+while linters perform static analysis of API description documents to check
+formatting, style, and specification compliance without making requests
+
+**Example**: consumer team writes tests defining expected API responses,
+provider team verifies their API implementation satisfies these expectations,
+catching breaking changes before deployment
+
+**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+[Bruno](tools-techniques.md#bruno), Microcks, Pact, Spectral,
+[Vale](tools-techniques.md#vale)
+
+**Sources**:
+
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- [SmartBear Software, Swagger: "What is contract testing and why should I try it?" by Matt Fellows](https://pactflow.io/blog/what-is-contract-testing/)
 
 ---
 
