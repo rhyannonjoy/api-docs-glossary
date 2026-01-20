@@ -67,9 +67,11 @@ testing rather than a specific tool; `Core Concepts` covers what APIs are and
 API testing is about _what teams do with APIs, not a fundamental API
 characteristic_
 
-**How this differs from QA testing**: both testing approaches are necessary and
-complementary - QA ensures the product works correctly, while documentation
-testing ensures that user content is accurate:
+### how this differs from QA testing
+
+Both testing approaches are necessary and complementary - QA ensures the product
+works correctly, while documentation testing ensures that user content is
+accurate:
 
 | Aspect | QA Testing | Documentation Testing |
 | -------- | ------------ | ---------------------- |
@@ -78,6 +80,14 @@ testing ensures that user content is accurate:
 | **Purpose** | Validates product works to spec | Validates user-facing instructions remain accurate |
 | **Can catch documentation drift?** | **No** - validates against different source of truth | **Yes** - specifically designed to catch this |
 | **Example scenario** | Developers add a required parameter, tests pass &rarr; API works correctly | Developers add a required parameter, tests fail &rarr; documented examples no longer work |
+
+### types of API documentation testing
+
+| Testing Type | What It Validates | Scope | Example |
+| ------------ | ----------------- | ----- | ------- |
+| **Contract testing** | API conforms to agreed contracts between consumer and provider | Interface contracts, message formats, protocols | Consumer defines expected response format, provider verifies implementation matches |
+| **Snippet testing** | Code examples execute successfully | Individual code samples in documentation | Python snippet makes API call and returns expected data structure |
+| **Workflow testing** | Multi-step API sequences accomplish tasks | Complete user journeys across endpoints | Authentication → create resource → retrieve resource → delete resource all work in sequence |
 
 **Example**: a technical writer implements automated tests that send HTTP requests
 to each documented API endpoint with the exact parameters shown in code examples,
@@ -122,7 +132,8 @@ provider team verifies their API implementation satisfies these expectations,
 catching breaking changes before deployment
 
 **Related Terms**: [API testing](workflows-methodologies.md#api-testing),
-[Bruno](tools-techniques.md#bruno), Microcks, Pact, Spectral,
+[Bruno](tools-techniques.md#bruno), [docs-as-tests](#docs-as-tests),
+Microcks, Pact, Spectral, [snippet testing](#snippet-testing),
 [Vale](tools-techniques.md#vale), [workflow testing](#workflow-testing)
 
 **Sources**:
@@ -202,7 +213,7 @@ GitHub or GitLab issues to track documentation tasks, reviews changes through
 pull/merge requests, previews content in staging environments, and
 automatically deploys to production when changes merge to the `main` branch
 
-**Benefits**:
+### docs-as-code benefits
 
 - **Transparency**: all documentation discussions, decisions, and changes
 visible in one place
@@ -215,7 +226,7 @@ time searching through email or chat for past decisions
 - **Integration**: documentation stays synchronized with code changes
 through the same review and deployment process
 
-**Considerations**:
+### docs-as-code considerations
 
 - requires all contributors to learn the version control system and
 documentation toolchain
@@ -271,12 +282,11 @@ documentation
 
 **Related Terms**: [Agile](#agile), [API testing](#api-testing),
 [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
-[CLI](tools-techniques.md#cli), [Cypress](tools-techniques.md#cypress),
-[Doc Detective](tools-techniques.md#doc-detective),
-[docs-as-code](#docs-as-code),
-[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
-[Selenium](tools-techniques.md#selenium),
-[UI](tools-techniques.md#ui)
+[CLI](tools-techniques.md#cli), [contract testing](#contract-testing),
+[Cypress](tools-techniques.md#cypress), [Doc Detective](tools-techniques.md#doc-detective),
+[docs-as-code](#docs-as-code), [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[Selenium](tools-techniques.md#selenium), [snippet testing](#snippet-testing),
+[UI](tools-techniques.md#ui), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -295,7 +305,7 @@ online articles, or website content
 **Purpose**: provides a structured approach to creating documentation
 with well-defined phases that ensure content meets user needs
 
-**Phases**:
+### the eight phases
 
 1. Analysis and planning
 2. Designing
@@ -326,14 +336,14 @@ than recruiting in advance
 **Purpose**: provides a quick, cost-effective way to gather feedback
 from target users without formal recruitment processes
 
-**Characteristics**:
+### characteristics
 
 - Low maintenance with predefined tasks
 - Best for testing that doesn't require advanced device knowledge
 - Returns less accurate results than formal testing
 - Participants approached ad hoc in public settings
 
-**Deliverables**:
+### deliverables
 
 - Test plan with timeframe and research objectives
 - Video with screen and participant recordings
@@ -360,7 +370,7 @@ ranging from sequential to iterative frameworks
 **Purpose**: provides structured ways to plan, execute, and complete
 projects based on team needs and project characteristics
 
-**Common Methodologies**:
+### common methodologies
 
 | Methodology | Approach | Focus | Best For |
 | ------------- | ---------- | ------- | ---------- |
@@ -408,6 +418,27 @@ obstacles to efficient work
 
 ---
 
+## snippet testing
+
+**Definition**: automated testing practice that validates code examples
+or "code snippets" in documentation execute successfully and produce expected
+results
+
+**Purpose**: prevents documentation drift by ensuring code examples
+remain accurate as APIs evolve; catches breaking changes that would make
+documented examples fail
+
+**Example**: documentation builds execute Python code examples against
+test API instances, failing the build if examples return errors or
+unexpected responses
+
+**Related Terms**: [API testing](#api-testing), [contract testing](#contract-testing),
+[docs-as-tests](#docs-as-tests), [workflow testing](#workflow-testing)
+
+**Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
 ## usability testing
 
 **Definition**: practice of testing how easy a design is to use with
@@ -417,13 +448,13 @@ complete tasks
 **Purpose**: identifies problems before customers encounter them and
 provides user perspective before product release
 
-**Benefits**:
+### usability testing benefits
 
 - Finds problems before customers do
 - Provides customer perspective pre-release
 - Informs design improvements
 
-**Limitations**:
+### usability testing limitations
 
 - Not designed to generalize beyond test scope
 - Can't prove that a feature works universally
@@ -484,7 +515,8 @@ testing user authentication, cart management, payment processing, and order
 confirmation endpoints in sequence
 
 **Related Terms**: [API testing](#api-testing),
-[contract testing](#contract-testing), Karate
+[docs-as-tests](#docs-as-tests), [contract testing](#contract-testing), Karate,
+[snippet testing](#snippet-testing)
 
 **Sources**:
 

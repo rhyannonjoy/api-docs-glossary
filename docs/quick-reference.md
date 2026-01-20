@@ -1157,6 +1157,16 @@ by bureaucracy
 
 ---
 
+### snippet testing
+
+- automated testing practice
+- validates code examples / "code snippets" in documentation execute
+successfully and produce expected results
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - snippet testing](workflows-methodologies.md#snippet-testing)
+
+---
+
 ### SOAP API
 
 - acronym for Simple Object Access Protocol
