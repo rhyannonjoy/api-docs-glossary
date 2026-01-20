@@ -153,7 +153,7 @@ in a repository
 - streamlines versioning and sharing without accounts and/or subscriptions
 - uses plaintext markup language Bru
 
-**Glossary Term Entry Location**: [Tools & Techniques - Bruno](tools-techniques.md#bruno)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Bruno](.//tools-techniques-temp/testing-validation.md)
 
 ---
 
@@ -297,10 +297,10 @@ directly to HTTP methods
 
 ### Cucumber
 
-- BDD - behavior-driven development - testing framework
+- BDD - _behavior-driven development_ - testing framework
 - enables writing tests in plain language using Gherkin syntax
 
-**Glossary Term Entry Location**: [Tools & Techniques - Cucumber](tools-techniques.md#cucumber)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Cucumber](../docs/tools-techniques-temp/testing-validation.md)
 
 ---
 
@@ -316,11 +316,11 @@ directly to HTTP methods
 
 ### Cypress
 
-- open-source end-to-end testing framework
+- open source end-to-end testing framework
 - enables automated testing of web applications through browser automation
 - JavaScript/TypeScript focused, has a visual test runner, developer-friendly
 
-**Glossary Term Entry Location**: [Tools & Techniques - Cypress](tools-techniques.md#cypress)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Cypress](../docs/tools-techniques-temp/testing-validation.md)
 
 ---
 
@@ -349,11 +349,11 @@ four content types: explanation, how-to-guides, reference, and tutorials
 
 ### Doc Detective
 
-- open-source testing tool
+- open source testing tool
 - designed specifically for implementing docs-as-code workflows by
 validating documentation against APIs, CLIs, UIs
 
-**Glossary Term Entry Location**: [Tools & Techniques - Doc Detective](tools-techniques.md#doc-detective)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Doc Detective](./tools-techniques-temp/testing-validation.md)
 
 ---
 
@@ -414,7 +414,7 @@ of documentation
 against the backend implementation of the API
 - particularly valuable for contract testing
 
-**Glossary Term Entry Location**: [Tools & Techniques - Dredd](tools-techniques.md#dredd)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Dredd](./tools-techniques-temp/testing-validation.md#dredd)
 
 ---
 
@@ -725,7 +725,7 @@ to represent structured data
 - combines API testing, mocks, performance testing, and UI automation using
 behavior-driven development syntax
 
-**Glossary Term Entry Location**: [Tools & Techniques - Karate](tools-techniques.md#karate)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](../docs/tools-techniques-temp/testing-validation.md#karate)
 
 ---
 
@@ -897,12 +897,12 @@ body
 
 ### Playwright
 
-- open-source browser automation framework created by Microsoft
+- open source browser automation framework created by Microsoft
 - focuses on multi-browser testing across Chromium, Firefox, and WebKit
 - supports docs-as-tests workflows by validating that documented UI
 procedures work as written
 
-**Glossary Term Entry Location**: [Tools & Techniques - Playwright](tools-techniques.md#playwright)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Playwright](../docs/tools-techniques-temp/testing-validation.md)
 
 ---
 
@@ -1173,10 +1173,10 @@ relationships within an API's requests and responses
 
 ### Selenium
 
-- open-source suite of tools for automating web browsers
+- open source suite of tools for automating web browsers
 - validates that documented UI procedures execute correctly
 
-**Glossary Term Entry Location**: [Tools & Techniques - Selenium](tools-techniques.md#selenium)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Selenium](../docs/tools-techniques-temp/testing-validation.md)
 
 ---
 

@@ -136,7 +136,8 @@ that's included in a request header or request URL
 they claim to be by using techniques such as checking ID to
 verify identity
 
-**Related Terms**: [API](#api), [Bruno](tools-techniques.md#bruno),
+**Related Terms**: [API](#api),
+[Bruno](./tools-techniques-temp/testing-validation.md#bruno),
 [environment variables](#environment-variables),
 [error handling](#error-handling), [HTTPS](core-concepts.md#https),
 [rate limiting](#rate-limiting), [validation](#validation)
@@ -211,10 +212,10 @@ without code changes
 credentials stored as environment variables rather than committed
 to version control
 
-**Related Terms**: [API](#api), [API security](#api-security),
+**Related Terms**: [API](#api),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[authentication](core-concepts.md#authentication),
-[Bruno](tools-techniques.md#bruno)
+[API security](#api-security), [authentication](core-concepts.md#authentication),
+[Bruno](./tools-techniques-temp/testing-validation.md#bruno)
 
 **Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
@@ -1435,7 +1436,8 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[AsyncAPI](#asyncapi), [Dredd](tools-techniques.md#dredd),
+[AsyncAPI](#asyncapi),
+[Dredd](./tools-techniques-temp/testing-validation.md#dredd),
 [reference](#reference), [REST API](api-types-architectures.md#rest-api),
 [schema](#schema)
 
