@@ -42,6 +42,42 @@ them into the published version
 
 ---
 
+## Bruno
+
+**Definition**: open source API client and testing tool with offline-first
+approach that stores collections directly in filesystem; uses plain text
+markup language Bru to save API request information
+
+**Purpose**: enables API testing and documentation through offline-first
+approach that integrates with Git workflows; local-first architecture
+supports environmenal variables, request chaining, response assertions,
+and JavaScript-based test scripts, making it suitable for both
+contract and workflow testing
+
+**Offline-first vs Cloud-based API Testing**:
+
+| Aspect | Offline-first - Bruno | Cloud-based - Postman |
+| -------- | ---------------------- | ---------------------- |
+| Storage | Git repositories, plain text files | Proprietary cloud storage |
+| Security | API credentials stay local | Credentials sent to third-party servers |
+| Network | Works without internet | Requires connectivity for sync |
+| Collaboration | Pull requests, code review | Cloud sharing |
+| Cost | Free, no subscription | Free tier limited, paid plans |
+
+**Example**: teams use Bruno to create and run API tests locally, storing
+test collections in Git repositories alongside their code
+
+**Related Terms**: [API security](core-concepts.md#api-security),
+[API testing](workflows-methodologies.md#api-testing),
+contract testing, Newman, [Postman](#postman), workflow testing
+
+**Sources**:
+
+- [Bruno Docs: "What is Bruno?"](https://docs.usebruno.com/introduction/what-is-bruno)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
 ## cherry-pick
 
 **Definition**: version control concept and Git feature; copy selected
@@ -656,9 +692,9 @@ command-line tools; provides a [GUI](#gui) alternative to cURL
 for making HTTP requests, supports automated test suites, collection
 sharing, and API documentation generation
 
-**Related Terms**: [cURL](#curl), [GUI](#gui), [json-server](#json-server),
-[REST API](api-types-architectures.md#rest-api), [Swagger](#swagger),
-[UI](#ui)
+**Related Terms**: [Bruno](#bruno), [cURL](#curl), [GUI](#gui),
+[json-server](#json-server), [REST API](api-types-architectures.md#rest-api),
+[Swagger](#swagger), [UI](#ui)
 
 **Sources**:
 

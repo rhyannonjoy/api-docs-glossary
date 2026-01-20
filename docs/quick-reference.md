@@ -147,6 +147,16 @@ in a repository
 
 ---
 
+### Bruno
+
+- offline-first, open source API client and testing tool
+- streamlines versioning and sharing without accounts and/or subscriptions
+- uses plaintext markup language Bru
+
+**Glossary Term Entry Location**: [Tools & Techniques - Bruno](tools-techniques.md#bruno)
+
+---
+
 ## C
 
 ---
