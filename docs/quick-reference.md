@@ -295,6 +295,15 @@ directly to HTTP methods
 
 ---
 
+### Cucumber
+
+- BDD - behavior-driven development - testing framework
+- enables writing tests in plain language using Gherkin syntax
+
+**Glossary Term Entry Location**: [Tools & Techniques - Cucumber](tools-techniques.md#cucumber)
+
+---
+
 ### cURL
 
 - acronym for "client URL"
