@@ -68,7 +68,7 @@ contract and workflow testing
 test collections in Git repositories alongside their code
 
 **Related Terms**: [API security](core-concepts.md#api-security),
-[API testing](workflows-methodologies.md#api-testing),
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [contract testing](workflows-methodologies.md#contract-testing),
 [environment variables](core-concepts.md#environment-variables),
 Newman, [Postman](#postman),
@@ -264,7 +264,7 @@ the test automatically captures a screenshot of the results page to include
 in documentation; when Google changes their search bar selector, the Cypress
 test fails, alerting writers that their documented instructions need updating
 
-**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+**Related Terms**: [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Playwright](#playwright), [UI](#ui)
 
@@ -311,7 +311,7 @@ enters test data, clicks the "Create Account" button, and validates the expected
 response; when developers change the button text from "Create Account" to
 "Sign Up Now," the test fails, alerting writers to update their documentation
 
-**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+**Related Terms**: [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](#cicd-pipeline), [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Playwrite](#playwright), [Selenium](#selenium), [Vale](#vale)
 
@@ -667,12 +667,12 @@ by validating that documented UI procedures work as written; can capture
 screenshots, test responsive designs, and verify accessibility
 
 **Example**: a documentation team uses Playwright to automate testing of
-their web application tutorial, scripting the exact steps users should follow -
+their web app tutorial, scripting the exact steps users should follow -
 clicking buttons, filling forms, navigating between pages - and verifying that
 each step produces the documented result; when a UI change breaks the
 documented workflow, the Playwright test fails during CI/CD pipeline execution
 
-**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+**Related Terms**: [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](#cicd-pipeline), [Cypress](#cypress),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Selenium](#selenium), [UI](#ui), [Vale](#vale)
@@ -863,13 +863,14 @@ allows technical writers to create test scripts that verify documented
 workflows across different browsers and platforms
 
 **Example**: a technical writer creates a Selenium script that automates
-the steps in their "Getting Started" guide, opening the application URL,
+the steps in their "Getting Started" guide, opening the app URL,
 entering credentials in the login form, clicking through each documented
 menu option, and verifying that each action produces the expected result;
 the script runs nightly to catch any UI changes that would make the
 documentation inaccurate
 
-**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+**Related Terms**:
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [Cypress](#cypress), [Doc Detective](#doc-detective),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [Playwright](#playwright), [UI](#ui)

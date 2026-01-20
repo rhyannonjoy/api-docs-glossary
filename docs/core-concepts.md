@@ -57,10 +57,11 @@ sequenceDiagram
     API Server-->>Client: 200 OK + response
 ```
 
-**Related Terms**: [API endpoint](#api-endpoint),
-[API gateway](api-types-architectures.md#api-gateway),
-[API security](#api-security), [API testing](workflows-methodologies.md#api-testing),
-[CLI](tools-techniques.md#cli), [REST API](api-types-architectures.md#rest-api)
+**Related Terms**:
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[API endpoint](#api-endpoint), [API gateway](api-types-architectures.md#api-gateway),
+[API security](#api-security), [CLI](tools-techniques.md#cli),
+[REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -103,7 +104,8 @@ Breaking down this endpoint:
 | `/resource/{id}` | Single resource operations | `GET /users/123` retrieves one user |
 | `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
 
-**Related Terms**: [API](#api), [API testing](workflows-methodologies.md#api-testing),
+**Related Terms**: [API](#api),
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [HTTP](core-concepts.md#http), [HTTP method](#http-method), [parameters](#parameters),
 [request/response](#requestresponse), [resource](core-concepts.md#resource),
 [REST API](api-types-architectures.md#rest-api)
@@ -210,7 +212,7 @@ credentials stored as environment variables rather than committed
 to version control
 
 **Related Terms**: [API](#api), [API security](#api-security),
-[API testing](workflows-methodologies.md#api-testing),
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [authentication](core-concepts.md#authentication),
 [Bruno](tools-techniques.md#bruno)
 
@@ -423,8 +425,9 @@ GET https://api.example.com/users/999
 }
 ```
 
-**Related Terms**: [API endpoint](#api-endpoint),
-[API testing](workflows-methodologies.md#api-testing), [HTTP](core-concepts.md#http),
+**Related Terms**:
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
 [rate limiting](#rate-limiting), [request/response](#requestresponse),
 [REST API](api-types-architectures.md#rest-api), [troubleshooting](#troubleshooting),
 [validation](#validation)

@@ -49,7 +49,7 @@ their work through flexibility rather than linear, rigid planning
 
 ---
 
-## API testing
+## API documentation testing
 
 **Definition**: the practice of validating that APIs function correctly,
 return expected responses, handle errors appropriately, and meet performance
@@ -67,7 +67,7 @@ testing rather than a specific tool; `Core Concepts` covers what APIs are and
 API testing is about _what teams do with APIs, not a fundamental API
 characteristic_
 
-### how this differs from QA testing
+### API docs testing vs QA testing
 
 Both testing approaches are necessary and complementary - QA ensures the product
 works correctly, while documentation testing ensures that user content is
@@ -81,7 +81,7 @@ accurate:
 | **Can catch documentation drift?** | **No** - validates against different source of truth | **Yes** - specifically designed to catch this |
 | **Example scenario** | Developers add a required parameter, tests pass &rarr; API works correctly | Developers add a required parameter, tests fail &rarr; documented examples no longer work |
 
-### types of API documentation testing
+### API docs testing types
 
 | Testing Type | What It Validates | Scope | Example |
 | ------------ | ----------------- | ----- | ------- |
@@ -122,16 +122,18 @@ testing environments; ensures API changes don't break existing consumers;
 specifically ensures that the API definition, implementation, and
 consumer's code all remain accurate and trustworthy
 
-**How contract testing differs from linters**: contract testing validates
-_runtime behavior_ against executable specifications by testing actual API responses,
-while linters perform static analysis of API description documents to check
+### contract testing vs linters
+
+contract testing validates _runtime behavior_ against executable
+specifications by testing actual API responses, while linters like
+Vale perform static analysis of API description documents to check
 formatting, style, and specification compliance without making requests
 
 **Example**: consumer team writes tests defining expected API responses,
 provider team verifies their API implementation satisfies these expectations,
 catching breaking changes before deployment
 
-**Related Terms**: [API testing](workflows-methodologies.md#api-testing),
+**Related Terms**: [API documentation testing](#api-documentation-testing),
 [Bruno](tools-techniques.md#bruno), [docs-as-tests](#docs-as-tests),
 Microcks, Pact, Spectral, [snippet testing](#snippet-testing),
 [Vale](tools-techniques.md#vale), [workflow testing](#workflow-testing)
@@ -213,7 +215,7 @@ GitHub or GitLab issues to track documentation tasks, reviews changes through
 pull/merge requests, previews content in staging environments, and
 automatically deploys to production when changes merge to the `main` branch
 
-### docs-as-code benefits
+**Benefits**:
 
 - **Transparency**: all documentation discussions, decisions, and changes
 visible in one place
@@ -226,7 +228,7 @@ time searching through email or chat for past decisions
 - **Integration**: documentation stays synchronized with code changes
 through the same review and deployment process
 
-### docs-as-code considerations
+**Considerations**:
 
 - requires all contributors to learn the version control system and
 documentation toolchain
@@ -280,13 +282,14 @@ documentation test fails when a button label changes from "Sign Up" to
 "Create Account," catching the discrepancy before users see inconsistent
 documentation
 
-**Related Terms**: [Agile](#agile), [API testing](#api-testing),
-[CI/CD pipeline](tools-techniques.md#cicd-pipeline),
-[CLI](tools-techniques.md#cli), [contract testing](#contract-testing),
-[Cypress](tools-techniques.md#cypress), [Doc Detective](tools-techniques.md#doc-detective),
-[docs-as-code](#docs-as-code), [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+**Related Terms**: [API documentation testing](#api-documentation-testing),
+[CI/CD pipeline](tools-techniques.md#cicd-pipeline), [CLI](tools-techniques.md#cli),
+[contract testing](#contract-testing), [Cypress](tools-techniques.md#cypress),
+[Doc Detective](tools-techniques.md#doc-detective),
+[guerilla usability testing](#guerrilla-usability-testing),
 [Selenium](tools-techniques.md#selenium), [snippet testing](#snippet-testing),
-[UI](tools-techniques.md#ui), [workflow testing](#workflow-testing)
+[UI](tools-techniques.md#ui), [usability testing](#usability-testing),
+[workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -305,7 +308,7 @@ online articles, or website content
 **Purpose**: provides a structured approach to creating documentation
 with well-defined phases that ensure content meets user needs
 
-### the eight phases
+**Phases**:
 
 1. Analysis and planning
 2. Designing
@@ -316,7 +319,9 @@ with well-defined phases that ensure content meets user needs
 7. Approval
 8. Maintenance
 
-**Related Terms**: [Agile](#agile), [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
+**Related Terms**: [Agile](#agile),
+[API documentation testing](#api-documentation-testing),
+[CI/CD pipeline](tools-techniques.md#cicd-pipeline),
 [project management methodology](#project-management-methodology),
 [usability testing](#usability-testing)
 
@@ -336,14 +341,14 @@ than recruiting in advance
 **Purpose**: provides a quick, cost-effective way to gather feedback
 from target users without formal recruitment processes
 
-### characteristics
+**Characteristics**:
 
 - Low maintenance with predefined tasks
 - Best for testing that doesn't require advanced device knowledge
 - Returns less accurate results than formal testing
 - Participants approached ad hoc in public settings
 
-### deliverables
+**Deliverables**:
 
 - Test plan with timeframe and research objectives
 - Video with screen and participant recordings
@@ -352,8 +357,11 @@ from target users without formal recruitment processes
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[API documentation testing](#api-documentation-testing),
+[contract testing](#contract-testing),
 [Document Development Life Cycle](#document-development-life-cycle),
-[usability testing](#usability-testing)
+[snippet testing](#snippet-testing), [usability testing](#usability-testing),
+[workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -432,8 +440,10 @@ documented examples fail
 test API instances, failing the build if examples return errors or
 unexpected responses
 
-**Related Terms**: [API testing](#api-testing), [contract testing](#contract-testing),
-[docs-as-tests](#docs-as-tests), [workflow testing](#workflow-testing)
+**Related Terms**: [API documentation testing](#api-documentation-testing),
+[contract testing](#contract-testing), [docs-as-tests](#docs-as-tests),
+[guerilla usability testing](#guerrilla-usability-testing),
+[usability testing](#usability-testing), [workflow testing](#workflow-testing)
 
 **Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
@@ -448,13 +458,13 @@ complete tasks
 **Purpose**: identifies problems before customers encounter them and
 provides user perspective before product release
 
-### usability testing benefits
+**Benefits**:
 
 - Finds problems before customers do
 - Provides customer perspective pre-release
 - Informs design improvements
 
-### usability testing limitations
+**Limitations**:
 
 - Not designed to generalize beyond test scope
 - Can't prove that a feature works universally
@@ -463,9 +473,11 @@ provides user perspective before product release
 
 **Related Terms**:
 [AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[API documentation testing](#api-documentation-testing),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Document Development Life Cycle](#document-development-life-cycle),
-[guerrilla usability testing](#guerrilla-usability-testing)
+[guerrilla usability testing](#guerrilla-usability-testing),
+[workflow testing](#workflow-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
@@ -514,9 +526,10 @@ tasks by following documentation procedures
 testing user authentication, cart management, payment processing, and order
 confirmation endpoints in sequence
 
-**Related Terms**: [API testing](#api-testing),
+**Related Terms**: [API documentation testing](#api-documentation-testing),
 [docs-as-tests](#docs-as-tests), [contract testing](#contract-testing), Karate,
-[snippet testing](#snippet-testing)
+[guerilla usability testing](#guerrilla-usability-testing),
+[snippet testing](#snippet-testing), [usability testing](#usability-testing)
 
 **Sources**:
 
