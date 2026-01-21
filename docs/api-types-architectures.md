@@ -104,7 +104,7 @@ messages rather than JSON
 
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP versions](core-concepts.md#http-versions),
-[Protocol Buffers](./tools-techniques-temp/development-essentials.md#protocol-buffers),
+[Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers),
 [RPC API](#rpc-api),
 [serialization](core-concepts.md#serialization)
 
@@ -223,7 +223,7 @@ resource formatted as a JSON document:
 
 **Related Terms**: [API](core-concepts.md#api),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[CLI](./tools-techniques-temp/development-essentials.md#cli),
+[CLI](./tools-techniques/development-essentials.md#cli),
 [HTTP](core-concepts.md#http),
 [HTTP status codes](core-concepts.md#http-status-codes),
 [JSON](core-concepts.md#json), [parameters](core-concepts.md#parameters),
@@ -322,7 +322,7 @@ requirements, and transaction guarantees
 **Related Terms**: [API](core-concepts.md#api),
 [error handling](core-concepts.md#error-handling),
 [HTTP](core-concepts.md#http), [REST API](#rest-api),
-[XML](./tools-techniques-temp/development-essentials.md#xml)
+[XML](./tools-techniques/development-essentials.md#xml)
 
 **Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
 

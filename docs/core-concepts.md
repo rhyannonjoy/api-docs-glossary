@@ -61,7 +61,7 @@ sequenceDiagram
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [API endpoint](#api-endpoint), [API gateway](api-types-architectures.md#api-gateway),
 [API security](#api-security),
-[CLI](./tools-techniques-temp/development-essentials.md#cli),
+[CLI](./tools-techniques/development-essentials.md#cli),
 [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
@@ -138,7 +138,7 @@ they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api),
-[Bruno](./tools-techniques-temp/testing-validation.md#bruno),
+[Bruno](./tools-techniques/testing-validation.md#bruno),
 [environment variables](#environment-variables),
 [error handling](#error-handling), [HTTPS](core-concepts.md#https),
 [rate limiting](#rate-limiting), [validation](#validation)
@@ -216,7 +216,7 @@ to version control
 **Related Terms**: [API](#api),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [API security](#api-security), [authentication](core-concepts.md#authentication),
-[Bruno](./tools-techniques-temp/testing-validation.md#bruno)
+[Bruno](./tools-techniques/testing-validation.md#bruno)
 
 **Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
@@ -298,7 +298,7 @@ user with ID 123 without changing any data
 
 ### HTTP
 
-**Definition**: acronym for Hypertext Transfer Protocol;
+**Definition**: acronym for _Hypertext Transfer Protocol_;
 synchronous request/response protocol that enables communication
 between clients and servers over the web; defines message format
 and transmission type, and how web servers and browsers should
@@ -349,7 +349,7 @@ updating whole resources, and `DELETE` for removing resources
 
 ### HTTPS
 
-**Definition**: acronym for Hypertext Transfer Protocol Secure;
+**Definition**: acronym for _Hypertext Transfer Protocol Secure_;
 encrypts communication between clients and servers using Transport
 Layer Security - TLS, or its predecessor, Secure Sockets Layer - SSL;
 HTTPS protects data from interception and tampering during transmission
@@ -497,7 +497,7 @@ many user records
 
 ### JSON
 
-**Definition**: acronym for JavaScript Object Notation; a lightweight,
+**Definition**: acronym for _JavaScript Object Notation_; a lightweight,
 text-based data format that uses human-readable key-value pairs to
 represent structured data
 
@@ -543,7 +543,7 @@ with JavaScript
 **Related Terms**: [payload](#payload),
 [REST API](api-types-architectures.md#rest-api),
 [serialization](#serialization),
-[XML](./tools-techniques-temp/development-essentials.md#xml)
+[XML](./tools-techniques/development-essentials.md#xml)
 
 **Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
 
@@ -630,7 +630,7 @@ required to create a user:
 
 **Related Terms**: [HTTP method](#http-method), [JSON](#json),
 [request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
-[serialization](#serialization), [XML](./tools-techniques-temp/development-essentials.md#xml)
+[serialization](#serialization), [XML](./tools-techniques/development-essentials.md#xml)
 
 **Sources**:
 
@@ -654,8 +654,8 @@ containing `{"email": "newemail@example.com"}` updates only the email
 field of user 123, leaving other fields like `name` and
 `phone_number` unchanged
 
-**Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
-[`POST`](#post), [`PUT`](#put)
+**Related Terms**: [`DELETE`](#delete), [`GET`](#get),
+[HTTP method](#http-method), [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "`PATCH` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)
 
@@ -897,8 +897,8 @@ into JSON string `{"name":"Alice", "age":30}` before sending it in an
 API request
 
 **Related Terms**: [JSON](#json), [payload](#payload),
-[protocol buffers](./tools-techniques-temp/development-essentials.md#protocol-buffers),
-[XML](./tools-techniques-temp/development-essentials.md#xml)
+[Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers),
+[XML](./tools-techniques/development-essentials.md#xml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
 
@@ -906,7 +906,7 @@ API request
 
 ### URI
 
-**Definition**: acronym for Uniform Resource Identifier; standard
+**Definition**: acronym for _Uniform Resource Identifier_; standard
 format for identifying resources in a way that enables consistent
 reference across different systems; identifies a resource but
 doesn't necessarily specify how to locate or access it
@@ -931,7 +931,7 @@ both identify resources without specifying network locations
 
 ### URL
 
-**Definition**: acronym for Uniform Resource Locator; specific URI type
+**Definition**: acronym for _Uniform Resource Locator_; specific URI type
 that _not only_ identifies a resource but also provides the means to locate
 it on a network by describing its primary access mechanism and network location
 
@@ -1438,7 +1438,7 @@ it requires interpretation before it can become either
 
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
 [AsyncAPI](#asyncapi),
-[Dredd](./tools-techniques-temp/testing-validation.md#dredd),
+[Dredd](./tools-techniques/testing-validation.md#dredd),
 [reference](#reference), [REST API](api-types-architectures.md#rest-api),
 [schema](#schema)
 

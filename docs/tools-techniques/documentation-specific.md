@@ -1,43 +1,12 @@
-# Tools & Techniques
+# Documentation-Specific
 
-Essential tools and methods for API documentation workflows.
-From version control to interactive documentation generators,
-this section covers the software, platforms, and practices used
-to create, test, verify, and publish API documentation.
+Tools for rendering, exploring, and maintaining API documentation.
+From interactive specification viewers to automated style checkers,
+this section covers the platforms that help teams create accurate,
+consistent, and developer-friendly API documentation.
 
-## json-server
-
-**Definition**: a [Node.js](https://nodejs.org/en)
-tool that creates a mock REST API from a JSON file;
-commonly referred to as "json-server" in lowercase when
-discussing
-[the npm package](https://www.npmjs.com/package/json-server),
-while "JSON Server" is often used in a more general context
-to describe the tool itself
-
-**Purpose**: allows documentation writers and developers to
-prototype and test API documentation without a live backend;
-generates a fully functional REST API with CRUD operations -
-create, read, update, delete - using methods
-`GET`, `POST`, `PUT`, and `DELETE` based on a
-streamlined JSON structure, enabling realistic examples
-and testing scenarios
-
-**Example**: a `db.json` file with user data automatically
-creates REST endpoints: `/users` returns all users,
-`/users/1` returns the user with `id` 1
-
-**Related Terms**: [cURL](#postman), [Postman](#postman),
-[REST API](api-types-architectures.md#rest-api), [Swagger](#swagger)
-
-**Sources**:
-
-- [JSON Server Homepage](https://json-server.dev/)
-- UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
-
----
-
-
+<!-- TODO: Add overview and/or value proposition>
+<!-- TODO: consider adding GitHub Pages, Redoc, Stoplight, MkDocs, Docusaurus, Static site generators -->
 
 ## Markdown
 
@@ -47,7 +16,9 @@ creates REST endpoints: `/users` returns all users,
 text documents and allows users to add elements like headers,
 links, lists, and tables
 
-**Related Terms**: Git, Git Bash, GitHub, Vale
+**Related Terms**: [Git](development-essentials.md#git),
+[Git Bash](development-essentials.md#git-bash),
+[GitHub](development-essentials.md#github), [Vale](#vale)
 
 **Sources**:
 
@@ -67,9 +38,29 @@ command-line tools; provides a GUI alternative to cURL
 for making HTTP requests, supports automated test suites, collection
 sharing, and API documentation generation
 
-**Related Terms**: Bruno, cURL, GUI,
-[json-server](#json-server), [REST API](api-types-architectures.md#rest-api),
-[Swagger](#swagger), UI
+**Why this belongs in `Documentation-Specific`**: Postman is primarily
+a platform for exploring, documenting, and sharing APIs through
+collections, automated documentation generation, and collaborative
+workspaces; while it includes testing capabilities, its _core identity_
+centers on API discovery and documentation workflows rather than
+automated validation - teams use Postman to understand how APIs work
+and communicate that understanding to others, making it
+_fundamentally a documentation and exploration tool_
+
+**Example**: a technical writer creates a Postman collection documenting
+all endpoints for a payment API, organizing requests into folders like
+"Authentication," "Transactions," and "Refunds"; they add descriptions,
+example requests with pre-filled parameters, and expected responses to
+each endpoint; the team shares this collection with developers and partners,
+who use it to explore the API interactively and understand how different
+endpoints work together - the collection becomes living documentation
+that stays synchronized with the API as it evolves
+
+**Related Terms**:
+[Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl),
+[GUI](development-essentials.md#gui), [json-server](testing-validation.md#json-server),
+[REST API](../api-types-architectures.md#rest-api), [Swagger](#swagger),
+[UI](development-essentials.md#ui)
 
 **Sources**:
 
@@ -80,8 +71,8 @@ sharing, and API documentation generation
 
 ## RFC
 
-**Definition**: acronym for Request for Comments; numbered technical documents
-published by the IETF - Internet Engineering Task Force - that define standards,
+**Definition**: acronym for _Request for Comments_; numbered technical documents
+published by the IETF - _Internet Engineering Task Force_ - that define standards,
 protocols, and procedures for internet technologies
 
 **Purpose**: RFCs provide authoritative specifications for protocols
@@ -95,8 +86,9 @@ as the authoritative source; RFC numbers, such as RFC 9110, provide
 a permanent, verifiable reference that remains accessible even as
 web pages change
 
-**Related Terms**: [HTTP](core-concepts.md#http), [HTTPS](core-concepts.md#https),
-[REST API](api-types-architectures.md#rest-api)
+**Related Terms**: [HTTP](../core-concepts.md#http),
+[HTTPS](../core-concepts.md#https),
+[REST API](../api-types-architectures.md#rest-api)
 
 **Sources**:
 
@@ -114,6 +106,14 @@ documenting, and testing REST APIs based on the OpenAPI Specification
 (OAS) documents; enabling visual editing, interactive documentation,
 and code generation from a single OAS source file
 
+**Why this belongs in `Documentation-Specific`**: Swagger is an
+interactive documentation renderer that visualizes OpenAPI specifications
+as browsable, explorable API documentation; while its "Try it out" feature
+allows endpoint testing, this functionality serves documentation exploration
+rather than automated validation - the tool's primary purpose is presenting
+API specifications to developers in human-readable, interactive format,
+making it a _documentation presentation tool_ rather than a testing framework
+
 **Common Swagger tools**:
 
 - [Swagger UI](https://swagger.io/tools/swagger-ui/) -
@@ -123,9 +123,17 @@ Web-based editor for creating and editing OAS documents
 - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) -
 Generates client libraries and server stubs from OAS files
 
-**Related terms**: GUI,
-[OpenAPI Specification](core-concepts.md#openapi-specification),
-[REST API](api-types-architectures.md#rest-api)
+**Example**: a development team maintains an OpenAPI specification file that
+describes their REST API; when they deploy documentation updates, Swagger
+automatically renders the specification as an interactive website where
+developers can browse endpoints, view request/response schemas, and click
+"Try it out" to make test calls directly from the documentation - this
+allows API consumers to understand and experiment with endpoints without
+leaving the documentation page
+
+**Related terms**: [GUI](development-essentials.md#gui),
+[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[REST API](../api-types-architectures.md#rest-api)
 
 **Source**: [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
 
@@ -149,9 +157,9 @@ passive voice in code examples; when a writer submits a pull request with
 documentation that violates these rules, Vale flags the issues in the CI/CD pipeline,
 preventing merge until the team releases corrections
 
-**Related Terms**: CI/CD pipeline,
-[docs-as-code](workflows-methodologies.md#docs-as-code),
-[Markdown](#markdown), pull request
+**Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Markdown](#markdown), [pull request](development-essentials.md#pull-request)
 
 **Sources**:
 

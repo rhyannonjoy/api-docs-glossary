@@ -36,7 +36,7 @@ test collections in Git repositories alongside their code
 [API security](../core-concepts.md#api-security),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [environment variables](../core-concepts.md#environment-variables),
-Newman, Postman,
+Newman, [Postman](documentation-specific.md#postman),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
 
 **Sources**:
@@ -121,10 +121,11 @@ the test automatically captures a screenshot of the results page to include
 in documentation; when Google changes their search bar selector, the Cypress
 test fails, alerting writers that their documented instructions need updating
 
-**Related Terms**: 
+**Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-CI/CD pipeline, [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Playwright](#playwright), UI
+[CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[Playwright](#playwright), [UI](development-essentials.md#ui)
 
 **Sources**:
 
@@ -153,8 +154,10 @@ response; when developers change the button text from "Create Account" to
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-CI/CD pipeline, [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Playwrite](#playwright), [Selenium](#selenium), Vale
+[CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[Playwrite](#playwright), [Selenium](#selenium),
+[Vale](documentation-specific.md#vale)
 
 **Sources**:
 
@@ -180,7 +183,7 @@ match OpenAPI examples before deploying documentation updates
 
 **Related Terms**: API Blueprint,
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-CI/CD pipeline,
+[CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [OpenAPI Specification](../core-concepts.md#openapi-specification)
 
@@ -188,6 +191,42 @@ CI/CD pipeline,
 
 - [Dredd - HTTP API Testing Framework](https://dredd.org/en/latest/index.html)
 - [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
+## json-server
+
+**Definition**: a [Node.js](https://nodejs.org/en)
+tool that creates a mock REST API from a JSON file;
+commonly referred to as "json-server" in lowercase when
+discussing
+[the npm package](https://www.npmjs.com/package/json-server),
+while "JSON Server" is often used in a more general context
+to describe the tool itself
+
+**Purpose**: allows documentation writers and developers to
+prototype and test API documentation without a live backend;
+generates a fully functional REST API with
+[CRUD operations](../core-concepts.md#crud)
+using methods `GET`, `POST`, `PUT`, and `DELETE` based on a
+streamlined JSON structure, enabling realistic examples
+and testing scenarios
+
+**Example**: a `db.json` file with user data automatically
+creates REST endpoints: `/users` returns all users,
+`/users/1` returns the user with `id` 1
+
+**Related Terms**:
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[cURL](development-essentials.md#curl),
+[Postman](documentation-specific.md#postman),
+[REST API](../api-types-architectures.md#rest-api),
+[Swagger](documentation-specific.md#swagger)
+
+**Sources**:
+
+- [JSON Server Homepage](https://json-server.dev/)
+- UW API Docs: Module 3, Lesson 3, "Introduction to `json-server`, cURL, and Postman"
 
 ---
 
@@ -209,7 +248,7 @@ validate responses, chain requests, and verify data transformations
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[Cucumber](#cucumber), UI
+[Cucumber](#cucumber), [UI](development-essentials.md#ui)
 
 **Sources**:
 
@@ -240,9 +279,10 @@ documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-CI/CD pipeline, [Cypress](#cypress),
+[CI/CD pipeline](development-essentials.md#cicd-pipeline), [Cypress](#cypress),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Selenium](#selenium), UI, Vale
+[Selenium](#selenium), [UI](development-essentials.md#ui),
+[Vale](documentation-specific.md#vale)
 
 **Sources**:
 
@@ -273,7 +313,7 @@ documentation inaccurate
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [Cypress](#cypress), [Doc Detective](#doc-detective),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Playwright](#playwright), UI
+[Playwright](#playwright), [UI](development-essentials.md#ui)
 
 **Sources**:
 
