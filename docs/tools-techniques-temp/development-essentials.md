@@ -1,5 +1,12 @@
 # Development Essentials
 
+Foundational tools and workflows for collaborative API documentation.
+From version control systems to command-line interfaces, this section
+covers the core development tools that enable documentation teams to
+track changes, manage collaboration, and integrate
+[docs-as-code](../workflows-methodologies.md#docs-as-code)
+practices into their development processes.
+
 ## Git & Version Control
 
 ```mermaid
