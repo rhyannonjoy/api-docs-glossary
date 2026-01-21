@@ -128,7 +128,7 @@ review them collectively, and ensure all changes work
 together before merging to main
 
 **Related Terms**: [branch](#branch), [feature branch](#feature-branch),
-[main branch](#main-branch), [merge](#merge), [pull request](#pull-request)
+[`main` branch](#main-branch), [merge](#merge), [pull request](#pull-request)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -148,7 +148,7 @@ merging into the `main` branch
 only the documentation for a new webhook feature
 
 **Related Terms**: [branch](#branch), [dev branch](#dev-branch),
-[main branch](#main-branch), [merge](#merge), [pull request](#pull-request)
+[`main` branch](#main-branch), [merge](#merge), [pull request](#pull-request)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -417,7 +417,8 @@ before publication; team members can comment on specific
 lines, suggest edits, and approve or request changes
 before merging
 
-**Related Terms**: [branch](#branch), [CI/CD pipeline](#cicd-pipeline),
+**Related Terms**: [branch](#branch),
+[CI/CD pipeline](#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [feature branch](#feature-branch), [fork](#fork), [merge](#merge)
 
@@ -553,7 +554,7 @@ edit documentation files, test builds, and prepare commits
 before pushing to remote repositories
 
 **Related Terms**: [clone](#clone), [fork](#fork),
-[repository](#repository)
+[repository](#repository), [version control](#version-control)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -636,9 +637,10 @@ documentation development
 **Example**: `curl -X GET https://api.example.com/users`
 retrieves user data from an API endpoint
 
-**Related Terms**: json-server,
+**Related Terms**: [`json-server`](testing-validation.md#json-server),
 [REST API](../api-types-architectures.md#rest-api),
-Postman, Swagger
+[Postman](documentation-specific.md#postman),
+[Swagger](documentation-specific.md#swagger)
 
 **Further Reading**:
 
@@ -670,8 +672,8 @@ interfaces for API testing and exploration
 visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
-**Related Terms**: [CLI](#cli), Postman,
-Swagger, [UI](#ui)
+**Related Terms**: [CLI](#cli), [Postman](documentation-specific.md#postman),
+[Swagger](documentation-specific.md#swagger), [UI](#ui)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 

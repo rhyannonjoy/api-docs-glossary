@@ -143,7 +143,7 @@ many different protocols
 - parallel version of a code repository and/or separate line of development
 in a repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - branch](./tools-techniques-temp/development-essentials.md#branch)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - branch](./tools-techniques/development-essentials.md#branch)
 
 ---
 
@@ -153,7 +153,7 @@ in a repository
 - streamlines versioning and sharing without accounts and/or subscriptions
 - uses plaintext markup language Bru
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Bruno](.//tools-techniques-temp/testing-validation.md)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Bruno](./tools-techniques/testing-validation.md#bruno)
 
 ---
 
@@ -167,7 +167,7 @@ in a repository
 - Git feature
 - copying selected commits from one branch to another branch
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - cherry-pick](./tools-techniques-temp/development-essentials.md#cherry-pick)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - cherry-pick](./tools-techniques/development-essentials.md#cherry-pick)
 
 ---
 
@@ -177,7 +177,7 @@ in a repository
 - automated workflow that builds, tests, and deploys code changes to
 production environments with minimal manual intervention
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline)
 
 ---
 
@@ -187,7 +187,7 @@ production environments with minimal manual intervention
 - text-based interface where users interact with software by typing
 commands rather than clicking graphical elements
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CLI](./tools-techniques-temp/development-essentials.md#cli)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CLI](./tools-techniques/development-essentials.md#cli)
 
 ---
 
@@ -198,7 +198,7 @@ commands rather than clicking graphical elements
 - copy of a code repository that lives in the development environment,
 instead of hosted on GitHub
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - clone](./tools-techniques-temp/development-essentials.md#clone)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - clone](./tools-techniques/development-essentials.md#clone)
 
 ---
 
@@ -218,7 +218,7 @@ instead of hosted on GitHub
 - code repository snapshot at a certain point-in-time
 - includes commit hash
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit](./tools-techniques-temp/development-essentials.md#commit)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit](./tools-techniques/development-essentials.md#commit)
 
 ---
 
@@ -229,7 +229,7 @@ instead of hosted on GitHub
 - alphanumeric unique identifier auto-generated for each commit by
 using the SHA-1 hash function
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit hash](./tools-techniques-temp/development-essentials.md#commit-hash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit hash](./tools-techniques/development-essentials.md#commit-hash)
 
 ---
 
@@ -300,7 +300,7 @@ directly to HTTP methods
 - BDD - _behavior-driven development_ - testing framework
 - enables writing tests in plain language using Gherkin syntax
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Cucumber](../docs/tools-techniques-temp/testing-validation.md)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Cucumber](./tools-techniques/testing-validation.md#cucumber)
 
 ---
 
@@ -310,7 +310,7 @@ directly to HTTP methods
 - command-Line tool available on Windows, MacOS, Linux
 - sends and receives HTTP and/or HTTPS requests
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - cURL](./tools-techniques-temp/development-essentials.md#curl)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - cURL](./tools-techniques/development-essentials.md#curl)
 
 ---
 
@@ -320,7 +320,7 @@ directly to HTTP methods
 - enables automated testing of web applications through browser automation
 - JavaScript/TypeScript focused, has a visual test runner, developer-friendly
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Cypress](../docs/tools-techniques-temp/testing-validation.md)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Cypress](./tools-techniques/testing-validation.md#cypress)
 
 ---
 
@@ -353,7 +353,7 @@ four content types: explanation, how-to-guides, reference, and tutorials
 - designed specifically for implementing docs-as-code workflows by
 validating documentation against APIs, CLIs, UIs
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Doc Detective](./tools-techniques-temp/testing-validation.md)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Doc Detective](./tools-techniques/testing-validation.md#doc-detective)
 
 ---
 
@@ -414,7 +414,7 @@ of documentation
 against the backend implementation of the API
 - particularly valuable for contract testing
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Dredd](./tools-techniques-temp/testing-validation.md#dredd)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Dredd](./tools-techniques/testing-validation.md#dredd)
 
 ---
 
@@ -484,7 +484,7 @@ specific events
 - Git feature
 - moving changes upstream that rewrite commits that are already present upstream
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - force push](./tools-techniques-temp/development-essentials.md#force-push)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - force push](./tools-techniques/development-essentials.md#force-push)
 
 ---
 
@@ -496,7 +496,7 @@ specific events
 - personal copy of another user’s repository that lives
 in one's GitHub account
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - fork](./tools-techniques-temp/development-essentials.md#fork)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - fork](./tools-techniques/development-essentials.md#fork)
 
 ---
 
@@ -538,7 +538,7 @@ first meaningful interaction with a product or feature
 
 - command-line program that executes version control functions
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git](./tools-techniques-temp/development-essentials.md#git)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git](./tools-techniques/development-essentials.md#git)
 
 ---
 
@@ -547,7 +547,7 @@ first meaningful interaction with a product or feature
 - command-line interface for Windows that emulates the
 Unix Bash command line
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git Bash](./tools-techniques-temp/development-essentials.md#git-bash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git Bash](./tools-techniques/development-essentials.md#git-bash)
 
 ---
 
@@ -555,7 +555,7 @@ Unix Bash command line
 
 - cloud-based storage, version control, and automation service
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub](./tools-techniques-temp/development-essentials.md#github)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub](./tools-techniques/development-essentials.md#github)
 
 ---
 
@@ -563,7 +563,7 @@ Unix Bash command line
 
 - user interface that manages GitHub repositories and local clones
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub Desktop](./tools-techniques-temp/development-essentials.md#github-desktop)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub Desktop](./tools-techniques/development-essentials.md#github-desktop)
 
 ---
 
@@ -611,7 +611,7 @@ intended audience and capturing their responses
 - acronym for _graphical user interface_
 - form of user interface with graphical icons and visual indicators
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - GUI](./tools-techniques-temp/development-essentials.md#gui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - GUI](./tools-techniques/development-essentials.md#gui)
 
 ---
 
@@ -715,6 +715,16 @@ to represent structured data
 
 ---
 
+### `json-server`
+
+- Node.js tool that creates a mock REST API from a JSON file
+- allows documentation writers and developers to
+prototype and test API documentation without a live backend
+
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation, `json-server`](./tools-techniques/testing-validation.md#json-server)
+
+---
+
 ## K
 
 ---
@@ -725,7 +735,7 @@ to represent structured data
 - combines API testing, mocks, performance testing, and UI automation using
 behavior-driven development syntax
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](../docs/tools-techniques-temp/testing-validation.md#karate)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](../docs/tools-techniques/testing-validation.md#karate)
 
 ---
 
@@ -764,15 +774,16 @@ to complete new tasks
 - default branch of a repository containing the published, released, or trusted
 version of content
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - `main` branch](./tools-techniques-temp/development-essentials.md#main-branch)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - `main` branch](./tools-techniques/development-essentials.md#main-branch)
 
 ---
 
 ### Markdown
 
 - markup language designed to format plain text documents
+- popular for writing documentation
 
-**Glossary Term Entry Location**: [Tools & Techniques - Markdown](tools-techniques.md#markdown)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Markdown](./tools-techniques/documentation-specific.md#markdown)
 
 ---
 
@@ -791,7 +802,7 @@ that compete with similar offerings
 - Git feature
 - moving the changes from one branch to another branch
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge](./tools-techniques-temp/development-essentials.md#merge)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge](./tools-techniques/development-essentials.md#merge)
 
 ---
 
@@ -802,7 +813,7 @@ that compete with similar offerings
 - a commit that after branching, integrates changes from
 a feature branch with updates that occurred in the original branch
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge commit](./tools-techniques-temp/development-essentials.md#merge-commit)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge commit](./tools-techniques/development-essentials.md#merge-commit)
 
 ---
 
@@ -813,7 +824,7 @@ a feature branch with updates that occurred in the original branch
 - scenario in which two commits have changes in the same file
 - blocks merging and requires manual resolution
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge conflict](./tools-techniques-temp/development-essentials.md#merge-conflict)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge conflict](./tools-techniques/development-essentials.md#merge-conflict)
 
 ---
 
@@ -869,7 +880,7 @@ that mimic humans’ use of language
 - version control concept
 - default upstream repository, typically clone source repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - origin repository](./tools-techniques-temp/development-essentials.md#origin-repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - origin repository](./tools-techniques/development-essentials.md#origin-repository)
 
 ---
 
@@ -912,7 +923,7 @@ body
 - supports docs-as-tests workflows by validating that documented UI
 procedures work as written
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Playwright](../docs/tools-techniques-temp/testing-validation.md)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Playwright](./tools-techniques/testing-validation.md#playwright)
 
 ---
 
@@ -930,7 +941,7 @@ procedures work as written
 - API development platform
 - commonly used for REST API development and testing workflows
 
-**Glossary Term Entry Location**: [Tools & Techniques - Postman](tools-techniques.md#postman)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Postman](./tools-techniques/documentation-specific.md#postman)
 
 ---
 
@@ -949,7 +960,7 @@ procedures work as written
 - language and platform neutral mechanism for serializing structured data
 - enables strongly typed contracts between services
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - Protocol Buffers](./tools-techniques-temp/development-essentials.md#protocol-buffers)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers)
 
 ---
 
@@ -960,7 +971,7 @@ procedures work as written
 - fetching changes from upstream, such as pulling the changes
 down from an origin or upstream repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull](./tools-techniques-temp/development-essentials.md#pull)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull](./tools-techniques/development-essentials.md#pull)
 
 ---
 
@@ -972,7 +983,7 @@ down from an origin or upstream repository
 - request to another user that invites them to pull one's changes from
 a repository/branch into their repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull request](./tools-techniques-temp/development-essentials.md#pull-request)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull request](./tools-techniques/development-essentials.md#pull-request)
 
 ---
 
@@ -983,7 +994,7 @@ a repository/branch into their repository
 - moving changes upstream, such as from a local computer
 to its origin repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - push](./tools-techniques-temp/development-essentials.md#push)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - push](./tools-techniques/development-essentials.md#push)
 
 ---
 
@@ -1041,7 +1052,7 @@ fair access for all users
 - used to resync a feature branch to its source branch
 after the source branch has changed
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - rebase](./tools-techniques-temp/development-essentials.md#rebase)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - rebase](./tools-techniques/development-essentials.md#rebase)
 
 ---
 
@@ -1060,7 +1071,7 @@ after the source branch has changed
 - also known as "repo"
 - place to store files that are under Git’s version control
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - repository](./tools-techniques-temp/development-essentials.md#repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - repository](./tools-techniques/development-essentials.md#repository)
 
 ---
 
@@ -1108,11 +1119,11 @@ or modification through an API
 ### RFC
 
 - acronym for _Request for Comments_
-- IETF - Internet Engineering Task Force - concept
+- IETF - _Internet Engineering Task Force_ - concept
 - numbered technical documents
 - provide authoritative specifications for web standards
 
-**Glossary Term Entry Location**: [Tools & Techniques - RFC](tools-techniques.md#rfc)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - RFC](./tools-techniques/documentation-specific.md#rfc)
 
 ---
 
@@ -1186,7 +1197,7 @@ relationships within an API's requests and responses
 - open source suite of tools for automating web browsers
 - validates that documented UI procedures execute correctly
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Selenium](../docs/tools-techniques-temp/testing-validation.md)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Selenium](./tools-techniques/testing-validation.md#selenium)
 
 ---
 
@@ -1237,7 +1248,7 @@ successfully and produce expected results
 - Git feature
 - action of combining many commits into a single commit
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - squash](./tools-techniques-temp/development-essentials.md#squash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - squash](./tools-techniques/development-essentials.md#squash)
 
 ---
 
@@ -1246,7 +1257,7 @@ successfully and produce expected results
 - open source suite for REST API development
 - based on OpenAPI specification
 
-**Glossary Term Entry Location**: [Tools & Techniques - Swagger](tools-techniques.md#swagger)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Swagger](./tools-techniques/documentation-specific.md#swagger)
 
 ---
 
@@ -1300,7 +1311,7 @@ instructions
 - version control concept
 - original repository, source of fork
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - upstream repository](./tools-techniques-temp/development-essentials.md#upstream-repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - upstream repository](./tools-techniques/development-essentials.md#upstream-repository)
 
 ---
 
@@ -1338,7 +1349,7 @@ a group of representative users
 - acronym for _user interface_
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](./tools-techniques-temp/development-essentials.md#ui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](./tools-techniques/development-essentials.md#ui)
 
 ---
 
@@ -1352,7 +1363,7 @@ a group of representative users
 - lints prose and enforces editorial style rules in documentation
 - supports multiple style guides including Microsoft, Google, and custom rules
 
-**Glossary Term Entry Location**: [Tools & Techniques - Vale](tools-techniques.md#vale)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Vale](./tools-techniques/documentation-specific.md#vale)
 
 ---
 
@@ -1370,7 +1381,7 @@ before processing or storage
 
 - system that tracks changes in documents and other files
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - version control](./tools-techniques-temp/development-essentials.md#version-control)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - version control](./tools-techniques/development-essentials.md#version-control)
 
 ---
 
@@ -1421,7 +1432,7 @@ multiple endpoints and operations
 
 - local computer directory that stores cloned repositories
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - workspace](./tools-techniques-temp/development-essentials.md#workspace)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - workspace](./tools-techniques/development-essentials.md#workspace)
 
 ---
 
@@ -1435,6 +1446,6 @@ multiple endpoints and operations
 - commonly used for data exchange in APIs and configuration files
 - essentially replaced by JSON, but remains in legacy integrations
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - XML](./tools-techniques-temp/development-essentials.md#xml)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - XML](./tools-techniques/development-essentials.md#xml)
 
 ---

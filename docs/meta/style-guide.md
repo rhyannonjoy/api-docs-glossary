@@ -299,7 +299,7 @@ application programming interface...
 - acronym for _user interface_
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](../tools-techniques-temp/development-essentials.md#ui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](../tools-techniques/development-essentials.md#ui)
 ```
 
 **Use the full name** when the acronym isn't widely recognized or when the
@@ -600,7 +600,7 @@ Example:
 ### Source Best Practices
 
 - be as specific as possible - include authors' names, exact page titles,
-section names, or [RFC numbers](tools-techniques.md#rfc)
+section names, or [RFC numbers](../tools-techniques/documentation-specific.md#rfc)
 - for official specifications - HTTP, OpenAPI - link to the authoritative
 source
 - for course materials without public URLs, provide enough detail for

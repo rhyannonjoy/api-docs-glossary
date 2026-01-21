@@ -34,7 +34,7 @@ their work through flexibility rather than linear, rigid planning
 - Adapting to change over following a strict plan
 
 **Related Terms**:
-[CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline),
+[CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline),
 [docs-as-code](#docs-as-code),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [docs-as-tests](#docs-as-tests),
@@ -97,12 +97,12 @@ change an endpoint's required parameters, the test fails, alerting the documenta
 team to update their integration guides
 
 **Related Terms**: [API](core-concepts.md#api),
-[Bruno](./tools-techniques-temp/testing-validation.md#bruno),
+[Bruno](./tools-techniques/testing-validation.md#bruno),
 [contract testing](#contract-testing),
-[Cypress](./tools-techniques-temp/testing-validation.md#cypress),
-[Doc Detective](./tools-techniques-temp/testing-validation.md#doc-detective),
+[Cypress](./tools-techniques/testing-validation.md#cypress),
+[Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
 [docs-as-tests](#docs-as-tests), [HTTP status codes](core-concepts.md#http-status-codes),
-[Playwright](./tools-techniques-temp/testing-validation.md#playwright),
+[Playwright](./tools-techniques/testing-validation.md#playwright),
 [REST API](api-types-architectures.md#rest-api), [workflow testing](#workflow-testing)
 
 **Sources**:
@@ -137,11 +137,12 @@ provider team verifies their API implementation satisfies these expectations,
 catching breaking changes before deployment
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
-[Bruno](./tools-techniques-temp/testing-validation.md#bruno),
+[Bruno](./tools-techniques/testing-validation.md#bruno),
 [docs-as-tests](#docs-as-tests),
-[Dredd](./tools-techniques-temp/testing-validation.md#dredd),
+[Dredd](./tools-techniques/testing-validation.md#dredd),
 Microcks, Pact, Spectral,
-[snippet testing](#snippet-testing), [Vale](tools-techniques.md#vale),
+[snippet testing](#snippet-testing),
+[Vale](./tools-techniques/documentation-specific.md#vale),
 [workflow testing](#workflow-testing)
 
 **Sources**:
@@ -213,10 +214,11 @@ analytical framework_; it describes a strategic approach to documentation
 processes and operational workflows, how teams organize daily documentation
 work within development cycles, rather than an evaluation framework like
 cognitive dimensions, or a specific software platform, like
-[Git](./tools-techniques-temp/development-essentials.md#git)
-or [Swagger](tools-techniques.md#swagger)
+[Git](./tools-techniques/development-essentials.md#git)
+or [Swagger](./tools-techniques/documentation-specific.md#swagger)
 
-**Example**: a technical writing team stores [Markdown](tools-techniques.md#markdown)
+**Example**: a technical writing team stores
+[Markdown](./tools-techniques/documentation-specific.md#markdown)
 documentation files in the same Git repository as app code, uses
 GitHub or GitLab issues to track documentation tasks, reviews changes through
 pull/merge requests, previews content in staging environments, and
@@ -250,11 +252,11 @@ informal discussion
 
 **Related Terms**: [Agile](#agile),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
-[Git](./tools-techniques-temp/development-essentials.md#git),
-[GitHub](./tools-techniques-temp/development-essentials.md#github),
-[main branch](./tools-techniques-temp/development-essentials.md#main-branch),
-[pull request](./tools-techniques-temp/development-essentials.md#pull-request),
-[version control](./tools-techniques-temp/development-essentials.md#version-control)
+[Git](./tools-techniques/development-essentials.md#git),
+[GitHub](./tools-techniques/development-essentials.md#github),
+[main branch](./tools-techniques/development-essentials.md#main-branch),
+[pull request](./tools-techniques/development-essentials.md#pull-request),
+[version control](./tools-techniques/development-essentials.md#version-control)
 
 **Sources**:
 
@@ -291,13 +293,9 @@ documentation test fails when a button label changes from "Sign Up" to
 documentation
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
-[CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline),
-[CLI](./tools-techniques-temp/development-essentials.md#cli),
 [contract testing](#contract-testing),
-[Doc Detective](../docs/tools-techniques-temp/testing-validation.md#doc-detective),
-[guerilla usability testing](#guerrilla-usability-testing),
+[Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
 [snippet testing](#snippet-testing),
-[UI](./tools-techniques-temp/development-essentials.md#ui),
 [usability testing](#usability-testing),
 [workflow testing](#workflow-testing)
 
@@ -331,7 +329,7 @@ with well-defined phases that ensure content meets user needs
 
 **Related Terms**: [Agile](#agile),
 [API documentation testing](#api-documentation-testing),
-[CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline),
+[CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline),
 [project management methodology](#project-management-methodology),
 [usability testing](#usability-testing)
 
@@ -452,7 +450,6 @@ unexpected responses
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
 [contract testing](#contract-testing), [docs-as-tests](#docs-as-tests),
-[guerilla usability testing](#guerrilla-usability-testing),
 [usability testing](#usability-testing), [workflow testing](#workflow-testing)
 
 **Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
