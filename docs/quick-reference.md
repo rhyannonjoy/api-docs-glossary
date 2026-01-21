@@ -945,7 +945,7 @@ procedures work as written
 
 ### Protocol Buffers
 
-- developed by Google
+- data exchange format developed by Google
 - language and platform neutral mechanism for serializing structured data
 - enables strongly typed contracts between services
 

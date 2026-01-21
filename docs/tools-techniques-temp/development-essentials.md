@@ -205,7 +205,7 @@ maintain published versions separate from draft content
 | rebase | update the base commit from its source branch |
 | squash | bundle many commits into a single commit |
 
-**Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git Bash](#git-bash), [GitHub](#github), [GitHub Desktop](#github-desktop)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -250,7 +250,7 @@ and integrated workflows; provides web-based tools for
 code review, issue tracking, and continuous integration that
 complement local Git operations
 
-**Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](#git), [Git Bash](#git-bash), [GitHub Desktop](#github-desktop)
 
 **Sources**:
@@ -294,7 +294,7 @@ and development systems typically publish documentation
 directly from this branch
 
 **Related Terms**: [branch](#branch), [dev branch](#dev-branch),
-[docs-as-code](workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
 [feature branch](#feature-branch), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -411,7 +411,7 @@ lines, suggest edits, and approve or request changes
 before merging
 
 **Related Terms**: [branch](#branch), [CI/CD pipeline](#cicd-pipeline),
-[docs-as-code](workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
 [feature branch](#feature-branch), [fork](#fork), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -528,7 +528,7 @@ owner, who can grant access or require contributors to fork
 the repository to their own GitHub account
 
 **Related Terms**: [branch](#branch), [commit](#commit),
-[docs-as-code](workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](#git), [Git Bash](#git-bash), [GitHub](#github),
 [repository](#repository)
 
@@ -556,7 +556,7 @@ before pushing to remote repositories
 
 ### CI/CD pipeline
 
-**Definition**: acronym for Continuous Integration/Continuous Deployment pipeline;
+**Definition**: acronym for _Continuous Integration/Continuous Deployment_ pipeline;
 an automated workflow that builds, tests, and deploys code changes to production
 environments with minimal manual intervention
 
@@ -572,9 +572,9 @@ change breaks documented API examples, the pipeline fails and prevents the merge
 until the team releases code and/or documentation fixes; when documentation passes
 all tests, the pipeline automatically publishes updated docs to the production site
 
-**Related Terms**: [Agile](workflows-methodologies.md#agile),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[Documentation Development Life Cycle](workflows-methodologies.md#document-development-life-cycle),
+**Related Terms**: [Agile](../workflows-methodologies.md#agile),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[Documentation Development Life Cycle](../workflows-methodologies.md#document-development-life-cycle),
 [pull request](#pull-request)
 
 **Sources**:
@@ -586,7 +586,7 @@ all tests, the pipeline automatically publishes updated docs to the production s
 
 ### CLI
 
-**Definition**: acronym for Command Line Interface; a text-based interface where
+**Definition**: acronym for _Command Line Interface_; a text-based interface where
 users interact with software by typing commands rather than clicking graphical
 elements
 
@@ -602,9 +602,10 @@ authentication headers; documentation describes each command's syntax, required
 arguments, optional flags, and example outputs; docs-as-tests validates that
 documented CLI commands execute successfully and produce expected results
 
-**Related Terms**: [API](core-concepts.md#api),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[GUI](#gui), [REST API](api-types-architectures.md#rest-api), [UI](#ui)
+**Related Terms**:
+[API](../core-concepts.md#api),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[GUI](#gui), [REST API](../api-types-architectures.md#rest-api), [UI](#ui)
 
 **Sources**:
 
@@ -615,7 +616,7 @@ documented CLI commands execute successfully and produce expected results
 
 ### cURL
 
-**Definition**: an acronym for "client URL" - a command-line tool
+**Definition**: an acronym for _client URL_ - a command-line tool
 available on Windows, macOS, and Linux that sends and receives HTTP
 and HTTPS requests
 
@@ -628,9 +629,9 @@ documentation development
 **Example**: `curl -X GET https://api.example.com/users`
 retrieves user data from an API endpoint
 
-**Related Terms**: [json-server](#json-server),
-[REST API](api-types-architectures.md#rest-api), [Postman](#postman),
-[Swagger](#swagger)
+**Related Terms**: json-server,
+[REST API](../api-types-architectures.md#rest-api),
+Postman, Swagger
 
 **Further Reading**:
 
@@ -647,7 +648,7 @@ retrieves user data from an API endpoint
 
 ### GUI
 
-**Definition**: acronym for graphical user interface;
+**Definition**: acronym for _graphical user interface_;
 a form of user interface that allows users to interact with
 software through graphical icons, visual indicators, and pointing
 devices rather than text-based commands
@@ -662,8 +663,8 @@ interfaces for API testing and exploration
 visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
-**Related Terms**: [CLI](#cli), [Postman](#postman),
-[Swagger](#swagger), [UI](#ui)
+**Related Terms**: [CLI](#cli), Postman,
+Swagger, [UI](#ui)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -671,9 +672,10 @@ a GUI for developers to explore the API without writing code first
 
 ### Protocol Buffers
 
-**Definition**: language and platform neutral mechanism for serializing
-structured data developed by Google; uses `.proto` files to define data
-schemas that compile into efficient binary format
+**Definition**: data exchange format; language and platform neutral
+mechanism for serializing structured data developed by Google; uses
+`.proto` files to define data schemas that compile into efficient
+binary format
 
 **Purpose**: "like JSON, except smaller and faster, and it generates
 native language bindings" -  provides compact, fast serialization for gRPC
@@ -684,9 +686,9 @@ between services
 `string_name` and `int32_id`, which compiles into classes for many
 programming languages
 
-**Related Terms**: [API](core-concepts.md#api),
-[gRPC API](api-types-architectures.md#graphql-api),
-[schema](core-concepts.md#schema), [serialization](core-concepts.md#serialization)
+**Related Terms**: [API](../core-concepts.md#api),
+[gRPC API](../api-types-architectures.md#graphql-api),
+[schema](../core-concepts.md#schema), [serialization](../core-concepts.md#serialization)
 
 **Source**: [Google, LLC: Protocol Buffers Documentation: "Overview"](https://protobuf.dev/overview/)
 
@@ -694,7 +696,7 @@ programming languages
 
 ### UI
 
-**Definition**: acronym for user interface; space where interactions
+**Definition**: acronym for _user interface_; space where interactions
 between humans and machines occur; includes all visual elements, controls,
 and interaction patterns that allow users to communicate with software or
 hardware systems
@@ -710,8 +712,8 @@ interface, where buttons, forms, and data visualizations allow users to
 interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
-**Related Terms**: [API endpoint](core-concepts.md#api-endpoint),
-[CLI](#cli), [GUI](#gui), [REST API](api-types-architectures.md#rest-api)
+**Related Terms**: [API endpoint](../core-concepts.md#api-endpoint),
+[CLI](#cli), [GUI](#gui), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -719,9 +721,10 @@ elements trigger specific API calls or how API responses render in the interface
 
 ### XML
 
-**Definition**: acronym for Extensible Markup Language; a text-based
-format for representing structured data using tags like HTML,
-commonly used for data exchange in APIs and configuration files
+**Definition**: acronym for _Extensible Markup Language_;
+text-based, data exchange format that represents structured data
+using tags like HTML, commonly used for data exchange in APIs
+and configuration files
 
 **Purpose**: provides a standardized way to encode documents and data
 that's both human-readable and machine-parsable; while JSON has
@@ -747,9 +750,11 @@ in enterprise systems, SOAP APIs, and legacy integrations
 | Data types | Everything is text | Supports numbers, booleans, `null` |
 | Common use | SOAP APIs, enterprise systems | REST APIs, web applications |
 
-**Related Terms**: [JSON](core-concepts.md#json), [payload](core-concepts.md#payload),
-[REST API](api-types-architectures.md#rest-api), [serialization](core-concepts.md#serialization),
-[SOAP API](api-types-architectures.md#soap-api)
+**Related Terms**: [JSON](../core-concepts.md#json),
+[payload](../core-concepts.md#payload),
+[REST API](../api-types-architectures.md#rest-api),
+[serialization](../core-concepts.md#serialization),
+[SOAP API](../api-types-architectures.md#soap-api)
 
 **Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)
 

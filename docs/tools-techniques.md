@@ -47,8 +47,7 @@ creates REST endpoints: `/users` returns all users,
 text documents and allows users to add elements like headers,
 links, lists, and tables
 
-**Related Terms**: [Git](#git), [Git Bash](#git-bash), [GitHub](#github),
-[Vale](#vale)
+**Related Terms**: Git, Git Bash, GitHub, Vale
 
 **Sources**:
 
@@ -64,13 +63,13 @@ documenting, and monitoring APIs through a graphical interface
 
 **Purpose**: commonly used for REST API development and testing
 workflows; enables API testing and exploration without
-command-line tools; provides a [GUI](#gui) alternative to cURL
+command-line tools; provides a GUI alternative to cURL
 for making HTTP requests, supports automated test suites, collection
 sharing, and API documentation generation
 
-**Related Terms**: Bruno, [cURL](#curl), [GUI](#gui),
+**Related Terms**: Bruno, cURL, GUI,
 [json-server](#json-server), [REST API](api-types-architectures.md#rest-api),
-[Swagger](#swagger), [UI](#ui)
+[Swagger](#swagger), UI
 
 **Sources**:
 
@@ -124,7 +123,7 @@ Web-based editor for creating and editing OAS documents
 - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) -
 Generates client libraries and server stubs from OAS files
 
-**Related terms**: [GUI](#gui),
+**Related terms**: GUI,
 [OpenAPI Specification](core-concepts.md#openapi-specification),
 [REST API](api-types-architectures.md#rest-api)
 
@@ -150,9 +149,9 @@ passive voice in code examples; when a writer submits a pull request with
 documentation that violates these rules, Vale flags the issues in the CI/CD pipeline,
 preventing merge until the team releases corrections
 
-**Related Terms**: [CI/CD pipeline](#cicd-pipeline),
+**Related Terms**: CI/CD pipeline,
 [docs-as-code](workflows-methodologies.md#docs-as-code),
-[Markdown](#markdown), [pull request](#pull-request)
+[Markdown](#markdown), pull request
 
 **Sources**:
 

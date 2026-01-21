@@ -33,7 +33,8 @@ their work through flexibility rather than linear, rigid planning
 - Customer collaboration over rigid contracts
 - Adapting to change over following a strict plan
 
-**Related Terms**: [CI/CD pipeline](tools-techniques.md#cicd-pipeline),
+**Related Terms**:
+[CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline),
 [docs-as-code](#docs-as-code),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [docs-as-tests](#docs-as-tests),
@@ -212,7 +213,8 @@ analytical framework_; it describes a strategic approach to documentation
 processes and operational workflows, how teams organize daily documentation
 work within development cycles, rather than an evaluation framework like
 cognitive dimensions, or a specific software platform, like
-[Git](tools-techniques.md#git) or [Swagger](tools-techniques.md#swagger)
+[Git](./tools-techniques-temp/development-essentials.md#git)
+or [Swagger](tools-techniques.md#swagger)
 
 **Example**: a technical writing team stores [Markdown](tools-techniques.md#markdown)
 documentation files in the same Git repository as app code, uses
@@ -248,10 +250,11 @@ informal discussion
 
 **Related Terms**: [Agile](#agile),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
-[Git](tools-techniques.md#git), [GitHub](tools-techniques.md#github),
-[main branch](tools-techniques.md#main-branch),
-[pull request](tools-techniques.md#pull-request),
-[version control](tools-techniques.md#version-control)
+[Git](./tools-techniques-temp/development-essentials.md#git),
+[GitHub](./tools-techniques-temp/development-essentials.md#github),
+[main branch](./tools-techniques-temp/development-essentials.md#main-branch),
+[pull request](./tools-techniques-temp/development-essentials.md#pull-request),
+[version control](./tools-techniques-temp/development-essentials.md#version-control)
 
 **Sources**:
 
@@ -288,12 +291,14 @@ documentation test fails when a button label changes from "Sign Up" to
 documentation
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
-[CI/CD pipeline](tools-techniques.md#cicd-pipeline), [CLI](tools-techniques.md#cli),
+[CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline),
+[CLI](./tools-techniques-temp/development-essentials.md#cli),
 [contract testing](#contract-testing),
 [Doc Detective](../docs/tools-techniques-temp/testing-validation.md#doc-detective),
 [guerilla usability testing](#guerrilla-usability-testing),
 [snippet testing](#snippet-testing),
-[UI](tools-techniques.md#ui), [usability testing](#usability-testing),
+[UI](./tools-techniques-temp/development-essentials.md#ui),
+[usability testing](#usability-testing),
 [workflow testing](#workflow-testing)
 
 **Sources**:
@@ -326,7 +331,7 @@ with well-defined phases that ensure content meets user needs
 
 **Related Terms**: [Agile](#agile),
 [API documentation testing](#api-documentation-testing),
-[CI/CD pipeline](tools-techniques.md#cicd-pipeline),
+[CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline),
 [project management methodology](#project-management-methodology),
 [usability testing](#usability-testing)
 
