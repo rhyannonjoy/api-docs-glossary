@@ -296,10 +296,10 @@ application programming interface...
 
 ### UI
 
-- acronym for user interface
+- acronym for _user interface_
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques - UI](tools-techniques.md#ui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](../tools-techniques-temp/development-essentials.md#ui)
 ```
 
 **Use the full name** when the acronym isn't widely recognized or when the
@@ -534,7 +534,7 @@ Example: `**Related Terms**: [API](#api), [REST API](#rest-api)`
 **Related Terms**: [term name](filename.md#term-name)
 ```
 
-Example: `**Related Terms**: [Git](tools-techniques.md#git), [GitHub](tools-techniques.md#github)`
+Example: `**Related Terms**: [Git](tools-techniques/development-essentials.md#git), [GitHub](tools-techniques/development-essentials.md#github)`
 
 **Important**:
 

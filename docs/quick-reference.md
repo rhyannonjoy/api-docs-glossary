@@ -31,7 +31,7 @@ belong in the full documentation structure.
 
 ### AI
 
-- acronym for Artificial Intelligence
+- acronym for _Artificial Intelligence_
 - a research field
 - set of technologies that use computers and large datasets to perform tasks
 - make predictions or recommendations and solve problems that normally
@@ -43,10 +43,10 @@ require human intelligence
 
 ### API
 
-- acronym for application programming interface
+- acronym for _application programming interface_
 - enables resource sharing between systems and/or products
 
-**Glossary Term Entry Location**: [Core Concepts - API](core-concepts.md#api)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API](core-concepts.md#api)
 
 ---
 
@@ -66,7 +66,7 @@ testing ensures user content accuracy
 - specific URL where an API can access resources
 - client touchpoint with the API server
 
-**Glossary Term Entry Location**: [Core Concepts - API endpoint](core-concepts.md#api-endpoint)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API endpoint](core-concepts.md#api-endpoint)
 
 ---
 
@@ -84,7 +84,7 @@ without clients needing to know about backend architecture
 
 - landing page in which the audience is everyone
 
-**Glossary Term Entry Location**: [Core Concepts - API overview topic](core-concepts.md#api-overview-topic)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - API overview topic](core-concepts.md#api-overview-topic)
 
 ---
 
@@ -93,7 +93,7 @@ without clients needing to know about backend architecture
 - "getting finished topics" that describe aspects of an API
 operation or object
 
-**Glossary Term Entry Location**: [Core Concepts - API reference topic](core-concepts.md#api-reference-topic)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - API reference topic](core-concepts.md#api-reference-topic)
 
 ---
 
@@ -101,7 +101,7 @@ operation or object
 
 - measures taken to protect APIs from unauthorized access, misuse, attacks
 
-**Glossary Term Entry Location**: [Core Concepts - API security](core-concepts.md#api-security)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API security](core-concepts.md#api-security)
 
 ---
 
@@ -112,7 +112,7 @@ operation or object
 - enables standardized documentation and tooling for APIs that work over
 many different protocols
 
-**Glossary Term Entry Location**: [Core Concepts - AsyncAPI](core-concepts.md#asyncapi)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - AsyncAPI](core-concepts.md#asyncapi)
 
 ---
 
@@ -120,7 +120,7 @@ many different protocols
 
 - API security measure that determines who users are
 
-**Glossary Term Entry Location**: [Core Concepts - authentication](core-concepts.md#authentication)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authentication](core-concepts.md#authentication)
 
 ---
 
@@ -128,7 +128,7 @@ many different protocols
 
 - An API secutiry measure that determines what users can do
 
-**Glossary Term Entry Location**: [Core Concepts - authorization](core-concepts.md#authorization)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authorization](core-concepts.md#authorization)
 
 ---
 
@@ -143,7 +143,7 @@ many different protocols
 - parallel version of a code repository and/or separate line of development
 in a repository
 
-**Glossary Term Entry Location**: [Tools & Techniques - branch](tools-techniques.md#branch)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - branch](./tools-techniques-temp/development-essentials.md#branch)
 
 ---
 
@@ -167,27 +167,27 @@ in a repository
 - Git feature
 - copying selected commits from one branch to another branch
 
-**Glossary Term Entry Location**: [Tools & Techniques - cherry-pick](tools-techniques.md#cherry-pick)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - cherry-pick](./tools-techniques-temp/development-essentials.md#cherry-pick)
 
 ---
 
 ### CI/CD pipeline
 
-- acronym for Continuous Integration/Continuous Deployment pipeline
+- acronym for _Continuous Integration/Continuous Deployment_ pipeline
 - automated workflow that builds, tests, and deploys code changes to
 production environments with minimal manual intervention
 
-**Glossary Term Entry Location**: [Tools & Techniques - CI/CD pipeline](tools-techniques.md#cicd-pipeline)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CI/CD pipeline](./tools-techniques-temp/development-essentials.md#cicd-pipeline)
 
 ---
 
 ### CLI
 
-- acronym for Command Line Interface
+- acronym for _Command Line Interface_
 - text-based interface where users interact with software by typing
 commands rather than clicking graphical elements
 
-**Glossary Term Entry Location**: [Tools & Techniques - CLI](tools-techniques.md#cli)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CLI](./tools-techniques-temp/development-essentials.md#cli)
 
 ---
 
@@ -198,7 +198,7 @@ commands rather than clicking graphical elements
 - copy of a code repository that lives in the development environment,
 instead of hosted on GitHub
 
-**Glossary Term Entry Location**: [Tools & Techniques - clone](tools-techniques.md#clone)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - clone](./tools-techniques-temp/development-essentials.md#clone)
 
 ---
 
@@ -218,7 +218,7 @@ instead of hosted on GitHub
 - code repository snapshot at a certain point-in-time
 - includes commit hash
 
-**Glossary Term Entry Location**: [Tools & Techniques - commit](tools-techniques.md#commit)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit](./tools-techniques-temp/development-essentials.md#commit)
 
 ---
 
@@ -229,7 +229,7 @@ instead of hosted on GitHub
 - alphanumeric unique identifier auto-generated for each commit by
 using the SHA-1 hash function
 
-**Glossary Term Entry Location**: [Tools & Techniques - commit hash](tools-techniques.md#commit-hash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit hash](./tools-techniques-temp/development-essentials.md#commit-hash)
 
 ---
 
@@ -241,7 +241,7 @@ specific tasks
 - answer "what" and "why" questions at an accessible,
 introductory level
 
-**Glossary Term Entry Location**: [Core Concepts - concept](core-concepts.md#concept)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - concept](core-concepts.md#concept)
 
 ---
 
@@ -287,11 +287,11 @@ resource availability to the critical path
 
 ### CRUD
 
-- acronym for "Create, Read, Update, Delete"
+- acronym for _Create, Read, Update, Delete_
 - provides a standard framework for API operations that maps
 directly to HTTP methods
 
-**Glossary Term Entry Location**: [Core Concepts - CRUD](core-concepts.md#crud)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - CRUD](core-concepts.md#crud)
 
 ---
 
@@ -306,11 +306,11 @@ directly to HTTP methods
 
 ### cURL
 
-- acronym for "client URL"
+- acronym for _client URL_
 - command-Line tool available on Windows, MacOS, Linux
-- sends and receives HTTP and/or HTTPs requests
+- sends and receives HTTP and/or HTTPS requests
 
-**Glossary Term Entry Location**: [Tools & Techniques - cURL](tools-techniques.md#curl)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - cURL](./tools-techniques-temp/development-essentials.md#curl)
 
 ---
 
@@ -333,7 +333,7 @@ directly to HTTP methods
 - HTTP method
 - requests removal of a specified resource from the server
 
-**Glossary Term Entry Location**: [Core Concepts - `DELETE`](core-concepts.md#delete)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `DELETE`](core-concepts.md#delete)
 
 ---
 
@@ -440,7 +440,7 @@ testing or execution
 - allows tests to run in different environments without
 code changes
 
-**Glossary Term Entry Location**: [Core Concepts - environment variables](core-concepts.md#environment-variables)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - environment variables](core-concepts.md#environment-variables)
 
 ---
 
@@ -450,7 +450,7 @@ code changes
 occur during API operations
 - enables developers to build robust applications
 
-**Glossary Term Entry Location**: [Core Concepts - error handling](core-concepts.md#error-handling)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - error handling](core-concepts.md#error-handling)
 
 ---
 
@@ -470,7 +470,7 @@ specific events
 - clarifies a single topic without providing step-by-step instructions
 - focuses on comprehensive understanding of concepts, principles, or features
 
-**Glossary Term Entry Location**: [Core Concepts - explanation guide](core-concepts.md#explanation-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - explanation guide](core-concepts.md#explanation-guide)
 
 ---
 
@@ -484,7 +484,7 @@ specific events
 - Git feature
 - moving changes upstream that rewrite commits that are already present upstream
 
-**Glossary Term Entry Location**: [Tools & Techniques - force push](tools-techniques.md#force-push)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - force push](./tools-techniques-temp/development-essentials.md#force-push)
 
 ---
 
@@ -496,7 +496,7 @@ specific events
 - personal copy of another user’s repository that lives
 in one's GitHub account
 
-**Glossary Term Entry Location**: [Tools & Techniques - fork](tools-techniques.md#fork)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - fork](./tools-techniques-temp/development-essentials.md#fork)
 
 ---
 
@@ -506,7 +506,7 @@ in one's GitHub account
 
 ### genAI
 
-- acronym for Generative AI
+- acronym for _Generative AI_
 - draws upon the patterns identified through machine learning processes
 to generate new content
 
@@ -519,7 +519,7 @@ to generate new content
 - read-only HTTP method
 - the most common method for retrieving information
 
-**Glossary Term Entry Location**: [Core Concepts - `GET`](core-concepts.md#get)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `GET`](core-concepts.md#get)
 
 ---
 
@@ -530,7 +530,7 @@ to generate new content
 - comprehensive onboarding documentation that helps new users complete their
 first meaningful interaction with a product or feature
 
-**Glossary Term Entry Location**: [Core Concepts - getting started](core-concepts.md#getting-started)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - getting started](core-concepts.md#getting-started)
 
 ---
 
@@ -538,7 +538,7 @@ first meaningful interaction with a product or feature
 
 - command-line program that executes version control functions
 
-**Glossary Term Entry Location**: [Tools & Techniques - Git](tools-techniques.md#git)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git](./tools-techniques-temp/development-essentials.md#git)
 
 ---
 
@@ -547,7 +547,7 @@ first meaningful interaction with a product or feature
 - command-line interface for Windows that emulates the
 Unix Bash command line
 
-**Glossary Term Entry Location**: [Tools & Techniques - Git Bash](tools-techniques.md#git-bash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git Bash](./tools-techniques-temp/development-essentials.md#git-bash)
 
 ---
 
@@ -555,7 +555,7 @@ Unix Bash command line
 
 - cloud-based storage, version control, and automation service
 
-**Glossary Term Entry Location**: [Tools & Techniques - GitHub](tools-techniques.md#github)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub](./tools-techniques-temp/development-essentials.md#github)
 
 ---
 
@@ -563,7 +563,7 @@ Unix Bash command line
 
 - user interface that manages GitHub repositories and local clones
 
-**Glossary Term Entry Location**: [Tools & Techniques - GitHub Desktop](tools-techniques.md#github-desktop)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub Desktop](./tools-techniques-temp/development-essentials.md#github-desktop)
 
 ---
 
@@ -572,7 +572,7 @@ Unix Bash command line
 - documentation topic type
 - alphabetically organized collection of terms and their definitions
 
-**Glossary Term Entry Location**: [Core Concepts - glossary](core-concepts.md#glossary)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - glossary](core-concepts.md#glossary)
 
 ---
 
@@ -608,10 +608,10 @@ intended audience and capturing their responses
 
 ### GUI
 
-- acronym for graphical user interface
+- acronym for _graphical user interface_
 - form of user interface with graphical icons and visual indicators
 
-**Glossary Term Entry Location**: [Tools & Techniques - GUI](tools-techniques.md#gui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - GUI](./tools-techniques-temp/development-essentials.md#gui)
 
 ---
 
@@ -624,17 +624,17 @@ intended audience and capturing their responses
 - documentation topic type
 - step-by-step instructions for completing a specific real-world task
 
-**Glossary Term Entry Location**: [Core Concepts - how-to guide](core-concepts.md#how-to-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - how-to guide](core-concepts.md#how-to-guide)
 
 ---
 
 ### HTTP
 
-- acronym for Hypertext Transfer Protocol
+- acronym for _Hypertext Transfer Protocol_
 - synchronous request/response protocol
 - enables communication between clients and servers over the web
 
-**Glossary Term Entry Location**: [Core Concepts - HTTP](core-concepts.md#http)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP](core-concepts.md#http)
 
 ---
 
@@ -644,16 +644,16 @@ intended audience and capturing their responses
 - makes it clear whether a request reads, creates, updates, or
 deletes data
 
-**Glossary Term Entry Location**: [Core Concepts - HTTP method](core-concepts.md#http-method)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP method](core-concepts.md#http-method)
 
 ---
 
 ### HTTPS
 
-- acronym for Hypertext Transfer Protocol Secure
+- acronym for _Hypertext Transfer Protocol Secure_
 - protects data from interception and tampering during transmission
 
-**Glossary Term Entry Location**: [Core Concepts - HTTPS](core-concepts.md#https)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTPS](core-concepts.md#https)
 
 ---
 
@@ -662,7 +662,7 @@ deletes data
 - three-digit codes servers return in HTTP responses
 - show whether a specific request succeeded or failed
 
-**Glossary Term Entry Location**: [Core Concepts - HTTP status codes](core-concepts.md#http-status-codes)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP status codes](core-concepts.md#http-status-codes)
 
 ---
 
@@ -674,7 +674,7 @@ performance and feature capabilities
 - HTTP/2 (2015) enables concurrent requests over one connection
 - HTTP/3 (2022) uses QUIC protocol for improved reliability
 
-**Glossary Term Entry Location**: [Core Concepts - HTTP versions](core-concepts.md#http-versions)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP versions](core-concepts.md#http-versions)
 
 ---
 
@@ -688,7 +688,7 @@ performance and feature capabilities
 of how many times it's executed
 - enables safe request retries without unintended side effects
 
-**Glossary Term Entry Location**: [Core Concepts - idempotent](core-concepts.md#idempotent)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - idempotent](core-concepts.md#idempotent)
 
 ---
 
@@ -697,7 +697,7 @@ of how many times it's executed
 - documentation topic type
 - explains what a product or feature is, why it exists, and what problems it solves
 
-**Glossary Term Entry Location**: [Core Concepts - introduction](core-concepts.md#introduction)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - introduction](core-concepts.md#introduction)
 
 ---
 
@@ -707,11 +707,11 @@ of how many times it's executed
 
 ### JSON
 
-- acronym for JavaScript Object Notation
+- acronym for _JavaScript Object Notation_
 - text-based data format that uses human-readable key-value pairs
 to represent structured data
 
-**Glossary Term Entry Location**: [Core Concepts - JSON](core-concepts.md#json)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - JSON](core-concepts.md#json)
 
 ---
 
@@ -757,6 +757,17 @@ to complete new tasks
 
 ---
 
+### `main` branch
+
+- version control concept
+- Git feature
+- default branch of a repository containing the published, released, or trusted
+version of content
+
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - `main` branch](./tools-techniques-temp/development-essentials.md#main-branch)
+
+---
+
 ### Markdown
 
 - markup language designed to format plain text documents
@@ -780,7 +791,7 @@ that compete with similar offerings
 - Git feature
 - moving the changes from one branch to another branch
 
-**Glossary Term Entry Location**: [Tools & Techniques - merge](tools-techniques.md#merge)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge](./tools-techniques-temp/development-essentials.md#merge)
 
 ---
 
@@ -791,7 +802,7 @@ that compete with similar offerings
 - a commit that after branching, integrates changes from
 a feature branch with updates that occurred in the original branch
 
-**Glossary Term Entry Location**: [Tools & Techniques - merge commit](tools-techniques.md#merge-commit)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge commit](./tools-techniques-temp/development-essentials.md#merge-commit)
 
 ---
 
@@ -799,11 +810,10 @@ a feature branch with updates that occurred in the original branch
 
 - version control concept
 - Git feature
-- scenario in which two commits have changes in the same
-file
+- scenario in which two commits have changes in the same file
 - blocks merging and requires manual resolution
 
-**Glossary Term Entry Location**: [Tools & Techniques - merge conflict](tools-techniques.md#merge-conflict)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge conflict](./tools-techniques-temp/development-essentials.md#merge-conflict)
 
 ---
 
@@ -839,7 +849,7 @@ that mimic humans’ use of language
 - documentation topic type
 - new team member handbook designed to reduce time-to-productivity
 
-**Glossary Term Entry Location**: [Core Concepts - onboarding guide](core-concepts.md#onboarding-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - onboarding guide](core-concepts.md#onboarding-guide)
 
 ---
 
@@ -850,7 +860,7 @@ that mimic humans’ use of language
 - used to create the interface and documentation
 - format: YAML
 
-**Glossary Term Entry Location**: [Core Concepts - OpenAPI Specification](core-concepts.md#openapi-specification)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - OpenAPI Specification](core-concepts.md#openapi-specification)
 
 ---
 
@@ -859,7 +869,7 @@ that mimic humans’ use of language
 - version control concept
 - default upstream repository, typically clone source repository
 
-**Glossary Term Entry Location**: [Tools & Techniques - origin repository](tools-techniques.md#origin-repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - origin repository](./tools-techniques-temp/development-essentials.md#origin-repository)
 
 ---
 
@@ -872,7 +882,7 @@ that mimic humans’ use of language
 - variables passed in API requests
 - specify, filter, or change data based on the operation in use
 
-**Glossary Term Entry Location**: [Core Concepts - parameters](core-concepts.md#parameters)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - parameters](core-concepts.md#parameters)
 
 ---
 
@@ -881,7 +891,7 @@ that mimic humans’ use of language
 - HTTP method
 - applies partial modifications to an existing resource
 
-**Glossary Term Entry Location**: [Core Concepts -  `PATCH`](core-concepts.md#patch)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  `PATCH`](core-concepts.md#patch)
 
 ---
 
@@ -891,7 +901,7 @@ that mimic humans’ use of language
 - actual data transmitted in an API request or response
 body
 
-**Glossary Term Entry Location**: [Core Concepts -  payload](core-concepts.md#payload)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  payload](core-concepts.md#payload)
 
 ---
 
@@ -911,7 +921,7 @@ procedures work as written
 - HTTP method
 - submits data to a server to create new resources
 
-**Glossary Term Entry Location**: [Core Concepts - `POST`](core-concepts.md#post)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `POST`](core-concepts.md#post)
 
 ---
 
@@ -935,11 +945,11 @@ procedures work as written
 
 ### Protocol Buffers
 
-- developed by Google
+- data exchange format developed by Google
 - language and platform neutral mechanism for serializing structured data
 - enables strongly typed contracts between services
 
-**Glossary Term Entry Location**: [Tools & Techniques - Protocol Buffers](tools-techniques.md#protocol-buffers)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - Protocol Buffers](./tools-techniques-temp/development-essentials.md#protocol-buffers)
 
 ---
 
@@ -950,7 +960,7 @@ procedures work as written
 - fetching changes from upstream, such as pulling the changes
 down from an origin or upstream repository
 
-**Glossary Term Entry Location**: [Tools & Techniques - pull](tools-techniques.md#pull)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull](./tools-techniques-temp/development-essentials.md#pull)
 
 ---
 
@@ -962,7 +972,7 @@ down from an origin or upstream repository
 - request to another user that invites them to pull one's changes from
 a repository/branch into their repository
 
-**Glossary Term Entry Location**: [Tools & Techniques - pull request](tools-techniques.md#pull-request)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull request](./tools-techniques-temp/development-essentials.md#pull-request)
 
 ---
 
@@ -973,7 +983,7 @@ a repository/branch into their repository
 - moving changes upstream, such as from a local computer
 to its origin repository
 
-**Glossary Term Entry Location**: [Tools & Techniques - push](tools-techniques.md#push)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - push](./tools-techniques-temp/development-essentials.md#push)
 
 ---
 
@@ -983,7 +993,7 @@ to its origin repository
 - replaces an existing resource with new data
 - creates a resource at a specific URL if it doesn't exist
 
-**Glossary Term Entry Location**: [Core Concepts - `PUT`](core-concepts.md#put)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `PUT`](core-concepts.md#put)
 
 ---
 
@@ -996,7 +1006,7 @@ to its origin repository
 - documentation topic type
 - the absolute least amount of steps needed to achieve first success with a product
 
-**Glossary Term Entry Location**: [Core Concepts - quickstart](core-concepts.md#quickstart)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - quickstart](core-concepts.md#quickstart)
 
 ---
 
@@ -1011,7 +1021,7 @@ client can make within a specified time window
 - prevents abuse, maintains service stability, and ensures
 fair access for all users
 
-**Glossary Term Entry Location**: [Core Concepts - rate limiting](core-concepts.md#rate-limiting)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - rate limiting](core-concepts.md#rate-limiting)
 
 ---
 
@@ -1031,7 +1041,7 @@ fair access for all users
 - used to resync a feature branch to its source branch
 after the source branch has changed
 
-**Glossary Term Entry Location**: [Tools & Techniques - rebase](tools-techniques.md#rebase)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - rebase](./tools-techniques-temp/development-essentials.md#rebase)
 
 ---
 
@@ -1041,7 +1051,7 @@ after the source branch has changed
 - provides detailed, factual information or system specifications
 - designed for lookup rather than learning
 
-**Glossary Term Entry Location**: [Core Concepts - reference](core-concepts.md#reference)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - reference](core-concepts.md#reference)
 
 ---
 
@@ -1050,7 +1060,7 @@ after the source branch has changed
 - also known as "repo"
 - place to store files that are under Git’s version control
 
-**Glossary Term Entry Location**: [Tools & Techniques - repository](tools-techniques.md#repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - repository](./tools-techniques-temp/development-essentials.md#repository)
 
 ---
 
@@ -1060,7 +1070,7 @@ after the source branch has changed
 - client sends a request
 - server returns a response
 
-**Glossary Term Entry Location**: [Core Concepts - request/response](core-concepts.md#requestresponse)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request/response](core-concepts.md#requestresponse)
 
 ---
 
@@ -1070,13 +1080,13 @@ after the source branch has changed
 - distinct piece of data or entity available for reference
 or modification through an API
 
-**Glossary Term Entry Location**: [Core Concepts - resource](core-concepts.md#resource)
+**Glossary Term Entry Location**: [Core Concepts, API fundamentals - resource](core-concepts.md#resource)
 
 ---
 
 ### REST API
 
-- acronym for *RE*presentational state transfer, application programming interface
+- acronym for _Representational state transfer_ API
 - a convention, not a regulated standard
 - an architectural style for distributed hypermedia systems
 - one of the most widely used approaches for building web-based APIs
@@ -1097,7 +1107,7 @@ or modification through an API
 
 ### RFC
 
-- acronym for Request for Comments
+- acronym for _Request for Comments_
 - IETF - Internet Engineering Task Force - concept
 - numbered technical documents
 - provide authoritative specifications for web standards
@@ -1117,7 +1127,7 @@ or modification through an API
 
 ### RPC API
 
-- acronym for Remote Procedure Call API
+- acronym for _Remote Procedure Call_ API
 - simplifies distributed computing
 - allows clients to execute functions on remote servers
 as if calling local functions
@@ -1131,7 +1141,7 @@ as if calling local functions
 - documentation topic type
 - provides standardized instructions for operational or maintenance activities
 
-**Glossary Term Entry Location**: [Core Concepts - runbook](core-concepts.md#runbook)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - runbook](core-concepts.md#runbook)
 
 ---
 
@@ -1156,7 +1166,7 @@ or externally to educate and convert prospective customers
 relationships within an API's requests and responses
 - enables validation, auto-generated documentation, and type safety
 
-**Glossary Term Entry Location**: [Core Concepts - schema](core-concepts.md#schema)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - schema](core-concepts.md#schema)
 
 ---
 
@@ -1186,7 +1196,7 @@ relationships within an API's requests and responses
 network transmission or storage, then reconstruction
 - enables data exchange between systems
 
-**Glossary Term Entry Location**: [Core Concepts - serialization](core-concepts.md#serialization)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - serialization](core-concepts.md#serialization)
 
 ---
 
@@ -1213,7 +1223,7 @@ successfully and produce expected results
 
 ### SOAP API
 
-- acronym for Simple Object Access Protocol
+- acronym for _Simple Object Access Protocol_
 - uses XML-based messaging protocol to exchange structured information between systems
 - was the enterprise API standard before REST took over
 
@@ -1227,7 +1237,7 @@ successfully and produce expected results
 - Git feature
 - action of combining many commits into a single commit
 
-**Glossary Term Entry Location**: [Tools & Techniques - squash](tools-techniques.md#squash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - squash](./tools-techniques-temp/development-essentials.md#squash)
 
 ---
 
@@ -1250,7 +1260,7 @@ successfully and produce expected results
 - focuses on "how to" perform an action with step-by-step
 instructions
 
-**Glossary Term Entry Location**: [Core Concepts - task](core-concepts.md#task)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - task](core-concepts.md#task)
 
 ---
 
@@ -1259,7 +1269,7 @@ instructions
 - documentation topic type
 - introduces a subject area and provides navigation to related topics
 
-**Glossary Term Entry Location**: [Core Concepts - top-level](core-concepts.md#top-level)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - top-level](core-concepts.md#top-level)
 
 ---
 
@@ -1268,7 +1278,7 @@ instructions
 - documentation topic type
 - helps users diagnose and resolve specific problems or error conditions
 
-**Glossary Term Entry Location**: [Core Concepts - troubleshooting](core-concepts.md#troubleshooting)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - troubleshooting](core-concepts.md#troubleshooting)
 
 ---
 
@@ -1277,7 +1287,7 @@ instructions
 - documentation topic type
 - guides users through a complete, real-world scenario from start to finish
 
-**Glossary Term Entry Location**: [Core Concepts - tutorial](core-concepts.md#tutorial)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - tutorial](core-concepts.md#tutorial)
 
 ---
 
@@ -1290,27 +1300,27 @@ instructions
 - version control concept
 - original repository, source of fork
 
-**Glossary Term Entry Location**: [Tools & Techniques - upstream repository](tools-techniques.md#upstream-repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - upstream repository](./tools-techniques-temp/development-essentials.md#upstream-repository)
 
 ---
 
 ### URI
 
-- acronym for Uniform Resource Identifer
+- acronym for _Uniform Resource Identifer_
 - standard format for identifying resources
 - forms the foundation for both URLs and URNs
 
-**Glossary Term Entry Location**: [Core Concepts - URI](core-concepts.md#uri)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URI](core-concepts.md#uri)
 
 ---
 
 ### URL
 
-- acronym for Uniform Resource Locator
+- acronym for _Uniform Resource Locator_
 - specific URI type that includes network location
 - defines exactly where endpoints exist, how to reach them
 
-**Glossary Term Entry Location**: [Core Concepts - URL](core-concepts.md#url)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URL](core-concepts.md#url)
 
 ---
 
@@ -1325,10 +1335,10 @@ a group of representative users
 
 ### UI
 
-- acronym for user interface
+- acronym for _user interface_
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques - UI](tools-techniques.md#ui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](./tools-techniques-temp/development-essentials.md#ui)
 
 ---
 
@@ -1338,7 +1348,7 @@ a group of representative users
 
 ### Vale
 
-- open-source command-line tool
+- open source command-line tool
 - lints prose and enforces editorial style rules in documentation
 - supports multiple style guides including Microsoft, Google, and custom rules
 
@@ -1352,7 +1362,7 @@ a group of representative users
 before processing or storage
 - ensures data quality and improves API reliability
 
-**Glossary Term Entry Location**: [Core Concepts - validation](core-concepts.md#validation)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - validation](core-concepts.md#validation)
 
 ---
 
@@ -1360,7 +1370,7 @@ before processing or storage
 
 - system that tracks changes in documents and other files
 
-**Glossary Term Entry Location**: [Tools & Techniques - version control](tools-techniques.md#version-control)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - version control](./tools-techniques-temp/development-essentials.md#version-control)
 
 ---
 
@@ -1411,7 +1421,7 @@ multiple endpoints and operations
 
 - local computer directory that stores cloned repositories
 
-**Glossary Term Entry Location**: [Tools & Techniques - workspace](tools-techniques.md#workspace)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - workspace](./tools-techniques-temp/development-essentials.md#workspace)
 
 ---
 
@@ -1421,10 +1431,10 @@ multiple endpoints and operations
 
 ### XML
 
-- acronym for Extensible Markup Language
+- acronym for _Extensible Markup Language_
 - commonly used for data exchange in APIs and configuration files
 - essentially replaced by JSON, but remains in legacy integrations
 
-**Glossary Term Entry Location**: [Tools & Techniques - XML](tools-techniques.md#xml)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - XML](./tools-techniques-temp/development-essentials.md#xml)
 
 ---

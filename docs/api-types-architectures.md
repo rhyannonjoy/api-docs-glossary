@@ -104,7 +104,7 @@ messages rather than JSON
 
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP versions](core-concepts.md#http-versions),
-[Protocol Buffers](tools-techniques.md#protocol-buffers),
+[Protocol Buffers](./tools-techniques-temp/development-essentials.md#protocol-buffers),
 [RPC API](#rpc-api),
 [serialization](core-concepts.md#serialization)
 
@@ -156,9 +156,9 @@ applications within milliseconds of market movements
 
 ## REST API
 
-**Definition**: acronym for *RE*presentational State Transfer
-application programming interface - one of the most widely used
-approaches for building web-based APIs
+**Definition**: acronym for _Representational State Transfer_
+API - one of the most widely used approaches for building web-based
+APIs
 
 **REST isn't a regulated standard**, but an architectural style for
 distributed hypermedia systems, first presented by Roy Fielding in 2000;
@@ -223,7 +223,8 @@ resource formatted as a JSON document:
 
 **Related Terms**: [API](core-concepts.md#api),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[CLI](tools-techniques.md#cli), [HTTP](core-concepts.md#http),
+[CLI](./tools-techniques-temp/development-essentials.md#cli),
+[HTTP](core-concepts.md#http),
 [HTTP status codes](core-concepts.md#http-status-codes),
 [JSON](core-concepts.md#json), [parameters](core-concepts.md#parameters),
 [resource](core-concepts.md#resource), [URL](core-concepts.md#url)
@@ -320,8 +321,8 @@ requirements, and transaction guarantees
 
 **Related Terms**: [API](core-concepts.md#api),
 [error handling](core-concepts.md#error-handling),
-[HTTP](core-concepts.md#http),
-[REST API](#rest-api), [XML](tools-techniques.md#xml)
+[HTTP](core-concepts.md#http), [REST API](#rest-api),
+[XML](./tools-techniques-temp/development-essentials.md#xml)
 
 **Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
 

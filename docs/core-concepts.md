@@ -60,7 +60,8 @@ sequenceDiagram
 **Related Terms**:
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [API endpoint](#api-endpoint), [API gateway](api-types-architectures.md#api-gateway),
-[API security](#api-security), [CLI](tools-techniques.md#cli),
+[API security](#api-security),
+[CLI](./tools-techniques-temp/development-essentials.md#cli),
 [REST API](api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
@@ -542,7 +543,7 @@ with JavaScript
 **Related Terms**: [payload](#payload),
 [REST API](api-types-architectures.md#rest-api),
 [serialization](#serialization),
-[XML](tools-techniques.md#xml)
+[XML](./tools-techniques-temp/development-essentials.md#xml)
 
 **Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
 
@@ -629,7 +630,7 @@ required to create a user:
 
 **Related Terms**: [HTTP method](#http-method), [JSON](#json),
 [request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
-[serialization](#serialization), [XML](tools-techniques.md#xml)
+[serialization](#serialization), [XML](./tools-techniques-temp/development-essentials.md#xml)
 
 **Sources**:
 
@@ -896,8 +897,8 @@ into JSON string `{"name":"Alice", "age":30}` before sending it in an
 API request
 
 **Related Terms**: [JSON](#json), [payload](#payload),
-[protocol buffers](tools-techniques.md#protocol-buffers),
-[XML](tools-techniques.md#xml)
+[protocol buffers](./tools-techniques-temp/development-essentials.md#protocol-buffers),
+[XML](./tools-techniques-temp/development-essentials.md#xml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
 
