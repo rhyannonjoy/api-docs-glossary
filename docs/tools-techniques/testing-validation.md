@@ -435,3 +435,35 @@ documentation inaccurate
 - [Manny Silva, Docs as Tests: "Tools"](https://www.docsastests.com/tools)
 
 ---
+
+## Speakeasy
+
+**Definition**: platform for generating and maintaining API SDKs and
+documentation from OpenAPI specifications
+
+**Purpose**: automates SDK creation across multiple programming languages;
+keeps client libraries synchronized with API changes through code generation;
+excels at contract testing by verifying that both the API implementation
+follows the expected contract and that generated SDKs correctly interact
+with the API, offering detailed validation of request/response schemas,
+status codes, and error handling in a unified workflow
+
+**Example**: API providers use Speakeasy to generate Python, TypeScript, and
+Go SDKs from their OpenAPI specification, updating all SDKs automatically
+when the API changes
+
+**Related Terms**:
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[error handling](../core-concepts.md#error-handling),
+[HTTP status codes](../core-concepts.md#http-status-codes),
+[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[request/response](../core-concepts.md#requestresponse),
+SDK
+
+**Sources**:
+
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- [Speakeasy Docs: "Get started with Speakeasy"](https://www.speakeasy.com/docs)
+
+---
