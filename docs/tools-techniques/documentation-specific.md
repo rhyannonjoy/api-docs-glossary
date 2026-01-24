@@ -105,14 +105,15 @@ creating, validating, and publishing API reference documentation
 customizable documentation; provides linting and validation for API
 specifications through automated rule enforcement
 
-**Common Redocly tools**:
+**Common Redocly Tools**:
 
-- [Redocly CLI](https://redocly.com/docs/cli/) - Command-line interface
+- [Redocly CLI](https://redocly.com/docs/cli/) - command-line interface
 for linting, bundling, and building OpenAPI documents
-- [Redocly Respect](https://redocly.com/docs/respect/) - OpenAPI linter
-that validates specifications against style guides and best practices
+- [Redocly Respect](https://redocly.com/docs/respect/) - contract and
+workflow testing tool that continuously validates live APIs against
+Arazzo/OpenAPI definitions
 - [Redocly Developer Portal](https://redocly.com/docs/developer-portal/) -
-Hosts and renders interactive API documentation
+hosts and renders interactive API documentation
 
 **Example**: teams use Redocly CLI with Respect to lint OpenAPI files for
 style guide compliance in CI/CD pipelines, catching specification errors
@@ -126,6 +127,7 @@ platform where developers can explore endpoints interactively
 [CLI](development-essentials.md#cli),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [OpenAPI Specification](../core-concepts.md#openapi-specification),
+[Redocly Respect](testing-validation.md#redocly-respect),
 [Spectral](#spectral), [Swagger](#swagger), [Vale](#vale)
 
 **Sources**:
