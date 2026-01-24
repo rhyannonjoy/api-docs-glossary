@@ -1280,6 +1280,16 @@ successfully and produce expected results
 
 ---
 
+### Speakeasy
+
+- platform for generating and maintaining API SDKs and
+documentation from OpenAPI specifications
+- keeps client libraries synchronized with API changes
+
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Speakeasy](./tools-techniques/testing-validation.md#speakeasy)
+
+---
+
 ### Spectral
 
 - open source linter
