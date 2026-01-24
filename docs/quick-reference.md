@@ -958,9 +958,19 @@ procedures work as written
 ### Postman
 
 - API development platform
-- commonly used for REST API development and testing workflows
+- commonly used for REST API development, exploration, and testing workflows
 
 **Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Postman](./tools-techniques/documentation-specific.md#postman)
+
+---
+
+### Postman Newman
+
+- command-line collection runner for Postman
+- executes and tests API requests in CI/CD pipelines and automated
+workflows
+
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Postman Newman](./tools-techniques/testing-validation.md#postman-newman)
 
 ---
 

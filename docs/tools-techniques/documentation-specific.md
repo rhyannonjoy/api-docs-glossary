@@ -31,11 +31,13 @@ links, lists, and tables
 **Definition**: API development platform for designing, testing,
 documenting, and monitoring APIs through a graphical interface
 
-**Purpose**: commonly used for REST API development and testing
-workflows; enables API testing and exploration without
-command-line tools; provides a GUI alternative to cURL
+**Purpose**: commonly used for REST API development, exploration,
+and testing workflows; provides a GUI alternative to cURL
 for making HTTP requests, supports automated test suites, collection
-sharing, and API documentation generation
+sharing, and API documentation generation; power lies in its
+ability to chain requests, validate responses, and maintain
+test environments, validating both API behavior and
+documentation accuracy
 
 **Why this belongs in `Documentation-Specific`**: Postman is primarily
 a platform for exploring, documenting, and sharing APIs through
@@ -46,25 +48,31 @@ automated validation - teams use Postman to understand how APIs work
 and communicate that understanding to others, making it
 _fundamentally a documentation and exploration tool_
 
-**Example**: a technical writer creates a Postman collection documenting
-all endpoints for a payment API, organizing requests into folders like
-"Authentication," "Transactions," and "Refunds"; they add descriptions,
-example requests with pre-filled parameters, and expected responses to
-each endpoint; the team shares this collection with developers and partners,
-who use it to explore the API interactively and understand how different
-endpoints work together - the collection becomes living documentation
-that stays synchronized with the API as it evolves
+**Postman Ecosystem**:
+
+- **Postman GUI** - interactive interface for exploring and documenting APIs
+- **Postman Collections** - organized groups of API requests with documentation
+- **Newman** - CLI collection runner executes tests for API requests, workflows
+
+**Example**: a technical writer documents a payment API using Postman collections
+
+- **Organizes** endpoints into folders: Authentication, Transactions, Refunds
+- **Documents** each endpoint with descriptions, example requests, and expected responses
+- **Shares** collection with developers and partners for interactive API exploration
+- **Maintains** living documentation that stays synchronized as the API evolves
 
 **Related Terms**:
 [Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl),
-[GUI](development-essentials.md#gui), [json-server](testing-validation.md#json-server),
+[GUI](development-essentials.md#gui), [`json-server`](testing-validation.md#json-server),
+[Postman Newman](testing-validation.md#postman-newman),
 [REST API](../api-types-architectures.md#rest-api), [Swagger](#swagger),
 [UI](development-essentials.md#ui)
 
 **Sources**:
 
-- UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 - [Postman, Inc.: "What is Postman?"](https://www.postman.com/product/)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
 ---
 

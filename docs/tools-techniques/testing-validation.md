@@ -358,6 +358,46 @@ documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 ---
 
+## Postman Newman
+
+**Definition**: command-line collection runner for Postman that executes API
+tests and validations in automated environments
+
+**Purpose**: enables automated testing of Postman collections in CI/CD pipelines,
+continuous integration workflows, and headless environments; runs the same
+API tests created in Postman GUI without requiring the graphical interface;
+validates API behavior, response codes, data structures, and performance
+against documented expectations
+
+**Why this belongs in `Testing-Validation`**: executes automated API tests against
+live endpoints to validate runtime behavior, distinguishing it from Postman's
+interactive exploration interface; focuses on continuous validation and regression
+testing in CI/CD pipelines rather than manual API discovery, making it
+_fundamentally a testing automation tool_
+
+**Example**:
+
+| Phase | Action | Result |
+| ------ | -------------- | -------- |
+| **Setup** | Documentation team creates Postman collections documenting their API | Newman runs these collections automatically in their CI/CD pipeline |
+| **Testing** | Documentation team adds embedded tests that validate response schemas and status codes | Newman runs these tests automatically in their CI/CD pipeline |
+| **Detection** | Developer changes endpoint response format without updating spec | Newman catches breaking changes |
+| **Prevention** | Build fails, blocks deployment | Team updates documentation before code ships |
+
+**Related Terms**: 
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[contract testing](../workflows-methodologies.md#contract-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
+[Postman](documentation-specific.md#postman), [Redocly Respect](testing-validation.md#redocly-respect)
+
+**Sources**:
+
+- [Postman, Inc., Postman Docs: "Run and test collections from the command line using Newman CLI"](https://learning.postman.com/docs/collections/using-newman-cli/command-line-integration-with-newman/)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
 ## Redocly Respect
 
 **Definition**: API contract and workflow testing tool that
@@ -394,7 +434,7 @@ Arazzo, [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
 [OpenAPI Specification](../core-concepts.md#openapi-specification),
-[Redocly](documentation-specific.md#redocly),
+[Postman Newman](#postman-newman), [Redocly](documentation-specific.md#redocly),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
 
 **Sources**:
