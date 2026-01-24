@@ -898,6 +898,15 @@ that mimic humans’ use of language
 
 ---
 
+### Pact
+
+- open source consumer-driven contract testing framework
+- makes sure API consumers and providers stay in sync
+
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation, Pact](./tools-techniques/testing-validation.md#pact)
+
+---
+
 ### parameters
 
 - variables passed in API requests
