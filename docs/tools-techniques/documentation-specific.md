@@ -5,8 +5,7 @@ From interactive specification viewers to automated style checkers,
 this section covers the platforms that help teams create accurate,
 consistent, and developer-friendly API documentation.
 
-<!-- TODO: Add overview and/or value proposition>
-<!-- TODO: consider adding GitHub Pages, Redoc, Stoplight, MkDocs, Docusaurus, Static site generators -->
+<!-- TODO: consider adding GitHub Pages, Stoplight, MkDocs, Docusaurus, Static site generators -->
 
 ## Markdown
 
@@ -97,6 +96,32 @@ web pages change
 
 ---
 
+## Redocly
+
+**Definition**: API documentation platform and OpenAPI tooling suite
+for creating, validating, and publishing API reference documentation
+
+**Purpose**: transforms OpenAPI specifications into interactive,
+customizable documentation; provides linting and validation for
+API specifications
+
+**Example**: teams use [Redocly CLI](https://redocly.com/docs/cli)
+to lint OpenAPI files for style guide compliance, then deploy
+documentation to Redocly's hosting platform
+
+**Related Terms**:
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[CLI](./development-essentials.md#cli),
+[OpenAPI Specification](core-concepts.md#openapi-specification),
+[Spectral](#spectral), [Vale](#vale)
+
+**Sources**:
+
+- [Redocly Docs: "About Redocly Documentation"](https://redocly.com/docs)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
 ## Spectral
 
 **Definition**: open source JSON/YAML linter for creating automated
@@ -120,7 +145,7 @@ the violations in CI/CD, preventing merge until documentation is complete
 [contract testing](../workflows-methodologies.md#contract-testing),
 [JSON](../core-concepts.md#json),
 [OpenAPI Specification](../core-concepts.md#openapi-specification),
-Redocly
+[Redocly](#redocly)
 
 **Sources**:
 
@@ -191,7 +216,8 @@ preventing merge until the team releases corrections
 
 **Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Markdown](#markdown), [pull request](development-essentials.md#pull-request)
+[Markdown](#markdown), [pull request](development-essentials.md#pull-request),
+[Redocly](#redocly)
 
 **Sources**:
 

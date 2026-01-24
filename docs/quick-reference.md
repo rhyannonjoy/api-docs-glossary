@@ -1075,6 +1075,15 @@ after the source branch has changed
 
 ---
 
+### Redocly
+
+- API documentation platform and OpenAPI tooling suite
+- creates, validates, and publishes API reference documentation
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Redocly](./tools-techniques/documentation-specific.md#redocly)
+
+---
+
 ### reference
 
 - documentation topic type
