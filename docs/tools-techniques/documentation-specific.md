@@ -97,6 +97,38 @@ web pages change
 
 ---
 
+## Spectral
+
+**Definition**: open source JSON/YAML linter for creating automated
+style guides and validating API descriptions against customizable rulesets
+
+**Purpose**: enforces API design standards and best practices by checking
+OpenAPI, AsyncAPI, and JSON Schema documents for structure, completeness,
+and style compliance; catches specification errors before API implementation;
+ensures consistent API design patterns across teams through automated validation
+of OpenAPI/AsyncAPI documents
+
+**Example**: a documentation team configures Spectral to enforce their API
+style guide, requiring all endpoints to have descriptions, examples, and
+proper HTTP status code documentation; when a developer submits a pull
+request with an OpenAPI spec missing operation descriptions, Spectral flags
+the violations in CI/CD, preventing merge until documentation is complete
+
+**Related Terms**:
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[AsyncAPI](../core-concepts.md#asyncapi),
+[contract testing](../workflows-methodologies.md#contract-testing),
+[JSON](../core-concepts.md#json),
+[OpenAPI Specification](../core-concepts.md#openapi-specification),
+Redocly
+
+**Sources**:
+
+- [SmartBear Software, Stoplight: "Spectral: An open source API style guide enforcer and linter"](https://stoplight.io/open-source/spectral)
+- [GitHub: stoplightio/spectral](https://github.com/stoplightio/spectral)
+
+---
+
 ## Swagger
 
 **Definition**: suite of open source tools for designing, building,

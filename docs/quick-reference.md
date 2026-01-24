@@ -1261,6 +1261,16 @@ successfully and produce expected results
 
 ---
 
+### Spectral
+
+- open source linter
+- creates automated style guides
+- validates API descriptions against customizable rulesets
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Spectral](./tools-techniques/documentation-specific.md#spectral)
+
+---
+
 ### squash
 
 - version control concept
