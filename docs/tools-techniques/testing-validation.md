@@ -257,6 +257,35 @@ validate responses, chain requests, and verify data transformations
 
 ---
 
+## Microcks
+
+**Definition**: open source cloud-native tool for API mocking and
+contract testing that transforms API specifications into live simulations
+
+**Purpose**: accelerates API development by providing realistic mocks
+before implementation exists; validates API conformance against OpenAPI,
+AsyncAPI, GraphQL, gRPC and other specifications; supports both
+synchronous and event-driven APIs
+
+**Example**: teams import OpenAPI specifications into Microcks to generate
+mock endpoints for parallel development, then run contract tests to
+verify implementations match specifications
+
+**Related Terms**: [AsyncAPI](../core-concepts.md#asyncapi),
+[contract testing](../workflows-methodologies.md#contract-testing),
+[event-driven](../api-types-architectures.md#event-driven),
+[GraphQL API](../api-types-architectures.md#graphql-api),
+[gRPC API](../api-types-architectures.md#grpc-api),
+[OpenAPI Specification](../core-concepts.md#openapi-specification),
+Pact
+
+**Sources**:
+
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- [The Linux Foundation, Microcks Docs: "What is Microcks?"](https://microcks.io/documentation/overview/what-is-microcks/)
+
+---
+
 ## Playwright
 
 **Definition**: an open source browser automation framework created by
@@ -288,6 +317,7 @@ documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 - [Manny Silva, Docs as Tests: "Tools"](https://www.docsastests.com/tools)
 - [Microsoft, Playwright: Official Documentation](https://playwright.dev/)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 

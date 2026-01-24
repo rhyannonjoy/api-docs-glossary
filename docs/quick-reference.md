@@ -828,6 +828,16 @@ a feature branch with updates that occurred in the original branch
 
 ---
 
+### Microcks
+
+- open source cloud-native tool for API mocking and
+contract testing
+- transforms API specifications into live simulations
+
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Microcks](./tools-techniques/testing-validation.md#microcks)
+
+---
+
 ### microservices
 
 - architectural approach

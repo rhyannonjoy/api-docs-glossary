@@ -1439,6 +1439,7 @@ it requires interpretation before it can become either
 **Related terms**: [API](#api), [API reference topic](#api-reference-topic),
 [AsyncAPI](#asyncapi),
 [Dredd](./tools-techniques/testing-validation.md#dredd),
+[Microcks](./tools-techniques/testing-validation.md#microcks),
 [reference](#reference), [REST API](api-types-architectures.md#rest-api),
 [schema](#schema)
 
