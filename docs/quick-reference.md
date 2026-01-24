@@ -41,6 +41,16 @@ require human intelligence
 
 ---
 
+### AMQP
+
+- acronym for _Advanced Message Queuing Protocol_
+- open standard application layer protocol for message-oriented middleware
+that enables reliable, asynchronous communication between applications
+
+**Glossary Term Entry Location**: [API Types & Architectures - AMQP](api-types-architectures.md#amqp)
+
+---
+
 ### API
 
 - acronym for _application programming interface_

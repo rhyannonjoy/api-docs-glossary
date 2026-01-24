@@ -7,6 +7,38 @@ and recognize when standard REST documentation conventions don't apply.
 
 ---
 
+## AMQP
+
+**Definition**: acronym for _Advanced Message Queuing Protocol_ -
+open standard application layer protocol for message-oriented middleware
+that enables reliable, asynchronous communication between applications
+
+**Purpose**: provides interoperable wire format for messaging systems;
+supports message queuing, routing, reliability guarantees, and security
+features across different platforms and programming languages
+
+**Why this belongs in `API Types & Architectures`**: AMQP is a messaging
+protocol specification that defines message format and transmission,
+similar to how HTTP defines request-response communication; while tools
+like RabbitMQ implement AMQP, the protocol itself belongs with other
+communication protocols and architectural patterns
+
+**Example**: financial services use AMQP to ensure reliable message
+delivery between trading systems, with guaranteed delivery options of
+at-most-once, at-least-once, or exactly once
+
+**Related Terms**: [AsyncAPI](core-concepts.md#asyncapi),
+[HTTP](core-concepts.md#http), MQTT,
+[request/response](core-concepts.md#requestresponse), STOMP,
+[WebSocket API](#websocket-api)
+
+**Sources**:
+
+- [Oasis, AMQP About Page: "AMQP is the Internet Protocol for Business Messaging"](https://www.amqp.org/about/what)
+- [Wikipedia: "Advanced Message Queuing Protocol"](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol)
+
+---
+
 ## API gateway
 
 **Definition**: server that acts as a single entry point for many backend
@@ -370,8 +402,9 @@ collaborative tools
 to receive price updates instantly as they occur, rather than polling the
 server every few seconds
 
-**Related Terms**: [API](core-concepts.md#api), [AsyncAPI](core-concepts.md#asyncapi),
-[event-driven](#event-driven), [HTTP](core-concepts.md#http), [real-time](#real-time)
+**Related Terms**: [AMQP](#amqp), [API](core-concepts.md#api),
+[AsyncAPI](core-concepts.md#asyncapi), [event-driven](#event-driven),
+[HTTP](core-concepts.md#http), [real-time](#real-time)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
