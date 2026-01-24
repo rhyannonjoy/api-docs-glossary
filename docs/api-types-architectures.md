@@ -18,23 +18,26 @@ supports message queuing, routing, reliability guarantees, and security
 features across different platforms and programming languages
 
 **Why this belongs in `API Types & Architectures`**: AMQP is a messaging
-protocol specification that defines message format and transmission,
-similar to how HTTP defines request-response communication; while tools
-like RabbitMQ implement AMQP, the protocol itself belongs with other
-communication protocols and architectural patterns
+protocol specification ratified by OASIS -
+_Organization for the Advancement of Structured Information Standards_ -
+and ISO - _International Organization for Standardization_ -
+that defines message format and transmission, similar to how HTTP defines
+request-response communication; while tools like RabbitMQ implement AMQP,
+the protocol itself belongs with other communication protocols and
+architectural patterns
 
 **Example**: financial services use AMQP to ensure reliable message
 delivery between trading systems, with guaranteed delivery options of
 at-most-once, at-least-once, or exactly once
 
 **Related Terms**: [AsyncAPI](core-concepts.md#asyncapi),
-[HTTP](core-concepts.md#http), MQTT,
+[HTTP](core-concepts.md#http), [MQTT](#mqtt),
 [request/response](core-concepts.md#requestresponse), STOMP,
 [WebSocket API](#websocket-api)
 
 **Sources**:
 
-- [Oasis, AMQP About Page: "AMQP is the Internet Protocol for Business Messaging"](https://www.amqp.org/about/what)
+- [OASIS, AMQP About Page: "AMQP is the Internet Protocol for Business Messaging"](https://www.amqp.org/about/what)
 - [Wikipedia: "Advanced Message Queuing Protocol"](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol)
 
 ---
@@ -165,6 +168,42 @@ recommendations, playback, billing, and user profiles, each with its own API
 [REST API](#rest-api)
 
 **Source**: [Martin Fowler: "Microservices"](https://martinfowler.com/articles/microservices.html)
+
+---
+
+## MQTT
+
+**Definition**: acronym for _Message Queuing Telemetry Transport_ -
+lightweight publish-subscribe messaging protocol designed for constrained
+devices and networks with limited bandwidth or unreliable connections
+
+**Purpose**: enables efficient IoT - _Internet of Things_ - and
+machine-to-machine communication with minimal code footprint, low network
+overhead, and quality of service levels for delivery guarantees; optimized
+for battery-powered devices; used in a wide variety of industries, such
+as automotive, manufacturing, telecommunications, and oil and gas
+
+**Why this belongs in `API Types & Architectures`**: MQTT is a messaging
+protocol standard ratified by OASIS -
+_Organization for the Advancement of Structured Information Standards_ -
+and ISO - _International Organization for Standardization_ -
+that defines communication patterns and message format,
+not a specific software implementation; comparable to how AMQP and
+WebSocket are protocol specifications in this category
+
+**Example**: IoT devices like smart thermostats and industrial sensors
+use MQTT to publish temperature and pressure data to cloud brokers
+with minimal battery drain, leveraging persistent sessions that survive
+network disconnections and automatic reconnection capabilities
+
+**Related Terms**: [AMQP](#amqp), [AsyncAPI](core-concepts.md#asyncapi),
+[HTTP](core-concepts.md#http), STOMP,
+[WebSocket API](api-types-architectures.md#websocket-api)
+
+**Sources**:
+
+- [MQTT.org: "MQTT - The Standard for IoT Messaging"](https://mqtt.org/)
+- [Amazon Web Services, Inc.: "What is MQTT?"](https://aws.amazon.com/what-is/mqtt/)
 
 ---
 
@@ -404,7 +443,7 @@ server every few seconds
 
 **Related Terms**: [AMQP](#amqp), [API](core-concepts.md#api),
 [AsyncAPI](core-concepts.md#asyncapi), [event-driven](#event-driven),
-[HTTP](core-concepts.md#http), [real-time](#real-time)
+[HTTP](core-concepts.md#http), [MQTT](#mqtt), [real-time](#real-time)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 

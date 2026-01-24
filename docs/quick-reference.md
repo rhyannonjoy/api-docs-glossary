@@ -857,6 +857,16 @@ contract testing
 
 ---
 
+### MQTT
+
+- acronym for _Message Queuing Telemetry Transport_
+- lightweight publish-subscribe messaging protocol designed for constrained
+devices and networks with limited bandwidth or unreliable connections
+
+**Glossary Term Entry Location**: [API Types & Architectures - MQTT](api-types-architectures.md#mqtt)
+
+---
+
 ## N
 
 ---
