@@ -141,7 +141,7 @@ catching breaking changes before deployment
 [docs-as-tests](#docs-as-tests),
 [Dredd](./tools-techniques/testing-validation.md#dredd),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
-Pact, Spectral,
+[Pact](./tools-techniques/testing-validation.md#pact), Spectral,
 [snippet testing](#snippet-testing),
 [Vale](./tools-techniques/documentation-specific.md#vale),
 [workflow testing](#workflow-testing)

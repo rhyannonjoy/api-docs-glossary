@@ -35,6 +35,7 @@ test collections in Git repositories alongside their code
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [API security](../core-concepts.md#api-security),
 [contract testing](../workflows-methodologies.md#contract-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [environment variables](../core-concepts.md#environment-variables),
 Newman, [Postman](documentation-specific.md#postman),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
@@ -90,6 +91,7 @@ Feature: User API retrieval
 **Related Terms**: [Karate](#karate),
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [contract testing](../workflows-methodologies.md#contract-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [snippet testing](../workflows-methodologies.md#snippet-testing),
 [usability testing](../workflows-methodologies.md#usability-testing),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
@@ -184,6 +186,7 @@ match OpenAPI examples before deploying documentation updates
 **Related Terms**: API Blueprint,
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [OpenAPI Specification](../core-concepts.md#openapi-specification)
 
@@ -219,6 +222,7 @@ creates REST endpoints: `/users` returns all users,
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [cURL](development-essentials.md#curl),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [Postman](documentation-specific.md#postman),
 [REST API](../api-types-architectures.md#rest-api),
 [Swagger](documentation-specific.md#swagger)
@@ -248,7 +252,8 @@ validate responses, chain requests, and verify data transformations
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[Cucumber](#cucumber), [UI](development-essentials.md#ui)
+[Cucumber](#cucumber), [UI](development-essentials.md#ui),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests)
 
 **Sources**:
 
@@ -273,16 +278,48 @@ verify implementations match specifications
 
 **Related Terms**: [AsyncAPI](../core-concepts.md#asyncapi),
 [contract testing](../workflows-methodologies.md#contract-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
 [gRPC API](../api-types-architectures.md#grpc-api),
 [OpenAPI Specification](../core-concepts.md#openapi-specification),
-Pact
+[Pact](#pact)
 
 **Sources**:
 
 - [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 - [The Linux Foundation, Microcks Docs: "What is Microcks?"](https://microcks.io/documentation/overview/what-is-microcks/)
+
+---
+
+## Pact
+
+**Definition**: open source consumer-driven contract testing framework that
+generates contracts from consumer tests and verifies provider implementations
+satisfy those contracts
+
+**Purpose**: contract testing tool that makes sure both API consumers and
+providers stay in sync; prevents breaking changes in distributed systems by
+testing integration points in isolation; enables independent deployment of
+services with confidence; helps teams manage APIs as they change over
+time by providing a clear record of API behavior, easily integrates
+into CI/CD
+
+**Example**: front-end team writes tests defining expected API responses,
+generating contract files that backend team uses to verify their implementation
+meets consumer expectations
+
+**Related Terms**:
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[CI/CD pipeline](../tools-techniques/development-essentials.md#cicd-pipeline),
+[contract testing](../workflows-methodologies.md#contract-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[Microcks](#microcks)
+
+**Sources**:
+
+- [Pact Foundation, Pact Docs: "Introduction" by Matt Fellows](https://docs.pact.io/)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 
