@@ -98,26 +98,40 @@ web pages change
 
 ## Redocly
 
-**Definition**: API documentation platform and OpenAPI tooling suite
-for creating, validating, and publishing API reference documentation
+**Definition**: API documentation platform and OpenAPI tooling suite for
+creating, validating, and publishing API reference documentation
 
 **Purpose**: transforms OpenAPI specifications into interactive,
-customizable documentation; provides linting and validation for
-API specifications
+customizable documentation; provides linting and validation for API
+specifications through automated rule enforcement
 
-**Example**: teams use [Redocly CLI](https://redocly.com/docs/cli)
-to lint OpenAPI files for style guide compliance, then deploy
-documentation to Redocly's hosting platform
+**Common Redocly tools**:
+
+- [Redocly CLI](https://redocly.com/docs/cli/) - Command-line interface
+for linting, bundling, and building OpenAPI documents
+- [Redocly Respect](https://redocly.com/docs/respect/) - OpenAPI linter
+that validates specifications against style guides and best practices
+- [Redocly Developer Portal](https://redocly.com/docs/developer-portal/) - Hosts and
+renders interactive API documentation
+
+**Example**: teams use Redocly CLI with Respect to lint OpenAPI files for
+style guide compliance in CI/CD pipelines, catching specification errors
+like missing descriptions or inconsistent naming conventions before
+deployment; once validated, documentation deploys to Redocly's hosting
+platform where developers can explore endpoints interactively
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CLI](./development-essentials.md#cli),
-[OpenAPI Specification](core-concepts.md#openapi-specification),
-[Spectral](#spectral), [Vale](#vale)
+[CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[CLI](development-essentials.md#cli),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[Spectral](#spectral), [Swagger](#swagger), [Vale](#vale)
 
 **Sources**:
 
-- [Redocly Docs: "About Redocly Documentation"](https://redocly.com/docs)
+- [Redocly Docs: "About Redocly Documentation"](https://redocly.com/docs/)
+- [Redocly Docs: "Redocly Respect Use Cases"](https://redocly.com/docs/respect/use-cases)
 - [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
@@ -190,7 +204,7 @@ leaving the documentation page
 
 **Related terms**: [GUI](development-essentials.md#gui),
 [OpenAPI Specification](../core-concepts.md#openapi-specification),
-[REST API](../api-types-architectures.md#rest-api)
+[Redocly](#redocly), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
 
