@@ -1137,7 +1137,8 @@ to describe those architectures
 event-driven systems, then generate documentation, code, and tests from
 the specification
 
-**Related Terms**: AMQP, [event-driven](api-types-architectures.md#event-driven),
+**Related Terms**: [AMQP](api-types-architectures.md#amqp),
+[event-driven](api-types-architectures.md#event-driven),
 MQTT, Kafka, [GraphQL API](api-types-architectures.md#graphql-api),
 [HTTP](#http), Mercure, [OpenAPI Specification](#openapi-specification),
 [REST API](api-types-architectures.md#rest-api), STOMP,
