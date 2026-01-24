@@ -43,8 +43,10 @@ completes, triggering immediate order fulfillment rather than checking
 payment status every few minutes
 
 **Related Terms**: [API](core-concepts.md#api),
-[AsyncAPI](core-concepts.md#asyncapi), [real-time](#real-time),
-[webhook API](#webhook-api), [WebSocket API](#websocket-api)
+[AsyncAPI](core-concepts.md#asyncapi),
+[Microcks](./tools-techniques/testing-validation.md#microcks),
+[real-time](#real-time), [webhook API](#webhook-api),
+[WebSocket API](#websocket-api)
 
 **Source**: [Amazon Web Service, Inc., (AWS): "What is an Event-Driven Architecture?"](https://aws.amazon.com/event-driven-architecture/)
 
@@ -79,7 +81,9 @@ in `Core Concepts` with documentation specification formats
 ```
 
 **Related Terms**: [API](core-concepts.md#api),
-[AsyncAPI](core-concepts.md#asyncapi), [REST API](#rest-api),
+[AsyncAPI](core-concepts.md#asyncapi),
+[Microcks](./tools-techniques/testing-validation.md#microcks),
+[REST API](#rest-api),
 [schema](core-concepts.md#schema), [validation](core-concepts.md#validation)
 
 **Sources**:
@@ -104,6 +108,7 @@ messages rather than JSON
 
 **Related Terms**: [API](core-concepts.md#api),
 [HTTP versions](core-concepts.md#http-versions),
+[Microcks](./tools-techniques/testing-validation.md#microcks),
 [Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers),
 [RPC API](#rpc-api),
 [serialization](core-concepts.md#serialization)
