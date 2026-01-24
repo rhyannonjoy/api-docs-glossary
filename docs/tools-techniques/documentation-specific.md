@@ -111,8 +111,8 @@ specifications through automated rule enforcement
 for linting, bundling, and building OpenAPI documents
 - [Redocly Respect](https://redocly.com/docs/respect/) - OpenAPI linter
 that validates specifications against style guides and best practices
-- [Redocly Developer Portal](https://redocly.com/docs/developer-portal/) - Hosts and
-renders interactive API documentation
+- [Redocly Developer Portal](https://redocly.com/docs/developer-portal/) -
+Hosts and renders interactive API documentation
 
 **Example**: teams use Redocly CLI with Respect to lint OpenAPI files for
 style guide compliance in CI/CD pipelines, catching specification errors
