@@ -1084,6 +1084,16 @@ after the source branch has changed
 
 ---
 
+### Redocly Respect
+
+- API contract and workflow testing tool
+- treats API and workflow definitions as living tests
+that validate documentation accuracy
+
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Redocly Respect](./tools-techniques/testing-validation.md#redocly-respect)
+
+---
+
 ### reference
 
 - documentation topic type

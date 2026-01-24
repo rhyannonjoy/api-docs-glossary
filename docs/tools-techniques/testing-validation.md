@@ -358,6 +358,53 @@ documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 ---
 
+## Redocly Respect
+
+**Definition**: API contract and workflow testing tool that
+continuously validates live APIs against Arazzo/OpenAPI definitions
+
+**Purpose**: ensures documentation reflects actual API behavior by testing
+endpoints, response codes, data schemas, and workflows against specifications;
+catches discrepancies between documented and implemented behavior before they
+affect users; treats API and workflow definitions as living tests that
+validate documentation accuracy
+
+**Why this belongs in `Testing-Validation`**: validates _runtime API behavior_
+against specifications through actual endpoint testing and workflow execution,
+distinguishing it from static spec linters like
+[Redocly CLI](https://redocly.com/docs/cli/),
+[Spectral](https://stoplight.io/open-source/spectral), or
+[Vale](https://vale.sh/docs) that _analyze documents without making API calls_;
+focuses on contract testing that ensures the live API matches what documentation
+promises, making it _fundamentally a testing tool rather than a documentation
+renderer_
+
+**Example**:
+
+| Phase | Action | Result |
+| ------ | -------------- | -------- |
+| **Setup** | Documentation team integrates Respect into CI/CD pipeline | Automated testing on every commit |
+| **Testing** | Respect makes API calls to payment endpoints | Validates response codes, data structures, workflows match OpenAPI spec |
+| **Detection** | Developer changes endpoint response format without updating spec | Respect detects mismatch between live API and documentation |
+| **Prevention** | Build fails, blocks deployment | Team updates documentation before code ships |
+
+**Related Terms**:
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+Arazzo, [CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[contract testing](../workflows-methodologies.md#contract-testing),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
+[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[Redocly](documentation-specific.md#redocly),
+[workflow testing](../workflows-methodologies.md#workflow-testing)
+
+**Sources**:
+
+- [Redocly Docs: "Respect your API and detect problems early"](https://redocly.com/docs/respect/)
+- [Redocly Docs: "Use Cases for Respect"](https://redocly.com/docs/respect/use-cases)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
 ## Selenium
 
 **Definition**: an open source framework for automating web browser
