@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
      items: [
        'tools-techniques/development-essentials',
        'tools-techniques/documentation-specific',
+       'tools-techniques/infrastructure-platforms',
        'tools-techniques/testing-validation',
     ],
    },
