@@ -1279,6 +1279,16 @@ network transmission or storage, then reconstruction
 
 ---
 
+### Server-Sent Events
+
+- also known as SSE
+- standard enabling servers to push real-time updates to web browsers
+over HTTP through unidirectional event streams from server to client
+
+**Glossary Term Entry Location**: [API Types & Architectures - Server-Sent Events](api-types-architectures.md#server-sent-events)
+
+---
+
 ### skunkworks
 
 - used in business, engineering, and technical fields to describe a group
