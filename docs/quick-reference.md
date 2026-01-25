@@ -1340,6 +1340,16 @@ documentation from OpenAPI specifications
 
 ---
 
+### STOMP
+
+- acronym for _Simple (or Streaming) Text Orientated Messaging Protocol_
+- text-based protocol for message-oriented middleware that provides
+interoperable communication between clients and message brokers
+
+**Glossary Term Entry Location**: [API Types & Architectures - STOMP](api-types-architectures.md#stomp)
+
+---
+
 ### Swagger
 
 - open source suite for REST API development

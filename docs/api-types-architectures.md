@@ -32,8 +32,8 @@ at-most-once, at-least-once, or exactly once
 
 **Related Terms**: [AsyncAPI](core-concepts.md#asyncapi),
 [HTTP](core-concepts.md#http), [MQTT](#mqtt),
-[request/response](core-concepts.md#requestresponse), STOMP,
-[WebSocket API](#websocket-api)
+[request/response](core-concepts.md#requestresponse),
+[STOMP](#stomp), [WebSocket API](#websocket-api)
 
 **Sources**:
 
@@ -197,7 +197,7 @@ with minimal battery drain, leveraging persistent sessions that survive
 network disconnections and automatic reconnection capabilities
 
 **Related Terms**: [AMQP](#amqp), [AsyncAPI](core-concepts.md#asyncapi),
-[HTTP](core-concepts.md#http), STOMP,
+[HTTP](core-concepts.md#http), [STOMP](#stomp),
 [WebSocket API](api-types-architectures.md#websocket-api)
 
 **Sources**:
@@ -404,6 +404,42 @@ requirements, and transaction guarantees
 
 ---
 
+## STOMP
+
+**Definition**: acronym for _Simple (or Streaming) Text Orientated
+Messaging Protocol_, formerly known as TTMP - _Text Orientated
+Messaging Protocol_; text-based protocol for MOM -
+_message-oriented middleware_ - that provides interoperable
+communication between clients and message brokers over
+TCP - _Transmission Control Protocol_
+
+**Purpose**: enables messaging integration across different
+languages and platforms with HTTP-like frame structure; designed for
+scripting languages to connect to enterprise message brokers
+
+**Why this belongs in `API Types & Architectures`**: STOMP is a messaging
+protocol specification that defines frame format and commands for broker
+communication, similar to how AMQP and MQTT define _messaging patterns_;
+the protocol itself is distinct from broker implementations that support
+it
+
+**Example**: web applications use STOMP over WebSocket to send and
+receive messages from brokers like
+[RabbitMQ](https://www.rabbitmq.com/) or
+[ActiveMQ](https://activemq.apache.org/), enabling
+bidirectional communication with simple text-based commands
+
+**Related Terms**: [AMQP](#amqp), [HTTP](core-concepts.md#http),
+[MQTT](#mqtt), [WebSocket API](#websocket-api)
+
+**Sources**:
+
+- [Geeks for Geeks: "STOMP Protocol"](https://www.geeksforgeeks.org/computer-networks/stomp-protocol/)
+- [STOMP: "The Simple Text Oriented Messaging Protocol"](https://stomp.github.io/)
+- [Wikipedia: "Streaming Text Oriented Messaging Protocol"](https://en.wikipedia.org/wiki/Streaming_Text_Oriented_Messaging_Protocol)
+
+---
+
 ## webhook API
 
 **Definition**: pattern where a service sends HTTP `POST` requests to
@@ -443,7 +479,8 @@ server every few seconds
 
 **Related Terms**: [AMQP](#amqp), [API](core-concepts.md#api),
 [AsyncAPI](core-concepts.md#asyncapi), [event-driven](#event-driven),
-[HTTP](core-concepts.md#http), [MQTT](#mqtt), [real-time](#real-time)
+[HTTP](core-concepts.md#http), [MQTT](#mqtt), [real-time](#real-time),
+[STOMP](#stomp)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
