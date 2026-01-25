@@ -739,13 +739,23 @@ prototype and test API documentation without a live backend
 
 ---
 
+### Kafka
+
+- also known as Apache Kafka
+- distributed data store optimized for ingesting and processing streaming
+data in real-time
+
+**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Kafka](./tools-techniques/infrastructure-platforms.md#kafka)
+
+---
+
 ### Karate
 
 - open source testing framework
 - combines API testing, mocks, performance testing, and UI automation using
 behavior-driven development syntax
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](../docs/tools-techniques/testing-validation.md#karate)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](./tools-techniques/testing-validation.md#karate)
 
 ---
 
@@ -844,6 +854,16 @@ a feature branch with updates that occurred in the original branch
 - blocks merging and requires manual resolution
 
 **Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge conflict](./tools-techniques/development-essentials.md#merge-conflict)
+
+---
+
+### message broker
+
+- intermediary software component that receives, stores, routes,
+and delivers messages between applications, services, or systems
+- commonly use publish-subscribe messaging pattern
+
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - message broker](core-concepts.md#message-broker)
 
 ---
 

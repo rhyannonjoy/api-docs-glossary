@@ -6,6 +6,8 @@ covers the software and methods used to validate APIs, test code examples, and
 verify UI procedures, ensuring documentation stays synchronized with product
 implementation and catching discrepancies before users encounter them.
 
+---
+
 ## Bruno
 
 **Definition**: open source API client and testing tool with offline-first
