@@ -857,6 +857,16 @@ a feature branch with updates that occurred in the original branch
 
 ---
 
+### message broker
+
+- intermediary software component that receives, stores, routes,
+and delivers messages between applications, services, or systems
+- commonly use publish-subscribe messaging pattern
+
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - message broker](core-concepts.md#message-broker)
+
+---
+
 ### Microcks
 
 - open source cloud-native tool for API mocking and

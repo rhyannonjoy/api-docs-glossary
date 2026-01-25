@@ -549,6 +549,44 @@ with JavaScript
 
 ---
 
+### message broker
+
+**Definition**: intermediary software component that receives, stores,
+routes, and delivers messages between applications, services, or systems
+using messaging protocols
+
+**Purpose**: enables asynchronous communication patterns where senders
+and receivers don't need to interact with messages simultaneously;
+decouples app components, improves scalability, and provides message
+persistence and delivery guarantees; essential for event-driven
+architectures and real-time data processing
+
+**Publish-Subscribe Pattern**: message brokers commonly use
+publish-subscribe messaging where publishers send messages to topics
+without knowing who'll receive them, and subscribers receive messages
+from topics they're interested in without knowing who sent them; this
+decoupling allows independent scaling and evolution of system components
+
+**Example**: e-commerce order processing with message broker
+
+| Component | Action | Benefit |
+| ----------- | -------- | --------- |
+| **Web app** | Publishes order message to broker | Responds to customer immediately |
+| **Inventory system** | Subscribes to order messages | Updates stock independently |
+| **Payment system** | Subscribes to order messages | Processes payment asynchronously |
+| **Shipping system** | Subscribes to order messages | Arranges delivery in parallel |
+
+**Related Terms**: [AMQP](api-types-architectures.md#amqp), [API](#api),
+[AsyncAPI](#asyncapi), [event-driven](api-types-architectures.md#event-driven),
+[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[MQTT](api-types-architectures.md#mqtt)
+
+**Sources**:
+- [Geeks for Geeks: "Message Brokers in System Design"](https://www.geeksforgeeks.org/system-design/what-are-message-brokers-in-system-design/)
+- [IBM: "What is a message broker?"](https://www.ibm.com/topics/message-brokers)
+
+---
+
 ### parameters
 
 **Definition**: variables passed in API requests to specify or filter

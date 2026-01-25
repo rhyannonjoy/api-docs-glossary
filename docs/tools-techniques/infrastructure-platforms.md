@@ -22,7 +22,8 @@ with events persisted to disk for replay and historical analysis
 **Related Terms**: [AMQP](../api-types-architectures.md#amqp),
 [AsyncAPI](../core-concepts.md#asyncapi),
 [event-driven](../api-types-architectures.md#event-driven),
-message broker, [MQTT](../api-types-architectures.md#mqtt)
+[message broker](../core-concepts.md#message-broker),
+[MQTT](../api-types-architectures.md#mqtt)
 
 **Sources**:
 
