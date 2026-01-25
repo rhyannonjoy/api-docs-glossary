@@ -31,8 +31,9 @@ delivery between trading systems, with guaranteed delivery options of
 at-most-once, at-least-once, or exactly once
 
 **Related Terms**: [AsyncAPI](core-concepts.md#asyncapi),
-[HTTP](core-concepts.md#http), [MQTT](#mqtt),
-[request/response](core-concepts.md#requestresponse),
+[HTTP](core-concepts.md#http),
+[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[MQTT](#mqtt), [request/response](core-concepts.md#requestresponse),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
 
 **Sources**:
@@ -79,6 +80,7 @@ payment status every few minutes
 
 **Related Terms**: [API](core-concepts.md#api),
 [AsyncAPI](core-concepts.md#asyncapi),
+[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [real-time](#real-time), [Server-Sent Events](#server-sent-events),
 [webhook API](#webhook-api), [WebSocket API](#websocket-api)
@@ -225,8 +227,9 @@ with minimal battery drain, leveraging persistent sessions that survive
 network disconnections and automatic reconnection capabilities
 
 **Related Terms**: [AMQP](#amqp), [AsyncAPI](core-concepts.md#asyncapi),
-[HTTP](core-concepts.md#http), [STOMP](#stomp),
-[WebSocket API](api-types-architectures.md#websocket-api)
+[HTTP](core-concepts.md#http),
+[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[STOMP](#stomp), [WebSocket API](api-types-architectures.md#websocket-api)
 
 **Sources**:
 

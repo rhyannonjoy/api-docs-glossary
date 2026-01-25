@@ -5,6 +5,8 @@ From interactive specification viewers to automated style checkers,
 this section covers the platforms that help teams create accurate,
 consistent, and developer-friendly API documentation.
 
+---
+
 <!-- TODO: consider adding GitHub Pages, Stoplight, MkDocs, Docusaurus, Static site generators -->
 
 ## Markdown

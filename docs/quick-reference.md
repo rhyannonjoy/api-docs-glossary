@@ -739,13 +739,23 @@ prototype and test API documentation without a live backend
 
 ---
 
+### Kafka
+
+- also known as Apache Kafka
+- distributed data store optimized for ingesting and processing streaming
+data in real-time
+
+**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Kafka](./tools-techniques/infrastructure-platforms.md#kafka)
+
+---
+
 ### Karate
 
 - open source testing framework
 - combines API testing, mocks, performance testing, and UI automation using
 behavior-driven development syntax
 
-**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](../docs/tools-techniques/testing-validation.md#karate)
+**Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Karate](./tools-techniques/testing-validation.md#karate)
 
 ---
 

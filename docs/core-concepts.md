@@ -1139,10 +1139,14 @@ the specification
 
 **Related Terms**: [AMQP](api-types-architectures.md#amqp),
 [event-driven](api-types-architectures.md#event-driven),
-MQTT, Kafka, [GraphQL API](api-types-architectures.md#graphql-api),
-[HTTP](#http), Mercure, [OpenAPI Specification](#openapi-specification),
-[REST API](api-types-architectures.md#rest-api), STOMP,
-[WebSockets](api-types-architectures.md#websocket-api)
+[GraphQL API](api-types-architectures.md#graphql-api),
+[HTTP](#http), [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[Mercure](api-types-architectures.md#mercure),
+[MQTT](api-types-architectures.md#mqtt),
+[OpenAPI Specification](#openapi-specification),
+[REST API](api-types-architectures.md#rest-api),
+[STOMP](api-types-architectures.md#stomp),
+[WebSocket API](api-types-architectures.md#websocket-api)
 
 **Sources**:
 

@@ -7,6 +7,8 @@ track changes, manage collaboration, and integrate
 [docs-as-code](../workflows-methodologies.md#docs-as-code)
 practices into their development processes.
 
+---
+
 ## Git & Version Control
 
 ```mermaid
