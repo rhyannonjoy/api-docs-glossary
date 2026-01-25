@@ -806,6 +806,15 @@ that compete with similar offerings
 
 ---
 
+### Mercure
+
+- open protocol built on top of HTTP and Server-Sent Events
+- enables real-time data updates from servers to web browsers
+
+**Glossary Term Entry Location**: [API Types & Architectures - Mercure](api-types-architectures.md#mercure)
+
+---
+
 ### merge
 
 - version control concept
