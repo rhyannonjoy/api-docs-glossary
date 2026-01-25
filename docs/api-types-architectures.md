@@ -116,7 +116,7 @@ in `Core Concepts` with documentation specification formats
 ```
 
 **Related Terms**: [API](core-concepts.md#api),
-[AsyncAPI](core-concepts.md#asyncapi),
+[AsyncAPI](core-concepts.md#asyncapi), [Mercure](#mercure),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [REST API](#rest-api),
 [schema](core-concepts.md#schema), [validation](core-concepts.md#validation)
@@ -149,6 +149,34 @@ messages rather than JSON
 [serialization](core-concepts.md#serialization)
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
+
+---
+
+## Mercure
+
+**Definition**: open protocol for pushing real-time data updates from
+servers to web browsers and HTTP clients, built on top of Server-Sent
+Events and HTTP
+
+**Purpose**: provides modern alternative to WebSocket with features
+like automatic reconnection, authorization, state reconciliation, and
+native browser support; especially useful for adding real-time,
+streaming, and asynchronous capabilities to REST and GraphQL APIs
+
+**Example**:
+[API Platform](https://api-platform.com/docs/guides/doctrine-entity-as-resource/)
+uses Mercure to automatically push resource
+updates to connected clients when Doctrine entities change, enabling
+reactive web applications without custom WebSocket code
+
+**Related Terms**: [GraphQL API](#graphql-api), [REST API](#rest-api),
+[Server-Sent Events](#server-sent-events),
+[WebSocket API](#websocket-api)
+
+**Sources**:
+
+- [Mercure Documentation: "Mercure in a Few Words"](https://mercure.rocks/docs/mercure)
+- [IETF: "The Mercure Protocol"](https://www.ietf.org/archive/id/draft-dunglas-mercure-07.html)
 
 ---
 
@@ -377,7 +405,7 @@ progress updates, or real-time dashboard data to browsers using HTTP
 connections with automatic reconnection
 
 **Related Terms**: [event-driven](#event-driven), [HTTP](core-concepts.md#http),
-Mercure, [WebSocket API](#websocket-api)
+[Mercure](#mercure), [WebSocket API](#websocket-api)
 
 **Sources**:
 
@@ -503,7 +531,8 @@ server every few seconds
 
 **Related Terms**: [AMQP](#amqp), [API](core-concepts.md#api),
 [AsyncAPI](core-concepts.md#asyncapi), [event-driven](#event-driven),
-[HTTP](core-concepts.md#http), [MQTT](#mqtt), [real-time](#real-time),
+[HTTP](core-concepts.md#http), [Mercure](#mercure),
+[MQTT](#mqtt), [real-time](#real-time),
 [Server-Sent Events](#server-sent-events), [STOMP](#stomp)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
