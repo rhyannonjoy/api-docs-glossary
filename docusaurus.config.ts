@@ -85,7 +85,7 @@ const config: Config = {
       links: [
         // Your footer links
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Rhyannon Joy Rodriguez`,
+      copyright: `Copyright © ${new Date().getFullYear()} Rhyannon Rodriguez`,
     },
     prism: {
       theme: prismThemes.github,

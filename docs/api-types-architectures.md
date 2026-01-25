@@ -80,8 +80,8 @@ payment status every few minutes
 **Related Terms**: [API](core-concepts.md#api),
 [AsyncAPI](core-concepts.md#asyncapi),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
-[real-time](#real-time), [webhook API](#webhook-api),
-[WebSocket API](#websocket-api)
+[real-time](#real-time), [Server-Sent Events](#server-sent-events),
+[webhook API](#webhook-api), [WebSocket API](#websocket-api)
 
 **Source**: [Amazon Web Service, Inc., (AWS): "What is an Event-Driven Architecture?"](https://aws.amazon.com/event-driven-architecture/)
 
@@ -362,6 +362,30 @@ a remote server and returns the result, hiding the network request details
 
 ---
 
+## Server-Sent Events
+
+**Definition**: also known as SSE; standard enabling servers to push
+real-time updates to web browsers over HTTP through unidirectional event
+streams from server to client; first specified by Ian Hickson in 2004
+
+**Purpose**: provides alternative to WebSocket for server-to-client
+streaming; natively supported in modern browsers without requiring special
+protocols or additional libraries
+
+**Example**: applications use Server-Sent Events to stream live notifications,
+progress updates, or real-time dashboard data to browsers using HTTP
+connections with automatic reconnection
+
+**Related Terms**: [event-driven](#event-driven), [HTTP](core-concepts.md#http),
+Mercure, [WebSocket API](#websocket-api)
+
+**Sources**:
+
+- [Mozilla Corporation, MDN: "Server-sent events"](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
+- [Wikipedia: "Server-Sent Events"](https://en.wikipedia.org/wiki/Server-sent_events)
+
+---
+
 ## SOAP API
 
 **Definition**: acronym for Simple Object Access Protocol; uses XML-based
@@ -480,7 +504,7 @@ server every few seconds
 **Related Terms**: [AMQP](#amqp), [API](core-concepts.md#api),
 [AsyncAPI](core-concepts.md#asyncapi), [event-driven](#event-driven),
 [HTTP](core-concepts.md#http), [MQTT](#mqtt), [real-time](#real-time),
-[STOMP](#stomp)
+[Server-Sent Events](#server-sent-events), [STOMP](#stomp)
 
 **Source**: [Mozilla Corporation, MDN: "The WebSocket API (WebSockets)"](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
