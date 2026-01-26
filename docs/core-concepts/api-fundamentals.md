@@ -1,9 +1,12 @@
 # API Fundamentals
 
-<!--Essential terms and concepts for API documentation. This section defines
-foundational terminology encountered when documenting APIs, from basic
-architectural principles to documentation standards that apply across
-different API types.-->
+Essential terms and concepts for understanding how APIs work.
+From HTTP methods and status codes, to authentication, data formats,
+and request-response patterns that apply across different
+API types, this section defines the foundational building blocks
+of API communication.
+
+---
 
 ## API
 

@@ -1,9 +1,9 @@
 # Documentation-Specific
 
-<!--Essential terms and concepts for API documentation. This section defines
-foundational terminology encountered when documenting APIs, from basic
-architectural principles to documentation standards that apply across
-different API types.-->
+Standards and frameworks for documenting APIs effectively. This section
+covers the specification formats used to describe APIs like OpenAPI and
+AsyncAPI, and the documentation topic types that help users understand,
+implement, and troubleshoot them.
 
 ---
 
