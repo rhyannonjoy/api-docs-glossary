@@ -1606,3 +1606,17 @@ multiple endpoints and operations
 **Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - XML](./tools-techniques/development-essentials.md#xml)
 
 ---
+
+## Y
+
+---
+
+### YAML
+
+- rhymes with "camel"
+- recursive acronym for _YAML Ain't Markup Language_
+- foundational format for configuration files, specs, and tooling
+
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials - YAML](./tools-techniques/development-essentials.md#yaml)
+
+---

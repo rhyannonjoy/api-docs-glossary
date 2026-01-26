@@ -766,8 +766,56 @@ in enterprise systems, SOAP APIs, and legacy integrations
 [payload](../core-concepts/api-fundamentals.md#payload),
 [REST API](../api-types-architectures.md#rest-api),
 [serialization](../core-concepts/api-fundamentals.md#serialization),
-[SOAP API](../api-types-architectures.md#soap-api)
+[SOAP API](../api-types-architectures.md#soap-api), [YAML](#yaml)
 
 **Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)
+
+---
+
+### YAML
+
+**Definition**: rhymes with "camel" - recursive acronym for _YAML Ain't Markup
+Language_; human-readable data serialization format commonly used for
+configuration files, API specifications, and structured data exchange
+
+**Purpose**: provides a clean, readable syntax for defining API specifications,
+CI/CD pipelines, and documentation configurations; widely adopted in API
+documentation workflows for OpenAPI Specification files,
+[Docker](https://docs.docker.com/get-started/docker-overview/) configurations,
+and static site generator settings; offers better readability than JSON for
+complex nested structures while maintaining machine parseability
+
+#### YAML vs JSON vs XML
+
+| Aspect | YAML | JSON | XML |
+| ---------------- | ---------------- | ---------------- | ---------------- |
+| Syntax | Indentation-based with key-value pairs | Key-value pairs with braces | Tag-based with opening/closing tags |
+| Verbosity | Most concise | Concise | Most verbose |
+| Data types | Supports strings, numbers, booleans, null | Supports numbers, booleans, `null` | Everything is text |
+| Comments | Supports comments with `#` | No native comment support | Supports comments with `<!-- -->` |
+| Common use | Config files, OpenAPI specs, CI/CD | REST APIs, web applications | SOAP APIs, enterprise systems |
+
+**Example**: user in YAML format; commonly housed in either an
+`openapi.yaml` or `openapi.yml` file with clear indentation showing the
+relationship between endpoints, request bodies, and authentication requirements
+
+```yaml
+user:
+  id: 123
+  firstName: Jane
+  lastName: Doe
+  email: jane.doe@example.com
+```
+
+**Related Terms**: [CI/CD pipeline](#cicd-pipeline),
+[JSON](../core-concepts/api-fundamentals.md#json),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[serialization](../core-concepts/api-fundamentals.md#serialization), [XML](#xml)
+
+**Sources**:
+
+- [OpenAPI Initiative: "OpenAPI Specification v3.2.0"](https://spec.openapis.org/oas/latest.html)
+- [Oren Ben-Kiki, Clark Evans, Ingy döt Net, YAML Language Development Team: "YAML Ain't Markup Language, revision 1.2.2"](https://yaml.org/spec/1.2.2/)
+- [Wikipedia: "YAML"](https://en.wikipedia.org/wiki/YAML)
 
 ---

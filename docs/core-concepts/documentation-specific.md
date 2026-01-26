@@ -23,7 +23,8 @@ by Dredd, rendered into documentation, and used to generate mock servers
 [Dredd](../tools-techniques/testing-validation.md#dredd),
 [JSON](api-fundamentals.md#json), [OpenAPI Specification](#openapi-specification),
 [REST API](../api-types-architectures.md#rest-api),
-[REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful), YAML
+[REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful),
+[YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Sources**:
 
@@ -180,7 +181,8 @@ the specification
 [OpenAPI Specification](#openapi-specification),
 [REST API](../api-types-architectures.md#rest-api),
 [STOMP](../api-types-architectures.md#stomp),
-[WebSocket API](../api-types-architectures.md#websocket-api)
+[WebSocket API](../api-types-architectures.md#websocket-api),
+[YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Sources**:
 
@@ -446,7 +448,7 @@ to define the interface of an HTTP API, allowing both humans and computers
 to discover and understand the service's capabilities without
 accessing source code, documentation, or inspecting network traffic
 
-**Format**: YAML - human-readable data serialization language -
+**Format**: YAML, human-readable data serialization language,
 with a hierarchical collection of properties and values that describe
 a REST API
 
@@ -482,12 +484,12 @@ it requires interpretation before it can become either
 [Dredd](../tools-techniques/testing-validation.md#dredd),
 [Microcks](../tools-techniques/testing-validation.md#microcks),
 [reference](#reference), [REST API](../api-types-architectures.md#rest-api),
-[schema](api-fundamentals.md#schema)
+[schema](api-fundamentals.md#schema),
+[YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Sources**:
 
 - UW API Docs: Module 5, Lesson 2, "Open API specification (OAS) documents"
-- [Wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
 
 ---
 

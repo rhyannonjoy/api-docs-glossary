@@ -538,7 +538,8 @@ with JavaScript
 **Related Terms**: [payload](#payload),
 [REST API](../api-types-architectures.md#rest-api),
 [serialization](#serialization),
-[XML](../tools-techniques/development-essentials.md#xml)
+[XML](../tools-techniques/development-essentials.md#xml),
+[YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
 
@@ -935,7 +936,8 @@ API request
 
 **Related Terms**: [JSON](#json), [payload](#payload),
 [Protocol Buffers](../tools-techniques/development-essentials.md#protocol-buffers),
-[XML](../tools-techniques/development-essentials.md#xml)
+[XML](../tools-techniques/development-essentials.md#xml),
+[YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
 
