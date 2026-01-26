@@ -187,7 +187,8 @@ for test setup and cleanup
 **Example**: developers run Dredd in CI/CD pipelines to verify API responses
 match OpenAPI examples before deploying documentation updates
 
-**Related Terms**: API Blueprint,
+**Related Terms**:
+[API Blueprint](../core-concepts/documentation-specific.md#api-blueprint),
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),

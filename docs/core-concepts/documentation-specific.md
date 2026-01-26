@@ -7,6 +7,31 @@ implement, and troubleshoot them.
 
 ---
 
+## API Blueprint
+
+**Definition**: description format that uses Markdown syntax to document
+*REST*ful APIs; predecessor to OpenAPI with more readable syntax
+
+**Purpose**: enables API design and documentation using familiar Markdown
+formatting; allows both humans and machines to read API specifications
+without learning YAML or JSON structures
+
+**Example**: developers write API Blueprint specs in `.apib` files tested
+by Dredd, rendered into documentation, and used to generate mock servers
+
+**Related Terms**: [AsyncAPI](#asyncapi),
+[Dredd](../tools-techniques/testing-validation.md#dredd),
+[JSON](api-fundamentals.md#json), [OpenAPI Specification](#openapi-specification),
+[REST API](../api-types-architectures.md#rest-api),
+[REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful), YAML
+
+**Sources**:
+
+- [API Blueprint: Documentation](https://apiblueprint.org/documentation/)
+- [GitHub Repository, API Blueprint: "API Design for Humans"](https://github.com/apiaryio/api-blueprint)
+
+---
+
 ## API overview topic
 
 **Definition**: also known as "the landing page" in which
@@ -146,6 +171,7 @@ event-driven systems, then generate documentation, code, and tests from
 the specification
 
 **Related Terms**: [AMQP](../api-types-architectures.md#amqp),
+[API Blueprint](#api-blueprint),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
 [HTTP](api-fundamentals.md#http), [Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
@@ -450,7 +476,7 @@ it requires interpretation before it can become either
 | `parameters` | URL and query parameters - URL parameters appear in the path itself |
 | `responses` | All possible HTTP responses for requests to this path |
 
-**Related terms**: [API](api-fundamentals.md#api),
+**Related terms**: [API](api-fundamentals.md#api), [API Blueprint](#api-blueprint),
 [API reference topic](#api-reference-topic),
 [AsyncAPI](#asyncapi),
 [Dredd](../tools-techniques/testing-validation.md#dredd),
