@@ -91,10 +91,11 @@ Feature: User API retrieval
     And the response includes "name" and "email" fields
 ```
 
-**Related Terms**: [Karate](#karate),
+**Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[BDD](../workflows-methodologies.md#bdd),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Karate](#karate),
 [snippet testing](../workflows-methodologies.md#snippet-testing),
 [usability testing](../workflows-methodologies.md#usability-testing),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
