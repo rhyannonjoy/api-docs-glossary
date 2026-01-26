@@ -64,8 +64,8 @@ commitment, in which developers must choose OAuth vs. API keys early,
 documentation should provide a clear decision guide upfront rather than
 burying the comparison deep in reference docs
 
-**Related terms**: [API](core-concepts.md#api),
-[API reference topic](core-concepts.md#api-reference-topic),
+**Related terms**: [API](./core-concepts/api-fundamentals.md#api),
+[API reference topic](./core-concepts/documentation-specific.md#api-reference-topic),
 [Diátaxis](#diátaxis), [end-user software engineer](#end-user-software-engineer),
 [usability testing](workflows-methodologies.md#usability-testing)
 
@@ -120,9 +120,10 @@ page
 
 **Related Terms**: [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [domain knowledge](#domain-knowledge), [end-user software engineer](#end-user-software-engineer),
-[explanation guide](core-concepts.md#explanation-guide),
-[how-to guide](core-concepts.md#how-to-guide), [reference](core-concepts.md#reference),
-[tutorial](core-concepts.md#tutorial)
+[explanation guide](./core-concepts/documentation-specific.md#explanation-guide),
+[how-to guide](./core-concepts/documentation-specific.md#how-to-guide),
+[reference](./core-concepts/documentation-specific.md#reference),
+[tutorial](./core-concepts/documentation-specific.md#tutorial)
 
 **Sources**:
 
@@ -195,8 +196,8 @@ and regulatory requirements - allowing them to write clearer explanations
 of rate limiting during market hours or authentication requirements
 for different account types
 
-**Related Terms**: [API](core-concepts.md#api), [Diátaxis](#diátaxis),
-[docs-as-ecosystem](#docs-as-ecosystem),
+**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+[Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [end-user software engineer](#end-user-software-engineer)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
@@ -230,7 +231,8 @@ and opportunistic developers need a five-minute "process your
 first payment" tutorial
 
 **Related Terms**: [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
-[domain knowledge](#domain-knowledge), [error handling](core-concepts.md#error-handling),
+[domain knowledge](#domain-knowledge),
+[error handling](./core-concepts/api-fundamentals.md#error-handling),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
@@ -257,7 +259,8 @@ established players needs documentation that highlights unique
 features and migration guides from competitors, while an established
 API can focus on advanced use cases and optimization
 
-**Related Terms**: [API overview topic](core-concepts.md#api-overview-topic),
+**Related Terms**:
+[API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
 [sales collateral](#sales-collateral)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
@@ -280,7 +283,8 @@ into a one-page sales sheet explaining how real-time notifications reduce
 customer support tickets by 40%, using non-technical language and
 business metrics
 
-**Related Terms**: [API overview topic](core-concepts.md#api-overview-topic),
+**Related Terms**:
+[API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
 [market](#market)
 
 **Sources**:

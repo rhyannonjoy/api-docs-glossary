@@ -148,7 +148,7 @@ the specification
 **Related Terms**: [AMQP](../api-types-architectures.md#amqp),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
-[HTTP](#http), [Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
+[HTTP](api-fundamentals.md#http), [Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
 [Mercure](../api-types-architectures.md#mercure),
 [MQTT](../api-types-architectures.md#mqtt),
 [OpenAPI Specification](#openapi-specification),
@@ -450,12 +450,13 @@ it requires interpretation before it can become either
 | `parameters` | URL and query parameters - URL parameters appear in the path itself |
 | `responses` | All possible HTTP responses for requests to this path |
 
-**Related terms**: [API](#api), [API reference topic](#api-reference-topic),
+**Related terms**: [API](api-fundamentals.md#api),
+[API reference topic](#api-reference-topic),
 [AsyncAPI](#asyncapi),
 [Dredd](../tools-techniques/testing-validation.md#dredd),
 [Microcks](../tools-techniques/testing-validation.md#microcks),
 [reference](#reference), [REST API](../api-types-architectures.md#rest-api),
-[schema](#schema)
+[schema](api-fundamentals.md#schema)
 
 **Sources**:
 
@@ -637,8 +638,10 @@ experience
 status codes like `401 Unauthorized` and `429 Too Many Requests`, describes
 why they occur, and provides steps to resolve them
 
-**Related Terms**: [concept](#concept), [error handling](#error-handling),
-[HTTP status codes](#http-status-codes), [runbook](#runbook), [task](#task)
+**Related Terms**: [concept](#concept),
+[error handling](api-fundamentals.md#error-handling),
+[HTTP status codes](api-fundamentals.md#http-status-codes), [runbook](#runbook),
+[task](#task)
 
 **Source**: [GitLab Docs: "Troubleshooting topic type"](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/)
 

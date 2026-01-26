@@ -35,11 +35,12 @@ test collections in Git repositories alongside their code
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[API security](../core-concepts.md#api-security),
+[API security](../core-concepts/api-fundamentals.md#api-security),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[environment variables](../core-concepts.md#environment-variables),
-Newman, [Postman](documentation-specific.md#postman),
+[environment variables](../core-concepts/api-fundamentals.md#environment-variables),
+[Postman](documentation-specific.md#postman),
+[Postman Newman](testing-validation.md#postman-newman),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
 
 **Sources**:
@@ -190,7 +191,7 @@ match OpenAPI examples before deploying documentation updates
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[OpenAPI Specification](../core-concepts.md#openapi-specification)
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification)
 
 **Sources**:
 
@@ -199,7 +200,7 @@ match OpenAPI examples before deploying documentation updates
 
 ---
 
-## json-server
+## `json-server`
 
 **Definition**: a [Node.js](https://nodejs.org/en)
 tool that creates a mock REST API from a JSON file;
@@ -212,7 +213,7 @@ to describe the tool itself
 **Purpose**: allows documentation writers and developers to
 prototype and test API documentation without a live backend;
 generates a fully functional REST API with
-[CRUD operations](../core-concepts.md#crud)
+[CRUD operations](../core-concepts/api-fundamentals.md#crud)
 using methods `GET`, `POST`, `PUT`, and `DELETE` based on a
 streamlined JSON structure, enabling realistic examples
 and testing scenarios
@@ -278,13 +279,13 @@ synchronous and event-driven APIs
 mock endpoints for parallel development, then run contract tests to
 verify implementations match specifications
 
-**Related Terms**: [AsyncAPI](../core-concepts.md#asyncapi),
+**Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
 [gRPC API](../api-types-architectures.md#grpc-api),
-[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Pact](#pact)
 
 **Sources**:
@@ -386,7 +387,7 @@ _fundamentally a testing automation tool_
 | **Detection** | Developer changes endpoint response format without updating spec | Newman catches breaking changes |
 | **Prevention** | Build fails, blocks deployment | Team updates documentation before code ships |
 
-**Related Terms**: 
+**Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [contract testing](../workflows-methodologies.md#contract-testing),
@@ -435,7 +436,7 @@ renderer_
 Arazzo, [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
-[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Postman Newman](#postman-newman), [Redocly](documentation-specific.md#redocly),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
 
@@ -497,10 +498,10 @@ when the API changes
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[error handling](../core-concepts.md#error-handling),
-[HTTP status codes](../core-concepts.md#http-status-codes),
-[OpenAPI Specification](../core-concepts.md#openapi-specification),
-[request/response](../core-concepts.md#requestresponse),
+[error handling](../core-concepts/api-fundamentals.md#error-handling),
+[HTTP status codes](../core-concepts/api-fundamentals.md#http-status-codes),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[request/response](../core-concepts/api-fundamentals.md#requestresponse),
 SDK
 
 **Sources**:

@@ -95,8 +95,8 @@ as the authoritative source; RFC numbers, such as RFC 9110, provide
 a permanent, verifiable reference that remains accessible even as
 web pages change
 
-**Related Terms**: [HTTP](../core-concepts.md#http),
-[HTTPS](../core-concepts.md#https),
+**Related Terms**: [HTTP](../core-concepts/api-fundamentals.md#http),
+[HTTPS](../core-concepts/api-fundamentals.md#https),
 [REST API](../api-types-architectures.md#rest-api)
 
 **Sources**:
@@ -136,7 +136,7 @@ platform where developers can explore endpoints interactively
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [CLI](development-essentials.md#cli),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Redocly Respect](testing-validation.md#redocly-respect),
 [Spectral](#spectral), [Swagger](#swagger), [Vale](#vale)
 
@@ -167,10 +167,10 @@ the violations in CI/CD, preventing merge until documentation is complete
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[AsyncAPI](../core-concepts.md#asyncapi),
+[AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[JSON](../core-concepts.md#json),
-[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[JSON](../core-concepts/api-fundamentals.md#json),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Redocly](#redocly)
 
 **Sources**:
@@ -215,7 +215,7 @@ allows API consumers to understand and experiment with endpoints without
 leaving the documentation page
 
 **Related terms**: [GUI](development-essentials.md#gui),
-[OpenAPI Specification](../core-concepts.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Redocly](#redocly), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)

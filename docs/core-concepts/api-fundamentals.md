@@ -209,7 +209,7 @@ to version control
 
 **Related Terms**: [API](#api),
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[API security](#api-security), [authentication](../core-concepts.md#authentication),
+[API security](#api-security), [authentication](#authentication),
 [Bruno](../tools-techniques/testing-validation.md#bruno)
 
 **Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
@@ -262,7 +262,7 @@ only required field is `type`, defaults to `"about:blank"`_
 
 **Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
 [JSON](#json), [rate limiting](#rate-limiting),
-[troubleshooting](#troubleshooting), [validation](#validation)
+[troubleshooting](documentation-specific.md#troubleshooting), [validation](#validation)
 
 **Sources**:
 
@@ -370,7 +370,7 @@ or account information
 
 ---
 
-### HTTP status codes
+## HTTP status codes
 
 **Definition**: three-digit codes returned by servers in HTTP responses that
 show whether a specific request succeeded or failed, and why
@@ -989,7 +989,7 @@ https://api.example.com:443/v1/users/123?include=orders
 | what | endpoint/path | `/v1/users/123` | specific resource location |
 | _optional_ | query parameters | `?include=orders` | request modifications |
 
-**Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http),
 [parameters](#parameters), [resource](#resource),
 [REST API](api-types-architectures.md#rest-api), [schema](#schema), [URI](#uri)
 
