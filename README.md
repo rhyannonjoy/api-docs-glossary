@@ -24,7 +24,7 @@ AsyncAPI, OpenAPI specification, overview, reference, runbook
 event-driven, GraphQL, gRPC, microservices, REST, SOAP, Webhook, WebSocket
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
 AI bias, genAI, Large Language Model, training data
-- [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques):
+- [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques/development-essentials):
 cURL, Doc Detective, Git, Postman, Swagger, Vale
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
 Agile, API testing, docs-as-code, docs-as-tests, usability testing
