@@ -11,7 +11,14 @@ const sidebars: SidebarsConfig = {
     'introduction',
     'getting-started',
     'quick-reference',
-    'core-concepts',
+    {
+     type: 'category',
+     label: 'Core Concepts',
+     items: [
+       'core-concepts/api-fundamentals',
+       'core-concepts/documentation-specific'
+    ],
+   },
     'api-types-architectures',
     'ai-and-apis',
     {

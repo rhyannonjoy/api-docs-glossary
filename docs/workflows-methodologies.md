@@ -96,12 +96,13 @@ verifying that responses match documented schemas and status codes; when develop
 change an endpoint's required parameters, the test fails, alerting the documentation
 team to update their integration guides
 
-**Related Terms**: [API](core-concepts.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
 [Bruno](./tools-techniques/testing-validation.md#bruno),
 [contract testing](#contract-testing),
 [Cypress](./tools-techniques/testing-validation.md#cypress),
 [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
-[docs-as-tests](#docs-as-tests), [HTTP status codes](core-concepts.md#http-status-codes),
+[docs-as-tests](#docs-as-tests),
+[HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
 [Playwright](./tools-techniques/testing-validation.md#playwright),
 [REST API](api-types-architectures.md#rest-api), [workflow testing](#workflow-testing)
 

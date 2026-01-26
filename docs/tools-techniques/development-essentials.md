@@ -613,7 +613,7 @@ arguments, optional flags, and example outputs; docs-as-tests validates that
 documented CLI commands execute successfully and produce expected results
 
 **Related Terms**:
-[API](../core-concepts.md#api),
+[API](../core-concepts/api-fundamentals.md#api),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [GUI](#gui), [REST API](../api-types-architectures.md#rest-api), [UI](#ui)
 
@@ -697,9 +697,10 @@ between services
 `string_name` and `int32_id`, which compiles into classes for many
 programming languages
 
-**Related Terms**: [API](../core-concepts.md#api),
+**Related Terms**: [API](../core-concepts/api-fundamentals.md#api),
 [gRPC API](../api-types-architectures.md#graphql-api),
-[schema](../core-concepts.md#schema), [serialization](../core-concepts.md#serialization)
+[schema](../core-concepts/api-fundamentals.md#schema),
+[serialization](../core-concepts/api-fundamentals.md#serialization)
 
 **Source**: [Google, LLC: Protocol Buffers Documentation: "Overview"](https://protobuf.dev/overview/)
 
@@ -723,7 +724,7 @@ interface, where buttons, forms, and data visualizations allow users to
 interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
-**Related Terms**: [API endpoint](../core-concepts.md#api-endpoint),
+**Related Terms**: [API endpoint](../core-concepts/api-fundamentals.md#api-endpoint),
 [CLI](#cli), [GUI](#gui), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
@@ -761,10 +762,10 @@ in enterprise systems, SOAP APIs, and legacy integrations
 | Data types | Everything is text | Supports numbers, booleans, `null` |
 | Common use | SOAP APIs, enterprise systems | REST APIs, web applications |
 
-**Related Terms**: [JSON](../core-concepts.md#json),
-[payload](../core-concepts.md#payload),
+**Related Terms**: [JSON](../core-concepts/api-fundamentals.md#json),
+[payload](../core-concepts/api-fundamentals.md#payload),
 [REST API](../api-types-architectures.md#rest-api),
-[serialization](../core-concepts.md#serialization),
+[serialization](../core-concepts/api-fundamentals.md#serialization),
 [SOAP API](../api-types-architectures.md#soap-api)
 
 **Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)

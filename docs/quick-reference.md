@@ -56,7 +56,7 @@ that enables reliable, asynchronous communication between applications
 - acronym for _application programming interface_
 - enables resource sharing between systems and/or products
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API](core-concepts.md#api)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API](./core-concepts/api-fundamentals.md#api)
 
 ---
 
@@ -76,7 +76,7 @@ testing ensures user content accuracy
 - specific URL where an API can access resources
 - client touchpoint with the API server
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API endpoint](core-concepts.md#api-endpoint)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API endpoint](./core-concepts/api-fundamentals.md#api-endpoint)
 
 ---
 
@@ -94,7 +94,7 @@ without clients needing to know about backend architecture
 
 - landing page in which the audience is everyone
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - API overview topic](core-concepts.md#api-overview-topic)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API overview topic](./core-concepts/documentation-specific.md#api-overview-topic)
 
 ---
 
@@ -103,7 +103,7 @@ without clients needing to know about backend architecture
 - "getting finished topics" that describe aspects of an API
 operation or object
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - API reference topic](core-concepts.md#api-reference-topic)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API reference topic](./core-concepts/documentation-specific.md#api-reference-topic)
 
 ---
 
@@ -111,7 +111,7 @@ operation or object
 
 - measures taken to protect APIs from unauthorized access, misuse, attacks
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API security](core-concepts.md#api-security)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API security](./core-concepts/api-fundamentals.md#api-security)
 
 ---
 
@@ -122,7 +122,7 @@ operation or object
 - enables standardized documentation and tooling for APIs that work over
 many different protocols
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - AsyncAPI](core-concepts.md#asyncapi)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - AsyncAPI](./core-concepts/documentation-specific.md#asyncapi)
 
 ---
 
@@ -130,7 +130,7 @@ many different protocols
 
 - API security measure that determines who users are
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authentication](core-concepts.md#authentication)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authentication](./core-concepts/api-fundamentals.md#authentication)
 
 ---
 
@@ -138,7 +138,7 @@ many different protocols
 
 - An API secutiry measure that determines what users can do
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authorization](core-concepts.md#authorization)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authorization](./core-concepts/api-fundamentals.md#authorization)
 
 ---
 
@@ -251,7 +251,7 @@ specific tasks
 - answer "what" and "why" questions at an accessible,
 introductory level
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - concept](core-concepts.md#concept)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - concept](./core-concepts/documentation-specific.md#concept)
 
 ---
 
@@ -301,7 +301,7 @@ resource availability to the critical path
 - provides a standard framework for API operations that maps
 directly to HTTP methods
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - CRUD](core-concepts.md#crud)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - CRUD](./core-concepts/api-fundamentals.md#crud)
 
 ---
 
@@ -343,7 +343,7 @@ directly to HTTP methods
 - HTTP method
 - requests removal of a specified resource from the server
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `DELETE`](core-concepts.md#delete)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `DELETE`](./core-concepts/api-fundamentals.md#delete)
 
 ---
 
@@ -450,7 +450,7 @@ testing or execution
 - allows tests to run in different environments without
 code changes
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - environment variables](core-concepts.md#environment-variables)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - environment variables](./core-concepts/api-fundamentals.md#environment-variables)
 
 ---
 
@@ -460,7 +460,7 @@ code changes
 occur during API operations
 - enables developers to build robust applications
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - error handling](core-concepts.md#error-handling)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - error handling](./core-concepts/api-fundamentals.md#error-handling)
 
 ---
 
@@ -480,7 +480,7 @@ specific events
 - clarifies a single topic without providing step-by-step instructions
 - focuses on comprehensive understanding of concepts, principles, or features
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - explanation guide](core-concepts.md#explanation-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - explanation guide](./core-concepts/documentation-specific.md#explanation-guide)
 
 ---
 
@@ -529,7 +529,7 @@ to generate new content
 - read-only HTTP method
 - the most common method for retrieving information
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `GET`](core-concepts.md#get)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `GET`](./core-concepts/api-fundamentals.md#get)
 
 ---
 
@@ -540,7 +540,7 @@ to generate new content
 - comprehensive onboarding documentation that helps new users complete their
 first meaningful interaction with a product or feature
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - getting started](core-concepts.md#getting-started)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - getting started](./core-concepts/documentation-specific.md#getting-started)
 
 ---
 
@@ -582,7 +582,7 @@ Unix Bash command line
 - documentation topic type
 - alphabetically organized collection of terms and their definitions
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - glossary](core-concepts.md#glossary)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - glossary](./core-concepts/documentation-specific.md#glossary)
 
 ---
 
@@ -634,7 +634,7 @@ intended audience and capturing their responses
 - documentation topic type
 - step-by-step instructions for completing a specific real-world task
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - how-to guide](core-concepts.md#how-to-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - how-to guide](./core-concepts/documentation-specific.md#how-to-guide)
 
 ---
 
@@ -644,7 +644,7 @@ intended audience and capturing their responses
 - synchronous request/response protocol
 - enables communication between clients and servers over the web
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP](core-concepts.md#http)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP](./core-concepts/api-fundamentals.md#http)
 
 ---
 
@@ -654,7 +654,7 @@ intended audience and capturing their responses
 - makes it clear whether a request reads, creates, updates, or
 deletes data
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP method](core-concepts.md#http-method)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP method](./core-concepts/api-fundamentals.md#http-method)
 
 ---
 
@@ -663,7 +663,7 @@ deletes data
 - acronym for _Hypertext Transfer Protocol Secure_
 - protects data from interception and tampering during transmission
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTPS](core-concepts.md#https)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTPS](./core-concepts/api-fundamentals.md#https)
 
 ---
 
@@ -672,7 +672,7 @@ deletes data
 - three-digit codes servers return in HTTP responses
 - show whether a specific request succeeded or failed
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP status codes](core-concepts.md#http-status-codes)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes)
 
 ---
 
@@ -684,7 +684,7 @@ performance and feature capabilities
 - HTTP/2 (2015) enables concurrent requests over one connection
 - HTTP/3 (2022) uses QUIC protocol for improved reliability
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP versions](core-concepts.md#http-versions)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP versions](./core-concepts/api-fundamentals.md#http-versions)
 
 ---
 
@@ -698,7 +698,7 @@ performance and feature capabilities
 of how many times it's executed
 - enables safe request retries without unintended side effects
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - idempotent](core-concepts.md#idempotent)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - idempotent](./core-concepts/api-fundamentals.md#idempotent)
 
 ---
 
@@ -707,7 +707,7 @@ of how many times it's executed
 - documentation topic type
 - explains what a product or feature is, why it exists, and what problems it solves
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - introduction](core-concepts.md#introduction)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - introduction](./core-concepts/documentation-specific.md#introduction)
 
 ---
 
@@ -721,7 +721,7 @@ of how many times it's executed
 - text-based data format that uses human-readable key-value pairs
 to represent structured data
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - JSON](core-concepts.md#json)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - JSON](./core-concepts/api-fundamentals.md#json)
 
 ---
 
@@ -803,7 +803,7 @@ version of content
 - markup language designed to format plain text documents
 - popular for writing documentation
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Markdown](./tools-techniques/documentation-specific.md#markdown)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Markdown](./tools-techniques/documentation-specific.md#markdown)
 
 ---
 
@@ -863,7 +863,7 @@ a feature branch with updates that occurred in the original branch
 and delivers messages between applications, services, or systems
 - commonly use publish-subscribe messaging pattern
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - message broker](core-concepts.md#message-broker)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - message broker](./core-concepts/api-fundamentals.md#message-broker)
 
 ---
 
@@ -919,7 +919,7 @@ that mimic humans’ use of language
 - documentation topic type
 - new team member handbook designed to reduce time-to-productivity
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - onboarding guide](core-concepts.md#onboarding-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - onboarding guide](./core-concepts/documentation-specific.md#onboarding-guide)
 
 ---
 
@@ -930,7 +930,7 @@ that mimic humans’ use of language
 - used to create the interface and documentation
 - format: YAML
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - OpenAPI Specification](core-concepts.md#openapi-specification)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - OpenAPI Specification](./core-concepts/documentation-specific.md#openapi-specification)
 
 ---
 
@@ -961,7 +961,7 @@ that mimic humans’ use of language
 - variables passed in API requests
 - specify, filter, or change data based on the operation in use
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - parameters](core-concepts.md#parameters)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - parameters](./core-concepts/api-fundamentals.md#parameters)
 
 ---
 
@@ -970,7 +970,7 @@ that mimic humans’ use of language
 - HTTP method
 - applies partial modifications to an existing resource
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  `PATCH`](core-concepts.md#patch)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  `PATCH`](./core-concepts/api-fundamentals.md#patch)
 
 ---
 
@@ -980,7 +980,7 @@ that mimic humans’ use of language
 - actual data transmitted in an API request or response
 body
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  payload](core-concepts.md#payload)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  payload](./core-concepts/api-fundamentals.md#payload)
 
 ---
 
@@ -1000,7 +1000,7 @@ procedures work as written
 - HTTP method
 - submits data to a server to create new resources
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `POST`](core-concepts.md#post)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `POST`](./core-concepts/api-fundamentals.md#post)
 
 ---
 
@@ -1009,7 +1009,7 @@ procedures work as written
 - API development platform
 - commonly used for REST API development, exploration, and testing workflows
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Postman](./tools-techniques/documentation-specific.md#postman)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Postman](./tools-techniques/documentation-specific.md#postman)
 
 ---
 
@@ -1082,7 +1082,7 @@ to its origin repository
 - replaces an existing resource with new data
 - creates a resource at a specific URL if it doesn't exist
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `PUT`](core-concepts.md#put)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `PUT`](./core-concepts/api-fundamentals.md#put)
 
 ---
 
@@ -1095,7 +1095,7 @@ to its origin repository
 - documentation topic type
 - the absolute least amount of steps needed to achieve first success with a product
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - quickstart](core-concepts.md#quickstart)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - quickstart](./core-concepts/documentation-specific.md#quickstart)
 
 ---
 
@@ -1110,7 +1110,7 @@ client can make within a specified time window
 - prevents abuse, maintains service stability, and ensures
 fair access for all users
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - rate limiting](core-concepts.md#rate-limiting)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - rate limiting](./core-concepts/api-fundamentals.md#rate-limiting)
 
 ---
 
@@ -1139,7 +1139,7 @@ after the source branch has changed
 - API documentation platform and OpenAPI tooling suite
 - creates, validates, and publishes API reference documentation
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Redocly](./tools-techniques/documentation-specific.md#redocly)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Redocly](./tools-techniques/documentation-specific.md#redocly)
 
 ---
 
@@ -1159,7 +1159,7 @@ that validate documentation accuracy
 - provides detailed, factual information or system specifications
 - designed for lookup rather than learning
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - reference](core-concepts.md#reference)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - reference](./core-concepts/documentation-specific.md#reference)
 
 ---
 
@@ -1178,7 +1178,7 @@ that validate documentation accuracy
 - client sends a request
 - server returns a response
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request/response](core-concepts.md#requestresponse)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request/response](./core-concepts/api-fundamentals.md#requestresponse)
 
 ---
 
@@ -1188,7 +1188,7 @@ that validate documentation accuracy
 - distinct piece of data or entity available for reference
 or modification through an API
 
-**Glossary Term Entry Location**: [Core Concepts, API fundamentals - resource](core-concepts.md#resource)
+**Glossary Term Entry Location**: [Core Concepts, API fundamentals - resource](./core-concepts/api-fundamentals.md#resource)
 
 ---
 
@@ -1220,7 +1220,7 @@ or modification through an API
 - numbered technical documents
 - provide authoritative specifications for web standards
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - RFC](./tools-techniques/documentation-specific.md#rfc)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - RFC](./tools-techniques/documentation-specific.md#rfc)
 
 ---
 
@@ -1249,7 +1249,7 @@ as if calling local functions
 - documentation topic type
 - provides standardized instructions for operational or maintenance activities
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - runbook](core-concepts.md#runbook)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - runbook](./core-concepts/documentation-specific.md#runbook)
 
 ---
 
@@ -1274,7 +1274,7 @@ or externally to educate and convert prospective customers
 relationships within an API's requests and responses
 - enables validation, auto-generated documentation, and type safety
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - schema](core-concepts.md#schema)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - schema](./core-concepts/api-fundamentals.md#schema)
 
 ---
 
@@ -1304,7 +1304,7 @@ relationships within an API's requests and responses
 network transmission or storage, then reconstruction
 - enables data exchange between systems
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - serialization](core-concepts.md#serialization)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - serialization](./core-concepts/api-fundamentals.md#serialization)
 
 ---
 
@@ -1365,7 +1365,7 @@ documentation from OpenAPI specifications
 - creates automated style guides
 - validates API descriptions against customizable rulesets
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Spectral](./tools-techniques/documentation-specific.md#spectral)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Spectral](./tools-techniques/documentation-specific.md#spectral)
 
 ---
 
@@ -1394,7 +1394,7 @@ interoperable communication between clients and message brokers
 - open source suite for REST API development
 - based on OpenAPI specification
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Swagger](./tools-techniques/documentation-specific.md#swagger)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Swagger](./tools-techniques/documentation-specific.md#swagger)
 
 ---
 
@@ -1408,7 +1408,7 @@ interoperable communication between clients and message brokers
 - focuses on "how to" perform an action with step-by-step
 instructions
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - task](core-concepts.md#task)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - task](./core-concepts/documentation-specific.md#task)
 
 ---
 
@@ -1417,7 +1417,7 @@ instructions
 - documentation topic type
 - introduces a subject area and provides navigation to related topics
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - top-level](core-concepts.md#top-level)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - top-level](./core-concepts/documentation-specific.md#top-level)
 
 ---
 
@@ -1426,7 +1426,7 @@ instructions
 - documentation topic type
 - helps users diagnose and resolve specific problems or error conditions
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - troubleshooting](core-concepts.md#troubleshooting)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - troubleshooting](./core-concepts/documentation-specific.md#troubleshooting)
 
 ---
 
@@ -1435,7 +1435,7 @@ instructions
 - documentation topic type
 - guides users through a complete, real-world scenario from start to finish
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-specific - tutorial](core-concepts.md#tutorial)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - tutorial](./core-concepts/documentation-specific.md#tutorial)
 
 ---
 
@@ -1458,7 +1458,7 @@ instructions
 - standard format for identifying resources
 - forms the foundation for both URLs and URNs
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URI](core-concepts.md#uri)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URI](./core-concepts/api-fundamentals.md#uri)
 
 ---
 
@@ -1468,7 +1468,7 @@ instructions
 - specific URI type that includes network location
 - defines exactly where endpoints exist, how to reach them
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URL](core-concepts.md#url)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URL](./core-concepts/api-fundamentals.md#url)
 
 ---
 
@@ -1500,7 +1500,7 @@ a group of representative users
 - lints prose and enforces editorial style rules in documentation
 - supports multiple style guides including Microsoft, Google, and custom rules
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-specific - Vale](./tools-techniques/documentation-specific.md#vale)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Vale](./tools-techniques/documentation-specific.md#vale)
 
 ---
 
@@ -1510,7 +1510,7 @@ a group of representative users
 before processing or storage
 - ensures data quality and improves API reliability
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - validation](core-concepts.md#validation)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - validation](./core-concepts/api-fundamentals.md#validation)
 
 ---
 

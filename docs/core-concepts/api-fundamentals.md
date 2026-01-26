@@ -1,17 +1,14 @@
-# Core Concepts
+# API Fundamentals
 
-Essential terms and concepts for API documentation. This section defines
-foundational terminology encountered when documenting APIs, from basic
-architectural principles to documentation standards that apply across
-different API types.
-
----
-
-## API Fundamentals
+Essential terms and concepts for understanding how APIs work.
+From HTTP methods and status codes, to authentication, data formats,
+and request-response patterns that apply across different
+API types, this section defines the foundational building blocks
+of API communication.
 
 ---
 
-### API
+## API
 
 **Definition**: acronym for _application programming interface_
 
@@ -28,14 +25,14 @@ the resources of another program or service, in which the resources
 are program functions, data, or shared devices that with
 other computers
 
-**Every API description must describe**:
+**Essential API Descriptions**:
 
 - _What the program wants_: procedure name, URL of resource
 - _Where they want it from_: address/location of the procedure or resource
 - _How they want it_: parameters to change or specify aspects of the request;
 response must be predictable for the program to use it effectively
 
-**Why documentation matters**:
+**Why Documentation Matters**:
 
 - acts as the contract between resources and programs using them
 - without documentation, crossing the interface likely fails
@@ -43,7 +40,7 @@ response must be predictable for the program to use it effectively
 - prevents developers from needing to reverse-engineer, which is
 often prohibited by license
 
-**Example API request/response flow**:
+**Example API Request/Response Flow**:
 
 ```mermaid
 sequenceDiagram
@@ -58,17 +55,17 @@ sequenceDiagram
 ```
 
 **Related Terms**:
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[API endpoint](#api-endpoint), [API gateway](api-types-architectures.md#api-gateway),
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API endpoint](#api-endpoint), [API gateway](../api-types-architectures.md#api-gateway),
 [API security](#api-security),
-[CLI](./tools-techniques/development-essentials.md#cli),
-[REST API](api-types-architectures.md#rest-api)
+[CLI](../tools-techniques/development-essentials.md#cli),
+[REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
 ---
 
-### API endpoint
+## API endpoint
 
 **Definition**: specific URL where an API can access resources;
 the touchpoint where clients interact with the API server to perform operations
@@ -77,11 +74,11 @@ the touchpoint where clients interact with the API server to perform operations
 specific resources or perform specific actions; each endpoint represents a distinct
 function or resource in the API
 
-**Key characteristics**:
+**Key Characteristics**:
 
-- **URL structure**: combines base URL with resource path
-- **HTTP method**: defines the operation - `GET`, `POST`, `PUT`, `DELETE`
-- **Unique purpose**: each endpoint performs a specific function
+- **URL Structure**: combines base URL with resource path
+- **HTTP Method**: defines the operation - `GET`, `POST`, `PUT`, `DELETE`
+- **Unique Purpose**: each endpoint performs a specific function
 
 **Example**:
 
@@ -97,7 +94,7 @@ Breaking down this endpoint:
 - **Action**: determined by HTTP method
 - `GET` retrieves user 123 while `DELETE` removes user 123
 
-**Common endpoint patterns**:
+**Common Endpoint Patterns**:
 
 | Pattern | Purpose | Example |
 | --------- | --------- | --------- |
@@ -106,57 +103,57 @@ Breaking down this endpoint:
 | `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
 
 **Related Terms**: [API](#api),
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[HTTP](core-concepts.md#http), [HTTP method](#http-method), [parameters](#parameters),
-[request/response](#requestresponse), [resource](core-concepts.md#resource),
-[REST API](api-types-architectures.md#rest-api)
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[HTTP](#http), [HTTP method](#http-method), [parameters](#parameters),
+[request/response](#requestresponse), [resource](#resource),
+[REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
 ---
 
-### API security
+## API security
 
 **Definition**: measures taken to protect APIs from unauthorized access,
 misuse, and attacks
 
-**Why security matters**: APIs are commonly used to enable access to
+**Why Security Matters**: APIs are commonly used to enable access to
 sensitive software functions and data - in result, they're becoming an
 increasingly desired target for attackers
 
-#### authentication
+### authentication
 
 **Definition**: determines who users are - a technique invented
 to overcome the weakness of shared credentials; an API
 authentication key is commonly a long series of numbers and letters
 that's included in a request header or request URL
 
-#### authorization
+### authorization
 
 **Definition**: determines what users can do - confirms users are who
 they claim to be by using techniques such as checking ID to
 verify identity
 
 **Related Terms**: [API](#api),
-[Bruno](./tools-techniques/testing-validation.md#bruno),
+[Bruno](../tools-techniques/testing-validation.md#bruno),
 [environment variables](#environment-variables),
-[error handling](#error-handling), [HTTPS](core-concepts.md#https),
+[error handling](#error-handling), [HTTPS](#https),
 [rate limiting](#rate-limiting), [validation](#validation)
 
 **Source**: UW API Docs "Intentional Outcomes," Canvas Forum Thread
 
 ---
 
-### CRUD
+## CRUD
 
-**Definition**: acronym for "Create, Read, Update, Delete"; the four basic
+**Definition**: acronym for _Create, Read, Update, Delete_; the four basic
 operations for persistent storage and data management in APIs
 
 **Purpose**: provides a standard framework for API operations that maps
 directly to HTTP methods, making API design intuitive and predictable;
 CRUD operations form the foundation of most REST API interactions
 
-**HTTP method mapping**:
+**HTTP Method Mapping**:
 
 | CRUD Operation | HTTP Method | Action | Example |
 | -------------- | ----------- | ------ | ------- |
@@ -171,7 +168,7 @@ posts via `PUT /posts/{id}`, and deleting posts via `DELETE /posts/{id}`
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
 [`PATCH`](#patch), [`POST`](#post), [`PUT`](#put), [resource](#resource),
-[REST API](api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.md#rest-api)
 
 **Sources**:
 
@@ -180,7 +177,7 @@ posts via `PUT /posts/{id}`, and deleting posts via `DELETE /posts/{id}`
 
 ---
 
-### `DELETE`
+## `DELETE`
 
 **Definition**: HTTP method that requests removal of a specified
 resource from the server
@@ -198,7 +195,7 @@ with ID 123 from the system
 
 ---
 
-### environment variables
+## environment variables
 
 **Definition**: dynamic values stored outside app code that
 configure program behavior across different deployment environments
@@ -214,15 +211,15 @@ credentials stored as environment variables rather than committed
 to version control
 
 **Related Terms**: [API](#api),
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[API security](#api-security), [authentication](core-concepts.md#authentication),
-[Bruno](./tools-techniques/testing-validation.md#bruno)
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API security](#api-security), [authentication](#authentication),
+[Bruno](../tools-techniques/testing-validation.md#bruno)
 
 **Source**: [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
 
 ---
 
-### error handling
+## error handling
 
 **Definition**: the process of anticipating, detecting, and responding
 to errors that occur during API operations; includes both how the API
@@ -268,7 +265,7 @@ only required field is `type`, defaults to `"about:blank"`_
 
 **Related Terms**: [API](#api), [HTTP status codes](#http-status-codes),
 [JSON](#json), [rate limiting](#rate-limiting),
-[troubleshooting](#troubleshooting), [validation](#validation)
+[troubleshooting](documentation-specific.md#troubleshooting), [validation](#validation)
 
 **Sources**:
 
@@ -278,7 +275,7 @@ only required field is `type`, defaults to `"about:blank"`_
 
 ---
 
-### `GET`
+## `GET`
 
 **Definition**: HTTP method that requests data from a server without
 modifying any resources; the most common method for retrieving information
@@ -296,7 +293,7 @@ user with ID 123 without changing any data
 
 ---
 
-### HTTP
+## HTTP
 
 **Definition**: acronym for _Hypertext Transfer Protocol_;
 synchronous request/response protocol that enables communication
@@ -317,15 +314,15 @@ status code, such as `200` for success or `400` for a bad request,
 and any relevant data
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[AsyncAPI](#asyncapi), [error-handling](#error-handling),
-[HTTPS](core-concepts.md#https), [HTTP status codes](#http-status-codes),
-[HTTP versions](#http-versions), [REST API](api-types-architectures.md#rest-api)
+[AsyncAPI](documentation-specific.md#asyncapi), [error-handling](#error-handling),
+[HTTPS](#https), [HTTP status codes](#http-status-codes),
+[HTTP versions](#http-versions), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
 ---
 
-### HTTP method
+## HTTP method
 
 **Definition**: verb that indicates the desired action to perform
 on a resource in an HTTP request; defines what operation the client
@@ -340,14 +337,13 @@ deletes data
 updating whole resources, and `DELETE` for removing resources
 
 **Related Terms**: [CRUD](#crud), [`DELETE`](#delete), [`GET`](#get),
-[HTTP](core-concepts.md#http), [`PATCH`](#patch),
-[`POST`](#post), [`PUT`](#put)
+[HTTP](#http), [`PATCH`](#patch), [`POST`](#post), [`PUT`](#put)
 
 **Source**: [Mozilla Corporation, MDN: "HTTP request methods"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 ---
 
-### HTTPS
+## HTTPS
 
 **Definition**: acronym for _Hypertext Transfer Protocol Secure_;
 encrypts communication between clients and servers using Transport
@@ -371,13 +367,13 @@ intercepts the network traffic, they can't read the username, password,
 or account information
 
 **Related Terms**: [API security](#api-security), [authentication](#authentication),
-[HTTP](core-concepts.md#http), [HTTP versions](#http-versions)
+[HTTP](#http), [HTTP versions](#http-versions)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
 ---
 
-### HTTP status codes
+## HTTP status codes
 
 **Definition**: three-digit codes returned by servers in HTTP responses that
 show whether a specific request succeeded or failed, and why
@@ -387,7 +383,7 @@ scenarios appropriately, add proper error handling, and debug API issues;
 API documentation must explain which status codes an endpoint returns
 and what they mean
 
-**Status code categories**:
+**Status Code Categories**:
 
 | Code Range | Category | Meaning |
 | ------------ | ---------- | --------- |
@@ -397,7 +393,7 @@ and what they mean
 | 4xx | Client Error | Request contains bad syntax and/or server can't process |
 | 5xx | Server Error | Server failed to fulfill an apparently valid request |
 
-**Common status codes**:
+**Common Status Codes**:
 
 | Code | Label | Meaning |
 | ------ | ------ | --------- |
@@ -428,24 +424,23 @@ GET https://api.example.com/users/999
 ```
 
 **Related Terms**:
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
-[rate limiting](#rate-limiting), [request/response](#requestresponse),
-[REST API](api-types-architectures.md#rest-api), [troubleshooting](#troubleshooting),
-[validation](#validation)
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API endpoint](#api-endpoint), [HTTP](#http), [rate limiting](#rate-limiting),
+[request/response](#requestresponse), [REST API](../api-types-architectures.md#rest-api),
+[troubleshooting](documentation-specific.md#troubleshooting), [validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
 ---
 
-### HTTP versions
+## HTTP versions
 
 **Definition**: iterations of the Hypertext Transfer Protocol
 with different performance and feature capabilities;
 HTTP/1.1 (1997) uses sequential requests, HTTP/2 (2015) enables
 concurrent requests over one connection, HTTP/3 (2022) uses
-QUIC protocol - originally "Quick UDP Internet Connections," now
-just QUIC - for improved reliability
+QUIC protocol - originally _Quick UDP Internet Connections_,
+now just QUIC - for improved reliability
 
 **Purpose**: understanding version differences helps explain
 why certain API architectures like gRPC require specific HTTP
@@ -455,15 +450,15 @@ versions for their performance characteristics
 features like multiplexing and bidirectional streaming that aren't
 available in HTTP/1.1
 
-**Related Terms**: [gRPC API](api-types-architectures.md#grpc-api),
-[HTTP](core-concepts.md#http), [HTTPS](core-concepts.md#https),
-[REST API](api-types-architectures.md#rest-api)
+**Related Terms**: [gRPC API](../api-types-architectures.md#grpc-api),
+[HTTP](#http), [HTTPS](#https),
+[REST API](../api-types-architectures.md#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
 ---
 
-### idempotent
+## idempotent
 
 **Definition**: describes an operation that produces the same result
 regardless of how many times it's executed; making the same request
@@ -478,7 +473,7 @@ many times results in the same state: "user deleted" - while `POST /users`
 isn't idempotent, as posting the same user data many times creates
 many user records
 
-**HTTP methods & idempotency**:
+**HTTP Methods & Idempotency**:
 
 | Method | Idempotent | Reason |
 | ------ | ------ | ------ |
@@ -495,7 +490,7 @@ many user records
 
 ---
 
-### JSON
+## JSON
 
 **Definition**: acronym for _JavaScript Object Notation_; a lightweight,
 text-based data format that uses human-readable key-value pairs to
@@ -506,7 +501,7 @@ clients and servers; JSON has become the dominant format for modern
 REST APIs due to its readability, compact size, and native compatibility
 with JavaScript
 
-**Key characteristics**:
+**Key Characteristics**:
 
 - Objects: collections of key-value pairs enclosed in curly braces `{}`
 - Arrays: ordered lists of values enclosed in square brackets `[]`
@@ -531,7 +526,7 @@ with JavaScript
 }
 ```
 
-**Common API use cases**:
+**Common API Use Cases**:
 
 | Use Case | Example |
 | -------- | -------- |
@@ -541,15 +536,15 @@ with JavaScript
 | Error messages | Structured error information |
 
 **Related Terms**: [payload](#payload),
-[REST API](api-types-architectures.md#rest-api),
+[REST API](../api-types-architectures.md#rest-api),
 [serialization](#serialization),
-[XML](./tools-techniques/development-essentials.md#xml)
+[XML](../tools-techniques/development-essentials.md#xml)
 
 **Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
 
 ---
 
-### message broker
+## message broker
 
 **Definition**: intermediary software component that receives, stores,
 routes, and delivers messages between applications, services, or systems
@@ -576,18 +571,20 @@ decoupling allows independent scaling and evolution of system components
 | **Payment system** | Subscribes to order messages | Processes payment asynchronously |
 | **Shipping system** | Subscribes to order messages | Arranges delivery in parallel |
 
-**Related Terms**: [AMQP](api-types-architectures.md#amqp), [API](#api),
-[AsyncAPI](#asyncapi), [event-driven](api-types-architectures.md#event-driven),
-[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
-[MQTT](api-types-architectures.md#mqtt)
+**Related Terms**: [AMQP](../api-types-architectures.md#amqp), [API](#api),
+[AsyncAPI](documentation-specific.md#asyncapi),
+[event-driven](../api-types-architectures.md#event-driven),
+[Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
+[MQTT](../api-types-architectures.md#mqtt)
 
 **Sources**:
+
 - [Geeks for Geeks: "Message Brokers in System Design"](https://www.geeksforgeeks.org/system-design/what-are-message-brokers-in-system-design/)
 - [IBM: "What is a message broker?"](https://www.ibm.com/topics/message-brokers)
 
 ---
 
-### parameters
+## parameters
 
 **Definition**: variables passed in API requests to specify or filter
 the data returned, change behavior, or provide necessary information for
@@ -598,7 +595,7 @@ requiring separate endpoints for every variation; API documentation must
 describe each parameter's purpose, data type, whether it's required
 or optional, and valid values
 
-**Parameter types**:
+**Parameter Types**:
 
 | Type | Location | Purpose | Example |
 | ------ | ---------- | --------- | --------- |
@@ -607,20 +604,20 @@ or optional, and valid values
 | Header parameters | HTTP headers | Authentication, content type | `Authorization: Bearer token123` |
 | Body parameters | Request body | Complex data for `POST/PUT` | JSON object with user details |
 
-**Example using many parameter types**:
+**Example Using Many Parameter Types**:
 
 ```bash
 GET https://api.example.com/v1/users/123/orders?status=pending&limit=5
 Authorization: Bearer abc123xyz
 ```
 
-Breaking down the parameters:
+**Break Down the Parameters**:
 
 - **Path parameter**: `123` - user ID
 - **Query parameters**: `status=pending` and `limit=5`
 - **Header parameter**: `Authorization: Bearer abc123xyz`
 
-**Documentation requirements for each parameter**:
+**Documentation Requirements for Each Parameter**:
 
 - Name and data type - string, integer, boolean
 - Whether it's required or optional
@@ -629,13 +626,13 @@ Breaking down the parameters:
 - Description of what it does
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api)
+[request/response](#requestresponse), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
 ---
 
-### payload
+## payload
 
 **Definition**: the actual data transmitted in an API request or response
 body, excluding headers and metadata; contains the information sent
@@ -657,7 +654,7 @@ required to create a user:
 }
 ```
 
-**Common payload formats**:
+**Common Payload Formats**:
 
 | Format | Use Case | Example |
 | ------ | -------- | ------- |
@@ -667,8 +664,8 @@ required to create a user:
 | Binary | File transfers, images | Raw bytes |
 
 **Related Terms**: [HTTP method](#http-method), [JSON](#json),
-[request/response](#requestresponse), [REST API](api-types-architectures.md#rest-api),
-[serialization](#serialization), [XML](./tools-techniques/development-essentials.md#xml)
+[request/response](#requestresponse), [REST API](../api-types-architectures.md#rest-api),
+[serialization](#serialization), [XML](../tools-techniques/development-essentials.md#xml)
 
 **Sources**:
 
@@ -677,7 +674,7 @@ required to create a user:
 
 ---
 
-### `PATCH`
+## `PATCH`
 
 **Definition**: HTTP method that applies partial modifications to
 an existing resource; sends only the fields that need updates
@@ -699,7 +696,7 @@ field of user 123, leaving other fields like `name` and
 
 ---
 
-### `POST`
+## `POST`
 
 **Definition**: HTTP method that submits data to a server to create
 new resources or trigger actions; submission data typically
@@ -712,14 +709,15 @@ upload files, or execute operations that change server state
 `{"name": "Alice", "email": "alice@example.com"}` creates a
 new user account
 
-**Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
-[`PATCH`](#patch), [`PUT`](#put), [webhook API](api-types-architectures.md#webhook-api)
+**Related Terms**: [`DELETE`](#delete), [`GET`](#get),
+[HTTP method](#http-method), [`PATCH`](#patch), [`PUT`](#put),
+[webhook API](../api-types-architectures.md#webhook-api)
 
 **Source**: [Mozilla Corporation, MDN: "`POST` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
 
 ---
 
-### `PUT`
+## `PUT`
 
 **Definition**: HTTP method that replaces an existing resource
 with new data or creates a resource at a specific URL if it
@@ -740,7 +738,7 @@ replaces all existing data for user 123 with the new data
 
 ---
 
-### rate limiting
+## rate limiting
 
 **Definition**: mechanism that restricts the number of API requests a
 client can make within a specified time window; protects servers from
@@ -755,7 +753,7 @@ and/or data handling concept that affects all API usage - not just security
 scenarios; it's about resource management, fair access, and system stability
 as much as it's about preventing abuse
 
-**Common rate limiting patterns**:
+**Common Rate Limiting Patterns**:
 
 | Pattern | Description | Example |
 | ------- | ----------- | ------- |
@@ -788,7 +786,7 @@ Retry-After: 3600
 
 ---
 
-### request/response
+## request/response
 
 **Definition**: the two-part communication pattern in API interactions
 where a client sends a request to a server and receives a response
@@ -797,7 +795,7 @@ where a client sends a request to a server and receives a response
 to using and documenting APIs; documentation must show what requests
 look like, what data to include, and what responses to expect
 
-**Request components**:
+**Request Components**:
 
 | Component | Description | Example |
 | ----------- | ------------- | --------- |
@@ -807,7 +805,7 @@ look like, what data to include, and what responses to expect
 | Body | Data sent with request - `POST/PUT` | JSON object |
 | Parameters | Request specifications | Query or path parameters |
 
-**Response components**:
+**Response Components**:
 
 | Component | Description | Example |
 | ----------- | ------------- | --------- |
@@ -815,7 +813,7 @@ look like, what data to include, and what responses to expect
 | Headers | Metadata about the response | `Content-Type: application/json` |
 | Body | Data returned from server | JSON object |
 
-**Example request**:
+**Example Request**:
 
 ```bash
 POST https://api.example.com/users
@@ -845,15 +843,15 @@ Content-Type: application/json
 ```
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](core-concepts.md#http), [HTTP method](#http-method),
+[HTTP](#http), [HTTP method](#http-method),
 [HTTP status codes](#http-status-codes), [parameters](#parameters),
-[REST API](api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
 ---
 
-### resource
+## resource
 
 **Definition**: a distinct piece of data or entity available for reference
 or modification through an API; REST architecture fundamental concept
@@ -864,14 +862,14 @@ resources map to real-world entities and enable intuitive API structures
 where URLs represent resources and HTTP methods represent actions on those
 resources
 
-**Key characteristics for each resource**:
+**Key Characteristics for Each Resource**:
 
-- **Unique identifier**: has a distinct URI or ID
+- **Unique Identifier**: has a distinct URI or ID
 - **Representations**: return in different formats like JSON or XML
 - **State**: have properties available for reading or updating
 - **Relationships**: can relate to other resources
 
-**Common resource types**:
+**Common Resource Types**:
 
 | Type | Example | Typical Operations |
 | ---- | ------- | ------------------ |
@@ -884,17 +882,18 @@ resources
 orders, and payments; each resource type has its own endpoint structure
 like `/products/456` for a specific product resource
 
-**Related Terms**: [API endpoint](#api-endpoint), [CRUD](#crud), [HTTP method](#http-method),
-[REST API](api-types-architectures.md#rest-api), [URI](#uri), [URL](#url)
+**Related Terms**: [API endpoint](#api-endpoint), [CRUD](#crud),
+[HTTP method](#http-method), [REST API](../api-types-architectures.md#rest-api),
+[URI](#uri), [URL](#url)
 
-**Sources**: 
+**Sources**:
 
 - [IETF RFC 9110 - HTTP Semantics: Section 3.1](https://www.rfc-editor.org/rfc/rfc9110.html#name-resources)
 - UW API Docs: Module 2, Lesson 5: "Create a Master Prompt"
 
 ---
 
-### schema
+## schema
 
 **Definition**: also know as the Schema Object, the formal definition that
 describes the structure, data types, constraints, and relationships within
@@ -909,8 +908,8 @@ requires a request body with string type for email field and integer type
 for age field
 
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
-[GraphQL API](api-types-architectures.md#graphql-api),
-[OpenAPI specification](#openapi-specification),
+[GraphQL API](../api-types-architectures.md#graphql-api),
+[OpenAPI specification](documentation-specific.md#openapi-specification),
 [request/response](#requestresponse), [validation](#validation)
 
 **Sources**:
@@ -920,7 +919,7 @@ for age field
 
 ---
 
-### serialization
+## serialization
 
 **Definition**: the process of converting data structures and/or objects
 into a format appropriate for network transmission or storage,
@@ -935,14 +934,14 @@ into JSON string `{"name":"Alice", "age":30}` before sending it in an
 API request
 
 **Related Terms**: [JSON](#json), [payload](#payload),
-[Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers),
-[XML](./tools-techniques/development-essentials.md#xml)
+[Protocol Buffers](../tools-techniques/development-essentials.md#protocol-buffers),
+[XML](../tools-techniques/development-essentials.md#xml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
 
 ---
 
-### URI
+## URI
 
 **Definition**: acronym for _Uniform Resource Identifier_; standard
 format for identifying resources in a way that enables consistent
@@ -956,18 +955,18 @@ identification system across the web
 
 **Example**: `mailto:user@example.com` is a URI that identifies an
 email address resource; `urn:isbn:0-486-27557-4` is a URI that
-identifies a book by its ISBN - International Standard Book Number;
+identifies a book by its ISBN - _International Standard Book Number_;
 both identify resources without specifying network locations
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[HTTP](core-concepts.md#http), [resource](#resource),
-[REST API](api-types-architectures.md#rest-api), [URL](#url)
+[HTTP](#http), [resource](#resource),
+[REST API](../api-types-architectures.md#rest-api), [URL](#url)
 
 **Source**: [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
 
 ---
 
-### URL
+## URL
 
 **Definition**: acronym for _Uniform Resource Locator_; specific URI type
 that _not only_ identifies a resource but also provides the means to locate
@@ -983,7 +982,7 @@ and how to reach them
 https://api.example.com:443/v1/users/123?include=orders
 ```
 
-**Break down this URL**:
+**Break Down This URL**:
 
 | Category | Component | Example | Description |
 | ---------- | ----------- | --------- | ------------- |
@@ -993,7 +992,7 @@ https://api.example.com:443/v1/users/123?include=orders
 | what | endpoint/path | `/v1/users/123` | specific resource location |
 | _optional_ | query parameters | `?include=orders` | request modifications |
 
-**Related Terms**: [API endpoint](#api-endpoint), [HTTP](core-concepts.md#http),
+**Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http),
 [parameters](#parameters), [resource](#resource),
 [REST API](api-types-architectures.md#rest-api), [schema](#schema), [URI](#uri)
 
@@ -1004,7 +1003,7 @@ https://api.example.com:443/v1/users/123?include=orders
 
 ---
 
-### validation
+## validation
 
 **Definition**: process of checking whether data meets specified rules,
 constraints, and format requirements before processing or storage
@@ -1030,678 +1029,5 @@ creating a user account
 
 - [OpenAPI Initiative: "Data Validation"](https://spec.openapis.org/oas/latest.html#data-types)
 - [Open Worldwide Application Security Project - OWASP: "API data validation - API security"](https://owasp10.com/api-data-validation-api-security/)
-
----
-
-## Documentation-specific Concepts
-
----
-
-### API overview topic
-
-**Definition**: also known as "the landing page" in which
-the audience is everyone
-
-**Common use cases**:
-
-- **Not aware of API**: readers researching new options
-or products
-- **Aware of API**: readers looking for more specific
-information
-
-**Reader's goals**:
-
-- become aware of the product
-- learn more about the product
-- navigate to other documentation about the product
-
-**Key characteristics**:
-
-- a value proposition, a tagline
-- CTAs, call-to-action, as in "Get Started," "Contact Us,"
-and/or "Learn More"
-- links to common destinations such as "Docs," "FAQ,"
-"Reference," and/or "Support"
-
-**When designing user-centered API overview topics**:
-
-- consider the audience and their goals, and consider
-many users, use cases and goals
-- how readers might use the overview topic, "might
-adding or removing this content help the reader
-achieve their goal?"
-- determine how visual design and branding might
-be significant
-
-**Topic &harr; Reader &harr; Doc Relationships**
-
-| Topic Type | Reader Goal | Doc Task |
-| --------- | --------- | ---------- |
-| Overview, Landing Page | Awareness | Attract |
-| First-use, Quickstart | Awareness | Attract |
-| Tutorials, Examples | Adoption, Application | Exhibit, Apply |
-| Conceptual | Learn | Teach |
-| Reference | Delivery, Maintenance | Assist |
-
-**API Documentation Stages &harr; User Journeys**:
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Docs
-    
-    User->>Docs: First visit → Getting Started
-    Docs-->>User: overview, quickstart
-    User->>Docs: Learn more → task-based
-    Docs-->>User: tutorials, examples
-    User->>Docs: Need details → Reference
-    Docs-->>User: endpoints, parameters
-    User->>Docs: Need help → Support
-    Docs-->>User: FAQ, troubleshooting
-```
-
-**Related Terms**: [API reference topic](#api-reference-topic),
-[getting started](#getting-started), [introduction](#introduction),
-[market](frameworks-strategy.md#market),
-[sales collateral](frameworks-strategy.md#sales-collateral),
-[top-level](#top-level)
-
-**Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
-
----
-
-### API reference topic
-
-**Definition**: also known as "getting finished topics" -
-documentation that describes specific aspects of an API
-operation or object
-
-**Audience**: people using or considering using the API
-
-**Common use cases**:
-
-- **Quick reference**: API reference topics remember the details
-so developers don't have to
-- **Research**: determine the API's utility, usability, and
-suitability
-
-**Reader's goals**:
-
-- Look up information and get back on task quickly
-- Assess whether the API fits their needs
-
-**Standard contents**:
-
-| Element | Purpose |
-| --------- | --------- |
-| Title | Confirms you're in the right place |
-| Endpoint or URL | How to call it |
-| Description | What it does |
-| Properties | What it contains |
-| Property descriptions | Details about each property |
-| Operations | Available actions, such as `GET`, `POST` |
-| Examples | Sample requests and responses |
-| Related links | Navigation to related topics |
-
-**Related Terms**: [API overview topic](#api-overview-topic),
-[OpenAPI specification](#openapi-specification),
-[reference](#reference)
-
-**Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
-
----
-
-### AsyncAPI
-
-**Definition**: specification for defining asynchronous, event-driven
-APIs in machine-readable format using JSON or YAML
-
-**Purpose**: enables standardized documentation and tooling for APIs
-that work over protocols like AMQP, HTTP, Kafka, Mercure, MQTT, STOMP,
-and WebSockets; provides similar benefits to OpenAPI but for
-message-driven architectures
-
-**Why this belongs in `Core Concepts`**: AsyncAPI is a documentation
-specification format, not an architectural pattern; consistency with
-OpenAPI Specification placement is essential since both are fundamental
-specification standards for documenting APIs; _OpenAPI for synchronous
-REST APIs, AsyncAPI for asynchronous event-driven APIs_;
-`API Types & Architectures` covers architectural patterns and protocols -
-REST, GraphQL as a query language -  while `Core Concepts` covers the
-documentation specification formats that API documentation writers use
-to describe those architectures
-
-**Example**: developers create AsyncAPI specifications to document
-event-driven systems, then generate documentation, code, and tests from
-the specification
-
-**Related Terms**: [AMQP](api-types-architectures.md#amqp),
-[event-driven](api-types-architectures.md#event-driven),
-[GraphQL API](api-types-architectures.md#graphql-api),
-[HTTP](#http), [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
-[Mercure](api-types-architectures.md#mercure),
-[MQTT](api-types-architectures.md#mqtt),
-[OpenAPI Specification](#openapi-specification),
-[REST API](api-types-architectures.md#rest-api),
-[STOMP](api-types-architectures.md#stomp),
-[WebSocket API](api-types-architectures.md#websocket-api)
-
-**Sources**:
-
-- [LF Projects, LLC, AsyncAPI Initiative: "AsyncAPI Specification"](https://www.asyncapi.com/docs/reference/specification/v3.0.0)
-- [GitHub Repository: asyncapi/spec](https://github.com/asyncapi/spec)
-
----
-
-### concept
-
-**Definition**: documentation topic type; explains what something is,
-how it works, or why it matters; provides understanding without
-instructing readers to perform specific tasks
-
-**Purpose**: builds foundational knowledge that helps readers understand
-the context, principles, and reasoning behind features or systems;
-concept topics answer "what" and "why" questions at an accessible,
-introductory level
-
-**Key Characteristics**:
-
-- explains ideas, principles, or components at a foundational level
-- provides context and background information
-- avoids step-by-step instructions
-- may include diagrams, analogies, or examples to illustrate concepts
-- typically more standalone, focused on building knowledge without
-explicit connections to procedural content
-
-**Scope**: concept topics provide introductory-level understanding,
-offering the essential knowledge readers need to grasp what something
-is and why it matters before diving deeper
-
-**Example**: a concept topic about API authentication explains what
-authentication is, why it's necessary for API security, and how
-different authentication methods compare, without providing setup
-instructions
-
-**Related Terms**: [explanation guide](#explanation-guide),
-[glossary](#glossary), [introduction](#introduction),
-[reference](#reference), [task](#task), [top-level](#top-level),
-[troubleshooting](#troubleshooting), [tutorial](#tutorial)
-
-**Source**: [GitLab Docs: "Concept topic type"](https://docs.gitlab.com/development/documentation/topic_types/concept/)
-
----
-
-### explanation guide
-
-**Definition**: documentation topic type; clarifies a single topic in
-depth without providing step-by-step instructions; focuses on
-comprehensive understanding of concepts, principles, or features rather
-than completing tasks
-
-**Purpose**: builds in-depth knowledge that helps readers understand
-how and why something works; enables users to get the most value from
-a product by providing extensive context and conceptual background that
-goes beyond foundational understanding
-
-**Key Characteristics**:
-
-- explains concepts rather than procedures with greater depth than
-concept topics
-- no step-by-step instructions
-- may include diagrams, code examples, or real-life scenarios
-- explicitly links to related how-to guides, tutorials, or getting
-started guides
-- helps readers understand the "what" and "why" at a comprehensive level
-- serves as a bridge between understanding and doing
-
-**Scope**: explanation guides provide comprehensive, in-depth understanding
-that goes beyond introductory concepts, offering the extensive context
-needed to fully grasp how systems work and make informed decisions
-
-**Example**: an explanation guide about API rate limiting explains what
-rate limiting is, why it exists, how different rate limiting algorithms
-work, when to use each approach, and the trade-offs between them -
-without providing setup instructions but linking to implementation guides
-
-**Related Terms**: [concept](#concept), [Diátaxis](frameworks-strategy.md#diátaxis),
-[getting started](#getting-started), [how-to guide](#how-to-guide),
-[introduction](#introduction), [reference](#reference), [tutorial](#tutorial)
-
-**Sources**:
-
-- [Diátaxis by Daniele Procida: "Explanation"](https://diataxis.fr/explanation/)
-- [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
-
----
-
-### getting started
-
-**Definition**: documentation topic type; also known as "get started" -
-comprehensive onboarding documentation that helps new users complete
-their first meaningful interaction with a product or feature; provides
-detailed setup, configuration, and foundational knowledge
-
-**Purpose**: reduces time-to-value by guiding users through essential
-setup and first use; builds confidence and momentum for deeper
-engagement with the product through thorough, step-by-step guidance
-
-**Key Characteristics**:
-
-- covers complete setup and configuration process
-- assumes minimal prior knowledge
-- provides clear, sequential steps with explanations
-- includes prerequisites and troubleshooting
-- often spans many pages or sections
-- balances depth with accessibility
-
-**Onboarding Topics Comparison**:
-
-| Aspect | Introduction | Getting Started | Quickstart |
-| ------ | ------------ | --------------- | ---------- |
-| **Purpose** | Awareness | Foundation building | Immediate action |
-| **Action required** | None | Yes - comprehensive | Yes - minimal |
-| **Length** | Variable | Longer - Many pages | Shortest - single page |
-| **Depth** | Conceptual only | Detailed guidance | Essential steps only |
-| **Audience** | All levels | New users | Experienced users |
-| **Content** | What and why | Setup &rarr; config &rarr; examples | Fastest path to success |
-
-**Example**: a getting started guide for an API walks through obtaining
-API credentials, installing required libraries, configuring authentication,
-understanding key concepts, making many API calls with different parameters,
-and interpreting different response types
-
-**Related Terms**: [API overview topic](#api-overview-topic),
-[introduction](#introduction), [onboarding guide](#onboarding-guide),
-[quickstart](#quickstart), [task](#task), [top-level](#top-level),
-[tutorial](#tutorial)
-
-**Sources**:
-
-- [Document360: "How to Write a Getting Started Guide"](https://document360.com/blog/write-a-getting-started-guide/)
-- [GitLab Docs: "Get started page type"](https://docs.gitlab.com/development/documentation/topic_types/get_started/)
-
----
-
-### glossary
-
-**Definition**: documentation topic type; alphabetically organized collection
-of terms and their definitions; provides quick reference for terminology
-specific to a product, domain, or technology
-
-**Purpose**: establishes consistent vocabulary, reduces confusion, and helps
-readers understand specialized terms without interrupting their workflow to
-search elsewhere
-
-**Key Characteristics**:
-
-- terms listed alphabetically
-- concise, clear definitions
-- may include links to related terms or detailed concept topics
-- focused on domain-specific or product-specific terminology
-
-**Example**: an API glossary defines terms like "endpoint," "rate limiting,"
-and "webhook" with brief explanations and links to detailed documentation
-
-**Related Terms**: [concept](#concept), [reference](#reference)
-
-**Source**: [GitLab Docs: "Glossary topic type"](https://docs.gitlab.com/development/documentation/topic_types/glossary/)
-
----
-
-### how-to guide
-
-**Definition**: documentation topic type; step-by-step instructions for
-completing a specific real-world task; limited to a single task without
-detailed conceptual explanations
-
-**Purpose**: enables users to complete a practical task successfully;
-provides focused, action-oriented guidance for readers who know what they
-want to achieve
-
-**Key Characteristics**:
-
-- focused on a single, specific task
-- provides numbered steps in sequence
-- minimal conceptual explanation
-- often links to explanation guides for deeper context
-- assumes basic familiarity with the product
-
-**Example**: a how-to guide titled "Add OAuth authentication to your API"
-provides the exact steps to configure OAuth without explaining authentication
-concepts in depth
-
-**Related Terms**: [Diátaxis](frameworks-strategy.md#diátaxis),
-[explanation guide](#explanation-guide), [getting started](#getting-started),
-[quickstart](#quickstart), [task](#task), [tutorial](#tutorial)
-
-**Sources**:
-
-- [Diátaxis by Daniele Procida: "How-to guides"](https://diataxis.fr/how-to-guides/)
-- [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
-
----
-
-### introduction
-
-**Definition**: broad overview documentation that explains what a product or
-feature is, why it exists, and what problems it solves; provides context without
-requiring hands-on action
-
-**Purpose**: builds awareness and understanding; helps readers determine if the
-product meets their needs before investing time in setup or implementation
-
-**Key Characteristics**:
-
-- focuses on the "what" and "why"
-- no step-by-step instructions
-- often includes use cases, benefits, and high-level architecture
-- may appear as landing page or overview topic content
-- suitable for all experience levels
-
-**Example**: an API introduction explains what the API does, which problems it
-solves, key features, and typical use cases without providing setup
-instructions or code examples
-
-**Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
-[explanation guide](#explanation-guide), [getting started](#getting-started),
-[quickstart](#quickstart), [top-level](#top-level)
-
-**Sources**:
-
-- [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
-- [Hedera: "Understanding different types of documentation"](https://docs.hedera.com/hedera/support-and-community/contributing-guide/style-guide/understanding-different-types-of-documentation)
-
----
-
-### onboarding guide
-
-**Definition**: documentation topic type; handbook for new team members that
-provides broader understanding of team systems, processes, and practices;
-helps teammates gain necessary context to work effectively
-
-**Purpose**: enables new team members to complete essential setup and
-understand team workflows, tools, and conventions; reduces time-to-productivity
-for new hires
-
-**Key Characteristics**:
-
-- comprehensive coverage of team-specific information
-- combines setup tasks with team context
-- may include checklists and milestones
-- targets new team members specifically
-- often covers tools, processes, coding standards, and team culture
-
-**Example**: an engineering onboarding guide walks new developers through setting
-up their development environment, understanding the team's Git workflow, learning
-deployment processes, and accessing team resources
-
-**Related Terms**: [getting started](#getting-started), [how-to guide](#how-to-guide),
-[runbook](#runbook), [tutorial](#tutorial)
-
-**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
-
----
-
-### OpenAPI Specification
-
-**Definition**: also known as the OAS, a standard, language-agnostic way
-to define the interface of an HTTP API, allowing both humans and computers
-to discover and understand the service's capabilities without
-accessing source code, documentation, or inspecting network traffic
-
-**Format**: YAML - human-readable data serialization language -
-with a hierarchical collection of properties and values that describe
-a REST API
-
-**Purpose**: used to create both the interface and documentation, but,
-the OAS document itself is neither implementation nor documentation -
-it requires interpretation before it can become either
-
-**Document structure:**
-
-| Section | Purpose |
-| --------- | --------- |
-| `info` | Metadata about the specification document |
-| `servers` | List of servers that support the API |
-| `tags` | Tokens used to group and organize endpoints such as resource names |
-| `security` | Security schemes used to restrict API access |
-| `paths` | URL path segments and their operations |
-| `components` | Reusable objects referenced throughout the document |
-
-**Path properties:**
-
-| Property | Description |
-| ---------- | ------------- |
-| `summary` | Short description; appears as the API operation name |
-| `description` | Detailed explanation of the API and how to use it |
-| `tags` | Groups similar paths together |
-| `operationId` | Unique identifier for this operation |
-| `parameters` | URL and query parameters - URL parameters appear in the path itself |
-| `responses` | All possible HTTP responses for requests to this path |
-
-**Related terms**: [API](#api), [API reference topic](#api-reference-topic),
-[AsyncAPI](#asyncapi),
-[Dredd](./tools-techniques/testing-validation.md#dredd),
-[Microcks](./tools-techniques/testing-validation.md#microcks),
-[reference](#reference), [REST API](api-types-architectures.md#rest-api),
-[schema](#schema)
-
-**Sources**:
-
-- UW API Docs: Module 5, Lesson 2, "Open API specification (OAS) documents"
-- [Wikipedia: YAML](https://en.wikipedia.org/wiki/YAML)
-
----
-
-### quickstart
-
-**Definition**: condensed documentation that provides the absolute least
-amount of steps needed to achieve first success with a product; prioritizes
-speed over comprehensiveness
-
-**Purpose**: enables immediate hands-on experience and demonstrates value
-within minutes; hooks developers quickly before they explore deeper documentation
-
-**Key Characteristics**:
-
-- concise - often a tenth the length of full documentation
-- action-oriented with minimal explanation
-- shows one clear path to success
-- may use simplified examples or defaults
-- targets developers who want fast results
-- single page or short video format
-
-**Example**: a quickstart for a payment API provides a pre-configured code snippet
-that processes a test transaction in three steps: copy the code, add an API key,
-run the script - achievable in under five minutes
-
-**Related Terms**: [getting started](#getting-started), [how-to guide](#how-to-guide),
-[introduction](#introduction), [task](#task), [tutorial](#tutorial)
-
-**Sources**:
-
-- [Document360: "How to Write a Getting Started Guide" by Jubina Prabhakaran](https://document360.com/blog/write-a-getting-started-guide/)
-- [Document360: "Quick Start Guide: What is it & how do you create one" by Pradeepa Somasundaram](https://document360.com/blog/quick-start-guide/)
-- ["Quick start guides and in-depth API documentation" by Dr. Jarkko Moilanen](https://medium.com/@kyyberi/quick-start-guides-and-in-depth-api-documentation-4697e8056fea)
-
----
-
-### reference
-
-**Definition**: documentation topic type; provides detailed, factual
-information about APIs, commands, parameters, or system specifications;
-designed for lookup rather than learning
-
-**Purpose**: serves as a comprehensive source of technical details that
-developers consult during implementation; prioritizes completeness and
-accuracy over explanation
-
-**Key Characteristics**:
-
-- structured, consistent format
-- lists all available options, parameters, or endpoints
-- includes data types, default values, and constraints
-- minimal explanatory text
-- optimized for scanning and searching
-
-**Example**: an API reference lists all endpoints with their HTTP methods,
-parameters, request/response formats, and status codes
-
-**Related Terms**: [API reference topic](#api-reference-topic), [concept](#concept),
-[Diátaxis](frameworks-strategy.md#diátaxis), [explanation guide](#explanation-guide),
-[glossary](#glossary), [OpenAPI Specification](#openapi-specification),
-[task](#task)
-
-**Sources**:
-
-- [Diátaxis by Daniele Procida: "Reference"](https://diataxis.fr/reference/)
-- [GitLab Docs: "Reference topic type"](https://docs.gitlab.com/development/documentation/topic_types/reference/)
-
----
-
-### runbook
-
-**Definition**: documentation topic type; step-by-step team guide for
-completing common tasks or procedures; provides standardized instructions
-for operational or maintenance activities
-
-**Purpose**: ensures consistency and reliability when executing routine
-or critical procedures; enables any team member to perform necessary
-tasks correctly
-
-**Key Characteristics**:
-
-- procedural instructions for specific operations
-- designed for scanning for specific steps or in sequence
-- often includes context about when and why to use the procedure
-- targets team members at many experience levels
-- critical for incident response and routine maintenance
-
-**Example**: a deployment runbook details the exact steps to deploy code to
-production, including pre-deployment checks, deployment commands, verification
-steps, and rollback procedures
-
-**Related Terms**: [how-to guide](#how-to-guide), [onboarding guide](#onboarding-guide),
-[task](#task), [troubleshooting](#troubleshooting)
-
-**Source**: [Squarespace Engineering: "Part 1: Learn The Different Types Of Technical Documentation"](https://engineering.squarespace.com/blog/2023/part-1-learn-the-different-types-of-technical-documentation)
-
----
-
-### task
-
-**Definition**: documentation topic type; guides users through completing a
-specific goal; focuses on "how to" perform an action with step-by-step
-instructions
-
-**Purpose**: enables users to complete work efficiently without needing to
-understand all underlying concepts
-
-**Key Characteristics**:
-
-- starts with a clear goal
-- provides numbered steps in logical order
-- includes prerequisites when necessary
-- may include expected results or verification steps
-- focuses on one specific outcome
-
-**Example**: a task topic titled "Authenticate with OAuth 2.0" lists the exact
-steps to configure OAuth credentials and enable the authentication flow
-
-**Related Terms**: [concept](#concept), [getting started](#getting-started),
-[quickstart](#quickstart), [reference](#reference), [runbook](#runbook),
-[troubleshooting](#troubleshooting), [tutorial](#tutorial)
-
-**Source**: [GitLab Docs: "Task topic type"](https://docs.gitlab.com/development/documentation/topic_types/task/)
-
----
-
-### top-level
-
-**Definition**: documentation topic type; high-level page that introduces a
-subject area and provides navigation to related topics; serves as an entry
-point for a documentation section
-
-**Purpose**: orients readers to available resources, establishes information
-architecture, and helps users find relevant documentation quickly
-
-**Key Characteristics**:
-
-- broad overview of the subject area
-- links to child topics organized logically
-- minimal detailed content
-- may include brief descriptions of linked topics
-- focuses on navigation and discoverability
-
-**Example**: a "Security" top-level page introduces security concepts and
-links to topics about authentication, authorization, encryption, and security
-best practices
-
-**Related Terms**: [API overview topic](#api-overview-topic), [concept](#concept),
-[getting started](#getting-started), [introduction](#introduction)
-
-**Source**: [GitLab Docs: "Top-level page type"](https://docs.gitlab.com/development/documentation/topic_types/top_level_page/)
-
----
-
-### troubleshooting
-
-**Definition**: documentation topic type; helps users diagnose and resolve
-specific problems or error conditions; structured around symptoms, causes,
-and solutions
-
-**Purpose**: enables users to fix issues independently by providing targeted
-guidance for common problems; reduces support burden and improves user
-experience
-
-**Key Characteristics**:
-
-- describes the problem or error condition
-- lists possible causes
-- provides step-by-step solutions
-- may include diagnostic steps to identify the issue
-- often organized by error message or symptom
-
-**Example**: a troubleshooting topic for API errors explains common HTTP
-status codes like `401 Unauthorized` and `429 Too Many Requests`, describes
-why they occur, and provides steps to resolve them
-
-**Related Terms**: [concept](#concept), [error handling](#error-handling),
-[HTTP status codes](#http-status-codes), [runbook](#runbook), [task](#task)
-
-**Source**: [GitLab Docs: "Troubleshooting topic type"](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/)
-
----
-
-### tutorial
-
-**Definition**: documentation topic type; guides users through a complete,
-real-world scenario from start to finish; combines many tasks and concepts
-into a cohesive learning experience
-
-**Purpose**: teaches users how to apply a product or feature to solve a
-practical problem; builds skills and confidence through hands-on practice
-with a meaningful outcome
-
-**Key Characteristics**:
-
-- focuses on a realistic use case or scenario
-- includes many steps or stages
-- combines tasks with conceptual explanations
-- takes longer to complete than a single task
-- often includes a working example or project as the result
-
-**Example**: a tutorial titled "Build a REST API client" walks through
-setting up a development environment, authenticating with an API, making
-requests, handling responses, and implementing error handling
-
-**Related Terms**: [concept](#concept), [Diátaxis](frameworks-strategy.md#diátaxis),
-[getting started](#getting-started), [how-to guide](#how-to-guide),
-[onboarding guide](#onboarding-guide), [quickstart](#quickstart), [task](#task)
-
-**Sources**:
-
-- [Diátaxis by Daniele Procida: "Tutorials"](https://diataxis.fr/tutorials/)
-- [GitLab Docs: "Tutorial page type"](https://docs.gitlab.com/development/documentation/topic_types/tutorial/)
 
 ---
