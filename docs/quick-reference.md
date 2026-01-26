@@ -60,6 +60,15 @@ that enables reliable, asynchronous communication between applications
 
 ---
 
+### API Blueprint
+
+- description format that uses Markdown syntax to document *REST*ful APIs
+- predecessor to OpenAPI with more readable syntax
+
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API Blueprint](./core-concepts/documentation-specific.md#api-blueprint)
+
+---
+
 ### API documentation testing
 
 - practice of validating API function and performance requirements
