@@ -96,7 +96,7 @@ verifying that responses match documented schemas and status codes; when develop
 change an endpoint's required parameters, the test fails, alerting the documentation
 team to update their integration guides
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.md#api), [BDD](#bdd),
 [Bruno](./tools-techniques/testing-validation.md#bruno),
 [contract testing](#contract-testing),
 [Cypress](./tools-techniques/testing-validation.md#cypress),
@@ -111,6 +111,44 @@ team to update their integration guides
 - [James Tasse: "Docs as Tests: Part I - On a High (Level)"](https://jamestasse.tech/2025/05/29/docs-as-tests-on-a-high-level/)
 - [Manny Silva, Docs as Tests: "Validate an API with Doc Detective" by Niko Berry](https://www.docsastests.com/validate-api-with-doc-detective)
 - Write the Docs Book Club Slack discussions while reading Manny Silva's _Docs as Tests_, December 2025 - January 2026
+
+---
+
+## BDD
+
+**Definition**: acronym for _behavior-driven development_; software development
+methodology that extends TDD - _test-driven development_ - by writing tests in
+natural language that describes how software should behave from a user's
+perspective
+
+**Purpose**: bridges communication between technical and non-technical
+stakeholders by expressing requirements and tests in plain language; enables
+collaboration between developers, testers, and business analysts through shared
+understanding of expected behavior; in API documentation contexts, allows teams
+to validate API behavior using human-readable scenarios that serve as both tests
+and documentation
+
+**Example**: a team uses BDD to document and test their payment API by writing
+scenarios that become executable tests through frameworks like
+[Cucumber](https://cucumber.io/) while simultaneously serving as readable
+documentation of API behavior -
+
+```shell
+"Given a valid credit card, 
+When a charge request is submitted,
+Then the transaction succeeds and returns a confirmation ID"
+```
+
+**Related Terms**: [API documentation testing](#api-documentation-testing),
+[Cucumber](./tools-techniques/testing-validation.md#cucumber),
+[Given-When-Then](./tools-techniques/testing-validation.md#given-when-then),
+[docs-as-tests](#docs-as-tests), [workflow testing](#workflow-testing)
+
+**Sources**:
+
+- [Cucumber: "Behaviour-Driven Development"](https://cucumber.io/docs/bdd/)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+- [Wikipedia: "Behavior-driven development"](https://en.wikipedia.org/wiki/Behavior-driven_development)
 
 ---
 
@@ -295,7 +333,7 @@ documentation test fails when a button label changes from "Sign Up" to
 documentation
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
-[contract testing](#contract-testing),
+[BDD](#bdd), [contract testing](#contract-testing),
 [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
 [snippet testing](#snippet-testing),
 [usability testing](#usability-testing),
@@ -536,8 +574,9 @@ testing user authentication, cart management, payment processing, and order
 confirmation endpoints in sequence
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
-[docs-as-tests](#docs-as-tests), [contract testing](#contract-testing), Karate,
+[BDD](#bdd), [contract testing](#contract-testing), [docs-as-tests](#docs-as-tests),
 [guerilla usability testing](#guerrilla-usability-testing),
+[Karate](./tools-techniques/testing-validation.md#karate),
 [snippet testing](#snippet-testing), [usability testing](#usability-testing)
 
 **Sources**:

@@ -146,6 +146,17 @@ many different protocols
 
 ---
 
+### BDD
+
+- acronym for _behavior-driven development_
+- software development methodology
+- way for teams to work that closes the gap between business and
+technical people
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - BDD](workflows-methodologies.md#bdd)
+
+---
+
 ### branch
 
 - version control concept
