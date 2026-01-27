@@ -535,8 +535,8 @@ with JavaScript
 | Configuration | Storing API settings and options |
 | Error messages | Structured error information |
 
-**Related Terms**: [payload](#payload),
-[REST API](../api-types-architectures.md#rest-api),
+**Related Terms**: [JSON-RPC](../api-types-architectures.md#json-rpc),
+[payload](#payload), [REST API](../api-types-architectures.md#rest-api),
 [serialization](#serialization),
 [XML](../tools-techniques/development-essentials.md#xml),
 [YAML](../tools-techniques/development-essentials.md#yaml)

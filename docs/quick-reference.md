@@ -745,6 +745,17 @@ to represent structured data
 
 ---
 
+### JSON-RPC
+
+- acronym for _JavaScript Object Notation-Remote Procedure Call_
+- allows clients to invoke methods on a server and receive results
+- treats API interactions as direct function calls rather than
+resource-oriented requests
+
+**Glossary Term Entry Location**: [API Types & Architectures - JSON-RPC](api-types-architectures.md#json-rpc)
+
+---
+
 ### `json-server`
 
 - Node.js tool that creates a mock REST API from a JSON file

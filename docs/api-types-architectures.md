@@ -161,6 +161,88 @@ messages rather than JSON
 
 ---
 
+## JSON-RPC
+
+**Definition**: acronym for _JavaScript Object Notation-Remote Procedure Call_;
+lightweight remote procedure call protocol that uses JSON to encode messages;
+allows clients to invoke methods on a server and receive results, treating API
+interactions as direct function calls rather than resource-oriented requests
+
+**Purpose**: provides a language-agnostic way to call server-side methods from
+client applications; particularly useful for internal microservices, blockchain
+APIs, and AI integrations where operations are better expressed as
+"execute this function" rather than "manipulate this resource"; differs from
+REST by focusing on actions/methods rather than resources/nouns, making it
+well-suited for procedural or command-based APIs
+
+### JSON-RPC vs REST
+
+| Aspect | JSON-RPC | REST API |
+| -------- | ---------- | ---------- |
+| Mental model | Remote function calls | Resource manipulation |
+| Endpoint structure | Single endpoint, method in request body | Multiple endpoints representing resources |
+| HTTP methods | Typically `POST` only | `GET`, `POST`, `PATCH`, `PUT`, `DELETE` |
+| Request format | `{"jsonrpc": "2.0", "method": "...", "params": [...]}` | URL path + query params + body |
+| Error handling | Structured error objects with codes | HTTP status codes |
+| Common use cases | Blockchain APIs, internal services, AI protocols | Web APIs, CRUD operations, public APIs |
+
+**Example**: calling a method to get user information
+
+```json
+// Request
+{
+  "jsonrpc": "2.0",
+  "method": "getUserInfo",
+  "params": {"userId": 123},
+  "id": 1
+}
+
+// Response
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "id": 123,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@example.com"
+  },
+  "id": 1
+}
+
+// Error Response
+{
+  "jsonrpc": "2.0",
+  "error": {
+    "code": -32602,
+    "message": "Invalid params"
+  },
+  "id": 1
+}
+```
+
+**Common Use Cases**:
+
+- blockchain and cryptocurrency APIs - Ethereum nodes, Bitcoin RPC
+- internal microservices communication
+- AI assistant protocols - Model Context Protocol
+- real-time communication systems
+- legacy system integrations
+
+**Related Terms**:
+[CRUD](./core-concepts/api-fundamentals.md#crud),
+[HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
+[JSON](./core-concepts/api-fundamentals.md#json),
+[MCP server](ai-and-apis.md#mcp-server),
+[microservices](#microservices), [real-time](#real-time),
+[REST API](#rest-api)
+
+**Sources**:
+
+- [MPCM Technologies LLC, Matt Morley, JSON-RPC Working Group: "JSON-RPC 2.0 Specification"](https://www.jsonrpc.org/specification)
+- [Wikipedia: "JSON-RPC"](https://en.wikipedia.org/wiki/JSON-RPC)
+
+---
+
 ## Mercure
 
 **Definition**: open protocol for pushing real-time data updates from
@@ -202,7 +284,7 @@ improves fault isolation and technology flexibility compared to
 recommendations, playback, billing, and user profiles, each with its own API
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
-[API gateway](#api-gateway),
+[API gateway](#api-gateway), [JSON-RPC](#json-rpc),
 [REST API](#rest-api)
 
 **Source**: [Martin Fowler: "Microservices"](https://martinfowler.com/articles/microservices.html)
@@ -259,9 +341,9 @@ dashboards
 **Example**: a WebSocket API delivers stock price changes to trading
 applications within milliseconds of market movements
 
-**Related Terms**: [event-driven](#event-driven),
-[Server-Sent Events](#server-sent-events),
-[webhook API](#webhook-api), [WebSocket API](#websocket-api)
+**Related Terms**: [event-driven](#event-driven), [JSON-RPC](#json-rpc),
+[Server-Sent Events](#server-sent-events), [webhook API](#webhook-api),
+[WebSocket API](#websocket-api)
 
 **Sources**:
 
