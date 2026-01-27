@@ -19,8 +19,8 @@ without learning YAML or JSON structures
 **Example**: developers write API Blueprint specs in `.apib` files tested
 by Dredd, rendered into documentation, and used to generate mock servers
 
-**Related Terms**: [AsyncAPI](#asyncapi),
-[Dredd](../tools-techniques/testing-validation.md#dredd),
+**Related Terms**: [Arazzo Specification](#arazzo-specification),
+[AsyncAPI](#asyncapi), [Dredd](../tools-techniques/testing-validation.md#dredd),
 [JSON](api-fundamentals.md#json), [OpenAPI Specification](#openapi-specification),
 [REST API](../api-types-architectures.md#rest-api),
 [REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful),
@@ -45,13 +45,13 @@ or products
 - **Aware of API**: readers looking for more specific
 information
 
-**Reader's goals**:
+**Reader's Goals**:
 
 - become aware of the product
 - learn more about the product
 - navigate to other documentation about the product
 
-**Key characteristics**:
+**Key Characteristics**:
 
 - a value proposition, a tagline
 - CTAs, call-to-action, as in "Get Started," "Contact Us,"
@@ -121,12 +121,12 @@ so developers don't have to
 - **Research**: determine the API's utility, usability, and
 suitability
 
-**Reader's goals**:
+**Reader's Goals**:
 
 - Look up information and get back on task quickly
 - Assess whether the API fits their needs
 
-**Standard contents**:
+**Standard Contents**:
 
 | Element | Purpose |
 | --------- | --------- |
@@ -144,6 +144,45 @@ suitability
 [reference](#reference)
 
 **Source**: UW API Docs: Module 6, Lesson 1, "API Documentation Overview Topics"
+
+---
+
+## Arazzo Specification
+
+**Definition**: community-driven, open specification format created
+by the OpenAPI Initiative for describing API workflows and sequences
+of API calls; defines how multiple API operations connect to accomplish
+multi-step tasks
+
+**Purpose**: documents complete API workflows that span multiple
+endpoints and operations, showing how APIs work together in real-world
+use cases; enables testing and validation of entire user journeys rather
+than isolated endpoints; complements OpenAPI Specification by focusing
+on _orchestration and sequencing_ of API calls rather than individual
+endpoint definitions
+
+**Example**: e-commerce checkout workflow in Arazzo format
+
+| Step | Endpoint | Data Flow |
+| ------ | ---------- | ----------- |
+| 1. Authenticate | `POST /auth/login` | Returns `auth_token` |
+| 2. Add to cart | `POST /cart/items` | Uses `auth_token` |
+| 3. Apply coupon | `PATCH /cart/coupon` | Returns `discount_amount` |
+| 4. Calculate shipping | `POST /cart/shipping` | Returns `shipping_cost` |
+| 5. Process payment | `POST /payments` | Returns `payment_id` |
+| 6. Confirm order | `POST /orders` | Uses `payment_id` → returns `order_id` |
+
+**Related Terms**: [API Blueprint](#api-blueprint),
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[contract testing](../workflows-methodologies.md#contract-testing),
+[OpenAPI Specification](#openapi-specification),
+[Redocly Respect](../tools-techniques/testing-validation.md#redocly-respect),
+[workflow testing](../workflows-methodologies.md#workflow-testing)
+
+**Sources**:
+
+- [OpenAPI Initiative: "Arazzo Specification v1.0.0"](https://spec.openapis.org/arazzo/latest.html)
+- [The Linux Foundation, OpenAPI Initiative: "Introducing the Arazzo Specification"](https://www.openapis.org/arazzo-specification)
 
 ---
 
@@ -172,7 +211,7 @@ event-driven systems, then generate documentation, code, and tests from
 the specification
 
 **Related Terms**: [AMQP](../api-types-architectures.md#amqp),
-[API Blueprint](#api-blueprint),
+[API Blueprint](#api-blueprint), [Arazzo Specification](#arazzo-specification),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
 [HTTP](api-fundamentals.md#http), [Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
@@ -479,9 +518,8 @@ it requires interpretation before it can become either
 | `responses` | All possible HTTP responses for requests to this path |
 
 **Related terms**: [API](api-fundamentals.md#api), [API Blueprint](#api-blueprint),
-[API reference topic](#api-reference-topic),
-[AsyncAPI](#asyncapi),
-[Dredd](../tools-techniques/testing-validation.md#dredd),
+[API reference topic](#api-reference-topic), [Arazzo Specification](#arazzo-specification),
+[AsyncAPI](#asyncapi), [Dredd](../tools-techniques/testing-validation.md#dredd),
 [Microcks](../tools-techniques/testing-validation.md#microcks),
 [reference](#reference), [REST API](../api-types-architectures.md#rest-api),
 [schema](api-fundamentals.md#schema),
