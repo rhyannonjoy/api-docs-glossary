@@ -189,6 +189,75 @@ and predictive suggestions
 
 ---
 
+## MCP server
+
+**Definition**: acronym for _Model Context Protocol_ server; a server
+implementation that enables AI assistants to programmatically access
+external tools, data sources, and services through a standardized
+protocol; acts as a bridge between AI models and the resources they
+need to complete tasks
+
+**Purpose**: provides a standardized way for AI assistants to interact
+with tools and data that exist outside their training data; enables
+technical writers to build workflows where AI can access internal
+documentation systems, retrieve files from cloud storage, search
+knowledge bases, or execute commands—all through a consistent API-like
+interface; particularly relevant for documentation teams looking to
+integrate AI assistance into their existing toolchains without rebuilding
+infrastructure
+
+**How MCP Servers Work**:
+
+- MCP servers expose resources like files, database records, or API
+endpoints, and tools like search functions, file operations, or commands,
+through a JSON-RPC interface
+- AI assistants connect to MCP servers as clients, sending requests to
+access resources or invoke tools
+- the protocol handles authentication, authorization, and data exchange
+between the AI and external systems
+- multiple MCP servers can run simultaneously, each providing access to
+different tools or data sources
+
+**Example**: updating an API changelog using MCP servers
+
+```mermaid
+sequenceDiagram
+    participant Writer as Technical Writer
+    participant AI as AI Assistant
+    participant GitHub as GitHub MCP Server
+    participant Drive as Google Drive MCP Server
+    
+    Writer->>AI: "Update API changelog based on last week's PRs"
+    AI->>GitHub: Fetch recent pull requests
+    GitHub-->>AI: Return PR data
+    AI->>Drive: Access changelog document
+    Drive-->>AI: Return changelog
+    AI->>AI: Generate updated release notes
+    AI-->>Writer: Updated changelog with new entries
+```
+
+**Common Use Cases for Technical Writers**:
+
+- searching internal documentation systems - Confluence, SharePoint,
+Google Drive
+- fetching API specifications from version control - GitHub, GitLab
+- accessing customer support data to identify documentation gaps
+- automating repetitive documentation tasks across multiple platforms
+- integrating AI assistance with existing docs-as-code workflows
+
+**Related Terms**:
+[authentication](./core-concepts/api-fundamentals.md#authentication),
+[JSON](./core-concepts/api-fundamentals.md#json), JSON-RPC,
+[REST API](./api-types-architectures.md#rest-api),
+[webhook API](./api-types-architectures.md#webhook-api)
+
+**Sources**:
+
+- [GitHub Repository, Anthropic: "Model Context Protocol servers"](https://github.com/modelcontextprotocol/servers)
+- [LF Projects, LLC.: "What is the Model Context Protocol (MCP)?"](https://modelcontextprotocol.io/)
+
+---
+
 ## Natural Language Processing
 
 **Definition**: also known as NLP; computer's ability to analyze and

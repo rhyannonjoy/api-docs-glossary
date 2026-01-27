@@ -531,6 +531,7 @@ automatically run tests
 [API endpoint](./core-concepts/api-fundamentals.md#api-endpoint),
 [event-driven](#event-driven),
 [HTTP](./core-concepts/api-fundamentals.md#http),
+[MCP server](ai-and-apis.md#mcp-server),
 [`POST`](./core-concepts/api-fundamentals.md#post),
 [real-time](#real-time)
 

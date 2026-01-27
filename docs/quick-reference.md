@@ -836,6 +836,16 @@ that compete with similar offerings
 
 ---
 
+### MCP server
+
+- acronym for _Model Context Protocol_ server
+- acts as a bridge between AI models and the resources they
+need to complete tasks
+
+**Glossary Term Entry Location**: [AI & APIs - MCP Server](ai-and-apis.md#mcp-server)
+
+---
+
 ### Mercure
 
 - open protocol built on top of HTTP and Server-Sent Events
