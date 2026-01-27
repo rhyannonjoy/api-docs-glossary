@@ -435,7 +435,8 @@ renderer_
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-Arazzo, [CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[Arazzo Specification](../core-concepts/documentation-specific.md#arazzo-specification),
+[CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),

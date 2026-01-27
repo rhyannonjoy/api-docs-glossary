@@ -124,6 +124,16 @@ operation or object
 
 ---
 
+### Arazzo Specification
+
+- OpenAPI Initiative specification format
+- describes API workflows, sequences of API calls, and how
+multiple API operations connect to accomplish multi-step tasks
+
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific, Arazzo Specification](./core-concepts/documentation-specific.md#arazzo-specification)
+
+---
+
 ### AsyncAPI
 
 - documentation standard
