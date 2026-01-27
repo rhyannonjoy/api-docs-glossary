@@ -247,7 +247,8 @@ Google Drive
 
 **Related Terms**:
 [authentication](./core-concepts/api-fundamentals.md#authentication),
-[JSON](./core-concepts/api-fundamentals.md#json), JSON-RPC,
+[JSON](./core-concepts/api-fundamentals.md#json),
+[JSON-RPC](api-types-architectures.md#json-rpc),
 [REST API](./api-types-architectures.md#rest-api),
 [webhook API](./api-types-architectures.md#webhook-api)
 
