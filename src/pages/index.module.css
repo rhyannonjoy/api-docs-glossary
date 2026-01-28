@@ -10,6 +10,11 @@
   background: #000000;
 }
 
+/* Light mode background */
+[data-theme='light'] .heroBanner {
+  background: #fffbed;
+}
+
 .logo {
   width: 100%;
   max-width: 100%;

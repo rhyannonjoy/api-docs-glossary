@@ -3,26 +3,10 @@
  */
 
 /* ============================================
-   CSS VARIABLES - DARK MODE ONLY
+   CSS VARIABLES - DARK MODE DEFAULT
    ============================================ */
 
 :root {
-  /* Force pure black background everywhere */
-  --ifm-background-color: #000000;
-  --ifm-navbar-background-color: #000000;
-  --ifm-footer-background-color: #000000;
-  --ifm-background-surface-color: #000000;
-
-  /* Match the cyan from the computer screen */
-  --ifm-link-color: #f5f1e8;
-  --ifm-link-hover-color: #00D4FF; /* Cyan from computer */
-  
-  /* For active/selected states */
-  --ifm-color-primary: #00D4FF;
-  
-  /* Cream text color */
-  --ifm-font-color-base: #f5f1e8;
-  
   /* Typography */
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --ifm-font-family-monospace: 'Noto Sans Mono', 'Consolas', 'Monaco', monospace;
@@ -31,82 +15,452 @@
   
   /* Navbar */
   --ifm-navbar-height: 60px;
-  --ifm-navbar-link-color: #f5f1e8;
-  
-  /* Links */
-  --ifm-link-color: #f5f1e8;
-  --ifm-link-hover-color: #ffffff;
 }
 
+/* ============================================
+   DARK MODE STYLES
+   ============================================ */
+
 [data-theme='dark'] {
+  /* Force pure black background everywhere */
   --ifm-background-color: #000000;
   --ifm-navbar-background-color: #000000;
   --ifm-footer-background-color: #000000;
   --ifm-background-surface-color: #000000;
+  
+  /* Cream text color */
   --ifm-font-color-base: #f5f1e8;
+  
+  /* Match the cyan from the computer screen */
   --ifm-link-color: #f5f1e8;
   --ifm-link-hover-color: #00D4FF;
+  
+  /* For active/selected states */
   --ifm-color-primary: #00D4FF;
+  
+  /* Navbar */
+  --ifm-navbar-link-color: #f5f1e8;
 }
 
 /* ============================================
-   TYPOGRAPHY
+   SEARCH BAR & RESULTS - DARK MODE
    ============================================ */
 
-body,
-html {
+/* Search input styling */
+[data-theme='dark'] input[type='search'],
+[data-theme='dark'] .navbar input,
+[data-theme='dark'] .DocSearch-Input,
+[data-theme='dark'] .aa-Input,
+[data-theme='dark'] .navbar__search-input {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333333 !important;
+  color: #f5f1e8 !important;
+}
+
+[data-theme='dark'] input[type='search']::placeholder,
+[data-theme='dark'] .DocSearch-Input::placeholder,
+[data-theme='dark'] .aa-Input::placeholder {
+  color: #888888 !important;
+}
+
+/* Search results dropdown container - ALL possible classes */
+[data-theme='dark'] .DocSearch-Modal,
+[data-theme='dark'] .DocSearch-Dropdown,
+[data-theme='dark'] .DocSearch-Dropdown-Container,
+[data-theme='dark'] .aa-Panel,
+[data-theme='dark'] .aa-PanelLayout,
+[data-theme='dark'] .aa-DetachedFormContainer,
+[data-theme='dark'] div[class*='searchResultsColumn'] {
+  background-color: #000000 !important;
+  border: 1px solid #333333 !important;
+  color: #f5f1e8 !important;
+}
+
+/* Individual search result items */
+[data-theme='dark'] .DocSearch-Hit,
+[data-theme='dark'] .DocSearch-Hit-Container,
+[data-theme='dark'] .DocSearch-Hit-content,
+[data-theme='dark'] .aa-Item,
+[data-theme='dark'] .aa-ItemContent,
+[data-theme='dark'] .aa-ItemWrapper,
+[data-theme='dark'] a[class*='searchResultItem'] {
+  background-color: #000000 !important;
+  color: #f5f1e8 !important;
+  border-color: #333333 !important;
+}
+
+/* Search result titles and descriptions */
+[data-theme='dark'] .DocSearch-Hit-title,
+[data-theme='dark'] .DocSearch-Hit-path,
+[data-theme='dark'] .DocSearch-Hit-action,
+[data-theme='dark'] .aa-ItemContentTitle,
+[data-theme='dark'] .aa-ItemContentDescription,
+[data-theme='dark'] .aa-ItemContentSubtitle,
+[data-theme='dark'] span[class*='searchResultItemHeading'],
+[data-theme='dark'] span[class*='searchResultItemPath'],
+[data-theme='dark'] p[class*='searchResultItemSummary'] {
+  color: #f5f1e8 !important;
+}
+
+/* Hover and active states */
+[data-theme='dark'] .DocSearch-Hit[aria-selected='true'],
+[data-theme='dark'] .DocSearch-Hit:hover,
+[data-theme='dark'] .DocSearch-Hit-Container:hover,
+[data-theme='dark'] .aa-Item[aria-selected='true'],
+[data-theme='dark'] .aa-Item:hover,
+[data-theme='dark'] a[class*='searchResultItem']:hover {
+  background-color: #1a1a1a !important;
+  color: #f5f1e8 !important;
+}
+
+/* Highlighted/matched text */
+[data-theme='dark'] .DocSearch-Hit mark,
+[data-theme='dark'] .aa-ItemContentTitle mark,
+[data-theme='dark'] mark,
+[data-theme='dark'] strong[class*='searchResultMatch'] {
+  background-color: #00D4FF !important;
+  color: #000000 !important;
+  padding: 0 2px;
+}
+
+/* Search result metadata and icons */
+[data-theme='dark'] .DocSearch-Hit-icon,
+[data-theme='dark'] .aa-ItemIcon,
+[data-theme='dark'] .DocSearch-Hit-action-button,
+[data-theme='dark'] svg[class*='searchResultIcon'] {
+  color: #00D4FF !important;
+}
+
+/* No results message */
+[data-theme='dark'] .DocSearch-NoResults,
+[data-theme='dark'] .aa-SourceNoResults,
+[data-theme='dark'] p[class*='noResultsText'] {
+  color: #f5f1e8 !important;
+}
+
+/* Footer in search results */
+[data-theme='dark'] .DocSearch-Footer,
+[data-theme='dark'] .aa-PanelFooter {
+  background-color: #000000 !important;
+  border-top: 1px solid #333333 !important;
+  color: #888888 !important;
+}
+
+/* Search keyboard shortcuts */
+[data-theme='dark'] .DocSearch-Commands-Key,
+[data-theme='dark'] kbd {
+  background-color: #1a1a1a !important;
+  color: #f5f1e8 !important;
+  border: 1px solid #333333 !important;
+}
+
+/* Dark mode content areas */
+[data-theme='dark'] body,
+[data-theme='dark'] html {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #f5f1e8;
 }
 
-/* ============================================
-   CONTENT AREAS
-   ============================================ */
-
-/* Main content text */
-.markdown {
+[data-theme='dark'] .markdown {
   color: #f5f1e8;
 }
 
-/* Sidebar */
-.theme-doc-sidebar-container {
+[data-theme='dark'] .theme-doc-sidebar-container {
   background-color: #000000;
 }
 
-.menu__link {
+[data-theme='dark'] .menu__link {
   color: #f5f1e8;
 }
 
-.menu__link--active {
+[data-theme='dark'] .menu__link--active {
   color: #00D4FF !important;
   font-weight: 600;
 }
 
-/* Navbar */
-.navbar__link {
+[data-theme='dark'] .navbar__link {
   color: #f5f1e8;
 }
 
-/* Navbar link hover */
-.navbar__link:hover {
+[data-theme='dark'] .navbar__link:hover {
   color: #00D4FF;
 }
 
-.navbar__title {
+[data-theme='dark'] .navbar__title {
   color: #f5f1e8;
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
-
-.footer {
+[data-theme='dark'] .footer {
   background-color: #000000 !important;
   color: #f5f1e8 !important;
 }
 
-.footer__copyright {
+[data-theme='dark'] .footer__copyright {
   color: #f5f1e8 !important;
+}
+
+/* Mermaid diagrams dark mode */
+[data-theme='dark'] .docusaurus-mermaid-container {
+  --mermaid-background-color: #000000;
+  --mermaid-text-color: #f5f1e8;
+  --mermaid-border-color: #00D4FF;
+}
+
+/* ============================================
+   LIGHT MODE STYLES (CREAM & BLACK WITH BRIGHT GREEN)
+   ============================================ */
+
+[data-theme='light'] {
+  /* Background colors - cream #fffbed everywhere */
+  --ifm-background-color: #fffbed;
+  --ifm-navbar-background-color: #fffbed;
+  --ifm-footer-background-color: #fffbed;
+  --ifm-background-surface-color: #fffbed;
+  
+  /* Text colors - pure black */
+  --ifm-font-color-base: #000000;
+  --ifm-heading-color: #000000;
+  
+  /* Primary color - bright grass green for links and accents */
+  --ifm-color-primary: #4a9d2d;
+  --ifm-color-primary-dark: #438d29;
+  --ifm-color-primary-darker: #3f8527;
+  --ifm-color-primary-darkest: #346e20;
+  --ifm-color-primary-light: #51ad31;
+  --ifm-color-primary-lighter: #55b533;
+  --ifm-color-primary-lightest: #63c53b;
+  
+  /* Links - bright green, with darker on hover */
+  --ifm-link-color: #4a9d2d;
+  --ifm-link-hover-color: #346e20;
+  
+  /* Code blocks */
+  --ifm-code-background: #f5f1e8;
+  --ifm-code-color: #000000;
+  
+  /* Tables */
+  --ifm-table-stripe-background: #f5f1e8;
+  --ifm-table-border-color: #e8e4db;
+  
+  /* Navbar */
+  --ifm-navbar-link-color: #000000;
+  --ifm-navbar-link-hover-color: #4a9d2d;
+}
+
+/* Light mode - Color mode toggle button*/
+[data-theme='light'] button[class*='colorModeToggle'] {
+  background-color: #f5f1e8;
+  border: 1px solid #e8e4db;
+}
+
+[data-theme='light'] button[class*='colorModeToggle']:hover {
+  background-color: #ebe7de;
+}
+
+/* ============================================
+   SEARCH BAR & RESULTS - LIGHT MODE
+   ============================================ */
+
+/* Light mode - Search input */
+[data-theme='light'] input[type='search'],
+[data-theme='light'] .navbar input,
+[data-theme='light'] .DocSearch-Input,
+[data-theme='light'] .aa-Input,
+[data-theme='light'] form input {
+  background-color: #f5f1e8 !important;
+  border: 1px solid #e8e4db !important;
+  color: #000000 !important;
+}
+
+[data-theme='light'] input[type='search']::placeholder,
+[data-theme='light'] .navbar input::placeholder,
+[data-theme='light'] .DocSearch-Input::placeholder {
+  color: #666666 !important;
+}
+
+[data-theme='light'] input[type='search']:focus,
+[data-theme='light'] .navbar input:focus,
+[data-theme='light'] .DocSearch-Input:focus {
+  border-color: #4a9d2d !important;
+  background-color: #fffbed !important;
+  outline: none !important;
+}
+
+/* Search icons */
+[data-theme='light'] .navbar svg,
+[data-theme='light'] button svg {
+  color: #000000 !important;
+}
+
+/* Light mode - Search results dropdown CONTAINER */
+[data-theme='light'] .DocSearch-Modal,
+[data-theme='light'] .DocSearch-Dropdown,
+[data-theme='light'] .DocSearch-Dropdown-Container,
+[data-theme='light'] .aa-Panel,
+[data-theme='light'] .aa-PanelLayout,
+[data-theme='light'] .aa-DetachedFormContainer,
+[data-theme='light'] div[class*='searchResultsColumn'],
+[data-theme='light'] .search-result-match {
+  background-color: #fffbed !important;
+  border: 1px solid #e8e4db !important;
+  color: #000000 !important;
+}
+
+/* Light mode - Individual search result items */
+[data-theme='light'] .DocSearch-Hit,
+[data-theme='light'] .DocSearch-Hit-Container,
+[data-theme='light'] .DocSearch-Hit-content,
+[data-theme='light'] .aa-Item,
+[data-theme='light'] .aa-ItemContent,
+[data-theme='light'] .aa-ItemWrapper,
+[data-theme='light'] .search-result-item,
+[data-theme='light'] a.search-result-link,
+[data-theme='light'] a[class*='searchResultItem'] {
+  color: #000000 !important;
+  background-color: #fffbed !important;
+}
+
+/* Light mode - Search result TITLES and DESCRIPTIONS */
+[data-theme='light'] .DocSearch-Hit-title,
+[data-theme='light'] .DocSearch-Hit-path,
+[data-theme='light'] .DocSearch-Hit-action,
+[data-theme='light'] .aa-ItemContentTitle,
+[data-theme='light'] .aa-ItemContentDescription,
+[data-theme='light'] .aa-ItemContentSubtitle,
+[data-theme='light'] .search-result-match mark,
+[data-theme='light'] .search-result-match span,
+[data-theme='light'] span[class*='searchResultItemHeading'],
+[data-theme='light'] span[class*='searchResultItemPath'],
+[data-theme='light'] p[class*='searchResultItemSummary'],
+[data-theme='light'] div[class*='search'] span,
+[data-theme='light'] div[class*='search'] p,
+[data-theme='light'] div[class*='search'] a {
+  color: #000000 !important;
+}
+
+/* Light mode - Highlighted/matched text */
+[data-theme='light'] mark,
+[data-theme='light'] .search-result-match mark,
+[data-theme='light'] .DocSearch-Hit mark,
+[data-theme='light'] .aa-ItemContentTitle mark,
+[data-theme='light'] strong[class*='searchResultMatch'] {
+  background-color: #4a9d2d !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 2px 4px;
+}
+
+/* Light mode - Search result hover states */
+[data-theme='light'] .DocSearch-Hit:hover,
+[data-theme='light'] .DocSearch-Hit[aria-selected='true'],
+[data-theme='light'] .DocSearch-Hit-Container:hover,
+[data-theme='light'] .aa-Item:hover,
+[data-theme='light'] .aa-Item[aria-selected='true'],
+[data-theme='light'] .search-result-item:hover,
+[data-theme='light'] a.search-result-link:hover,
+[data-theme='light'] a[class*='searchResultItem']:hover {
+  background-color: #f5f1e8 !important;
+  color: #000000 !important;
+}
+
+/* Light mode - Search result metadata (page titles, categories) */
+[data-theme='light'] .aa-ItemContentSubtitle,
+[data-theme='light'] .search-result-page-title,
+[data-theme='light'] .DocSearch-Hit-path {
+  color: #666666 !important;
+}
+
+/* Light mode - Search icons and metadata */
+[data-theme='light'] .DocSearch-Hit-icon,
+[data-theme='light'] .aa-ItemIcon,
+[data-theme='light'] svg[class*='searchResultIcon'] {
+  color: #4a9d2d !important;
+}
+
+/* Light mode - No results message */
+[data-theme='light'] .DocSearch-NoResults,
+[data-theme='light'] .aa-SourceNoResults,
+[data-theme='light'] p[class*='noResultsText'] {
+  color: #000000 !important;
+}
+
+/* Light mode - Search footer */
+[data-theme='light'] .DocSearch-Footer,
+[data-theme='light'] .aa-PanelFooter {
+  background-color: #fffbed !important;
+  border-top: 1px solid #e8e4db !important;
+  color: #666666 !important;
+}
+
+/* Light mode specific overrides */
+[data-theme='light'] .markdown {
+  color: #000000;
+}
+
+[data-theme='light'] .markdown a {
+  color: #4a9d2d;
+  text-decoration: none;
+}
+
+[data-theme='light'] .markdown a:hover {
+  color: #346e20;
+  text-decoration: underline;
+}
+
+[data-theme='light'] .theme-doc-sidebar-container {
+  background-color: #fffbed;
+  border-right: 1px solid #e8e4db;
+}
+
+/* Fix right sidebar - force black text */
+[data-theme='light'] .theme-doc-toc-desktop,
+[data-theme='light'] .table-of-contents,
+[data-theme='light'] .table-of-contents li,
+[data-theme='light'] .table-of-contents a {
+  color: #000000 !important;
+}
+
+[data-theme='light'] .table-of-contents a:hover {
+  color: #4a9d2d !important;
+}
+
+[data-theme='light'] .menu__link {
+  color: #000000;
+}
+
+[data-theme='light'] .menu__link--active {
+  color: #4a9d2d !important;
+  font-weight: 600;
+}
+
+[data-theme='light'] .navbar__link {
+  color: #000000;
+}
+
+[data-theme='light'] .navbar__link:hover {
+  color: #4a9d2d;
+}
+
+[data-theme='light'] .navbar__title {
+  color: #000000;
+  font-weight: 600;
+}
+
+[data-theme='light'] .footer {
+  background-color: #fffbed !important;
+  color: #000000 !important;
+  border-top: 1px solid #e8e4db;
+}
+
+[data-theme='light'] .footer__copyright {
+  color: #000000 !important;
+}
+
+/* Mermaid diagrams light mode */
+[data-theme='light'] .docusaurus-mermaid-container {
+  --mermaid-background-color: #fffbed;
+  --mermaid-text-color: #000000;
+  --mermaid-border-color: #4a9d2d;
 }
 
 /* ============================================
