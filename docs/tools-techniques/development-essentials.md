@@ -642,6 +642,7 @@ retrieves user data from an API endpoint
 **Related Terms**: [`json-server`](testing-validation.md#json-server),
 [REST API](../api-types-architectures.md#rest-api),
 [Postman](documentation-specific.md#postman),
+[SDK](../core-concepts/api-fundamentals.md#sdk),
 [Swagger](documentation-specific.md#swagger)
 
 **Further Reading**:

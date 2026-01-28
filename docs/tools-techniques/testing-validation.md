@@ -505,7 +505,7 @@ when the API changes
 [HTTP status codes](../core-concepts/api-fundamentals.md#http-status-codes),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [request/response](../core-concepts/api-fundamentals.md#requestresponse),
-SDK
+[SDK](../core-concepts/api-fundamentals.md#sdk)
 
 **Sources**:
 

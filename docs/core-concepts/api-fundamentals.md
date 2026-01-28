@@ -920,6 +920,62 @@ for age field
 
 ---
 
+## SDK
+
+**Definition**: acronym for _software development kit_; a collection of tools,
+libraries, code samples, and documentation that enables developers to build
+applications using a specific platform, service, or API
+
+**Purpose**: streamlines API integration by providing pre-written code that
+handles authentication, request formatting, error handling, and response
+parsing; allows developers to use APIs in their preferred programming language
+without writing low-level HTTP requests; reduces integration time and errors
+by abstracting API complexity into language-specific methods and classes
+
+### SDK vs client library
+
+While often used interchangeably, an SDK technically includes more than just
+a client library, it bundles the library with documentation, code examples,
+CLI tools, and other development resources; in API documentation contexts,
+"SDK" and "client library" both refer to language-specific code for consuming
+APIs, with _SDK being the more common modern term_
+
+**Example**: compare the developer experience between using cURL commands
+vs using a Python SDK; technical writers must document all SDK methods,
+parameters, usage examples, and any additional and/or underlying API
+reference documentation
+
+```bash
+# raw cURL approach
+curl https://api.stripe.com/v1/charges \
+  -u sk_test_key: \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d amount=1000 \
+  -d currency=usd
+```
+
+```python
+# Python SDK approach
+stripe.Charge.create(
+    amount=1000,
+    currency="usd"
+)
+```
+
+**Related Terms**: [API](#api),
+[cURL](../tools-techniques/development-essentials.md#curl),
+[OpenAPI Specification](documentation-specific.md#openapi-specification),
+[REST API](../api-types-architectures.md#rest-api),
+[Speakeasy](../tools-techniques/testing-validation.md#speakeasy)
+
+**Sources**:
+
+- [Amazon Web Services, Developer Tools: "What is an SDK?"](https://aws.amazon.com/what-is/sdk/)
+- [GitHub, Inc.: "What is an SDK?"](https://github.com/resources/articles/what-is-an-sdk)
+- [IBM: "SDK vs API: What's the difference?"](https://www.ibm.com/think/topics/api-vs-sdk)
+
+---
+
 ## serialization
 
 **Definition**: the process of converting data structures and/or objects
