@@ -1451,6 +1451,16 @@ interoperable communication between clients and message brokers
 
 ---
 
+### structured content
+
+- content organized into discrete, clearly labeled
+components documentation teams can easily manage, query, and use
+systematically across multiple outputs
+
+**Glossary Term Entry Location**: [Writing Style - structured content](writing-style.md#structured-content)
+
+---
+
 ### Swagger
 
 - open source suite for REST API development
