@@ -79,7 +79,8 @@ and emphasizes the reader-focused nature of documentation
 and conceptual explanations all constitute content
 
 **Related Terms**: [rhetorical approach](#rhetorical-approach),
-[tone](#tone), [voice](#voice)
+[structured content](#structured-content), [tone](#tone),
+[voice](#voice)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
@@ -107,6 +108,34 @@ demonstrates rhetorical awareness
 
 - [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Pressbooks, University of Minnesota, Introduction to Technical and Professional Communication: "Understanding Rhetoric" by Brigitte Mussack and Evelyn Dsouza](https://pressbooks.umn.edu/techwriting/chapter/chapter-1/#:~:text=A%20rhetorical%20approach%20frames%20communication,systems%20of%20power%20and%20oppression.)
+
+---
+
+## structured content
+
+**Definition**: content organized into discrete, clearly labeled
+components documentation teams can easily manage, query, and use
+systematically across multiple outputs; concept of treating
+digital content like data
+
+**Purpose**: enables content reuse, consistency, and efficient
+maintenance by separating content from presentation; forms the
+foundation for modular, kinetic, and liquid content approaches
+
+**Example**: an API endpoint description stored as separate fields -
+method, path, parameters, response codes - in a CMS rather than
+as a single block of text, allowing the same information to appear
+in reference docs, tutorials, and SDK documentation
+
+**Related Terms**: CMS, [content](#content),
+kinetic content, liquid content, modular content,
+[reference](./core-concepts/documentation-specific.md#reference),
+[SDK](./core-concepts/api-fundamentals.md#sdk)
+
+**Sources**:
+
+- [ButterCMS: "Structured Content 101: What Is It? Why Do You Need It?" by Alex Williams](https://buttercms.com/blog/structured-content/)
+- [Wikipedia: "Structured content"](https://en.wikipedia.org/wiki/Structured_content)
 
 ---
 
