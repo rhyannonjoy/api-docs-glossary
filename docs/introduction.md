@@ -59,20 +59,18 @@ clear explanations grounded in current API documentation practices.
 
 ## Scope & Approach
 
-This glossary covers:
+Each entry includes practical context and real-world applications,
+not just definitions. Topics this glossary covers:
 
 - API architecture and design patterns
-- Documentation types and best practices
+- documentation types and best practices
 - AI applications in technical documentation  
-- Tools commonly used in API documentation workflows
-- Processes for creating and maintaining API docs
-
-Each entry includes practical context and real-world applications,
-not just definitions.
+- tools commonly used in API documentation workflows
+- processes for creating and maintaining API docs
 
 ---
 
-## Get Started
+## Next Steps
 
 | Scenario | Action |
 | ---------------- | --------- |

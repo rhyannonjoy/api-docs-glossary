@@ -27,13 +27,13 @@ AI bias, genAI, Large Language Model, training data
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques/development-essentials):
 cURL, Doc Detective, Git, Postman, Swagger, Vale
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
-Agile, API testing, docs-as-code, docs-as-tests, usability testing
+Agile, API docs testing, docs-as-code, docs-as-tests, usability testing
 - [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
 audience analysis, Diátaxis, docs-as-ecosystem, domain knowledge, sales collateral
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
-content strategy, rhetorical approach, tone style
+content strategy, rhetorical approach, tone considerations
 
-## Getting Started
+## Get Started
 
 This resource provides essential concept definitions and context for
 anyone working with and/or learning about API documentation.
@@ -41,7 +41,7 @@ Visit the following documentation pages for more information:
 
 - [Introduction](https://rhyannonjoy.github.io/api-docs-glossary/docs/introduction):
 find a path through the glossary
-- [Getting Started](https://rhyannonjoy.github.io/api-docs-glossary/docs/getting-started):
+- [Get Started](https://rhyannonjoy.github.io/api-docs-glossary/docs/get-started):
 navigate glossary structure
 - [Quick Reference](https://rhyannonjoy.github.io/api-docs-glossary/docs/quick-reference):
 find a specific term refresher

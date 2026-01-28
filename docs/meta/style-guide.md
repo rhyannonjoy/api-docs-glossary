@@ -679,7 +679,7 @@ Beyond the standard structure, consider adding these fields when appropriate:
 **Implementation fields** - offer practical guidance:
 
 ```markdown
-**Getting Started**: first steps for implementing this practice
+**Get Started**: first steps for implementing this practice
 
 **Common Pitfalls**: what to avoid, where teams struggle
 ```
