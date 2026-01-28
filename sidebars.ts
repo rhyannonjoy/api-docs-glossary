@@ -9,7 +9,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'introduction',
-    'getting-started',
+    'get-started',
     'quick-reference',
     {
      type: 'category',

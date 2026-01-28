@@ -101,7 +101,7 @@ The scope identifies which glossary section the changes impact:
 - meta documentation and/or styling filenames:
     - `config`
     - `contribution-guide`
-    - `getting-started`
+    - `get-started`
     - `introduction`
     - `quick-reference`
     - `README`
