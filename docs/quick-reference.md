@@ -1340,6 +1340,17 @@ relationships within an API's requests and responses
 
 ---
 
+### SDK
+
+- acronym for _software development kit_
+- collection of tools, libraries, code samples, and documentation
+that enables developers to build applications using a specific
+platform, service, or API
+
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - SDK](./core-concepts/api-fundamentals.md#sdk)
+
+---
+
 ### Selenium
 
 - open source suite of tools for automating web browsers

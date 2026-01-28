@@ -522,7 +522,7 @@ it requires interpretation before it can become either
 [AsyncAPI](#asyncapi), [Dredd](../tools-techniques/testing-validation.md#dredd),
 [Microcks](../tools-techniques/testing-validation.md#microcks),
 [reference](#reference), [REST API](../api-types-architectures.md#rest-api),
-[schema](api-fundamentals.md#schema),
+[schema](api-fundamentals.md#schema), [SDK](api-fundamentals.md#sdk),
 [YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Sources**:
