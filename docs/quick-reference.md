@@ -242,6 +242,16 @@ instead of hosted on GitHub
 
 ---
 
+### CMS
+
+- acronym for _content management system_
+- software platform that enables teams to create, organize, store, and
+publish content without requiring direct code or database manipulation
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific, CMS](./tools-techniques/documentation-specific.md#cms)
+
+---
+
 ### cognitive dimensions of API usability
 
 - framework for evaluating and enhancing the usability of APIs
