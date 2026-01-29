@@ -88,13 +88,12 @@ and conceptual explanations all constitute content
 | **Human Involvement** | high - manual creation and updates | moderate - structured authoring | moderate - component maintenance | low - automated assembly | minimal - AI-driven transformation |
 | **API Docs Example** | traditional endpoint documentation page | endpoint data in separate, queryable fields | reusable error code descriptions | docs with real-time API status and user-specific examples | text documentation that converts to audio or adjusts detail level automatically |
 
-**Related Terms**: [kinetic content](#kinetic-content),
-[liquid content](ai-and-apis.md#liquid-content),
-[modular content](#modular-content),
-[rhetorical approach](#rhetorical-approach),
-[structured content](#structured-content), technical communication,
-[tone](#tone),
-[voice](#voice)
+**Related Terms**: [Diátaxis](frameworks-strategy.md#diátaxis),
+[kinetic content](#kinetic-content), [liquid content](ai-and-apis.md#liquid-content),
+[modular content](#modular-content), [rhetorical approach](#rhetorical-approach),
+[structured content](#structured-content),
+[technical communication](frameworks-strategy.md#technical-communication),
+[tone](#tone), [voice](#voice)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 

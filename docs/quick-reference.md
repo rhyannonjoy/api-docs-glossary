@@ -1519,6 +1519,17 @@ instructions
 
 ---
 
+### technical communication
+
+- also known as tech comm
+- professional field focused on creating documentation, instructions,
+and informational materials that help people accomplish specific tasks
+or understand technical concepts
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - technical communication](frameworks-strategy.md#technical-communication)
+
+---
+
 ### top-level
 
 - documentation topic type

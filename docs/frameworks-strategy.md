@@ -119,7 +119,8 @@ page
 | Explanation | "How payment processing works" | Understanding | Theoretical |
 
 **Related Terms**: [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[domain knowledge](#domain-knowledge), [end-user software engineer](#end-user-software-engineer),
+[content](writing-style.md#writing-style), [domain knowledge](#domain-knowledge),
+[end-user software engineer](#end-user-software-engineer),
 [explanation guide](./core-concepts/documentation-specific.md#explanation-guide),
 [how-to guide](./core-concepts/documentation-specific.md#how-to-guide),
 [reference](./core-concepts/documentation-specific.md#reference),
@@ -170,6 +171,7 @@ create living documentation that evolves with community needs
 [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
+[technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
@@ -198,7 +200,8 @@ for different account types
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
-[end-user software engineer](#end-user-software-engineer)
+[end-user software engineer](#end-user-software-engineer).
+[technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
@@ -318,5 +321,39 @@ with clear disclaimers about experimental status
 
 - [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 - [Wikipedia: Skunk Works](https://en.wikipedia.org/wiki/Skunk_Works)
+
+---
+
+## technical communication
+
+**Definition**: also known as tech comm; professional field focused on
+creating documentation, instructions, and informational materials that
+help people accomplish specific tasks or understand technical concepts
+
+**Purpose**: establishes the discipline within which API documentation
+practices, tools, and methodologies exist; encompasses writing,
+information design, user experience, and content strategy for
+technical audiences
+
+**Why this belongs in `Frameworks & Strategy`**: represents the overarching
+professional discipline and conceptual framework that contains all API
+documentation work; `Core Concepts` focuses on API-specific fundamentals -
+endpoints, authentication, responses - while technical communication is the
+_meta-level field_ that defines the nature of documentation work itself -
+similar to how docs-as-ecosystem frames documentation philosophy rather than
+describing specific API concepts
+
+**Example**: API reference documentation, SDK tutorials, developer guides,
+installation instructions, and troubleshooting articles are all forms of
+technical communication created by technical communicators working in the
+API documentation domain
+
+**Related Terms**: [content](writing-style.md#content),
+[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge)
+
+**Sources**:
+
+- [Society for Technical Communication - STC, Homepage](https://www.stc.org/)
+- [Wikipedia: "Technical communication"](https://en.wikipedia.org/wiki/Technical_communication)
 
 ---
