@@ -9,6 +9,63 @@ consistent, and developer-friendly API documentation.
 
 <!-- TODO: consider adding GitHub Pages, Stoplight, MkDocs, Docusaurus, Static site generators -->
 
+## CMS
+
+**Definition**: acronym for _content management system_; software platform
+that enables teams to create, organize, store, and publish content without
+requiring direct code or database manipulation
+
+**Purpose**: centralizes content management, enables collaboration among
+multiple contributors, and supports structured content workflows in API
+documentation projects; not interchangeable with but complements a DAM,
+_digital asset management_ system, and commonly uses some version
+control under the hood, abstracted away for user-friendliness
+
+### CMS vs DAM
+
+| Aspect | CMS | DAM |
+| -------- | ----- | ----- |
+| **Primary Purpose** | Create, edit, and publish web content and documentation | Store, organize, and distribute media files and digital assets |
+| **Content Types** | Text-based content, structured documentation, web pages | Images, videos, audio files, diagrams, downloadable files |
+| **Key Features** | Page templates, content workflows, publishing controls | Advanced metadata, version control, usage rights management |
+| **Common Users** | Technical writers, content creators, web managers | Creative teams, marketing teams, asset managers |
+| **API Docs Use Case** | Managing endpoint reference pages, tutorials, guides | Managing architecture diagrams, video tutorials, screenshots |
+| **Example Tools** | [Contentful](https://www.contentful.com/), [Strapi](https://strapi.io/), [WordPress](https://wordpress.com/), [Docusaurus](https://docusaurus.io/) | [Bynder](https://www.bynder.com/en/), [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html), [Cloudinary](https://cloudinary.com/) |
+
+### CMS vs version control
+
+| Aspect | Version Control - Git | CMS |
+| -------- | ---------------------- | ----- |
+| **What It Tracks** | File-level changes, commits, branches | Content versions, publishing states, editorial workflows |
+| **Who Uses It** | Developers, technical writers comfortable with CLI | Writers, marketers, non-technical contributors |
+| **Interface** | Command line, Git clients | Web-based GUI, WYSIWYG, _What You See Is What You Get_, editors |
+| **Collaboration Model** | Branch/merge workflows, pull requests | Editorial workflows, review/approval states |
+| **Version History** | Complete file history, diffs, blame | Content revisions, rollback, scheduled publishing |
+| **Publishing** | Requires build process, deployment | Often has built-in publishing capabilities |
+
+**Example**: using a headless CMS like
+[Contentful](https://www.contentful.com/) or
+[Strapi](https://strapi.io/), a technical writer edits API endpoint documentation
+through a web form interface, saving drafts that are version-tracked automatically;
+meanwhile, engineers can access the same content via API for integration into SDK
+documentation, and the CMS handles publishing to production without requiring writers
+to use Git commands
+
+**Related Terms**: [content](../writing-style.md#content),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Git](../tools-techniques/development-essentials.md#git),
+[GUI](../tools-techniques/development-essentials.md#gui),
+[SDK](../core-concepts/api-fundamentals.md#sdk),
+[structured content](../writing-style.md#structured-content),
+[version control](development-essentials.md#version-control)
+
+**Sources**:
+
+- [IBM: "What is a content management system (CMS)?" by Teaganne Finn, Amanda Downie](https://www.ibm.com/think/topics/content-management-system)
+- [Wikipedia: "Content management system"](https://en.wikipedia.org/wiki/Content_management_system)
+
+---
+
 ## Markdown
 
 **Definition**: lightweight markup language created by John Gruber in 2004
