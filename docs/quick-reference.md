@@ -1539,6 +1539,16 @@ instructions
 
 ---
 
+### taxonomy
+
+- hierarchical classification system
+- organizes concepts, terms, or entities into categories and
+subcategories based on their relationships and characteristics
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - taxonomy](frameworks-strategy.md#taxonomy)
+
+---
+
 ### technical communication
 
 - also known as tech comm
