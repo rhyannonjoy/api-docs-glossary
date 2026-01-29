@@ -951,6 +951,16 @@ and delivers messages between applications, services, or systems
 
 ---
 
+### metadata
+
+- data about data
+- structured information that describes, explains, locates, or
+otherwise makes it easier to retrieve, use, or manage content
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - metadata](./tools-techniques/documentation-specific.md#metadata)
+
+---
+
 ### Microcks
 
 - open source cloud-native tool for API mocking and
