@@ -78,11 +78,39 @@ and emphasizes the reader-focused nature of documentation
 **Example**: API reference topics, tutorials, quickstart guides,
 and conceptual explanations all constitute content
 
-**Related Terms**: [rhetorical approach](#rhetorical-approach),
+**Related Terms**: [modular content](#modular-content),
+[rhetorical approach](#rhetorical-approach),
 [structured content](#structured-content), [tone](#tone),
 [voice](#voice)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
+
+---
+
+## modular content
+
+**Definition**: self-contained content units designed to function
+independently and enable tech writers to combine units
+in different ways across documentation
+
+**Purpose**: maximizes content reuse and maintains consistency when
+the same information appears in multiple contexts; builds on
+structured content principles to enable dynamic content assembly;
+supports discoverability and exposes relationships that glue
+individual topics together
+
+**Example**: a reusable authentication code snippet that appears in
+multiple API endpoint examples, or a standard error response
+description used across reference documentation without manual
+copying
+
+**Related Terms**: CMS, [content](#content), kinetic content,
+liquid content, [structured content](#structured-content)
+
+**Sources**:
+
+- [Crafter Software Corporation, Content Management: "What is Modular Content?" by Amanda Lee](https://craftercms.com/blog/2024/07/what-is-modular-content)
+- [MadCap Software, MadBlog: "What is Modular Writing?" by Una Cogavin](https://www.madcapsoftware.com/blog/what-is-modular-writing/)
 
 ---
 
@@ -128,7 +156,7 @@ as a single block of text, allowing the same information to appear
 in reference docs, tutorials, and SDK documentation
 
 **Related Terms**: CMS, [content](#content),
-kinetic content, liquid content, modular content,
+kinetic content, liquid content, [modular content](#modular-content),
 [reference](./core-concepts/documentation-specific.md#reference),
 [SDK](./core-concepts/api-fundamentals.md#sdk)
 

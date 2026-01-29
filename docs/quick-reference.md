@@ -937,6 +937,17 @@ contract testing
 
 ---
 
+### modular content
+
+- content strategy
+- self-contained content units designed to function independently
+and enable tech writers to combine units in different ways across
+documentation
+
+**Glossary Term Entry Location**: [Writing Style - modular content](writing-style.md#modular-content)
+
+---
+
 ### MQTT
 
 - acronym for _Message Queuing Telemetry Transport_
@@ -1453,6 +1464,7 @@ interoperable communication between clients and message brokers
 
 ### structured content
 
+- content strategy
 - content organized into discrete, clearly labeled
 components documentation teams can easily manage, query, and use
 systematically across multiple outputs
