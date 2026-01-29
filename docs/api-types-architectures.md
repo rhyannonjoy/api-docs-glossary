@@ -342,6 +342,7 @@ dashboards
 applications within milliseconds of market movements
 
 **Related Terms**: [event-driven](#event-driven), [JSON-RPC](#json-rpc),
+[kinetic content](writing-style.md#kinetic-content),
 [Server-Sent Events](#server-sent-events), [webhook API](#webhook-api),
 [WebSocket API](#websocket-api)
 

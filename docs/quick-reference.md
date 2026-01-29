@@ -800,6 +800,18 @@ behavior-driven development syntax
 
 ---
 
+### kinetic content
+
+- content creation philosophy and structural approach
+- the process of automating the recombination of modular content
+- the content designed for combination and recombination
+dynamically, integrate real-time data, and distribute to multiple
+audiences with minimal human intervention
+
+**Glossary Term Entry Location**: [Writing Style - kinetic content](writing-style.md#kinetic-content)
+
+---
+
 ## L
 
 ---
@@ -1465,8 +1477,8 @@ interoperable communication between clients and message brokers
 ### structured content
 
 - content strategy
-- content organized into discrete, clearly labeled
-components documentation teams can easily manage, query, and use
+- content organized into discrete, clearly labeled components
+documentation teams can easily manage, query, and use
 systematically across multiple outputs
 
 **Glossary Term Entry Location**: [Writing Style - structured content](writing-style.md#structured-content)
