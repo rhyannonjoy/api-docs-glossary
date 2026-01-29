@@ -380,7 +380,8 @@ hierarchically or categorize error codes:
 | Endpoints | `Authentication` → `OAuth 2.0` → `Token Management` → `Refresh Token Endpoint` |
 | Error Codes | `Client Errors (4xx)` → `Authentication Errors` → `401 Unauthorized`, `403 Forbidden` |
 
-**Related Terms**: [domain knowledge](#domain-knowledge), knowledge graph,
+**Related Terms**: [content](writing-style.md#content),
+[domain knowledge](#domain-knowledge), knowledge graph,
 information architecture,
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [technical communication](#technical-communication)
