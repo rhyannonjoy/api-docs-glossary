@@ -78,7 +78,8 @@ and emphasizes the reader-focused nature of documentation
 **Example**: API reference topics, tutorials, quickstart guides,
 and conceptual explanations all constitute content
 
-**Related Terms**: [modular content](#modular-content),
+**Related Terms**: [kinetic content](#kinetic-content),
+[modular content](#modular-content),
 [rhetorical approach](#rhetorical-approach),
 [structured content](#structured-content), [tone](#tone),
 [voice](#voice)
@@ -87,11 +88,46 @@ and conceptual explanations all constitute content
 
 ---
 
+## kinetic content
+
+**Definition**: content creation philosophy and structural approach;
+the process of automating the recombination of modular content and
+the content designed for combination and recombination dynamically,
+integrating real-time data, and distributing to multiple
+audiences with minimal human intervention
+
+**Purpose**: enables automation and personalization of documentation
+delivery while maintaining accuracy and relevance; represents a
+technology-agnostic approach to flexible content that emphasizes
+properties like personalization, data integration, automation,
+omnichannel delivery, interoperability, and scale
+
+**Why this belongs in `Writing Style`**: describes a content creation
+philosophy and structural approach that focuses on content design
+and organization rather than the specific AI technologies that might
+implement it; represents a strategic writing methodology similar to
+modular documentation or structured authoring, emphasizing the principles
+of dynamic content assembly rather than the tools that enable it
+
+**Example**: API documentation that automatically updates code
+examples based on the user's preferred programming language,
+authentication method, or API version; or endpoint documentation
+that pulls real-time status information and adjusts examples based on
+current API capabilities
+
+**Related Terms**: CMS, [content](#content), liquid content,
+[modular content](#modular-content), [real-time](api-types-architectures.md#real-time),
+[structured content](#structured-content)
+
+**Source**: [Kinetic Council, "What is Kinetic Information?"](https://www.kineticcouncil.org/about)
+
+---
+
 ## modular content
 
-**Definition**: self-contained content units designed to function
-independently and enable tech writers to combine units
-in different ways across documentation
+**Definition**: content strategy of self-contained content
+units designed to function independently and enable tech
+writers to combine units in different ways across documentation
 
 **Purpose**: maximizes content reuse and maintains consistency when
 the same information appears in multiple contexts; builds on
@@ -104,8 +140,9 @@ multiple API endpoint examples, or a standard error response
 description used across reference documentation without manual
 copying
 
-**Related Terms**: CMS, [content](#content), kinetic content,
-liquid content, [structured content](#structured-content)
+**Related Terms**: CMS, [content](#content),
+[kinetic content](#kinetic-content), liquid content,
+[structured content](#structured-content)
 
 **Sources**:
 
@@ -141,10 +178,10 @@ demonstrates rhetorical awareness
 
 ## structured content
 
-**Definition**: content organized into discrete, clearly labeled
-components documentation teams can easily manage, query, and use
-systematically across multiple outputs; concept of treating
-digital content like data
+**Definition**: content strategy that treats digital content
+like data; demonstrates content organized into discrete, clearly
+labeled components documentation teams can easily manage, query,
+and use systematically across multiple outputs
 
 **Purpose**: enables content reuse, consistency, and efficient
 maintenance by separating content from presentation; forms the
@@ -156,7 +193,8 @@ as a single block of text, allowing the same information to appear
 in reference docs, tutorials, and SDK documentation
 
 **Related Terms**: CMS, [content](#content),
-kinetic content, liquid content, [modular content](#modular-content),
+[kinetic content](#kinetic-content), liquid content,
+[modular content](#modular-content),
 [reference](./core-concepts/documentation-specific.md#reference),
 [SDK](./core-concepts/api-fundamentals.md#sdk)
 
