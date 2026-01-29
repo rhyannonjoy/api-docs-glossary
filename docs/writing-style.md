@@ -68,9 +68,9 @@ technical writing by using correct grammar
 
 ## content
 
-**Definition**: anything written for someone else to read,
-encompassing documentation, guides, reference materials,
-and instructional text
+**Definition**: technical communication concept; anything written for
+someone else to read, encompassing documentation, guides, reference
+materials, and instructional text
 
 **Purpose**: establishes the scope of technical communication work
 and emphasizes the reader-focused nature of documentation
@@ -78,10 +78,21 @@ and emphasizes the reader-focused nature of documentation
 **Example**: API reference topics, tutorials, quickstart guides,
 and conceptual explanations all constitute content
 
+### content types
+
+| Aspect | Content | Structured Content | Modular Content | Kinetic Content | Liquid Content |
+| -------- | --------- | ------------------- | ----------------- | ----------------- | ---------------- |
+| **Definition** | anything written for someone else to read | content organized into discrete, labeled components | self-contained units that function independently | content designed for dynamic combination with minimal human intervention | content that adapts in real-time based on user context |
+| **Key Technology** | any writing/publishing tool | content management systems, databases | component-based CMS, DITA | automation platforms, APIs, real-time data integration | AI, LLMs, agentic systems |
+| **Primary Goal** | communicate information | enable systematic reuse | maximize consistency across contexts | automate personalization and distribution | transform format and delivery based on user needs |
+| **Human Involvement** | high - manual creation and updates | moderate - structured authoring | moderate - component maintenance | low - automated assembly | minimal - AI-driven transformation |
+| **API Docs Example** | traditional endpoint documentation page | endpoint data in separate, queryable fields | reusable error code descriptions | docs with real-time API status and user-specific examples | text documentation that converts to audio or adjusts detail level automatically |
+
 **Related Terms**: [kinetic content](#kinetic-content),
 [modular content](#modular-content),
 [rhetorical approach](#rhetorical-approach),
-[structured content](#structured-content), [tone](#tone),
+[structured content](#structured-content), technical communication,
+[tone](#tone),
 [voice](#voice)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
@@ -125,9 +136,10 @@ current API capabilities
 
 ## modular content
 
-**Definition**: content strategy of self-contained content
-units designed to function independently and enable tech
-writers to combine units in different ways across documentation
+**Definition**: the process of making structured content reusable;
+content strategy of self-contained content units designed to function
+independently and enable tech writers to combine units in different
+ways across documentation
 
 **Purpose**: maximizes content reuse and maintains consistency when
 the same information appears in multiple contexts; builds on
@@ -178,8 +190,9 @@ demonstrates rhetorical awareness
 
 ## structured content
 
-**Definition**: content strategy that treats digital content
-like data; demonstrates content organized into discrete, clearly
+**Definition**: foundational approach to organizing content;
+content strategy that treats digital content like data;
+demonstrates content organized into discrete, clearly
 labeled components documentation teams can easily manage, query,
 and use systematically across multiple outputs
 
@@ -209,7 +222,7 @@ in reference docs, tutorials, and SDK documentation
 
 **Definition**: the attitude or emotional quality conveyed through
 word choice, sentence structure, and stylistic decisions in
-written communication
+written communication and/or content
 
 **Purpose**: establishes the relationship between documentation
 and readers, affecting engagement, trust, and comprehension
@@ -218,7 +231,7 @@ and readers, affecting engagement, trust, and comprehension
 address - "you'll need to authenticate," while formal tone avoids
 both - "authentication is required"
 
-**Related Terms**: [active voice](#active-voice),
+**Related Terms**: [active voice](#active-voice), [content](#content),
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
@@ -237,7 +250,7 @@ coming from a unified source regardless of who writes individual pieces
 **Example**: a documentation voice might be "helpful but not condescending"
 or "technically precise but accessible," maintained across all content types
 
-**Related Terms**: [active voice](#active-voice),
+**Related Terms**: [active voice](#active-voice), [content](#content),
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 

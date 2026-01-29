@@ -287,6 +287,7 @@ introductory level
 
 ### content
 
+- technical communication concept
 - anything written for someone else to read
 
 **Glossary Term Entry Location**: [Writing Style - content](writing-style.md#content)
