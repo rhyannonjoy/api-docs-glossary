@@ -827,6 +827,16 @@ audiences with minimal human intervention
 
 ---
 
+### liquid content
+
+- content strategy
+- the process of using AI to transform and personalize kinetic
+content
+
+**Glossary Term Entry Location**: [AI & APIs - liquid content](ai-and-apis.md#liquid-content)
+
+---
+
 ## M
 
 ---
