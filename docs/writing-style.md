@@ -91,6 +91,7 @@ and conceptual explanations all constitute content
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
 [Diátaxis](frameworks-strategy.md#diátaxis),
 [kinetic content](#kinetic-content), [liquid content](ai-and-apis.md#liquid-content),
+[metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content), [rhetorical approach](#rhetorical-approach),
 [structured content](#structured-content),
 [technical communication](frameworks-strategy.md#technical-communication),
@@ -211,6 +212,7 @@ in reference docs, tutorials, and SDK documentation
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
 [content](#content), [kinetic content](#kinetic-content),
 [liquid content](ai-and-apis.md#liquid-content),
+[metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content),
 [reference](./core-concepts/documentation-specific.md#reference),
 [SDK](./core-concepts/api-fundamentals.md#sdk)

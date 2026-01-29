@@ -54,7 +54,7 @@ to use Git commands
 **Related Terms**: [content](../writing-style.md#content),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](../tools-techniques/development-essentials.md#git),
-[GUI](../tools-techniques/development-essentials.md#gui),
+[GUI](../tools-techniques/development-essentials.md#gui), [metadata](#metadata),
 [SDK](../core-concepts/api-fundamentals.md#sdk),
 [structured content](../writing-style.md#structured-content),
 [version control](development-essentials.md#version-control)
@@ -82,6 +82,39 @@ links, lists, and tables
 
 - [Markdown Guide: Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - UW API Docs: Canvas General Forum
+
+---
+
+## metadata
+
+**Definition**: data about data; structured information that describes,
+explains, locates, or otherwise makes it easier to retrieve, use, or
+manage content
+
+**Purpose**: enables findability, organization, and automation in API
+documentation by providing machine-readable context about endpoints,
+parameters, content status, versioning, and relationships between
+documentation components
+
+**Example**: an API endpoint documentation page might have metadata
+that allows documentation systems to automatically display deprecation
+warnings, filter by category, or show freshness indicators -
+
+```shell
+version: "2.0",
+status: "deprecated",
+last-updated: "2025-01-15",
+category: "authentication"
+```
+
+**Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
+knowledge graph, [structured content](../writing-style.md#structured-content),
+taxonomy
+
+**Sources**:
+
+- [Geeks for Geeks: "What is Metadata?"](https://www.geeksforgeeks.org/software-engineering/what-is-metadata/)
+- [NISO: "Understanding Metadata: What is Metadata, and What is it For?: A Primer" by Jenn Riley](https://www.niso.org/publications/understanding-metadata-2017)
 
 ---
 

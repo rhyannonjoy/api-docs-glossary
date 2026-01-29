@@ -119,7 +119,7 @@ page
 | Explanation | "How payment processing works" | Understanding | Theoretical |
 
 **Related Terms**: [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[content](writing-style.md#writing-style), [domain knowledge](#domain-knowledge),
+[content](writing-style.md#content), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
 [explanation guide](./core-concepts/documentation-specific.md#explanation-guide),
 [how-to guide](./core-concepts/documentation-specific.md#how-to-guide),
