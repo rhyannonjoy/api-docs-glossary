@@ -200,8 +200,8 @@ for different account types
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
-[end-user software engineer](#end-user-software-engineer).
-[technical communication](#technical-communication)
+[end-user software engineer](#end-user-software-engineer),
+[taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
@@ -324,6 +324,75 @@ with clear disclaimers about experimental status
 
 ---
 
+## taxonomy
+
+**Definition**: hierarchical classification system that organizes concepts,
+terms, or entities into categories and subcategories based on their
+relationships and characteristics
+
+**Purpose**: provides consistent structure for organizing and navigating API
+documentation, enabling users to find related endpoints, understand conceptual
+relationships, and build mental models of how API components relate to each
+other
+
+### taxonomy in tech comm architecture
+
+```mermaid
+flowchart LR
+    TC[Technical Communication<br/>The Discipline]
+    C[Content<br/>What We Create]
+    SC[Structured Content<br/>Organized With Metadata]
+    T[Taxonomy<br/>Classification System]
+    M[Metadata<br/>Descriptive Information]
+    KG[Knowledge Graph<br/>Relationship Networks]
+    Dynamic[Modular/Kinetic/Liquid Content<br/>Dynamic - AI-Powered Delivery]
+    
+    TC --> C
+    C --> SC
+    SC --> T
+    SC --> M
+    T --> KG
+    M --> KG
+    KG --> Dynamic
+    
+    style TC fill:#4A90E2,color:#fff
+    style C fill:#9B59B6,color:#fff
+    style SC fill:#50C878,color:#fff
+    style T fill:#FFB347,color:#fff
+    style M fill:#FFB347,color:#fff
+    style KG fill:#E74C3C,color:#fff
+    style Dynamic fill:#F39C12,color:#fff
+```
+
+| Build Stage - Layer | Concept | Capability Unlocked |
+| ------------- | --------- | --------------------- |
+| **Stage 1: Foundation** | Technical Communication → Content | Create documentation |
+| **Stage 2: Structure** | + Structured Content | Reuse components systematically |
+| **Stage 3: Organization** | + Taxonomy + Metadata | Classify, search, and describe content |
+| **Stage 4: Intelligence** | + Knowledge Graph | Understand semantic relationships |
+| **Stage 5: Dynamic Delivery** | + Modular/Kinetic/Liquid | AI-assisted, adaptive documentation experiences |
+
+**Example**: an API documentation taxonomy might organize endpoints
+hierarchically or categorize error codes:
+
+| Component | Organization |
+| --------- | ------------ |
+| Endpoints | `Authentication` → `OAuth 2.0` → `Token Management` → `Refresh Token Endpoint` |
+| Error Codes | `Client Errors (4xx)` → `Authentication Errors` → `401 Unauthorized`, `403 Forbidden` |
+
+**Related Terms**: [content](writing-style.md#content),
+[domain knowledge](#domain-knowledge), knowledge graph,
+information architecture,
+[metadata](./tools-techniques/documentation-specific.md#metadata),
+[technical communication](#technical-communication)
+
+**Sources**:
+
+- [Markup AI Europe, Acrolinx: "Building a Strong Content Taxonomy for Technical Documentation" by Hannah Kaufhold](https://www.acrolinx.com/blog/building-a-strong-content-taxonomy-for-technical-documentation/)
+- [Wikipedia: "Taxonomy"](https://en.wikipedia.org/wiki/Taxonomy)
+
+---
+
 ## technical communication
 
 **Definition**: also known as tech comm; professional field focused on
@@ -349,7 +418,8 @@ technical communication created by technical communicators working in the
 API documentation domain
 
 **Related Terms**: [content](writing-style.md#content),
-[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge)
+[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
+[taxonomy](#taxonomy)
 
 **Sources**:
 

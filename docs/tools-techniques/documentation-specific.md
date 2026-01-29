@@ -109,7 +109,7 @@ category: "authentication"
 
 **Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
 knowledge graph, [structured content](../writing-style.md#structured-content),
-taxonomy
+[taxonomy](../frameworks-strategy.md#taxonomy)
 
 **Sources**:
 
