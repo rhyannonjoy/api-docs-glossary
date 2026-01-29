@@ -89,6 +89,7 @@ and conceptual explanations all constitute content
 | **API Docs Example** | traditional endpoint documentation page | endpoint data in separate, queryable fields | reusable error code descriptions | docs with real-time API status and user-specific examples | text documentation that converts to audio or adjusts detail level automatically |
 
 **Related Terms**: [kinetic content](#kinetic-content),
+[liquid content](ai-and-apis.md#liquid-content),
 [modular content](#modular-content),
 [rhetorical approach](#rhetorical-approach),
 [structured content](#structured-content), technical communication,
@@ -126,7 +127,7 @@ authentication method, or API version; or endpoint documentation
 that pulls real-time status information and adjusts examples based on
 current API capabilities
 
-**Related Terms**: CMS, [content](#content), liquid content,
+**Related Terms**: CMS, [content](#content), [liquid content](ai-and-apis.md#liquid-content),
 [modular content](#modular-content), [real-time](api-types-architectures.md#real-time),
 [structured content](#structured-content)
 
@@ -153,7 +154,7 @@ description used across reference documentation without manual
 copying
 
 **Related Terms**: CMS, [content](#content),
-[kinetic content](#kinetic-content), liquid content,
+[kinetic content](#kinetic-content), [liquid content](ai-and-apis.md#liquid-content),
 [structured content](#structured-content)
 
 **Sources**:
@@ -206,9 +207,8 @@ as a single block of text, allowing the same information to appear
 in reference docs, tutorials, and SDK documentation
 
 **Related Terms**: CMS, [content](#content),
-[kinetic content](#kinetic-content), liquid content,
-[modular content](#modular-content),
-[reference](./core-concepts/documentation-specific.md#reference),
+[kinetic content](#kinetic-content), [liquid content](ai-and-apis.md#liquid-content),
+[modular content](#modular-content), [reference](./core-concepts/documentation-specific.md#reference),
 [SDK](./core-concepts/api-fundamentals.md#sdk)
 
 **Sources**:

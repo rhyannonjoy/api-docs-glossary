@@ -159,13 +159,68 @@ or translating text
 **Example**: LLMs can draft initial OpenAPI specification descriptions
 or generate code examples in many programming languages
 
-**Related Terms**: [AI](#ai), [genAI](#genai),
+**Related Terms**: [AI](#ai), [genAI](#genai), [liquid content](#liquid-content),
 [Natural Language Processing](#natural-language-processing)
 
 **Sources**:
 
 - [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
 - UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
+
+---
+
+## liquid content
+
+**Definition**: content strategy that uses AI to transform and personalize
+kinetic content; content that adapts in real-time based on user context,
+preferences, or behavior, typically powered by LLMs to transform
+between formats - text, audio, video, summaries - while maintaining accuracy
+
+**Purpose**: delivers personalized documentation experiences and enables
+content to flow across different formats and interfaces based on user needs;
+represents the AI-powered implementation of kinetic content principles where
+LLMs actively reshape content for different consumption modes
+
+**Why this belongs in `AI & APIs`**: liquid content is directly tied to AI
+capabilities, has specific emerging use cases in publishing, and sits at
+the technical intersection of AI and content delivery, while other content
+stategies may or may not be AI-assisted
+
+**Example**: liquid content transformation paths
+
+```mermaid
+flowchart TD
+    Doc[Endpoint Documentation:<br/>POST /api/payments]
+    
+    Doc --> U1[User: Junior Developer]
+    Doc --> U2[User: Senior Developer]
+    Doc --> U3[User: Driving/Commuting]
+    
+    U1 -->|AI adapts| Output1[Simplified summary<br/>Basic code example<br/>Step-by-step guide]
+    
+    U2 -->|AI personalizes| Output2[Advanced patterns<br/>Based on past usage<br/>Optimization tips]
+    
+    U3 -->|AI transforms| Output3[Audio narration<br/>Voice-guided tutorial<br/>Hands-free learning]
+    
+    style Doc fill:#4A90E2,color:#fff
+    style U1 fill:#9B59B6,color:#fff
+    style U2 fill:#9B59B6,color:#fff
+    style U3 fill:#9B59B6,color:#fff
+    style Output1 fill:#50C878,color:#fff
+    style Output2 fill:#50C878,color:#fff
+    style Output3 fill:#50C878,color:#fff
+```
+
+**Related Terms**: [content](writing-style.md#content),
+[kinetic content](writing-style.md#kinetic-content), [Large Language Model](#large-language-model),
+[modular content](writing-style.md#modular-content), [real-time](api-types-architectures.md#real-time),
+[structured content](writing-style.md#structured-content)
+
+**Sources**:
+
+- [Digiday Media: "WTF is liquid content?" by Sara Guaglione](https://digiday.com/media/wtf-is-liquid-content/)
+- [Reuters Institute: "Journalism, Media and Technology Trends and Predictions 2026" by Nic Newman](http://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026)
+- [Story Needle: "Are LLMs making content 'liquid'?" by Michael Andrews](https://storyneedle.com/are-llms-making-content-liquid/)
 
 ---
 
