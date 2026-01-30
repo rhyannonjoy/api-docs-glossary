@@ -639,12 +639,12 @@ Consider creating a dedicated comparison entry when:
 **Format for comparison entries**: use `Term A vs Term B` as the
 entry name/header, then structure as:
 
-- **Definition**: explain both terms and their relationship
-- **Purpose**: focus on why understanding the distinction, or lack thereof,
+- **Definition** - explain both terms and their relationship
+- **Purpose** - focus on why understanding the distinction, or lack thereof,
 matters for API documentation
-- **Example**: show both terms in practical use
-- **Related Terms**: link to the underlying concepts both terms reference
-- **Sources**: cite relevant discussions or information origin
+- **Example** - show both terms in practical use
+- **Related Terms** - link to the underlying concepts both terms reference
+- **Sources** - cite relevant discussions or information origin
 
 ### When to Expand Entries
 
@@ -728,7 +728,7 @@ comparisons, or insights:
 - document decision-making for future contributors
 - keep concise and focused on practical value
 
-**Example of expanded entry structure:**
+**Example of expanded entry structure**:
 
 ```markdown
 ## term name
@@ -750,7 +750,7 @@ comparisons, or insights:
 | The field is evolving and consensus is forming | Document emerging consensus while acknowledging it's still developing | "Docs-as-tests is gaining adoption as teams recognize documentation drift" |
 | Sharp observations challenge conventional thinking | Don't shy away from documenting insights that question assumptions | The observation that QA and docs testing validate different sources of truth |
 
-**Voice for Points of View:**
+**Voice for Points of View**:
 
 - remain neutral in presentation, _"Some practitioners argue - "_
 not _"We believe - "_
