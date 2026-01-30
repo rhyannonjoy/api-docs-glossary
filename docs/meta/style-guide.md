@@ -103,9 +103,9 @@ categories.
 
 When determining where a glossary term belongs, consider:
 
-1. **Primary function**: _What does this glossary term fundamentally describe?_
-2. **User context**: _When would readers need this term?_
-3. **Distinguishing characteristics**: _Concept type and/or tool?_
+1. **Primary Function**: _What does this glossary term fundamentally describe?_
+2. **User Context**: _When would readers need this term?_
+3. **Distinguishing Characteristics**: _Concept type and/or tool?_
 
 ```mermaid
    flowchart TD
@@ -159,29 +159,28 @@ the following when determining whether category reasoning serves
 | Term has obvious category fit | ❌ No | Git clearly belongs in `Tools & Techniques` | Adding reasoning would be redundant and clutter the entry |
 | Category is self-evident from the definition | ❌ No | API obviously belongs in `Core Concepts` | Readers don't need explanation for clear categorization |
 
-### Reasoning Format
-
-Add category placement reasoning as a visible field in the term entry using the
-**"Why this belongs in `[Category]`"** format. This makes the reasoning transparent
-to readers and helps them understand the scope and nature of the term.
+**Reasoning Format**: add category placement reasoning as a visible field
+in the term entry using the **"Why this belongs in `[Category]`"** format,
+this makes the reasoning transparent to readers and helps them understand
+the scope and nature of the term
 
 **Why category reasoning gets its own field**:
 
 Separating category reasoning into its own field demonstrates a core technical writing
-principle: make decision-making processes explicit and structured. This Style Guide
+principle - make decision-making processes explicit and structured. This Style Guide
 emphasizes _concise, scannable_ definitions using sentence fragments and phrases.
-Category placement reasoning needs its own dedicated field to:
+Category placement reasoning needs its own dedicated field to -
 
-- **Preserve clarity in `Definition` and `Purpose` fields** - these fields should remain
+- **Preserve Clarity in `Definition` and `Purpose` Fields** - these fields should remain
 focused on what the term means and why it matters, not why it's categorized a certain way
-- **Avoid overloading `Example` fields** - examples should illustrate usage, not justify
+- **Avoid Overloading `Example` Fields** - examples should illustrate usage, not justify
 categorization
-- **Maintain scannability** - readers can quickly find core information without wading
+- **Maintain Scannability** - readers can quickly find core information without wading
 through meta-commentary about category decisions
-- **Be explicit and structured** - category reasoning is meta-information that deserves
+- **Be Explicit and Structured** - category reasoning is meta-information that deserves
 clear separation from the term's actual definition and purpose
 
-**Use this format:**
+**Format Examples**:
 
 ```markdown
 ## term name
@@ -198,11 +197,9 @@ focusing on the term's primary function and distinguishing characteristics]
 **Related Terms**: [links to related glossary terms]
 
 **Source**: [acknowledgement of the information's origin]
-```
 
-**Example with placement reasoning:**
+---
 
-```markdown
 ## docs-as-tests
 
 **Definition**: documentation strategy that treats documentation as testable assertions
@@ -216,12 +213,11 @@ approach that focuses on processes and practices rather than specific tools or c
 frameworks; represents a documentation methodology similar to Agile or docs-as-code,
 emphasizing the practice of continuous validation rather than the tools that implement it
 ...
-```
 
-**Example showing distinction from another category:**
+---
 
-```markdown
-## API testing
+<!--distinction from another category-->
+## API documentation testing
 
 **Definition**: the practice of validating that APIs function correctly, return expected
 responses, handle errors appropriately, and meet performance requirements
@@ -234,23 +230,61 @@ examples work as written
 validation workflow that focuses on how teams verify APIs as part of documentation
 maintenance and emphasizes the practice of testing rather than a specific tool;
 `Core Concepts` covers what APIs are fundamentally, while API testing is about what
-teams do with APIs—a workflow practice, not a fundamental API characteristic
+teams do with APIs - a workflow practice, not a fundamental API characteristic
 ...
 
 ```
 
-### Reasoning Best Practices
+**Reasoning Best Practices**:
 
-- **Don't over-document**: most terms don't need placement reasoning -
+- **Don't Over-Document**: most terms don't need placement reasoning -
 only include it when it adds value for readers
-- **Be concise**: keep reasoning focused and clear; explain the primary reason first
-- **Show distinctions**: when relevant, briefly explain why the term doesn't fit
+- **Be Concise**: keep reasoning focused and clear; explain the primary reason first
+- **Show Distinctions**: when relevant, briefly explain why the term doesn't fit
 in another obvious category
-- **Think forward**: consider how the decision guides future similar terms
-- **Test the placement**: if articulating why a term belongs in its category is too
+- **Think Forward**: consider how the decision guides future similar terms
+- **Test the Placement**: if articulating why a term belongs in its category is too
 difficult, reconsider the placement
-- **Ask for feedback**: when uncertain, create an issue to discuss with other
+- **Ask for Feedback**: when uncertain, create an issue to discuss with other
 contributors before committing to a category
+
+---
+
+## Abbreviations
+
+_<strong>`TL;DR`</strong> - just pick a pattern and roll with it;
+consistency matters more than the choice itself_
+
+When deciding when and where to use abbreviations,
+consider the following example:
+
+**Documentation vs Docs**
+
+Both "docs" and "documentation" are grammatically correct;
+choose based on context and maintain consistency -
+
+**Use "Docs"**:
+
+- while using established compound terms -
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[docs-as-tests](../workflows-methodologies.md#docs-as-tests)
+- for project names and approachability -
+[API Docs Glossary](../introduction.md),
+[Read the Docs](https://about.readthedocs.com/?ref=app.readthedocs.org)
+- when brevity improves scannability in navigation or headings
+
+**Use "Documentation"**:
+
+- in formal glossary term definitions
+- when professional tone is important
+- in official contexts or specifications
+
+| Context | Form | Examples | Why |
+| --------- | ------ | ---------- | ----- |
+| **Project/Product Names** | "docs" or "doc" | [API Docs Glossary](../introduction.md), [Write the Docs](https://www.writethedocs.org/), [Doc Detective](https://doc-detective.com/) | Branding choice - both are valid as a naming decision, not a grammar rule |
+| **Compound Terms** | "docs" or "documentation" | docs-as-code, API documentation testing | Either works - consistency matters more |
+| **Formal Writing** | "documentation" | API documentation, technical documentation | More professional tone |
+| **Conversational** | "docs" | "I updated the docs" or "check the docs" | Natural, common usage |
 
 ---
 
@@ -261,8 +295,6 @@ navigation labels and anchor links in Docusaurus. Consider the relationship
 of the glossary term's official name and how someone is _most_ likely to
 reference it in conversation. Use the _most_ recognizable form of a term in
 headings to create clean, scannable navigation and maintainable anchor links.
-
-### Rules
 
 **Use the acronym alone** when it's widely recognized and commonly used:
 
@@ -311,28 +343,26 @@ full name is more commonly used:
 
 **When unsure**, check common usage patterns:
 
-- Search API documentation, technical articles, and MDN Web Docs
-- If the acronym appears more frequently than the full name, use the acronym
-- If the full name is more recognizable, use the full name
-- Consider the glossary target audience - _what term would they search for?_
+- search API documentation, technical articles, and MDN Web Docs
+- if the acronym appears more frequently than the full name, use the acronym
+- if the full name is more recognizable, use the full name
+- consider the glossary target audience - _what term would they search for?_
 
 **Never use parenthetical expansions in headings** - they clutter navigation
 and create unnecessarily long anchor links:
 
 - ❌ `## SOAP (Simple Object Access Protocol) API`
-- ✅ `## SOAP API` with definition explaining "Simple Object Access Protocol"
+- ✅ `## SOAP API` with definition explaining _Simple Object Access Protocol_
 - ❌ `## URI (Uniform Resource Identifier)`
-- ✅ `## URI` with definition explaining "Uniform Resource Identifier"
+- ✅ `## URI` with definition explaining _Uniform Resource Identifier_
 
 ### Anchor Link Consistency
 
-Headings become anchor links automatically. Keep them concise to:
+Headings become anchor links automatically; keep them concise to:
 
 - streamline cross-referencing between terms
 - reduce errors when creating links
 - improve navigation panel readability
-
-**Example of the difference**:
 
 | Heading Style | Anchor Link | Usability |
 | ------------- | ----------- | --------- |
@@ -349,7 +379,7 @@ When renaming terms or reorganizing the glossary, don't forget to update
 all anchor links that reference the changed term. Use grep to find all
 instances in Markdown files:
 
-**Find all links to a specific anchor:**
+**Find all links to a specific anchor**:
 
 ```bash
 grep -rn "](#anchor-name)" . --include="*.md"
@@ -361,7 +391,7 @@ grep -rn "](#anchor-name)" . --include="*.md"
 grep -rn "](#openapi-specification-oas)" . --include="*.md"
 ```
 
-**Break down the command:**
+**Break down the command**:
 
 - `grep` - search tool
 - `-r` - recursive, searches all subdirectories
@@ -370,7 +400,7 @@ grep -rn "](#openapi-specification-oas)" . --include="*.md"
 - `.` - current directory
 - `--include="*.md"` - only search Markdown files, _exclude config files_
 
-**After finding all instances:**
+**After finding all instances**:
 
 1. Review each result to determine if it needs updating
 2. Some links may need just the anchor changed: `#new-anchor`
@@ -382,7 +412,7 @@ grep -rn "](#openapi-specification-oas)" . --include="*.md"
 After updating headings, run `npm run build` to verify that all anchor
 links are working. Docusaurus reports any broken anchors it finds.
 
-**Example build output with broken anchors:**
+**Example build output with broken anchors**:
 
 ```shell
 [WARNING] Docusaurus found broken anchors!
@@ -415,7 +445,7 @@ patterns when removing acronyms from headings:
 
 4. Run `npm run build` again to verify the corrections
 
-**Common causes of broken anchors:**
+**Common Causes of Broken Anchors**:
 
 - updated a heading but forgot to update the **Related Terms** links
 - removed acronyms from headings but left them in anchor links
@@ -442,20 +472,19 @@ professionalism.
 | Generic phrases | Use lowercase | merge conflict, pull request, version control |
 | File types | Use lowercase unless referring to the language | `markdown` file, but Markdown language |
 
-### Headings
-
-Match term headings with the capitalization of the term itself:
+**Headings**: match term headings with the capitalization
+of the term itself -
 
 - `## branch` not `## Branch`
 - `## GitHub` not `## github`
 - `##REST API` not `##REST api`
 
-**Category and section headings** use different capitalization based
-on their function:
+**Category and section headings** use different capitalization
+based on their function -
 
-- **Labels and titles** use title case: `# Core Concepts`,
+- **Labels and Titles** use title case: `# Core Concepts`,
 `# Tools & Techniques`, `## Glossary Philosophy`
-- **Task-based or action phrases** use sentence case:
+- **Task-Based or Action Phrases** use sentence case:
 `## Add a new glossary term`, `## Create a new category`
 
 **Rationale**: term headings follow the natural capitalization of the
@@ -471,10 +500,8 @@ title case for categories improves clarity and usability for this project.
 Disable any Vale or Google rules that conflict with the project's goals -
 style guides should serve the documentation, not constrain it._
 
-### Field Content
-
-Use sentence fragments and/or phrases rather than complete sentences.
-Start with lowercase unless the word is a proper noun:
+**Field Content**: use sentence fragments and/or phrases rather than
+complete sentences; start with lowercase unless the word is a proper noun -
 
 ```markdown
 ## branch
@@ -484,9 +511,9 @@ Start with lowercase unless the word is a proper noun:
 **Purpose**: enables multiple developers to work on different features simultaneously in API documentation workflows
 ```
 
-**Rare exception:** if a definition must be a complete sentence
+**Rare Exception**: if a definition must be a complete sentence
 for clarity, capitalize the first word per standard sentence rules,
-even if it's the term itself:
+even if it's the term itself -
 
 ```markdown
 ## rebase
@@ -500,50 +527,55 @@ even if it's the term itself:
 
 Link related terms to help readers navigate connected concepts
 and build understanding of how terms relate to each other.
-Include 3-6 related terms per entry. Too few misses valuable
+Include at least 3 related terms per entry. Too few misses valuable
 connections, while too many overwhelms and dilutes relevance.
-Link terms that are:
+Link terms that are -
 
-- **Directly connected**: terms used together in workflows,
-such as branch → merge, commit, rebase
-- **Prerequisite concepts**: terms readers need to understand
-first, such as REST API → HTTP, JSON
-- **Higher-level concepts**: category terms that provide context,
-such as cURL → API testing, command line
+- **Directly Connected**: terms used together in workflows,
+such as [branch](../tools-techniques/development-essentials.md#branch)
+→ [merge](../tools-techniques/development-essentials.md#merge) →
+[commit](../tools-techniques/development-essentials.md#commit) →
+[rebase](../tools-techniques/development-essentials.md#rebase)
+- **Prerequisite Concepts**: terms readers need to understand
+first, such as
+[REST API](../api-types-architectures.md#rest-api) →
+[HTTP](../core-concepts/api-fundamentals.md#http) →
+[JSON](../core-concepts/api-fundamentals.md#json)
+- **Higher-Level Concepts**: category terms that provide context,
+such as [CLI](../tools-techniques/development-essentials.md#cli) →
+[cURL](../tools-techniques/development-essentials.md#curl) →
+[API documentation testing](../workflows-methodologies.md#api-documentation-testing)
 
-### Related Terms Format
+**Related Terms Format and Syntax**:
 
-- list terms in alphabetical or local order: prerequisites first,
-then workflow-related, then alternatives
+- list terms in alphabetical order
 - use the exact term name as it appears in its heading
 - separate with commas: `**Related Terms**: branch, commit, merge, rebase`
 
-### Related Terms Syntax
-
-**For terms in the same file:**
+**Terms in the Same File**:
 
 ```markdown
 **Related Terms**: [term name](#term-name)
+
+**Related Terms**: [API](#api), [REST API](#rest-api)
 ```
 
-Example: `**Related Terms**: [API](#api), [REST API](#rest-api)`
-
-**For terms in different files:**
+**Terms in Different Files**:
 
 ```markdown
 **Related Terms**: [term name](filename.md#term-name)
+
+**Related Terms**: [Git](tools-techniques/development-essentials.md#git), [GitHub](tools-techniques/development-essentials.md#github)
 ```
 
-Example: `**Related Terms**: [Git](tools-techniques/development-essentials.md#git), [GitHub](tools-techniques/development-essentials.md#github)`
-
-**Important**:
+**Best Practices**:
 
 - the anchor link - `#term-name` - must exactly match the heading
 - use lowercase and hyphens for multi-word terms: `#http-status-codes`
 - acronyms are lowercase in anchors: `#rest-api` not `#REST-API`
 - test all links locally with `npm run build` and `npm start` before submitting
-- _**only link to terms that exist** - don't list terms in the
-Related Terms list that don't have glossary entries_
+- _**only link to terms that exist** - don't add terms in the
+**Related Terms** list that don't have glossary entries_
 
 ---
 
@@ -553,7 +585,7 @@ Provide specific, verifiable sources for all term definitions
 and information. Sources acknowledge where information originates
 and allow readers to explore topics further.
 
-### Source Format
+**Source Format**
 
 **For web sources**, use descriptive link text with the full URL:
 
@@ -597,7 +629,7 @@ Example:
 - UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
 ```
 
-### Source Best Practices
+**Source Best Practices**
 
 - be as specific as possible - include authors' names, exact page titles,
 section names, or [RFC numbers](../tools-techniques/documentation-specific.md#rfc)
@@ -657,39 +689,34 @@ matters for API documentation
 | The term represents emerging practices that need context | Docs-as-tests as a relatively new methodology | Provide additional background to help readers understand adoption and implementation |
 | Sharp observations or nuanced perspectives exist that serve readers | The distinction between testing "what the product does" vs. "what we tell users to do" | Don't hide these insights, make them explicit |
 
-### Available Expansion Fields
-
-Beyond the standard structure, consider adding these types of
-fields when appropriate:
-
-**Comparison** - clarify distinctions:
+**Available Expansion Fields**: beyond the standard structure,
+consider adding these types of fields when appropriate -
 
 ```markdown
+<!--Comparison - clarify distinctions-->
 **[term name] vs [related term name]**: explain the key differences, what each validates, why both might be necessary
-```
 
-**Context** - provide background:
+---
 
-```markdown
+<!--Context - provide background-->
 **Historical Context**: how this practice evolved, what problems it addresses
 
 **Current Adoption**: where this practice is common, who uses it
-```
 
-**Implementation** - offer practical guidance:
+---
 
-```markdown
+<!--Implementation - offer practical guidance-->
 **Get Started**: first steps for implementing this practice
 
 **Common Pitfalls**: what to avoid, where teams struggle
-```
 
-**Community Perspective** - capture collective wisdom:
+---
 
-```markdown
+<!--Community perspective - capture collective wisdom-->
 **Community Insights**: observations from Write the Docs, conference talks, practitioner discussions
 
 **Practitioner Perspectives**: how technical writers describe using this in practice
+
 ```
 
 ### Expansion Guidelines
@@ -817,9 +844,8 @@ drive the decision to add a child heading, not a rigid rule.
 inconsistencies
 - use descriptive phrases: `### Benefits`, `### Common Tools`
 
-**Example - No Child Heading Needed**:
-
 ```markdown
+<!--No Child Heading Needed-->
 ## docs-as-code
 
 **Definition**: ...
@@ -831,11 +857,10 @@ inconsistencies
 - **Transparency**: ...
 - **Collaboration**: ...
 ...
-```
 
-**Example - Child Heading Adds Value**:
+---
 
-```markdown
+<!--Child Heading Adds Value-->
 ## API documentation testing
 
 **Definition**: ...
@@ -847,6 +872,8 @@ inconsistencies
 ### API docs testing types
 
 [large comparison table]
+
+...
 ```
 
 ---
@@ -893,7 +920,7 @@ _**Note**: every Quick Reference entry must have a corresponding full entry in a
 category file; don't create Quick Reference entries for terms that lack detailed
 definitions elsewhere in the glossary_
 
-[The Quick Reference page](../quick-reference.md) provides concise definitions and filing
+[Quick Reference](../quick-reference.md) provides concise definitions and filing
 locations for commonly used terms. Add terms to Quick Reference when
 they meet these criteria:
 
@@ -969,10 +996,10 @@ If the term doesn't fit existing categories and warrants a new one:
    Brief description of what this category covers. This section explains
    the scope and purpose, helping readers understand what types of terms
    they'll find here and why these concepts matter for API documentation.
-   ```
 
-   ```markdown
-   <!-- Example overview with value proposition -->
+   ---
+
+   <!-- Example Overview with Value Proposition -->
    # Tools & Techniques
    
    Essential tools and methods for API documentation workflows.
@@ -989,10 +1016,10 @@ If the term doesn't fit existing categories and warrants a new one:
    items: [
      'quick-reference',
      'core-concepts',
-     'api-types-architectures', // New category added here
+     'api-types-architectures', // new category added here
      'ai-and-apis',
      'tools-techniques',
-     // ... other categories
+     //... other categories
    ],
    ```
 
@@ -1011,7 +1038,7 @@ the [Add a new glossary term section](#add-a-new-glossary-term):
 
 6. Update the `contribution-guide.md` by adding the new term category to any lists
 or descriptions of the glossary structure
-7. Update `getting-started.md` by adding the new term category to any lists or
+7. Update `get-started.md` by adding the new term category to any lists or
 descriptions of the glossary structure
 8. Update the `README.md` by adding the new category to the `Topics` section with
 a brief description of the category contents and a link to its
