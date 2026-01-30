@@ -405,7 +405,7 @@ from target users without formal recruitment processes
 - Presentation covering findings and recommendations
 
 **Related Terms**:
-[AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
 [API documentation testing](#api-documentation-testing),
 [contract testing](#contract-testing),
 [Document Development Life Cycle](#document-development-life-cycle),
@@ -520,7 +520,7 @@ provides user perspective before product release
 - Participant recruitment is challenging
 
 **Related Terms**:
-[AI-assisted usability analysis](ai-and-apis.md#ai-assisted-usability-analysis),
+[AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
 [API documentation testing](#api-documentation-testing),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Document Development Life Cycle](#document-development-life-cycle),

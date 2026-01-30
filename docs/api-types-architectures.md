@@ -232,7 +232,7 @@ well-suited for procedural or command-based APIs
 [CRUD](./core-concepts/api-fundamentals.md#crud),
 [HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
 [JSON](./core-concepts/api-fundamentals.md#json),
-[MCP server](ai-and-apis.md#mcp-server),
+[MCP server](ai-and-apis.mdx#mcp-server),
 [microservices](#microservices), [real-time](#real-time),
 [REST API](#rest-api)
 
@@ -343,7 +343,7 @@ applications within milliseconds of market movements
 
 **Related Terms**: [event-driven](#event-driven), [JSON-RPC](#json-rpc),
 [kinetic content](writing-style.md#kinetic-content),
-[liquid content](ai-and-apis.md#liquid-content),
+[liquid content](ai-and-apis.mdx#liquid-content),
 [Server-Sent Events](#server-sent-events), [webhook API](#webhook-api),
 [WebSocket API](#websocket-api)
 
@@ -615,7 +615,7 @@ automatically run tests
 [API endpoint](./core-concepts/api-fundamentals.md#api-endpoint),
 [event-driven](#event-driven),
 [HTTP](./core-concepts/api-fundamentals.md#http),
-[MCP server](ai-and-apis.md#mcp-server),
+[MCP server](ai-and-apis.mdx#mcp-server),
 [`POST`](./core-concepts/api-fundamentals.md#post),
 [real-time](#real-time)
 

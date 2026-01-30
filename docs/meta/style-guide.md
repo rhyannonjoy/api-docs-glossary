@@ -61,7 +61,7 @@ Most terms live in existing category files. To add a new term:
    - `quick-reference.md` - common terms, concise definitions
    - `core-concepts.md` - fundamental API documentation concepts
    - `api-types-architectures.md` - different architectural patterns and protocols
-   - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
+   - `ai-and-apis.mdx` - AI technologies, concepts relevant to API documentation
    - `tools-techniques.md` - tools, software, methods
    - `workflows-methodologies.md` - development, documentation workflows for API projects
    - `frameworks-strategy.md` - conceptual models, strategic approaches for API documentation work
@@ -951,7 +951,7 @@ the [Add a new glossary term section](#add-a-new-glossary-term):
    - `quick-reference.md` - common terms, concise definitions
    - `core-concepts.md` - fundamental API documentation concepts
    - `api-types-architectures.md` - different architectural patterns and protocols
-   - `ai-and-apis.md` - AI technologies, concepts relevant to API documentation
+   - `ai-and-apis.mdx` - AI technologies, concepts relevant to API documentation
    <!--> ... continue list-->
    ```
 

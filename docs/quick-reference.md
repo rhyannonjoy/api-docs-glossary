@@ -37,7 +37,36 @@ belong in the full documentation structure.
 - make predictions or recommendations and solve problems that normally
 require human intelligence
 
-**Glossary Term Entry Location**: [AI & APIs - AI](ai-and-apis.md#ai)
+**Glossary Term Entry Location**: [AI & APIs - AI](ai-and-apis.mdx#ai)
+
+---
+
+### AI-assisted documentation
+
+- docs created and/or enhanced via AI tools while maintaining
+human oversight for accuracy, technical correctness, and quality
+
+**Glossary Term Entry Location**: [AI & APIs - AI-assisted documentation](ai-and-apis.mdx#ai-assisted-documentation)
+
+---
+
+### AI-assisted usability analysis
+
+- use of AI tools to evaluate usability test results
+- accelerates interpretation of certain types of
+usability data while recognizing AI limitations
+
+**Glossary Term Entry Location**: [AI & APIs - AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis)
+
+---
+
+### AI bias
+
+- systematic errors and/or unfair outcomes in AI systems
+that reflect prejudices present in training data or
+model design
+
+**Glossary Term Entry Location**: [AI & APIs - AI bias](ai-and-apis.mdx#ai-bias)
 
 ---
 
@@ -561,7 +590,7 @@ in one's GitHub account
 - draws upon the patterns identified through machine learning processes
 to generate new content
 
-**Glossary Term Entry Location**: [AI & APIs - genAI](ai-and-apis.md#genai)
+**Glossary Term Entry Location**: [AI & APIs - genAI](ai-and-apis.mdx#genai)
 
 ---
 
@@ -823,6 +852,18 @@ audiences with minimal human intervention
 
 ---
 
+### knowledge graph
+
+- also known as a KG
+- structured representation of knowledge using entities and the
+relationships between them
+- organized in a graph format that both humans and machines can
+query and reason about
+
+**Glossary Term Entry Location**: [AI & APIs - knowledge graph](ai-and-apis.mdx#knowledge-graph)
+
+---
+
 ## L
 
 ---
@@ -833,7 +874,7 @@ audiences with minimal human intervention
 - form of generative AI that's trained on enormous amounts of text
 - can generate text-based responses that look and feel human-like
 
-**Glossary Term Entry Location**: [AI & APIs - Large Language Model](ai-and-apis.md#large-language-model)
+**Glossary Term Entry Location**: [AI & APIs - Large Language Model](ai-and-apis.mdx#large-language-model)
 
 ---
 
@@ -843,7 +884,7 @@ audiences with minimal human intervention
 - the process of using AI to transform and personalize kinetic
 content
 
-**Glossary Term Entry Location**: [AI & APIs - liquid content](ai-and-apis.md#liquid-content)
+**Glossary Term Entry Location**: [AI & APIs - liquid content](ai-and-apis.mdx#liquid-content)
 
 ---
 
@@ -857,7 +898,7 @@ content
 to recognize patterns and to apply what's known about those patterns
 to complete new tasks
 
-**Glossary Term Entry Location**: [AI & APIs - Machine Learning](ai-and-apis.md#machine-learning)
+**Glossary Term Entry Location**: [AI & APIs - Machine Learning](ai-and-apis.mdx#machine-learning)
 
 ---
 
@@ -896,7 +937,7 @@ that compete with similar offerings
 - acts as a bridge between AI models and the resources they
 need to complete tasks
 
-**Glossary Term Entry Location**: [AI & APIs - MCP Server](ai-and-apis.md#mcp-server)
+**Glossary Term Entry Location**: [AI & APIs - MCP Server](ai-and-apis.mdx#mcp-server)
 
 ---
 
@@ -1011,7 +1052,7 @@ devices and networks with limited bandwidth or unreliable connections
 - ability of computers to analyze and generate responses in ways
 that mimic humans’ use of language
 
-**Glossary Term Entry Location**: [AI & APIs - Natural Language Processing](ai-and-apis.md#natural-language-processing)
+**Glossary Term Entry Location**: [AI & APIs - Natural Language Processing](ai-and-apis.mdx#natural-language-processing)
 
 ---
 
@@ -1134,6 +1175,15 @@ workflows
 - ranges from sequential to iterative frameworks
 
 **Glossary Term Entry Location**: [Workflows & Methodologies - project management methodology](workflows-methodologies.md#project-management-methodology)
+
+---
+
+### prompt engineering
+
+- practice of crafting effective instructions and queries to
+AI systems to generate desired outputs
+
+**Glossary Term Entry Location**: [AI & APIs - prompt engineering](ai-and-apis.mdx#prompt-engineering)
 
 ---
 
@@ -1575,6 +1625,15 @@ or understand technical concepts
 - helps users diagnose and resolve specific problems or error conditions
 
 **Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - troubleshooting](./core-concepts/documentation-specific.md#troubleshooting)
+
+---
+
+### training data
+
+- large datasets used to teach machine learning models to recognize
+patterns and generate responses
+
+**Glossary Term Entry Location**: [AI & APIs - training data](ai-and-apis.mdx#training-data)
 
 ---
 

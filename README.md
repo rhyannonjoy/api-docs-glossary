@@ -23,7 +23,7 @@ AsyncAPI, OpenAPI specification, overview, reference, runbook
 - [API Types & Architectures](https://rhyannonjoy.github.io/api-docs-glossary/docs/api-types-architectures):
 event-driven, GraphQL, gRPC, microservices, REST, SOAP, Webhook, WebSocket
 - [AI & APIs](https://rhyannonjoy.github.io/api-docs-glossary/docs/ai-and-apis):
-AI bias, genAI, Large Language Model, training data
+AI bias, genAI, knowledge graph, liquid content, LLM, MCP server
 - [Tools & Techniques](https://rhyannonjoy.github.io/api-docs-glossary/docs/tools-techniques/development-essentials):
 cURL, Doc Detective, Git, Postman, Swagger, Vale
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
