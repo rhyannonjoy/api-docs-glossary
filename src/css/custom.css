@@ -230,25 +230,26 @@
   --ifm-color-primary-lighter: #55b533;
   --ifm-color-primary-lightest: #63c53b;
   
-  /* Links - bright green, with darker on hover */
-  --ifm-link-color: #4a9d2d;
-  --ifm-link-hover-color: #346e20;
-  
-  /* Code blocks */
-  --ifm-table-stripe-background: #f6f8fa;
-  --ifm-table-border-color: #d0d7de;
-  --ifm-code-background: #f6f8fa;
-  --ifm-pre-background: #f6f8fa;
-  
-  /* Tables */
-   --ifm-table-stripe-background: #f6f8fa;
-   --ifm-table-border-color: #d0d7de;
-   --ifm-code-background: #f6f8fa;
-   --ifm-pre-background: #f6f8fa;
+  /* Code blocks - light green */
+  --ifm-pre-background: #e8f5e3;
+
+  /* Inline code (`backticks`) - cool mint green */
+  --ifm-code-background: #e8f5e3;
+
+  /* Tables - light gray with strong green border */
+  --ifm-table-stripe-background: #ececec;
+  --ifm-table-border-color: #4a9d2d;
   
   /* Navbar */
   --ifm-navbar-link-color: #000000;
   --ifm-navbar-link-hover-color: #4a9d2d;
+}
+
+/* CRITICAL: Force code blocks to use the background */
+[data-theme='light'] .theme-code-block,
+[data-theme='light'] pre,
+[data-theme='light'] .prism-code {
+  background-color: #e8f5e3 !important;
 }
 
 /* Light mode - Color mode toggle button*/
