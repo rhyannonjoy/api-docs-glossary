@@ -123,6 +123,7 @@ page
 [end-user software engineer](#end-user-software-engineer),
 [explanation guide](./core-concepts/documentation-specific.md#explanation-guide),
 [how-to guide](./core-concepts/documentation-specific.md#how-to-guide),
+[information architecture](#information-architecture),
 [reference](./core-concepts/documentation-specific.md#reference),
 [tutorial](./core-concepts/documentation-specific.md#tutorial)
 
@@ -201,6 +202,7 @@ for different account types
 **Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [end-user software engineer](#end-user-software-engineer),
+[information architecture](#information-architecture),
 [taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
@@ -242,6 +244,39 @@ first payment" tutorial
 
 - [Dagstuhl Seminar Proceedings: "What is an End-User Software Engineer?" by Steven Clarke](https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.07081.26)
 - UW API Docs: Module 4, Lesson 1, "Audience analysis and readers' goals"
+
+---
+
+## information architecture
+
+**Definition**: also known as IA; the structural design of information
+environments that uses metadata and taxonomy to organize user content;
+the practice of organizing, labeling, and structuring content to help
+users find information and complete tasks
+
+**Purpose**: enables API documentation teams to create logical, findable,
+and usable documentation structures by applying principles of organization,
+navigation, search, and labeling to match how developers think about and
+use APIs
+
+**Example**: designing an API documentation site's structure - deciding
+whether to organize endpoints by resource type - _Users, Payments, Webhooks_
+vs. by function _Create, Read, Update, Delete_, creating a navigation
+hierarchy that surfaces authentication early, and labeling sections using
+terminology familiar to developers rather than internal product names
+
+**Related Terms**: [content](writing-style.md#content),
+[CRUD](./core-concepts/api-fundamentals.md#crud), [Diátaxis](#diátaxis),
+[domain knowledge](#domain-knowledge),
+[knowledge graph](ai-and-apis.mdx#knowledge-graph),
+[metadata](./tools-techniques/documentation-specific.md#metadata),
+[taxonomy](#taxonomy), [technical communication](#technical-communication),
+[usability testing](workflows-methodologies.md#usability-testing)
+
+**Sources**:
+
+- [Geeks for Geeks: "Information Architecture: A Complete Guide for Beginners"](https://www.geeksforgeeks.org/blogs/information-architecture/)
+- [Rosenfeld, Louis; Morville, Peter; Arango, Jorge. _Information Architecture: For the Web and Beyond - Fourth Edition_, O'Reilly Media Inc., October 2015.](https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/)
 
 ---
 
@@ -382,7 +417,7 @@ hierarchically or categorize error codes:
 
 **Related Terms**: [content](writing-style.md#content),
 [domain knowledge](#domain-knowledge), knowledge graph,
-information architecture,
+[information architecture](#information-architecture),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [technical communication](#technical-communication)
 
@@ -419,6 +454,8 @@ API documentation domain
 
 **Related Terms**: [content](writing-style.md#content),
 [docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
+[information architecture](#information-architecture),
+[metadata](./tools-techniques/documentation-specific.md#metadata),
 [taxonomy](#taxonomy)
 
 **Sources**:

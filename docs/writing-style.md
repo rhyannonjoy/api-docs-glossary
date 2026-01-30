@@ -90,6 +90,7 @@ and conceptual explanations all constitute content
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
 [Diátaxis](frameworks-strategy.md#diátaxis),
+[information architecture](frameworks-strategy.md#information-architecture),
 [kinetic content](#kinetic-content), [liquid content](ai-and-apis.mdx#liquid-content),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content), [rhetorical approach](#rhetorical-approach),
