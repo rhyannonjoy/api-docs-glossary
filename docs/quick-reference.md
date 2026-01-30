@@ -952,6 +952,17 @@ need to complete tasks
 
 ---
 
+### MDX
+
+- file format and syntax that combines Markdown with JSX,
+_JavaScript XML_
+- enables writers to embed interactive React components
+directly within Markdown content
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - MDX](./tools-techniques/documentation-specific.md#mdx)
+
+---
+
 ### Mercure
 
 - open protocol built on top of HTTP and Server-Sent Events

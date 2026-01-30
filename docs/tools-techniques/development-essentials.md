@@ -676,7 +676,8 @@ interfaces for API testing and exploration
 visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
-**Related Terms**: [CLI](#cli), [Postman](documentation-specific.md#postman),
+**Related Terms**: [CLI](#cli), [MDX](documentation-specific.md#mdx),
+[Postman](documentation-specific.md#postman),
 [Swagger](documentation-specific.md#swagger), [UI](#ui)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
@@ -727,7 +728,8 @@ interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
 **Related Terms**: [API endpoint](../core-concepts/api-fundamentals.md#api-endpoint),
-[CLI](#cli), [GUI](#gui), [REST API](../api-types-architectures.md#rest-api)
+[CLI](#cli), [GUI](#gui), [MDX](documentation-specific.md#mdx),
+[REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 

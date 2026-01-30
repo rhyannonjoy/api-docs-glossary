@@ -76,12 +76,70 @@ links, lists, and tables
 
 **Related Terms**: [Git](development-essentials.md#git),
 [Git Bash](development-essentials.md#git-bash),
-[GitHub](development-essentials.md#github), [Vale](#vale)
+[GitHub](development-essentials.md#github), [MDX](#mdx),
+[Vale](#vale)
 
 **Sources**:
 
 - [Markdown Guide: Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - UW API Docs: Canvas General Forum
+
+---
+
+## MDX
+
+**Definition**: file format and syntax that combines Markdown with JSX,
+_JavaScript XML_, enabling writers to embed interactive React components
+directly within Markdown content
+
+**Purpose**: allows API documentation to include interactive elements -
+live code editors, API explorers, dynamic examples, custom UI components -
+while maintaining the simplicity and readability of Markdown for standard
+content; bridges the gap between static documentation and interactive
+developer experiences
+
+**Example**: an `.mdx` file for API authentication documentation might
+include standard Markdown for explanatory text, but embed an interactive
+`<ApiKeyGenerator />` React component that lets developers create test
+API keys directly in the documentation, or a `<CodeSandbox />` component
+showing a live authentication flow that developers can modify and test
+without leaving the docs
+
+```mdx
+# Authentication
+
+Our API uses API keys for authentication. Include your key in the header:
+
+<CodeExample language="javascript">
+  {`fetch('https://api.example.com/data', {
+    headers: { 'X-API-Key': 'your-key-here' }
+  })`}
+</CodeExample>
+
+<ApiKeyGenerator />
+```
+
+**Example in API Docs Glossary**: [Interactive KG Explorer](../ai-and-apis.mdx#interactive-kg-explorer)
+
+### MDX vs Markdown
+
+| Aspect | Markdown - `.md` | MDX - `.mdx` |
+| -------- | ---------------- | ------------ |
+| **Content Type** | Purely text-based markup | Text-based markup + React components |
+| **Output** | Converts to static HTML | Renders interactive React components + HTML |
+| **Interactivity** | Static content only | Can include dynamic, interactive elements |
+| **Capabilities** | Formatting, links, images, code blocks | Everything Markdown does + embedded UI components, live code editors, API calls, user input handling |
+| **Use Case** | Documentation that doesn't need interactivity | Documentation with live demos, interactive examples, dynamic content |
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+[GUI](development-essentials.md#gui),
+[knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
+[UI](development-essentials.md#ui)
+
+**Sources**:
+
+- [MDX Docs: "What is MDX?"](https://mdxjs.com/docs/what-is-mdx/)
+- [Meta Platforms, Inc., Docusaurus: "MDX and React"](https://docusaurus.io/docs/markdown-features/react)
 
 ---
 
