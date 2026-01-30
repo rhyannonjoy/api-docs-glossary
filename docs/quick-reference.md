@@ -772,6 +772,17 @@ of how many times it's executed
 
 ---
 
+### information architecture
+
+- also known as IA
+- conceptual discipline and/or approach
+- the structural design of information environments
+- uses metadata and taxonomy to organize content for users
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - information architecture](frameworks-strategy.md#information-architecture)
+
+---
+
 ### introduction
 
 - documentation topic type

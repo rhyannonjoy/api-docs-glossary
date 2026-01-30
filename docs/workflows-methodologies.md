@@ -409,6 +409,7 @@ from target users without formal recruitment processes
 [API documentation testing](#api-documentation-testing),
 [contract testing](#contract-testing),
 [Document Development Life Cycle](#document-development-life-cycle),
+[information architecture](frameworks-strategy.md#information-architecture),
 [snippet testing](#snippet-testing), [usability testing](#usability-testing),
 [workflow testing](#workflow-testing)
 
@@ -525,6 +526,7 @@ provides user perspective before product release
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Document Development Life Cycle](#document-development-life-cycle),
 [guerrilla usability testing](#guerrilla-usability-testing),
+[information architecture](frameworks-strategy.md#information-architecture),
 [workflow testing](#workflow-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"

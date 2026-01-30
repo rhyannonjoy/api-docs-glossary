@@ -108,8 +108,11 @@ category: "authentication"
 ```
 
 **Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
-knowledge graph, [structured content](../writing-style.md#structured-content),
-[taxonomy](../frameworks-strategy.md#taxonomy)
+[information architecture](../frameworks-strategy.md#information-architecture),
+[knowledge graph](../ai-and-apis.mdx#knowledge-graph),
+[structured content](../writing-style.md#structured-content),
+[taxonomy](../frameworks-strategy.md#taxonomy),
+[technical communication](../frameworks-strategy.md#technical-communication)
 
 **Sources**:
 
