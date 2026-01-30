@@ -416,7 +416,8 @@ hierarchically or categorize error codes:
 | Error Codes | `Client Errors (4xx)` → `Authentication Errors` → `401 Unauthorized`, `403 Forbidden` |
 
 **Related Terms**: [content](writing-style.md#content),
-[domain knowledge](#domain-knowledge), knowledge graph,
+[domain knowledge](#domain-knowledge),
+[knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [information architecture](#information-architecture),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [technical communication](#technical-communication)

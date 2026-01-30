@@ -32,7 +32,7 @@ _This glossary isn't an exhaustive technical reference. It's a practical
 resource for people learning or working in API documentation who need
 quick, reliable definitions. The Style Guide itself models this philosophy:
 when making non-obvious choices about structure, formatting, or categorization,
-document the reasoning explicitly._
+<u>document the reasoning explicitly</u>._
 
 ---
 
@@ -636,9 +636,8 @@ Consider creating a dedicated comparison entry when:
 | Explaining the difference helps writers make better terminology choices | Knowing both terms are acceptable in API docs reduces terminology anxiety | Document that consistency matters more than picking the "right" term |
 | Common usage differs from technical precision | Practitioners use REST and *REST*ful interchangeably in documentation | Acknowledge both the technical distinction and real-world practice |
 
-**Format for comparison entries:**
-
-Use "Term A vs Term B" as the entry name/header, then structure as:
+**Format for comparison entries**: use `Term A vs Term B` as the
+entry name/header, then structure as:
 
 - **Definition**: explain both terms and their relationship
 - **Purpose**: focus on why understanding the distinction, or lack thereof,
@@ -660,15 +659,16 @@ matters for API documentation
 
 ### Available Expansion Fields
 
-Beyond the standard structure, consider adding these fields when appropriate:
+Beyond the standard structure, consider adding these types of
+fields when appropriate:
 
-**Comparison fields** - clarify distinctions:
+**Comparison** - clarify distinctions:
 
 ```markdown
-**How [term name] Differs From [related term]**: explain the key differences, what each validates, why both might be necessary
+**[term name] vs [related term name]**: explain the key differences, what each validates, why both might be necessary
 ```
 
-**Context fields** - provide background:
+**Context** - provide background:
 
 ```markdown
 **Historical Context**: how this practice evolved, what problems it addresses
@@ -676,7 +676,7 @@ Beyond the standard structure, consider adding these fields when appropriate:
 **Current Adoption**: where this practice is common, who uses it
 ```
 
-**Implementation fields** - offer practical guidance:
+**Implementation** - offer practical guidance:
 
 ```markdown
 **Get Started**: first steps for implementing this practice
@@ -684,7 +684,7 @@ Beyond the standard structure, consider adding these fields when appropriate:
 **Common Pitfalls**: what to avoid, where teams struggle
 ```
 
-**Community perspective fields** - capture collective wisdom:
+**Community Perspective** - capture collective wisdom:
 
 ```markdown
 **Community Insights**: observations from Write the Docs, conference talks, practitioner discussions
@@ -718,11 +718,9 @@ documentation context
 - readers should be able to get the basics quickly and dive deeper if needed
 - _"Would a confused reader find this additional context helpful?"_
 
-### Format Considerations
-
-Treat maintainer and reader content the same. Whether it's category
-placement reasoning, editorial notes, or distinctions, comparisons,
-or insights:
+**Format Considerations**: treat maintainer and reader content the same;
+whether it's category placement reasoning, editorial notes, or distinctions,
+comparisons, or insights:
 
 - don't keep it hidden from the rendered documentation
 - use visible fields with clear labels
@@ -739,11 +737,11 @@ or insights:
 
 **Purpose**: [why this matters for API documentation]
 
-**How [term name] Differs From [related term]**: [visible clarification for readers]
+**[term name] vs [related term name]**: [visible clarification for readers]
 ...
 ```
 
-### Documenting Points of View
+**Documenting Points of View**:
 
 | **Scenario** | **Approach** | **Example** |
 | ------------ | ------------ | ----------- |
@@ -752,16 +750,17 @@ or insights:
 | The field is evolving and consensus is forming | Document emerging consensus while acknowledging it's still developing | "Docs-as-tests is gaining adoption as teams recognize documentation drift" |
 | Sharp observations challenge conventional thinking | Don't shy away from documenting insights that question assumptions | The observation that QA and docs testing validate different sources of truth |
 
-**Voice for points of view:**
+**Voice for Points of View:**
 
-- remain neutral in presentation: "Some practitioners argue..." not "We believe..."
-- attribute perspectives when possible: "Write the Docs discussions suggest..."
+- remain neutral in presentation, _"Some practitioners argue - "_
+not _"We believe - "_
+- attribute perspectives when possible, _"Write the Docs discussions
+suggest - "_
 - present multiple viewpoints fairly when legitimate disagreement exists
 - be clear when documenting emerging vs. established practices
 
-### Evolution Through Community Input
-
-**Capture community wisdom such as**:
+**Evolution Through Community Input**: capture community wisdom
+including -
 
 1. **Classroom confusion** - common struggles with a concept
 2. **Book club discussions** - insights from Write the Docs reading groups
@@ -769,7 +768,7 @@ or insights:
 4. **Slack conversations** - recurring questions or "aha" moments
 5. **Blog posts and articles** - practitioner perspectives from published work
 
-**When adding community-sourced insights**:
+**When Adding Community-Sourced Insights**:
 
 - cite the source appropriately as documented in the
 [Source Reference section](#source-reference)
@@ -777,18 +776,78 @@ or insights:
 - ensure the insight serves the glossary's API documentation focus
 - get permission if directly quoting individuals from informal contexts
 
-### Maintaining Consistency as Entries Expand
+**Maintaining Consistency as Entries Expand**: as glossary
+terms grow more detailed -
 
-**As glossary terms grow more detailed**:
-
-1. **Keep the basic structure intact** - `Definition`, `Purpose`, `Example`, `Sources`
+1. **Keep the Basic Structure Intact** - `Definition`, `Purpose`, `Example`, `Sources`
 remain standard
-2. **Use consistent field naming** - if adding "How this differs from X" to one term,
+2. **Use Consistent Field Naming** - if adding `Term A vs Term B` to one term,
 use the same phrasing for similar distinctions in other terms
 3. **Update this Style Guide** - document new patterns as they emerge so future
 contributors follow them
-4. **Review periodically** - expanded entries may need trimming as concepts become
+4. **Review Periodically** - expanded entries may need trimming as concepts become
 better understood in the field
+
+---
+
+## Child Headings in Glossary Term Entries
+
+Use child headings such as `<H3>###` and `<H4>####` sparingly within term
+entries, and only when they genuinely improve navigation for substantial
+content. Avoid congesting the right-side navigation pane with
+unnecessary complexity. When in doubt, let _the content complexity_
+drive the decision to add a child heading, not a rigid rule.
+
+**Do Use Child Headings For**:
+
+- large tables or complex structured content
+- multiple paragraphs requiring their own navigation
+- long entries where jump-to navigation adds value
+
+**Don't Use Child Headings For**:
+
+- short bullet lists, _5-7 items_ - use `**bold labels**` instead
+- single paragraphs or brief sections
+- content that's already scannable without hierarchy
+
+**Child Headings Format**:
+
+- use sentence case
+- avoid repeating the term name to prevent capitalization
+inconsistencies
+- use descriptive phrases: `### Benefits`, `### Common Tools`
+
+**Example - No Child Heading Needed**:
+
+```markdown
+## docs-as-code
+
+**Definition**: ...
+
+**Purpose**: ...
+
+**Considerations**
+
+- **Transparency**: ...
+- **Collaboration**: ...
+...
+```
+
+**Example - Child Heading Adds Value**:
+
+```markdown
+## API documentation testing
+
+**Definition**: ...
+
+### API docs testing vs QA testing
+
+[large comparison table]
+
+### API docs testing types
+
+[large comparison table]
+```
 
 ---
 
@@ -797,25 +856,22 @@ better understood in the field
 Write in active voice without first-person pronouns to maintain
 directness and professional tone.
 
-### Active Voice
-
-Use active voice where the subject performs the action:
+**Use Active Voice** where the subject performs the action:
 
 - ✅ "Git tracks changes in files"
 - ❌ "Changes in files are tracked by Git"
 - ✅ "Developers use branches to isolate work"
 - ❌ "Branches are used by developers to isolate work"
 
-### Avoid first-person pronouns
-
-Write from a neutral, instructional perspective without first-person pronouns:
+**Avoid First-Person Pronouns**: write from a neutral, instructional
+perspective -
 
 - ❌ "We use branches to isolate work"
 - ❌ "I recommend committing changes frequently"
 - ✅ "Branches isolate work without affecting the main codebase"
 - ✅ "Frequent commits create detailed project history"
 
-Avoid second-person pronouns - "you":
+**Avoid Second-Person Pronouns**:
 
 - ❌ "You should commit changes frequently"
 - ✅ "Frequent commits create detailed project history"
@@ -826,10 +882,8 @@ use third-person references like "users," "developers," or "writers":
 - ✅ `**Purpose**: enables developers to work on different features simultaneously`
 - ✅ `**Example**: developers create a branch named docs/add-webhook-guide`
 
-### Clarity Over Rules
-
-If passive voice improves clarity or readability, use it -
-but this is likely rare. When in doubt, rewrite in active voice.
+**Clarity Over Rules**: if passive voice improves clarity or readability,
+use it - but this is likely rare. When in doubt, rewrite in active voice.
 
 ---
 
