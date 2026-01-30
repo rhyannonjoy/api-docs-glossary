@@ -720,7 +720,7 @@ documentation context
 
 **Format Considerations**: treat maintainer and reader content the same;
 whether it's category placement reasoning, editorial notes, or distinctions,
-comparisons, or insights:
+comparisons, or insights -
 
 - don't keep it hidden from the rendered documentation
 - use visible fields with clear labels
