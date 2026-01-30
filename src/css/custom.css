@@ -211,11 +211,11 @@
    ============================================ */
 
 [data-theme='light'] {
-  /* Background colors - cream #fffbed everywhere */
-  --ifm-background-color: #fffbed;
-  --ifm-navbar-background-color: #fffbed;
-  --ifm-footer-background-color: #fffbed;
-  --ifm-background-surface-color: #fffbed;
+  /* Background colors - cream #fafbfc everywhere */
+  --ifm-background-color: #fafbfc;
+  --ifm-navbar-background-color: #fafbfc;
+  --ifm-footer-background-color: #fafbfc;
+  --ifm-background-surface-color: #fafbfc;
   
   /* Text colors - pure black */
   --ifm-font-color-base: #000000;
@@ -235,12 +235,16 @@
   --ifm-link-hover-color: #346e20;
   
   /* Code blocks */
-  --ifm-code-background: #f5f1e8;
-  --ifm-code-color: #000000;
+  --ifm-table-stripe-background: #f6f8fa;
+  --ifm-table-border-color: #d0d7de;
+  --ifm-code-background: #f6f8fa;
+  --ifm-pre-background: #f6f8fa;
   
   /* Tables */
-  --ifm-table-stripe-background: #f5f1e8;
-  --ifm-table-border-color: #e8e4db;
+   --ifm-table-stripe-background: #f6f8fa;
+   --ifm-table-border-color: #d0d7de;
+   --ifm-code-background: #f6f8fa;
+   --ifm-pre-background: #f6f8fa;
   
   /* Navbar */
   --ifm-navbar-link-color: #000000;
@@ -267,7 +271,7 @@
 [data-theme='light'] .DocSearch-Input,
 [data-theme='light'] .aa-Input,
 [data-theme='light'] form input {
-  background-color: #f5f1e8 !important;
+  background-color: #fdfcfb !important;
   border: 1px solid #e8e4db !important;
   color: #000000 !important;
 }
@@ -282,7 +286,7 @@
 [data-theme='light'] .navbar input:focus,
 [data-theme='light'] .DocSearch-Input:focus {
   border-color: #4a9d2d !important;
-  background-color: #fffbed !important;
+  background-color: #fafbfc !important;
   outline: none !important;
 }
 
@@ -301,7 +305,7 @@
 [data-theme='light'] .aa-DetachedFormContainer,
 [data-theme='light'] div[class*='searchResultsColumn'],
 [data-theme='light'] .search-result-match {
-  background-color: #fffbed !important;
+  background-color: #fafbfc !important;
   border: 1px solid #e8e4db !important;
   color: #000000 !important;
 }
@@ -317,7 +321,7 @@
 [data-theme='light'] a.search-result-link,
 [data-theme='light'] a[class*='searchResultItem'] {
   color: #000000 !important;
-  background-color: #fffbed !important;
+  background-color: #fafbfc !important;
 }
 
 /* Light mode - Search result TITLES and DESCRIPTIONS */
@@ -387,7 +391,7 @@
 /* Light mode - Search footer */
 [data-theme='light'] .DocSearch-Footer,
 [data-theme='light'] .aa-PanelFooter {
-  background-color: #fffbed !important;
+  background-color: #fafbfc !important;
   border-top: 1px solid #e8e4db !important;
   color: #666666 !important;
 }
@@ -408,7 +412,7 @@
 }
 
 [data-theme='light'] .theme-doc-sidebar-container {
-  background-color: #fffbed;
+  background-color: #fafbfc;
   border-right: 1px solid #e8e4db;
 }
 
@@ -447,7 +451,7 @@
 }
 
 [data-theme='light'] .footer {
-  background-color: #fffbed !important;
+  background-color: #fafbfc !important;
   color: #000000 !important;
   border-top: 1px solid #e8e4db;
 }
@@ -458,7 +462,7 @@
 
 /* Mermaid diagrams light mode */
 [data-theme='light'] .docusaurus-mermaid-container {
-  --mermaid-background-color: #fffbed;
+  --mermaid-background-color: #fafbfc;
   --mermaid-text-color: #000000;
   --mermaid-border-color: #4a9d2d;
 }
