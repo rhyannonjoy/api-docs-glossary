@@ -90,7 +90,7 @@ and conceptual explanations all constitute content
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
 [Diátaxis](frameworks-strategy.md#diátaxis),
-[kinetic content](#kinetic-content), [liquid content](ai-and-apis.md#liquid-content),
+[kinetic content](#kinetic-content), [liquid content](ai-and-apis.mdx#liquid-content),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content), [rhetorical approach](#rhetorical-approach),
 [structured content](#structured-content),
@@ -129,7 +129,7 @@ that pulls real-time status information and adjusts examples based on
 current API capabilities
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
-[content](#content), [liquid content](ai-and-apis.md#liquid-content),
+[content](#content), [liquid content](ai-and-apis.mdx#liquid-content),
 [modular content](#modular-content), [real-time](api-types-architectures.md#real-time),
 [structured content](#structured-content)
 
@@ -157,7 +157,7 @@ copying
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
 [content](#content), [kinetic content](#kinetic-content),
-[liquid content](ai-and-apis.md#liquid-content),
+[liquid content](ai-and-apis.mdx#liquid-content),
 [structured content](#structured-content)
 
 **Sources**:
@@ -211,7 +211,7 @@ in reference docs, tutorials, and SDK documentation
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
 [content](#content), [kinetic content](#kinetic-content),
-[liquid content](ai-and-apis.md#liquid-content),
+[liquid content](ai-and-apis.mdx#liquid-content),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content),
 [reference](./core-concepts/documentation-specific.md#reference),
