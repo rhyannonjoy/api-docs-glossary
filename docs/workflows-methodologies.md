@@ -406,7 +406,7 @@ from target users without formal recruitment processes
 - Summary report with key findings and next steps
 - Presentation covering findings and recommendations
 
-**Related Terms**:
+**Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
 [AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
 [API documentation testing](#api-documentation-testing),
 [contract testing](#contract-testing),
@@ -523,7 +523,7 @@ provides user perspective before product release
 - Not statistically significant but still useful
 - Participant recruitment is challenging
 
-**Related Terms**:
+**Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
 [AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
 [API documentation testing](#api-documentation-testing),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),

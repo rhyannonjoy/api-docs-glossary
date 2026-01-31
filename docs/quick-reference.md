@@ -11,6 +11,16 @@ belong in the full documentation structure.
 
 ---
 
+### accessibility
+
+- design philosophy, ethical framework, strategic approach
+- the practice of designing and creating content, interfaces,
+and experiences for people with diverse abilities and disabilities
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - accessibility](frameworks-strategy.md#accessibility)
+
+---
+
 ### affect vs effect
 
 - affect - _verb_: to influence
