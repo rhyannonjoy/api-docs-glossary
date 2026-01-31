@@ -76,19 +76,19 @@ accurate:
 
 | Aspect | QA Testing | Documentation Testing |
 | -------- | ------------ | ---------------------- |
-| **What it tests** | APIs meet engineering specifications and function correctly | Documented workflows, code examples, and instructions work as written |
-| **Source of truth** | Engineering specifications and technical requirements | User-facing documentation and tutorials |
+| **What it Tests** | APIs meet engineering specifications and function correctly | Documented workflows, code examples, and instructions work as written |
+| **Source of Truth** | Engineering specifications and technical requirements | User-facing documentation and tutorials |
 | **Purpose** | Validates product works to spec | Validates user-facing instructions remain accurate |
 | **Can catch documentation drift?** | **No** - validates against different source of truth | **Yes** - specifically designed to catch this |
-| **Example scenario** | Developers add a required parameter, tests pass &rarr; API works correctly | Developers add a required parameter, tests fail &rarr; documented examples no longer work |
+| **Example Scenario** | Developers add a required parameter, tests pass &rarr; API works correctly | Developers add a required parameter, tests fail &rarr; documented examples no longer work |
 
 ### API docs testing types
 
 | Testing Type | What It Validates | Scope | Example |
 | ------------ | ----------------- | ----- | ------- |
-| **Contract testing** | API conforms to agreed contracts between consumer and provider | Interface contracts, message formats, protocols | Consumer defines expected response format, provider verifies implementation matches |
-| **Snippet testing** | Code examples execute successfully | Individual code samples in documentation | Python snippet makes API call and returns expected data structure |
-| **Workflow testing** | Multi-step API sequences accomplish tasks | Complete user journeys across endpoints | Authentication → create resource → retrieve resource → delete resource all work in sequence |
+| **Contract Testing** | API conforms to agreed contracts between consumer and provider | Interface contracts, message formats, protocols | Consumer defines expected response format, provider verifies implementation matches |
+| **Snippet Testing** | Code examples execute successfully | Individual code samples in documentation | Python snippet makes API call and returns expected data structure |
+| **Workflow Testing** | Multi-step API sequences accomplish tasks | Complete user journeys across endpoints | Authentication → create resource → retrieve resource → delete resource all work in sequence |
 
 **Example**: a technical writer implements automated tests that send HTTP requests
 to each documented API endpoint with the exact parameters shown in code examples,
@@ -104,7 +104,8 @@ team to update their integration guides
 [docs-as-tests](#docs-as-tests),
 [HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
 [Playwright](./tools-techniques/testing-validation.md#playwright),
-[REST API](api-types-architectures.md#rest-api), [workflow testing](#workflow-testing)
+[REST API](api-types-architectures.md#rest-api),
+[UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -412,7 +413,7 @@ from target users without formal recruitment processes
 [Document Development Life Cycle](#document-development-life-cycle),
 [information architecture](frameworks-strategy.md#information-architecture),
 [snippet testing](#snippet-testing), [usability testing](#usability-testing),
-[workflow testing](#workflow-testing)
+[UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -528,7 +529,7 @@ provides user perspective before product release
 [Document Development Life Cycle](#document-development-life-cycle),
 [guerrilla usability testing](#guerrilla-usability-testing),
 [information architecture](frameworks-strategy.md#information-architecture),
-[workflow testing](#workflow-testing)
+[UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 

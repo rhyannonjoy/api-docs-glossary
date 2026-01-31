@@ -1730,6 +1730,18 @@ a group of representative users
 
 ---
 
+### UX
+
+- acronym for _user experience_
+- multidisciplinary field involving many stakeholders, drawing on
+principles from design, psychology, engineering and business
+- encompasses all aspects of a person's interaction with a
+product, service, or system
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - UX](frameworks-strategy.md#ux)
+
+---
+
 ## V
 
 ---

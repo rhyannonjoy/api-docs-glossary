@@ -67,7 +67,7 @@ burying the comparison deep in reference docs
 **Related terms**: [API](./core-concepts/api-fundamentals.md#api),
 [API reference topic](./core-concepts/documentation-specific.md#api-reference-topic),
 [Diátaxis](#diátaxis), [end-user software engineer](#end-user-software-engineer),
-[usability testing](workflows-methodologies.md#usability-testing)
+[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -133,7 +133,7 @@ that serves both beginners and experts effectively
 | **Reference** | Information | Theoretical knowledge | "What is - ?" |
 | **Explanation** | Understanding | Theoretical knowledge | "Why - ?" |
 
-**The framework's two axes**:
+**The Framework's Two Axes**:
 
 - **Acquisition vs. Application**: whether users are learning something new,
 acquisition, or applying existing knowledge to complete work, application
@@ -272,7 +272,7 @@ first payment" tutorial
 **Related Terms**: [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [domain knowledge](#domain-knowledge),
 [error handling](./core-concepts/api-fundamentals.md#error-handling),
-[usability testing](workflows-methodologies.md#usability-testing)
+[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -306,7 +306,8 @@ terminology familiar to developers rather than internal product names
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [taxonomy](#taxonomy), [technical communication](#technical-communication),
-[usability testing](workflows-methodologies.md#usability-testing)
+[usability testing](workflows-methodologies.md#usability-testing),
+[UX](#ux)
 
 **Sources**:
 
@@ -500,5 +501,42 @@ API documentation domain
 
 - [Society for Technical Communication - STC, Homepage](https://www.stc.org/)
 - [Wikipedia: "Technical communication"](https://en.wikipedia.org/wiki/Technical_communication)
+
+---
+
+## UX
+
+**Definition**: acronym for _user experience_; multidisciplinary field
+involving many stakeholders, drawing on principles from design, psychology,
+engineering and business; encompasses all aspects of a person's interaction
+with a product, service, or system, including their perceptions, emotions,
+and responses before, during, and after use
+
+**Purpose**: guides API documentation decisions by focusing on DX,
+_developer experience_ - how developers feel when discovering, learning,
+and using an API - ensuring documentation reduces friction, builds confidence,
+and supports successful integration
+
+**Example**: improving API documentation UX
+
+| Focus Area | Action | Impact |
+| ---------- | ------ | ------ |
+| Interactivity | Add code examples developers can test immediately | Reduces friction between reading docs and first API call |
+| Error Handling | Provide clear error messages with actionable solutions | Helps developers troubleshoot without leaving documentation |
+| Content Organization | Surface authentication requirements before first API call | Prevents common blocker where developers attempt calls before authenticating |
+| Code Samples | Ensure samples work copy-paste without modification | Eliminates guesswork and reduces time-to-first-successful-API-call |
+
+**Related Terms**:
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
+[end-user software engineer](#end-user-software-engineer),
+[guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
+[information architecture](#information-architecture),
+[usability testing](workflows-methodologies.md#usability-testing)
+
+**Sources**:
+
+- [IBM: "What is user experience (UX)?" by Teganne Finn, Amanda Downie](https://www.ibm.com/think/topics/user-experience)
+- [Interaction Design Foundation: "User Experience Design"](https://www.interaction-design.org/literature/topics/ux-design)
 
 ---
