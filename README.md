@@ -29,7 +29,7 @@ cURL, Doc Detective, Git, Postman, Swagger, Vale
 - [Workflows & Methodologies](https://rhyannonjoy.github.io/api-docs-glossary/docs/workflows-methodologies):
 Agile, API docs testing, docs-as-code, docs-as-tests, usability testing
 - [Frameworks & Strategy](https://rhyannonjoy.github.io/api-docs-glossary/docs/frameworks-strategy):
-audience analysis, Diátaxis, docs-as-ecosystem, domain knowledge, sales collateral
+accessibility, Diátaxis, docs-as-ecosystem, DX, IA, taxonomy, tech comm, UX
 - [Writing Style](https://rhyannonjoy.github.io/api-docs-glossary/docs/writing-style):
 content strategy, rhetorical approach, tone considerations
 

@@ -30,6 +30,63 @@ flowchart TD
 
 ---
 
+## accessibility
+
+**Definition**: the practice of designing and creating content, interfaces,
+and experiences that people with diverse abilities, disabilities, and
+contexts can perceive, understand, navigate, and interact with effectively
+
+**Purpose**: ensures API documentation reaches all developers regardless of
+visual, auditory, motor, or cognitive abilities; guides decisions about color
+contrast, text sizing, navigation patterns, code example formatting, and
+content structure to create inclusive documentation experiences
+
+**Why this belongs in `Frameworks & Strategy`**: represents a fundamental
+design philosophy and ethical framework that informs all documentation decisions
+rather than a specific workflow or tool; a strategic approach to inclusive
+design that shapes content strategy, IA, and UX - similar to how
+docs-as-ecosystem frames documentation philosophy _rather than describing
+operational practices_
+
+**The Complexity of Accessibility**: accessibility isn't one-size-fits-all -
+design choices that improve access for some users may create barriers for others,
+requiring documentation teams to provide flexible options rather than single
+"accessible" solutions
+
+**Example**: light vs. dark mode
+
+| Mode | Benefits | Challenges |
+| ------ | ---------- | ------------ |
+| **Light Mode** | Better for users with astigmatism, dyslexia, or certain visual processing conditions; higher contrast can improve readability for many | Can cause eye strain for users with light sensitivity, migraines, or who work in low-light environments |
+| **Dark Mode** | Reduces eye strain for light-sensitive users, better for low-light conditions, can help users with certain forms of photophobia | Can reduce readability for users with astigmatism or visual processing conditions; lower contrast may be harder to read for some |
+
+**Solution**: provide both modes as user-selectable options rather than enforcing
+a single "accessible" choice, allowing developers to choose what works best for
+their needs and context; additional accessibility solutions for doc teams -
+
+- screen reader compatibility for code examples and interactive elements
+- keyboard navigation for documentation sites and API explorers
+- sufficient color contrast in syntax highlighting while maintaining code
+readability
+- alternative text for diagrams showing API architecture or data flows
+- clear heading hierarchy for navigation and comprehension
+- captions or transcripts for video tutorials
+- plain language explanations alongside technical terminology
+
+**Related Terms**: [content strategy](#content-strategy),
+[docs-as-ecosystem](#docs-as-ecosystem), [DX](#dx),
+[guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
+[information architecture](#information-architecture),
+[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
+
+**Sources**:
+
+- [Utah State University, WebAIM: "Contrast and Color Accessibility"](https://webaim.org/articles/contrast/)
+- [W3C: "How to Meet WCAG (Quick Reference)"](https://www.w3.org/WAI/WCAG21/quickref/)
+- [W3C Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/)
+
+---
+
 ## cognitive dimensions of API usability
 
 **Definition**: a framework for evaluating and enhancing API usability
@@ -97,7 +154,7 @@ measure success
 | Versioning | maintain version-specific documentation | ensures backward compatibility |
 | Metrics | track time-to-first-successful-API-call | measures effectiveness of documentation |
 
-**Related Terms**: [content](writing-style.md#content),
+**Related Terms**: [accessibility](#accessibility), [content](writing-style.md#content),
 [docs-as-ecosystem](#docs-as-ecosystem),
 [information architecture](#information-architecture), [market](#market),
 [sales collateral](#sales-collateral), [technical communication](#technical-communication)
@@ -200,13 +257,10 @@ feedback trends, coordinates with product managers on documentation roadmap, and
 integrates contributions from engineers, community members, and customer support to
 create living documentation that evolves with community needs
 
-**Related Terms**: [Agile](workflows-methodologies.md#agile),
-[content strategy](#content-strategy),
-[docs-as-code](workflows-methodologies.md#docs-as-code),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests),
-[domain knowledge](#domain-knowledge),
-[end-user software engineer](#end-user-software-engineer),
-[technical communication](#technical-communication),
+**Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.md#agile),
+[content strategy](#content-strategy), [docs-as-code](workflows-methodologies.md#docs-as-code),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests), [domain knowledge](#domain-knowledge),
+[end-user software engineer](#end-user-software-engineer), [technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
@@ -269,7 +323,7 @@ experience
 | Community | Active forums for developer support and discussion | Provides peer-driven support and real-world usage examples |
 | Testing Tools | Webhook testing utilities | Enables developers to verify event-driven integrations locally before deployment |
 
-**Related Terms**:
+**Related Terms**: [accessibility](#accessibility),
 [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [end-user software engineer](#end-user-software-engineer),
 [error handling](./core-concepts/api-fundamentals.md#error-handling),
@@ -341,8 +395,8 @@ vs. by function _Create, Read, Update, Delete_, creating a navigation
 hierarchy that surfaces authentication early, and labeling sections using
 terminology familiar to developers rather than internal product names
 
-**Related Terms**: [content](writing-style.md#content),
-[content strategy](#content-strategy),
+**Related Terms**: [accessibility](#accessibility),
+[content](writing-style.md#content), [content strategy](#content-strategy),
 [CRUD](./core-concepts/api-fundamentals.md#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
@@ -527,6 +581,31 @@ _meta-level field_ that defines the nature of documentation work itself -
 similar to how docs-as-ecosystem frames documentation philosophy rather than
 describing specific API concepts
 
+### tech comm scope
+
+```mermaid
+flowchart TD
+    TC[Technical Communication<br/>The Discipline]
+    CS[Content Strategy<br/>Planning & Governance]
+    UX[UX<br/>Interaction & Perception]
+    DX[DX<br/>API-specific UX]
+    IA[Information Architecture<br/>Organizing Information]
+    
+    TC --> CS
+    TC --> IA
+    UX --> DX
+    
+    CS --> Content[Content Creation]
+    IA --> Structure[Structure & Navigation]
+    DX --> DocGoals[Documentation Goals]
+    
+    style TC fill:#4A90E2,color:#fff
+    style CS fill:#9B59B6,color:#fff
+    style IA fill:#9B59B6,color:#fff
+    style UX fill:#50C878,color:#fff
+    style DX fill:#50C878,color:#fff
+```
+
 **Example**: API reference documentation, SDK tutorials, developer guides,
 installation instructions, and troubleshooting articles are all forms of
 technical communication created by technical communicators working in the
@@ -568,7 +647,7 @@ and supports successful integration
 | Content Organization | Surface authentication requirements before first API call | Prevents common blocker where developers attempt calls before authenticating |
 | Code Samples | Ensure samples work copy-paste without modification | Eliminates guesswork and reduces time-to-first-successful-API-call |
 
-**Related Terms**:
+**Related Terms**: [accessibility](#accessibility),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [DX](#dx), [end-user software engineer](#end-user-software-engineer),
