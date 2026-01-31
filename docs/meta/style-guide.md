@@ -719,45 +719,108 @@ consider adding these types of fields when appropriate -
 
 ```
 
-### Expansion Guidelines
+### Expanding Acronyms Inline vs Separate Entries
 
-**Expand when it serves readers**:
+Aim to provide context without fragmenting the glossary
+or overwhelming readers with tangential terms. When terms
+reference acronyms of organizations or concepts, expand
+inline on first-use rather than creating separate
+entries for every acronym that appears.
 
-- addresses documented confusion - course discussions, Slack questions,
-conference talks
-- provides clarity that prevents misapplication of concepts
-- captures hard-won insights from practitioners
-- documents emerging patterns before they become entrenched misconceptions
+- **Expand inline when** - offers essential context, credibility,
+or world-building rather than fragmentation
+- **Create separate entry when** - an API docs fundamental concept,
+frequently in `**Related Terms**` across many entries
+- **Don't expand when** - widely known and/or obvious, adds clutter
+and no value
 
-**Don't expand unnecessarily**:
+| **Scenario** | **Action** | **Example** | **Rationale** |
+| -------------- | ------------ | ------------- | --------------- |
+| **Context-Specific Acronym** | Expand inline | IoT in MQTT entry: "enables efficient IoT - _Internet of Things_ - communication" | Readers need the definition only in this context |
+| **Standards Body or Organization** | Expand inline on first mention | OASIS: "_Organization for the Advancement of Structured Information Standards_" | Provides credibility and world-building without requiring deep organizational knowledge |
+| **Tangential Technical Term** | Expand inline or add clarification field | SDK vs client library explained within SDK entry | Term related but not central enough for separate entry |
+| **Core API Documentation Concept** | Create separate entry | SDK, API, REST API | Fundamental terms readers need to understand across many contexts |
+| **Frequently referenced across entries** | Create separate entry | OpenAPI Specification, CI/CD pipeline | Term appears in multiple entries and deserves dedicated coverage |
 
-- avoid expansion just for comprehensiveness - stay focused on API
-documentation context
-- don't add fields that repeat information already in **Definition** or
-**Purpose**
-- don't expand terms that are already clear and unambiguous
-- resist the urge to document every possible edge case
-
-**Balance brevity with completeness**:
-
-- core information should remain scannable
-- expansion fields should be skimmable - use clear field labels
-- readers should be able to get the basics quickly and dive deeper if needed
-- _"Would a confused reader find this additional context helpful?"_
-
-**Format Considerations**: treat maintainer and reader content the same;
-whether it's category placement reasoning, editorial notes, or distinctions,
-comparisons, or insights -
-
-- don't keep it hidden from the rendered documentation
-- use visible fields with clear labels
-- place after **Purpose** but before **Example**
-- document decision-making for future contributors
-- keep concise and focused on practical value
-
-**Example of expanded entry structure**:
+**Acronym Expansion Format**
 
 ```markdown
+<!--Use italicized expansion after the acronym on first-use-->
+**Purpose**: enables efficient IoT - _Internet of Things_ - and machine-to-machine communication with minimal code footprint
+
+---
+
+<!--Spell out the full name of standard bodies and organizations-->
+**Why this belongs in `API Types & Architectures`**: MQTT is a messaging protocol standard ratified by OASIS - _Organization for the Advancement of Structured Information Standards_ - and ISO - _International Organization for Standardization_
+
+---
+
+<!--Add a dedicated comparison or clarification field-->
+**SDK vs client library**: while often used interchangeably, an SDK technically includes more than just a client library - it bundles the library with documentation, code examples, CLI tools, and other development resources
+
+---
+
+<!--Use consistent expansion with frequently-appeared terms-->
+
+<!--Consistent Expansion-->
+<!--MQTT entry -->
+ratified by OASIS - _Organization for the Advancement of Structured Information Standards_
+
+<!--AMQP entry -->
+ratified by OASIS - _Organization for the Advancement of Structured Information Standards_
+
+---
+
+<!--Avoid Inconsistent Expansion-->
+<!--MQTT entry -->
+OASIS standardized
+
+<!--AMQP entry -->
+ratified by OASIS - _Organization for the Advancement of Structured Information Standards_
+```
+
+**Benefits**
+
+- **Provides Context Without Fragmentation** - reduces clutter,
+keeps related information together, offers the core concept
+without forcing readers to endlessly traverse
+- **Supports World-Building** - helps teach technical ecosystems,
+shows relationships between concepts and organizations
+- **Maintains Focus** - prevents scope creep into general tech terms,
+serves the glossary philosophy of _clarity over comprehensiveness_
+
+```markdown
+<!--IoT in MQTT entry - Context-Specific Expansion-->
+**Purpose**: enables efficient IoT - _Internet of Things_ - and machine-to-machine communication
+
+---
+
+<!--OASIS in protocol entries** - Authority and World-Building-->
+MQTT is a messaging protocol standard ratified by OASIS - _Organization for the Advancement of Structured Information Standards_ - and ISO
+
+---
+
+<!--SDK vs client library - Clarification Field for Related Concept-->
+**SDK vs client library**: while often used interchangeably, an SDK technically includes more than just a client library
+```
+
+### Expansion Tips
+
+- **Expand when it serves readers** - addresses documented confusion,
+prevents misapplication of concepts, captures hard-won insights,
+documents emerging patterns
+- **Don't expand unnecessarily** - avoid repetition and/or expansion
+just for comprehensiveness, resist the urge to document edge cases
+extensively
+- **Balance brevity with completeness** - aim to be scannable and
+skimmable, _"would a confused reader find this additional context helpful?"_
+- **Treat maintainer/reader content the same** - whether it's
+category placement reasoning, editorial notes, distinctions, comparisons,
+or insights, stay concise, consistent, and focused on practical value and
+document decision-making
+
+```markdown
+<!--Expanded Entry Structure-->
 ## term name
 
 **Definition**: [brief, clear definition]
@@ -789,11 +852,11 @@ suggest - "_
 **Evolution Through Community Input**: capture community wisdom
 including -
 
-1. **Classroom confusion** - common struggles with a concept
-2. **Book club discussions** - insights from Write the Docs reading groups
-3. **Conference presentations** - practitioner experiences shared at events
-4. **Slack conversations** - recurring questions or "aha" moments
-5. **Blog posts and articles** - practitioner perspectives from published work
+1. **Classroom Confusion** - common struggles with a concept
+2. **Book Club Discussions** - insights from Write the Docs reading groups
+3. **Conference Presentations** - practitioner experiences shared at events
+4. **Slack Conversations** - recurring questions or "aha" moments
+5. **Blog Posts and Articles** - practitioner perspectives from published work
 
 **When Adding Community-Sourced Insights**:
 
