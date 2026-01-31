@@ -411,6 +411,7 @@ from target users without formal recruitment processes
 [API documentation testing](#api-documentation-testing),
 [contract testing](#contract-testing),
 [Document Development Life Cycle](#document-development-life-cycle),
+[DX](frameworks-strategy.md#dx),
 [information architecture](frameworks-strategy.md#information-architecture),
 [snippet testing](#snippet-testing), [usability testing](#usability-testing),
 [UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
@@ -527,6 +528,7 @@ provides user perspective before product release
 [API documentation testing](#api-documentation-testing),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Document Development Life Cycle](#document-development-life-cycle),
+[DX](frameworks-strategy.md#dx),
 [guerrilla usability testing](#guerrilla-usability-testing),
 [information architecture](frameworks-strategy.md#information-architecture),
 [UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)

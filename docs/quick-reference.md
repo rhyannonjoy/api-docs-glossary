@@ -509,6 +509,18 @@ against the backend implementation of the API
 
 ---
 
+### DX
+
+- also known as DevEx
+- acronym for _developer experience_
+- multidisciplinary field that combines principles from human-computer
+interaction, UX, organizational psychology, and software engineering
+to optimize development
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - DX](frameworks-strategy.md#dx)
+
+---
+
 ## E
 
 ---
