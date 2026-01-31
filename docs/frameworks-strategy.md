@@ -76,6 +76,39 @@ burying the comparison deep in reference docs
 
 ---
 
+## content strategy
+
+**Definition**: discipline encompassing the planning, development,
+and management of content across its entire lifecycle; encompasses
+content creation, governance, delivery, and measurement to meet
+both user needs and business goals
+
+**Purpose**: ensures API documentation efforts align with organizational
+objectives, user needs, and resource constraints by defining what
+content to create, how to maintain it, who's responsible, and how to
+measure success
+
+**Example**: content strategy for API documentation
+
+| Priority | Activity | Rationale |
+| -------- | -------- | --------- |
+| Q1 | prioritize authentication and getting-started guides | highest-impact pages for new API users |
+| Ongoing | engineer review before publication | validates technical accuracy |
+| Versioning | maintain version-specific documentation | ensures backward compatibility |
+| Metrics | track time-to-first-successful-API-call | measures effectiveness of documentation |
+
+**Related Terms**: [content](writing-style.md#content),
+[docs-as-ecosystem](#docs-as-ecosystem),
+[information architecture](#information-architecture), [market](#market),
+[sales collateral](#sales-collateral), [technical communication](#technical-communication)
+
+**Sources**:
+
+- [Kovai.co, Document360: "Technical Content Strategy: A Practical Guide to Smarter Documentation" by Janeera D.A.](https://document360.com/blog/technical-content-strategy/)
+- [Wikipedia: "Content strategy"](https://en.wikipedia.org/wiki/Content_strategy)
+
+---
+
 ## Diátaxis
 
 **Definition**: a systematic framework for organizing technical
@@ -168,6 +201,7 @@ integrates contributions from engineers, community members, and customer support
 create living documentation that evolves with community needs
 
 **Related Terms**: [Agile](workflows-methodologies.md#agile),
+[content strategy](#content-strategy),
 [docs-as-code](workflows-methodologies.md#docs-as-code),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests),
 [domain knowledge](#domain-knowledge),
@@ -266,6 +300,7 @@ hierarchy that surfaces authentication early, and labeling sections using
 terminology familiar to developers rather than internal product names
 
 **Related Terms**: [content](writing-style.md#content),
+[content strategy](#content-strategy),
 [CRUD](./core-concepts/api-fundamentals.md#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
@@ -299,7 +334,7 @@ API can focus on advanced use cases and optimization
 
 **Related Terms**:
 [API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
-[sales collateral](#sales-collateral)
+[content strategy](#content-strategy), [sales collateral](#sales-collateral)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
@@ -323,6 +358,7 @@ business metrics
 
 **Related Terms**:
 [API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
+[content](./writing-style.md#content), [content strategy](#content-strategy),
 [market](#market)
 
 **Sources**:
@@ -454,7 +490,8 @@ technical communication created by technical communicators working in the
 API documentation domain
 
 **Related Terms**: [content](writing-style.md#content),
-[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
+[content strategy](#content-strategy), [docs-as-ecosystem](#docs-as-ecosystem),
+[domain knowledge](#domain-knowledge),
 [information architecture](#information-architecture),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [taxonomy](#taxonomy)

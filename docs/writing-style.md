@@ -89,6 +89,7 @@ and conceptual explanations all constitute content
 | **API Docs Example** | traditional endpoint documentation page | endpoint data in separate, queryable fields | reusable error code descriptions | docs with real-time API status and user-specific examples | text documentation that converts to audio or adjusts detail level automatically |
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
+[content strategy](frameworks-strategy.md#content-strategy),
 [Diátaxis](frameworks-strategy.md#diátaxis),
 [information architecture](frameworks-strategy.md#information-architecture),
 [kinetic content](#kinetic-content), [liquid content](ai-and-apis.mdx#liquid-content),
