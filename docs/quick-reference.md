@@ -333,6 +333,17 @@ introductory level
 
 ---
 
+### content strategy
+
+- discipline encompassing the planning, development, and management of content across
+its entire lifecycle
+- content creation, governance, delivery, measurement to meet business goals
+and user needs
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - content strategy](frameworks-strategy.md#content-strategy)
+
+---
+
 ### contract testing
 
 - verifies communication compatibility between systems
