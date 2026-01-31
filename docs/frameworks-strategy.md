@@ -66,7 +66,7 @@ burying the comparison deep in reference docs
 
 **Related terms**: [API](./core-concepts/api-fundamentals.md#api),
 [API reference topic](./core-concepts/documentation-specific.md#api-reference-topic),
-[Diátaxis](#diátaxis), [end-user software engineer](#end-user-software-engineer),
+[Diátaxis](#diátaxis), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
 **Sources**:
@@ -243,6 +243,48 @@ for different account types
 
 ---
 
+## DX
+
+**Definition**: also known as DevEx, acronym for _developer experience_;
+multidisciplinary field that combines principles from human-computer
+interaction, UX, organizational psychology, and software engineering
+to optimize development; overall experience developers have when
+discovering, learning, integrating, and maintaining a software product,
+API, or tool
+
+**Purpose**: frames API documentation work within the broader context of
+how developers interact with an API throughout their journey - from
+initial discovery to production deployment - helping documentation teams
+understand that docs are just one touchpoint in the overall developer
+experience
+
+**Example**: strong developer experience for a payment API
+
+| Focus Area | What It Includes | Why It Matters |
+| ---------- | ---------------- | -------------- |
+| Getting Started | Comprehensive guides leading to a successful test transaction | Targets under 10 minutes to first successful transaction, a key DX benchmark |
+| Exploration | Interactive API explorer for testing without writing code | Lowers the barrier to entry for non-developers evaluating the API |
+| SDKs | Libraries in popular languages with consistent patterns | Reduces integration time and cognitive overhead across tech stacks |
+| Error Handling | Clear error messages with links to relevant docs | Keeps developers in flow, troubleshooting without leaving the platform |
+| Community | Active forums for developer support and discussion | Provides peer-driven support and real-world usage examples |
+| Testing Tools | Webhook testing utilities | Enables developers to verify event-driven integrations locally before deployment |
+
+**Related Terms**:
+[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
+[end-user software engineer](#end-user-software-engineer),
+[error handling](./core-concepts/api-fundamentals.md#error-handling),
+[getting started](./core-concepts/documentation-specific.md#getting-started),
+[SDK](./core-concepts/api-fundamentals.md#sdk),
+[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
+
+**Sources**:
+
+- [Atlassian: "What is developer experience & why is it important?"](https://www.atlassian.com/developer-experience)
+- [GitLab Inc.: "What is developer experience?"](https://about.gitlab.com/topics/devops/what-is-developer-experience/)
+- [Wikipedia: "Developer experience"](https://en.wikipedia.org/wiki/Developer_experience)
+
+---
+
 ## end-user software engineer
 
 **Definition**: a framework for categorizing developer work styles,
@@ -270,7 +312,7 @@ and opportunistic developers need a five-minute "process your
 first payment" tutorial
 
 **Related Terms**: [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
-[domain knowledge](#domain-knowledge),
+[domain knowledge](#domain-knowledge), [DX](#dx),
 [error handling](./core-concepts/api-fundamentals.md#error-handling),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
@@ -529,7 +571,7 @@ and supports successful integration
 **Related Terms**:
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[end-user software engineer](#end-user-software-engineer),
+[DX](#dx), [end-user software engineer](#end-user-software-engineer),
 [guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
 [information architecture](#information-architecture),
 [usability testing](workflows-methodologies.md#usability-testing)
