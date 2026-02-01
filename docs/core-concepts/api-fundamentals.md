@@ -828,7 +828,7 @@ Authorization: Bearer token123
 }
 ```
 
-**Example response**:
+**Example Response**:
 
 ```bash
 HTTP/1.1 201 Created
@@ -842,6 +842,10 @@ Content-Type: application/json
   "created_at": "2025-12-30T10:30:00Z"
 }
 ```
+
+**Request/Response Cycle** - Python, Postman, PostgreSQL
+
+![Request-Response Diagram](../../static/img/request-response-diagram.png)
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http), [HTTP method](#http-method),
