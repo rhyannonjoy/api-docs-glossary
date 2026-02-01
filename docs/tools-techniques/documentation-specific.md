@@ -201,16 +201,22 @@ documentation by providing machine-readable context about endpoints,
 parameters, content status, versioning, and relationships between
 documentation components
 
-**Example**: an API endpoint documentation page might have metadata
-that allows documentation systems to automatically display deprecation
-warnings, filter by category, or show freshness indicators -
+**Example**: while an API docs page might have metadata that allows
+documentation systems to automatically display deprecation warnings,
+filter by category, or show freshness indicators - the screenshot
+below shows how Cloudinary Media Library's metadata panel organizes
+different types of metadata about API Docs Glossary's assets -
 
-```shell
-version: "2.0",
-status: "deprecated",
-last-updated: "2025-01-15",
-category: "authentication"
-```
+![Cloudinary Metadata Panel](../../static/img/annotated-cloudinary-metadata-panel.png)
+
+| # | UI Element | What It Demonstrates |
+| - | ------- | -------------------- |
+| 1 | Breadcrumb Path - `api-docs-glossary > annotated-screenshots` | Location Metadata - site of asset organization |
+| 2 | Folder Tree | Structural Metadata - hierarchy that enables findability |
+| 3 | Location | Organizational Metadata - asset’s place within the DAM |
+| 4 | Total Size | System-Generated Metadata - automatically captured |
+| 5 | Last Uploaded | Temporal Metadata - tracks date/time of content changes |
+| 6 | Shared With | Permission Metadata - controls access |
 
 **Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
 [DAM](#dam), [information architecture](../frameworks-strategy.md#information-architecture),
@@ -459,7 +465,7 @@ warnings from 817 total rules - the same type of triage that informed the Vale
 configuration decisions documented in the
 [Style Guide](../meta/style-guide.md#term-rules-by-category):
 
-![Vale Warnings, VS Code](../../static/img/annotated-Vale-output.png)
+![Vale Warnings, VS Code](../../static/img/annotated-vale-output.png)
 
 | # | UI Element | What It Demonstrates |
 | - | ------- | -------------------- |
