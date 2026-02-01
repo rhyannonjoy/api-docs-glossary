@@ -450,11 +450,25 @@ workflows and CI/CD pipelines to enforce writing standards before publishing;
 supports multiple style guides including Microsoft, Google, and
 custom rules
 
-**Example**: a documentation team configures Vale to enforce their API documentation
-style guide, which requires using "endpoint" instead of "API call" and prohibits
-passive voice in code examples; when a writer submits a pull request with
-documentation that violates these rules, Vale flags the issues in the CI/CD pipeline,
-preventing merge until the team releases corrections
+**Example**: The screenshot below shows Vale running in VS Code against the
+glossary - each warning maps to a specific style rule enforced across the project.
+Vale flags style violations across all docs files simultaneously;
+the screenshot filters
+[`Google.WordList`](https://developers.google.com/style/word-list)
+warnings from 817 total rules - the same type of triage that informed the Vale
+configuration decisions documented in the
+[Style Guide](../meta/style-guide.md#term-rules-by-category):
+
+![Vale Warnings, VS Code](../../static/img/annotated-Vale-output.png)
+
+| # | UI Element | What It Demonstrates |
+| - | ------- | -------------------- |
+| 1 | `.vale.ini` in the file tree | Configuration file where teams define and manage style rules |
+| 2 | Filter showing `Google...Showing 24 of 817` | Rule filtering - Vale enforces hundreds of rules, but teams focus on specific ones |
+| 3 | File Grouping - `api-fundamentals.md`, `documentation-specific.md` | Project-wide enforcement - Vale lints all docs files simultaneously |
+| 4 | `WordList` Suggestions - "Use 'APIs Explorer' instead of 'API explorer'" | Terminology consistency - enforcing preferred vocabulary across the project |
+| 5 | Line and Column Reference - `[Ln 336, Col 12]` | Precise location - pinpoints exactly where each violation occurs |
+| 6 | ⚠ Warning Count vs ⛒ 0 Errors in Status Bar | Severity levels - warnings flag style preferences without blocking the workflow |
 
 **Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
