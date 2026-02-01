@@ -8,23 +8,7 @@ and context for essential concepts.
 
 **Find a path through the glossary**:
 
-```mermaid
-flowchart LR
-    Start[API Docs Glossary] --> Question{What's your<br/>background?}
-    Question -->|New to APIs| Core[Core Concepts]
-    Question -->|Technical Writer| Writing[Writing Style<br/>& Workflows]
-    Question -->|Developer| Tools[Tools &<br/>Techniques]
-    Question -->|Student| Quick[Quick<br/>Reference]
-    
-    Core --> AI[AI & APIs]
-    Writing --> Workflows[Workflows &<br/>Methodologies]
-    Tools --> Frameworks[Frameworks<br/>& Strategy]
-    
-    style Start fill:#00D4FF,stroke:#2E5C8A,color:#fff
-    style Question fill:#50C878,stroke:#2E7D4E,color:#fff
-```
-
----
+![Introduction Path Diagram](../static/img/introduction-path.png)
 
 ## Why this glossary?
 
