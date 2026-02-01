@@ -250,16 +250,34 @@ _fundamentally a documentation and exploration tool_
 
 **Postman Ecosystem**:
 
-- **Postman GUI** - interactive interface for exploring and documenting APIs
-- **Postman Collections** - organized groups of API requests with documentation
-- **Newman** - CLI collection runner executes tests for API requests, workflows
+- **[Postman App](https://www.postman.com/downloads/)** - interactive interface for exploring and documenting APIs
+- **[Postman Collections](https://www.postman.com/product/collections/)** -
+organized groups of API requests with documentation
+- **[Postman Newman](https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/)** -
+CLI collection runner executes tests for API requests, workflows
 
-**Example**: a technical writer documents a payment API using Postman collections
+**Example**: a technical writer documents a pet adoption API using
+Postman collections -
 
-- **Organizes** endpoints into folders: Authentication, Transactions, Refunds
-- **Documents** each endpoint with descriptions, example requests, and expected responses
-- **Shares** collection with developers and partners for interactive API exploration
-- **Maintains** living documentation that stays synchronized as the API evolves
+1. **Organizes** endpoints into folders: authentication, `/pets`, `/shelters`
+2. **Documents** each endpoint with descriptions, example requests, and expected responses
+3. **Shares** collection with developers and partners for interactive API exploration
+4. **Maintains** living documentation that stays synchronized as the API evolves
+
+The screenshot below shows step two in action - documenting a single endpoint
+by examining its method, headers, and JSON response:
+
+![Postman Interface](../../static/img/annotated-postman-interface.png)
+
+| # | Element | What It Demonstrates |
+| - | ------- | -------------------- |
+| 1 | Method Selector | HTTP method - defines the type of request |
+| 2 | URL Bar | API endpoint - the address the request targets |
+| 3 | Headers | request headers - metadata accompanying the request |
+| 4 | Auth Tab | authentication - configure credentials here |
+| 5 | Send Button | request trigger - initiates the request-response cycle |
+| 6 | `200 OK` | HTTP status code - indicates the request succeeded |
+| 7 | Response Body | payload - JSON data returned by the API |
 
 **Related Terms**:
 [Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl),

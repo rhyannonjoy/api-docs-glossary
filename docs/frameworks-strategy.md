@@ -390,7 +390,7 @@ and usable documentation structures by applying principles of organization,
 navigation, search, and labeling to match how developers think about and
 use APIs
 
-**Example**: [PawFinder API docs](https://rhyannonjoy.github.io/pawfinder-service/)
+**Example**: [PawFinder Service API docs](https://rhyannonjoy.github.io/pawfinder-service/)
 display a navigation hierarchy that organizes content by user need - setup,
 reference, task-based learning - and specifically endpoints by resource
 type, `/pets` and `/shelters`, then by function and/or CRUD operation
