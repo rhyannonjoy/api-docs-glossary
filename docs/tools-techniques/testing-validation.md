@@ -491,7 +491,7 @@ documentation from OpenAPI specifications
 keeps client libraries synchronized with API changes through code generation;
 excels at contract testing by verifying that both the API implementation
 follows the expected contract and that generated SDKs correctly interact
-with the API, offering detailed validation of request/response schemas,
+with the API, offering detailed validation of request-response schemas,
 status codes, and error handling in a unified workflow
 
 **Example**: API providers use Speakeasy to generate Python, TypeScript, and
@@ -504,7 +504,7 @@ when the API changes
 [error handling](../core-concepts/api-fundamentals.md#error-handling),
 [HTTP status codes](../core-concepts/api-fundamentals.md#http-status-codes),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
-[request/response](../core-concepts/api-fundamentals.md#requestresponse),
+[request-response](../core-concepts/api-fundamentals.md#request-response),
 [SDK](../core-concepts/api-fundamentals.md#sdk)
 
 **Sources**:

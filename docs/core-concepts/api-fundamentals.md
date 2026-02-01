@@ -40,7 +40,7 @@ response must be predictable for the program to use it effectively
 - prevents developers from needing to reverse-engineer, which is
 often prohibited by license
 
-**Example API Request/Response Flow**:
+**Example API Request-Response Flow**:
 
 ```mermaid
 sequenceDiagram
@@ -105,7 +105,7 @@ Breaking down this endpoint:
 **Related Terms**: [API](#api),
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [HTTP](#http), [HTTP method](#http-method), [parameters](#parameters),
-[request/response](#requestresponse), [resource](#resource),
+[request-response](#request-response), [resource](#resource),
 [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
@@ -296,7 +296,7 @@ user with ID 123 without changing any data
 ## HTTP
 
 **Definition**: acronym for _Hypertext Transfer Protocol_;
-synchronous request/response protocol that enables communication
+synchronous request-response protocol that enables communication
 between clients and servers over the web; defines message format
 and transmission type, and how web servers and browsers should
 respond to a variety of commands
@@ -426,7 +426,7 @@ GET https://api.example.com/users/999
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [API endpoint](#api-endpoint), [HTTP](#http), [rate limiting](#rate-limiting),
-[request/response](#requestresponse), [REST API](../api-types-architectures.md#rest-api),
+[request-response](#request-response), [REST API](../api-types-architectures.md#rest-api),
 [troubleshooting](documentation-specific.md#troubleshooting), [validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
@@ -627,7 +627,7 @@ Authorization: Bearer abc123xyz
 - Description of what it does
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[request/response](#requestresponse), [REST API](../api-types-architectures.md#rest-api)
+[request-response](#request-response), [REST API](../api-types-architectures.md#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -665,7 +665,7 @@ required to create a user:
 | Binary | File transfers, images | Raw bytes |
 
 **Related Terms**: [HTTP method](#http-method), [JSON](#json),
-[request/response](#requestresponse), [REST API](../api-types-architectures.md#rest-api),
+[request-response](#request-response), [REST API](../api-types-architectures.md#rest-api),
 [serialization](#serialization), [XML](../tools-techniques/development-essentials.md#xml)
 
 **Sources**:
@@ -787,12 +787,12 @@ Retry-After: 3600
 
 ---
 
-## request/response
+## request-response
 
-**Definition**: the two-part communication pattern in API interactions
+**Definition**: two-part communication pattern in API interactions
 where a client sends a request to a server and receives a response
 
-**Purpose**: understanding the request/response cycle is fundamental
+**Purpose**: understanding the request-response cycle is fundamental
 to using and documenting APIs; documentation must show what requests
 look like, what data to include, and what responses to expect
 
@@ -843,7 +843,7 @@ Content-Type: application/json
 }
 ```
 
-**Request/Response Cycle** - Python, Postman, PostgreSQL
+**Request-Response Cycle** - Python, Postman, PostgreSQL
 
 ![Request-Response Diagram](../../static/img/request-response-diagram.png)
 
@@ -915,7 +915,7 @@ for age field
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
 [GraphQL API](../api-types-architectures.md#graphql-api),
 [OpenAPI specification](documentation-specific.md#openapi-specification),
-[request/response](#requestresponse), [validation](#validation)
+[request-response](#request-response), [validation](#validation)
 
 **Sources**:
 

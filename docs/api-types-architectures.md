@@ -35,7 +35,7 @@ at-most-once, at-least-once, or exactly once
 [HTTP](./core-concepts/api-fundamentals.md#http),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [MQTT](#mqtt),
-[request/response](./core-concepts/api-fundamentals.md#requestresponse),
+[request-response](./core-concepts/api-fundamentals.md#request-response),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
 
 **Sources**:
@@ -365,16 +365,16 @@ distributed hypermedia systems, first presented by Roy Fielding in 2000;
 REST is a convention, used by APIs exposed through HTTP/HTTPS web
 services to exchange data.
 
-**Key characteristics**:
+**Key Characteristics**:
 
-- **Client-server architecture**: assumes "clients," resource users,
+- **Client-Server Architecture**: assumes "clients," resource users,
 and "servers," resource providers
 - **Stateless**: clients maintain the complete state of the interaction;
 servers provide only self-contained resources
 - **Cacheable**: resources saved locally to improve performance
-- **Uniform interface**: standardized way of communicating between
+- **Uniform Interface**: standardized way of communicating between
 client and server
-- **Uses HTTP methods**:
+- **Uses HTTP Methods**:
 [`DELETE` (remove)](./core-concepts/api-fundamentals.md#delete),
 [`GET` (read)](./core-concepts/api-fundamentals.md#get),
 [`PATCH` (edit)](./core-concepts/api-fundamentals.md#patch),
@@ -384,7 +384,7 @@ client and server
 languages, REST APIs use JSON, but it's not required and also
 support other formats like XML
 
-**Example request**:
+**Example Request**:
 
 ```bash
 GET http://localhost:3000/users/2
@@ -408,7 +408,7 @@ sequenceDiagram
     API Server-->>Client: 200 OK + JSON response
 ```
 
-**Example response**:
+**Example Response**:
 
 `GET` requests a user resource, and the response body contains the
 resource formatted as a JSON document:

@@ -754,7 +754,7 @@ intended audience and capturing their responses
 ### HTTP
 
 - acronym for _Hypertext Transfer Protocol_
-- synchronous request/response protocol
+- synchronous request-response protocol
 - enables communication between clients and servers over the web
 
 **Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP](./core-concepts/api-fundamentals.md#http)
@@ -1392,13 +1392,13 @@ that validate documentation accuracy
 
 ---
 
-### request/response
+### request-response
 
 - two-part communication pattern in API interactions
 - client sends a request
 - server returns a response
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request/response](./core-concepts/api-fundamentals.md#requestresponse)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request-response](./core-concepts/api-fundamentals.md#request-response)
 
 ---
 
