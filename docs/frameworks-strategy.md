@@ -258,7 +258,8 @@ integrates contributions from engineers, community members, and customer support
 create living documentation that evolves with community needs
 
 **Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.md#agile),
-[content strategy](#content-strategy), [docs-as-code](workflows-methodologies.md#docs-as-code),
+[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.md#dam),
+[docs-as-code](workflows-methodologies.md#docs-as-code),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer), [technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing)
@@ -503,7 +504,7 @@ documentation, enabling users to find related endpoints, understand conceptual
 relationships, and build mental models of how API components relate to each
 other
 
-### taxonomy in tech comm architecture
+### taxonomy scope
 
 ```mermaid
 flowchart LR
@@ -549,6 +550,7 @@ hierarchically or categorize error codes:
 | Error Codes | `Client Errors (4xx)` → `Authentication Errors` → `401 Unauthorized`, `403 Forbidden` |
 
 **Related Terms**: [content](writing-style.md#content),
+[DAM](./tools-techniques/documentation-specific.md#dam),
 [domain knowledge](#domain-knowledge),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [information architecture](#information-architecture),

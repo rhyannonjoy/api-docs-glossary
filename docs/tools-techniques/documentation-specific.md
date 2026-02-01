@@ -51,7 +51,7 @@ meanwhile, engineers can access the same content via API for integration into SD
 documentation, and the CMS handles publishing to production without requiring writers
 to use Git commands
 
-**Related Terms**: [content](../writing-style.md#content),
+**Related Terms**: [content](../writing-style.md#content), [DAM](#dam),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](../tools-techniques/development-essentials.md#git),
 [GUI](../tools-techniques/development-essentials.md#gui), [metadata](#metadata),
@@ -63,6 +63,53 @@ to use Git commands
 
 - [IBM: "What is a content management system (CMS)?" by Teaganne Finn, Amanda Downie](https://www.ibm.com/think/topics/content-management-system)
 - [Wikipedia: "Content management system"](https://en.wikipedia.org/wiki/Content_management_system)
+
+---
+
+## DAM
+
+**Definition**: acronym for _digital asset management_; software platform and
+business process for storing, organizing, managing, retrieving, and distributing
+digital files such as images, videos, audio, graphics, and other media assets
+
+**Purpose**: provides centralized repository for API documentation teams to manage
+visual and multimedia assets - architecture diagrams, tutorial videos, screenshots,
+code examples, logos, and downloadable files - enabling version control, brand
+consistency, and efficient reuse across documentation, marketing, and developer
+relations materials
+
+### DAM vs CMS
+
+| Aspect | DAM | CMS |
+| ------ | --- | --- |
+| Primary Focus | organizing and distributing media files | creating, editing, and publishing structured text content |
+| Content Types | images, videos, downloadable assets | web pages and structured documentation |
+| Key Capabilities | advanced metadata tagging and asset version control | content editing, workflow approval, and page publishing |
+| Role in API docs | manages visual assets referenced within documentation | manages the documentation pages themselves |
+| Typical Use Together | source for images, diagrams, and downloadable SDKs | authoring environment for the documentation that references those assets |
+
+**Example**: Cloudinary Media Library with
+API Docs Glossary asset organization
+
+![Annotated DAM interface](../../static/img/annotated-dam-interface.png)
+
+| # | Element | What It Demonstrates |
+| - | ------- | -------------------- |
+| 1 | Upload Button | Asset Ingestion - where new files enter the DAM |
+| 2 | Search Icon | Metadata-Driven Retrieval - find assets without manual browsing |
+| 3 | Folder Tree | Taxonomy - project-scoped folder hierarchy organizes assets by type |
+| 4 | Breadcrumb Path | Navigation - locates assets within the broader library structure |
+| 5 | Architecture Diagrams | Reusable Assets - single source referenced across multiple docs pages |
+| 6 | Dark/Light Logos | Asset Variants - theme variants managed as a set |
+
+**Related Terms**: [content](../writing-style.md#content), [CMS](#cms),
+[docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
+[metadata](#metadata), [taxonomy](../frameworks-strategy.md#taxonomy)
+
+**Sources**:
+
+- [Cloudinary: "An Overview of Digital Asset Management (DAM) Systems: Basics and Beyond"](https://cloudinary.com/guides/digital-asset-management/digital-asset-management)
+- [IBM: What is Digital Asset Management?](https://www.ibm.com/think/topics/digital-asset-management)
 
 ---
 
@@ -166,7 +213,7 @@ category: "authentication"
 ```
 
 **Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
-[information architecture](../frameworks-strategy.md#information-architecture),
+[DAM](#dam), [information architecture](../frameworks-strategy.md#information-architecture),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
 [structured content](../writing-style.md#structured-content),
 [taxonomy](../frameworks-strategy.md#taxonomy),
