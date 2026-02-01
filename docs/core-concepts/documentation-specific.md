@@ -583,7 +583,7 @@ accuracy over explanation
 - optimized for scanning and searching
 
 **Example**: an API reference lists all endpoints with their HTTP methods,
-parameters, request/response formats, and status codes
+parameters, request-response formats, and status codes
 
 **Related Terms**: [API reference topic](#api-reference-topic), [concept](#concept),
 [Diátaxis](frameworks-strategy.md#diátaxis), [explanation guide](#explanation-guide),
