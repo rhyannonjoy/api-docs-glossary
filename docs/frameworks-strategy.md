@@ -390,11 +390,12 @@ and usable documentation structures by applying principles of organization,
 navigation, search, and labeling to match how developers think about and
 use APIs
 
-**Example**: designing an API documentation site's structure - deciding
-whether to organize endpoints by resource type - _Users, Payments, Webhooks_
-vs. by function _Create, Read, Update, Delete_, creating a navigation
-hierarchy that surfaces authentication early, and labeling sections using
-terminology familiar to developers rather than internal product names
+**Example**: [PawFinder API docs](https://rhyannonjoy.github.io/pawfinder-service/)
+displays a navigation hierarchy that organizes content by user need - setup,
+reference, task-based learning - and specifically endpoints by resource
+type, `/pets` and `/shelters`, then by function and/or CRUD operation
+
+![PawFinder Landing Page](../../api-docs-glossary/static/img/pawfinder-landing-page-IA.png)
 
 **Related Terms**: [accessibility](#accessibility),
 [content](writing-style.md#content), [content strategy](#content-strategy),
