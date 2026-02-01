@@ -429,6 +429,16 @@ directly to HTTP methods
 
 ---
 
+### DAM
+
+- acronym for digital asset management
+- software platform and business process for storing, organizing, managing,
+retrieving, and distributing media and/or digital files
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - DAM](./tools-techniques/documentation-specific.md#dam)
+
+---
+
 ### `DELETE`
 
 - HTTP method
