@@ -374,6 +374,63 @@ are too complex and require resolution from the text editor
 
 ---
 
+### monorepo
+
+**Definition**: software development strategy in which a single version
+control repository stores code for multiple related projects rather
+than across separate repositories
+
+**Purpose**: streamlines dependency management, code sharing, and coordinated
+changes across related projects; in API documentation contexts, enables
+centralized documentation for multiple API versions, client SDKs, or
+white-labeled products while maintaining shared content through a single
+source of truth
+
+**Why this belongs in `Tools & Techniques`**: describes a repository
+organization approach that teams implement using version control tools like
+[Git](#git); belongs in `Development Essentials` alongside related
+[version control](#version-control) concepts like [branches](#branch) and
+[CI/CD pipelines](#cicd-pipeline); while the term includes "strategy," it
+fundamentally describes _how teams structure their repositories_ using existing
+tools rather than a process workflow or conceptual framework, similar to how
+CI/CD pipeline is a tool-based implementation pattern rather than a methodology
+
+**Example**: a SaaS company maintains API documentation for three white-labeled
+products in a monorepo, and when the authentication method changes, updating
+`shared/authentication.md` automatically propagates to all three product
+documentation sites during build -
+
+```markdown
+api-docs-monorepo/
+├── shared/
+│   ├── authentication.md          # Single source for auth flows
+│   ├── data-models.md             # Shared API object definitions
+│   └── error-codes.md             # Common error handling
+├── product-a/
+│   ├── branding/                  # Product A customizations
+│   ├── getting-started.md         # Uses {% include shared/authentication.md %}
+│   └── endpoints.md
+├── product-b/
+│   ├── branding/                  # Product B customizations
+│   ├── getting-started.md         # Uses {% include shared/authentication.md %}
+│   └── endpoints.md
+└── product-c/
+    ├── branding/                  # Product C customizations
+    ├── getting-started.md         # Uses {% include shared/authentication.md %}
+    └── endpoints.md
+```
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Git](#git), [Markdown](documentation-specific.md#markdown), Markdown includes,
+static site generator, white-labeling
+
+**Sources**:
+
+- [Mergify: "What is a Monorepo? Learn How It Simplifies Code Management" by Huguette Miramar](https://articles.mergify.com/what-is-a-monorepo/)
+- [Wikipedia: "Monorepo"](https://en.wikipedia.org/wiki/Monorepo)
+
+---
+
 ### origin repository
 
 **Definition**: version control concept; the default

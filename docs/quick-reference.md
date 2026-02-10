@@ -1097,6 +1097,16 @@ documentation
 
 ---
 
+### monorepo
+
+- software development strategy
+- single version control repository stores code for multiple related
+projects rather than across separate repositories
+
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - monorepo](./tools-techniques/development-essentials.md#monorepo)
+
+---
+
 ### MQTT
 
 - acronym for _Message Queuing Telemetry Transport_
