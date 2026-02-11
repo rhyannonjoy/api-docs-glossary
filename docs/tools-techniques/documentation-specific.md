@@ -469,9 +469,9 @@ the violations in CI/CD, preventing merge until documentation is complete
 
 **Definition**: also known as an SSG; build tool that transforms plain text
 content and templates into HTML files without requiring a database or
-server-side processing; popular generators include
-[Docusaurus](https://docusaurus.io/), [Gatsby](https://www.gatsbyjs.com/),
-[Hugo](https://gohugo.io/), and [Jekyll](https://jekyllrb.com/)
+server-side processing; popular SSGs include [Docusaurus](https://docusaurus.io/),
+[Gatsby](https://www.gatsbyjs.com/), [Hugo](https://gohugo.io/), and
+[Jekyll](https://jekyllrb.com/)
 
 **Purpose**: enables fast, secure, and scalable documentation sites by
 pre-building all pages during deployment rather than generating them on each
@@ -496,18 +496,18 @@ sequenceDiagram
     CI->>SSG: Runs generator on Markdown files
     SSG->>SSG: Transforms .md → static HTML
     SSG->>CDN: Deploys pre-built HTML files
-    User->>CDN: Requests documentation page
+    User->>CDN: Requests docs page
     CDN->>User: Serves static HTML instantly
     Note over User,CDN: No database queries or<br/>server-side processing
 ```
 
-**Example 2**: API Docs Glossary's Markdown and rendered content side-by-side:
+**Example 2**: API Docs Glossary's Markdown and rendered docs side-by-side:
 
 ![Annotated screenshot of API Docs Glossary's markdown and rendered content](../../static/img/annotated-static-site-generator.png)
 
 | # | Element | What It Demonstrates |
 | --- | --------- | ---------------------- |
-| 1 | Repo Project Tree | Docs live in a version‑controlled code repository, following a docs‑as‑code workflow |
+| 1 | Repo Project Tree | Docs live in a version‑controlled code repo, following a docs‑as‑code workflow |
 | 2 | Markdown Glossary Category File | SSG reads Markdown files as the source for each docs page |
 | 3 | Markdown Headings and Body | Writers focus on content using lightweight syntax instead of HTML |
 | 4 | Mermaid Diagram | SSG renders diagrams in Mermaid code as site images |
