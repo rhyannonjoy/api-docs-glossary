@@ -376,9 +376,9 @@ are too complex and require resolution from the text editor
 
 ### monorepo
 
-**Definition**: software development strategy in which a single version
-control repository stores code for multiple related projects rather
-than across separate repositories
+**Definition**: abbreviation for mono repository; software development strategy
+in which a single version control repository stores code for multiple related
+projects rather than across separate repositories
 
 **Purpose**: streamlines dependency management, code sharing, and coordinated
 changes across related projects; in API documentation contexts, enables
@@ -422,7 +422,7 @@ api-docs-monorepo/
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](#git), [Markdown](documentation-specific.md#markdown), Markdown includes,
-static site generator, white-labeling
+[polyrepo](#polyrepo), static site generator, white-labeling
 
 **Sources**:
 
@@ -445,6 +445,52 @@ configures origin when cloning a repository
 [upstream repository](#upstream-repository)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
+
+---
+
+### polyrepo
+
+**Definition**: abbreviation for poly repository; software development strategy of
+separate version control repositories for different projects, allowing independent
+versioning and deployment
+
+**Purpose**: provides project isolation and independent release cycles; in
+API documentation contexts, enables teams to version and deploy documentation
+separately for different products, APIs, or client implementations without
+coordinating changes across a shared codebase
+
+**polyrepo vs monorepo**:
+
+| Approach | Best For | Why |
+| -------- | -------- | --- |
+| polyrepo | independent products with different stakeholders, release schedules, or tech stacks | each project deploys and versions independently without coordination overhead |
+| monorepo | white-labeled variants sharing core content | simplifies shared content management and enables atomic cross-project changes |
+
+**Example**: a company maintains separate documentation repositories for
+their products; each repository updates independently - when a new SDK
+version ships, its docs can deploy without affecting the core API
+reference -
+
+```markdown
+company-docs/
+├── api-docs/                  # REST API reference
+│   ├── .git/                  # Independent version control
+│   ├── build-pipeline.yml     # Own CI/CD
+│   └── versioning: v1, v2, v3
+├── js-sdk-docs/               # JavaScript SDK
+│   ├── .git/                  # Independent version control
+│   ├── build-pipeline.yml     # Own CI/CD
+│   └── versioning: aligned with npm releases
+└── python-sdk-docs/           # Python SDK
+    ├── .git/                  # Independent version control
+    ├── build-pipeline.yml     # Own CI/CD
+    └── versioning: aligned with PyPI releases
+```
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code), [Git](#git),
+[monorepo](#monorepo), static site generator, white-labeling
+
+**Source**: [HackerOne: "Evaluating and Choosing Between Monorepo vs. Polyrepo Approaches for Code Management"](https://www.hackerone.com/blog/evaluating-and-choosing-between-monorepo-vs-polyrepo-approaches-code-management)
 
 ---
 
