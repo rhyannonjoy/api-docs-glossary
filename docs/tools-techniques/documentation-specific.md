@@ -283,7 +283,7 @@ api-docs-monorepo/
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 Docusaurus, [Markdown](#markdown), [MDX](#mdx), MkDocs,
 [monorepo](development-essentials.md#monorepo), static site generator,
-white-labeling
+[white-labeling](../frameworks-strategy.md#white-labeling)
 
 **Sources**:
 

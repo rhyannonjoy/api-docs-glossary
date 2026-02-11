@@ -2,7 +2,7 @@
 
 Meta-level frameworks and strategic approaches for API documentation work.
 This section covers evaluation frameworks for API usability, developer
-personas, organizational contexts, and market dynamics—the conceptual
+personas, organizational contexts, and market dynamics - the conceptual
 models that inform how documentation teams plan and execute their work.
 For technical API architectures and implementation
 patterns, see [API Types & Architectures](api-types-architectures.md).
@@ -662,5 +662,36 @@ and supports successful integration
 
 - [IBM: "What is user experience (UX)?" by Teganne Finn, Amanda Downie](https://www.ibm.com/think/topics/user-experience)
 - [Interaction Design Foundation: "User Experience Design"](https://www.interaction-design.org/literature/topics/ux-design)
+
+---
+
+## white-labeling
+
+**Definition**: practice of rebranding a product or service for different
+clients or markets while maintaining the same underlying capability
+
+**Purpose**: enables companies to offer customized documentation experiences
+for different customer segments without duplicating effort; in API
+documentation, allows maintaining multiple branded versions of docs that
+share core technical content but differ in branding, terminology, examples,
+and customer-specific features
+
+**Example**: a payments API provider serves three banking clients with
+white-labeled API docs; all three sites share identical endpoint references,
+authentication flows, and error codes stored as Markdown `includes`, but each
+displays different branding, custom domain names, client-specific webhook URLs,
+and compliance disclaimers; when an API endpoint changes, updating the shared
+`include` file propagates the change across all three branded documentation sites
+
+**Related Terms**: [monorepo](./tools-techniques/development-essentials.md#monorepo),
+[partials](./tools-techniques/documentation-specific.md#partials),
+[polyrepo](./tools-techniques/development-essentials.md#polyrepo),
+static site generator
+
+**Sources**:
+
+- [Docsie: "White-labeling"](https://www.docsie.io/blog/glossary/white-labeling/)
+- [Fake Financial Engineering Hub: "Write Once, Brand Many: White-Labeling Docs"](https://rhyannonjoy.github.io/fake-financial-engineering-hub/docs/blogs/writing-once-branding-many/)
+- [Wikipedia: "White-label product"](https://en.wikipedia.org/wiki/White-label_product)
 
 ---

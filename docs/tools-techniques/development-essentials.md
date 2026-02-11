@@ -423,7 +423,8 @@ api-docs-monorepo/
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](#git), [Markdown](documentation-specific.md#markdown),
 [partials](documentation-specific.md#partials),
-[polyrepo](#polyrepo), static site generator, white-labeling
+[polyrepo](#polyrepo), static site generator,
+[white-labeling](../frameworks-strategy.md#white-labeling)
 
 **Sources**:
 
@@ -489,7 +490,7 @@ company-docs/
 ```
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code), [Git](#git),
-[monorepo](#monorepo), static site generator, white-labeling
+[monorepo](#monorepo), static site generator, [white-labeling](../frameworks-strategy.md#white-labeling)
 
 **Source**: [HackerOne: "Evaluating and Choosing Between Monorepo vs. Polyrepo Approaches for Code Management"](https://www.hackerone.com/blog/evaluating-and-choosing-between-monorepo-vs-polyrepo-approaches-code-management)
 
