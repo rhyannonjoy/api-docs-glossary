@@ -7,7 +7,7 @@ consistent, and developer-friendly API documentation.
 
 ---
 
-<!-- TODO: consider adding GitHub Pages, Stoplight, MkDocs, Docusaurus, Static site generators -->
+<!-- TODO: consider adding GitHub Pages, Stoplight, MkDocs, Docusaurus -->
 
 ## CMS
 
@@ -282,7 +282,8 @@ api-docs-monorepo/
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 Docusaurus, [Markdown](#markdown), [MDX](#mdx), MkDocs,
-[monorepo](development-essentials.md#monorepo), static site generator,
+[monorepo](development-essentials.md#monorepo),
+[static site generator](#static-site-generator),
 [white-labeling](../frameworks-strategy.md#white-labeling)
 
 **Sources**:
@@ -461,6 +462,69 @@ the violations in CI/CD, preventing merge until documentation is complete
 
 - [SmartBear Software, Stoplight: "Spectral: An open source API style guide enforcer and linter"](https://stoplight.io/open-source/spectral)
 - [GitHub: stoplightio/spectral](https://github.com/stoplightio/spectral)
+
+---
+
+## static site generator
+
+**Definition**: also known as an SSG; build tool that transforms plain text
+content and templates into HTML files without requiring a database or
+server-side processing; popular SSGs include [Docusaurus](https://docusaurus.io/),
+[Gatsby](https://www.gatsbyjs.com/), [Hugo](https://gohugo.io/), and
+[Jekyll](https://jekyllrb.com/)
+
+**Purpose**: enables fast, secure, and scalable documentation sites by
+pre-building all pages during deployment rather than generating them on each
+request; commonly used in API docs for version control integration, Markdown
+support, and streamlining deployment
+
+**Example 1**: a docs team uses an SSG to build their API reference from Markdown
+files; the CI/CD pipeline runs the generator to rebuild the site, then deploys it
+to a CDN, _content delivery network_, for loading -
+
+```mermaid
+sequenceDiagram
+    participant Dev as Dev
+    participant Repo as Git Repo
+    participant CI as CI/CD Pipeline
+    participant SSG as SSG
+    participant CDN as CDN
+    participant User as End User
+
+    Dev->>Repo: Commits update endpoint.md
+    Repo->>CI: Triggers build pipeline
+    CI->>SSG: Runs generator on Markdown files
+    SSG->>SSG: Transforms .md → static HTML
+    SSG->>CDN: Deploys pre-built HTML files
+    User->>CDN: Requests docs page
+    CDN->>User: Serves static HTML instantly
+    Note over User,CDN: No database queries or<br/>server-side processing
+```
+
+**Example 2**: API Docs Glossary's Markdown and rendered docs side-by-side:
+
+![Annotated screenshot of API Docs Glossary's markdown and rendered content](../../static/img/annotated-static-site-generator.png)
+
+| # | Element | What It Demonstrates |
+| --- | --------- | ---------------------- |
+| 1 | Repo Project Tree | Docs live in a version‑controlled code repo, following a docs‑as‑code workflow |
+| 2 | Markdown Glossary Category File | SSG reads Markdown files as the source for each docs page |
+| 3 | Markdown Headings and Body | Writers focus on content using lightweight syntax instead of HTML |
+| 4 | Mermaid Diagram | SSG renders diagrams in Mermaid code as site images |
+| 5 | Dev Server, Build Output | A local command compiles Markdown into a static site, serves a preview |
+| 6 | Site Header and Nav | SSG assembles a full documentation UI from the config |
+| 7 | Rendered Page Content | Markdown on the left appears here as HTML in the final static docs site |
+| 8 | Related Terms Links | Structured metadata generates cross‑links between glossary entries |
+| 9 | Search Bar| SSG features like search enhance the generated docs site |
+
+**Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.md#docs-as-code), Docusaurus,
+GitHub Pages, [Markdown](#markdown), MkDocs
+
+**Sources**:
+
+- [Cloudflare, Inc.: "What is a static site generator?"](https://www.cloudflare.com/learning/performance/static-site-generator/)
+- [Wikipedia: "Static site generator"](https://en.wikipedia.org/wiki/Static_site_generator)
 
 ---
 

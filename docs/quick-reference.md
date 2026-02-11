@@ -1640,6 +1640,17 @@ documentation from OpenAPI specifications
 
 ---
 
+### static site generator
+
+- also known as an SSG
+- build tool that transforms plain text
+content and templates into HTML files without requiring a database or
+server-side processing
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - static site generator](./tools-techniques/documentation-specific.md#static-site-generator)
+
+---
+
 ### STOMP
 
 - acronym for _Simple (or Streaming) Text Orientated Messaging Protocol_
