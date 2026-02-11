@@ -1099,6 +1099,7 @@ documentation
 
 ### monorepo
 
+- abbreviation for mono repository
 - software development strategy
 - single version control repository stores code for multiple related
 projects rather than across separate repositories
@@ -1213,6 +1214,16 @@ body
 procedures work as written
 
 **Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Playwright](./tools-techniques/testing-validation.md#playwright)
+
+---
+
+### polyrepo
+
+- abbreviation for poly repository
+- software development strategy
+- separate version control repositories for different projects
+
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control](./tools-techniques/development-essentials.md#polyrepo)
 
 ---
 
