@@ -1187,6 +1187,15 @@ that mimic humans’ use of language
 
 ---
 
+### partials
+
+- static site generator feature for embedding reusable content
+- enables single-source content maintenance across multiple pages
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - partials](./tools-techniques/documentation-specific.md#partials)
+
+---
+
 ### `PATCH`
 
 - HTTP method

@@ -124,7 +124,7 @@ links, lists, and tables
 **Related Terms**: [Git](development-essentials.md#git),
 [Git Bash](development-essentials.md#git-bash),
 [GitHub](development-essentials.md#github), [MDX](#mdx),
-[Vale](#vale)
+[partials](#partials), [Vale](#vale)
 
 **Sources**:
 
@@ -181,7 +181,7 @@ Our API uses API keys for authentication. Include your key in the header:
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [GUI](development-essentials.md#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
-[UI](development-essentials.md#ui)
+[partials](#partials), [UI](development-essentials.md#ui)
 
 **Sources**:
 
@@ -229,6 +229,68 @@ different types of metadata about API Docs Glossary's assets -
 
 - [Geeks for Geeks: "What is Metadata?"](https://www.geeksforgeeks.org/software-engineering/what-is-metadata/)
 - [NISO: "Understanding Metadata: What is Metadata, and What is it For?: A Primer" by Jenn Riley](https://www.niso.org/publications/understanding-metadata-2017)
+
+---
+
+## partials
+
+**Definition**: static site generator feature that inserts reusable
+content fragments into multiple pages; feature name depends on the static
+site generator - `includes` for Jekyll and snippets with MkDocs
+
+**Purpose**: eliminates content duplication by maintaining a single source
+for shared content like API endpoint descriptions, code examples, or data
+model definitions; enables consistent documentation across multiple pages,
+versions, or white-labeled variants while reducing maintenance burden when
+shared content changes
+
+**Partials In Monorepos**: these strategies address different problems
+and often work together; content reuse, `includes` and/or snippets solve
+the page-level problem of _what gets shared within a documentation site_,
+while monorepos solve the repository-level problem of _where multiple
+documentation projects live_; teams commonly combine both - using a monorepo
+to house multiple documentation sites that each leverage `includes` for
+shared content
+
+**Example**: authentication flow reused across multiple pages in a monorepo;
+the structure enables a single `/shared` folder and each product's
+getting-started and API reference pages include `auth-flow.md`, so updating
+the shared file propagates changes across all six pages -
+
+```markdown
+api-docs-monorepo/
+├── shared/
+│   └── auth-flow.md              # Single source for all products
+├── product-a/
+│   ├── getting-started.md
+│   └── api-reference.md
+├── product-b/
+│   ├── getting-started.md
+│   └── api-reference.md
+└── product-c/
+    ├── getting-started.md
+    └── api-reference.md
+```
+
+**Implementation by Tool**:
+
+| Tool | Syntax |
+| ---- | ------ |
+| Jekyll | `{% include auth-flow.md %}` |
+| MkDocs Material | `--8<-- "auth-flow.md"` |
+| Docusaurus | `import AuthFlow from './auth-flow.md';` then `<AuthFlow />` |
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+Docusaurus, [Markdown](#markdown), [MDX](#mdx), MkDocs,
+[monorepo](development-essentials.md#monorepo), static site generator,
+white-labeling
+
+**Sources**:
+
+- [Jekyll: "Includes"](https://jekyllrb.com/docs/includes/)
+- [Meta Platforms, Inc., Docusaurus: "Importing code snippets"](https://docusaurus.io/docs/markdown-features/react#importing-code-snippets)
+- [SmartSymbols, PyMdown Extensions Documentation: "Snippets"](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/)
+- [W3Tutorials: "Node.js Partial"](https://www.w3tutorials.net/blog/nodejs-partial/)
 
 ---
 

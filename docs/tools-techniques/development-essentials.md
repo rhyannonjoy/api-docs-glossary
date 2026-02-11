@@ -421,7 +421,8 @@ api-docs-monorepo/
 ```
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Git](#git), [Markdown](documentation-specific.md#markdown), Markdown includes,
+[Git](#git), [Markdown](documentation-specific.md#markdown),
+[partials](documentation-specific.md#partials),
 [polyrepo](#polyrepo), static site generator, white-labeling
 
 **Sources**:
