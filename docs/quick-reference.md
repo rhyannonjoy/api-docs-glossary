@@ -1869,6 +1869,15 @@ when specific events occur
 
 ---
 
+### white-labeling
+
+- practice of rebranding a product or service for different clients
+or markets while maintaining the same underlying capability
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - white-labeling](./frameworks-strategy.md#white-labeling)
+
+---
+
 ### workflow testing
 
 - validates multi-step API interactions and user journeys across
