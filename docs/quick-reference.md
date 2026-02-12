@@ -1086,6 +1086,16 @@ contract testing
 
 ---
 
+### MkDocs
+
+- abbreviation of _Markdown documentation_
+- Python-based static site generator
+- designed specifically for building project docs from Markdown files
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - MkDocs](./tools-techniques/documentation-specific.md#mkdocs)
+
+---
+
 ### modular content
 
 - content strategy

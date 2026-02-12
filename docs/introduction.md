@@ -8,7 +8,7 @@ and context for essential concepts.
 
 **Find a path through the glossary**:
 
-![Introduction Path Diagram](../static/img/introduction-path.png)
+![Introduction Path Flowchart](../static/img/flowchart-introduction.png)
 
 ## Why this glossary?
 
