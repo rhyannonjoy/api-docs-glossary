@@ -9,24 +9,7 @@ patterns, see [API Types & Architectures](api-types-architectures.md).
 
 **Explore the cognitive dimensions framework**:
 
-```mermaid
-flowchart TD
-    CD[cognitive dimensions<br/>framework]
-    CD --> U[usability factors]
-    CD --> D[design factors]
-    
-    U --> U1[learning style]
-    U --> U2[working framework]
-    U --> U3[progressive evaluation]
-    
-    D --> D1[consistency]
-    D --> D2[role expressiveness]
-    D --> D3[domain correspondence]
-
-    style CD fill:#4A90E2,color:#fff
-    style U fill:#50C878,color:#fff
-    style D fill:#FFB347,color:#fff
-```
+![Cognitive Dimensions Framework Flowchart](../static/img/flowchart-cognitive-dimensions-framework.png)
 
 ---
 
@@ -507,36 +490,11 @@ other
 
 ### taxonomy scope
 
-```mermaid
-flowchart LR
-    TC[Technical Communication<br/>The Discipline]
-    C[Content<br/>What We Create]
-    SC[Structured Content<br/>Organized With Metadata]
-    T[Taxonomy<br/>Classification System]
-    M[Metadata<br/>Descriptive Information]
-    KG[Knowledge Graph<br/>Relationship Networks]
-    Dynamic[Modular/Kinetic/Liquid Content<br/>Dynamic - AI-Powered Delivery]
-    
-    TC --> C
-    C --> SC
-    SC --> T
-    SC --> M
-    T --> KG
-    M --> KG
-    KG --> Dynamic
-    
-    style TC fill:#4A90E2,color:#fff
-    style C fill:#9B59B6,color:#fff
-    style SC fill:#50C878,color:#fff
-    style T fill:#FFB347,color:#fff
-    style M fill:#FFB347,color:#fff
-    style KG fill:#E74C3C,color:#fff
-    style Dynamic fill:#F39C12,color:#fff
-```
+![Taxonomy Scope Flowchart](../static/img/flowchart-taxonomy-scope.png)
 
 | Build Stage - Layer | Concept | Capability Unlocked |
 | ------------- | --------- | --------------------- |
-| **Stage 1: Foundation** | Technical Communication → Content | Create documentation |
+| **Stage 1: Foundation** | Technical Comm → Content | Create documentation |
 | **Stage 2: Structure** | + Structured Content | Reuse components systematically |
 | **Stage 3: Organization** | + Taxonomy + Metadata | Classify, search, and describe content |
 | **Stage 4: Intelligence** | + Knowledge Graph | Understand semantic relationships |
@@ -586,28 +544,7 @@ describing specific API concepts
 
 ### tech comm scope
 
-```mermaid
-flowchart TD
-    TC[Technical Communication<br/>The Discipline]
-    CS[Content Strategy<br/>Planning & Governance]
-    UX[UX<br/>Interaction & Perception]
-    DX[DX<br/>API-specific UX]
-    IA[Information Architecture<br/>Organizing Information]
-    
-    TC --> CS
-    TC --> IA
-    UX --> DX
-    
-    CS --> Content[Content Creation]
-    IA --> Structure[Structure & Navigation]
-    DX --> DocGoals[Documentation Goals]
-    
-    style TC fill:#4A90E2,color:#fff
-    style CS fill:#9B59B6,color:#fff
-    style IA fill:#9B59B6,color:#fff
-    style UX fill:#50C878,color:#fff
-    style DX fill:#50C878,color:#fff
-```
+![Technical Communication Scope Flowchart](../static/img/flowchart-tech-comm-scope.png)
 
 **Example**: API reference documentation, SDK tutorials, developer guides,
 installation instructions, and troubleshooting articles are all forms of
