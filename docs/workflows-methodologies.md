@@ -353,14 +353,7 @@ with well-defined phases that ensure content meets user needs
 
 **Phases**:
 
-1. Analysis and planning
-2. Designing
-3. Content development
-4. Proofreading and editing
-5. Publishing
-6. Implementation
-7. Approval
-8. Maintenance
+![Document Development Life Cycle Phases](../static/img/flowchart-doc-dev-lifecycle-phases.png)
 
 **Related Terms**: [Agile](#agile),
 [API documentation testing](#api-documentation-testing),
