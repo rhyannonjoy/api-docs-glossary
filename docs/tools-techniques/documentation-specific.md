@@ -7,7 +7,7 @@ consistent, and developer-friendly API documentation.
 
 ---
 
-<!-- TODO: consider adding GitHub Pages, Stoplight, MkDocs, Docusaurus -->
+<!-- TODO: consider adding GitHub Pages, Stoplight, Docusaurus -->
 
 ## CMS
 
@@ -124,7 +124,7 @@ links, lists, and tables
 **Related Terms**: [Git](development-essentials.md#git),
 [Git Bash](development-essentials.md#git-bash),
 [GitHub](development-essentials.md#github), [MDX](#mdx),
-[partials](#partials), [Vale](#vale)
+[MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
 
 **Sources**:
 
@@ -229,6 +229,34 @@ different types of metadata about API Docs Glossary's assets -
 
 - [Geeks for Geeks: "What is Metadata?"](https://www.geeksforgeeks.org/software-engineering/what-is-metadata/)
 - [NISO: "Understanding Metadata: What is Metadata, and What is it For?: A Primer" by Jenn Riley](https://www.niso.org/publications/understanding-metadata-2017)
+
+---
+
+## MkDocs
+
+**Definition**: abbreviation of _Markdown documentation_; Python-based static
+site generator designed specifically for building project docs from Markdown
+files
+
+**Purpose**: streamlines docs site creation with minimal configuration; widely
+adopted in API docs workflows for its clean default theme, automatic navigation
+generation, and built-in search;
+[the Material for MkDocs theme](https://squidfunk.github.io/mkdocs-material/)
+features include enhanced UI, syntax highlighting, and content tabs commonly
+used for code examples in multiple languages
+
+**Example**: Python API Project with MkDocs workflow -
+
+![MkDocs Python Project Flowchart](../../static/img/flowchart-mkdocs.png)
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+GitHub Pages, [Markdown](#markdown), [static site generator](#static-site-generator)
+
+**Sources**:
+
+- [Martin Donath: Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
+- [Tom Christie, MkDocs: "Getting Started with MkDocs"](https://www.mkdocs.org/getting-started/)
+- [Wikipedia: "MkDocs"](https://en.wikipedia.org/wiki/MkDocs)
 
 ---
 
@@ -519,7 +547,7 @@ sequenceDiagram
 
 **Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), Docusaurus,
-GitHub Pages, [Markdown](#markdown), MkDocs
+GitHub Pages, [Markdown](#markdown), [MkDocs](#mkdocs)
 
 **Sources**:
 
