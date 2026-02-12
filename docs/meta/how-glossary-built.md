@@ -5,16 +5,9 @@ and maintain the API Docs Glossary. Transparency about methodology helps
 contributors understand the project's standards and enables others to
 replicate similar documentation projects.
 
-**Four-stage glossary development workflow**:
+**Four-stage Glossary Development Workflow**:
 
-```mermaid
-graph LR
-    A[Research & Collection] --> B[Standardization]
-    B --> C[Review & Refinement]
-    C --> D[Testing & Validation]
-    D --> E[Publication]
-    E -.-> A
-```
+![Glossary Development Workflow Flowchart](../../static/img/flowchart-glossary-dev-workflow.png)
 
 ---
 
