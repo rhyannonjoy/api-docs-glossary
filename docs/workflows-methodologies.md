@@ -5,15 +5,7 @@ covers methodologies, testing approaches, and lifecycle management
 practices that guide how API documentation teams plan, create,
 test, and maintain their work.
 
-```mermaid
-graph LR
-    A[analysis & planning] --> B[design]
-    B --> C[content development]
-    C --> D[review & edit]
-    D --> E[publish]
-    E --> F[maintain]
-    F --> A
-```
+![Documentation Workflow Flowchart](../static/img/flowchart-workflows-methodologies.png)
 
 ---
 
