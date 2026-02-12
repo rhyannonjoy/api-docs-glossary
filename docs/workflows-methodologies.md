@@ -18,12 +18,9 @@ rely on iterative cycles
 **Purpose**: allows teams to adapt to changes and regularly refine
 their work through flexibility rather than linear, rigid planning
 
-**Key Values**:
+**Example**: key values -
 
-- People over processes
-- Working solutions over detailed documentation
-- Customer collaboration over rigid contracts
-- Adapting to change over following a strict plan
+![Agile Key Values Flowchart](../static/img/flowchart-agile-workflow.png)
 
 **Related Terms**:
 [CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline),
@@ -82,11 +79,9 @@ accurate:
 | **Snippet Testing** | Code examples execute successfully | Individual code samples in documentation | Python snippet makes API call and returns expected data structure |
 | **Workflow Testing** | Multi-step API sequences accomplish tasks | Complete user journeys across endpoints | Authentication → create resource → retrieve resource → delete resource all work in sequence |
 
-**Example**: a technical writer implements automated tests that send HTTP requests
-to each documented API endpoint with the exact parameters shown in code examples,
-verifying that responses match documented schemas and status codes; when developers
-change an endpoint's required parameters, the test fails, alerting the documentation
-team to update their integration guides
+**Example**: API docs testing workflow -
+
+![API Docs Testing Workflow Flowchart](../static/img/flowchart-api-docs-testing.png)
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.md#api), [BDD](#bdd),
 [Bruno](./tools-techniques/testing-validation.md#bruno),
@@ -214,9 +209,10 @@ previous ones finish, often visualized with Gantt charts
 **Purpose**: helps teams understand task dependencies and identify
 bottlenecks in project timelines
 
-**Example**: the "critical path" in a software release might include code
-freeze → QA testing → documentation review → deployment, where delays in
-any step delay the entire release
+**Example**: the "critical path" in a software release might include the
+following steps, where delays in any step delay the entire release -
+
+![Critical Path Method Example Flowchart](../static/img/flowchart-critical-path-method.png)
 
 **Related Terms**: [Agile](#agile),
 [Critical Chain Project Management](#critical-chain-project-management),
@@ -250,12 +246,9 @@ cognitive dimensions, or a specific software platform, like
 [Git](./tools-techniques/development-essentials.md#git)
 or [Swagger](./tools-techniques/documentation-specific.md#swagger)
 
-**Example**: a technical writing team stores
-[Markdown](./tools-techniques/documentation-specific.md#markdown)
-documentation files in the same Git repository as app code, uses
-GitHub or GitLab issues to track documentation tasks, reviews changes through
-pull/merge requests, previews content in staging environments, and
-automatically deploys to production when changes merge to the `main` branch
+**Example** docs-as-code workflow:
+
+![docs-as-code workflow flowchart](../static/img/flowchart-docs-as-code-workflow.png)
 
 **Benefits**:
 
@@ -314,18 +307,13 @@ environments with frequent product updates; enables technical writers to
 identify breaking changes in products before release, like how developers
 use automated tests to catch code regressions
 
-**Why this belongs in `Workflows & Methodologies`**: describes an operational
-workflow approach that focuses on processes and practices rather than
-specific tools or conceptual frameworks
+**Why this belongs in `Workflows & Methodologies`**: describes an
+operational workflow approach that focuses on processes and practices
+rather than specific tools or conceptual frameworks
 
-**Example**: a team implements automated tests that execute each step in
-their API integration guide against their staging environment, verifying
-that endpoints respond correctly and code examples produce expected results;
-when an API endpoint changes, the test fails immediately, alerting writers
-to update the documentation before the change reaches production; a UI
-documentation test fails when a button label changes from "Sign Up" to
-"Create Account," catching the discrepancy before users see inconsistent
-documentation
+**Example** docs-as-tests workflow:
+
+![docs-as-tests workflow flowchart](../static/img/flowchart-docs-as-tests-workflow.png)
 
 **Related Terms**: [API documentation testing](#api-documentation-testing),
 [BDD](#bdd), [contract testing](#contract-testing),
@@ -377,19 +365,9 @@ than recruiting in advance
 **Purpose**: provides a quick, cost-effective way to gather feedback
 from target users without formal recruitment processes
 
-**Characteristics**:
+**Example**: key characteristics and deliverables -
 
-- Low maintenance with predefined tasks
-- Best for testing that doesn't require advanced device knowledge
-- Returns less accurate results than formal testing
-- Participants approached ad hoc in public settings
-
-**Deliverables**:
-
-- Test plan with timeframe and research objectives
-- Video with screen and participant recordings
-- Summary report with key findings and next steps
-- Presentation covering findings and recommendations
+![Guerilla Usability Testing Characteristics and Deliverables](../static/img/flowchart-guerilla-usability-testing.png)
 
 **Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
 [AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
@@ -447,12 +425,9 @@ work in short two-week cycles called sprints with daily meetings
 **Purpose**: enables rapid development and testing while removing
 obstacles to efficient work
 
-**Characteristics**:
+**Example**: key characteristics -
 
-- Scrum master clears obstacles to team efficiency
-- Work completed in two-week sprints
-- Daily team meetings to discuss progress
-- Iterative approach to development
+![Scrum Workflow Flowchart](../static/img/flowchart-scrum-workflow.png)
 
 **Related Terms**: [Agile](#agile),
 [project management methodology](#project-management-methodology)
