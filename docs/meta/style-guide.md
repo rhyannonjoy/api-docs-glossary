@@ -107,41 +107,7 @@ When determining where a glossary term belongs, consider:
 2. **User Context**: _When would readers need this term?_
 3. **Distinguishing Characteristics**: _Concept type and/or tool?_
 
-```mermaid
-   flowchart TD
-   Start([New Term to Categorize]) --> Q1{What does this term<br/>fundamentally describe?}
-
-   Q1 -->|Tool or software| Tools[Tools & Techniques]
-   Q1 -->|Process or workflow| Workflows[Workflows & Methodologies]
-   Q1 -->|Architectural pattern| API[API Types & Architectures]
-   Q1 -->|Conceptual framework| Frameworks[Frameworks & Strategy]
-   Q1 -->|Fundamental API concept| Core[Core Concepts]
-   Q1 -->|Unclear| Q2
-
-   Q2{When would readers<br/>need this term?} -->|Planning/strategy| Frameworks
-   Q2 -->|Implementing workflows| Workflows
-   Q2 -->|Selecting/using tools| Tools
-   Q2 -->|Understanding API basics| Core
-   Q2 -->|Still unclear| Q3
-
-   Q3{Distinguishing<br/>characteristics} -->|Meta-level concepts,<br/>evaluation models| Frameworks
-   Q3 -->|Operational practices,<br/>process approaches| Workflows
-   Q3 -->|Specific software,<br/>platforms| Tools
-   Q3 -->|Essential API<br/>building blocks| Core
-   Q3 -->|Architecture patterns,<br/>protocols| API
-
-   Tools:::toolsStyle
-   Workflows:::workflowsStyle
-   API:::apiStyle
-   Frameworks:::frameworksStyle
-   Core:::coreStyle
-
-   classDef toolsStyle fill:#4a9eff,stroke:#2e5f8f,color:#fff
-   classDef workflowsStyle fill:#9b59b6,stroke:#6c3483,color:#fff
-   classDef apiStyle fill:#e67e22,stroke:#a04000,color:#fff
-   classDef frameworksStyle fill:#27ae60,stroke:#186a3b,color:#fff
-   classDef coreStyle fill:#e74c3c,stroke:#922b21,color:#fff
-```
+![Style Guide Category Placement Flowchart](../../static/img/flowchart-style-guide-category-placement.png)
 
 ### When to Document
 
