@@ -511,6 +511,15 @@ of documentation
 
 ---
 
+### Docusaurus
+
+- open source static site generator by Meta
+- creates docs sites with versioning, search, internationalization
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Docusaurus](./tools-techniques/documentation-specific.md#docusaurus)
+
+---
+
 ### domain knowledge
 
 - understanding of a specific industry, discipline, or activity

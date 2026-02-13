@@ -7,7 +7,7 @@ consistent, and developer-friendly API documentation.
 
 ---
 
-<!-- TODO: consider adding GitHub Pages, Stoplight, Docusaurus -->
+<!-- TODO: consider adding GitHub Pages, Stoplight -->
 
 ## CMS
 
@@ -113,6 +113,44 @@ API Docs Glossary asset organization
 
 ---
 
+## Docusaurus
+
+**Definition**: open source static site generator built by Meta;
+creates docs websites with built-in versioning, search, and
+[internationalization](https://en.wikipedia.org/wiki/Internationalization)
+
+**Purpose**: streamlines API docs site creation by providing
+[React-based](https://react.dev/) theming, MDX support for interactive
+components, automatic sidebar generation from file structure, and native
+OpenAPI integration; reduces setup complexity compared to general-purpose
+static site generators while maintaining flexibility for customization
+
+**Docusaurus Ecosystem**:
+
+- **[Docusaurus Core](https://docusaurus.io/)** - static site generator with
+docs-focused features
+- **[docusaurus-plugin-openapi-docs](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs)** -
+Palo Alto Networks plugin that generates API reference docs from OpenAPI
+specifications, creating flexible API docs compatible with Docusaurus
+- **[MDX](https://mdxjs.com/)** - Markdown format that supports embedded React
+components
+
+**Example**: developer docs portal workflow -
+
+![Docusaurus Developer Docs Portal Workflow Flowchart](../../static/img/flowchart-docusaurus-workflow.png)
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+GitHub Pages, [Markdown](#markdown), [MDX](../tools-techniques/documentation-specific.md#mdx),
+[MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[static site generator](#static-site-generator)
+
+**Sources**:
+
+- [Kovai.co, Document360: "What Should You Consider When Choosing Docusaurus?" by Arunkumar Kumaresan](https://document360.com/blog/docusaurus-documentation/)
+- [Meta Platforms, Inc.: Docusaurus Homepage](https://docusaurus.io/)
+
+---
+
 ## Markdown
 
 **Definition**: lightweight markup language created by John Gruber in 2004
@@ -179,7 +217,7 @@ Our API uses API keys for authentication. Include your key in the header:
 | **Use Case** | Documentation that doesn't need interactivity | Documentation with live demos, interactive examples, dynamic content |
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[GUI](development-essentials.md#gui),
+[Docusaurus](#docusaurus), [GUI](development-essentials.md#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
 [partials](#partials), [UI](development-essentials.md#ui)
 
@@ -250,7 +288,8 @@ used for code examples in multiple languages
 ![MkDocs Python Project Flowchart](../../static/img/flowchart-mkdocs.png)
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-GitHub Pages, [Markdown](#markdown), [static site generator](#static-site-generator)
+[Docusaurus](#docusaurus), GitHub Pages, [Markdown](#markdown),
+[static site generator](#static-site-generator)
 
 **Sources**:
 
@@ -546,8 +585,8 @@ sequenceDiagram
 | 9 | Search Bar| SSG features like search enhance the generated docs site |
 
 **Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.md#docs-as-code), Docusaurus,
-GitHub Pages, [Markdown](#markdown), [MkDocs](#mkdocs)
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Docusaurus](#docusaurus), GitHub Pages, [Markdown](#markdown), [MkDocs](#mkdocs)
 
 **Sources**:
 
