@@ -12,8 +12,8 @@ that impact how technical writers create and enhance API documentation.
 
 ## AI
 
-**Definition**: acronym for Artificial Intelligence; technologies that
-use computers and large datasets to perform tasks, make predictions,
+**Definition**: acronym for _Artificial Intelligence_; technologies
+that use computers and large datasets to perform tasks, make predictions,
 or solve problems that typically require human intelligence
 
 **Purpose**: encompasses tools and techniques increasingly used in API
@@ -151,8 +151,8 @@ answer development questions such as _"What authentication does the payment
 endpoint need?"_ - instead of relying on keyboard matching in documentation
 text, the KG reveals that the payment endpoint is protected by
 ["OAuth 2.0"](https://oauth.net/2/), which requires client credentials - 
-`client_id`, `client_secret`, and `scope` - and generates a bearer token used
-in requests
+`client_id`, `client_secret`, and `scope` - and generates a bearer token
+used in requests
 
 ```mermaid
 erDiagram
@@ -526,6 +526,7 @@ export const KnowledgeGraphExplorer = () => {
 
 **Sources**:
 
+- [Geeks for Geeks: "What is a Knowledge Graph?"](https://www.geeksforgeeks.org/data-analysis/what-is-a-knowledge-graph/)
 - [Wikipedia: Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_graph)
 
 ---
@@ -571,30 +572,9 @@ capabilities, has specific emerging use cases in publishing, and sits at
 the technical intersection of AI and content delivery, while other content
 stategies may or may not be AI-assisted
 
-**Example**: liquid content transformation paths
+**Example**: liquid content transformation paths -
 
-```mermaid
-flowchart TD
-    Doc[Endpoint Documentation:<br/>POST /api/payments]
-    
-    Doc --> U1[User: Junior Developer]
-    Doc --> U2[User: Senior Developer]
-    Doc --> U3[User: Driving/Commuting]
-    
-    U1 -->|AI adapts| Output1[Simplified summary<br/>Basic code example<br/>Step-by-step guide]
-    
-    U2 -->|AI personalizes| Output2[Advanced patterns<br/>Based on past usage<br/>Optimization tips]
-    
-    U3 -->|AI transforms| Output3[Audio narration<br/>Voice-guided tutorial<br/>Hands-free learning]
-    
-    style Doc fill:#4A90E2,color:#fff
-    style U1 fill:#9B59B6,color:#fff
-    style U2 fill:#9B59B6,color:#fff
-    style U3 fill:#9B59B6,color:#fff
-    style Output1 fill:#50C878,color:#fff
-    style Output2 fill:#50C878,color:#fff
-    style Output3 fill:#50C878,color:#fff
-```
+![Liquid Content Transformation Paths Flowchart](../static/img/flowchart-liquid-content-paths.png)
 
 **Related Terms**: [content](writing-style.md#content),
 [kinetic content](writing-style.md#kinetic-content), [Large Language Model](#large-language-model),
