@@ -7,8 +7,6 @@ consistent, and developer-friendly API documentation.
 
 ---
 
-<!-- TODO: consider adding Stoplight -->
-
 ## CMS
 
 **Definition**: acronym for _content management system_; software platform
@@ -445,8 +443,8 @@ by examining its method, headers, and JSON response:
 [Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl),
 [GUI](development-essentials.md#gui), [`json-server`](testing-validation.md#json-server),
 [Postman Newman](testing-validation.md#postman-newman),
-[REST API](../api-types-architectures.md#rest-api), [Swagger](#swagger),
-[UI](development-essentials.md#ui)
+[REST API](../api-types-architectures.md#rest-api), [Stoplight](#stoplight),
+[Swagger](#swagger), [UI](development-essentials.md#ui)
 
 **Sources**:
 
@@ -516,7 +514,7 @@ platform where developers can explore endpoints interactively
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Redocly Respect](testing-validation.md#redocly-respect),
-[Spectral](#spectral), [Swagger](#swagger), [Vale](#vale)
+[Spectral](#spectral), [Stoplight](#stoplight), [Swagger](#swagger), [Vale](#vale)
 
 **Sources**:
 
@@ -622,6 +620,34 @@ sequenceDiagram
 
 ---
 
+## Stoplight
+
+**Definition**: API design and documentation platform that provides visual
+editors, automated docs generation, and mock servers for API development
+workflows
+
+**Purpose**: enables API-first development by allowing teams to design APIs
+visually, generate OpenAPI specifications, create interactive docs, and
+validate implementations against specs; commonly used in API docs workflows
+for collaborative design reviews, automated doc generation from OpenAPI files,
+and maintaining consistency between API design and documentation
+
+**Example**: [Stoplight Studio](https://stoplight.io/getting-started-with-stoplight)
+design-development workflow -
+
+![Stoplight Studio Design-Development Workflow Flowchart](../../static/img/flowchart-stoplight-workflow.png)
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[Postman](#postman), [Redocly](#redocly), [Swagger](#swagger)
+
+**Sources**:
+
+- [Apidog, Inc.: "Tutorial: What is Stoplight Studio and How to use it (2026 Guide)"](https://apidog.com/blog/how-to-use-stoplight-studio/)
+- [SmartBear Software, Stoplight: "Design, document, and build APIs faster"](https://stoplight.io/)
+
+---
+
 ## Swagger
 
 **Definition**: suite of open source tools for designing, building,
@@ -639,28 +665,28 @@ rather than automated validation - the tool's primary purpose is presenting
 API specifications to developers in human-readable, interactive format,
 making it a _documentation presentation tool_ rather than a testing framework
 
-**Common Swagger tools**:
+**Common Swagger Tools**:
 
 - [Swagger UI](https://swagger.io/tools/swagger-ui/) -
-Generates interactive API documentation from OAS files
+generates interactive API documentation from OAS files
 - [Swagger Editor](https://editor.swagger.io/) -
-Web-based editor for creating and editing OAS documents
+web-based editor for creating and editing OAS documents
 - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) -
-Generates client libraries and server stubs from OAS files
+generates client libraries and server stubs from OAS files
 
-**Example**: a development team maintains an OpenAPI specification file that
-describes their REST API; when they deploy documentation updates, Swagger
-automatically renders the specification as an interactive website where
-developers can browse endpoints, view request/response schemas, and click
-"Try it out" to make test calls directly from the documentation - this
-allows API consumers to understand and experiment with endpoints without
-leaving the documentation page
+**Example**: API development workflow with Swagger -
+
+![API development workflow with Swagger flowchart](../../static/img/flowchart-swagger-workflow.png)
 
 **Related terms**: [GUI](development-essentials.md#gui),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
-[Redocly](#redocly), [REST API](../api-types-architectures.md#rest-api)
+[Redocly](#redocly), [REST API](../api-types-architectures.md#rest-api),
+[Stoplight](#stoplight)
 
-**Source**: [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
+**Sources**:
+
+- [Kovai.co, Document360: "Swagger API: How They Work & What You Need to Know" by Shakeer Hussain](https://document360.com/blog/swagger-api/)
+- [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
 
 ---
 
