@@ -968,6 +968,7 @@ stripe.Charge.create(
 
 **Related Terms**: [API](#api),
 [cURL](../tools-techniques/development-essentials.md#curl),
+[Fern](../tools-techniques/documentation-specific.md#fern),
 [OpenAPI Specification](documentation-specific.md#openapi-specification),
 [REST API](../api-types-architectures.md#rest-api),
 [Speakeasy](../tools-techniques/testing-validation.md#speakeasy)

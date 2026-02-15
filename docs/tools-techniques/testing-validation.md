@@ -502,6 +502,7 @@ when the API changes
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [error handling](../core-concepts/api-fundamentals.md#error-handling),
+[Fern](documentation-specific.md#fern),
 [HTTP status codes](../core-concepts/api-fundamentals.md#http-status-codes),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [request-response](../core-concepts/api-fundamentals.md#request-response),
