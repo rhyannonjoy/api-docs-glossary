@@ -610,6 +610,15 @@ specific events
 
 ---
 
+### Fern
+
+- open source toolset acquired by Postman in January 2026
+- automatically generates type-safe SDKs, interactive docs
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fern](./tools-techniques/documentation-specific.md#fern)
+
+---
+
 ### force push
 
 - version control concept

@@ -149,6 +149,38 @@ components
 
 ---
 
+## Fern
+
+**Definition**: open source toolset acquired by Postman in January 2026;
+automatically generates type-safe SDKs in multiple languages and
+interactive API docs from AsyncAPI, Fern definition, gRPC, and
+OpenAPI specs
+
+**Purpose**: streamlines docs-as-code workflows by maintaining a single
+source of truth; ensures code examples, docs, and SDKs stay sychronized
+as APIs evolve; reduces manual SDK maintenance across many programming
+languages to enhance DX, _developer experience_
+
+**Example**: Fern workflow with OpenAPI specs -
+
+![Fern workflow with OpenAPI specs flowchart](../../static/img/flowchart-fern-workflow.png)
+
+**Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
+[CI/CD pipeline](../tools-techniques/development-essentials.md#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.md#docs-as-code), [DX](../frameworks-strategy.md#dx),
+[gRPC API](../api-types-architectures.md#grpc-api),
+[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[Postman](#postman), [SDK](../core-concepts/api-fundamentals.md#sdk),
+[Speakeasy](testing-validation.md#speakeasy)
+
+**Sources**:
+
+- [Fern, Birch Solutions: "Instant Docs and SDKs for your API"](https://buildwithfern.com/)
+- [GitHub Repository: fern-api/fern](https://github.com/fern-api/fern)
+- [Postman, Inc.: "Postman acquires Fern" by Abhinav Asthana](https://blog.postman.com/postman-acquires-fern/)
+
+---
+
 ## GitHub Pages
 
 **Definition**: free static site hosting service provided by GitHub that
@@ -410,6 +442,8 @@ _fundamentally a documentation and exploration tool_
 
 **Postman Ecosystem**:
 
+- **[Fern](https://buildwithfern.com/)** - generates API docs and SDKs;
+acquired in January 2026
 - **[Postman App](https://www.postman.com/downloads/)** - interactive interface for exploring and documenting APIs
 - **[Postman Collections](https://www.postman.com/product/collections/)** -
 organized groups of API requests with documentation
@@ -440,7 +474,7 @@ by examining its method, headers, and JSON response:
 | 7 | Response Body | payload - JSON data returned by the API |
 
 **Related Terms**:
-[Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl),
+[Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl), [Fern](#fern),
 [GUI](development-essentials.md#gui), [`json-server`](testing-validation.md#json-server),
 [Postman Newman](testing-validation.md#postman-newman),
 [REST API](../api-types-architectures.md#rest-api), [Stoplight](#stoplight),

@@ -42,3 +42,28 @@ flowcharts RL tend to not be readable; you're more than likely going to
 need a sequence diagram and if a flowchart is ideal, use Lucidchart_
 
 ---
+
+## New Glossary Term Entries
+
+1. Attach Style Guide
+2. Attach preferred sources
+3. Edit and execute the following:
+
+```markdown
+I’d like to add a glossary term entry to my API Docs Glossary:
+
+https://github.com/rhyannonjoy/api-docs-glossary
+
+Please follow the Style Guide recommendations - write in active
+voice and generate output in Markdown so that I can copy and
+paste it easily. Use the following sources and ensure that the
+**Example** scenario is realistic and practical.
+```
+
+>_Note: Be as specific as possible. If you have questions, communicate them
+with reasoning, "I'm thinking of filing the term into `[category and/or subcategory]`,
+because it fundamentally describes `[reason]` - do you agree?" This may lead to
+expanding the entry to include placement reasoning or visual components to accurately
+represent the term._
+
+---
