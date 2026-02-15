@@ -1695,6 +1695,16 @@ interoperable communication between clients and message brokers
 
 ---
 
+### Stoplight
+
+- API design and documentation platform
+- provides visual editors, automated docs generation, and mock servers
+for API development workflows
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Stoplight](./tools-techniques/documentation-specific.md#stoplight)
+
+---
+
 ### structured content
 
 - content strategy
