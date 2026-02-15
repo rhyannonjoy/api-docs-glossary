@@ -7,7 +7,7 @@ consistent, and developer-friendly API documentation.
 
 ---
 
-<!-- TODO: consider adding GitHub Pages, Stoplight -->
+<!-- TODO: consider adding Stoplight -->
 
 ## CMS
 
@@ -140,7 +140,7 @@ components
 ![Docusaurus Developer Docs Portal Workflow Flowchart](../../static/img/flowchart-docusaurus-workflow.png)
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-GitHub Pages, [Markdown](#markdown), [MDX](../tools-techniques/documentation-specific.md#mdx),
+[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](../tools-techniques/documentation-specific.md#mdx),
 [MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [static site generator](#static-site-generator)
 
@@ -148,6 +148,32 @@ GitHub Pages, [Markdown](#markdown), [MDX](../tools-techniques/documentation-spe
 
 - [Kovai.co, Document360: "What Should You Consider When Choosing Docusaurus?" by Arunkumar Kumaresan](https://document360.com/blog/docusaurus-documentation/)
 - [Meta Platforms, Inc.: Docusaurus Homepage](https://docusaurus.io/)
+
+---
+
+## GitHub Pages
+
+**Definition**: free static site hosting service provided by GitHub that
+builds and deploys websites directly from a GitHub repository
+
+**Purpose**: enables API docs teams to publish docs sites without managing
+servers or paying for hosting; integrates seamlessly with docs-as-code
+workflows by automatically deploying from repository branches, commonly
+used for open source project docs, API references, and developer portals
+
+**Example**: GitHub Pages builds sites using [Jekyll](https://jekyllrb.com/)
+or custom static site generator and deploys to `username.github.io/repo-name` -
+
+![GitHub Pages Workflow Flowchart](../../static/img/flowchart-github-pages-workflow.png)
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Git](development-essentials.md#git), [GitHub](development-essentials.md#github),
+[Markdown](#markdown), [MDX](#mdx), [static site generator](#static-site-generator)
+
+**Sources**:
+
+- [Geeks for Geeks: "GitHub Pages"](https://www.geeksforgeeks.org/git/github-pages/)
+- [GitHub, Inc., GitHub Docs: "What is GitHub Pages?"](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 
 ---
 
@@ -288,7 +314,7 @@ used for code examples in multiple languages
 ![MkDocs Python Project Flowchart](../../static/img/flowchart-mkdocs.png)
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Docusaurus](#docusaurus), GitHub Pages, [Markdown](#markdown),
+[Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown),
 [static site generator](#static-site-generator)
 
 **Sources**:
@@ -586,7 +612,8 @@ sequenceDiagram
 
 **Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Docusaurus](#docusaurus), GitHub Pages, [Markdown](#markdown), [MkDocs](#mkdocs)
+[Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown),
+[MkDocs](#mkdocs)
 
 **Sources**:
 

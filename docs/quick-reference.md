@@ -668,7 +668,9 @@ first meaningful interaction with a product or feature
 
 ### Git
 
-- command-line program that executes version control functions
+- distributed version control software system
+- command-line program that manages versions of source code and/or data
+- commonly used by developers building software collaborately
 
 **Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git](./tools-techniques/development-essentials.md#git)
 
@@ -676,8 +678,9 @@ first meaningful interaction with a product or feature
 
 ### Git Bash
 
-- command-line interface for Windows that emulates the
-Unix Bash command line
+- Windows app
+- command-line interface that emulates the Unix Bash command line
+- enables management of version control and code collaboration
 
 **Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git Bash](./tools-techniques/development-essentials.md#git-bash)
 
@@ -685,7 +688,9 @@ Unix Bash command line
 
 ### GitHub
 
-- cloud-based storage, version control, and automation service
+- web-based platform
+- provides cloud-based storage, version control, and automation
+service
 
 **Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub](./tools-techniques/development-essentials.md#github)
 
@@ -693,9 +698,19 @@ Unix Bash command line
 
 ### GitHub Desktop
 
+- free, open source app
 - user interface that manages GitHub repositories and local clones
 
 **Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub Desktop](./tools-techniques/development-essentials.md#github-desktop)
+
+---
+
+### GitHub Pages
+
+- free static site hosting service by GitHub
+- builds and deploys websites directly from a GitHub repository
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - GitHub Pages](./tools-techniques/documentation-specific.md#github-pages)
 
 ---
 

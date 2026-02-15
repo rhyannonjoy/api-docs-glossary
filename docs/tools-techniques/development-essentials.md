@@ -204,18 +204,19 @@ maintain published versions separate from draft content
 
 | Term | Brief Definition |
 | -------- | --------- |
-| branch | parallel version of a repository |
-| clone | local copy of a repository |
-| commit | repository snapshot at a specific point-in-time |
-| fork | personal copy of another user's repository |
-| merge | move changes from one branch into another |
-| pull | fetch changes from a remote repository |
-| push | move local changes to a remote repository |
-| rebase | update the base commit from its source branch |
-| squash | bundle many commits into a single commit |
+| `branch` | parallel version of a repository |
+| `clone` | local copy of a repository |
+| `commit` | repository snapshot at a specific point-in-time |
+| `fork` | personal copy of another user's repository |
+| `merge` | move changes from one branch into another |
+| `pull` | fetch changes from a remote repository |
+| `push` | move local changes to a remote repository |
+| `rebase` | update the base commit from its source branch |
+| `squash` | bundle many commits into a single commit |
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Git Bash](#git-bash), [GitHub](#github), [GitHub Desktop](#github-desktop)
+[Git Bash](#git-bash), [GitHub](#github), [GitHub Desktop](#github-desktop),
+[GitHub Pages](documentation-specific.md#github-pages)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -260,7 +261,8 @@ code review, issue tracking, and continuous integration that
 complement local Git operations
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Git](#git), [Git Bash](#git-bash), [GitHub Desktop](#github-desktop)
+[Git](#git), [Git Bash](#git-bash), [GitHub Desktop](#github-desktop),
+[GitHub Pages](documentation-specific.md#github-pages)
 
 **Sources**:
 
@@ -281,8 +283,8 @@ Git commands, making version control more accessible to
 non-technical writers
 
 **Related Terms**: [Git](#git), [Git Bash](#git-bash),
-[GitHub](#github), [GUI](#gui), [repository](#repository),
-[UI](#ui)
+[GitHub](#github), [GitHub Pages](documentation-specific.md#github-pages),
+[GUI](#gui), [repository](#repository), [UI](#ui)
 
 **Sources**:
 
