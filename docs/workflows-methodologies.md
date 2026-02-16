@@ -281,7 +281,7 @@ informal discussion
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Git](./tools-techniques/development-essentials.md#git),
 [GitHub](./tools-techniques/development-essentials.md#github),
-[main branch](./tools-techniques/development-essentials.md#main-branch),
+[`main` branch](./tools-techniques/development-essentials.md#main-branch),
 [MDX](./tools-techniques/documentation-specific.md#mdx),
 [pull request](./tools-techniques/development-essentials.md#pull-request),
 [version control](./tools-techniques/development-essentials.md#version-control)
