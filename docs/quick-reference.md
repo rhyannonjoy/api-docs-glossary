@@ -869,6 +869,16 @@ of how many times it's executed
 
 ---
 
+### Inkeep
+
+- AI-powered search and chat platform
+- provides contextual answers from docs, code repositories,
+and community discussions
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Inkeep](./tools-techniques/documentation-specific.md#inkeep)
+
+---
+
 ### introduction
 
 - documentation topic type
