@@ -546,7 +546,7 @@ or generate code examples in many programming languages
 
 **Related Terms**: [AI](#ai), [genAI](#genai), [liquid content](#liquid-content),
 [Natural Language Processing](#natural-language-processing),
-[prompt engineering](#prompt-engineering)
+[prompt engineering](#prompt-engineering), [RAG](#rag)
 
 **Sources**:
 
@@ -721,6 +721,40 @@ and example JSON" rather than "describe this endpoint"
 
 - [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
 - UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
+
+---
+
+## RAG
+
+**Definition**: acronym for _Retrieval-Augmented Generation_;
+AI technique that combines information retrieval with text generation
+to produce accurate, contextually relevant answers to technical questions;
+retrieves relevant docs and/or data from a knowledge base, then uses that
+context to generate responses rather than relying solely on the AI model's
+training data
+
+**Purpose**: improves accuracy and reduces hallucinations in AI-powered docs
+tools by grounding responses in real source material; enables AI assistants
+to provide up-to-date, domain-specific answers with verifiable sources
+
+**Example**: when a developer asks _"How do I authenticate?"_, a RAG-based
+system fetches relevant sections from authentication docs, API reference, and
+code examples, then generates a synthesized answer such as _"Based on the
+authentication guide, you need to include your API key in the Authorization
+header as a Bearer token"_ with citations to the source docs
+
+**Related Terms**: [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[domain knowledge](frameworks-strategy.md#domain-knowledge),
+[Fin](./tools-techniques/documentation-specific.md#fin),
+[Inkeep](./tools-techniques/documentation-specific.md#inkeep),
+[Kapa.ai](./tools-techniques/documentation-specific.md#kapaai),
+[Large Language Model](#large-language-model)
+
+**Sources**:
+
+- [Amazon Web Services, Inc.: "What is RAG (Retrieval-Augmented Generation)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
+- [GeeksforGeeks: "What is Retrieval Augmented Generation (RAG)?](https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/)
+- [Wikipedia: "Retrieval-augmented generation"](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
 
 ---
 
