@@ -693,7 +693,7 @@ all tests, the pipeline automatically publishes updated docs to the production s
 **Related Terms**: [Agile](../workflows-methodologies.md#agile),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [Documentation Development Life Cycle](../workflows-methodologies.md#document-development-life-cycle),
-[pull request](#pull-request)
+[Linear](infrastructure-platforms.md#linear), [pull request](#pull-request)
 
 **Sources**:
 

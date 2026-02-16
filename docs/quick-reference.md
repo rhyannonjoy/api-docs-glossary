@@ -985,6 +985,15 @@ content
 
 ---
 
+### Linear
+
+- project management and issue tracking software
+- manages doc tickets, tracks docs debt, and enables release coordination
+
+**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Linear](./tools-techniques/infrastructure-platforms.md#linear)
+
+---
+
 ## M
 
 ---

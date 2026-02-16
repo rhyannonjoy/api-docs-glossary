@@ -176,7 +176,8 @@ are collaboration tools with AI features rather than AI technologies themselves
 **Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
 [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
 [domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[Git](development-essentials.md#git), [GitHub](development-essentials.md#github)
+[Git](development-essentials.md#git), [GitHub](development-essentials.md#github),
+[Linear](infrastructure-platforms.md#linear)
 
 **Sources**:
 
