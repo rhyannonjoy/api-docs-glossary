@@ -244,7 +244,8 @@ create living documentation that evolves with community needs
 [content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.md#dam),
 [docs-as-code](workflows-methodologies.md#docs-as-code),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests), [domain knowledge](#domain-knowledge),
-[end-user software engineer](#end-user-software-engineer), [technical communication](#technical-communication),
+[end-user software engineer](#end-user-software-engineer),
+[RAG](ai-and-apis.mdx#rag), [technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
@@ -275,7 +276,8 @@ for different account types
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [end-user software engineer](#end-user-software-engineer),
 [information architecture](#information-architecture),
-[taxonomy](#taxonomy), [technical communication](#technical-communication)
+[RAG](ai-and-apis.mdx#rag), [taxonomy](#taxonomy),
+[technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 

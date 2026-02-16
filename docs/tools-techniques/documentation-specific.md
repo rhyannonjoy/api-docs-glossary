@@ -218,6 +218,32 @@ languages to enhance DX, _developer experience_
 
 ---
 
+## Fin
+
+**Definition**: Intercom's AI customer support agent that resolves technical
+questions using information from docs, help centers, and support tickets
+
+**Purpose**: automates customer support responses for API products by parsing
+context from existing docs and providing accurate answers; reduces support team
+workload while maintaining quality through AI training on company-specific
+knowledge base
+
+**Example**: SaaS company with API product integrates Fin to handle common
+developer questions such as _"What's my rate limit?"_ or _"How do I generate an
+API key?"_ using answers from their API docs
+
+**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.md#domain-knowledge),
+[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
+[Inkeep](#inkeep), [Kapa.ai](#kapaai), [RAG](../ai-and-apis.mdx#rag)
+
+**Sources**:
+
+- [Intercom, Fin Homepage: "The #1 AI Agent for all your customer service"](https://www.intercom.com/fin)
+- [PixieBrix, Inc.: "What is Intercom Fin? Benefits, use cases, and alternatives"](https://www.pixiebrix.com/tool/intercom-fin)
+
+---
+
 ## GitHub Pages
 
 **Definition**: free static site hosting service provided by GitHub that
@@ -270,18 +296,50 @@ different approaches:
 | Tool | Primary Function | Domain Knowledge Approach | Best For | Integration Level |
 | ------ | ----------------- | --------------------------- | ---------- | ------------------- |
 | **Inkeep** | AI-powered search and chat | Synthesizes answers from docs, repos, and discussions | Finding information across fragmented sources | Widget/embed in existing docs |
-| **Falconer** | Docs sync and consistency | Maintains single source of truth, auto-updates across platforms | Keeping docs synchronized and current | Integrates with Linear, Slack, docs platforms |
-| **Fern** | Full docs framework | Generates docs from API definitions, includes Ask Fern AI chat - [RAG-powered AI search](https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/) - answers questions | End-to-end API docs automation | Complete docs platform replacement |
 | **Algolia DocSearch** | Traditional search | Indexes docs content for fast keyword search | Fast, accurate keyword-based search | Widget/embed in existing docs |
+| **Falconer** | Docs sync and consistency | Maintains single source of truth, auto-updates across platforms | Keeping docs synchronized and current | Integrates with Linear, Slack, docs platforms |
+| **Fern** | Full docs framework | Generates docs from API definitions, includes Ask Fern AI chat, RAG-powered AI search that answers questions | End-to-end API docs automation | Complete docs platform replacement |
+| **Fin** | AI customer support agent | Intercom ecosystem - resolves questions using docs, help centers, and support tickets | Companies already using Intercom for support | Native Intercom integration |
+| **Kapa.ai** | AI assistant for developer communities | RAG-based answers from docs, GitHub, Discord/Slack with source citations | Open source projects with active communities | Integrates with community platforms |
 
 **Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
 [domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern)
+[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
+[Kapa.ai](#kapaai), [RAG](../ai-and-apis.mdx#rag)
 
 **Sources**:
 
 - [AIStage: "Inkeep Introduction"](https://aistage.net/tool/inkeep/introduction)
 - [Inkeep Homepage: "AI Agents you can trust for customer operations"](https://inkeep.com/)
+
+---
+
+## Kapa.ai
+
+**Definition**: AI assistant platform that integrates with developer docs and
+community resources to answer technical questions using RAG
+
+**Purpose**: provides accurate, context-aware answers to technical questions by
+retrieving information from docs, [GitHub](https://github.com) repos,
+[Discord](https://discord.com/) and/or [Slack](https://slack.com/) communities,
+and other developer resources; reduces repetitive support questions while
+maintaining answer accuracy through source citation
+
+**Example**: open source project integrates Kapa.ai to answer developer questions
+from docs, GitHub issues, and Discord conversations, providing cited answers such
+as _"According to the authentication docs, you need to include the API key in the
+Authorization header"_
+
+**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.md#domain-knowledge),
+[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
+[GitHub](development-essentials.md#github), [Inkeep](#inkeep), [RAG](../ai-and-apis.mdx#rag),
+[repository](development-essentials.md#repository)
+
+**Sources**:
+
+- [Kapa.ai Homepage: "Ai agents that actually understand your product"](https://www.kapa.ai/)
+- [PixieBrix, Inc.: "What is Kapa.ai? Benefits, use cases, and alternatives"](https://www.pixiebrix.com/tool/kapa-ai)
 
 ---
 

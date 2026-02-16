@@ -629,6 +629,16 @@ GitHub, Linear, and Slack
 
 ---
 
+### Fin
+
+- Intercom's AI customer support agent
+- resolves technical questions using docs, help centers, and
+support tickets
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fin](./tools-techniques/documentation-specific.md#fin)
+
+---
+
 ### force push
 
 - version control concept
@@ -934,6 +944,16 @@ prototype and test API documentation without a live backend
 data in real-time
 
 **Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Kafka](./tools-techniques/infrastructure-platforms.md#kafka)
+
+---
+
+### Kapa.ai
+
+- AI-assistant platform
+- integrates with developer docs and community resources to
+answer technical questions using RAG
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Kapa.ai](./tools-techniques/documentation-specific.md#kapaai)
 
 ---
 
@@ -1422,6 +1442,17 @@ to its origin repository
 ---
 
 ## R
+
+---
+
+### RAG
+
+- acronym for _Retrieval-Augmented Generation_
+- AI technique that combines information retrieval with
+text generation to produce contextually relevant and
+accurate answers to technical questions
+
+**Glossary Term Entry Location**: [AI & APIs - RAG](ai-and-apis.mdx#rag)
 
 ---
 
