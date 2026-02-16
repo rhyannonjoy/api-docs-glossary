@@ -31,6 +31,48 @@ documentation workflows, from content generation to automated testing
 
 ---
 
+## AI agent
+
+**Definition**: also known as agentic AI or compound AI systems; LLM-powered -
+_Large Language Models_ - autonomous system that independently plans, uses tools,
+and takes actions to accomplish tasks on behalf of users; combines NLP -
+_Natural Language Processing_ - with reasoning capabilities to break down complex
+goals into steps, gather information through external tools, and adapt its approach
+based on observations
+
+**Purpose**: enables automation of complex, multi-step workflows that previously
+required human decision-making; particularly valuable in API documentation contexts
+for automating docs testing, generating code examples, maintaining accuracy
+across docs updates, and integrating with external systems through APIs and tools
+
+**How AI Agents Work**: agents operate through a cycle of reasoning about the task,
+deciding which actions or tools to use, observing results from those actions, and
+adapting their plan accordingly; they maintain memory of past interactions, can call
+external APIs or tools, and continue iterating until the goal is accomplished or
+they determine they cannot proceed
+
+**Example**: tech writer asks an AI agent to validate all code examples in API
+documentation against a staging environment; the agent breaks this into
+subtasks—reads documentation files from GitHub, extracts code snippets, identifies
+which API endpoints each snippet uses, executes HTTP requests to test endpoints with
+documented parameters, compares responses to expected results, and reports which
+examples need updates with specific error details
+
+**Related Terms**: [AI](#ai),
+[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[docs-as-tests](workflows-methodologies.md#docs-as-tests), [Large Language Model](#large-language-model),
+[MCP server](#mcp-server), [Natural Language Processing](#natural-language-processing)
+[prompt engineering](#prompt-engineering), [RAG](#rag)
+
+**Sources**:
+
+- [IBM: "What Are AI Agents?"](https://www.ibm.com/think/topics/ai-agents)
+- [Wikipedia: "AI agent"](https://en.wikipedia.org/wiki/AI_agent)
+- [Stripe: "Minions: Stripe's one-shot, end-to-end coding agents"](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)
+- [GitHub: doc-detective/agent-tools](https://github.com/doc-detective/agent-tools)
+
+---
+
 ## AI-assisted documentation
 
 **Definition**: documentation created or enhanced using AI tools while
