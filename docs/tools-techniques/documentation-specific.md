@@ -149,6 +149,42 @@ components
 
 ---
 
+## Falconer
+
+**Definition**: AI-powered knowledge platform that maintains synchronized
+internal engineering docs by integrating with [GitHub](https://docs.github.com),
+[Linear](https://linear.app/), and [Slack](https://slack.com/)
+
+**Purpose**: prevents internal docs from drifting out of sync with codebases
+as engineers ship features; provides AI-powered search and question-answering
+across organizational knowledge, tacit information, and code repositories
+
+**Why this belongs in `Tools & Techniques`**: Falconer is specifically for
+internal docs management, _not an AI concept, methodology, or technology that
+impacts how technical writers work with APIs_; `AI & APIs` category covers AI
+concepts and terminology relevant to API docs work - prompt engineering,
+retrieval-augmented generation, or AI-assisted usability analysis - while Falconer
+is a general-purpose internal knowledge management platform _that happens to use AI_;
+comparable to how [Notion](https://www.notion.com/) or
+[Confluence](https://www.atlassian.com/software/confluence)
+are collaboration tools with AI features rather than AI technologies themselves
+
+**Example**: internal docs integration workflow with Falconer -
+
+![Internal docs integration workflow with Falconer, flowchart](../../static/img/flowchart-falconer-workflow.png)
+
+**Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
+[docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.md#domain-knowledge),
+[Git](development-essentials.md#git), [GitHub](development-essentials.md#github)
+
+**Sources**:
+
+- [Falconer Homepage: "The source of truth for high-speed teams"](https://falconer.ai/)
+- Write the Docs community discussion, January 2026
+
+---
+
 ## Fern
 
 **Definition**: open source toolset acquired by Postman in January 2026;

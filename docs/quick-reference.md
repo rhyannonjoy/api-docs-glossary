@@ -610,6 +610,16 @@ specific events
 
 ---
 
+### Falconer
+
+- AI-powered knowledge platform
+- maintains synchronized internal docs by integrating with
+GitHub, Linear, and Slack
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Falconer](./tools-techniques/documentation-specific.md#falconer)
+
+---
+
 ### Fern
 
 - open source toolset acquired by Postman in January 2026
