@@ -177,7 +177,7 @@ are collaboration tools with AI features rather than AI technologies themselves
 [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
 [domain knowledge](../frameworks-strategy.md#domain-knowledge),
 [Git](development-essentials.md#git), [GitHub](development-essentials.md#github),
-[Linear](infrastructure-platforms.md#linear)
+[Inkeep](#inkeep), [Linear](infrastructure-platforms.md#linear)
 
 **Sources**:
 
@@ -205,7 +205,7 @@ languages to enhance DX, _developer experience_
 **Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
 [CI/CD pipeline](../tools-techniques/development-essentials.md#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [DX](../frameworks-strategy.md#dx),
-[gRPC API](../api-types-architectures.md#grpc-api),
+[gRPC API](../api-types-architectures.md#grpc-api), [Inkeep](#inkeep),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Postman](#postman), [SDK](../core-concepts/api-fundamentals.md#sdk),
 [Speakeasy](testing-validation.md#speakeasy)
@@ -241,6 +241,47 @@ or custom static site generator and deploys to `username.github.io/repo-name` -
 
 - [Geeks for Geeks: "GitHub Pages"](https://www.geeksforgeeks.org/git/github-pages/)
 - [GitHub, Inc., GitHub Docs: "What is GitHub Pages?"](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+
+---
+
+## Inkeep
+
+**Definition**: AI-powered search and chat platform specifically designed to enhance
+docs discoverability; provides contextual answers from the docs, code repositories, and
+community discussions; similar AI-powered docs search tools include
+[Fern's Ask Fern](https://buildwithfern.com/learn/docs/ai-features/ask-fern/overview),
+[Mendable](https://docs.mendable.ai/) and [Markprompt](https://www.markprompt.com/),
+while traditional search solutions include
+[Algolia DocSearch](https://docsearch.algolia.com/)
+
+**Purpose**: improves DX, _developer experience_ by offering intelligent search that
+understands technical context and programming concepts; helps users find relevant API
+docs, code examples, and solutions without manually searching through multiple pages
+
+**Example**: developer docs site integrates Inkeep's search widget, allowing users to
+search "rate limiting best practices" and receive synthesized answers from multiple
+docs sections plus relevant GitHub discussions
+
+### Inkeep vs Related Tools
+
+These tools all help build and surface domain knowledge in API documentation, but through
+different approaches:
+
+| Tool | Primary Function | Domain Knowledge Approach | Best For | Integration Level |
+| ------ | ----------------- | --------------------------- | ---------- | ------------------- |
+| **Inkeep** | AI-powered search and chat | Synthesizes answers from docs, repos, and discussions | Finding information across fragmented sources | Widget/embed in existing docs |
+| **Falconer** | Docs sync and consistency | Maintains single source of truth, auto-updates across platforms | Keeping docs synchronized and current | Integrates with Linear, Slack, docs platforms |
+| **Fern** | Full docs framework | Generates docs from API definitions, includes Ask Fern AI chat - [RAG-powered AI search](https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/) - answers questions | End-to-end API docs automation | Complete docs platform replacement |
+| **Algolia DocSearch** | Traditional search | Indexes docs content for fast keyword search | Fast, accurate keyword-based search | Widget/embed in existing docs |
+
+**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.md#domain-knowledge),
+[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern)
+
+**Sources**:
+
+- [AIStage: "Inkeep Introduction"](https://aistage.net/tool/inkeep/introduction)
+- [Inkeep Homepage: "AI Agents you can trust for customer operations"](https://inkeep.com/)
 
 ---
 
