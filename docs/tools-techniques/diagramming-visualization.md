@@ -72,3 +72,38 @@ architecture diagram while integrating it with
 - [Wikipedia: "Lucidchart"](https://en.wikipedia.org/wiki/Lucidchart)
 
 ---
+
+## Python Diagrams
+
+**Definition**: Python library that generates infrastructure architecture diagrams
+using code; includes pre-built icons for
+[AWS](https://aws.amazon.com/what-is-aws/),
+[Azure](https://azure.microsoft.com/en-us), [GCP](https://cloud.google.com/),
+[Kubernetes](https://kubernetes.io/), and other cloud services
+
+**Purpose**: enables version-controlled, reproducible infrastructure diagrams in
+API documentation through code rather than manual drawing tools
+
+**Example**: write Python code that generates an AWS architecture diagram with
+proper service icons, then commit both the code and output image to version control -
+
+```python
+from diagrams import Diagram
+from diagrams.aws.compute import Lambda
+from diagrams.aws.network import APIGateway
+from diagrams.aws.database import Dynamodb
+
+with Diagram("API Architecture"):
+    APIGateway("API") >> Lambda("Function") >> Dynamodb("Database")
+```
+
+**Related Terms**: [commit](development-essentials.md#commit),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+PlantUML, [version control](development-essentials.md#version-control)
+
+**Sources**:
+
+- [Mingrammer: "Diagrams - Diagram as Code"](https://diagrams.mingrammer.com/)
+- [Python Software Foundation: "diagrams 0.25.1"](https://pypi.org/project/diagrams/)
+
+---
