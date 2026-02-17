@@ -351,9 +351,37 @@ Authorization header"_
 text documents and allows users to add elements like headers,
 links, lists, and tables
 
+**Example**: review this glossary term entry in Markdown -
+
+```markdown
+## Markdown
+
+**Definition**: lightweight markup language created by John Gruber in 2004
+
+**Purpose**: popular for writing documentation - designed to format plain
+text documents and allows users to add elements like headers,
+links, lists, and tables
+
+...
+
 **Related Terms**: [Git](development-essentials.md#git),
 [Git Bash](development-essentials.md#git-bash),
 [GitHub](development-essentials.md#github), [MDX](#mdx),
+[Mermaid](diagramming-visualization.md#mermaid),
+[MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
+
+**Sources**:
+
+- [Markdown Guide: Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- UW API Docs: Canvas General Forum
+
+---
+```
+
+**Related Terms**: [Git](development-essentials.md#git),
+[Git Bash](development-essentials.md#git-bash),
+[GitHub](development-essentials.md#github), [MDX](#mdx),
+[Mermaid](diagramming-visualization.md#mermaid),
 [MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
 
 **Sources**:
@@ -411,6 +439,7 @@ Our API uses API keys for authentication. Include your key in the header:
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Docusaurus](#docusaurus), [GUI](development-essentials.md#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
+[Mermaid](diagramming-visualization.md#mermaid),
 [partials](#partials), [UI](development-essentials.md#ui)
 
 **Sources**:

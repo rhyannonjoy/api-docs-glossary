@@ -1188,6 +1188,16 @@ a feature branch with updates that occurred in the original branch
 
 ---
 
+### Mermaid
+
+- JavaScript-based diagramming tool
+- renders text-based diagram definitions into flowcharts, sequence
+diagrams, and other visualizations directly in Markdown files
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Mermaid](./tools-techniques/diagramming-visualization.md#mermaid)
+
+---
+
 ### message broker
 
 - intermediary software component that receives, stores, routes,
