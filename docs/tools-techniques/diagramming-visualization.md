@@ -34,7 +34,7 @@ lambda -> db: Query data
 ```
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-Mermaid, [PlantUML](#plantuml), Structurizr
+Mermaid, [PlantUML](#plantuml), [Structurizr](#structurizr)
 
 **Sources**:
 
@@ -160,7 +160,8 @@ API --> Client: 200 OK {token}
 ```
 
 **Related Terms**: [D2](#d2), [JSON](../core-concepts/api-fundamentals.md#json),
-Mermaid, [Python Diagrams](#python-diagrams), [YAML](development-essentials.md#yaml)
+Mermaid, [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
+[YAML](development-essentials.md#yaml)
 
 **Sources**:
 
@@ -203,5 +204,27 @@ with Diagram("API Architecture"):
 
 - [Mingrammer: "Diagrams - Diagram as Code"](https://diagrams.mingrammer.com/)
 - [Python Software Foundation: "diagrams 0.25.1"](https://pypi.org/project/diagrams/)
+
+---
+
+## Structurizr
+
+**Definition**: toolset for creating software architecture diagrams based
+on the C4 model - _Context, Containers, Components, Code_; uses a
+domain-specific language to define architecture as code
+
+**Purpose**: enables consistent, hierarchical architecture documentation
+that maintains relationships between different abstraction levels in API docs
+
+**Example**: define system architecture once in Structurizr DSL, then automatically
+generate context diagrams for executives, container diagrams for architects, and
+component diagrams for developers
+
+**Related Terms**: [D2](#d2), [PlantUML](#plantuml)
+
+**Source**:
+
+- [Baeldung: "Intro to Structurizr"](https://www.baeldung.com/structurizr)
+- [Structurizr Cloud Service, Structurizr Homepage: "Software architecture models as code"](https://structurizr.com/)
 
 ---
