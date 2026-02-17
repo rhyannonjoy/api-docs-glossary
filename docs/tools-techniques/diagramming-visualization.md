@@ -8,6 +8,51 @@ diverse reader needs.
 
 ---
 
+## C4 model
+
+**Definition**: hierarchical approach to software architecture diagrams consisting
+of four levels - _Context, Containers, Components, and Code_; each level provides
+different abstraction for a different audience; created by software architect Simon
+Brown between 2006 and 2011
+
+**Purpose**: provides consistent framework for API architecture documentation that
+serves both high-level stakeholders and implementation-focused developers;
+enables architects to communicate system design at the right level of detail
+for each audience without creating separate ad-hoc diagrams
+
+### the four levels
+
+| **Number** | **Name** | **Abstraction** | **Shows** | **Audience** |
+| --------- | --------------- | --------- | ------------ | --------- |
+| 1 | Context | Highest | How the system fits in the broader environment - users, external systems, integrations | Technical and non-technical; executives, product, architects, developers |
+| 2 | Container | High | Applications, data stores, microservices, and how they communicate | Architects, developers, product; high-level technical audiences |
+| 3 | Component | Low | Internal components within each container and their interactions | Architects and developers; low-level technical audiences |
+| 4 | Code | Lowest | Implementation details - classes, modules, relationships; often auto-generated from code | Architects and developers; rarely used in practice as it can go into too much detail for most teams |
+
+**Example**: documenting a payments API using all four levels -
+
+- **Context**: payment system interacts with customers, merchants, and a third-party banking API
+- **Container**: API Gateway → Auth Service → Payment Service → PostgreSQL database
+- **Component**: Payment Service contains Invoice module, Fraud Detection module, and Ledger module
+- **Code**: class diagram showing how Invoice and Ledger classes relate, _optional_
+
+**Why this belongs in `Tools & Techniques`**: describes a technique
+for structuring and communicating software architecture visually rather
+than a workflow methodology or organizational framework; while
+notation-independent and tool-independent, C4 is a practical technique
+applied at the diagram level - Structurizr and PlantUML are tools that
+implement it, but C4 itself belongs with the techniques that guide how docs
+teams create architecture diagrams
+
+**Related Terms**: [PlantUML](#plantuml), [Structurizr](#structurizr)
+
+**Sources**:
+
+- [Simon Brown: "The C4 Model - Visualising Software Architecture"](https://c4model.com/)
+- [Wikipedia: "C4 model"](https://en.wikipedia.org/wiki/C4_model)
+
+---
+
 ## D2
 
 **Definition**: modern DSL - _domain-specific language_ - that turns text to
@@ -159,7 +204,7 @@ API --> Client: 200 OK {token}
 @enduml
 ```
 
-**Related Terms**: [D2](#d2), [JSON](../core-concepts/api-fundamentals.md#json),
+**Related Terms**: [C4 model](#c4-model), [D2](#d2), [JSON](../core-concepts/api-fundamentals.md#json),
 Mermaid, [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
 [YAML](development-essentials.md#yaml)
 
@@ -220,7 +265,7 @@ that maintains relationships between different abstraction levels in API docs
 generate context diagrams for executives, container diagrams for architects, and
 component diagrams for developers
 
-**Related Terms**: [D2](#d2), [PlantUML](#plantuml)
+**Related Terms**: [C4 model](#c4-model), [D2](#d2), [PlantUML](#plantuml)
 
 **Source**:
 
