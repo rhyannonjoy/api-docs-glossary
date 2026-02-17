@@ -1875,6 +1875,17 @@ based on the C4 model - _Context, Containers, Components, Code_
 
 ---
 
+### SVG
+
+- acronym for _Scalable Vector Graphics_
+- an XML-based markup language for describing two-dimensional based
+vector graphics;
+- essentially to graphics what HTML is to text
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - SVG](./tools-techniques/diagramming-visualization.md#svg)
+
+---
+
 ### Swagger
 
 - open source suite for REST API development

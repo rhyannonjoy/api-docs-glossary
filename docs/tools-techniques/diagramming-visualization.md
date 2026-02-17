@@ -101,7 +101,7 @@ in documentation
 **Example**: create an AWS architecture diagram showing API Gateway → Lambda → DynamoDB
 flow with proper AWS service icons, then export as SVG for docs embedding
 
-**Related Terms**: [Excalidraw](#excalidraw), [Lucidchart](#lucidchart), SVG
+**Related Terms**: [Excalidraw](#excalidraw), [Lucidchart](#lucidchart), [SVG](#svg)
 
 **Sources**:
 
@@ -122,7 +122,8 @@ informal visual style aids comprehension without the overhead of polished graphi
 hand-drawn boxes and arrows that render instantly without design decisions
 
 **Related Terms**: [draw.io](#drawio), [Lucidchart](#lucidchart),
-[request-response](../core-concepts/api-fundamentals.md#request-response), SVG
+[request-response](../core-concepts/api-fundamentals.md#request-response),
+[SVG](#svg)
 
 **Sources**:
 
@@ -271,5 +272,29 @@ component diagrams for developers
 
 - [Baeldung: "Intro to Structurizr"](https://www.baeldung.com/structurizr)
 - [Structurizr Cloud Service, Structurizr Homepage: "Software architecture models as code"](https://structurizr.com/)
+
+---
+
+## SVG
+
+**Definition**: acronym for _Scalable Vector Graphics_; an XML-based
+markup language for describing two-dimensional based vector graphics;
+essentially to graphics what HTML is to text; text-based image format
+and open Web standard that supports interactivity and animation
+
+**Purpose**: enables high-quality diagrams in API documentation that remain
+crisp at any zoom level and can include interactive elements like clickable
+regions or [tooltips](https://en.wikipedia.org/wiki/Tooltip)
+
+**Example**: export architecture diagrams as SVG files that scale perfectly
+across desktop and mobile documentation views without pixelation
+
+**Related Terms**: [draw-io](#drawio), [Excalidraw](#excalidraw),
+[XML](development-essentials.md#xml)
+
+**Sources**:
+
+- [Mozilla Corporation, MDN Web Docs: "SVG: Scalable Vector Graphics"](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- [Wikipedia: "SVG"](https://en.wikipedia.org/wiki/SVG)
 
 ---

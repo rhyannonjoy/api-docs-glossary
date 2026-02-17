@@ -877,7 +877,8 @@ in enterprise systems, SOAP APIs, and legacy integrations
 [payload](../core-concepts/api-fundamentals.md#payload),
 [REST API](../api-types-architectures.md#rest-api),
 [serialization](../core-concepts/api-fundamentals.md#serialization),
-[SOAP API](../api-types-architectures.md#soap-api), [YAML](#yaml)
+[SOAP API](../api-types-architectures.md#soap-api),
+[SVG](diagramming-visualization.md#svg), [YAML](#yaml)
 
 **Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)
 
