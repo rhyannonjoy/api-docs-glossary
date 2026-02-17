@@ -1044,6 +1044,16 @@ content
 
 ---
 
+### Lucidchart
+
+- web-based diagramming tool
+- features include real-time collaboration, extensive shape libraries, and
+integrations with documentation platforms
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Lucidchart](./tools-techniques/diagramming-visualization.md#lucidchart)
+
+---
+
 ## M
 
 ---
