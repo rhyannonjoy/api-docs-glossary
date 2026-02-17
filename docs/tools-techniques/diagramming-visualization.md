@@ -78,8 +78,9 @@ api -> lambda: REST requests
 lambda -> db: Query data
 ```
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-Mermaid, [PlantUML](#plantuml), [Structurizr](#structurizr)
+**Related Terms**: [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Mermaid](#mermaid), [PlantUML](#plantuml), [Structurizr](#structurizr)
 
 **Sources**:
 
@@ -163,7 +164,8 @@ in Markdown files; particularly common in docs workflows
 **Purpose**: enables streamlined diagrams in API documentation through text markup
 that renders visually in docs platforms supporting Mermaid syntax
 
-**Example**: Mermaid sequence diagram showing API request flow without requiring external image files -
+**Example**: Mermaid sequence diagram showing API request flow without requiring
+external image files -
 
 ```mermaid
 sequenceDiagram
@@ -194,7 +196,8 @@ sequenceDiagram
     end
 ```
 
-**Related Terms**: [D2](#d2), [docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Markdown](documentation-specific.md#markdown), [MDX](documentation-specific.md#mdx),
 [PlantUML](#plantuml)
 
@@ -256,7 +259,9 @@ API --> Client: 200 OK {token}
 @enduml
 ```
 
-**Related Terms**: [C4 model](#c4-model), [D2](#d2), [JSON](../core-concepts/api-fundamentals.md#json),
+**Related Terms**: [C4 model](#c4-model), [D2](#d2),
+[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[JSON](../core-concepts/api-fundamentals.md#json),
 [Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
 [YAML](development-essentials.md#yaml)
 
@@ -294,6 +299,7 @@ with Diagram("API Architecture"):
 ```
 
 **Related Terms**: [commit](development-essentials.md#commit),
+[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [PlantUML](#plantuml), [version control](development-essentials.md#version-control)
 

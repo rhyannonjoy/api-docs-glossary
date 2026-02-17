@@ -227,6 +227,55 @@ following steps, where delays in any step delay the entire release -
 
 ---
 
+## diagrams-as-code
+
+**Definition**: documentation approach that represents diagrams as text-based
+code artifacts rather than binary image files; subset of the broader
+docs-as-code philosophy applied specifically to visual information
+in text form and/or content
+
+**Purpose**: enables diagrams to live alongside code in repositories,
+reviewed and maintained through the same workflows as the documentation
+they support
+
+**Why this belongs in `Workflows & Methodologies`**: describes a documentation
+methodology and workflow pattern rather than a specific tool; similar to how
+docs-as-code describes a tool-agnostic path, diagrams-as-code describes a
+capability implemented by tools like Mermaid, PlantUML, D2, and Python Diagrams -
+_the methodology is distinct from any individual implementation_
+
+**Example**: instead of exporting a PNG from a GUI tool and committing the
+binary file, a team writes Mermaid or PlantUML markup that renders automatically
+in their docs platform - when the architecture changes, they update the text,
+not the image
+
+**Key Benefits**:
+
+| **Benefit** | **Diagrams-as-Code** | **Binary Image Files** |
+| ----------- | -------------------- | ---------------------- |
+| Version Control | Text diffs show exactly what connection, label, or component changed; supports inline PR comments | Visual diff shows something changed but _not what or why_ |
+| Collaboration | Reviewers comment on specific code lines in PRs | Reviewers describe changes in prose comments |
+| Consistency | Tooling handles layout and styling automatically | Manual adjustment required each update |
+| Maintainability | Searchable, refactorable, [grep](https://en.wikipedia.org/wiki/Grep)-able text | Binary file requires opening a GUI tool to inspect or edit |
+| Accessibility | Text source readable by screen readers and LLMs natively | Requires [alt text](https://en.wikipedia.org/wiki/Alt_attribute) added separately |
+
+**Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
+[D2](./tools-techniques/diagramming-visualization.md#d2),
+[docs-as-code](#docs-as-code), [GUI](./tools-techniques/development-essentials.md#gui),
+[Large Language Model](ai-and-apis.mdx#large-language-model),
+[Mermaid](./tools-techniques/diagramming-visualization.md#mermaid),
+[PlantUML](./tools-techniques/diagramming-visualization.md#plantuml),
+[pull request](./tools-techniques/development-essentials.md#pull-request),
+[Python Diagrams](./tools-techniques/diagramming-visualization.md#python-diagrams),
+[version control](./tools-techniques/development-essentials.md#version-control)
+
+**Sources**:
+
+- [DEV Community: "Diagram-as-Code: Creating Dynamic and Interactive Documentation for Visual Content" by Romina Elena Mendez Escobar](https://dev.to/r_elena_mendez_escobar/diagram-as-code-creating-dynamic-and-interactive-documentation-for-visual-content-2p93)
+- [Perforce Software Inc., Gliffy: "Understanding Diagrams as Code From Idea to Implementation"](https://www.gliffy.com/blog/diagrams-as-code)
+
+---
+
 ## docs-as-code
 
 **Definition**: methodology for developing and publishing documentation
@@ -279,6 +328,7 @@ informal discussion
 
 **Related Terms**: [Agile](#agile),
 [CMS](./tools-techniques/documentation-specific.md#cms),
+[diagrams-as-code](#diagrams-as-code),
 [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [Git](./tools-techniques/development-essentials.md#git),
 [GitHub](./tools-techniques/development-essentials.md#github),
