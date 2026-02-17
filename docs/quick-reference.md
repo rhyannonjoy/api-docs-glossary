@@ -616,6 +616,16 @@ specific events
 
 ---
 
+### Excalidraw
+
+- open source sketching tool
+- created hand-drawn style diagrams with minimalist interface,
+collaborative features
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Excalidraw](./tools-techniques/diagramming-visualization.md#excalidraw)
+
+---
+
 ### explanation guide
 
 - documentation topic type
