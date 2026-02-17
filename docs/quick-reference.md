@@ -478,6 +478,18 @@ retrieving, and distributing media and/or digital files
 
 ---
 
+### diagrams-as-code
+
+- documentation approach
+- represents diagrams as text-based code artifacts rather than
+binary image files
+- subset of the broader docs-as-code philosophy applied specifically
+to visual content
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - diagrams-as-code](workflows-methodologies.md#diagrams-as-code)
+
+---
+
 ### Diátaxis
 
 - systematic framework for organizing technical documentation into

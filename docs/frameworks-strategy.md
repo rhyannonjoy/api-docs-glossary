@@ -57,6 +57,7 @@ readability
 - plain language explanations alongside technical terminology
 
 **Related Terms**: [content strategy](#content-strategy),
+[diagrams-as-code](workflows-methodologies.md#diagrams-as-code),
 [docs-as-ecosystem](#docs-as-ecosystem), [DX](#dx),
 [guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
 [information architecture](#information-architecture),
