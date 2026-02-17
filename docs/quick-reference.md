@@ -1347,6 +1347,17 @@ body
 
 ---
 
+### PlantUML
+
+- acronym for "Plant - _Unified Modeling Language_"
+- DSL - _domain-specific language_ - and text-based diagramming tool
+- generates architectural, sequence, and UML diagrams from plain
+text markup
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - PlantUML](./tools-techniques/diagramming-visualization.md#plantuml)
+
+---
+
 ### Playwright
 
 - open source browser automation framework created by Microsoft

@@ -11,7 +11,7 @@ diverse reader needs.
 ## draw.io
 
 **Definition**: also known as `diagrams.net` - free, open source diagramming tool
-for creating flowcharts, network diagrams, UML - _unified modeling language_ -
+for creating flowcharts, network diagrams, UML - _Unified Modeling Language_ -
 diagrams, and technical architecture visualizations
 
 **Purpose**: enables tech writers to create professional diagrams without licensing
@@ -73,6 +73,69 @@ architecture diagram while integrating it with
 
 ---
 
+## PlantUML
+
+**Definition**: acronym for "Plant - _Unified Modeling Language_";
+DSL - _domain-specific language_ - and
+text-based diagramming tool that generates architecture, sequence, and
+UML diagrams from plain text markup; has support for other software development
+related formats such as
+[Archimate](https://en.wikipedia.org/wiki/ArchiMate),
+[Block diagram](https://en.wikipedia.org/wiki/Block_diagram),
+[BPMN - _Business Process Model and Notation_ -](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation),
+[C4 model](https://en.wikipedia.org/wiki/C4_model),
+[computer network diagram](https://en.wikipedia.org/wiki/Computer_network_diagram),
+[ERD - _entity-relationship diagram_ -](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model),
+[Gantt chart](https://en.wikipedia.org/wiki/Gantt_chart),
+[mind map](https://en.wikipedia.org/wiki/Mind_map), and
+[WBD - _work breakdown structure_](https://en.wikipedia.org/wiki/Work_breakdown_structure) -
+as well as visualisation of JSON and YAML files
+
+**Purpose**: enables version-controlled diagrams in API documentation
+through text-based source files that render visually in docs platforms;
+supports multiple input languages and output formats making it adaptable
+to diverse docs workflows and accessibility needs
+
+**Language Support**: besides its own DSL, PlantUML understands
+[AsciiMath](https://en.wikipedia.org/wiki/AsciiMath),
+[Creole](https://en.wikipedia.org/wiki/Creole_(markup)),
+[DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)), and
+[LaTeX](https://en.wikipedia.org/wiki/LaTeX) - making it interoperable with
+other text-based docs and diagramming ecosystems
+
+**Output Formats**: renders diagrams as PNG, SVG, LaTeX, and ASCII art -
+notably, ASCII art output makes PlantUML diagrams consumable in
+plain-text environments like terminals, email, and code comments
+
+**Accessibility**: PlantUML's text-based input and ASCII art output
+enables blind users to both design and read UML diagrams -
+making it one of the few diagramming tools with meaningful accessibility
+applications beyond visual rendering
+
+**Example**: write text markup describing an API authentication sequence,
+then render it automatically in documentation as a visual sequence diagram
+
+```bash
+@startuml
+Client -> API: POST /auth/login
+API -> Database: Validate credentials
+Database --> API: User token
+API --> Client: 200 OK {token}
+@enduml
+```
+
+**Related Terms**: D2, [JSON](../core-concepts/api-fundamentals.md#json),
+Mermaid, [Python Diagrams](#python-diagrams), [YAML](development-essentials.md#yaml)
+
+**Sources**:
+
+- [PlantUML Homepage: "PlantUML at a Glance"](https://plantuml.com/)
+- [PlantUML Web Server](http://www.plantuml.com)
+- [Wikipedia: "PlantUML"](https://en.wikipedia.org/wiki/PlantUML)
+- [Wikipedia: "Unified Modeling Language"](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
+
+---
+
 ## Python Diagrams
 
 **Definition**: Python library that generates infrastructure architecture diagrams
@@ -99,7 +162,7 @@ with Diagram("API Architecture"):
 
 **Related Terms**: [commit](development-essentials.md#commit),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
-PlantUML, [version control](development-essentials.md#version-control)
+[PlantUML](#plantuml), [version control](development-essentials.md#version-control)
 
 **Sources**:
 
