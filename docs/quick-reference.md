@@ -251,6 +251,15 @@ in a repository
 
 ---
 
+### C4 model
+
+- hierarchical approach to software architecture diagrams
+- consists of four levels - _Context, Containers, Components, and Code_
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - C4 model](./tools-techniques/diagramming-visualization.md#c4-model)
+
+---
+
 ### cherry-pick
 
 - version control concept
