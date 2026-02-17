@@ -1468,6 +1468,17 @@ to its origin repository
 
 ---
 
+### Python Diagrams
+
+- Python library that generates infrastructure architecture
+diagrams using code
+- includes pre-built icons for AWS, Azure, GCP, Kubernetes,
+and other cloud services
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Python Diagrams](./tools-techniques/diagramming-visualization.md#python-diagrams)
+
+---
+
 ## Q
 
 ---
