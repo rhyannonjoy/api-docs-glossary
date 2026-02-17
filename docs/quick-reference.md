@@ -440,6 +440,16 @@ directly to HTTP methods
 
 ---
 
+### D2
+
+- modern DSL - _domain-specific language_ - that turns text into
+software architecture diagrams
+- features include contemporary syntax and extensive layout options
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - D2](./tools-techniques/diagramming-visualization.md#d2)
+
+---
+
 ### DAM
 
 - acronym for digital asset management

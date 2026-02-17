@@ -8,6 +8,41 @@ diverse reader needs.
 
 ---
 
+## D2
+
+**Definition**: modern DSL - _domain-specific language_ - that turns text to
+diagrams; declarative diagramming language designed for software architecture
+diagrams with contemporary syntax and extensive layout options
+
+**Purpose**: provides more expressive
+[diagram-as-code](https://dev.to/r_elena_mendez_escobar/diagram-as-code-creating-dynamic-and-interactive-documentation-for-visual-content-2p93)
+capabilities than Mermaid for complex system architectures while maintaining
+text-based version control benefits
+
+**Example**: define a microservices architecture in D2 syntax with containers,
+connections, and styling that renders as a professional architecture diagram -
+
+```shell
+api: API Gateway {
+  style.fill: "#d4e8ff"
+}
+lambda: Lambda Functions
+db: DynamoDB
+
+api -> lambda: REST requests
+lambda -> db: Query data
+```
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+Mermaid, [PlantUML](#plantuml), Structurizr
+
+**Sources**:
+
+- [Terrastruct, Inc.: "D2: Declarative Diagramming"](https://d2lang.com/)
+- [Terrastruct, Inc., Homepage: "The diagramming tool for developers"](https://terrastruct.com/)
+
+---
+
 ## draw.io
 
 **Definition**: also known as `diagrams.net` - free, open source diagramming tool
@@ -124,7 +159,7 @@ API --> Client: 200 OK {token}
 @enduml
 ```
 
-**Related Terms**: D2, [JSON](../core-concepts/api-fundamentals.md#json),
+**Related Terms**: [D2](#d2), [JSON](../core-concepts/api-fundamentals.md#json),
 Mermaid, [Python Diagrams](#python-diagrams), [YAML](development-essentials.md#yaml)
 
 **Sources**:
