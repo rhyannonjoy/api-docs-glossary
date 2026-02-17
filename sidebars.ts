@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
      label: 'Tools & Techniques',
      items: [
        'tools-techniques/development-essentials',
+       'tools-techniques/diagramming-visualization',
        'tools-techniques/documentation-specific',
        'tools-techniques/infrastructure-platforms',
        'tools-techniques/testing-validation',

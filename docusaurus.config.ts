@@ -9,8 +9,8 @@ const config: Config = {
   tagline: 'Fundamental concepts, tools, processes, and best practices',
   url: 'https://rhyannonjoy.github.io',
   baseUrl: '/api-docs-glossary/',
-  organizationName: 'rhyannonjoy', // Usually your GitHub org/user name.
-  projectName: 'api-docs-glossary', // Usually your repo name.
+  organizationName: 'rhyannonjoy',
+  projectName: 'api-docs-glossary',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -65,7 +65,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        // Your footer links
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Rhyannon Rodriguez`,
     },
