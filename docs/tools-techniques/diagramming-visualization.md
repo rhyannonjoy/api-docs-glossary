@@ -154,6 +154,57 @@ architecture diagram while integrating it with
 
 ---
 
+## Mermaid
+
+**Definition**: JavaScript-based diagramming tool that renders text-based diagram
+definitions into flowcharts, sequence diagrams, and other visualizations directly
+in Markdown files; particularly common in docs workflows
+
+**Purpose**: enables streamlined diagrams in API documentation through text markup
+that renders visually in docs platforms supporting Mermaid syntax
+
+**Example**: Mermaid sequence diagram showing API request flow without requiring external image files -
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant GW as API Gateway
+    participant Auth as Auth Service
+    participant Cache as Cache (Redis)
+    participant API as API Service
+    participant DB as Database (PostgreSQL)
+
+    Client->>GW: POST /orders
+    GW->>Auth: Check JWT token
+    alt Invalid token
+        Auth-->>GW: 401 Unauthorized
+        GW-->>Client: 401 Unauthorized
+    else Valid token
+        Auth-->>GW: Token valid
+        GW->>Cache: Check cache
+        alt Cache hit
+            Cache-->>GW: Return cached data
+        else Cache miss
+            Cache-->>API: Forward request
+            API->>DB: Query
+            DB-->>API: Return data
+            API-->>GW: 200 OK + cache result
+        end
+        GW-->>Client: Response
+    end
+```
+
+**Related Terms**: [D2](#d2), [docs-as-code](../workflows-methodologies.md#docs-as-code),
+[Markdown](documentation-specific.md#markdown), [MDX](documentation-specific.md#mdx),
+[PlantUML](#plantuml)
+
+**Sources**:
+
+- [Mermaid Homepage: "Mermaid Starts Here"](https://mermaid.ai)
+- [Wikipedia: "Mermaid (software)"](https://en.wikipedia.org/wiki/Mermaid_(software))
+
+---
+
 ## PlantUML
 
 **Definition**: acronym for "Plant - _Unified Modeling Language_";
@@ -206,7 +257,7 @@ API --> Client: 200 OK {token}
 ```
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2), [JSON](../core-concepts/api-fundamentals.md#json),
-Mermaid, [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
+[Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
 [YAML](development-essentials.md#yaml)
 
 **Sources**:
