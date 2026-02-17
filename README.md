@@ -16,6 +16,8 @@ for more information.
 
 ## Topics
 
+ADG includes but isn't limited to the following:
+
 - [API Fundamentals](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts/api-fundamentals):
 core concepts, CRUD, HTTP, security, validation
 - [Documentation-Specific Concepts](https://rhyannonjoy.github.io/api-docs-glossary/docs/core-concepts/documentation-specific):
