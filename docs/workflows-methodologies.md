@@ -83,7 +83,8 @@ accurate:
 
 ![API Docs Testing Workflow Flowchart](../static/img/flowchart-api-docs-testing.png)
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api), [BDD](#bdd),
+**Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent),
+[API](./core-concepts/api-fundamentals.md#api), [BDD](#bdd),
 [Bruno](./tools-techniques/testing-validation.md#bruno),
 [contract testing](#contract-testing),
 [Cypress](./tools-techniques/testing-validation.md#cypress),
@@ -315,7 +316,8 @@ rather than specific tools or conceptual frameworks
 
 ![docs-as-tests workflow flowchart](../static/img/flowchart-docs-as-tests-workflow.png)
 
-**Related Terms**: [API documentation testing](#api-documentation-testing),
+**Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent),
+[API documentation testing](#api-documentation-testing),
 [BDD](#bdd), [contract testing](#contract-testing),
 [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
 [snippet testing](#snippet-testing),

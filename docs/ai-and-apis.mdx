@@ -19,8 +19,8 @@ or solve problems that typically require human intelligence
 **Purpose**: encompasses tools and techniques increasingly used in API
 documentation workflows, from content generation to automated testing
 
-**Related Terms**: [genAI](#genai), [Large Language Model](#large-language-model),
-[Machine Learning](#machine-learning),
+**Related Terms**: [AI agent](#ai-agent), [genAI](#genai),
+[Large Language Model](#large-language-model), [Machine Learning](#machine-learning),
 [Natural Language Processing](#natural-language-processing),
 [prompt engineering](#prompt-engineering)
 
@@ -33,12 +33,11 @@ documentation workflows, from content generation to automated testing
 
 ## AI agent
 
-**Definition**: also known as agentic AI or compound AI systems; LLM-powered -
-_Large Language Models_ - autonomous system that independently plans, uses tools,
-and takes actions to accomplish tasks on behalf of users; combines NLP -
-_Natural Language Processing_ - with reasoning capabilities to break down complex
-goals into steps, gather information through external tools, and adapt its approach
-based on observations
+**Definition**: single implementation and/or instance of an autonomous system that
+independently plans, uses tools, and takes actions to accomplish tasks on behalf of
+users; combines NLP - _Natural Language Processing_ - with reasoning capabilities to
+break down complex goals into steps, gather information through external tools, and
+adapt its approach based on observations
 
 **Purpose**: enables automation of complex, multi-step workflows that previously
 required human decision-making; particularly valuable in API documentation contexts
@@ -51,25 +50,40 @@ adapting their plan accordingly; they maintain memory of past interactions, can 
 external APIs or tools, and continue iterating until the goal is accomplished or
 they determine they cannot proceed
 
-**Example**: tech writer asks an AI agent to validate all code examples in API
-documentation against a staging environment; the agent breaks this into
-subtasks—reads documentation files from GitHub, extracts code snippets, identifies
-which API endpoints each snippet uses, executes HTTP requests to test endpoints with
-documented parameters, compares responses to expected results, and reports which
-examples need updates with specific error details
+### agentic AI vs AI agent skills
+
+Also known as compound AI systems, **agentic AI** refers to the _broader field and
+architectural pattern_ of building autonomous AI systems; similar to how
+"a microservice" is an instance while "microservices architecture" is the pattern.
+
+**AI agent skills** refer to modular folders of instructions, scripts, and resources that
+AI agents can discover and load on demand. Instead of hardcoding knowledge into prompts
+or creating specialized tools for every task, skills provide a flexible way to extend
+agent capabilities.
+
+>_Note: agentic AI is an emerging technology; humans must build sophisticated
+mental models to enable agents to develop the correct intuition to make effective,
+positive changes in software systems_
+
+**Example**: tech writer &rarr; [Docs Detective](https://doc-detective.com/) &rarr;
+[Claude Code](https://claude.com/product/claude-code) skills workflow -
+
+![Tech writer adds Doc Detective skill to Claude Code flowchart](../static/img/flowchart-ai-agent-workflow.png)
 
 **Related Terms**: [AI](#ai),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests), [Large Language Model](#large-language-model),
-[MCP server](#mcp-server), [Natural Language Processing](#natural-language-processing)
+[MCP server](#mcp-server), [Natural Language Processing](#natural-language-processing),
 [prompt engineering](#prompt-engineering), [RAG](#rag)
 
 **Sources**:
 
-- [IBM: "What Are AI Agents?"](https://www.ibm.com/think/topics/ai-agents)
-- [Wikipedia: "AI agent"](https://en.wikipedia.org/wiki/AI_agent)
-- [Stripe: "Minions: Stripe's one-shot, end-to-end coding agents"](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)
+- [IBM: "What Are AI Agents?" by Anna Gutowska](https://www.ibm.com/think/topics/ai-agents)
+- [Stripe: "Minions: Stripe's one-shot, end-to-end coding agents" by Alistair Gray](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)
 - [GitHub: doc-detective/agent-tools](https://github.com/doc-detective/agent-tools)
+- [Google Cloud: "What is agentic AI?"](https://cloud.google.com/discover/what-is-agentic-ai)
+- [Spring by VMware Tanzu: "Spring AI Agentic Patterns (Part 1): Agent Skills - Modular, Reusable Capabilities" by Christian Tzolov](https://spring.io/blog/2026/01/13/spring-ai-generic-agent-skills)
+- [Wikipedia: "AI agent"](https://en.wikipedia.org/wiki/AI_agent)
 
 ---
 
@@ -586,7 +600,8 @@ or translating text
 **Example**: LLMs can draft initial OpenAPI specification descriptions
 or generate code examples in many programming languages
 
-**Related Terms**: [AI](#ai), [genAI](#genai), [liquid content](#liquid-content),
+**Related Terms**: [AI](#ai), [AI agent](#ai-agent), 
+[genAI](#genai), [liquid content](#liquid-content),
 [Natural Language Processing](#natural-language-processing),
 [prompt engineering](#prompt-engineering), [RAG](#rag)
 
@@ -707,7 +722,7 @@ Google Drive
 - automating repetitive documentation tasks across multiple platforms
 - integrating AI assistance with existing docs-as-code workflows
 
-**Related Terms**:
+**Related Terms**: [AI agent](#ai-agent), 
 [authentication](./core-concepts/api-fundamentals.md#authentication),
 [JSON](./core-concepts/api-fundamentals.md#json),
 [JSON-RPC](api-types-architectures.md#json-rpc),
@@ -733,8 +748,8 @@ autocomplete, spell-check, and automated translation of API documentation
 **Example**: NLP enables smart search in API documentation that understands
 queries like "how to authenticate" and returns relevant authentication endpoints
 
-**Related Terms**: [AI](#ai), [Large Language Model](#large-language-model),
-[Machine Learning](#machine-learning)
+**Related Terms**: [AI](#ai), [AI agent](#ai-agent),
+[Large Language Model](#large-language-model), [Machine Learning](#machine-learning)
 
 **Sources**:
 
@@ -756,7 +771,7 @@ and expected output formats
 `GET` endpoint that retrieves user profiles, including response codes
 and example JSON" rather than "describe this endpoint"
 
-**Related Terms**: [AI](#ai), [genAI](#genai),
+**Related Terms**: [AI](#ai), [AI agent](#ai-agent), [genAI](#genai),
 [Large Language Model](#large-language-model)
 
 **Sources**:
@@ -785,7 +800,8 @@ code examples, then generates a synthesized answer such as _"Based on the
 authentication guide, you need to include your API key in the Authorization
 header as a Bearer token"_ with citations to the source docs
 
-**Related Terms**: [docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+**Related Terms**: [AI agent](#ai-agent),
+[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
 [domain knowledge](frameworks-strategy.md#domain-knowledge),
 [Fin](./tools-techniques/documentation-specific.md#fin),
 [Inkeep](./tools-techniques/documentation-specific.md#inkeep),
