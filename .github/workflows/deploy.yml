@@ -32,9 +32,6 @@ jobs:
         run: npm ci
         
       - name: Build website
-        env:
-          DOCUSAURUS_POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
-          DOCUSAURUS_POSTHOG_APP_URL: https://us.i.posthog.com
         run: npm run build
         
       - name: Upload artifact
