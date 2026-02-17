@@ -539,6 +539,15 @@ of documentation
 
 ---
 
+### draw.io
+
+- also known as [`diagrams.net`](https://www.drawio.com/)
+- free, open source diagramming tool
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - draw.io](./tools-techniques/diagramming-visualization.md#drawio)
+
+---
+
 ### Dredd
 
 - language-agnostic command-line tool for validating API descriptions
