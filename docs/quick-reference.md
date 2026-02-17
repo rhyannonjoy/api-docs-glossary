@@ -1857,6 +1857,15 @@ systematically across multiple outputs
 
 ---
 
+### Structurizr
+
+- toolset for creating software architecture diagrams
+based on the C4 model - _Context, Containers, Components, Code_
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Structurizr](./tools-techniques/diagramming-visualization.md#structurizr)
+
+---
+
 ### Swagger
 
 - open source suite for REST API development
