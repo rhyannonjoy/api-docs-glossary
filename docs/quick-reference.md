@@ -51,6 +51,17 @@ require human intelligence
 
 ---
 
+### AI agent
+
+- individual implementation within the broader field of agentic AI and/or
+compound AI systems
+- instance of an LLM-powered autonomous system that independently plans,
+uses tools, and takes actions to accomplish tasks on behalf of users
+
+**Glossary Term Entry Location**: [AI & APIs - AI agent](ai-and-apis.mdx#ai-agent)
+
+---
+
 ### AI-assisted documentation
 
 - docs created and/or enhanced via AI tools while maintaining

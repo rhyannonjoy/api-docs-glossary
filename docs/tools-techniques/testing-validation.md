@@ -158,7 +158,7 @@ enters test data, clicks the "Create Account" button, and validates the expected
 response; when developers change the button text from "Create Account" to
 "Sign Up Now," the test fails, alerting writers to update their documentation
 
-**Related Terms**:
+**Related Terms**: [AI agent](../ai-and-apis.mdx#ai-agent),
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
