@@ -577,7 +577,7 @@ export const KnowledgeGraphExplorer = () => {
 **Related Terms**: [content](writing-style.md#content),
 [information architecture](frameworks-strategy.md#information-architecture),
 [liquid content](#liquid-content),
-[modular content](writing-style.md#modular-content),
+[modular content](writing-style.md#modular-content), [RAG](#rag),
 [structured content](writing-style.md#structured-content)
 
 **Sources**:
@@ -794,6 +794,10 @@ training data
 tools by grounding responses in real source material; enables AI assistants
 to provide up-to-date, domain-specific answers with verifiable sources
 
+**RAG vs GraphRAG**: GraphRAG is an implementation approach that uses
+knowledge graph structures to improve retrieval quality, but the fundamental
+concept of grounding AI responses in source material remains the same
+
 **Example**: when a developer asks _"How do I authenticate?"_, a RAG-based
 system fetches relevant sections from authentication docs, API reference, and
 code examples, then generates a synthesized answer such as _"Based on the
@@ -806,12 +810,14 @@ header as a Bearer token"_ with citations to the source docs
 [Fin](./tools-techniques/documentation-specific.md#fin),
 [Inkeep](./tools-techniques/documentation-specific.md#inkeep),
 [Kapa.ai](./tools-techniques/documentation-specific.md#kapaai),
+[knowledge graph](#knowledge-graph),
 [Large Language Model](#large-language-model)
 
 **Sources**:
 
 - [Amazon Web Services, Inc.: "What is RAG (Retrieval-Augmented Generation)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 - [GeeksforGeeks: "What is Retrieval Augmented Generation (RAG)?](https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/)
+- [IBM: "What is GraphRAG?"](https://www.ibm.com/think/topics/graphrag)
 - [Wikipedia: "Retrieval-augmented generation"](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
 
 ---
