@@ -79,7 +79,7 @@ lambda -> db: Query data
 ```
 
 **Related Terms**: [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code), [Ilograph](#ilograph),
 [Mermaid](#mermaid), [PlantUML](#plantuml), [Structurizr](#structurizr)
 
 **Sources**:
@@ -102,7 +102,8 @@ in documentation
 **Example**: create an AWS architecture diagram showing API Gateway → Lambda → DynamoDB
 flow with proper AWS service icons, then export as SVG for docs embedding
 
-**Related Terms**: [Excalidraw](#excalidraw), [Lucidchart](#lucidchart), [SVG](#svg)
+**Related Terms**: [Excalidraw](#excalidraw), [Ilograph](#ilograph),
+[Lucidchart](#lucidchart), [SVG](#svg)
 
 **Sources**:
 
@@ -130,6 +131,34 @@ hand-drawn boxes and arrows that render instantly without design decisions
 
 - [Excalidraw Whiteboard](https://excalidraw.com/)
 - [YouTube: "How to Use Excalidraw: Complete Beginner Tutorial (2026 Update)" by Lvl 99 TechSkillz](https://www.youtube.com/watch?v=OU83LfTIWn8)
+
+---
+
+## Ilograph
+
+**Definition**: interactive diagramming tool for software architecture that creates
+layered, explorable views of systems; renders navigable visualizations from
+text and/or YAML files; available online,
+[on-prem](https://www.ilograph.com/desktop/index.html),
+and in
+[Confluence Cloud](https://marketplace.atlassian.com/apps/1229877/ilograph-interactive-diagrams-for-confluence?tab=overview&hosting=cloud)
+
+**Purpose**: enables docs teams to create architecture diagrams that users can
+explore interactively, drilling down into different levels of system detail without
+creating separate diagrams for each view
+
+**Example**: define a microservices architecture once in Ilograph syntax, then users
+can click to expand individual services to see their internal components, database
+connections, and API endpoints
+
+**Related Terms**: [D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[draw.io](#drawio), [Mermaid](#mermaid), [Structurizr](#structurizr),
+[YAML](development-essentials.md#yaml)
+
+**Sources**:
+
+- [Ilograph LLC, Ilograph Homepage: "Diagram In Depth"](https://www.ilograph.com/)
+- [Medium, IcePanel: "Top 7 diagrams as code tools for software architecture"](https://icepanel.medium.com/top-7-diagrams-as-code-tools-for-software-architecture-1a9dd0df1815)
 
 ---
 
@@ -197,7 +226,7 @@ sequenceDiagram
 ```
 
 **Related Terms**: [D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code), [Ilograph](#ilograph),
 [Markdown](documentation-specific.md#markdown), [MDX](documentation-specific.md#mdx),
 [PlantUML](#plantuml)
 
@@ -323,7 +352,8 @@ that maintains relationships between different abstraction levels in API docs
 generate context diagrams for executives, container diagrams for architects, and
 component diagrams for developers
 
-**Related Terms**: [C4 model](#c4-model), [D2](#d2), [PlantUML](#plantuml)
+**Related Terms**: [C4 model](#c4-model), [D2](#d2), [Ilograph](#ilograph),
+[PlantUML](#plantuml)
 
 **Source**:
 

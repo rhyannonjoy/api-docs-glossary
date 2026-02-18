@@ -929,6 +929,15 @@ of how many times it's executed
 
 ---
 
+### Ilograph
+
+- interactive diagramming tool for software architecture
+- creates layered, explorable system views from text and/or YAML files
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Ilograph](./tools-techniques/diagramming-visualization.md#ilograph)
+
+---
+
 ### information architecture
 
 - also known as IA
