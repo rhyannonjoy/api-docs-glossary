@@ -262,6 +262,7 @@ not the image
 **Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
 [D2](./tools-techniques/diagramming-visualization.md#d2),
 [docs-as-code](#docs-as-code), [GUI](./tools-techniques/development-essentials.md#gui),
+[Ilograph](./tools-techniques/diagramming-visualization.md#ilograph),
 [Large Language Model](ai-and-apis.mdx#large-language-model),
 [Mermaid](./tools-techniques/diagramming-visualization.md#mermaid),
 [PlantUML](./tools-techniques/diagramming-visualization.md#plantuml),
