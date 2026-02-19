@@ -107,24 +107,24 @@ to convey
 
 | Type | What It Shows | Best For | Common Tools |
 | ---- | ------------- | -------- | ------------ |
-| **Sequence** | time-ordered interactions between systems or components | documenting API request-response flows, authentication steps, webhook event chains | Mermaid, PlantUML |
-| **Flowchart** | decision points and branching logic in a process | error handling flows, onboarding decision trees, conditional API behavior | Mermaid, draw.io, Excalidraw |
 | **Architecture** | structural relationships between systems, services, and infrastructure | API system overviews, microservices topology, deployment context | D2, PlantUML, C4 model, Python Diagrams |
 | **ERD - _Entity-Relationship_** | data models and relationships between entities | documenting API resource structures and database schemas | PlantUML, draw.io, Lucidchart |
+| **Flowchart** | decision points and branching logic in a process | error handling flows, onboarding decision trees, conditional API behavior | Mermaid, draw.io, Excalidraw |
 | **Graph** | nodes and edges showing connections or dependencies | API dependency maps, knowledge graphs, network topologies | Graphviz DOT, D2 |
 | **Mind Map** | hierarchical branching from a central concept | documentation planning, API feature overviews, taxonomy visualization | PlantUML, draw.io |
+| **Sequence** | time-ordered interactions between systems or components | documenting API request-response flows, authentication steps, webhook event chains | Mermaid, PlantUML |
 
 **Example**: documenting a payment API requires multiple diagram types
 to serve different reader needs -
 
-- **Sequence Diagram**: shows the step-by-step flow of a payment
-transaction from client request through auth, processing, and webhook callback
 - **Architecture Diagram**: shows how the payment service, fraud detection
 service, and database relate within the broader system
-- **Flowchart**: shows decision logic for handling payment failures,
-retries, and fallback behavior
 - **ERD**: shows the relationships between `Payment`, `Transaction`,
 `Refund`, and `Webhook` resources
+- **Flowchart**: shows decision logic for handling payment failures,
+retries, and fallback behavior
+- **Sequence Diagram**: shows the step-by-step flow of a payment
+transaction from client request through auth, processing, and webhook callback
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2),
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
