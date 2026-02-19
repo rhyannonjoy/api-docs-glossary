@@ -530,14 +530,14 @@ specific workflows
 
 ### Is this glossary an ontology?
 
-APD, _API Docs Glossary_, practices ontology-informed thinking without implementing a
+ADG, _API Docs Glossary_, practices ontology-informed thinking without implementing a
 formal ontology. The `Related Terms` links define named relationships between
 concepts, category placement defines what kind of thing each term is, and
 `Why this belongs in` fields make classification rules explicit - all ontological
 practices. However, a formal ontology would express these relationships in a
 machine-readable specification like [OWL](https://www.w3.org/TR/owl2-syntax/) or
 [RDF](https://www.w3.org/RDF/) so a system could reason over them,
-rather than in human-readable Markdown. APG is better described as an
+rather than in human-readable Markdown. ADG is better described as an
 ontology-informed taxonomy - applying ontological thinking to documentation
 without the computational overhead of a formal specification.
 
