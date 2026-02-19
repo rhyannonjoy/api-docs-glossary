@@ -477,6 +477,15 @@ retrieving, and distributing media and/or digital files
 
 ---
 
+### diagram
+
+- visual representation of a system, process, or concept
+- communicates tech information more efficiently than prose alone
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - diagram](./tools-techniques/diagramming-visualization.md#diagram)
+
+---
+
 ### diagrams-as-code
 
 - documentation approach
