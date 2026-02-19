@@ -52,8 +52,9 @@ to use Git commands
 **Related Terms**: [content](../writing-style.md#content), [DAM](#dam),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [Git](../tools-techniques/development-essentials.md#git),
-[GUI](../tools-techniques/development-essentials.md#gui), [metadata](#metadata),
-[SDK](../core-concepts/api-fundamentals.md#sdk),
+[GUI](../tools-techniques/development-essentials.md#gui),
+[knowledge management](../frameworks-strategy.md#knowledge-management),
+[metadata](#metadata), [SDK](../core-concepts/api-fundamentals.md#sdk),
 [structured content](../writing-style.md#structured-content),
 [version control](development-essentials.md#version-control)
 
@@ -102,6 +103,7 @@ API Docs Glossary asset organization
 
 **Related Terms**: [content](../writing-style.md#content), [CMS](#cms),
 [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
+[knowledge management](../frameworks-strategy.md#knowledge-management),
 [metadata](#metadata), [taxonomy](../frameworks-strategy.md#taxonomy)
 
 **Sources**:
@@ -480,6 +482,7 @@ different types of metadata about API Docs Glossary's assets -
 **Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
 [DAM](#dam), [information architecture](../frameworks-strategy.md#information-architecture),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
+[knowledge management](../frameworks-strategy.md#knowledge-management),
 [structured content](../writing-style.md#structured-content),
 [taxonomy](../frameworks-strategy.md#taxonomy),
 [technical communication](../frameworks-strategy.md#technical-communication)

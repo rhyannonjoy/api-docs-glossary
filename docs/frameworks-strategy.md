@@ -139,8 +139,8 @@ measure success
 | Metrics | track time-to-first-successful-API-call | measures effectiveness of documentation |
 
 **Related Terms**: [accessibility](#accessibility), [content](writing-style.md#content),
-[docs-as-ecosystem](#docs-as-ecosystem),
-[information architecture](#information-architecture), [market](#market),
+[docs-as-ecosystem](#docs-as-ecosystem), [information architecture](#information-architecture),
+[knowledge management](#knowledge-management), [market](#market),
 [sales collateral](#sales-collateral), [technical communication](#technical-communication)
 
 **Sources**:
@@ -246,7 +246,8 @@ create living documentation that evolves with community needs
 [docs-as-code](workflows-methodologies.md#docs-as-code),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
-[RAG](ai-and-apis.mdx#rag), [technical communication](#technical-communication),
+[knowledge management](#knowledge-management), [RAG](ai-and-apis.mdx#rag),
+[technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing)
 
 **Sources**:
@@ -278,8 +279,8 @@ for different account types
 [DSL](./tools-techniques/diagramming-visualization.md#dsl),
 [end-user software engineer](#end-user-software-engineer),
 [information architecture](#information-architecture),
-[RAG](ai-and-apis.mdx#rag), [taxonomy](#taxonomy),
-[technical communication](#technical-communication)
+[knowledge management](#knowledge-management), [RAG](ai-and-apis.mdx#rag),
+[taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
@@ -389,6 +390,7 @@ type, `/pets` and `/shelters`, then by function and/or CRUD operation
 [CRUD](./core-concepts/api-fundamentals.md#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
+[knowledge management](#knowledge-management),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [taxonomy](#taxonomy), [technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing),
@@ -398,6 +400,76 @@ type, `/pets` and `/shelters`, then by function and/or CRUD operation
 
 - [Geeks for Geeks: "Information Architecture: A Complete Guide for Beginners"](https://www.geeksforgeeks.org/blogs/information-architecture/)
 - [Rosenfeld, Louis; Morville, Peter; Arango, Jorge. _Information Architecture: For the Web and Beyond - Fourth Edition_, O'Reilly Media Inc., October 2015.](https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/)
+
+---
+
+## knowledge management
+
+**Definition**: also known as KM; organizational discipline focused on
+creating, structuring, sharing, and maintaining collective knowledge,
+so that the right information reaches the right people at the right time
+
+**Purpose**: situates API documentation within a broader organizational
+context; tech writers frequently work within or alongside knowledge
+management functions, particularly in support, enterprise, and
+developer-facing organizations where docs serve as the primary vehicle
+for capturing and distributing institutional and product knowledge
+
+### types of knowledge
+
+| Type | Definition | Docs Challenge | API Docs Example |
+| ---- | ---------- | ----------------------- | ---------------- |
+| **Tacit** | acquired through experience and intuitively understood; difficult to articulate or transfer | hardest to capture; exists in the minds of senior engineers and experienced API users | reasons for design decisions; how to debug an obscure edge case |
+| **Implicit** | undocumented process know-how; awaiting codification | docs gap risk; often lost during team transitions or engineer departures | internal conventions for versioning, unwritten rules about rate limit behavior |
+| **Explicit** | captured in docs, manuals, guides, and databases; easily shared across teams | most of what docs teams produce; the foundation of API reference and guides | API reference docs, error code tables, getting started guides |
+
+### KM process
+
+| Step | What Happens | API Docs Equivalent |
+| ---- | ------------ | ----------------------------- |
+| **Creation** | identify and document existing or new knowledge | writing API reference, capturing tacit knowledge from engineers, documenting new endpoints |
+| **Storage** | host organizational knowledge in a system for distribution | publishing to a docs site, DAM, or knowledge base; version controlling in a repository |
+| **Sharing** | communicate processes for knowledge access broadly across the organization | developer portals, internal wikis, search optimization, notification of doc updates |
+
+### KM tools
+
+| KM Tool Type | What It Does | API Docs Equivalent |
+| ------------ | ------------ | ------------------- |
+| Document Management System | centralized storage for documents and/or digital assets | DAM, Git repository, docs-as-code platforms |
+| CMS| manages web content with editing and publishing workflows | developer portals, [Confluence](https://www.atlassian.com/software/confluence), [readme.com](https://readme.com/) |
+| Wiki | easy-to-edit collaborative knowledge base; risk of outdated content | internal engineering wikis, [Notion](https://www.notion.com/), Confluence |
+| Intranet | private organizational network for internal knowledge sharing | internal API documentation behind authentication |
+| Data warehouse | aggregates data from multiple sources for analysis | analytics platforms tracking doc usage, search queries, time-to-first-successful-API-call |
+
+**Example**: docs teams embedded in KM functions tend to prioritize
+findability, taxonomy, content reuse, and governance; approaching API docs
+as a knowledge asset to maintain rather than a shipping artifact to
+produce; this contrasts with engineering-embedded teams, who often
+prioritize docs-as-code workflows, and marketing-embedded teams,
+who emphasize sales collateral and developer acquisition
+
+| Organizational Home | Documentation Priorities | Common Tools and Approaches |
+| ------------------- | ------------------------ | --------------------------- |
+| Knowledge Management | findability, taxonomy, governance, content reuse | DAM, structured content, metadata |
+| Engineering | accuracy, versioning, automation, CI/CD integration | docs-as-code, docs-as-tests, static site generators |
+| Marketing | developer acquisition, use cases, sales collateral | landing pages, tutorials, API overviews |
+| Support | troubleshooting, error resolution, FAQs | knowledge bases, search optimization |
+
+**Related Terms**: [content strategy](#content-strategy),
+[CMS](./tools-techniques/documentation-specific.md#cms),
+[DAM](./tools-techniques/documentation-specific.md#dam),
+[docs-as-code](./workflows-methodologies.md#docs-as-code),
+[docs-as-ecosystem](#docs-as-ecosystem),
+[domain knowledge](#domain-knowledge),
+[information architecture](#information-architecture),
+[market](#market), [metadata](./tools-techniques/documentation-specific.md#metadata),
+ontology, [sales collateral](#sales-collateral),
+[taxonomy](#taxonomy), [technical communication](#technical-communication)
+
+**Sources**:
+
+- [IBM: "What is knowledge management?"](https://www.ibm.com/think/topics/knowledge-management)
+- [Wikipedia: "Knowledge management"](https://en.wikipedia.org/wiki/Knowledge_management)
 
 ---
 
@@ -420,7 +492,8 @@ API can focus on advanced use cases and optimization
 
 **Related Terms**:
 [API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
-[content strategy](#content-strategy), [sales collateral](#sales-collateral)
+[content strategy](#content-strategy), [knowledge management](#knowledge-management),
+[sales collateral](#sales-collateral)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
 
@@ -445,7 +518,7 @@ business metrics
 **Related Terms**:
 [API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
 [content](./writing-style.md#content), [content strategy](#content-strategy),
-[market](#market)
+[knowledge management](#knowledge-management), [market](#market)
 
 **Sources**:
 
@@ -514,9 +587,8 @@ hierarchically or categorize error codes:
 
 **Related Terms**: [content](writing-style.md#content),
 [DAM](./tools-techniques/documentation-specific.md#dam),
-[domain knowledge](#domain-knowledge),
-[DSL](./tools-techniques/diagramming-visualization.md#dsl),
-[knowledge graph](ai-and-apis.mdx#knowledge-graph),
+[domain knowledge](#domain-knowledge), [DSL](./tools-techniques/diagramming-visualization.md#dsl),
+[knowledge graph](ai-and-apis.mdx#knowledge-graph), [knowledge management](#knowledge-management),
 [information architecture](#information-architecture),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [technical communication](#technical-communication)
@@ -558,8 +630,8 @@ API documentation domain
 
 **Related Terms**: [content](writing-style.md#content),
 [content strategy](#content-strategy), [docs-as-ecosystem](#docs-as-ecosystem),
-[domain knowledge](#domain-knowledge),
-[information architecture](#information-architecture),
+[domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
+[knowledge management](#knowledge-management),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [taxonomy](#taxonomy)
 
