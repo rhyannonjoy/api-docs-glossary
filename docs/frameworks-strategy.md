@@ -140,7 +140,7 @@ measure success
 
 **Related Terms**: [accessibility](#accessibility), [content](writing-style.md#content),
 [docs-as-ecosystem](#docs-as-ecosystem), [information architecture](#information-architecture),
-[knowledge management](#knowledge-management), [market](#market),
+[knowledge management](#knowledge-management), [market](#market), [ontology](#ontology),
 [sales collateral](#sales-collateral), [technical communication](#technical-communication)
 
 **Sources**:
@@ -246,7 +246,7 @@ create living documentation that evolves with community needs
 [docs-as-code](workflows-methodologies.md#docs-as-code),
 [docs-as-tests](workflows-methodologies.md#docs-as-tests), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
-[knowledge management](#knowledge-management), [RAG](ai-and-apis.mdx#rag),
+[knowledge management](#knowledge-management), [ontology](#ontology), [RAG](ai-and-apis.mdx#rag),
 [technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing)
 
@@ -279,8 +279,9 @@ for different account types
 [DSL](./tools-techniques/diagramming-visualization.md#dsl),
 [end-user software engineer](#end-user-software-engineer),
 [information architecture](#information-architecture),
-[knowledge management](#knowledge-management), [RAG](ai-and-apis.mdx#rag),
-[taxonomy](#taxonomy), [technical communication](#technical-communication)
+[knowledge management](#knowledge-management), [ontology](#ontology),
+[RAG](ai-and-apis.mdx#rag), [taxonomy](#taxonomy),
+[technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
@@ -388,10 +389,9 @@ type, `/pets` and `/shelters`, then by function and/or CRUD operation
 **Related Terms**: [accessibility](#accessibility),
 [content](writing-style.md#content), [content strategy](#content-strategy),
 [CRUD](./core-concepts/api-fundamentals.md#crud), [Diátaxis](#diátaxis),
-[domain knowledge](#domain-knowledge),
-[knowledge graph](ai-and-apis.mdx#knowledge-graph),
+[domain knowledge](#domain-knowledge), [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [knowledge management](#knowledge-management),
-[metadata](./tools-techniques/documentation-specific.md#metadata),
+[metadata](./tools-techniques/documentation-specific.md#metadata), [ontology](#ontology),
 [taxonomy](#taxonomy), [technical communication](#technical-communication),
 [usability testing](workflows-methodologies.md#usability-testing),
 [UX](#ux)
@@ -497,6 +497,79 @@ API can focus on advanced use cases and optimization
 
 ---
 
+## ontology
+
+**Definition**: in information science, a formal, explicit specification
+of concepts, categories, and relationships within a domain that defines
+what entities exist, what properties they have, and how they relate to
+each other
+
+**Purpose**: enables API documentation teams to build shared
+understanding of domain concepts across writers, engineers, and tools;
+provides the semantic foundation that powers knowledge graphs, improves
+search relevance, and enables AI systems to reason about documentation
+content - going beyond taxonomy's hierarchical classification to capture
+richer, more nuanced relationships between concepts
+
+**Why this belongs in `Frameworks & Strategy`**: represents a
+foundational conceptual model for organizing domain knowledge rather
+than a specific tool or operational practice; ontology is the
+meta-level framework that informs how tech writers structure taxonomy,
+information architecture, and knowledge graphs, similar to how
+docs-as-ecosystem frames documentation philosophy rather than describing
+specific workflows
+
+### ontology vs taxonomy
+
+| | Taxonomy | Ontology |
+| --- | -------- | -------- |
+| **Primary Function** | classifies concepts hierarchically | defines concepts, their properties, and relationships |
+| **Structure** | tree: parent → child categories | graph: nodes with properties and named relationships |
+| **Example** | `Authentication` → `OAuth 2.0` → `Token Management` | `Refresh Token` is a type of `Token`, has property `expiration_window`, _replaces_ `Access Token` when it _expires_ |
+| **Answers** | _"What category does this belong to?"_ | _"What is this, what can it do, and how does it connect to everything else?"_ |
+
+### Is this glossary an ontology?
+
+APD, _API Docs Glossary_, practices ontology-informed thinking without implementing a
+formal ontology. The `Related Terms` links define named relationships between
+concepts, category placement defines what kind of thing each term is, and
+`Why this belongs in` fields make classification rules explicit - all ontological
+practices. However, a formal ontology would express these relationships in a
+machine-readable specification like [OWL](https://www.w3.org/TR/owl2-syntax/) or
+[RDF](https://www.w3.org/RDF/) so a system could reason over them,
+rather than in human-readable Markdown. APG is better described as an
+ontology-informed taxonomy - applying ontological thinking to documentation
+without the computational overhead of a formal specification.
+
+**Example**: a payments API docs team builds an ontology to
+support AI-assisted search and content recommendations;
+because the ontology defines how concepts connect, a search for
+"payment failure" surfaces not just pages containing those words
+but also related webhook events, error code references, and
+troubleshooting guides -
+
+| Concept | Type | Properties | Relationships |
+| ------- | ---- | ---------- | ------------- |
+| `Payment` | Entity | `amount`, `currency`, `status` | _initiates_ → `Transaction` |
+| `Transaction` | Entity | `id`, `timestamp`, `result` | _requires_ → `Authentication` |
+| `Webhook` | Entity | `event_type`, `endpoint_url` | _triggers on_ → `Payment` status change |
+| `Error Code` | Entity | `code`, `http_status`, `message` | _describes failure of_ → `Transaction` |
+
+**Related Terms**: [content strategy](#content-strategy),
+[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
+[information architecture](#information-architecture),
+[knowledge graph](ai-and-apis.mdx#knowledge-graph),
+[metadata](./tools-techniques/documentation-specific.md#metadata),
+[taxonomy](#taxonomy), [technical communication](#technical-communication)
+
+**Sources**:
+
+- [The Metaphysics Research Lab, Stanford Encyclopedia of Philosophy: "Logic Ontology"](https://plato.stanford.edu/entries/logic-ontology/)
+- [W3C: "OWL 2 Web Ontology Language Document Overview (Second Edition)"](https://www.w3.org/TR/owl2-overview/)
+- [Wikipedia: "Ontology (information science)"](https://en.wikipedia.org/wiki/Ontology_(information_science))
+
+---
+
 ## sales collateral
 
 **Definition**: materials used internally to inform sales representatives
@@ -583,13 +656,11 @@ hierarchically or categorize error codes:
 | Endpoints | `Authentication` → `OAuth 2.0` → `Token Management` → `Refresh Token Endpoint` |
 | Error Codes | `Client Errors (4xx)` → `Authentication Errors` → `401 Unauthorized`, `403 Forbidden` |
 
-**Related Terms**: [content](writing-style.md#content),
-[DAM](./tools-techniques/documentation-specific.md#dam),
+**Related Terms**: [content](writing-style.md#content), [DAM](./tools-techniques/documentation-specific.md#dam),
 [domain knowledge](#domain-knowledge), [DSL](./tools-techniques/diagramming-visualization.md#dsl),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph), [knowledge management](#knowledge-management),
-[information architecture](#information-architecture),
-[metadata](./tools-techniques/documentation-specific.md#metadata),
-[technical communication](#technical-communication)
+[information architecture](#information-architecture), [metadata](./tools-techniques/documentation-specific.md#metadata),
+[ontology](#ontology), [technical communication](#technical-communication)
 
 **Sources**:
 
@@ -629,9 +700,8 @@ API documentation domain
 **Related Terms**: [content](writing-style.md#content),
 [content strategy](#content-strategy), [docs-as-ecosystem](#docs-as-ecosystem),
 [domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
-[knowledge management](#knowledge-management),
-[metadata](./tools-techniques/documentation-specific.md#metadata),
-[taxonomy](#taxonomy)
+[knowledge management](#knowledge-management), [metadata](./tools-techniques/documentation-specific.md#metadata),
+[ontology](#ontology), [taxonomy](#taxonomy)
 
 **Sources**:
 

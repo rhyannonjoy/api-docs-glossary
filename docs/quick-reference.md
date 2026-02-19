@@ -1355,6 +1355,16 @@ that mimic humans’ use of language
 
 ---
 
+### ontology
+
+- in information science, a formal, explicit specification of concepts,
+categories, and relationships within a domain that defines what entities exist,
+what properties they have, and how they relate to each other
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - ontology](frameworks-strategy.md#ontology)
+
+---
+
 ### OpenAPI Specification
 
 - also known as the OAS
