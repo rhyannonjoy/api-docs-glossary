@@ -44,7 +44,7 @@ applied at the diagram level - Structurizr and PlantUML are tools that
 implement it, but C4 itself belongs with the techniques that guide how docs
 teams create architecture diagrams
 
-**Related Terms**: [PlantUML](#plantuml), [Structurizr](#structurizr)
+**Related Terms**: [diagram](#diagram), [PlantUML](#plantuml), [Structurizr](#structurizr)
 
 **Sources**:
 
@@ -78,7 +78,7 @@ api -> lambda: REST requests
 lambda -> db: Query data
 ```
 
-**Related Terms**: [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+**Related Terms**: [diagram](#diagram), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [DSL](#dsl),
 [Ilograph](#ilograph), [Mermaid](#mermaid), [PlantUML](#plantuml),
 [Structurizr](#structurizr)
@@ -87,6 +87,58 @@ lambda -> db: Query data
 
 - [Terrastruct, Inc.: "D2: Declarative Diagramming"](https://d2lang.com/)
 - [Terrastruct, Inc., Homepage: "The diagramming tool for developers"](https://terrastruct.com/)
+
+---
+
+## diagram
+
+**Definition**: visual representation of a system, process, or concept
+that communicates technical information more efficiently than prose alone;
+in API documentation, diagrams typically represent architecture, data flows,
+sequences, or relationships between components
+
+**Purpose**: helps docs teams select the appropriate visual type for
+the information they need to communicate; different diagram types serve
+different audiences and answer different questions, and choosing the wrong
+type forces readers to extract information the diagram wasn't designed
+to convey
+
+### common API docs diagrams
+
+| Type | What It Shows | Best For | Common Tools |
+| ---- | ------------- | -------- | ------------ |
+| **Sequence** | time-ordered interactions between systems or components | documenting API request-response flows, authentication steps, webhook event chains | Mermaid, PlantUML |
+| **Flowchart** | decision points and branching logic in a process | error handling flows, onboarding decision trees, conditional API behavior | Mermaid, draw.io, Excalidraw |
+| **Architecture** | structural relationships between systems, services, and infrastructure | API system overviews, microservices topology, deployment context | D2, PlantUML, C4 model, Python Diagrams |
+| **ERD - _Entity-Relationship_** | data models and relationships between entities | documenting API resource structures and database schemas | PlantUML, draw.io, Lucidchart |
+| **Graph** | nodes and edges showing connections or dependencies | API dependency maps, knowledge graphs, network topologies | Graphviz DOT, D2 |
+| **Mind Map** | hierarchical branching from a central concept | documentation planning, API feature overviews, taxonomy visualization | PlantUML, draw.io |
+
+**Example**: documenting a payment API requires multiple diagram types
+to serve different reader needs -
+
+- **Sequence Diagram**: shows the step-by-step flow of a payment
+transaction from client request through auth, processing, and webhook callback
+- **Architecture Diagram**: shows how the payment service, fraud detection
+service, and database relate within the broader system
+- **Flowchart**: shows decision logic for handling payment failures,
+retries, and fallback behavior
+- **ERD**: shows the relationships between `Payment`, `Transaction`,
+`Refund`, and `Webhook` resources
+
+**Related Terms**: [C4 model](#c4-model), [D2](#d2),
+[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[draw.io](#drawio), [DSL](#dsl), [Excalidraw](#excalidraw),
+[Ilograph](#ilograph), [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
+[Lucidchart](#lucidchart), [Mermaid](#mermaid), [PlantUML](#plantuml),
+[Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
+[SVG](#svg), UML
+
+**Sources**:
+
+- [draw.io Ltd, blog: "The many types of technical diagrams"](https://www.drawio.com/blog/types-of-technical-diagrams)
+- [Google Developer Documentation Style Guide: "Diagrams, figures, and other images"](https://developers.google.com/style/images)
+- [Wikipedia: "Diagram"](https://en.wikipedia.org/wiki/Diagram)
 
 ---
 
@@ -103,7 +155,7 @@ in documentation
 **Example**: create an AWS architecture diagram showing API Gateway → Lambda → DynamoDB
 flow with proper AWS service icons, then export as SVG for docs embedding
 
-**Related Terms**: [Excalidraw](#excalidraw), [Ilograph](#ilograph),
+**Related Terms**: [diagram](#diagram), [Excalidraw](#excalidraw), [Ilograph](#ilograph),
 [Lucidchart](#lucidchart), [SVG](#svg)
 
 **Sources**:
@@ -147,8 +199,8 @@ that implement their own DSL -
 | OpenAPI Specification | YAML/JSON schema syntax | structure, rules, and field conventions of the spec format |
 | PlantUML | Keyword-based text syntax | `@startuml / @enduml` wraps sequence diagram definitions |
 
-**Related Terms**: [Cucumber](testing-validation.md#cucumber),
-[D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+**Related Terms**: [Cucumber](testing-validation.md#cucumber), [D2](#d2),
+[diagram](#diagram), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [domain knowledge](../frameworks-strategy.md#domain-knowledge),
 [graphQL API](../api-types-architectures.md#graphql-api),
@@ -174,7 +226,7 @@ informal visual style aids comprehension without the overhead of polished graphi
 **Example**: sketch a request-response flow between client and API server using
 hand-drawn boxes and arrows that render instantly without design decisions
 
-**Related Terms**: [draw.io](#drawio), [Lucidchart](#lucidchart),
+**Related Terms**: [diagram](#diagram), [draw.io](#drawio), [Lucidchart](#lucidchart),
 [request-response](../core-concepts/api-fundamentals.md#request-response),
 [SVG](#svg)
 
@@ -202,7 +254,8 @@ creating separate diagrams for each view
 can click to expand individual services to see their internal components, database
 connections, and API endpoints
 
-**Related Terms**: [D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+**Related Terms**: [D2](#d2), [diagram](#diagram),
+[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [draw.io](#drawio), [Mermaid](#mermaid), [Structurizr](#structurizr),
 [YAML](development-essentials.md#yaml)
 
@@ -226,7 +279,7 @@ network topologies
 architecture diagram while integrating it with
 [Confluence](https://www.atlassian.com/software/confluence) documentation
 
-**Related Terms**: [draw.io](#drawio), [Excalidraw](#excalidraw)
+**Related Terms**: [diagram](#diagram), [draw.io](#drawio), [Excalidraw](#excalidraw)
 
 **Sources**:
 
@@ -276,7 +329,8 @@ sequenceDiagram
     end
 ```
 
-**Related Terms**: [D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+**Related Terms**: [D2](#d2), [diagram](#diagram),
+[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [Ilograph](#ilograph),
 [Markdown](documentation-specific.md#markdown), [MDX](documentation-specific.md#mdx),
 [PlantUML](#plantuml)
@@ -338,7 +392,7 @@ API --> Client: 200 OK {token}
 @enduml
 ```
 
-**Related Terms**: [C4 model](#c4-model), [D2](#d2),
+**Related Terms**: [C4 model](#c4-model), [D2](#d2), [diagram](#diagram),
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [DSL](#dsl), [JSON](../core-concepts/api-fundamentals.md#json),
 [Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
@@ -377,7 +431,7 @@ with Diagram("API Architecture"):
     APIGateway("API") >> Lambda("Function") >> Dynamodb("Database")
 ```
 
-**Related Terms**: [commit](development-essentials.md#commit),
+**Related Terms**: [commit](development-essentials.md#commit), [diagram](#diagram),
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [PlantUML](#plantuml), [version control](development-essentials.md#version-control)
@@ -402,8 +456,8 @@ that maintains relationships between different abstraction levels in API docs
 generate context diagrams for executives, container diagrams for architects, and
 component diagrams for developers
 
-**Related Terms**: [C4 model](#c4-model), [D2](#d2), [DSL](#dsl),
-[Ilograph](#ilograph), [PlantUML](#plantuml)
+**Related Terms**: [C4 model](#c4-model), [D2](#d2), [diagram](#diagram),
+[DSL](#dsl), [Ilograph](#ilograph), [PlantUML](#plantuml)
 
 **Source**:
 
@@ -426,8 +480,8 @@ regions or [tooltips](https://en.wikipedia.org/wiki/Tooltip)
 **Example**: export architecture diagrams as SVG files that scale perfectly
 across desktop and mobile documentation views without pixelation
 
-**Related Terms**: [draw-io](#drawio), [Excalidraw](#excalidraw),
-[XML](development-essentials.md#xml)
+**Related Terms**: [diagram](#diagram), [draw-io](#drawio),
+[Excalidraw](#excalidraw), [XML](development-essentials.md#xml)
 
 **Sources**:
 
