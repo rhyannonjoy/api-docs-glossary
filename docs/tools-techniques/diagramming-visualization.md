@@ -44,7 +44,8 @@ applied at the diagram level - Structurizr and PlantUML are tools that
 implement it, but C4 itself belongs with the techniques that guide how docs
 teams create architecture diagrams
 
-**Related Terms**: [diagram](#diagram), [PlantUML](#plantuml), [Structurizr](#structurizr)
+**Related Terms**: [diagram](#diagram), [PlantUML](#plantuml),
+[Structurizr](#structurizr), [UML](#uml)
 
 **Sources**:
 
@@ -81,7 +82,7 @@ lambda -> db: Query data
 **Related Terms**: [diagram](#diagram), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [DSL](#dsl),
 [Ilograph](#ilograph), [Mermaid](#mermaid), [PlantUML](#plantuml),
-[Structurizr](#structurizr)
+[Structurizr](#structurizr), [UML](#uml)
 
 **Sources**:
 
@@ -132,7 +133,7 @@ transaction from client request through auth, processing, and webhook callback
 [Ilograph](#ilograph), [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
 [Lucidchart](#lucidchart), [Mermaid](#mermaid), [PlantUML](#plantuml),
 [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
-[SVG](#svg), UML
+[SVG](#svg), [UML](#uml)
 
 **Sources**:
 
@@ -145,8 +146,8 @@ transaction from client request through auth, processing, and webhook callback
 ## draw.io
 
 **Definition**: also known as `diagrams.net` - free, open source diagramming tool
-for creating flowcharts, network diagrams, UML - _Unified Modeling Language_ -
-diagrams, and technical architecture visualizations
+for creating flowcharts, network diagrams, UML diagrams, and technical architecture
+visualizations
 
 **Purpose**: enables tech writers to create professional diagrams without licensing
 costs; supports export to multiple formats including PNG, SVG, and PDF for embedding
@@ -156,7 +157,7 @@ in documentation
 flow with proper AWS service icons, then export as SVG for docs embedding
 
 **Related Terms**: [diagram](#diagram), [Excalidraw](#excalidraw), [Ilograph](#ilograph),
-[Lucidchart](#lucidchart), [SVG](#svg)
+[Lucidchart](#lucidchart), [SVG](#svg), [UML](#uml)
 
 **Sources**:
 
@@ -206,7 +207,7 @@ that implement their own DSL -
 [graphQL API](../api-types-architectures.md#graphql-api),
 [Markdown](documentation-specific.md#markdown), [Mermaid](#mermaid),
 [Open API Specification](../core-concepts/documentation-specific.md#openapi-specification),
-[PlantUML](#plantuml), [taxonomy](../frameworks-strategy.md#taxonomy)
+[PlantUML](#plantuml), [taxonomy](../frameworks-strategy.md#taxonomy), [UML](#uml)
 
 **Sources**:
 
@@ -333,7 +334,7 @@ sequenceDiagram
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [Ilograph](#ilograph),
 [Markdown](documentation-specific.md#markdown), [MDX](documentation-specific.md#mdx),
-[PlantUML](#plantuml)
+[PlantUML](#plantuml), [UML](#uml)
 
 **Sources**:
 
@@ -344,10 +345,9 @@ sequenceDiagram
 
 ## PlantUML
 
-**Definition**: acronym for "Plant - _Unified Modeling Language_";
-DSL and text-based diagramming tool that generates architecture, sequence,
-and UML diagrams from plain text markup; has support for other software
-development related formats such as
+**Definition**: DSL and text-based diagramming tool that generates
+architecture, sequence, and UML diagrams from plain text markup; has
+support for other software development related formats such as
 [Archimate](https://en.wikipedia.org/wiki/ArchiMate),
 [Block diagram](https://en.wikipedia.org/wiki/Block_diagram),
 [BPMN - _Business Process Model and Notation_ -](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation),
@@ -396,7 +396,7 @@ API --> Client: 200 OK {token}
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
 [DSL](#dsl), [JSON](../core-concepts/api-fundamentals.md#json),
 [Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
-[YAML](development-essentials.md#yaml)
+[UML](#uml), [YAML](development-essentials.md#yaml)
 
 **Sources**:
 
@@ -457,7 +457,7 @@ generate context diagrams for executives, container diagrams for architects, and
 component diagrams for developers
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2), [diagram](#diagram),
-[DSL](#dsl), [Ilograph](#ilograph), [PlantUML](#plantuml)
+[DSL](#dsl), [Ilograph](#ilograph), [PlantUML](#plantuml), [UML](#uml)
 
 **Source**:
 
@@ -487,5 +487,46 @@ across desktop and mobile documentation views without pixelation
 
 - [Mozilla Corporation, MDN Web Docs: "SVG: Scalable Vector Graphics"](https://developer.mozilla.org/en-US/docs/Web/SVG)
 - [Wikipedia: "SVG"](https://en.wikipedia.org/wiki/SVG)
+
+---
+
+## UML
+
+**Definition**: acronym for _Unified Modeling Language_; standardized
+visual modeling language for describing software systems through a
+family of diagram types covering structure, behavior, and interaction
+
+**Purpose**: provides a common visual vocabulary for documenting software
+architecture and behavior in API documentation; understanding UML helps
+writers recognize and document diagram types produced by tools like
+PlantUML, draw.io, and Lucidchart, and communicate accurately with
+engineers who use UML notation in architecture discussions
+
+### UML diagrams in API docs
+
+| Category | Diagram Type | What It Shows |
+| -------- | ------------ | ------------- |
+| **Structural** | Class Diagram | object types, properties, and relationships in an API's data model |
+| **Structural** | Component Diagram | how system components and APIs connect and depend on each other |
+| **Behavioral** | Activity Diagram | workflow logic, decision points, and branching in API processes |
+| **Behavioral** | Sequence Diagram | time-ordered message exchanges between components in an API flow |
+| **Behavioral** | State machine Diagram | how a resource changes state -`pending` → `processing` → `complete` |
+| **Interaction** | Use Case Diagram | how different actors, users, systems, interact with an API |
+
+**Example**: a tech writer documenting an order management API
+uses UML sequence diagrams to show the message exchange between
+client, API gateway, and fulfillment service, then UML state machine
+diagrams to show how an order moves through `pending`, `confirmed`,
+`shipped`, and `delivered` states
+
+**Related Terms**: [C4 model](#c4-model), [diagram](#diagram), [D2](#d2),
+[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[draw.io](#drawio), [DSL](#dsl), [Mermaid](#mermaid), [PlantUML](#plantuml),
+[Structurizr](#structurizr)
+
+**Sources**:
+
+- [Object Management Group: "Unified Modeling Language (UML)"](https://www.uml.org/)
+- [Wikipedia: "Unified Modeling Language"](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 
 ---

@@ -1417,7 +1417,6 @@ body
 
 ### PlantUML
 
-- acronym for "Plant - _Unified Modeling Language_"
 - DSL and text-based diagramming tool
 - generates architectural, sequence, and UML diagrams from plain
 text markup
@@ -2016,6 +2015,17 @@ patterns and generate responses
 ---
 
 ## U
+
+---
+
+### UML
+
+- acronym for _Unified Modeling Language_
+- visual modeling language for describing software systems through
+a family of diagram types covering structure, behavior, and
+interaction
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - UML](./tools-techniques/diagramming-visualization.md#uml)
 
 ---
 

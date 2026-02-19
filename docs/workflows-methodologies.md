@@ -269,6 +269,7 @@ not the image
 [PlantUML](./tools-techniques/diagramming-visualization.md#plantuml),
 [pull request](./tools-techniques/development-essentials.md#pull-request),
 [Python Diagrams](./tools-techniques/diagramming-visualization.md#python-diagrams),
+[UML](./tools-techniques/diagramming-visualization.md#uml),
 [version control](./tools-techniques/development-essentials.md#version-control)
 
 **Sources**:
