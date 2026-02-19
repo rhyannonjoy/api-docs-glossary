@@ -455,16 +455,14 @@ who emphasize sales collateral and developer acquisition
 | Marketing | developer acquisition, use cases, sales collateral | landing pages, tutorials, API overviews |
 | Support | troubleshooting, error resolution, FAQs | knowledge bases, search optimization |
 
-**Related Terms**: [content strategy](#content-strategy),
-[CMS](./tools-techniques/documentation-specific.md#cms),
-[DAM](./tools-techniques/documentation-specific.md#dam),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
+[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.md#dam),
 [docs-as-code](./workflows-methodologies.md#docs-as-code),
-[docs-as-ecosystem](#docs-as-ecosystem),
-[domain knowledge](#domain-knowledge),
+[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
 [information architecture](#information-architecture),
 [market](#market), [metadata](./tools-techniques/documentation-specific.md#metadata),
-ontology, [sales collateral](#sales-collateral),
-[taxonomy](#taxonomy), [technical communication](#technical-communication)
+ontology, [sales collateral](#sales-collateral), [taxonomy](#taxonomy),
+[technical communication](#technical-communication)
 
 **Sources**:
 
