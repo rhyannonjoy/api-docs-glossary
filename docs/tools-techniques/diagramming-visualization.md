@@ -55,9 +55,9 @@ teams create architecture diagrams
 
 ## D2
 
-**Definition**: modern DSL - _domain-specific language_ - that turns text to
-diagrams; declarative diagramming language designed for software architecture
-diagrams with contemporary syntax and extensive layout options
+**Definition**: modern DSL that turns text to diagrams; declarative diagramming
+language designed for software architecture diagrams with contemporary syntax and
+extensive layout options
 
 **Purpose**: provides more expressive
 [diagram-as-code](https://dev.to/r_elena_mendez_escobar/diagram-as-code-creating-dynamic-and-interactive-documentation-for-visual-content-2p93)
@@ -79,8 +79,9 @@ lambda -> db: Query data
 ```
 
 **Related Terms**: [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code), [Ilograph](#ilograph),
-[Mermaid](#mermaid), [PlantUML](#plantuml), [Structurizr](#structurizr)
+[docs-as-code](../workflows-methodologies.md#docs-as-code), [DSL](#dsl),
+[Ilograph](#ilograph), [Mermaid](#mermaid), [PlantUML](#plantuml),
+[Structurizr](#structurizr)
 
 **Sources**:
 
@@ -109,6 +110,56 @@ flow with proper AWS service icons, then export as SVG for docs embedding
 
 - [draw.io Ltd Homepage: "Security-first diagramming for teams"](https://www.drawio.com/)
 - [Wikipedia: "diagrams.net"](https://en.wikipedia.org/wiki/Diagrams.net)
+
+---
+
+## DSL
+
+**Definition**: acronym for _domain-specific language_; a programming or
+specification language designed for a particular domain, problem space, or
+tool rather than general-purpose software development
+
+**Purpose**: helps tech writers understand and document the specialized
+syntax and conventions that appear across API documentation tooling;
+particularly relevant in diagramming and visualization contexts, where
+many tools - D2, Mermaid, PlantUML - use their own DSL to define
+diagrams as text rather than through graphical interfaces
+
+**Why this belongs in `Diagramming & Visualization`**: DSL appears
+repeatedly as a characteristic of diagramming tools that API docs
+teams use; understanding that a tool has its own DSL shapes how writers
+document it, explaining not just what the tool produces but how users
+write in it, including its syntax rules, constraints, and vocabulary;
+while DSLs exist across _many tool categories_, diagramming tools represent
+the most consistent and concentrated use of the term in API docs contexts
+
+**Example**: common tools, including diagramming tools, used in API docs
+that implement their own DSL -
+
+| Tool | DSL Style | Example Syntax |
+| ---- | --------- | -------------- |
+| Cucumber / Gherkin | Gherkin syntax | `Given / When / Then` scenario structure for docs-as-tests workflows |
+| D2 | Declarative text syntax | `server -> database: query` defines a connection with a label |
+| GraphQL | GraphQL schema definition language | type definitions, queries, mutations, and resolver patterns |
+| Graphviz DOT | Graph description language | `digraph { a -> b }` defines a directed graph |
+| Markdown | Markdown syntax | formatting conventions, extensions, and rendering differences across platforms |
+| Mermaid | Markdown-inspired text syntax | `graph TD; A-->B` defines a top-down flowchart |
+| OpenAPI Specification | YAML/JSON schema syntax | structure, rules, and field conventions of the spec format |
+| PlantUML | Keyword-based text syntax | `@startuml / @enduml` wraps sequence diagram definitions |
+
+**Related Terms**: [Cucumber](testing-validation.md#cucumber),
+[D2](#d2), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[domain knowledge](../frameworks-strategy.md#domain-knowledge),
+[graphQL API](../api-types-architectures.md#graphql-api),
+[Markdown](documentation-specific.md#markdown), [Mermaid](#mermaid),
+[Open API Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[PlantUML](#plantuml), [taxonomy](../frameworks-strategy.md#taxonomy)
+
+**Sources**:
+
+- [Martin Fowler: "Domain Specific Languags Guide"](https://martinfowler.com/dsl.html)
+- [Wikipedia: "Domain-specific language"](https://en.wikipedia.org/wiki/Domain-specific_language)
 
 ---
 
@@ -240,10 +291,9 @@ sequenceDiagram
 ## PlantUML
 
 **Definition**: acronym for "Plant - _Unified Modeling Language_";
-DSL - _domain-specific language_ - and
-text-based diagramming tool that generates architecture, sequence, and
-UML diagrams from plain text markup; has support for other software development
-related formats such as
+DSL and text-based diagramming tool that generates architecture, sequence,
+and UML diagrams from plain text markup; has support for other software
+development related formats such as
 [Archimate](https://en.wikipedia.org/wiki/ArchiMate),
 [Block diagram](https://en.wikipedia.org/wiki/Block_diagram),
 [BPMN - _Business Process Model and Notation_ -](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation),
@@ -290,7 +340,7 @@ API --> Client: 200 OK {token}
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2),
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[JSON](../core-concepts/api-fundamentals.md#json),
+[DSL](#dsl), [JSON](../core-concepts/api-fundamentals.md#json),
 [Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
 [YAML](development-essentials.md#yaml)
 
@@ -352,8 +402,8 @@ that maintains relationships between different abstraction levels in API docs
 generate context diagrams for executives, container diagrams for architects, and
 component diagrams for developers
 
-**Related Terms**: [C4 model](#c4-model), [D2](#d2), [Ilograph](#ilograph),
-[PlantUML](#plantuml)
+**Related Terms**: [C4 model](#c4-model), [D2](#d2), [DSL](#dsl),
+[Ilograph](#ilograph), [PlantUML](#plantuml)
 
 **Source**:
 
