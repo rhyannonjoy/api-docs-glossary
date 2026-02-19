@@ -275,6 +275,7 @@ for different account types
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
+[DSL](./tools-techniques/diagramming-visualization.md#dsl),
 [end-user software engineer](#end-user-software-engineer),
 [information architecture](#information-architecture),
 [RAG](ai-and-apis.mdx#rag), [taxonomy](#taxonomy),
@@ -514,6 +515,7 @@ hierarchically or categorize error codes:
 **Related Terms**: [content](writing-style.md#content),
 [DAM](./tools-techniques/documentation-specific.md#dam),
 [domain knowledge](#domain-knowledge),
+[DSL](./tools-techniques/diagramming-visualization.md#dsl),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [information architecture](#information-architecture),
 [metadata](./tools-techniques/documentation-specific.md#metadata),

@@ -21,7 +21,7 @@ comprehensive enough that the course instructor called it a "hidden gem" and
 encouraged sharing it with the broader
 [Write the Docs](https://www.writethedocs.org/) community.
 
-**How this glossary is different:**
+**How this glossary is different**:
 
 - **Learner-perspective definitions**: terms include the context that
 help concepts click, rather than isolated dictionary-style definitions

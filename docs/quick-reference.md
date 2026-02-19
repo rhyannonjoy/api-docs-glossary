@@ -451,8 +451,7 @@ directly to HTTP methods
 
 ### D2
 
-- modern DSL - _domain-specific language_ - that turns text into
-software architecture diagrams
+- modern DSL that turns text into software architecture diagrams
 - features include contemporary syntax and extensive layout options
 
 **Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - D2](./tools-techniques/diagramming-visualization.md#d2)
@@ -586,6 +585,16 @@ against the backend implementation of the API
 - particularly valuable for contract testing
 
 **Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Dredd](./tools-techniques/testing-validation.md#dredd)
+
+---
+
+### DSL
+
+- acronym for domain-specific language
+- programming or specification language designed for a particular domain,
+problem space, or tool rather than general-purpose software development
+
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - DSL](./tools-techniques/diagramming-visualization.md#dsl)
 
 ---
 
@@ -1400,7 +1409,7 @@ body
 ### PlantUML
 
 - acronym for "Plant - _Unified Modeling Language_"
-- DSL - _domain-specific language_ - and text-based diagramming tool
+- DSL and text-based diagramming tool
 - generates architectural, sequence, and UML diagrams from plain
 text markup
 
