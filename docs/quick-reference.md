@@ -1079,6 +1079,16 @@ query and reason about
 
 ---
 
+### knowledge management
+
+- also known as KM
+- organizational discipline
+- focuses on creating, structuring, sharing, and maintaining collective knowledge
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - knowledge management](./frameworks-strategy.md#knowledge-management)
+
+---
+
 ## L
 
 ---
