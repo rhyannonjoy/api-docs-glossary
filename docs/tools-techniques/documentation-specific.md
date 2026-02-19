@@ -483,9 +483,8 @@ different types of metadata about API Docs Glossary's assets -
 [DAM](#dam), [information architecture](../frameworks-strategy.md#information-architecture),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
 [knowledge management](../frameworks-strategy.md#knowledge-management),
-[structured content](../writing-style.md#structured-content),
-[taxonomy](../frameworks-strategy.md#taxonomy),
-[technical communication](../frameworks-strategy.md#technical-communication)
+[ontology](../frameworks-strategy.md#ontology), [structured content](../writing-style.md#structured-content),
+[taxonomy](../frameworks-strategy.md#taxonomy), [technical communication](../frameworks-strategy.md#technical-communication)
 
 **Sources**:
 
