@@ -39,9 +39,10 @@ const sidebars: SidebarsConfig = {
      type: 'category',
      label: 'Meta',
      items: [
-       'meta/how-glossary-built',
-       'meta/style-guide',
        'meta/contribution-guide',
+       'meta/how-glossary-built',
+       'meta/prompt-templates',
+       'meta/style-guide',
     ],
    },
   ],

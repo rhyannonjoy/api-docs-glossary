@@ -54,7 +54,7 @@ to use Git commands
 [Git](../tools-techniques/development-essentials.md#git),
 [GUI](../tools-techniques/development-essentials.md#gui),
 [knowledge management](../frameworks-strategy.md#knowledge-management),
-[metadata](#metadata), [SDK](../core-concepts/api-fundamentals.md#sdk),
+[metadata](#metadata), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
 [structured content](../writing-style.md#structured-content),
 [version control](development-essentials.md#version-control)
 
@@ -209,7 +209,7 @@ languages to enhance DX, _developer experience_
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [DX](../frameworks-strategy.md#dx),
 [gRPC API](../api-types-architectures.md#grpc-api), [Inkeep](#inkeep),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
-[Postman](#postman), [SDK](../core-concepts/api-fundamentals.md#sdk),
+[Postman](#postman), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
 [Speakeasy](testing-validation.md#speakeasy)
 
 **Sources**:
@@ -672,8 +672,8 @@ as the authoritative source; RFC numbers, such as RFC 9110, provide
 a permanent, verifiable reference that remains accessible even as
 web pages change
 
-**Related Terms**: [HTTP](../core-concepts/api-fundamentals.md#http),
-[HTTPS](../core-concepts/api-fundamentals.md#https),
+**Related Terms**: [HTTP](../core-concepts/api-fundamentals.mdx#http),
+[HTTPS](../core-concepts/api-fundamentals.mdx#https),
 [REST API](../api-types-architectures.md#rest-api)
 
 **Sources**:
@@ -746,7 +746,7 @@ the violations in CI/CD, preventing merge until documentation is complete
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[JSON](../core-concepts/api-fundamentals.md#json),
+[JSON](../core-concepts/api-fundamentals.mdx#json),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
 [Redocly](#redocly)
 
@@ -918,7 +918,7 @@ configuration decisions documented in the
 | - | ------- | -------------------- |
 | 1 | `.vale.ini` in the file tree | Configuration file where teams define and manage style rules |
 | 2 | Filter showing `Google...Showing 24 of 817` | Rule filtering - Vale enforces hundreds of rules, but teams focus on specific ones |
-| 3 | File Grouping - `api-fundamentals.md`, `documentation-specific.md` | Project-wide enforcement - Vale lints all docs files simultaneously |
+| 3 | File Grouping - `api-fundamentals.mdx`, `documentation-specific.md` | Project-wide enforcement - Vale lints all docs files simultaneously |
 | 4 | `WordList` Suggestions - "Use 'APIs Explorer' instead of 'API explorer'" | Terminology consistency - enforcing preferred vocabulary across the project |
 | 5 | Line and Column Reference - `[Ln 336, Col 12]` | Precise location - pinpoints exactly where each violation occurs |
 | 6 | ⚠ Warning Count vs ⛒ 0 Errors in Status Bar | Severity levels - warnings flag style preferences without blocking the workflow |

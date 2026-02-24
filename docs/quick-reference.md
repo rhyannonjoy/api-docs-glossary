@@ -106,7 +106,7 @@ that enables reliable, asynchronous communication between applications
 - acronym for _application programming interface_
 - enables resource sharing between systems and/or products
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API](./core-concepts/api-fundamentals.md#api)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API](./core-concepts/api-fundamentals.mdx#api)
 
 ---
 
@@ -135,7 +135,7 @@ testing ensures user content accuracy
 - specific URL where an API can access resources
 - client touchpoint with the API server
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API endpoint](./core-concepts/api-fundamentals.md#api-endpoint)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API endpoint](./core-concepts/api-fundamentals.mdx#api-endpoint)
 
 ---
 
@@ -170,7 +170,7 @@ operation or object
 
 - measures taken to protect APIs from unauthorized access, misuse, attacks
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API security](./core-concepts/api-fundamentals.md#api-security)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - API security](./core-concepts/api-fundamentals.mdx#api-security)
 
 ---
 
@@ -199,7 +199,7 @@ many different protocols
 
 - API security measure that determines who users are
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authentication](./core-concepts/api-fundamentals.md#authentication)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authentication](./core-concepts/api-fundamentals.mdx#authentication)
 
 ---
 
@@ -207,7 +207,7 @@ many different protocols
 
 - An API secutiry measure that determines what users can do
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authorization](./core-concepts/api-fundamentals.md#authorization)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authorization](./core-concepts/api-fundamentals.mdx#authorization)
 
 ---
 
@@ -412,7 +412,7 @@ resource availability to the critical path
 - provides a standard framework for API operations that maps
 directly to HTTP methods
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - CRUD](./core-concepts/api-fundamentals.md#crud)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - CRUD](./core-concepts/api-fundamentals.mdx#crud)
 
 ---
 
@@ -473,7 +473,7 @@ retrieving, and distributing media and/or digital files
 - HTTP method
 - requests removal of a specified resource from the server
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `DELETE`](./core-concepts/api-fundamentals.md#delete)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `DELETE`](./core-concepts/api-fundamentals.mdx#delete)
 
 ---
 
@@ -641,7 +641,7 @@ testing or execution
 - allows tests to run in different environments without
 code changes
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - environment variables](./core-concepts/api-fundamentals.md#environment-variables)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - environment variables](./core-concepts/api-fundamentals.mdx#environment-variables)
 
 ---
 
@@ -651,7 +651,7 @@ code changes
 occur during API operations
 - enables developers to build robust applications
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - error handling](./core-concepts/api-fundamentals.md#error-handling)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - error handling](./core-concepts/api-fundamentals.mdx#error-handling)
 
 ---
 
@@ -759,7 +759,7 @@ to generate new content
 - read-only HTTP method
 - the most common method for retrieving information
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `GET`](./core-concepts/api-fundamentals.md#get)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `GET`](./core-concepts/api-fundamentals.mdx#get)
 
 ---
 
@@ -889,7 +889,7 @@ intended audience and capturing their responses
 - synchronous request-response protocol
 - enables communication between clients and servers over the web
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP](./core-concepts/api-fundamentals.md#http)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP](./core-concepts/api-fundamentals.mdx#http)
 
 ---
 
@@ -899,7 +899,7 @@ intended audience and capturing their responses
 - makes it clear whether a request reads, creates, updates, or
 deletes data
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP method](./core-concepts/api-fundamentals.md#http-method)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP method](./core-concepts/api-fundamentals.mdx#http-method)
 
 ---
 
@@ -908,7 +908,7 @@ deletes data
 - acronym for _Hypertext Transfer Protocol Secure_
 - protects data from interception and tampering during transmission
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTPS](./core-concepts/api-fundamentals.md#https)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTPS](./core-concepts/api-fundamentals.mdx#https)
 
 ---
 
@@ -917,7 +917,7 @@ deletes data
 - three-digit codes servers return in HTTP responses
 - show whether a specific request succeeded or failed
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes)
 
 ---
 
@@ -929,7 +929,7 @@ performance and feature capabilities
 - HTTP/2 (2015) enables concurrent requests over one connection
 - HTTP/3 (2022) uses QUIC protocol for improved reliability
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP versions](./core-concepts/api-fundamentals.md#http-versions)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - HTTP versions](./core-concepts/api-fundamentals.mdx#http-versions)
 
 ---
 
@@ -943,7 +943,7 @@ performance and feature capabilities
 of how many times it's executed
 - enables safe request retries without unintended side effects
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - idempotent](./core-concepts/api-fundamentals.md#idempotent)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - idempotent](./core-concepts/api-fundamentals.mdx#idempotent)
 
 ---
 
@@ -996,7 +996,7 @@ and community discussions
 - text-based data format that uses human-readable key-value pairs
 to represent structured data
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - JSON](./core-concepts/api-fundamentals.md#json)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - JSON](./core-concepts/api-fundamentals.mdx#json)
 
 ---
 
@@ -1253,7 +1253,7 @@ diagrams, and other visualizations directly in Markdown files
 and delivers messages between applications, services, or systems
 - commonly use publish-subscribe messaging pattern
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - message broker](./core-concepts/api-fundamentals.md#message-broker)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - message broker](./core-concepts/api-fundamentals.mdx#message-broker)
 
 ---
 
@@ -1403,7 +1403,7 @@ what properties they have, and how they relate to each other
 - variables passed in API requests
 - specify, filter, or change data based on the operation in use
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - parameters](./core-concepts/api-fundamentals.md#parameters)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - parameters](./core-concepts/api-fundamentals.mdx#parameters)
 
 ---
 
@@ -1421,7 +1421,7 @@ what properties they have, and how they relate to each other
 - HTTP method
 - applies partial modifications to an existing resource
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  `PATCH`](./core-concepts/api-fundamentals.md#patch)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  `PATCH`](./core-concepts/api-fundamentals.mdx#patch)
 
 ---
 
@@ -1431,7 +1431,7 @@ what properties they have, and how they relate to each other
 - actual data transmitted in an API request or response
 body
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  payload](./core-concepts/api-fundamentals.md#payload)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals -  payload](./core-concepts/api-fundamentals.mdx#payload)
 
 ---
 
@@ -1471,7 +1471,7 @@ procedures work as written
 - HTTP method
 - submits data to a server to create new resources
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `POST`](./core-concepts/api-fundamentals.md#post)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `POST`](./core-concepts/api-fundamentals.mdx#post)
 
 ---
 
@@ -1562,7 +1562,7 @@ to its origin repository
 - replaces an existing resource with new data
 - creates a resource at a specific URL if it doesn't exist
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `PUT`](./core-concepts/api-fundamentals.md#put)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - `PUT`](./core-concepts/api-fundamentals.mdx#put)
 
 ---
 
@@ -1612,7 +1612,7 @@ client can make within a specified time window
 - prevents abuse, maintains service stability, and ensures
 fair access for all users
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - rate limiting](./core-concepts/api-fundamentals.md#rate-limiting)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - rate limiting](./core-concepts/api-fundamentals.mdx#rate-limiting)
 
 ---
 
@@ -1680,7 +1680,7 @@ that validate documentation accuracy
 - client sends a request
 - server returns a response
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request-response](./core-concepts/api-fundamentals.md#request-response)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - request-response](./core-concepts/api-fundamentals.mdx#request-response)
 
 ---
 
@@ -1690,7 +1690,7 @@ that validate documentation accuracy
 - distinct piece of data or entity available for reference
 or modification through an API
 
-**Glossary Term Entry Location**: [Core Concepts, API fundamentals - resource](./core-concepts/api-fundamentals.md#resource)
+**Glossary Term Entry Location**: [Core Concepts, API fundamentals - resource](./core-concepts/api-fundamentals.mdx#resource)
 
 ---
 
@@ -1776,7 +1776,7 @@ or externally to educate and convert prospective customers
 relationships within an API's requests and responses
 - enables validation, auto-generated documentation, and type safety
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - schema](./core-concepts/api-fundamentals.md#schema)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - schema](./core-concepts/api-fundamentals.mdx#schema)
 
 ---
 
@@ -1798,7 +1798,7 @@ relationships within an API's requests and responses
 that enables developers to build applications using a specific
 platform, service, or API
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - SDK](./core-concepts/api-fundamentals.md#sdk)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - SDK](./core-concepts/api-fundamentals.mdx#sdk)
 
 ---
 
@@ -1817,7 +1817,7 @@ platform, service, or API
 network transmission or storage, then reconstruction
 - enables data exchange between systems
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - serialization](./core-concepts/api-fundamentals.md#serialization)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - serialization](./core-concepts/api-fundamentals.mdx#serialization)
 
 ---
 
@@ -2064,7 +2064,7 @@ interaction
 - standard format for identifying resources
 - forms the foundation for both URLs and URNs
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URI](./core-concepts/api-fundamentals.md#uri)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URI](./core-concepts/api-fundamentals.mdx#uri)
 
 ---
 
@@ -2074,7 +2074,7 @@ interaction
 - specific URI type that includes network location
 - defines exactly where endpoints exist, how to reach them
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URL](./core-concepts/api-fundamentals.md#url)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - URL](./core-concepts/api-fundamentals.mdx#url)
 
 ---
 
@@ -2128,7 +2128,7 @@ product, service, or system
 before processing or storage
 - ensures data quality and improves API reliability
 
-**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - validation](./core-concepts/api-fundamentals.md#validation)
+**Glossary Term Entry Location**: [Core Concepts, API Fundamentals - validation](./core-concepts/api-fundamentals.mdx#validation)
 
 ---
 

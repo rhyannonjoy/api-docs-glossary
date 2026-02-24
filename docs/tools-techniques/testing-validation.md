@@ -35,10 +35,10 @@ test collections in Git repositories alongside their code
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[API security](../core-concepts/api-fundamentals.md#api-security),
+[API security](../core-concepts/api-fundamentals.mdx#api-security),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[environment variables](../core-concepts/api-fundamentals.md#environment-variables),
+[environment variables](../core-concepts/api-fundamentals.mdx#environment-variables),
 [Postman](documentation-specific.md#postman),
 [Postman Newman](testing-validation.md#postman-newman),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
@@ -215,7 +215,7 @@ to describe the tool itself
 **Purpose**: allows documentation writers and developers to
 prototype and test API documentation without a live backend;
 generates a fully functional REST API with
-[CRUD operations](../core-concepts/api-fundamentals.md#crud)
+[CRUD operations](../core-concepts/api-fundamentals.mdx#crud)
 using methods `GET`, `POST`, `PUT`, and `DELETE` based on a
 streamlined JSON structure, enabling realistic examples
 and testing scenarios
@@ -501,12 +501,12 @@ when the API changes
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[error handling](../core-concepts/api-fundamentals.md#error-handling),
+[error handling](../core-concepts/api-fundamentals.mdx#error-handling),
 [Fern](documentation-specific.md#fern),
-[HTTP status codes](../core-concepts/api-fundamentals.md#http-status-codes),
+[HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
-[request-response](../core-concepts/api-fundamentals.md#request-response),
-[SDK](../core-concepts/api-fundamentals.md#sdk)
+[request-response](../core-concepts/api-fundamentals.mdx#request-response),
+[SDK](../core-concepts/api-fundamentals.mdx#sdk)
 
 **Sources**:
 

@@ -21,7 +21,7 @@ by Dredd, rendered into documentation, and used to generate mock servers
 
 **Related Terms**: [Arazzo Specification](#arazzo-specification),
 [AsyncAPI](#asyncapi), [Dredd](../tools-techniques/testing-validation.md#dredd),
-[JSON](api-fundamentals.md#json), [OpenAPI Specification](#openapi-specification),
+[JSON](api-fundamentals.mdx#json), [OpenAPI Specification](#openapi-specification),
 [REST API](../api-types-architectures.md#rest-api),
 [REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful),
 [YAML](../tools-techniques/development-essentials.md#yaml)
@@ -214,7 +214,7 @@ the specification
 [API Blueprint](#api-blueprint), [Arazzo Specification](#arazzo-specification),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
-[HTTP](api-fundamentals.md#http), [Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
+[HTTP](api-fundamentals.mdx#http), [Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
 [Mercure](../api-types-architectures.md#mercure),
 [MQTT](../api-types-architectures.md#mqtt),
 [OpenAPI Specification](#openapi-specification),
@@ -517,12 +517,12 @@ it requires interpretation before it can become either
 | `parameters` | URL and query parameters - URL parameters appear in the path itself |
 | `responses` | All possible HTTP responses for requests to this path |
 
-**Related terms**: [API](api-fundamentals.md#api), [API Blueprint](#api-blueprint),
+**Related terms**: [API](api-fundamentals.mdx#api), [API Blueprint](#api-blueprint),
 [API reference topic](#api-reference-topic), [Arazzo Specification](#arazzo-specification),
 [AsyncAPI](#asyncapi), [Dredd](../tools-techniques/testing-validation.md#dredd),
 [Microcks](../tools-techniques/testing-validation.md#microcks),
 [reference](#reference), [REST API](../api-types-architectures.md#rest-api),
-[schema](api-fundamentals.md#schema), [SDK](api-fundamentals.md#sdk),
+[schema](api-fundamentals.mdx#schema), [SDK](api-fundamentals.mdx#sdk),
 [YAML](../tools-techniques/development-essentials.md#yaml)
 
 **Sources**:
@@ -705,8 +705,8 @@ status codes like `401 Unauthorized` and `429 Too Many Requests`, describes
 why they occur, and provides steps to resolve them
 
 **Related Terms**: [concept](#concept),
-[error handling](api-fundamentals.md#error-handling),
-[HTTP status codes](api-fundamentals.md#http-status-codes), [runbook](#runbook),
+[error handling](api-fundamentals.mdx#error-handling),
+[HTTP status codes](api-fundamentals.mdx#http-status-codes), [runbook](#runbook),
 [task](#task)
 
 **Source**: [GitLab Docs: "Troubleshooting topic type"](https://docs.gitlab.com/development/documentation/topic_types/troubleshooting/)
