@@ -505,8 +505,8 @@ such as [branch](../tools-techniques/development-essentials.md#branch)
 - **Prerequisite Concepts**: terms readers need to understand
 first, such as
 [REST API](../api-types-architectures.md#rest-api) →
-[HTTP](../core-concepts/api-fundamentals.md#http) →
-[JSON](../core-concepts/api-fundamentals.md#json)
+[HTTP](../core-concepts/api-fundamentals.mdx#http) →
+[JSON](../core-concepts/api-fundamentals.mdx#json)
 - **Higher-Level Concepts**: category terms that provide context,
 such as [CLI](../tools-techniques/development-essentials.md#cli) →
 [cURL](../tools-techniques/development-essentials.md#curl) →

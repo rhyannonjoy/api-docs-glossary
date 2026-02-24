@@ -84,13 +84,13 @@ accurate:
 ![API Docs Testing Workflow Flowchart](../static/img/flowchart-api-docs-testing.png)
 
 **Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent),
-[API](./core-concepts/api-fundamentals.md#api), [BDD](#bdd),
+[API](./core-concepts/api-fundamentals.mdx#api), [BDD](#bdd),
 [Bruno](./tools-techniques/testing-validation.md#bruno),
 [contract testing](#contract-testing),
 [Cypress](./tools-techniques/testing-validation.md#cypress),
 [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
 [docs-as-tests](#docs-as-tests),
-[HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
+[HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes),
 [Playwright](./tools-techniques/testing-validation.md#playwright),
 [REST API](api-types-architectures.md#rest-api),
 [UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)

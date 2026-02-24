@@ -1,9 +1,8 @@
 # Contribution Guide
 
-This guide covers the technical process for contributing to the
-API Docs Glossary: forking the repository, setting up the
-development environment, submitting pull requests,
-and troubleshooting common issues.
+This guide covers the technical process for contributing to the ADG:
+forking the repository, setting up the development environment, submitting
+pull requests, and troubleshooting common issues.
 
 _For content standards, writing conventions, and formatting
 requirements, visit the [Style Guide](style-guide.md)._

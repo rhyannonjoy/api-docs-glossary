@@ -228,7 +228,7 @@ informal visual style aids comprehension without the overhead of polished graphi
 hand-drawn boxes and arrows that render instantly without design decisions
 
 **Related Terms**: [diagram](#diagram), [draw.io](#drawio), [Lucidchart](#lucidchart),
-[request-response](../core-concepts/api-fundamentals.md#request-response),
+[request-response](../core-concepts/api-fundamentals.mdx#request-response),
 [SVG](#svg)
 
 **Sources**:
@@ -394,7 +394,7 @@ API --> Client: 200 OK {token}
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2), [diagram](#diagram),
 [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[DSL](#dsl), [JSON](../core-concepts/api-fundamentals.md#json),
+[DSL](#dsl), [JSON](../core-concepts/api-fundamentals.mdx#json),
 [Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
 [UML](#uml), [YAML](development-essentials.md#yaml)
 

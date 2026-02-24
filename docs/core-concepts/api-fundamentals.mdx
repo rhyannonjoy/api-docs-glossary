@@ -1,3 +1,6 @@
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # API Fundamentals
 
 Essential terms and concepts for understanding how APIs work.
@@ -42,17 +45,16 @@ often prohibited by license
 
 **Example API Request-Response Flow**:
 
-```mermaid
+<ZoomMermaid chart={`
 sequenceDiagram
     participant Client
     participant API Server
     participant Database
-    
     Client->>API Server: GET /users/123
     API Server->>Database: Query user data
     Database-->>API Server: User record
     API Server-->>Client: 200 OK + response
-```
+`} />
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
@@ -845,7 +847,10 @@ Content-Type: application/json
 
 **Request-Response Cycle** - Python, Postman, PostgreSQL
 
-![Request-Response Diagram](../../static/img/request-response-diagram.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/request-response-diagram.png" 
+  alt="Request-Response Diagram" 
+/>
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http), [HTTP method](#http-method),

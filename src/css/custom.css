@@ -468,6 +468,20 @@
   --mermaid-border-color: #4a9d2d;
 }
 
+/* Mermaid diagrams lightbox in light mode */
+/* Override YARL button colors for light mode */
+.yarl__slide {
+  background: transparent !important;
+}
+
+[data-theme='light'] .yarl__container {
+  background: #fafbfc !important;
+}
+
+[data-theme='dark'] .yarl__container {
+  background: #000000 !important;
+}
+
 /* ============================================
    CODE BLOCKS
    ============================================ */

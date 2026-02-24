@@ -32,10 +32,10 @@ at-most-once, at-least-once, or exactly once
 
 **Related Terms**:
 [AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
-[HTTP](./core-concepts/api-fundamentals.md#http),
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [MQTT](#mqtt),
-[request-response](./core-concepts/api-fundamentals.md#request-response),
+[request-response](./core-concepts/api-fundamentals.mdx#request-response),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
 
 **Sources**:
@@ -59,10 +59,10 @@ without clients needing to know about backend architecture
 service, `/orders` to the order service, and `/users` to the user service, while
 handling authentication for all three
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
-[API endpoint](./core-concepts/api-fundamentals.md#api-endpoint),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
+[API endpoint](./core-concepts/api-fundamentals.mdx#api-endpoint),
 [microservices](#microservices),
-[rate limiting](./core-concepts/api-fundamentals.md#rate-limiting)
+[rate limiting](./core-concepts/api-fundamentals.mdx#rate-limiting)
 
 **Source**: [F5, Inc., NGINX: "What Is an API Gateway?"](https://www.f5.com/glossary/api-gateway)
 
@@ -83,7 +83,7 @@ completes, triggering immediate order fulfillment rather than checking
 payment status every few minutes
 
 **Related Terms**:
-[API](./core-concepts/api-fundamentals.md#api),
+[API](./core-concepts/api-fundamentals.mdx#api),
 [AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
@@ -122,13 +122,13 @@ in `Core Concepts` with documentation specification formats
 { user(id: 123) { name, posts { title }, followers { name } } }
 ```
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
 [Mercure](#mercure),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [REST API](#rest-api),
-[schema](./core-concepts/api-fundamentals.md#schema),
-[validation](./core-concepts/api-fundamentals.md#validation)
+[schema](./core-concepts/api-fundamentals.mdx#schema),
+[validation](./core-concepts/api-fundamentals.mdx#validation)
 
 **Sources**:
 
@@ -150,12 +150,12 @@ safety matter more than human readability
 `ProcessPayment()` that accept and return strongly typed Protocol Buffers
 messages rather than JSON
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
-[HTTP versions](./core-concepts/api-fundamentals.md#http-versions),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
+[HTTP versions](./core-concepts/api-fundamentals.mdx#http-versions),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers),
 [RPC API](#rpc-api),
-[serialization](./core-concepts/api-fundamentals.md#serialization)
+[serialization](./core-concepts/api-fundamentals.mdx#serialization)
 
 **Source**: [gRPC Authors: "What is gRPC?"](https://grpc.io/docs/what-is-grpc/)
 
@@ -229,9 +229,9 @@ well-suited for procedural or command-based APIs
 - legacy system integrations
 
 **Related Terms**:
-[CRUD](./core-concepts/api-fundamentals.md#crud),
-[HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
-[JSON](./core-concepts/api-fundamentals.md#json),
+[CRUD](./core-concepts/api-fundamentals.mdx#crud),
+[HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes),
+[JSON](./core-concepts/api-fundamentals.mdx#json),
 [MCP server](ai-and-apis.mdx#mcp-server),
 [microservices](#microservices), [real-time](#real-time),
 [REST API](#rest-api)
@@ -283,7 +283,7 @@ improves fault isolation and technology flexibility compared to
 **Example**: Netflix's streaming platform uses hundreds of microservices for
 recommendations, playback, billing, and user profiles, each with its own API
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [API gateway](#api-gateway), [JSON-RPC](#json-rpc),
 [REST API](#rest-api)
 
@@ -318,7 +318,7 @@ network disconnections and automatic reconnection capabilities
 
 **Related Terms**: [AMQP](#amqp),
 [AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
-[HTTP](./core-concepts/api-fundamentals.md#http),
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
 
@@ -375,11 +375,11 @@ servers provide only self-contained resources
 - **Uniform Interface**: standardized way of communicating between
 client and server
 - **Uses HTTP Methods**:
-[`DELETE` (remove)](./core-concepts/api-fundamentals.md#delete),
-[`GET` (read)](./core-concepts/api-fundamentals.md#get),
-[`PATCH` (edit)](./core-concepts/api-fundamentals.md#patch),
-[`POST` (create)](./core-concepts/api-fundamentals.md#post),
-[`PUT` (replace)](./core-concepts/api-fundamentals.md#put)
+[`DELETE` (remove)](./core-concepts/api-fundamentals.mdx#delete),
+[`GET` (read)](./core-concepts/api-fundamentals.mdx#get),
+[`PATCH` (edit)](./core-concepts/api-fundamentals.mdx#patch),
+[`POST` (create)](./core-concepts/api-fundamentals.mdx#post),
+[`PUT` (replace)](./core-concepts/api-fundamentals.mdx#put)
 - **Commonly uses JSON**: due to its wide support in programming
 languages, REST APIs use JSON, but it's not required and also
 support other formats like XML
@@ -422,15 +422,15 @@ resource formatted as a JSON document:
 }
 ```
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [API documentation testing](workflows-methodologies.md#api-documentation-testing),
 [CLI](./tools-techniques/development-essentials.md#cli),
-[HTTP](./core-concepts/api-fundamentals.md#http),
-[HTTP status codes](./core-concepts/api-fundamentals.md#http-status-codes),
-[JSON](./core-concepts/api-fundamentals.md#json),
-[parameters](./core-concepts/api-fundamentals.md#parameters),
-[resource](./core-concepts/api-fundamentals.md#resource),
-[URL](./core-concepts/api-fundamentals.md#url)
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
+[HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes),
+[JSON](./core-concepts/api-fundamentals.mdx#json),
+[parameters](./core-concepts/api-fundamentals.mdx#parameters),
+[resource](./core-concepts/api-fundamentals.mdx#resource),
+[URL](./core-concepts/api-fundamentals.mdx#url)
 
 **Sources**:
 
@@ -460,10 +460,10 @@ endpoints like `/users/123`, standard HTTP methods - `GET`, `POST`, `PUT`,
 `DELETE`
 
 **Related Terms**:
-[API endpoint](./core-concepts/api-fundamentals.md#api-endpoint),
-[HTTP](./core-concepts/api-fundamentals.md#http),
-[HTTP method](./core-concepts/api-fundamentals.md#http-method),
-[resource](./core-concepts/api-fundamentals.md#resource),
+[API endpoint](./core-concepts/api-fundamentals.mdx#api-endpoint),
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
+[HTTP method](./core-concepts/api-fundamentals.mdx#http-method),
+[resource](./core-concepts/api-fundamentals.mdx#resource),
 [REST API](#rest-api)
 
 **Sources**:
@@ -486,7 +486,7 @@ communication
 **Example**: a client calls `getUserProfile(userId)` which executes on
 a remote server and returns the result, hiding the network request details
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [gRPC API](#grpc-api)
 
 **Source**: [Geeks for Geeks: "Difference Between REST API and RPC API"](https://www.geeksforgeeks.org/system-design/difference-between-rest-api-and-rpc-api/)
@@ -508,7 +508,7 @@ progress updates, or real-time dashboard data to browsers using HTTP
 connections with automatic reconnection
 
 **Related Terms**: [event-driven](#event-driven),
-[HTTP](./core-concepts/api-fundamentals.md#http),
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
 [Mercure](#mercure), [WebSocket API](#websocket-api)
 
 **Sources**:
@@ -551,9 +551,9 @@ requirements, and transaction guarantees
 | Overhead | Higher, verbose XML | Lower, lightweight JSON |
 | Common use | Enterprise, legacy systems | Modern web/mobile APIs |
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
-[error handling](./core-concepts/api-fundamentals.md#error-handling),
-[HTTP](./core-concepts/api-fundamentals.md#http), [REST API](#rest-api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
+[error handling](./core-concepts/api-fundamentals.mdx#error-handling),
+[HTTP](./core-concepts/api-fundamentals.mdx#http), [REST API](#rest-api),
 [XML](./tools-techniques/development-essentials.md#xml)
 
 **Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
@@ -586,7 +586,7 @@ receive messages from brokers like
 bidirectional communication with simple text-based commands
 
 **Related Terms**: [AMQP](#amqp),
-[HTTP](./core-concepts/api-fundamentals.md#http),
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
 [MQTT](#mqtt), [WebSocket API](#websocket-api)
 
 **Sources**:
@@ -611,12 +611,12 @@ and workflow automation
 whenever someone opens a pull request, allowing CI/CD systems to
 automatically run tests
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
-[API endpoint](./core-concepts/api-fundamentals.md#api-endpoint),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
+[API endpoint](./core-concepts/api-fundamentals.mdx#api-endpoint),
 [event-driven](#event-driven),
-[HTTP](./core-concepts/api-fundamentals.md#http),
+[HTTP](./core-concepts/api-fundamentals.mdx#http),
 [MCP server](ai-and-apis.mdx#mcp-server),
-[`POST`](./core-concepts/api-fundamentals.md#post),
+[`POST`](./core-concepts/api-fundamentals.mdx#post),
 [real-time](#real-time)
 
 **Source**: [Zapier: "What are webhooks?"](https://zapier.com/blog/what-are-webhooks/)
@@ -638,10 +638,10 @@ to receive price updates instantly as they occur, rather than polling the
 server every few seconds
 
 **Related Terms**: [AMQP](#amqp),
-[API](./core-concepts/api-fundamentals.md#api),
+[API](./core-concepts/api-fundamentals.mdx#api),
 [AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
 [event-driven](#event-driven),
-[HTTP](./core-concepts/api-fundamentals.md#http), [Mercure](#mercure),
+[HTTP](./core-concepts/api-fundamentals.mdx#http), [Mercure](#mercure),
 [MQTT](#mqtt), [real-time](#real-time),
 [Server-Sent Events](#server-sent-events), [STOMP](#stomp)
 

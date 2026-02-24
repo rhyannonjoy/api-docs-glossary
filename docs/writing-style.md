@@ -207,7 +207,7 @@ in reference docs, tutorials, and SDK documentation
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content),
 [reference](./core-concepts/documentation-specific.md#reference),
-[SDK](./core-concepts/api-fundamentals.md#sdk)
+[SDK](./core-concepts/api-fundamentals.mdx#sdk)
 
 **Sources**:
 

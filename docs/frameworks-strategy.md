@@ -105,7 +105,7 @@ commitment, in which developers must choose OAuth vs. API keys early,
 documentation should provide a clear decision guide upfront rather than
 burying the comparison deep in reference docs
 
-**Related terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [API reference topic](./core-concepts/documentation-specific.md#api-reference-topic),
 [Diátaxis](#diátaxis), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
@@ -274,7 +274,7 @@ and regulatory requirements - allowing them to write clearer explanations
 of rate limiting during market hours or authentication requirements
 for different account types
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [DSL](./tools-techniques/diagramming-visualization.md#dsl),
 [end-user software engineer](#end-user-software-engineer),
@@ -316,9 +316,9 @@ experience
 **Related Terms**: [accessibility](#accessibility),
 [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [end-user software engineer](#end-user-software-engineer),
-[error handling](./core-concepts/api-fundamentals.md#error-handling),
+[error handling](./core-concepts/api-fundamentals.mdx#error-handling),
 [getting started](./core-concepts/documentation-specific.md#getting-started),
-[SDK](./core-concepts/api-fundamentals.md#sdk),
+[SDK](./core-concepts/api-fundamentals.mdx#sdk),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
 **Sources**:
@@ -357,7 +357,7 @@ first payment" tutorial
 
 **Related Terms**: [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [domain knowledge](#domain-knowledge), [DX](#dx),
-[error handling](./core-concepts/api-fundamentals.md#error-handling),
+[error handling](./core-concepts/api-fundamentals.mdx#error-handling),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
 **Sources**:
@@ -388,7 +388,7 @@ type, `/pets` and `/shelters`, then by function and/or CRUD operation
 
 **Related Terms**: [accessibility](#accessibility),
 [content](writing-style.md#content), [content strategy](#content-strategy),
-[CRUD](./core-concepts/api-fundamentals.md#crud), [Diátaxis](#diátaxis),
+[CRUD](./core-concepts/api-fundamentals.mdx#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge), [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [knowledge management](#knowledge-management),
 [metadata](./tools-techniques/documentation-specific.md#metadata), [ontology](#ontology),

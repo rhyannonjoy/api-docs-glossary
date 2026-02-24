@@ -1,4 +1,4 @@
-# Prompts
+# Prompt Templates
 
 Add assorted AI prompts in this file to expedite glossary
 workflows.
@@ -38,8 +38,8 @@ I can copy and paste it easily.
 ```
 
 >_Note: flowcharts TD tend to take up too much site real estate and
-flowcharts RL tend to not be readable; you're more than likely going to
-need a sequence diagram and if a flowchart is ideal, use Lucidchart_
+flowcharts RL tend to not be readable without wrapping it in a zoom
+component_
 
 ---
 
@@ -54,16 +54,47 @@ I’d like to add a glossary term entry to my API Docs Glossary:
 
 https://github.com/rhyannonjoy/api-docs-glossary
 
-Please follow the Style Guide recommendations - write in active
-voice and generate output in Markdown so that I can copy and
-paste it easily. Use the following sources and ensure that the
-**Example** scenario is realistic and practical.
+Terms to add:
+* [Term 1]
+* [Term 2]
+* [Term 3]
+
+I think these terms should go in [FILENAME], in the [SECTION NAME] section,
+do you agree?
+
+Please follow the Style Guide recommendations
+[paste or link to [Style Guide](style-guide.md)] - write in active voice and
+generate output in Markdown so that I can copy and paste it easily. Use the
+following sources: 
+
+* [Source URL 1]
+* [Source URL 2]
+* [Source URL 3]
+
+Ensure that the **Example** scenario is realistic and practical.
 ```
 
 >_Note: Be as specific as possible. If you have questions, communicate them
 with reasoning, "I'm thinking of filing the term into `[category and/or subcategory]`,
 because it fundamentally describes `[reason]` - do you agree?" This may lead to
-expanding the entry to include placement reasoning or visual components to accurately
-represent the term._
+expanding the entry to include placement reasoning or visual components to
+accurately represent the term._
+
+---
+
+## Standardizing Existing Entries
+
+```markdown
+Please review these glossary entries against Style Guide recommendations
+[paste or link to [Style Guide](style-guide.md)] and suggest improvements:
+
+Term entries to review:
+* [Term Entry 1]
+* [Term Entry 2]
+* [Term Entry 3]
+
+Focus on capitalization rules, definition clarity, formatting consistency,
+and **Related Terms** anchor linking
+```
 
 ---

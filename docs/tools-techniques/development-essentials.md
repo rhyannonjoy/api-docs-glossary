@@ -721,7 +721,7 @@ arguments, optional flags, and example outputs; docs-as-tests validates that
 documented CLI commands execute successfully and produce expected results
 
 **Related Terms**:
-[API](../core-concepts/api-fundamentals.md#api),
+[API](../core-concepts/api-fundamentals.mdx#api),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [GUI](#gui), [REST API](../api-types-architectures.md#rest-api), [UI](#ui)
 
@@ -750,7 +750,7 @@ retrieves user data from an API endpoint
 **Related Terms**: [`json-server`](testing-validation.md#json-server),
 [REST API](../api-types-architectures.md#rest-api),
 [Postman](documentation-specific.md#postman),
-[SDK](../core-concepts/api-fundamentals.md#sdk),
+[SDK](../core-concepts/api-fundamentals.mdx#sdk),
 [Swagger](documentation-specific.md#swagger)
 
 **Further Reading**:
@@ -807,10 +807,10 @@ between services
 `string_name` and `int32_id`, which compiles into classes for many
 programming languages
 
-**Related Terms**: [API](../core-concepts/api-fundamentals.md#api),
+**Related Terms**: [API](../core-concepts/api-fundamentals.mdx#api),
 [gRPC API](../api-types-architectures.md#graphql-api),
-[schema](../core-concepts/api-fundamentals.md#schema),
-[serialization](../core-concepts/api-fundamentals.md#serialization)
+[schema](../core-concepts/api-fundamentals.mdx#schema),
+[serialization](../core-concepts/api-fundamentals.mdx#serialization)
 
 **Source**: [Google, LLC: Protocol Buffers Documentation: "Overview"](https://protobuf.dev/overview/)
 
@@ -834,7 +834,7 @@ interface, where buttons, forms, and data visualizations allow users to
 interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
-**Related Terms**: [API endpoint](../core-concepts/api-fundamentals.md#api-endpoint),
+**Related Terms**: [API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint),
 [CLI](#cli), [GUI](#gui), [MDX](documentation-specific.md#mdx),
 [REST API](../api-types-architectures.md#rest-api)
 
@@ -873,10 +873,10 @@ in enterprise systems, SOAP APIs, and legacy integrations
 | Data types | Everything is text | Supports numbers, booleans, `null` |
 | Common use | SOAP APIs, enterprise systems | REST APIs, web applications |
 
-**Related Terms**: [JSON](../core-concepts/api-fundamentals.md#json),
-[payload](../core-concepts/api-fundamentals.md#payload),
+**Related Terms**: [JSON](../core-concepts/api-fundamentals.mdx#json),
+[payload](../core-concepts/api-fundamentals.mdx#payload),
 [REST API](../api-types-architectures.md#rest-api),
-[serialization](../core-concepts/api-fundamentals.md#serialization),
+[serialization](../core-concepts/api-fundamentals.mdx#serialization),
 [SOAP API](../api-types-architectures.md#soap-api),
 [SVG](diagramming-visualization.md#svg), [YAML](#yaml)
 
@@ -920,9 +920,9 @@ user:
 ```
 
 **Related Terms**: [CI/CD pipeline](#cicd-pipeline),
-[JSON](../core-concepts/api-fundamentals.md#json),
+[JSON](../core-concepts/api-fundamentals.mdx#json),
 [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
-[serialization](../core-concepts/api-fundamentals.md#serialization), [XML](#xml)
+[serialization](../core-concepts/api-fundamentals.mdx#serialization), [XML](#xml)
 
 **Sources**:
 
