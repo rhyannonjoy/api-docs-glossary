@@ -465,12 +465,11 @@ who emphasize sales collateral and developer acquisition
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
 [content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
-[docs-as-code](./workflows-methodologies.mdx#docs-as-code),
-[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
-[information architecture](#information-architecture),
+[docs-as-code](./workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](#docs-as-ecosystem),
+[domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
 [market](#market), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
-ontology, [sales collateral](#sales-collateral), [taxonomy](#taxonomy),
-[technical communication](#technical-communication)
+[ontology](#ontology), [sales collateral](#sales-collateral), [self-healing system](#self-healing-system),
+[taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Sources**:
 
@@ -606,6 +605,56 @@ business metrics
 
 ---
 
+## self-healing system
+
+**Definition**: architectural design philosophy where a system automatically detects
+failures, inconsistencies, or drift from an expected state and recovers with little
+and/or without human intervention — in API documentation contexts, a docs ecosystem
+that identifies inaccuracies caused by product changes and surfaces or resolves them
+through automated testing and validation
+
+**Purpose**: reduces docs drift by shifting from reactive maintenance — fixing
+docs after users report errors — to proactive, automated detection; in API docs
+workflows, docs-as-tests implementations create self-healing properties by running
+continuous validation against live APIs, catching broken endpoints, outdated parameters,
+or inaccurate code examples before they reach users
+
+**Why this belongs in `Frameworks & Strategy`**: describes a strategic approach to system
+resilience rather than a specific tool or operational workflow; not a methodology, but a
+conceptual model that informs how docs teams architect their validation pipelines and plan
+for long-term accuracy; `Workflows & Methodologies` covers the operational practices like
+docs-as-tests that implement self-healing properties, while `Frameworks & Strategy`
+covers _the strategic thinking that motivates those practices_
+
+### SH-docs vs. SH-API
+
+| | **self-healing API** | **self-healing docs** |
+|---|---|---|
+| **Layer** | infrastructure | documentation |
+| **Detects** | dropped connections, timeouts, cascading errors | divergence between documented and actual behavior |
+| **Recovery Method** | automatically restoring failed connections | flagging inaccuracies for correction |
+| **Philosophy** | detect, recover, adapt | detect, recover, adapt |
+
+**Example**: self-healing system workflow with [Doc Detective](https://doc-detective.com/) -
+
+<ZoomImage 
+  src="/api-docs-glossary/img/flowcharts/self-healing-system-workflow.png" 
+  alt="Flowchart showing steps: docs team maintains API, runs Doc Detective against API, product ships breaking changes, tests fail, failure alerts fire, tech writers update docs, team works towards automation"
+/>
+
+**Related Terms**: [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
+[Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
+[docs-as-code](workflows-methodologies.mdx#docs-as-code),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [knowledge management](#knowledge-management),
+[technical communication](#technical-communication)
+
+**Sources**:
+
+- [Microsoft, Azure Architecture Center: "Design for self-healing"](https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/self-healing)
+- [Silva, Manny. _Docs As Tests_. First edition, Release 2, Boffin Education, May 2025.](https://boffin.education/about-docs-as-tests/)
+
+---
+
 ## skunkworks
 
 **Definition**: a group within an organization given high autonomy and
@@ -711,11 +760,11 @@ installation instructions, and troubleshooting articles are all forms of
 technical communication created by technical communicators working in the
 API documentation domain
 
-**Related Terms**: [content](writing-style.mdx#content),
-[content strategy](#content-strategy), [docs-as-ecosystem](#docs-as-ecosystem),
-[domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
-[knowledge management](#knowledge-management), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
-[ontology](#ontology), [taxonomy](#taxonomy)
+**Related Terms**: [content](writing-style.mdx#content), [content strategy](#content-strategy),
+[docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
+[information architecture](#information-architecture), [knowledge management](#knowledge-management),
+[metadata](./tools-techniques/documentation-specific.mdx#metadata), [ontology](#ontology),
+[self-healing system](#self-healing-system), [taxonomy](#taxonomy)
 
 **Sources**:
 

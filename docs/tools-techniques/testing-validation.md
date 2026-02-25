@@ -160,9 +160,8 @@ response; when developers change the button text from "Create Account" to
 
 **Related Terms**: [AI agent](../ai-and-apis.mdx#ai-agent),
 [API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
-[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
-[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
-[Playwright](#playwright), [Selenium](#selenium),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[Playwright](#playwright), [Selenium](#selenium), [self-healing system](../frameworks-strategy.mdx#self-healing-system),
 [Vale](documentation-specific.mdx#vale)
 
 **Sources**:
