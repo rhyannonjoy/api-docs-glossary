@@ -29,7 +29,7 @@ sequenceDiagram
 
 ---
 
-## Code of conduct
+## Code of Conduct
 
 Please be respectful and constructive in all interactions.
 This project follows standard open source etiquette. Visit
@@ -38,13 +38,15 @@ for more standard open source etiquette guidance.
 
 ---
 
-## Pull request tips
+## Pull Request Tips
 
 1. Fork this repository to a personal [GitHub](https://github.com) account.
 2. Build a local copy of the documentation from the fork:
 
    ```bash
+      # Download project dependencies
       npm install
+      # Review a copy of the docs
       npm start
    ```
 
@@ -52,30 +54,38 @@ for more standard open source etiquette guidance.
 4. If using [VS Code](https://code.visualstudio.com/download), install extensions
 [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 and [Vale VS Code](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode).
-5. Test all changes locally before submitting a pull request.
-6. Pull requests should be complete and self-contained. Don't submit
+5. Install [typos](https://github.com/crate-ci/typos) in the development environment.
+6. Run `typos` from the project root before submitting a pull request.
+7. Test all changes locally before submitting a pull request:
+
+    ```bash
+      # Check for config errors and/or broken links
+      npm run build
+      # Check that everything looks correct
+      npm start
+   ```
+
+8. Pull requests should be complete and self-contained. Don't submit
 placeholder content or partial entries.
-7. Ideally, pull requests should address an existing issue,
+9. Ideally, pull requests should address an existing issue,
 but this isn't required.
-8. Don't submit pull requests with lint or Vale errors in
+10. Don't submit pull requests with lint or Vale errors in
 the content or code examples.
 
 ---
 
-## Commit message guidelines
+## Commit Message Guidelines
 
 This project follows the [Conventional Commits](https://www.conventionalcommits.org/)
 specification to maintain clear, consistent commit history.
 
 ### Format
 
-Each commit message consists of a **type**, **scope**, and **subject**:
+Each commit message consists of a **type**, **scope**, **subject**, **issue number**:
 
 ```markdown
-<type>(<scope>): <subject>
+<Type>(<Scope>): <Subject> <Issue #>
 ```
-
-Example: `docs(tools-techniques): add relevant terms links`
 
 ### Type
 
@@ -104,7 +114,9 @@ The scope identifies which glossary section the changes impact:
     - `config`
     - `contribution-guide`
     - `get-started`
+    - `how-glossary-built`
     - `introduction`
+    - `prompt-templates`
     - `quick-reference`
     - `README`
     - `src` / `static`
@@ -113,54 +125,32 @@ The scope identifies which glossary section the changes impact:
 ### Subject
 
 - use present tense - "add" not "added"
-- these are labels, not complete sentences
+- these are _labels, not complete sentences_
 - don't capitalize the first letter
 - no period at the end
 - keep it concise - 50 characters or less
+- find issue numbers in the [repository's Issues tab](https://github.com/rhyannonjoy/api-docs-glossary/issues)
+- reference the issue in the PR description such as - "Resolves Issue #72"
 
 ### Examples
 
-**Good commit messages:**
-
 ```markdown
-docs(core-concepts): add HTTP status codes entry
-fix(tools-techniques): correct cURL installation link
-style(writing-style): fix capitalization in active voice
-docs(quick-reference): add REST API entry
-```
+# Good commit messages
+docs(core-concepts): add HTTP status codes (Issue #123)
+fix(tools-techniques): correct cURL link (Issue #125)
+style(writing-style): edit capitalization (Issue #141)
 
-**Bad commit messages:**
-
-```markdown
+# Bad commit messages
 Updated files
 Fixed stuff
-Added new term
 docs: changes
 ```
-
-### Pull request commits
-
-When submitting a pull request:
-
-1. **Reference the issue** in the PR description: "Resolves Issue #72"
-2. **Squash commits** - maintainers should squash many commits into
-one when merging
-3. **Write clear PR titles** - these become the commit message in the
-`main` branch
-
-The final squashed commit should follow the format:
-
-```markdown
-docs(scope): brief description (#issue-number)
-```
-
-Example: `docs(tools-techniques): add relevant terms links (#72)`
 
 ---
 
 ## Troubleshooting
 
-### Documentation build fails locally
+### Build fails locally
 
 Make sure all software requirements installed correctly.
 For example, ensure [Node.js](https://nodejs.org/en/download)
@@ -168,36 +158,41 @@ and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 are up to date. Run `npm install` in the fork directory,
 then attempt the build again.
 
+### Changes don't appear after pushing to GitHub
+
+GitHub Pages can take a few minutes to rebuild and deploy.
+Wait a few minutes, then refresh the site. Clear the browser cache -
+`Ctrl+Shift+Delete` on Windows/Linux, `Cmd+Shift+Delete` on Mac -
+if changes still don't appear.
+
+### Pull request has lint errors
+
+Run `npm run lint` locally to identify errors before submission.
+Most formatting issues can be auto-fixed with `npm run lint:fix`.
+
+### `typos` flags intentional spelling
+
+Check the `_typos.toml` configuration file in the repository root.
+Add false positives to `[default.extend-words]` to suppress them.
+Run `typos --config _typos.toml` to verify the configuration is loading correctly.
+
 ### Vale or markdownlint extensions don't appear in VS Code
 
 Install the extensions from
 [the Visual Studio Code marketplace](https://marketplace.visualstudio.com/VSCode).
 Reload VS Code - `Ctrl+R` on Windows/Linux and `Cmd+R` on Mac -  after installation.
 
-### Vale reports errors but the content appears correct
+### Vale reports errors, but content appears correct
 
 Check the `.vale.ini` configuration file in the repository root.
 Use `vale .` to run Vale from the command line and observe
 detailed error output.
 
-### Pull request marked as having lint errors
-
-Run `npm run lint` locally to identify errors before submission.
-Most formatting issues can be auto-fixed with `npm run lint:fix`.
-
-### Changes don't appear after pushing to GitHub
-
-GitHub Pages can take a few minutes to rebuild and deploy.
-Wait a few minutes, then refresh the site. Clear the browser cache
-(`Ctrl+Shift+Delete` on Windows/Linux, `Cmd+Shift+Delete` on Mac)
-if changes still don't appear.
-
 ---
 
-<!--## MIT License
+## MIT License
 
-_By contributing to this project, you agree to contribution license
-under the MIT License; visit the [LICENSE](../LICENSE) for details_
+_By contributing to this project, contributors agree to contribution license
+under the MIT License; visit the [LICENSE](../../LICENSE.txt) for details_
 
 ---
---->
