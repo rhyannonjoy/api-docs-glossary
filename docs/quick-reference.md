@@ -206,7 +206,8 @@ many different protocols
 
 ### authentication
 
-- API security measure that determines who users are
+- API security measure
+- determines who users are
 
 **Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authentication](./core-concepts/api-fundamentals.mdx#authentication)
 
@@ -214,7 +215,8 @@ many different protocols
 
 ### authorization
 
-- An API secutiry measure that determines what users can do
+- API security measure
+- determines what users can do
 
 **Glossary Term Entry Location**: [Core Concepts, API Fundamentals - authorization](./core-concepts/api-fundamentals.mdx#authorization)
 
@@ -2078,7 +2080,7 @@ interaction
 
 ### URI
 
-- acronym for _Uniform Resource Identifer_
+- acronym for _Uniform Resource Identifier_
 - standard format for identifying resources
 - forms the foundation for both URLs and URNs
 

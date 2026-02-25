@@ -162,7 +162,7 @@ response; when developers change the button text from "Create Account" to
 [API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
 [docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
-[Playwrite](#playwright), [Selenium](#selenium),
+[Playwright](#playwright), [Selenium](#selenium),
 [Vale](documentation-specific.mdx#vale)
 
 **Sources**:
