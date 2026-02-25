@@ -1,3 +1,5 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # Writing Style
 
 Language conventions, tone guidelines, and rhetorical approaches
@@ -8,13 +10,17 @@ engagement in technical writing.
 
 **Example Audience Communication Workflow**:
 
-![Audience Communication Workflow](../static/img/flowchart-audience-comm-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-audience-comm-workflow.png" 
+  alt="Worflow steps: rhetorical approach - consider audience, purpose, context, then choose tone, then express consistent voice"
+/>
+
 
 ---
 
 ## active voice
 
-**Definition**: sentence structure where the subject performs the
+**Definition**: grammatical sentence structure where the subject performs the
 action rather than receiving it
 
 **Purpose**: creates direct, clear communication that emphasizes
@@ -28,7 +34,7 @@ who does what in API documentation
 **Related Terms**: [rhetorical approach](#rhetorical-approach),
 [tone](#tone), [voice](#voice)
 
-**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.mdx)
 
 ---
 
@@ -77,16 +83,16 @@ and conceptual explanations all constitute content
 | **Human Involvement** | high - manual creation and updates | moderate - structured authoring | moderate - component maintenance | low - automated assembly | minimal - AI-driven transformation |
 | **API Docs Example** | traditional endpoint documentation page | endpoint data in separate, queryable fields | reusable error code descriptions | docs with real-time API status and user-specific examples | text documentation that converts to audio or adjusts detail level automatically |
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
-[content strategy](frameworks-strategy.md#content-strategy),
-[DAM](./tools-techniques/documentation-specific.md#dam),
-[Diátaxis](frameworks-strategy.md#diátaxis),
-[information architecture](frameworks-strategy.md#information-architecture),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
+[content strategy](frameworks-strategy.mdx#content-strategy),
+[DAM](./tools-techniques/documentation-specific.mdx#dam),
+[Diátaxis](frameworks-strategy.mdx#diátaxis),
+[information architecture](frameworks-strategy.mdx#information-architecture),
 [kinetic content](#kinetic-content), [liquid content](ai-and-apis.mdx#liquid-content),
-[metadata](./tools-techniques/documentation-specific.md#metadata),
+[metadata](./tools-techniques/documentation-specific.mdx#metadata),
 [modular content](#modular-content), [rhetorical approach](#rhetorical-approach),
 [structured content](#structured-content),
-[technical communication](frameworks-strategy.md#technical-communication),
+[technical communication](frameworks-strategy.mdx#technical-communication),
 [tone](#tone), [voice](#voice)
 
 **Source**: [Docs By Design: "Audience, Market, Product Webinar"](https://docsbydesign.com/category/technical-writing/audience-market-product/)
@@ -120,9 +126,9 @@ authentication method, or API version; or endpoint documentation
 that pulls real-time status information and adjusts examples based on
 current API capabilities
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
 [content](#content), [liquid content](ai-and-apis.mdx#liquid-content),
-[modular content](#modular-content), [real-time](api-types-architectures.md#real-time),
+[modular content](#modular-content), [real-time](api-types-architectures.mdx#real-time),
 [structured content](#structured-content)
 
 **Source**: [Kinetic Council, "What is Kinetic Information?"](https://www.kineticcouncil.org/about)
@@ -147,7 +153,7 @@ multiple API endpoint examples, or a standard error response
 description used across reference documentation without manual
 copying
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
 [content](#content), [kinetic content](#kinetic-content),
 [liquid content](ai-and-apis.mdx#liquid-content),
 [structured content](#structured-content)
@@ -201,10 +207,10 @@ method, path, parameters, response codes - in a CMS rather than
 as a single block of text, allowing the same information to appear
 in reference docs, tutorials, and SDK documentation
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
 [content](#content), [kinetic content](#kinetic-content),
 [liquid content](ai-and-apis.mdx#liquid-content),
-[metadata](./tools-techniques/documentation-specific.md#metadata),
+[metadata](./tools-techniques/documentation-specific.mdx#metadata),
 [modular content](#modular-content),
 [reference](./core-concepts/documentation-specific.mdx#reference),
 [SDK](./core-concepts/api-fundamentals.mdx#sdk)
@@ -233,7 +239,7 @@ both - "authentication is required"
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
-**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.mdx)
 
 ---
 
@@ -252,6 +258,6 @@ or "technically precise but accessible," maintained across all content types
 [rhetorical approach](#rhetorical-approach),
 [tone](#tone)
 
-**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.md)
+**Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.mdx)
 
 ---

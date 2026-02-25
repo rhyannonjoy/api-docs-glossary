@@ -1,4 +1,6 @@
 import React from 'react';
+import ZoomImage from '@site/src/components/ZoomImage';
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
 
 # AI & APIs
 
@@ -8,7 +10,10 @@ that impact how technical writers create and enhance API documentation.
 
 **AI-assisted documentation workflow**:
 
-![AI-assisted docs workflow flowchart](../static/img/flowchart-ai-apis.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-ai-apis.png" 
+  alt="Flowchart showing phases plan, draft with AI, human review, refine and verify, publish, maintain"
+/>
 
 ## AI
 
@@ -68,11 +73,14 @@ positive changes in software systems_
 **Example**: tech writer &rarr; [Docs Detective](https://doc-detective.com/) &rarr;
 [Claude Code](https://claude.com/product/claude-code) skills workflow -
 
-![Tech writer adds Doc Detective skill to Claude Code flowchart](../static/img/flowchart-ai-agent-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-ai-agent-workflow.png" 
+  alt="Flowchart showing stages: adding skill to Claude Code, tech writer asking agent to test, AI agent breaking the task down, reads docs, converts steps, runs tests, reports results"
+/>
 
 **Related Terms**: [AI](#ai),
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests), [Large Language Model](#large-language-model),
+[API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [Large Language Model](#large-language-model),
 [MCP server](#mcp-server), [Natural Language Processing](#natural-language-processing),
 [prompt engineering](#prompt-engineering), [RAG](#rag)
 
@@ -142,8 +150,8 @@ into usability testing strategies and may evolve as AI capabilities
 develop_
 
 **Related Terms**: [AI](#ai),
-[guerrilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
-[usability testing](workflows-methodologies.md#usability-testing)
+[guerrilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing),
+[usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 
@@ -210,7 +218,7 @@ text, the KG reveals that the payment endpoint is protected by
 `client_id`, `client_secret`, and `scope` - and generates a bearer token
 used in requests
 
-```mermaid
+<ZoomMermaid chart={`
 erDiagram
     OAUTH2 ||--|| AUTHENTICATION-METHOD : "is-a"
     OAUTH2 ||--|| CLIENT-CREDENTIALS : "requires"
@@ -236,7 +244,7 @@ erDiagram
         int code
         string message
     }
-```
+`} />
 
 ### Interactive KG Explorer
 
@@ -574,12 +582,12 @@ export const KnowledgeGraphExplorer = () => {
 
 <KnowledgeGraphExplorer />
 
-**Related Terms**: [content](writing-style.md#content),
-[diagram](./tools-techniques/diagramming-visualization.md#diagram),
-[information architecture](frameworks-strategy.md#information-architecture),
-[liquid content](#liquid-content), [modular content](writing-style.md#modular-content),
-[ontology](frameworks-strategy.md#ontology), [RAG](#rag),
-[structured content](writing-style.md#structured-content)
+**Related Terms**: [content](writing-style.mdx#content),
+[diagram](./tools-techniques/diagramming-visualization.mdx#diagram),
+[information architecture](frameworks-strategy.mdx#information-architecture),
+[liquid content](#liquid-content), [modular content](writing-style.mdx#modular-content),
+[ontology](frameworks-strategy.mdx#ontology), [RAG](#rag),
+[structured content](writing-style.mdx#structured-content)
 
 **Sources**:
 
@@ -632,12 +640,15 @@ stategies may or may not be AI-assisted
 
 **Example**: liquid content transformation paths -
 
-![Liquid Content Transformation Paths Flowchart](../static/img/flowchart-liquid-content-paths.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-liquid-content-paths.png" 
+  alt="Flowchart showing how AI adapts, personalizes, and transforms docs to different users - junior devs, senior devs, and users driving/commuting"
+/>
 
-**Related Terms**: [content](writing-style.md#content),
-[kinetic content](writing-style.md#kinetic-content), [Large Language Model](#large-language-model),
-[modular content](writing-style.md#modular-content), [real-time](api-types-architectures.md#real-time),
-[structured content](writing-style.md#structured-content)
+**Related Terms**: [content](writing-style.mdx#content),
+[kinetic content](writing-style.mdx#kinetic-content), [Large Language Model](#large-language-model),
+[modular content](writing-style.mdx#modular-content), [real-time](api-types-architectures.mdx#real-time),
+[structured content](writing-style.mdx#structured-content)
 
 **Sources**:
 
@@ -698,7 +709,7 @@ different tools or data sources
 
 **Example**: updating an API changelog using MCP servers
 
-```mermaid
+<ZoomMermaid chart={`
 sequenceDiagram
     participant Writer as Technical Writer
     participant AI as AI Assistant
@@ -712,7 +723,7 @@ sequenceDiagram
     Drive-->>AI: Return changelog
     AI->>AI: Generate updated release notes
     AI-->>Writer: Updated changelog with new entries
-```
+`}/>
 
 **Common Use Cases for Technical Writers**:
 
@@ -726,9 +737,9 @@ Google Drive
 **Related Terms**: [AI agent](#ai-agent), 
 [authentication](./core-concepts/api-fundamentals.mdx#authentication),
 [JSON](./core-concepts/api-fundamentals.mdx#json),
-[JSON-RPC](api-types-architectures.md#json-rpc),
-[REST API](./api-types-architectures.md#rest-api),
-[webhook API](./api-types-architectures.md#webhook-api)
+[JSON-RPC](api-types-architectures.mdx#json-rpc),
+[REST API](./api-types-architectures.mdx#rest-api),
+[webhook API](./api-types-architectures.mdx#webhook-api)
 
 **Sources**:
 
@@ -806,11 +817,11 @@ authentication guide, you need to include your API key in the Authorization
 header as a Bearer token"_ with citations to the source docs
 
 **Related Terms**: [AI agent](#ai-agent),
-[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
-[domain knowledge](frameworks-strategy.md#domain-knowledge),
-[Fin](./tools-techniques/documentation-specific.md#fin),
-[Inkeep](./tools-techniques/documentation-specific.md#inkeep),
-[Kapa.ai](./tools-techniques/documentation-specific.md#kapaai),
+[docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
+[domain knowledge](frameworks-strategy.mdx#domain-knowledge),
+[Fin](./tools-techniques/documentation-specific.mdx#fin),
+[Inkeep](./tools-techniques/documentation-specific.mdx#inkeep),
+[Kapa.ai](./tools-techniques/documentation-specific.mdx#kapaai),
 [knowledge graph](#knowledge-graph),
 [Large Language Model](#large-language-model)
 

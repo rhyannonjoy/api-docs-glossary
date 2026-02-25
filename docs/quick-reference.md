@@ -17,7 +17,16 @@ belong in the full documentation structure.
 - the practice of designing and creating content, interfaces,
 and experiences for people with diverse abilities and disabilities
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - accessibility](frameworks-strategy.md#accessibility)
+**Glossary Term Entry Location**: [Frameworks & Strategy - accessibility](frameworks-strategy.mdx#accessibility)
+
+---
+
+### active voice
+
+- grammatical sentence structure
+- subject performs the action rather than receiving it
+
+**Glossary Term Entry Location**: [Writing Style - active voice](writing-style.mdx#active-voice)
 
 ---
 
@@ -26,7 +35,7 @@ and experiences for people with diverse abilities and disabilities
 - affect - _verb_: to influence
 - effect - _noun_: the result
 
-**Glossary Term Entry Location**: [Writing Style - affect vs effect](writing-style.md#affect-vs-effect)
+**Glossary Term Entry Location**: [Writing Style - affect vs effect](writing-style.mdx#affect-vs-effect)
 
 ---
 
@@ -35,7 +44,7 @@ and experiences for people with diverse abilities and disabilities
 - project management method
 - breaks projects down into smaller phases, relies on iterative cycles
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Agile](workflows-methodologies.md#agile)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Agile](workflows-methodologies.mdx#agile)
 
 ---
 
@@ -97,7 +106,7 @@ model design
 - open standard application layer protocol for message-oriented middleware
 that enables reliable, asynchronous communication between applications
 
-**Glossary Term Entry Location**: [API Types & Architectures - AMQP](api-types-architectures.md#amqp)
+**Glossary Term Entry Location**: [API Types & Architectures - AMQP](api-types-architectures.mdx#amqp)
 
 ---
 
@@ -126,7 +135,7 @@ that enables reliable, asynchronous communication between applications
 - QA ensures the product works correctly, while documentation
 testing ensures user content accuracy
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - API documentation testing](workflows-methodologies.md#api-documentation-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - API documentation testing](workflows-methodologies.mdx#api-documentation-testing)
 
 ---
 
@@ -145,7 +154,7 @@ testing ensures user content accuracy
 - enables centralized security, monitoring, and versioning
 without clients needing to know about backend architecture
 
-**Glossary Term Entry Location**: [APT Types & Architectures - API gateway](api-types-architectures.md#api-gateway)
+**Glossary Term Entry Location**: [APT Types & Architectures - API gateway](api-types-architectures.mdx#api-gateway)
 
 ---
 
@@ -222,7 +231,7 @@ many different protocols
 - way for teams to work that closes the gap between business and
 technical people
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - BDD](workflows-methodologies.md#bdd)
+**Glossary Term Entry Location**: [Workflows & Methodologies - BDD](workflows-methodologies.mdx#bdd)
 
 ---
 
@@ -233,7 +242,7 @@ technical people
 - parallel version of a code repository and/or separate line of development
 in a repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - branch](./tools-techniques/development-essentials.md#branch)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - branch](./tools-techniques/development-essentials.mdx#branch)
 
 ---
 
@@ -256,7 +265,7 @@ in a repository
 - hierarchical approach to software architecture diagrams
 - consists of four levels - _Context, Containers, Components, and Code_
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - C4 model](./tools-techniques/diagramming-visualization.md#c4-model)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - C4 model](./tools-techniques/diagramming-visualization.mdx#c4-model)
 
 ---
 
@@ -266,7 +275,7 @@ in a repository
 - Git feature
 - copying selected commits from one branch to another branch
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - cherry-pick](./tools-techniques/development-essentials.md#cherry-pick)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - cherry-pick](./tools-techniques/development-essentials.mdx#cherry-pick)
 
 ---
 
@@ -276,7 +285,7 @@ in a repository
 - automated workflow that builds, tests, and deploys code changes to
 production environments with minimal manual intervention
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CI/CD pipeline](./tools-techniques/development-essentials.mdx#cicd-pipeline)
 
 ---
 
@@ -286,7 +295,7 @@ production environments with minimal manual intervention
 - text-based interface where users interact with software by typing
 commands rather than clicking graphical elements
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CLI](./tools-techniques/development-essentials.md#cli)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - CLI](./tools-techniques/development-essentials.mdx#cli)
 
 ---
 
@@ -297,7 +306,7 @@ commands rather than clicking graphical elements
 - copy of a code repository that lives in the development environment,
 instead of hosted on GitHub
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - clone](./tools-techniques/development-essentials.md#clone)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - clone](./tools-techniques/development-essentials.mdx#clone)
 
 ---
 
@@ -307,7 +316,7 @@ instead of hosted on GitHub
 - software platform that enables teams to create, organize, store, and
 publish content without requiring direct code or database manipulation
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific, CMS](./tools-techniques/documentation-specific.md#cms)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific, CMS](./tools-techniques/documentation-specific.mdx#cms)
 
 ---
 
@@ -316,7 +325,7 @@ publish content without requiring direct code or database manipulation
 - framework for evaluating and enhancing the usability of APIs
 - includes 12 dimensions
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - cognitive dimensions of API usability](frameworks-strategy.md#cognitive-dimensions-of-api-usability)
+**Glossary Term Entry Location**: [Frameworks & Strategy - cognitive dimensions of API usability](frameworks-strategy.mdx#cognitive-dimensions-of-api-usability)
 
 ---
 
@@ -327,7 +336,7 @@ publish content without requiring direct code or database manipulation
 - code repository snapshot at a certain point-in-time
 - includes commit hash
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit](./tools-techniques/development-essentials.md#commit)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit](./tools-techniques/development-essentials.mdx#commit)
 
 ---
 
@@ -338,7 +347,7 @@ publish content without requiring direct code or database manipulation
 - alphanumeric unique identifier auto-generated for each commit by
 using the SHA-1 hash function
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit hash](./tools-techniques/development-essentials.md#commit-hash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - commit hash](./tools-techniques/development-essentials.mdx#commit-hash)
 
 ---
 
@@ -359,7 +368,7 @@ introductory level
 - technical communication concept
 - anything written for someone else to read
 
-**Glossary Term Entry Location**: [Writing Style - content](writing-style.md#content)
+**Glossary Term Entry Location**: [Writing Style - content](writing-style.mdx#content)
 
 ---
 
@@ -370,7 +379,7 @@ its entire lifecycle
 - content creation, governance, delivery, measurement to meet business goals
 and user needs
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - content strategy](frameworks-strategy.md#content-strategy)
+**Glossary Term Entry Location**: [Frameworks & Strategy - content strategy](frameworks-strategy.mdx#content-strategy)
 
 ---
 
@@ -380,7 +389,7 @@ and user needs
 - ensures that the API does what the docs says it does, keeps its "definition promises"
 or satisfies its "contract" with the client/consumers
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - contract testing](workflows-methodologies.md#contract-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - contract testing](workflows-methodologies.mdx#contract-testing)
 
 ---
 
@@ -391,7 +400,7 @@ or satisfies its "contract" with the client/consumers
 - focuses on resources needed to complete the project’s tasks by adding
 resource availability to the critical path
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management](workflows-methodologies.md#critical-chain-project-management)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Chain Project Management](workflows-methodologies.mdx#critical-chain-project-management)
 
 ---
 
@@ -402,7 +411,7 @@ resource availability to the critical path
 - identifying a "critical path" of task sequences
 - some tasks can't start until previous ones finish
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method](workflows-methodologies.md#critical-path-method)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Critical Path Method](workflows-methodologies.mdx#critical-path-method)
 
 ---
 
@@ -431,7 +440,7 @@ directly to HTTP methods
 - command-Line tool available on Windows, MacOS, Linux
 - sends and receives HTTP and/or HTTPS requests
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - cURL](./tools-techniques/development-essentials.md#curl)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - cURL](./tools-techniques/development-essentials.mdx#curl)
 
 ---
 
@@ -454,7 +463,7 @@ directly to HTTP methods
 - modern DSL that turns text into software architecture diagrams
 - features include contemporary syntax and extensive layout options
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - D2](./tools-techniques/diagramming-visualization.md#d2)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - D2](./tools-techniques/diagramming-visualization.mdx#d2)
 
 ---
 
@@ -464,7 +473,7 @@ directly to HTTP methods
 - software platform and business process for storing, organizing, managing,
 retrieving, and distributing media and/or digital files
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - DAM](./tools-techniques/documentation-specific.md#dam)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - DAM](./tools-techniques/documentation-specific.mdx#dam)
 
 ---
 
@@ -482,7 +491,7 @@ retrieving, and distributing media and/or digital files
 - visual representation of a system, process, or concept
 - communicates tech information more efficiently than prose alone
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - diagram](./tools-techniques/diagramming-visualization.md#diagram)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - diagram](./tools-techniques/diagramming-visualization.mdx#diagram)
 
 ---
 
@@ -494,7 +503,7 @@ binary image files
 - subset of the broader docs-as-code philosophy applied specifically
 to visual content
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - diagrams-as-code](workflows-methodologies.md#diagrams-as-code)
+**Glossary Term Entry Location**: [Workflows & Methodologies - diagrams-as-code](workflows-methodologies.mdx#diagrams-as-code)
 
 ---
 
@@ -504,7 +513,7 @@ to visual content
 four content types: explanation, how-to-guides, reference, and tutorials
 - results in more user-friendly documentation
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - Diátaxis](frameworks-strategy.md#diátaxis)
+**Glossary Term Entry Location**: [Frameworks & Strategy - Diátaxis](frameworks-strategy.mdx#diátaxis)
 
 ---
 
@@ -525,7 +534,7 @@ as software development
 - enables documentation teams to manage content in version control systems
 alongside code
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - docs-as-code](workflows-methodologies.md#docs-as-code)
+**Glossary Term Entry Location**: [Workflows & Methodologies - docs-as-code](workflows-methodologies.mdx#docs-as-code)
 
 ---
 
@@ -536,7 +545,7 @@ alongside code
 creating and maintaining API documentation that foster sustained engagement
 and collaborative growth
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem)
+**Glossary Term Entry Location**: [Frameworks & Strategy - docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem)
 
 ---
 
@@ -546,7 +555,7 @@ and collaborative growth
 - treats documentation as testable assertions
 - maintains documentation accuracy through automated testing
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - docs-as-tests](workflows-methodologies.md#docs-as-tests)
+**Glossary Term Entry Location**: [Workflows & Methodologies - docs-as-tests](workflows-methodologies.mdx#docs-as-tests)
 
 ---
 
@@ -557,7 +566,7 @@ and collaborative growth
 of documentation
 - example formats: PDF, Word doc, online articles, website content
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle](workflows-methodologies.md#document-development-life-cycle)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Document Development Life Cycle](workflows-methodologies.mdx#document-development-life-cycle)
 
 ---
 
@@ -566,7 +575,7 @@ of documentation
 - open source static site generator by Meta
 - creates docs sites with versioning, search, internationalization
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Docusaurus](./tools-techniques/documentation-specific.md#docusaurus)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Docusaurus](./tools-techniques/documentation-specific.mdx#docusaurus)
 
 ---
 
@@ -574,7 +583,7 @@ of documentation
 
 - understanding of a specific industry, discipline, or activity
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - domain knowledge](frameworks-strategy.md#domain-knowledge)
+**Glossary Term Entry Location**: [Frameworks & Strategy - domain knowledge](frameworks-strategy.mdx#domain-knowledge)
 
 ---
 
@@ -583,7 +592,7 @@ of documentation
 - also known as [`diagrams.net`](https://www.drawio.com/)
 - free, open source diagramming tool
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - draw.io](./tools-techniques/diagramming-visualization.md#drawio)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - draw.io](./tools-techniques/diagramming-visualization.mdx#drawio)
 
 ---
 
@@ -603,7 +612,7 @@ against the backend implementation of the API
 - programming or specification language designed for a particular domain,
 problem space, or tool rather than general-purpose software development
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - DSL](./tools-techniques/diagramming-visualization.md#dsl)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - DSL](./tools-techniques/diagramming-visualization.mdx#dsl)
 
 ---
 
@@ -615,7 +624,7 @@ problem space, or tool rather than general-purpose software development
 interaction, UX, organizational psychology, and software engineering
 to optimize development
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - DX](frameworks-strategy.md#dx)
+**Glossary Term Entry Location**: [Frameworks & Strategy - DX](frameworks-strategy.mdx#dx)
 
 ---
 
@@ -630,7 +639,7 @@ characteristics, and motivations that are common to particular
 groups of people or personas using products
 - typically includes three personas
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - end-user software engineer](frameworks-strategy.md#end-user-software-engineer)
+**Glossary Term Entry Location**: [Frameworks & Strategy - end-user software engineer](frameworks-strategy.mdx#end-user-software-engineer)
 
 ---
 
@@ -661,7 +670,7 @@ occur during API operations
 specific events
 - reduces unnecessary network traffic and server load
 
-**Glossary Term Entry Location**: [API Types & Architectures - event-driven](api-types-architectures.md#event-driven)
+**Glossary Term Entry Location**: [API Types & Architectures - event-driven](api-types-architectures.mdx#event-driven)
 
 ---
 
@@ -671,7 +680,7 @@ specific events
 - created hand-drawn style diagrams with minimalist interface,
 collaborative features
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Excalidraw](./tools-techniques/diagramming-visualization.md#excalidraw)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Excalidraw](./tools-techniques/diagramming-visualization.mdx#excalidraw)
 
 ---
 
@@ -695,7 +704,7 @@ collaborative features
 - maintains synchronized internal docs by integrating with
 GitHub, Linear, and Slack
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Falconer](./tools-techniques/documentation-specific.md#falconer)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Falconer](./tools-techniques/documentation-specific.mdx#falconer)
 
 ---
 
@@ -704,7 +713,7 @@ GitHub, Linear, and Slack
 - open source toolset acquired by Postman in January 2026
 - automatically generates type-safe SDKs, interactive docs
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fern](./tools-techniques/documentation-specific.md#fern)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fern](./tools-techniques/documentation-specific.mdx#fern)
 
 ---
 
@@ -714,7 +723,7 @@ GitHub, Linear, and Slack
 - resolves technical questions using docs, help centers, and
 support tickets
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fin](./tools-techniques/documentation-specific.md#fin)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fin](./tools-techniques/documentation-specific.mdx#fin)
 
 ---
 
@@ -724,7 +733,7 @@ support tickets
 - Git feature
 - moving changes upstream that rewrite commits that are already present upstream
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - force push](./tools-techniques/development-essentials.md#force-push)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - force push](./tools-techniques/development-essentials.mdx#force-push)
 
 ---
 
@@ -736,7 +745,7 @@ support tickets
 - personal copy of another user’s repository that lives
 in one's GitHub account
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - fork](./tools-techniques/development-essentials.md#fork)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - fork](./tools-techniques/development-essentials.mdx#fork)
 
 ---
 
@@ -780,7 +789,7 @@ first meaningful interaction with a product or feature
 - command-line program that manages versions of source code and/or data
 - commonly used by developers building software collaborately
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git](./tools-techniques/development-essentials.md#git)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git](./tools-techniques/development-essentials.mdx#git)
 
 ---
 
@@ -790,7 +799,7 @@ first meaningful interaction with a product or feature
 - command-line interface that emulates the Unix Bash command line
 - enables management of version control and code collaboration
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git Bash](./tools-techniques/development-essentials.md#git-bash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - Git Bash](./tools-techniques/development-essentials.mdx#git-bash)
 
 ---
 
@@ -800,7 +809,7 @@ first meaningful interaction with a product or feature
 - provides cloud-based storage, version control, and automation
 service
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub](./tools-techniques/development-essentials.md#github)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub](./tools-techniques/development-essentials.mdx#github)
 
 ---
 
@@ -809,7 +818,7 @@ service
 - free, open source app
 - user interface that manages GitHub repositories and local clones
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub Desktop](./tools-techniques/development-essentials.md#github-desktop)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - GitHub Desktop](./tools-techniques/development-essentials.mdx#github-desktop)
 
 ---
 
@@ -818,7 +827,7 @@ service
 - free static site hosting service by GitHub
 - builds and deploys websites directly from a GitHub repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - GitHub Pages](./tools-techniques/documentation-specific.md#github-pages)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - GitHub Pages](./tools-techniques/documentation-specific.mdx#github-pages)
 
 ---
 
@@ -837,7 +846,7 @@ service
 to request exactly the data they need through a single endpoint
 - valuable for complex, interconnected data models
 
-**Glossary Term Entry Location**: [API Types & Architectures - GraphQL API](api-types-architectures.md#graphql-api)
+**Glossary Term Entry Location**: [API Types & Architectures - GraphQL API](api-types-architectures.mdx#graphql-api)
 
 ---
 
@@ -846,7 +855,7 @@ to request exactly the data they need through a single endpoint
 - uses gRPC - _Google's Remote Procedure Call_ - framework
 - relies on Protocol Buffers  
 
-**Glossary Term Entry Location**: [API Types & Architectures - gRPC API](api-types-architectures.md#grpc-api)
+**Glossary Term Entry Location**: [API Types & Architectures - gRPC API](api-types-architectures.mdx#grpc-api)
 
 ---
 
@@ -857,7 +866,7 @@ its visual design, capability, and general message on its
 intended audience and capturing their responses
 - typically low maintenance with predefined tasks
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - guerrilla usability testing](workflows-methodologies.md#guerrilla-usability-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - guerrilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing)
 
 ---
 
@@ -866,7 +875,7 @@ intended audience and capturing their responses
 - acronym for _graphical user interface_
 - form of user interface with graphical icons and visual indicators
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - GUI](./tools-techniques/development-essentials.md#gui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - GUI](./tools-techniques/development-essentials.mdx#gui)
 
 ---
 
@@ -952,7 +961,7 @@ of how many times it's executed
 - interactive diagramming tool for software architecture
 - creates layered, explorable system views from text and/or YAML files
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Ilograph](./tools-techniques/diagramming-visualization.md#ilograph)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Ilograph](./tools-techniques/diagramming-visualization.mdx#ilograph)
 
 ---
 
@@ -963,7 +972,7 @@ of how many times it's executed
 - the structural design of information environments
 - uses metadata and taxonomy to organize content for users
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - information architecture](frameworks-strategy.md#information-architecture)
+**Glossary Term Entry Location**: [Frameworks & Strategy - information architecture](frameworks-strategy.mdx#information-architecture)
 
 ---
 
@@ -973,7 +982,7 @@ of how many times it's executed
 - provides contextual answers from docs, code repositories,
 and community discussions
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Inkeep](./tools-techniques/documentation-specific.md#inkeep)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Inkeep](./tools-techniques/documentation-specific.mdx#inkeep)
 
 ---
 
@@ -1007,7 +1016,7 @@ to represent structured data
 - treats API interactions as direct function calls rather than
 resource-oriented requests
 
-**Glossary Term Entry Location**: [API Types & Architectures - JSON-RPC](api-types-architectures.md#json-rpc)
+**Glossary Term Entry Location**: [API Types & Architectures - JSON-RPC](api-types-architectures.mdx#json-rpc)
 
 ---
 
@@ -1031,7 +1040,7 @@ prototype and test API documentation without a live backend
 - distributed data store optimized for ingesting and processing streaming
 data in real-time
 
-**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Kafka](./tools-techniques/infrastructure-platforms.md#kafka)
+**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Kafka](./tools-techniques/infrastructure-platforms.mdx#kafka)
 
 ---
 
@@ -1041,7 +1050,7 @@ data in real-time
 - integrates with developer docs and community resources to
 answer technical questions using RAG
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Kapa.ai](./tools-techniques/documentation-specific.md#kapaai)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Kapa.ai](./tools-techniques/documentation-specific.mdx#kapaai)
 
 ---
 
@@ -1063,7 +1072,7 @@ behavior-driven development syntax
 dynamically, integrate real-time data, and distribute to multiple
 audiences with minimal human intervention
 
-**Glossary Term Entry Location**: [Writing Style - kinetic content](writing-style.md#kinetic-content)
+**Glossary Term Entry Location**: [Writing Style - kinetic content](writing-style.mdx#kinetic-content)
 
 ---
 
@@ -1085,7 +1094,7 @@ query and reason about
 - organizational discipline
 - focuses on creating, structuring, sharing, and maintaining collective knowledge
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - knowledge management](./frameworks-strategy.md#knowledge-management)
+**Glossary Term Entry Location**: [Frameworks & Strategy - knowledge management](./frameworks-strategy.mdx#knowledge-management)
 
 ---
 
@@ -1118,7 +1127,7 @@ content
 - project management and issue tracking software
 - manages doc tickets, tracks docs debt, and enables release coordination
 
-**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Linear](./tools-techniques/infrastructure-platforms.md#linear)
+**Glossary Term Entry Location**: [Tools & Techniques, Infrastructure & Platforms - Linear](./tools-techniques/infrastructure-platforms.mdx#linear)
 
 ---
 
@@ -1128,7 +1137,7 @@ content
 - features include real-time collaboration, extensive shape libraries, and
 integrations with documentation platforms
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Lucidchart](./tools-techniques/diagramming-visualization.md#lucidchart)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Lucidchart](./tools-techniques/diagramming-visualization.mdx#lucidchart)
 
 ---
 
@@ -1153,7 +1162,7 @@ to complete new tasks
 - default branch of a repository containing the published, released, or trusted
 version of content
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - `main` branch](./tools-techniques/development-essentials.md#main-branch)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - `main` branch](./tools-techniques/development-essentials.mdx#main-branch)
 
 ---
 
@@ -1162,7 +1171,7 @@ version of content
 - markup language designed to format plain text documents
 - popular for writing documentation
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Markdown](./tools-techniques/documentation-specific.md#markdown)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Markdown](./tools-techniques/documentation-specific.mdx#markdown)
 
 ---
 
@@ -1171,7 +1180,7 @@ version of content
 - space in which customers access a company and/or products
 that compete with similar offerings
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - market](frameworks-strategy.md#market)
+**Glossary Term Entry Location**: [Frameworks & Strategy - market](frameworks-strategy.mdx#market)
 
 ---
 
@@ -1192,7 +1201,7 @@ _JavaScript XML_
 - enables writers to embed interactive React components
 directly within Markdown content
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - MDX](./tools-techniques/documentation-specific.md#mdx)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - MDX](./tools-techniques/documentation-specific.mdx#mdx)
 
 ---
 
@@ -1201,7 +1210,7 @@ directly within Markdown content
 - open protocol built on top of HTTP and Server-Sent Events
 - enables real-time data updates from servers to web browsers
 
-**Glossary Term Entry Location**: [API Types & Architectures - Mercure](api-types-architectures.md#mercure)
+**Glossary Term Entry Location**: [API Types & Architectures - Mercure](api-types-architectures.mdx#mercure)
 
 ---
 
@@ -1211,7 +1220,7 @@ directly within Markdown content
 - Git feature
 - moving the changes from one branch to another branch
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge](./tools-techniques/development-essentials.md#merge)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge](./tools-techniques/development-essentials.mdx#merge)
 
 ---
 
@@ -1222,7 +1231,7 @@ directly within Markdown content
 - a commit that after branching, integrates changes from
 a feature branch with updates that occurred in the original branch
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge commit](./tools-techniques/development-essentials.md#merge-commit)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge commit](./tools-techniques/development-essentials.mdx#merge-commit)
 
 ---
 
@@ -1233,7 +1242,7 @@ a feature branch with updates that occurred in the original branch
 - scenario in which two commits have changes in the same file
 - blocks merging and requires manual resolution
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge conflict](./tools-techniques/development-essentials.md#merge-conflict)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - merge conflict](./tools-techniques/development-essentials.mdx#merge-conflict)
 
 ---
 
@@ -1243,7 +1252,7 @@ a feature branch with updates that occurred in the original branch
 - renders text-based diagram definitions into flowcharts, sequence
 diagrams, and other visualizations directly in Markdown files
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Mermaid](./tools-techniques/diagramming-visualization.md#mermaid)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Mermaid](./tools-techniques/diagramming-visualization.mdx#mermaid)
 
 ---
 
@@ -1263,7 +1272,7 @@ and delivers messages between applications, services, or systems
 - structured information that describes, explains, locates, or
 otherwise makes it easier to retrieve, use, or manage content
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - metadata](./tools-techniques/documentation-specific.md#metadata)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - metadata](./tools-techniques/documentation-specific.mdx#metadata)
 
 ---
 
@@ -1282,7 +1291,7 @@ contract testing
 - architectural approach
 - apps as a collection of small, independently deployable services
 
-**Glossary Term Entry Location**: [API Types & Architectures - microservices](api-types-architectures.md#microservices)
+**Glossary Term Entry Location**: [API Types & Architectures - microservices](api-types-architectures.mdx#microservices)
 
 ---
 
@@ -1292,7 +1301,7 @@ contract testing
 - Python-based static site generator
 - designed specifically for building project docs from Markdown files
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - MkDocs](./tools-techniques/documentation-specific.md#mkdocs)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - MkDocs](./tools-techniques/documentation-specific.mdx#mkdocs)
 
 ---
 
@@ -1303,7 +1312,7 @@ contract testing
 and enable tech writers to combine units in different ways across
 documentation
 
-**Glossary Term Entry Location**: [Writing Style - modular content](writing-style.md#modular-content)
+**Glossary Term Entry Location**: [Writing Style - modular content](writing-style.mdx#modular-content)
 
 ---
 
@@ -1314,7 +1323,7 @@ documentation
 - single version control repository stores code for multiple related
 projects rather than across separate repositories
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - monorepo](./tools-techniques/development-essentials.md#monorepo)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - monorepo](./tools-techniques/development-essentials.mdx#monorepo)
 
 ---
 
@@ -1324,7 +1333,7 @@ projects rather than across separate repositories
 - lightweight publish-subscribe messaging protocol designed for constrained
 devices and networks with limited bandwidth or unreliable connections
 
-**Glossary Term Entry Location**: [API Types & Architectures - MQTT](api-types-architectures.md#mqtt)
+**Glossary Term Entry Location**: [API Types & Architectures - MQTT](api-types-architectures.mdx#mqtt)
 
 ---
 
@@ -1361,7 +1370,7 @@ that mimic humans’ use of language
 categories, and relationships within a domain that defines what entities exist,
 what properties they have, and how they relate to each other
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - ontology](frameworks-strategy.md#ontology)
+**Glossary Term Entry Location**: [Frameworks & Strategy - ontology](frameworks-strategy.mdx#ontology)
 
 ---
 
@@ -1381,7 +1390,7 @@ what properties they have, and how they relate to each other
 - version control concept
 - default upstream repository, typically clone source repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - origin repository](./tools-techniques/development-essentials.md#origin-repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - origin repository](./tools-techniques/development-essentials.mdx#origin-repository)
 
 ---
 
@@ -1412,7 +1421,7 @@ what properties they have, and how they relate to each other
 - static site generator feature for embedding reusable content
 - enables single-source content maintenance across multiple pages
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - partials](./tools-techniques/documentation-specific.md#partials)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - partials](./tools-techniques/documentation-specific.mdx#partials)
 
 ---
 
@@ -1441,7 +1450,7 @@ body
 - generates architectural, sequence, and UML diagrams from plain
 text markup
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - PlantUML](./tools-techniques/diagramming-visualization.md#plantuml)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - PlantUML](./tools-techniques/diagramming-visualization.mdx#plantuml)
 
 ---
 
@@ -1462,7 +1471,7 @@ procedures work as written
 - software development strategy
 - separate version control repositories for different projects
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control](./tools-techniques/development-essentials.md#polyrepo)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control](./tools-techniques/development-essentials.mdx#polyrepo)
 
 ---
 
@@ -1480,7 +1489,7 @@ procedures work as written
 - API development platform
 - commonly used for REST API development, exploration, and testing workflows
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Postman](./tools-techniques/documentation-specific.md#postman)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Postman](./tools-techniques/documentation-specific.mdx#postman)
 
 ---
 
@@ -1499,7 +1508,7 @@ workflows
 - different ways to approach and organize a project
 - ranges from sequential to iterative frameworks
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - project management methodology](workflows-methodologies.md#project-management-methodology)
+**Glossary Term Entry Location**: [Workflows & Methodologies - project management methodology](workflows-methodologies.mdx#project-management-methodology)
 
 ---
 
@@ -1518,7 +1527,7 @@ AI systems to generate desired outputs
 - language and platform neutral mechanism for serializing structured data
 - enables strongly typed contracts between services
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - Protocol Buffers](./tools-techniques/development-essentials.mdx#protocol-buffers)
 
 ---
 
@@ -1529,7 +1538,7 @@ AI systems to generate desired outputs
 - fetching changes from upstream, such as pulling the changes
 down from an origin or upstream repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull](./tools-techniques/development-essentials.md#pull)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull](./tools-techniques/development-essentials.mdx#pull)
 
 ---
 
@@ -1541,7 +1550,7 @@ down from an origin or upstream repository
 - request to another user that invites them to pull one's changes from
 a repository/branch into their repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull request](./tools-techniques/development-essentials.md#pull-request)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - pull request](./tools-techniques/development-essentials.mdx#pull-request)
 
 ---
 
@@ -1552,7 +1561,7 @@ a repository/branch into their repository
 - moving changes upstream, such as from a local computer
 to its origin repository
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - push](./tools-techniques/development-essentials.md#push)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - push](./tools-techniques/development-essentials.mdx#push)
 
 ---
 
@@ -1573,7 +1582,7 @@ diagrams using code
 - includes pre-built icons for AWS, Azure, GCP, Kubernetes,
 and other cloud services
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Python Diagrams](./tools-techniques/diagramming-visualization.md#python-diagrams)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Python Diagrams](./tools-techniques/diagramming-visualization.mdx#python-diagrams)
 
 ---
 
@@ -1621,7 +1630,7 @@ fair access for all users
 - describes systems and/or APIs that process data with minimal delay
 - supports use cases requiring instant updates
 
-**Glossary Term Entry Location**: [API Types & Architectures - real-time](api-types-architectures.md#real-time)
+**Glossary Term Entry Location**: [API Types & Architectures - real-time](api-types-architectures.mdx#real-time)
 
 ---
 
@@ -1632,7 +1641,7 @@ fair access for all users
 - used to resync a feature branch to its source branch
 after the source branch has changed
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - rebase](./tools-techniques/development-essentials.md#rebase)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - rebase](./tools-techniques/development-essentials.mdx#rebase)
 
 ---
 
@@ -1641,7 +1650,7 @@ after the source branch has changed
 - API documentation platform and OpenAPI tooling suite
 - creates, validates, and publishes API reference documentation
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Redocly](./tools-techniques/documentation-specific.md#redocly)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Redocly](./tools-techniques/documentation-specific.mdx#redocly)
 
 ---
 
@@ -1670,7 +1679,7 @@ that validate documentation accuracy
 - also known as "repo"
 - place to store files that are under Git’s version control
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - repository](./tools-techniques/development-essentials.md#repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - repository](./tools-techniques/development-essentials.mdx#repository)
 
 ---
 
@@ -1701,7 +1710,7 @@ or modification through an API
 - an architectural style for distributed hypermedia systems
 - one of the most widely used approaches for building web-based APIs
 
-**Glossary Term Entry Location**: [API Types & Architectures - REST API](api-types-architectures.md#rest-api)
+**Glossary Term Entry Location**: [API Types & Architectures - REST API](api-types-architectures.mdx#rest-api)
 
 ---
 
@@ -1711,7 +1720,7 @@ or modification through an API
 - "RESTful" describes APIs that follow REST principles
 - terms are often used interchangeably
 
-**Glossary Term Entry Location**: [API Types & Architectures - REST vs *REST*ful](api-types-architectures.md#rest-vs-restful)
+**Glossary Term Entry Location**: [API Types & Architectures - REST vs *REST*ful](api-types-architectures.mdx#rest-vs-restful)
 
 ---
 
@@ -1722,7 +1731,7 @@ or modification through an API
 - numbered technical documents
 - provide authoritative specifications for web standards
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - RFC](./tools-techniques/documentation-specific.md#rfc)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - RFC](./tools-techniques/documentation-specific.mdx#rfc)
 
 ---
 
@@ -1731,7 +1740,7 @@ or modification through an API
 - communication framework
 - also known as "the tone" or "editorial voice"
 
-**Glossary Term Entry Location**: [Writing Style - rhetorical approach](writing-style.md#rhetorical-approach)
+**Glossary Term Entry Location**: [Writing Style - rhetorical approach](writing-style.mdx#rhetorical-approach)
 
 ---
 
@@ -1742,7 +1751,7 @@ or modification through an API
 - allows clients to execute functions on remote servers
 as if calling local functions
 
-**Glossary Term Entry Location**: [API Types & Architectures - RPC API](api-types-architectures.md#rpc-api)
+**Glossary Term Entry Location**: [API Types & Architectures - RPC API](api-types-architectures.mdx#rpc-api)
 
 ---
 
@@ -1765,7 +1774,7 @@ as if calling local functions
 - materials used internally to inform sales representatives
 or externally to educate and convert prospective customers
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - sales collateral](frameworks-strategy.md#sales-collateral)
+**Glossary Term Entry Location**: [Frameworks & Strategy - sales collateral](frameworks-strategy.mdx#sales-collateral)
 
 ---
 
@@ -1787,7 +1796,7 @@ relationships within an API's requests and responses
 - work in short-cycles of 2 weeks call “sprints”
 - meet daily to discuss work
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Scrum](workflows-methodologies.md#scrum)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Scrum](workflows-methodologies.mdx#scrum)
 
 ---
 
@@ -1827,7 +1836,7 @@ network transmission or storage, then reconstruction
 - standard enabling servers to push real-time updates to web browsers
 over HTTP through unidirectional event streams from server to client
 
-**Glossary Term Entry Location**: [API Types & Architectures - Server-Sent Events](api-types-architectures.md#server-sent-events)
+**Glossary Term Entry Location**: [API Types & Architectures - Server-Sent Events](api-types-architectures.mdx#server-sent-events)
 
 ---
 
@@ -1838,7 +1847,7 @@ within an organization given a high degree of autonomy and unhampered
 by bureaucracy
 - typically given the task of working on advanced or secret projects
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - skunkworks](frameworks-strategy.md#skunkworks)
+**Glossary Term Entry Location**: [Frameworks & Strategy - skunkworks](frameworks-strategy.mdx#skunkworks)
 
 ---
 
@@ -1848,7 +1857,7 @@ by bureaucracy
 - validates code examples / "code snippets" in documentation execute
 successfully and produce expected results
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - snippet testing](workflows-methodologies.md#snippet-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - snippet testing](workflows-methodologies.mdx#snippet-testing)
 
 ---
 
@@ -1858,7 +1867,7 @@ successfully and produce expected results
 - uses XML-based messaging protocol to exchange structured information between systems
 - was the enterprise API standard before REST took over
 
-**Glossary Term Entry Location**: [API Types & Architectures - SOAP API](api-types-architectures.md#soap-api)
+**Glossary Term Entry Location**: [API Types & Architectures - SOAP API](api-types-architectures.mdx#soap-api)
 
 ---
 
@@ -1878,7 +1887,7 @@ documentation from OpenAPI specifications
 - creates automated style guides
 - validates API descriptions against customizable rulesets
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Spectral](./tools-techniques/documentation-specific.md#spectral)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Spectral](./tools-techniques/documentation-specific.mdx#spectral)
 
 ---
 
@@ -1888,7 +1897,7 @@ documentation from OpenAPI specifications
 - Git feature
 - action of combining many commits into a single commit
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - squash](./tools-techniques/development-essentials.md#squash)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - squash](./tools-techniques/development-essentials.mdx#squash)
 
 ---
 
@@ -1899,7 +1908,7 @@ documentation from OpenAPI specifications
 content and templates into HTML files without requiring a database or
 server-side processing
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - static site generator](./tools-techniques/documentation-specific.md#static-site-generator)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - static site generator](./tools-techniques/documentation-specific.mdx#static-site-generator)
 
 ---
 
@@ -1909,7 +1918,7 @@ server-side processing
 - text-based protocol for message-oriented middleware that provides
 interoperable communication between clients and message brokers
 
-**Glossary Term Entry Location**: [API Types & Architectures - STOMP](api-types-architectures.md#stomp)
+**Glossary Term Entry Location**: [API Types & Architectures - STOMP](api-types-architectures.mdx#stomp)
 
 ---
 
@@ -1919,7 +1928,7 @@ interoperable communication between clients and message brokers
 - provides visual editors, automated docs generation, and mock servers
 for API development workflows
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Stoplight](./tools-techniques/documentation-specific.md#stoplight)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Stoplight](./tools-techniques/documentation-specific.mdx#stoplight)
 
 ---
 
@@ -1930,7 +1939,7 @@ for API development workflows
 documentation teams can easily manage, query, and use
 systematically across multiple outputs
 
-**Glossary Term Entry Location**: [Writing Style - structured content](writing-style.md#structured-content)
+**Glossary Term Entry Location**: [Writing Style - structured content](writing-style.mdx#structured-content)
 
 ---
 
@@ -1939,7 +1948,7 @@ systematically across multiple outputs
 - toolset for creating software architecture diagrams
 based on the C4 model - _Context, Containers, Components, Code_
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Structurizr](./tools-techniques/diagramming-visualization.md#structurizr)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - Structurizr](./tools-techniques/diagramming-visualization.mdx#structurizr)
 
 ---
 
@@ -1950,7 +1959,7 @@ based on the C4 model - _Context, Containers, Components, Code_
 vector graphics;
 - essentially to graphics what HTML is to text
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - SVG](./tools-techniques/diagramming-visualization.md#svg)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - SVG](./tools-techniques/diagramming-visualization.mdx#svg)
 
 ---
 
@@ -1959,7 +1968,7 @@ vector graphics;
 - open source suite for REST API development
 - based on OpenAPI specification
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Swagger](./tools-techniques/documentation-specific.md#swagger)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Swagger](./tools-techniques/documentation-specific.mdx#swagger)
 
 ---
 
@@ -1983,7 +1992,7 @@ instructions
 - organizes concepts, terms, or entities into categories and
 subcategories based on their relationships and characteristics
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - taxonomy](frameworks-strategy.md#taxonomy)
+**Glossary Term Entry Location**: [Frameworks & Strategy - taxonomy](frameworks-strategy.mdx#taxonomy)
 
 ---
 
@@ -1994,7 +2003,16 @@ subcategories based on their relationships and characteristics
 and informational materials that help people accomplish specific tasks
 or understand technical concepts
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - technical communication](frameworks-strategy.md#technical-communication)
+**Glossary Term Entry Location**: [Frameworks & Strategy - technical communication](frameworks-strategy.mdx#technical-communication)
+
+---
+
+### tone
+
+- attitude and/or emotional quality of the content
+- conveyed through word choice, sentence structure, and stylistic decisions
+
+**Glossary Term Entry Location**: [Writing Style - tone](writing-style.mdx#tone)
 
 ---
 
@@ -2045,7 +2063,7 @@ patterns and generate responses
 a family of diagram types covering structure, behavior, and
 interaction
 
-**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - UML](./tools-techniques/diagramming-visualization.md#uml)
+**Glossary Term Entry Location**: [Tools & Techniques, Diagramming & Visualization - UML](./tools-techniques/diagramming-visualization.mdx#uml)
 
 ---
 
@@ -2054,7 +2072,7 @@ interaction
 - version control concept
 - original repository, source of fork
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - upstream repository](./tools-techniques/development-essentials.md#upstream-repository)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - upstream repository](./tools-techniques/development-essentials.mdx#upstream-repository)
 
 ---
 
@@ -2083,7 +2101,7 @@ interaction
 - practice of testing how easy a design is to use with
 a group of representative users
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - usability testing](workflows-methodologies.md#usability-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - usability testing](workflows-methodologies.mdx#usability-testing)
 
 ---
 
@@ -2092,7 +2110,7 @@ a group of representative users
 - acronym for _user interface_
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](./tools-techniques/development-essentials.md#ui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](./tools-techniques/development-essentials.mdx#ui)
 
 ---
 
@@ -2104,7 +2122,7 @@ principles from design, psychology, engineering and business
 - encompasses all aspects of a person's interaction with a
 product, service, or system
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - UX](frameworks-strategy.md#ux)
+**Glossary Term Entry Location**: [Frameworks & Strategy - UX](frameworks-strategy.mdx#ux)
 
 ---
 
@@ -2118,7 +2136,7 @@ product, service, or system
 - lints prose and enforces editorial style rules in documentation
 - supports multiple style guides including Microsoft, Google, and custom rules
 
-**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Vale](./tools-techniques/documentation-specific.md#vale)
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Vale](./tools-techniques/documentation-specific.mdx#vale)
 
 ---
 
@@ -2136,7 +2154,16 @@ before processing or storage
 
 - system that tracks changes in documents and other files
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - version control](./tools-techniques/development-essentials.md#version-control)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - version control](./tools-techniques/development-essentials.mdx#version-control)
+
+---
+
+### voice
+
+- also known as "editorial voice"
+- personality and/or perspective of the content
+
+**Glossary Term Entry Location**: [Writing Style - voice](writing-style.mdx#voice)
 
 ---
 
@@ -2149,7 +2176,7 @@ before processing or storage
 - project management method
 - traditional, sequential, linear, idealistic
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - Waterfall](workflows-methodologies.md#waterfall)
+**Glossary Term Entry Location**: [Workflows & Methodologies - Waterfall](workflows-methodologies.mdx#waterfall)
 
 ---
 
@@ -2159,7 +2186,7 @@ before processing or storage
 - service sends a `POST` request to client-specified URLs
 when specific events occur
 
-**Glossary Term Entry Location**: [API Types & Architectures - webhook API](api-types-architectures.md#webhook-api)
+**Glossary Term Entry Location**: [API Types & Architectures - webhook API](api-types-architectures.mdx#webhook-api)
 
 ---
 
@@ -2169,7 +2196,7 @@ when specific events occur
 - enables real-time data exchange without repeated HTTP requests
 - maintains persistent, client and server bidirectional connections
 
-**Glossary Term Entry Location**: [API Types & Architectures - WebSocket API](api-types-architectures.md#websocket-api)
+**Glossary Term Entry Location**: [API Types & Architectures - WebSocket API](api-types-architectures.mdx#websocket-api)
 
 ---
 
@@ -2178,7 +2205,7 @@ when specific events occur
 - practice of rebranding a product or service for different clients
 or markets while maintaining the same underlying capability
 
-**Glossary Term Entry Location**: [Frameworks & Strategy - white-labeling](./frameworks-strategy.md#white-labeling)
+**Glossary Term Entry Location**: [Frameworks & Strategy - white-labeling](./frameworks-strategy.mdx#white-labeling)
 
 ---
 
@@ -2188,7 +2215,7 @@ or markets while maintaining the same underlying capability
 multiple endpoints and operations
 - verifies APIs support real-world use cases and user workflows
 
-**Glossary Term Entry Location**: [Workflows & Methodologies - workflow testing](workflows-methodologies.md#workflow-testing)
+**Glossary Term Entry Location**: [Workflows & Methodologies - workflow testing](workflows-methodologies.mdx#workflow-testing)
 
 ---
 
@@ -2196,7 +2223,7 @@ multiple endpoints and operations
 
 - local computer directory that stores cloned repositories
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - workspace](./tools-techniques/development-essentials.md#workspace)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Git & Version Control - workspace](./tools-techniques/development-essentials.mdx#workspace)
 
 ---
 
@@ -2210,7 +2237,7 @@ multiple endpoints and operations
 - commonly used for data exchange in APIs and configuration files
 - essentially replaced by JSON, but remains in legacy integrations
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - XML](./tools-techniques/development-essentials.md#xml)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - XML](./tools-techniques/development-essentials.mdx#xml)
 
 ---
 
@@ -2224,6 +2251,6 @@ multiple endpoints and operations
 - recursive acronym for _YAML Ain't Markup Language_
 - foundational format for configuration files, specs, and tooling
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials - YAML](./tools-techniques/development-essentials.md#yaml)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials - YAML](./tools-techniques/development-essentials.mdx#yaml)
 
 ---

@@ -1,3 +1,5 @@
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+
 # Contribution Guide
 
 This guide covers the technical process for contributing to the ADG:
@@ -5,11 +7,12 @@ forking the repository, setting up the development environment, submitting
 pull requests, and troubleshooting common issues.
 
 _For content standards, writing conventions, and formatting
-requirements, visit the [Style Guide](style-guide.md)._
+requirements, visit the [Style Guide](style-guide.mdx)._
 
 **Contribution workflow**:
 
-```mermaid
+
+<ZoomMermaid chart={`
 sequenceDiagram
     participant contributor
     participant local
@@ -22,7 +25,7 @@ sequenceDiagram
     local-->>contributor: all checks pass
     contributor->>GitHub: submit PR
     GitHub-->>contributor: review & merge
-```
+`} />
 
 ---
 

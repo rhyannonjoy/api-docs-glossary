@@ -34,14 +34,14 @@ contract and workflow testing
 test collections in Git repositories alongside their code
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [API security](../core-concepts/api-fundamentals.mdx#api-security),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
 [environment variables](../core-concepts/api-fundamentals.mdx#environment-variables),
-[Postman](documentation-specific.md#postman),
+[Postman](documentation-specific.mdx#postman),
 [Postman Newman](testing-validation.md#postman-newman),
-[workflow testing](../workflows-methodologies.md#workflow-testing)
+[workflow testing](../workflows-methodologies.mdx#workflow-testing)
 
 **Sources**:
 
@@ -92,13 +92,13 @@ Feature: User API retrieval
 ```
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[BDD](../workflows-methodologies.md#bdd),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Karate](#karate),
-[snippet testing](../workflows-methodologies.md#snippet-testing),
-[usability testing](../workflows-methodologies.md#usability-testing),
-[workflow testing](../workflows-methodologies.md#workflow-testing)
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[BDD](../workflows-methodologies.mdx#bdd),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests), [Karate](#karate),
+[snippet testing](../workflows-methodologies.mdx#snippet-testing),
+[usability testing](../workflows-methodologies.mdx#usability-testing),
+[workflow testing](../workflows-methodologies.mdx#workflow-testing)
 
 **Sources**:
 
@@ -128,10 +128,10 @@ in documentation; when Google changes their search bar selector, the Cypress
 test fails, alerting writers that their documented instructions need updating
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Playwright](#playwright), [UI](development-essentials.md#ui)
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[Playwright](#playwright), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -159,11 +159,11 @@ response; when developers change the button text from "Create Account" to
 "Sign Up Now," the test fails, alerting writers to update their documentation
 
 **Related Terms**: [AI agent](../ai-and-apis.mdx#ai-agent),
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
 [Playwrite](#playwright), [Selenium](#selenium),
-[Vale](documentation-specific.md#vale)
+[Vale](documentation-specific.mdx#vale)
 
 **Sources**:
 
@@ -189,10 +189,10 @@ match OpenAPI examples before deploying documentation updates
 
 **Related Terms**:
 [API Blueprint](../core-concepts/documentation-specific.mdx#api-blueprint),
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[contract testing](../workflows-methodologies.md#contract-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification)
 
 **Sources**:
@@ -225,12 +225,12 @@ creates REST endpoints: `/users` returns all users,
 `/users/1` returns the user with `id` 1
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[cURL](development-essentials.md#curl),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Postman](documentation-specific.md#postman),
-[REST API](../api-types-architectures.md#rest-api),
-[Swagger](documentation-specific.md#swagger)
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[cURL](development-essentials.mdx#curl),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[Postman](documentation-specific.mdx#postman),
+[REST API](../api-types-architectures.mdx#rest-api),
+[Swagger](documentation-specific.mdx#swagger)
 
 **Sources**:
 
@@ -255,10 +255,10 @@ and reads like documentation
 validate responses, chain requests, and verify data transformations
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[Cucumber](#cucumber), [UI](development-essentials.md#ui),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests)
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[Cucumber](#cucumber), [UI](development-essentials.mdx#ui),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests)
 
 **Sources**:
 
@@ -282,11 +282,11 @@ mock endpoints for parallel development, then run contract tests to
 verify implementations match specifications
 
 **Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[event-driven](../api-types-architectures.md#event-driven),
-[GraphQL API](../api-types-architectures.md#graphql-api),
-[gRPC API](../api-types-architectures.md#grpc-api),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[event-driven](../api-types-architectures.mdx#event-driven),
+[GraphQL API](../api-types-architectures.mdx#graphql-api),
+[gRPC API](../api-types-architectures.mdx#grpc-api),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Pact](#pact)
 
@@ -315,10 +315,10 @@ generating contract files that backend team uses to verify their implementation
 meets consumer expectations
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](../tools-techniques/development-essentials.md#cicd-pipeline),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](../tools-techniques/development-essentials.mdx#cicd-pipeline),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
 [Microcks](#microcks)
 
 **Sources**:
@@ -349,11 +349,11 @@ each step produces the documented result; when a UI change breaks the
 documented workflow, the Playwright test fails during CI/CD pipeline execution
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline), [Cypress](#cypress),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Selenium](#selenium), [UI](development-essentials.md#ui),
-[Vale](documentation-specific.md#vale)
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [Cypress](#cypress),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[Selenium](#selenium), [UI](development-essentials.mdx#ui),
+[Vale](documentation-specific.mdx#vale)
 
 **Sources**:
 
@@ -390,11 +390,11 @@ _fundamentally a testing automation tool_
 | **Prevention** | Build fails, blocks deployment | Team updates documentation before code ships |
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
-[Postman](documentation-specific.md#postman), [Redocly Respect](testing-validation.md#redocly-respect)
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests), [Dredd](#dredd),
+[Postman](documentation-specific.mdx#postman), [Redocly Respect](testing-validation.md#redocly-respect)
 
 **Sources**:
 
@@ -434,14 +434,14 @@ renderer_
 | **Prevention** | Build fails, blocks deployment | Team updates documentation before code ships |
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [Arazzo Specification](../core-concepts/documentation-specific.mdx#arazzo-specification),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[contract testing](../workflows-methodologies.md#contract-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests), [Dredd](#dredd),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[Postman Newman](#postman-newman), [Redocly](documentation-specific.md#redocly),
-[workflow testing](../workflows-methodologies.md#workflow-testing)
+[Postman Newman](#postman-newman), [Redocly](documentation-specific.mdx#redocly),
+[workflow testing](../workflows-methodologies.mdx#workflow-testing)
 
 **Sources**:
 
@@ -470,10 +470,10 @@ the script runs nightly to catch any UI changes that would make the
 documentation inaccurate
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [Cypress](#cypress), [Doc Detective](#doc-detective),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Playwright](#playwright), [UI](development-essentials.md#ui)
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[Playwright](#playwright), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -499,10 +499,10 @@ Go SDKs from their OpenAPI specification, updating all SDKs automatically
 when the API changes
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
 [error handling](../core-concepts/api-fundamentals.mdx#error-handling),
-[Fern](documentation-specific.md#fern),
+[Fern](documentation-specific.mdx#fern),
 [HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [request-response](../core-concepts/api-fundamentals.mdx#request-response),

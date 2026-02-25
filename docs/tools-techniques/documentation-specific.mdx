@@ -1,3 +1,6 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+
 # Documentation-Specific
 
 Tools for rendering, exploring, and maintaining API documentation.
@@ -49,14 +52,14 @@ meanwhile, engineers can access the same content via API for integration into SD
 documentation, and the CMS handles publishing to production without requiring writers
 to use Git commands
 
-**Related Terms**: [content](../writing-style.md#content), [DAM](#dam),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Git](../tools-techniques/development-essentials.md#git),
-[GUI](../tools-techniques/development-essentials.md#gui),
-[knowledge management](../frameworks-strategy.md#knowledge-management),
+**Related Terms**: [content](../writing-style.mdx#content), [DAM](#dam),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Git](../tools-techniques/development-essentials.mdx#git),
+[GUI](../tools-techniques/development-essentials.mdx#gui),
+[knowledge management](../frameworks-strategy.mdx#knowledge-management),
 [metadata](#metadata), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
-[structured content](../writing-style.md#structured-content),
-[version control](development-essentials.md#version-control)
+[structured content](../writing-style.mdx#structured-content),
+[version control](development-essentials.mdx#version-control)
 
 **Sources**:
 
@@ -101,10 +104,10 @@ API Docs Glossary asset organization
 | 5 | Architecture Diagrams | Reusable Assets - single source referenced across multiple docs pages |
 | 6 | Dark/Light Logos | Asset Variants - theme variants managed as a set |
 
-**Related Terms**: [content](../writing-style.md#content), [CMS](#cms),
-[docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
-[knowledge management](../frameworks-strategy.md#knowledge-management),
-[metadata](#metadata), [taxonomy](../frameworks-strategy.md#taxonomy)
+**Related Terms**: [content](../writing-style.mdx#content), [CMS](#cms),
+[docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem),
+[knowledge management](../frameworks-strategy.mdx#knowledge-management),
+[metadata](#metadata), [taxonomy](../frameworks-strategy.mdx#taxonomy)
 
 **Sources**:
 
@@ -137,10 +140,13 @@ components
 
 **Example**: developer docs portal workflow -
 
-![Docusaurus Developer Docs Portal Workflow Flowchart](../../static/img/flowchart-docusaurus-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-docusaurus-workflow.png" 
+  alt="Flowchart showing steps: organize docs in Markdown, install plugin, plugin generates interactive docs, devs test endpoints in docs, maintain version-specific docs"
+/>
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](../tools-techniques/documentation-specific.md#mdx),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](#mdx),
 [MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [static site generator](#static-site-generator)
 
@@ -173,13 +179,16 @@ are collaboration tools with AI features rather than AI technologies themselves
 
 **Example**: internal docs integration workflow with Falconer -
 
-![Internal docs integration workflow with Falconer, flowchart](../../static/img/flowchart-falconer-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-falconer-workflow.png" 
+  alt="Flowchart showing steps: integrate Falconer, devs ship features, Falconer updates internal docs, Falconer answers questions accurately"
+/>
 
-**Related Terms**: [docs-as-code](workflows-methodologies.md#docs-as-code),
-[docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
-[domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[Git](development-essentials.md#git), [GitHub](development-essentials.md#github),
-[Inkeep](#inkeep), [Linear](infrastructure-platforms.md#linear)
+**Related Terms**: [docs-as-code](workflows-methodologies.mdx#docs-as-code),
+[docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.mdx#domain-knowledge),
+[Git](development-essentials.mdx#git), [GitHub](development-essentials.mdx#github),
+[Inkeep](#inkeep), [Linear](infrastructure-platforms.mdx#linear)
 
 **Sources**:
 
@@ -202,12 +211,15 @@ languages to enhance DX, _developer experience_
 
 **Example**: Fern workflow with OpenAPI specs -
 
-![Fern workflow with OpenAPI specs flowchart](../../static/img/flowchart-fern-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-fern-workflow.png" 
+  alt="Flowchart showing steps: team updates specs, CI/CD pipeline runs Fern, publishes docs with corrections, updated docs across many repos in minutes"
+/>
 
 **Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
-[CI/CD pipeline](../tools-techniques/development-essentials.md#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.md#docs-as-code), [DX](../frameworks-strategy.md#dx),
-[gRPC API](../api-types-architectures.md#grpc-api), [Inkeep](#inkeep),
+[CI/CD pipeline](../tools-techniques/development-essentials.mdx#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [DX](../frameworks-strategy.mdx#dx),
+[gRPC API](../api-types-architectures.mdx#grpc-api), [Inkeep](#inkeep),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Postman](#postman), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
 [Speakeasy](testing-validation.md#speakeasy)
@@ -234,9 +246,9 @@ knowledge base
 developer questions such as _"What's my rate limit?"_ or _"How do I generate an
 API key?"_ using answers from their API docs
 
-**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
-[domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
+**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.mdx#domain-knowledge),
+[DX](../frameworks-strategy.mdx#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
 [Inkeep](#inkeep), [Kapa.ai](#kapaai), [RAG](../ai-and-apis.mdx#rag)
 
 **Sources**:
@@ -259,10 +271,13 @@ used for open source project docs, API references, and developer portals
 **Example**: GitHub Pages builds sites using [Jekyll](https://jekyllrb.com/)
 or custom static site generator and deploys to `username.github.io/repo-name` -
 
-![GitHub Pages Workflow Flowchart](../../static/img/flowchart-github-pages-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-github-pages-workflow.png" 
+  alt="Flowchart showing steps: write docs in Markdown, maintain API reference in GitHub repo, each commit to main builds docs site, GitHub Pages uses static site generator to deploy, updated docs available"
+/>
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Git](development-essentials.md#git), [GitHub](development-essentials.md#github),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Git](development-essentials.mdx#git), [GitHub](development-essentials.mdx#github),
 [Markdown](#markdown), [MDX](#mdx), [static site generator](#static-site-generator)
 
 **Sources**:
@@ -304,9 +319,9 @@ different approaches:
 | **Fin** | AI customer support agent | Intercom ecosystem - resolves questions using docs, help centers, and support tickets | Companies already using Intercom for support | Native Intercom integration |
 | **Kapa.ai** | AI assistant for developer communities | RAG-based answers from docs, GitHub, Discord/Slack with source citations | Open source projects with active communities | Integrates with community platforms |
 
-**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
-[domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
+**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.mdx#domain-knowledge),
+[DX](../frameworks-strategy.mdx#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
 [Kapa.ai](#kapaai), [RAG](../ai-and-apis.mdx#rag)
 
 **Sources**:
@@ -332,11 +347,11 @@ from docs, GitHub issues, and Discord conversations, providing cited answers suc
 as _"According to the authentication docs, you need to include the API key in the
 Authorization header"_
 
-**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.md#docs-as-ecosystem),
-[domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[DX](../frameworks-strategy.md#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
-[GitHub](development-essentials.md#github), [Inkeep](#inkeep), [RAG](../ai-and-apis.mdx#rag),
-[repository](development-essentials.md#repository)
+**Related Terms**: [docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem),
+[domain knowledge](../frameworks-strategy.mdx#domain-knowledge),
+[DX](../frameworks-strategy.mdx#dx), [Falconer](#falconer), [Fern](#fern), [Fin](#fin),
+[GitHub](development-essentials.mdx#github), [Inkeep](#inkeep), [RAG](../ai-and-apis.mdx#rag),
+[repository](development-essentials.mdx#repository)
 
 **Sources**:
 
@@ -366,10 +381,10 @@ links, lists, and tables
 
 ...
 
-**Related Terms**: [Git](development-essentials.md#git),
-[Git Bash](development-essentials.md#git-bash),
-[GitHub](development-essentials.md#github), [MDX](#mdx),
-[Mermaid](diagramming-visualization.md#mermaid),
+**Related Terms**: [Git](development-essentials.mdx#git),
+[Git Bash](development-essentials.mdx#git-bash),
+[GitHub](development-essentials.mdx#github), [MDX](#mdx),
+[Mermaid](diagramming-visualization.mdx#mermaid),
 [MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
 
 **Sources**:
@@ -380,10 +395,10 @@ links, lists, and tables
 ---
 ```
 
-**Related Terms**: [Git](development-essentials.md#git),
-[Git Bash](development-essentials.md#git-bash),
-[GitHub](development-essentials.md#github), [MDX](#mdx),
-[Mermaid](diagramming-visualization.md#mermaid),
+**Related Terms**: [Git](development-essentials.mdx#git),
+[Git Bash](development-essentials.mdx#git-bash),
+[GitHub](development-essentials.mdx#github), [MDX](#mdx),
+[Mermaid](diagramming-visualization.mdx#mermaid),
 [MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
 
 **Sources**:
@@ -438,11 +453,11 @@ Our API uses API keys for authentication. Include your key in the header:
 | **Capabilities** | Formatting, links, images, code blocks | Everything Markdown does + embedded UI components, live code editors, API calls, user input handling |
 | **Use Case** | Documentation that doesn't need interactivity | Documentation with live demos, interactive examples, dynamic content |
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Docusaurus](#docusaurus), [GUI](development-essentials.md#gui),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Docusaurus](#docusaurus), [GUI](development-essentials.mdx#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
-[Mermaid](diagramming-visualization.md#mermaid),
-[partials](#partials), [UI](development-essentials.md#ui)
+[Mermaid](diagramming-visualization.mdx#mermaid),
+[partials](#partials), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -479,12 +494,12 @@ different types of metadata about API Docs Glossary's assets -
 | 5 | Last Uploaded | Temporal Metadata - tracks date/time of content changes |
 | 6 | Shared With | Permission Metadata - controls access |
 
-**Related Terms**: [CMS](#cms), [content](../writing-style.md#content),
-[DAM](#dam), [information architecture](../frameworks-strategy.md#information-architecture),
+**Related Terms**: [CMS](#cms), [content](../writing-style.mdx#content),
+[DAM](#dam), [information architecture](../frameworks-strategy.mdx#information-architecture),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
-[knowledge management](../frameworks-strategy.md#knowledge-management),
-[ontology](../frameworks-strategy.md#ontology), [structured content](../writing-style.md#structured-content),
-[taxonomy](../frameworks-strategy.md#taxonomy), [technical communication](../frameworks-strategy.md#technical-communication)
+[knowledge management](../frameworks-strategy.mdx#knowledge-management),
+[ontology](../frameworks-strategy.mdx#ontology), [structured content](../writing-style.mdx#structured-content),
+[taxonomy](../frameworks-strategy.mdx#taxonomy), [technical communication](../frameworks-strategy.mdx#technical-communication)
 
 **Sources**:
 
@@ -508,9 +523,12 @@ used for code examples in multiple languages
 
 **Example**: Python API Project with MkDocs workflow -
 
-![MkDocs Python Project Flowchart](../../static/img/flowchart-mkdocs.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-mkdocs.png" 
+  alt="Flowchart showing steps: write in Markdown, organize in /docs, configure mkdocs.yaml, MkDocs builds, generates static HTML, deploys to GitHub Pages, available features searchable, tabbed code examples"
+/>
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown),
 [static site generator](#static-site-generator)
 
@@ -570,11 +588,11 @@ api-docs-monorepo/
 | MkDocs Material | `--8<-- "auth-flow.md"` |
 | Docusaurus | `import AuthFlow from './auth-flow.md';` then `<AuthFlow />` |
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 Docusaurus, [Markdown](#markdown), [MDX](#mdx), MkDocs,
-[monorepo](development-essentials.md#monorepo),
+[monorepo](development-essentials.mdx#monorepo),
 [static site generator](#static-site-generator),
-[white-labeling](../frameworks-strategy.md#white-labeling)
+[white-labeling](../frameworks-strategy.mdx#white-labeling)
 
 **Sources**:
 
@@ -641,11 +659,11 @@ by examining its method, headers, and JSON response:
 | 7 | Response Body | payload - JSON data returned by the API |
 
 **Related Terms**:
-[Bruno](testing-validation.md#bruno), [cURL](development-essentials.md#curl), [Fern](#fern),
-[GUI](development-essentials.md#gui), [`json-server`](testing-validation.md#json-server),
+[Bruno](testing-validation.md#bruno), [cURL](development-essentials.mdx#curl), [Fern](#fern),
+[GUI](development-essentials.mdx#gui), [`json-server`](testing-validation.md#json-server),
 [Postman Newman](testing-validation.md#postman-newman),
-[REST API](../api-types-architectures.md#rest-api), [Stoplight](#stoplight),
-[Swagger](#swagger), [UI](development-essentials.md#ui)
+[REST API](../api-types-architectures.mdx#rest-api), [Stoplight](#stoplight),
+[Swagger](#swagger), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -674,7 +692,7 @@ web pages change
 
 **Related Terms**: [HTTP](../core-concepts/api-fundamentals.mdx#http),
 [HTTPS](../core-concepts/api-fundamentals.mdx#https),
-[REST API](../api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Sources**:
 
@@ -709,10 +727,10 @@ deployment; once validated, documentation deploys to Redocly's hosting
 platform where developers can explore endpoints interactively
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[CLI](development-essentials.md#cli),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[CLI](development-essentials.mdx#cli),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Redocly Respect](testing-validation.md#redocly-respect),
 [Spectral](#spectral), [Stoplight](#stoplight), [Swagger](#swagger), [Vale](#vale)
@@ -743,9 +761,9 @@ request with an OpenAPI spec missing operation descriptions, Spectral flags
 the violations in CI/CD, preventing merge until documentation is complete
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
-[contract testing](../workflows-methodologies.md#contract-testing),
+[contract testing](../workflows-methodologies.mdx#contract-testing),
 [JSON](../core-concepts/api-fundamentals.mdx#json),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Redocly](#redocly)
@@ -774,7 +792,7 @@ support, and streamlining deployment
 files; the CI/CD pipeline runs the generator to rebuild the site, then deploys it
 to a CDN, _content delivery network_, for loading -
 
-```mermaid
+<ZoomMermaid chart={`
 sequenceDiagram
     participant Dev as Dev
     participant Repo as Git Repo
@@ -791,7 +809,7 @@ sequenceDiagram
     User->>CDN: Requests docs page
     CDN->>User: Serves static HTML instantly
     Note over User,CDN: No database queries or<br/>server-side processing
-```
+`}/>
 
 **Example 2**: API Docs Glossary's Markdown and rendered docs side-by-side:
 
@@ -809,8 +827,8 @@ sequenceDiagram
 | 8 | Related Terms Links | Structured metadata generates cross‑links between glossary entries |
 | 9 | Search Bar| SSG features like search enhance the generated docs site |
 
-**Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown),
 [MkDocs](#mkdocs)
 
@@ -836,9 +854,12 @@ and maintaining consistency between API design and documentation
 **Example**: [Stoplight Studio](https://stoplight.io/getting-started-with-stoplight)
 design-development workflow -
 
-![Stoplight Studio Design-Development Workflow Flowchart](../../static/img/flowchart-stoplight-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-stoplight-workflow.png" 
+  alt="Flowchart showing steps: product team visualizes /payments, Stoplight generates specs and publishes docs, devs test endpoint, testing ensures accuracy"
+/>
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Postman](#postman), [Redocly](#redocly), [Swagger](#swagger)
 
@@ -877,11 +898,14 @@ generates client libraries and server stubs from OAS files
 
 **Example**: API development workflow with Swagger -
 
-![API development workflow with Swagger flowchart](../../static/img/flowchart-swagger-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-swagger-workflow.png" 
+  alt="Flowchart showing steps: devs maintain specs, deploy docs updates, Swagger renders interactive website, devs interact with docs, API consumers experiment in docs"
+/>
 
-**Related terms**: [GUI](development-essentials.md#gui),
+**Related terms**: [GUI](development-essentials.mdx#gui),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[Redocly](#redocly), [REST API](../api-types-architectures.md#rest-api),
+[Redocly](#redocly), [REST API](../api-types-architectures.mdx#rest-api),
 [Stoplight](#stoplight)
 
 **Sources**:
@@ -910,7 +934,7 @@ the screenshot filters
 [`Google.WordList`](https://developers.google.com/style/word-list)
 warnings from 817 total rules - the same type of triage that informed the Vale
 configuration decisions documented in the
-[Style Guide](../meta/style-guide.md#term-rules-by-category):
+[Style Guide](../meta/style-guide.mdx#term-rules-by-category):
 
 ![Vale Warnings, VS Code](../../static/img/annotated-vale-output.png)
 
@@ -923,9 +947,9 @@ configuration decisions documented in the
 | 5 | Line and Column Reference - `[Ln 336, Col 12]` | Precise location - pinpoints exactly where each violation occurs |
 | 6 | ⚠ Warning Count vs ⛒ 0 Errors in Status Bar | Severity levels - warnings flag style preferences without blocking the workflow |
 
-**Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Markdown](#markdown), [pull request](development-essentials.md#pull-request),
+**Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Markdown](#markdown), [pull request](development-essentials.mdx#pull-request),
 [Redocly](#redocly)
 
 **Sources**:

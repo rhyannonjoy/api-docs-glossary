@@ -1,3 +1,5 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # How This Glossary is Built
 
 This page documents the workflow, tools, and processes used to create
@@ -6,7 +8,10 @@ contributors understand the project's standards and enables others to
 replicate similar documentation projects. Review the four-stage
 ADG development workflow:
 
-![Glossary Development Workflow Flowchart](../../static/img/flowchart-glossary-dev-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-glossary-dev-workflow.png" 
+  alt="Glossary development workflow in the style of a flowchart"
+/>
 
 ---
 
@@ -15,7 +20,7 @@ ADG development workflow:
 | Stage | Description | Key Activities |
 | ----- | ----------- | -------------- |
 | **Research & Collection** | Term identification from authoritative sources | UW API Docs course materials; industry standards - RFC documents, OpenAPI Specification; authoritative sources - MDN Web Docs, official specifications; community needs via issues and discussions |
-| **Standardization** | AI-assistance applies [Style Guide](style-guide.md) formatting | Consistent formatting and structure; appropriate capitalization rules; proper anchor link syntax; related term connections |
+| **Standardization** | AI-assistance applies [Style Guide](style-guide.mdx) formatting | Consistent formatting and structure; appropriate capitalization rules; proper anchor link syntax; related term connections |
 | **Review & Refinement** | Human review for accuracy and clarity | Technical accuracy of definitions; source verification and proper citation; clarity and readability; appropriate examples for API documentation context |
 | **Testing & Validation** | Contributors verify each entry before merging | Local build testing with `npm start`; anchor link verification; cross-reference validation; navigation panel review |
 
@@ -77,7 +82,7 @@ npm start
 | Issue | Solution |
 | ----- | -------- |
 | Broken anchor links | Run `npm run build` to identify, use grep to find references |
-| Inconsistent capitalization | Review [Capitalization](style-guide.md#capitalization) section |
+| Inconsistent capitalization | Review [Capitalization](style-guide.mdx#capitalization) section |
 | Missing related terms | Check if linked terms have glossary entries |
 | Vale warnings | Add ignore comments for intentional style guide breaks |
 
@@ -107,7 +112,7 @@ Contributors can use similar AI-assisted workflows:
 
 ## Maintaining Consistency
 
-The [Style Guide](style-guide.md) documents standards as they emerge
+The [Style Guide](style-guide.mdx) documents standards as they emerge
 including new patterns, resolved edge cases, and rules refined based
 on experience. Version control using Git provides a complete record of
 changes, reasoning through commit messages, and the ability to track
@@ -117,7 +122,7 @@ when and why entries have changed.
 
 ## Lessons Learned
 
-The [Style Guide](style-guide.md) evolves to document new patterns, resolve edge
+The [Style Guide](style-guide.mdx) evolves to document new patterns, resolve edge
 cases, and refine ADG rules. Git history provides a complete record of changes
 and reasoning. The workflow itself improves through contributor feedback,
 discovery of new patterns, refinement of prompt templates, and updates to

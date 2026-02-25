@@ -1,3 +1,5 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # Workflows & Methodologies
 
 Development and documentation workflows for API projects. This section
@@ -5,7 +7,10 @@ covers methodologies, testing approaches, and lifecycle management
 practices that guide how API documentation teams plan, create,
 test, and maintain their work.
 
-![Documentation Workflow Flowchart](../static/img/flowchart-workflows-methodologies.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-workflows-methodologies.png" 
+  alt="Flowchart showing the relationship between workflow phases analysis and planning, design, content development, review and edit, publish, maintain"
+/>
 
 ---
 
@@ -20,12 +25,15 @@ their work through flexibility rather than linear, rigid planning
 
 **Example**: key values -
 
-![Agile Key Values Flowchart](../static/img/flowchart-agile-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-agile-workflow.png" 
+  alt="Flowchart showing Agile key values of people over processes, working solutions over details docs, customer collaboration over rigid contracts, and adapting to change over following a strict plan"
+/>
 
 **Related Terms**:
-[CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline),
+[CI/CD pipeline](./tools-techniques/development-essentials.mdx#cicd-pipeline),
 [docs-as-code](#docs-as-code),
-[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
 [docs-as-tests](#docs-as-tests),
 [Document Development Life Cycle](#document-development-life-cycle),
 [project management methodology](#project-management-methodology),
@@ -81,7 +89,10 @@ accurate:
 
 **Example**: API docs testing workflow -
 
-![API Docs Testing Workflow Flowchart](../static/img/flowchart-api-docs-testing.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-api-docs-testing.png" 
+  alt="Flowchart showing an API docs testing workflow including test implementation, running tests, endpoint changings, tests failing, tests alerting team to change docs"
+/>
 
 **Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent),
 [API](./core-concepts/api-fundamentals.mdx#api), [BDD](#bdd),
@@ -92,8 +103,8 @@ accurate:
 [docs-as-tests](#docs-as-tests),
 [HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes),
 [Playwright](./tools-techniques/testing-validation.md#playwright),
-[REST API](api-types-architectures.md#rest-api),
-[UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
+[REST API](api-types-architectures.mdx#rest-api),
+[UX](frameworks-strategy.mdx#ux), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -171,7 +182,7 @@ catching breaking changes before deployment
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [Pact](./tools-techniques/testing-validation.md#pact), Spectral,
 [snippet testing](#snippet-testing),
-[Vale](./tools-techniques/documentation-specific.md#vale),
+[Vale](./tools-techniques/documentation-specific.mdx#vale),
 [workflow testing](#workflow-testing)
 
 **Sources**:
@@ -213,7 +224,10 @@ bottlenecks in project timelines
 **Example**: the "critical path" in a software release might include the
 following steps, where delays in any step delay the entire release -
 
-![Critical Path Method Example Flowchart](../static/img/flowchart-critical-path-method.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-critical-path-method.png" 
+  alt="Flowchart showing Critical Path Method example steps: code freeze, QA testing, docs review, deployment"
+/>
 
 **Related Terms**: [Agile](#agile),
 [Critical Chain Project Management](#critical-chain-project-management),
@@ -259,18 +273,18 @@ not the image
 | Maintainability | Searchable, refactorable, [grep](https://en.wikipedia.org/wiki/Grep)-able text | Binary file requires opening a GUI tool to inspect or edit |
 | Accessibility | Text source readable by screen readers and LLMs natively | Requires [alt text](https://en.wikipedia.org/wiki/Alt_attribute) added separately |
 
-**Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
-[D2](./tools-techniques/diagramming-visualization.md#d2),
-[diagram](./tools-techniques/diagramming-visualization.md#diagram),
-[docs-as-code](#docs-as-code), [GUI](./tools-techniques/development-essentials.md#gui),
-[Ilograph](./tools-techniques/diagramming-visualization.md#ilograph),
+**Related Terms**: [accessibility](frameworks-strategy.mdx#accessibility),
+[D2](./tools-techniques/diagramming-visualization.mdx#d2),
+[diagram](./tools-techniques/diagramming-visualization.mdx#diagram),
+[docs-as-code](#docs-as-code), [GUI](./tools-techniques/development-essentials.mdx#gui),
+[Ilograph](./tools-techniques/diagramming-visualization.mdx#ilograph),
 [Large Language Model](ai-and-apis.mdx#large-language-model),
-[Mermaid](./tools-techniques/diagramming-visualization.md#mermaid),
-[PlantUML](./tools-techniques/diagramming-visualization.md#plantuml),
-[pull request](./tools-techniques/development-essentials.md#pull-request),
-[Python Diagrams](./tools-techniques/diagramming-visualization.md#python-diagrams),
-[UML](./tools-techniques/diagramming-visualization.md#uml),
-[version control](./tools-techniques/development-essentials.md#version-control)
+[Mermaid](./tools-techniques/diagramming-visualization.mdx#mermaid),
+[PlantUML](./tools-techniques/diagramming-visualization.mdx#plantuml),
+[pull request](./tools-techniques/development-essentials.mdx#pull-request),
+[Python Diagrams](./tools-techniques/diagramming-visualization.mdx#python-diagrams),
+[UML](./tools-techniques/diagramming-visualization.mdx#uml),
+[version control](./tools-techniques/development-essentials.mdx#version-control)
 
 **Sources**:
 
@@ -296,12 +310,15 @@ analytical framework_; it describes a strategic approach to documentation
 processes and operational workflows, how teams organize daily documentation
 work within development cycles, rather than an evaluation framework like
 cognitive dimensions, or a specific software platform, like
-[Git](./tools-techniques/development-essentials.md#git)
-or [Swagger](./tools-techniques/documentation-specific.md#swagger)
+[Git](./tools-techniques/development-essentials.mdx#git)
+or [Swagger](./tools-techniques/documentation-specific.mdx#swagger)
 
 **Example** docs-as-code workflow:
 
-![docs-as-code workflow flowchart](../static/img/flowchart-docs-as-code-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-docs-as-code-workflow.png" 
+  alt="Flowchart showing docs-as-code workflow: store docs in Git, GitHub tracks changes, review changes, test changes, deploy-merge changes"
+/>
 
 **Benefits**:
 
@@ -330,15 +347,15 @@ distributed teams
 informal discussion
 
 **Related Terms**: [Agile](#agile),
-[CMS](./tools-techniques/documentation-specific.md#cms),
+[CMS](./tools-techniques/documentation-specific.mdx#cms),
 [diagrams-as-code](#diagrams-as-code),
-[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
-[Git](./tools-techniques/development-essentials.md#git),
-[GitHub](./tools-techniques/development-essentials.md#github),
-[`main` branch](./tools-techniques/development-essentials.md#main-branch),
-[MDX](./tools-techniques/documentation-specific.md#mdx),
-[pull request](./tools-techniques/development-essentials.md#pull-request),
-[version control](./tools-techniques/development-essentials.md#version-control)
+[docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
+[Git](./tools-techniques/development-essentials.mdx#git),
+[GitHub](./tools-techniques/development-essentials.mdx#github),
+[`main` branch](./tools-techniques/development-essentials.mdx#main-branch),
+[MDX](./tools-techniques/documentation-specific.mdx#mdx),
+[pull request](./tools-techniques/development-essentials.mdx#pull-request),
+[version control](./tools-techniques/development-essentials.mdx#version-control)
 
 **Sources**:
 
@@ -367,7 +384,10 @@ rather than specific tools or conceptual frameworks
 
 **Example** docs-as-tests workflow:
 
-![docs-as-tests workflow flowchart](../static/img/flowchart-docs-as-tests-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-docs-as-tests-workflow.png" 
+  alt="Flowchart showing docs-as-tests workflow: writers maintain docs accuracy, implement tests, API changes, tests fail, tests alert writers, writers catch discrepancies"
+/>
 
 **Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent),
 [API documentation testing](#api-documentation-testing),
@@ -396,11 +416,14 @@ with well-defined phases that ensure content meets user needs
 
 **Phases**:
 
-![Document Development Life Cycle Phases](../static/img/flowchart-doc-dev-lifecycle-phases.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-doc-dev-lifecycle-phases.png" 
+  alt="Flowchart showing DDLC phases: analysis and planning, designing, content development, proofreading and editing, publishing, implementation, approval, maintenance"
+/>
 
 **Related Terms**: [Agile](#agile),
 [API documentation testing](#api-documentation-testing),
-[CI/CD pipeline](./tools-techniques/development-essentials.md#cicd-pipeline),
+[CI/CD pipeline](./tools-techniques/development-essentials.mdx#cicd-pipeline),
 [project management methodology](#project-management-methodology),
 [usability testing](#usability-testing)
 
@@ -422,17 +445,20 @@ from target users without formal recruitment processes
 
 **Example**: key characteristics and deliverables -
 
-![Guerilla Usability Testing Characteristics and Deliverables](../static/img/flowchart-guerilla-usability-testing.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-guerilla-usability-testing.png" 
+  alt="Flowchart showing guerilla usability testing key characteristics and deliverables: low maintenance, ad hoc settings, tests that don't require deep knowledge, less accurate than formal testing; test plan, recordings, summary report, presentation"
+/>
 
-**Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
+**Related Terms**: [accessibility](frameworks-strategy.mdx#accessibility),
 [AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
 [API documentation testing](#api-documentation-testing),
 [contract testing](#contract-testing),
 [Document Development Life Cycle](#document-development-life-cycle),
-[DX](frameworks-strategy.md#dx),
-[information architecture](frameworks-strategy.md#information-architecture),
+[DX](frameworks-strategy.mdx#dx),
+[information architecture](frameworks-strategy.mdx#information-architecture),
 [snippet testing](#snippet-testing), [usability testing](#usability-testing),
-[UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
+[UX](frameworks-strategy.mdx#ux), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -482,7 +508,10 @@ obstacles to efficient work
 
 **Example**: key characteristics -
 
-![Scrum Workflow Flowchart](../static/img/flowchart-scrum-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-scrum-workflow.png" 
+  alt="Flowchart showing Scrum key characteristics: iterative approach, scrum master clears obstacles, two-week sprints, daily team meetings"
+/>
 
 **Related Terms**: [Agile](#agile),
 [project management methodology](#project-management-methodology)
@@ -538,15 +567,15 @@ provides user perspective before product release
 - Not statistically significant but still useful
 - Participant recruitment is challenging
 
-**Related Terms**: [accessibility](frameworks-strategy.md#accessibility),
+**Related Terms**: [accessibility](frameworks-strategy.mdx#accessibility),
 [AI-assisted usability analysis](ai-and-apis.mdx#ai-assisted-usability-analysis),
 [API documentation testing](#api-documentation-testing),
-[docs-as-ecosystem](frameworks-strategy.md#docs-as-ecosystem),
+[docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
 [Document Development Life Cycle](#document-development-life-cycle),
-[DX](frameworks-strategy.md#dx),
+[DX](frameworks-strategy.mdx#dx),
 [guerrilla usability testing](#guerrilla-usability-testing),
-[information architecture](frameworks-strategy.md#information-architecture),
-[UX](frameworks-strategy.md#ux), [workflow testing](#workflow-testing)
+[information architecture](frameworks-strategy.mdx#information-architecture),
+[UX](frameworks-strategy.mdx#ux), [workflow testing](#workflow-testing)
 
 **Source**: UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
 

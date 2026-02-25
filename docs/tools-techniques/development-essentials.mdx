@@ -1,17 +1,19 @@
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+
 # Development Essentials
 
 Foundational tools and workflows for collaborative API documentation.
 From version control systems to command-line interfaces, this section
 covers the core development tools that enable documentation teams to
 track changes, manage collaboration, and integrate
-[docs-as-code](../workflows-methodologies.md#docs-as-code)
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code)
 practices into their development processes.
 
 ---
 
 ## Git & Version Control
 
-```mermaid
+<ZoomMermaid chart={`
 gitGraph
     commit id: "initial commit"
     branch feature-branch
@@ -24,7 +26,7 @@ gitGraph
     commit id: "address review feedback"
     checkout main
     merge feature-branch tag: "v1.2.0"
-```
+`}/>
 
 ---
 
@@ -214,9 +216,9 @@ maintain published versions separate from draft content
 | `rebase` | update the base commit from its source branch |
 | `squash` | bundle many commits into a single commit |
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Git Bash](#git-bash), [GitHub](#github), [GitHub Desktop](#github-desktop),
-[GitHub Pages](documentation-specific.md#github-pages)
+[GitHub Pages](documentation-specific.mdx#github-pages)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
 
@@ -260,9 +262,9 @@ and integrated workflows; provides web-based tools for
 code review, issue tracking, and continuous integration that
 complement local Git operations
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Git](#git), [Git Bash](#git-bash), [GitHub Desktop](#github-desktop),
-[GitHub Pages](documentation-specific.md#github-pages)
+[GitHub Pages](documentation-specific.mdx#github-pages)
 
 **Sources**:
 
@@ -283,7 +285,7 @@ Git commands, making version control more accessible to
 non-technical writers
 
 **Related Terms**: [Git](#git), [Git Bash](#git-bash),
-[GitHub](#github), [GitHub Pages](documentation-specific.md#github-pages),
+[GitHub](#github), [GitHub Pages](documentation-specific.mdx#github-pages),
 [GUI](#gui), [repository](#repository), [UI](#ui)
 
 **Sources**:
@@ -305,7 +307,7 @@ and development systems typically publish documentation
 directly from this branch
 
 **Related Terms**: [branch](#branch), [dev branch](#dev-branch),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [feature branch](#feature-branch), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -422,11 +424,11 @@ api-docs-monorepo/
     └── endpoints.md
 ```
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Git](#git), [Markdown](documentation-specific.md#markdown),
-[partials](documentation-specific.md#partials),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Git](#git), [Markdown](documentation-specific.mdx#markdown),
+[partials](documentation-specific.mdx#partials),
 [polyrepo](#polyrepo), static site generator,
-[white-labeling](../frameworks-strategy.md#white-labeling)
+[white-labeling](../frameworks-strategy.mdx#white-labeling)
 
 **Sources**:
 
@@ -491,8 +493,8 @@ company-docs/
     └── versioning: aligned with PyPI releases
 ```
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code), [Git](#git),
-[monorepo](#monorepo), static site generator, [white-labeling](../frameworks-strategy.md#white-labeling)
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Git](#git),
+[monorepo](#monorepo), static site generator, [white-labeling](../frameworks-strategy.mdx#white-labeling)
 
 **Source**: [HackerOne: "Evaluating and Choosing Between Monorepo vs. Polyrepo Approaches for Code Management"](https://www.hackerone.com/blog/evaluating-and-choosing-between-monorepo-vs-polyrepo-approaches-code-management)
 
@@ -528,7 +530,7 @@ before merging
 
 **Related Terms**: [branch](#branch),
 [CI/CD pipeline](#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [feature branch](#feature-branch), [fork](#fork), [merge](#merge)
 
 **Source**: UW API Docs: Module 2, Lesson 1, "Getting Started with Git"
@@ -645,8 +647,8 @@ owner, who can grant access or require contributors to fork
 the repository to their own GitHub account
 
 **Related Terms**: [branch](#branch),
-[CMS](documentation-specific.md#cms), [commit](#commit),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
+[CMS](documentation-specific.mdx#cms), [commit](#commit),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Git](#git), [Git Bash](#git-bash), [GitHub](#github),
 [repository](#repository)
 
@@ -690,10 +692,10 @@ change breaks documented API examples, the pipeline fails and prevents the merge
 until the team releases code and/or documentation fixes; when documentation passes
 all tests, the pipeline automatically publishes updated docs to the production site
 
-**Related Terms**: [Agile](../workflows-methodologies.md#agile),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[Documentation Development Life Cycle](../workflows-methodologies.md#document-development-life-cycle),
-[Linear](infrastructure-platforms.md#linear), [pull request](#pull-request)
+**Related Terms**: [Agile](../workflows-methodologies.mdx#agile),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[Documentation Development Life Cycle](../workflows-methodologies.mdx#document-development-life-cycle),
+[Linear](infrastructure-platforms.mdx#linear), [pull request](#pull-request)
 
 **Sources**:
 
@@ -722,8 +724,8 @@ documented CLI commands execute successfully and produce expected results
 
 **Related Terms**:
 [API](../core-concepts/api-fundamentals.mdx#api),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[GUI](#gui), [REST API](../api-types-architectures.md#rest-api), [UI](#ui)
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests),
+[GUI](#gui), [REST API](../api-types-architectures.mdx#rest-api), [UI](#ui)
 
 **Sources**:
 
@@ -748,10 +750,10 @@ documentation development
 retrieves user data from an API endpoint
 
 **Related Terms**: [`json-server`](testing-validation.md#json-server),
-[REST API](../api-types-architectures.md#rest-api),
-[Postman](documentation-specific.md#postman),
+[REST API](../api-types-architectures.mdx#rest-api),
+[Postman](documentation-specific.mdx#postman),
 [SDK](../core-concepts/api-fundamentals.mdx#sdk),
-[Swagger](documentation-specific.md#swagger)
+[Swagger](documentation-specific.mdx#swagger)
 
 **Further Reading**:
 
@@ -783,9 +785,9 @@ interfaces for API testing and exploration
 visual request builders, and interactive response viewers provides
 a GUI for developers to explore the API without writing code first
 
-**Related Terms**: [CLI](#cli), [MDX](documentation-specific.md#mdx),
-[Postman](documentation-specific.md#postman),
-[Swagger](documentation-specific.md#swagger), [UI](#ui)
+**Related Terms**: [CLI](#cli), [MDX](documentation-specific.mdx#mdx),
+[Postman](documentation-specific.mdx#postman),
+[Swagger](documentation-specific.mdx#swagger), [UI](#ui)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -808,7 +810,7 @@ between services
 programming languages
 
 **Related Terms**: [API](../core-concepts/api-fundamentals.mdx#api),
-[gRPC API](../api-types-architectures.md#graphql-api),
+[gRPC API](../api-types-architectures.mdx#graphql-api),
 [schema](../core-concepts/api-fundamentals.mdx#schema),
 [serialization](../core-concepts/api-fundamentals.mdx#serialization)
 
@@ -835,8 +837,8 @@ interact with the underlying system; documentation might specify which UI
 elements trigger specific API calls or how API responses render in the interface
 
 **Related Terms**: [API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint),
-[CLI](#cli), [GUI](#gui), [MDX](documentation-specific.md#mdx),
-[REST API](../api-types-architectures.md#rest-api)
+[CLI](#cli), [GUI](#gui), [MDX](documentation-specific.mdx#mdx),
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: UW API Docs: Module 3, Lesson 3, "Introduction to json-server, cURL, and Postman"
 
@@ -875,10 +877,10 @@ in enterprise systems, SOAP APIs, and legacy integrations
 
 **Related Terms**: [JSON](../core-concepts/api-fundamentals.mdx#json),
 [payload](../core-concepts/api-fundamentals.mdx#payload),
-[REST API](../api-types-architectures.md#rest-api),
+[REST API](../api-types-architectures.mdx#rest-api),
 [serialization](../core-concepts/api-fundamentals.mdx#serialization),
-[SOAP API](../api-types-architectures.md#soap-api),
-[SVG](diagramming-visualization.md#svg), [YAML](#yaml)
+[SOAP API](../api-types-architectures.mdx#soap-api),
+[SVG](diagramming-visualization.mdx#svg), [YAML](#yaml)
 
 **Source**: [W3C: "Extensible Markup Language (XML)"](https://www.w3.org/XML/)
 
