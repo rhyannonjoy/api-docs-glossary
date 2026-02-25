@@ -8,16 +8,16 @@ import { JSX } from 'react';
 
 function HeroContent() {
   const {colorMode} = useColorMode();
-  
+
   // Choose logo based on current theme
   const logoSrc = colorMode === 'dark' ? '/img/glossary-logo.png' : '/img/light-logo.png';
-  
+
   return (
     <main className={styles.heroBanner}>
       <div className="container">
-        <img 
+        <img
           src={useBaseUrl(logoSrc)}
-          alt="API Docs Glossary Logo" 
+          alt="API Docs Glossary Logo"
           className={styles.logo}
         />
       </div>
@@ -27,7 +27,7 @@ function HeroContent() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
-  
+
   return (
     <Layout
       title={`${siteConfig.title}`}

@@ -65,7 +65,7 @@ do you agree?
 Please follow the Style Guide recommendations
 [paste or link to [Style Guide](style-guide.mdx)] - write in active voice and
 generate output in Markdown so that I can copy and paste it easily. Use the
-following sources: 
+following sources:
 
 * [Source URL 1]
 * [Source URL 2]

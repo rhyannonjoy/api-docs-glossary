@@ -853,7 +853,7 @@ to request exactly the data they need through a single endpoint
 ### gRPC API
 
 - uses gRPC - _Google's Remote Procedure Call_ - framework
-- relies on Protocol Buffers  
+- relies on Protocol Buffers
 
 **Glossary Term Entry Location**: [API Types & Architectures - gRPC API](api-types-architectures.mdx#grpc-api)
 
