@@ -1822,6 +1822,17 @@ platform, service, or API
 
 ---
 
+### self-healing system
+
+- architectural design philosophy
+- strategic approach to system resilience
+- automated failure detection, inconsistencies, or docs drift from an expected state
+that recovers with little and/or without human intervention
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - self-healing system](frameworks-strategy.mdx#self-healing-system)
+
+---
+
 ### serialization
 
 - process of converting data structures and/or objects for
