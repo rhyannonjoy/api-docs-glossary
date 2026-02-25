@@ -921,7 +921,7 @@ user:
 
 **Related Terms**: [CI/CD pipeline](#cicd-pipeline),
 [JSON](../core-concepts/api-fundamentals.mdx#json),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [serialization](../core-concepts/api-fundamentals.mdx#serialization), [XML](#xml)
 
 **Sources**:
