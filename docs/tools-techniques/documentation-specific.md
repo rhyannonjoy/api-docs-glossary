@@ -141,7 +141,7 @@ components
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
 [GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](../tools-techniques/documentation-specific.md#mdx),
-[MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [static site generator](#static-site-generator)
 
 **Sources**:
@@ -204,11 +204,11 @@ languages to enhance DX, _developer experience_
 
 ![Fern workflow with OpenAPI specs flowchart](../../static/img/flowchart-fern-workflow.png)
 
-**Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
+**Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
 [CI/CD pipeline](../tools-techniques/development-essentials.md#cicd-pipeline),
 [docs-as-code](../workflows-methodologies.md#docs-as-code), [DX](../frameworks-strategy.md#dx),
 [gRPC API](../api-types-architectures.md#grpc-api), [Inkeep](#inkeep),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Postman](#postman), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
 [Speakeasy](testing-validation.md#speakeasy)
 
@@ -713,7 +713,7 @@ platform where developers can explore endpoints interactively
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [CLI](development-essentials.md#cli),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Redocly Respect](testing-validation.md#redocly-respect),
 [Spectral](#spectral), [Stoplight](#stoplight), [Swagger](#swagger), [Vale](#vale)
 
@@ -744,10 +744,10 @@ the violations in CI/CD, preventing merge until documentation is complete
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
+[AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [JSON](../core-concepts/api-fundamentals.mdx#json),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Redocly](#redocly)
 
 **Sources**:
@@ -839,7 +839,7 @@ design-development workflow -
 ![Stoplight Studio Design-Development Workflow Flowchart](../../static/img/flowchart-stoplight-workflow.png)
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.md#docs-as-code),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Postman](#postman), [Redocly](#redocly), [Swagger](#swagger)
 
 **Sources**:
@@ -880,7 +880,7 @@ generates client libraries and server stubs from OAS files
 ![API development workflow with Swagger flowchart](../../static/img/flowchart-swagger-workflow.png)
 
 **Related terms**: [GUI](development-essentials.md#gui),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Redocly](#redocly), [REST API](../api-types-architectures.md#rest-api),
 [Stoplight](#stoplight)
 

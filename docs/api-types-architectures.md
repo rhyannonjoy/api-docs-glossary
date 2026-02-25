@@ -31,7 +31,7 @@ delivery between trading systems, with guaranteed delivery options of
 at-most-once, at-least-once, or exactly once
 
 **Related Terms**:
-[AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
+[AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [HTTP](./core-concepts/api-fundamentals.mdx#http),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [MQTT](#mqtt),
@@ -84,7 +84,7 @@ payment status every few minutes
 
 **Related Terms**:
 [API](./core-concepts/api-fundamentals.mdx#api),
-[AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
+[AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [real-time](#real-time), [Server-Sent Events](#server-sent-events),
@@ -123,7 +123,7 @@ in `Core Concepts` with documentation specification formats
 ```
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
-[AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
+[AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [Mercure](#mercure),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [REST API](#rest-api),
@@ -317,7 +317,7 @@ with minimal battery drain, leveraging persistent sessions that survive
 network disconnections and automatic reconnection capabilities
 
 **Related Terms**: [AMQP](#amqp),
-[AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
+[AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [HTTP](./core-concepts/api-fundamentals.mdx#http),
 [Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
@@ -639,7 +639,7 @@ server every few seconds
 
 **Related Terms**: [AMQP](#amqp),
 [API](./core-concepts/api-fundamentals.mdx#api),
-[AsyncAPI](./core-concepts/documentation-specific.md#asyncapi),
+[AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [event-driven](#event-driven),
 [HTTP](./core-concepts/api-fundamentals.mdx#http), [Mercure](#mercure),
 [MQTT](#mqtt), [real-time](#real-time),

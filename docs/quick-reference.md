@@ -115,7 +115,7 @@ that enables reliable, asynchronous communication between applications
 - description format that uses Markdown syntax to document *REST*ful APIs
 - predecessor to OpenAPI with more readable syntax
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API Blueprint](./core-concepts/documentation-specific.md#api-blueprint)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API Blueprint](./core-concepts/documentation-specific.mdx#api-blueprint)
 
 ---
 
@@ -153,7 +153,7 @@ without clients needing to know about backend architecture
 
 - landing page in which the audience is everyone
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API overview topic](./core-concepts/documentation-specific.md#api-overview-topic)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API overview topic](./core-concepts/documentation-specific.mdx#api-overview-topic)
 
 ---
 
@@ -162,7 +162,7 @@ without clients needing to know about backend architecture
 - "getting finished topics" that describe aspects of an API
 operation or object
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API reference topic](./core-concepts/documentation-specific.md#api-reference-topic)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - API reference topic](./core-concepts/documentation-specific.mdx#api-reference-topic)
 
 ---
 
@@ -180,7 +180,7 @@ operation or object
 - describes API workflows, sequences of API calls, and how
 multiple API operations connect to accomplish multi-step tasks
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific, Arazzo Specification](./core-concepts/documentation-specific.md#arazzo-specification)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific, Arazzo Specification](./core-concepts/documentation-specific.mdx#arazzo-specification)
 
 ---
 
@@ -191,7 +191,7 @@ multiple API operations connect to accomplish multi-step tasks
 - enables standardized documentation and tooling for APIs that work over
 many different protocols
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - AsyncAPI](./core-concepts/documentation-specific.md#asyncapi)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi)
 
 ---
 
@@ -350,7 +350,7 @@ specific tasks
 - answer "what" and "why" questions at an accessible,
 introductory level
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - concept](./core-concepts/documentation-specific.md#concept)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - concept](./core-concepts/documentation-specific.mdx#concept)
 
 ---
 
@@ -681,7 +681,7 @@ collaborative features
 - clarifies a single topic without providing step-by-step instructions
 - focuses on comprehensive understanding of concepts, principles, or features
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - explanation guide](./core-concepts/documentation-specific.md#explanation-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - explanation guide](./core-concepts/documentation-specific.mdx#explanation-guide)
 
 ---
 
@@ -770,7 +770,7 @@ to generate new content
 - comprehensive onboarding documentation that helps new users complete their
 first meaningful interaction with a product or feature
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - getting started](./core-concepts/documentation-specific.md#getting-started)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - getting started](./core-concepts/documentation-specific.mdx#getting-started)
 
 ---
 
@@ -827,7 +827,7 @@ service
 - documentation topic type
 - alphabetically organized collection of terms and their definitions
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - glossary](./core-concepts/documentation-specific.md#glossary)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - glossary](./core-concepts/documentation-specific.mdx#glossary)
 
 ---
 
@@ -879,7 +879,7 @@ intended audience and capturing their responses
 - documentation topic type
 - step-by-step instructions for completing a specific real-world task
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - how-to guide](./core-concepts/documentation-specific.md#how-to-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - how-to guide](./core-concepts/documentation-specific.mdx#how-to-guide)
 
 ---
 
@@ -982,7 +982,7 @@ and community discussions
 - documentation topic type
 - explains what a product or feature is, why it exists, and what problems it solves
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - introduction](./core-concepts/documentation-specific.md#introduction)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - introduction](./core-concepts/documentation-specific.mdx#introduction)
 
 ---
 
@@ -1351,7 +1351,7 @@ that mimic humans’ use of language
 - documentation topic type
 - new team member handbook designed to reduce time-to-productivity
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - onboarding guide](./core-concepts/documentation-specific.md#onboarding-guide)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - onboarding guide](./core-concepts/documentation-specific.mdx#onboarding-guide)
 
 ---
 
@@ -1372,7 +1372,7 @@ what properties they have, and how they relate to each other
 - used to create the interface and documentation
 - format: YAML
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - OpenAPI Specification](./core-concepts/documentation-specific.md#openapi-specification)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - OpenAPI Specification](./core-concepts/documentation-specific.mdx#openapi-specification)
 
 ---
 
@@ -1586,7 +1586,7 @@ and other cloud services
 - documentation topic type
 - the absolute least amount of steps needed to achieve first success with a product
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - quickstart](./core-concepts/documentation-specific.md#quickstart)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - quickstart](./core-concepts/documentation-specific.mdx#quickstart)
 
 ---
 
@@ -1661,7 +1661,7 @@ that validate documentation accuracy
 - provides detailed, factual information or system specifications
 - designed for lookup rather than learning
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - reference](./core-concepts/documentation-specific.md#reference)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - reference](./core-concepts/documentation-specific.mdx#reference)
 
 ---
 
@@ -1751,7 +1751,7 @@ as if calling local functions
 - documentation topic type
 - provides standardized instructions for operational or maintenance activities
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - runbook](./core-concepts/documentation-specific.md#runbook)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - runbook](./core-concepts/documentation-specific.mdx#runbook)
 
 ---
 
@@ -1973,7 +1973,7 @@ vector graphics;
 - focuses on "how to" perform an action with step-by-step
 instructions
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - task](./core-concepts/documentation-specific.md#task)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - task](./core-concepts/documentation-specific.mdx#task)
 
 ---
 
@@ -2003,7 +2003,7 @@ or understand technical concepts
 - documentation topic type
 - introduces a subject area and provides navigation to related topics
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - top-level](./core-concepts/documentation-specific.md#top-level)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - top-level](./core-concepts/documentation-specific.mdx#top-level)
 
 ---
 
@@ -2012,7 +2012,7 @@ or understand technical concepts
 - documentation topic type
 - helps users diagnose and resolve specific problems or error conditions
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - troubleshooting](./core-concepts/documentation-specific.md#troubleshooting)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - troubleshooting](./core-concepts/documentation-specific.mdx#troubleshooting)
 
 ---
 
@@ -2030,7 +2030,7 @@ patterns and generate responses
 - documentation topic type
 - guides users through a complete, real-world scenario from start to finish
 
-**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - tutorial](./core-concepts/documentation-specific.md#tutorial)
+**Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - tutorial](./core-concepts/documentation-specific.mdx#tutorial)
 
 ---
 
