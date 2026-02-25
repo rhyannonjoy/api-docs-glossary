@@ -1,3 +1,5 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # Style Guide
 
 This guide defines content standards for the API Docs Glossary:
@@ -6,7 +8,7 @@ capitalization rules, and writing conventions. All contributions
 must follow these standards to maintain consistency and quality.
 
 _For technical setup and the pull request process, visit the
-[Contribution Guide](contribution-guide.md)._
+[Contribution Guide](contribution-guide.mdx)._
 
 ---
 
@@ -59,13 +61,13 @@ Most terms live in existing category files. To add a new term:
 
 1. Identify which category file the term belongs in:
    - `quick-reference.md` - common terms, concise definitions
-   - `core-concepts.md` - fundamental API documentation concepts
-   - `api-types-architectures.md` - different architectural patterns and protocols
+   - `/core-concepts` - fundamental API documentation concepts
+   - `api-types-architectures.mdx` - different architectural patterns and protocols
    - `ai-and-apis.mdx` - AI technologies, concepts relevant to API documentation
-   - `tools-techniques.md` - tools, software, methods
-   - `workflows-methodologies.md` - development, documentation workflows for API projects
-   - `frameworks-strategy.md` - conceptual models, strategic approaches for API documentation work
-   - `writing-style.md` - language conventions, tone guidelines, rhetorical approaches
+   - `/tools-techniques` - tools, software, methods
+   - `workflows-methodologies.mdx` - development, documentation workflows for API projects
+   - `frameworks-strategy.mdx` - conceptual models, strategic approaches for API documentation work
+   - `writing-style.mdx` - language conventions, tone guidelines, rhetorical approaches
 
 2. Add the term using this format:
 
@@ -107,7 +109,10 @@ When determining where a glossary term belongs, consider:
 2. **User Context**: _When would readers need this term?_
 3. **Distinguishing Characteristics**: _Concept type and/or tool?_
 
-![Style Guide Category Placement Flowchart](../../static/img/flowchart-style-guide-category-placement.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-style-guide-category-placement.png" 
+  alt="Style Guide Category Placement flowchart showing how a contributor determines which category a glossary term belongs in based on what the term fundamentally describes, when readers need it, and its distinguishing characteristics"
+/>
 
 ### When to Document
 
@@ -232,10 +237,10 @@ choose based on context and maintain consistency -
 **Use "Docs"**:
 
 - while using established compound terms -
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
-[docs-as-tests](../workflows-methodologies.md#docs-as-tests)
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[docs-as-tests](../workflows-methodologies.mdx#docs-as-tests)
 - for project names and approachability -
-[API Docs Glossary](../introduction.md),
+[API Docs Glossary](../introduction.mdx),
 [Read the Docs](https://about.readthedocs.com/?ref=app.readthedocs.org)
 - when brevity improves scannability in navigation or headings
 
@@ -247,7 +252,7 @@ choose based on context and maintain consistency -
 
 | Context | Form | Examples | Why |
 | --------- | ------ | ---------- | ----- |
-| **Project/Product Names** | "docs" or "doc" | [API Docs Glossary](../introduction.md), [Write the Docs](https://www.writethedocs.org/), [Doc Detective](https://doc-detective.com/) | Branding choice - both are valid as a naming decision, not a grammar rule |
+| **Project/Product Names** | "docs" or "doc" | [ADG](../introduction.mdx), [Write the Docs](https://www.writethedocs.org/), [Doc Detective](https://doc-detective.com/) | Branding choice - both are valid as a naming decision, not a grammar rule |
 | **Compound Terms** | "docs" or "documentation" | docs-as-code, API documentation testing | Either works - consistency matters more |
 | **Formal Writing** | "documentation" | API documentation, technical documentation | More professional tone |
 | **Conversational** | "docs" | "I updated the docs" or "check the docs" | Natural, common usage |
@@ -297,7 +302,7 @@ application programming interface...
 - acronym for _user interface_
 - space where interactions between humans and machines occur
 
-**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](../tools-techniques/development-essentials.md#ui)
+**Glossary Term Entry Location**: [Tools & Techniques, Development Essentials, Interfaces & Formats - UI](../tools-techniques/development-essentials.mdx#ui)
 ```
 
 **Use the full name** when the acronym isn't widely recognized or when the
@@ -498,19 +503,19 @@ connections, while too many overwhelms and dilutes relevance.
 Link terms that are -
 
 - **Directly Connected**: terms used together in workflows,
-such as [branch](../tools-techniques/development-essentials.md#branch)
-→ [merge](../tools-techniques/development-essentials.md#merge) →
-[commit](../tools-techniques/development-essentials.md#commit) →
-[rebase](../tools-techniques/development-essentials.md#rebase)
+such as [branch](../tools-techniques/development-essentials.mdx#branch)
+→ [merge](../tools-techniques/development-essentials.mdx#merge) →
+[commit](../tools-techniques/development-essentials.mdx#commit) →
+[rebase](../tools-techniques/development-essentials.mdx#rebase)
 - **Prerequisite Concepts**: terms readers need to understand
 first, such as
-[REST API](../api-types-architectures.md#rest-api) →
+[REST API](../api-types-architectures.mdx#rest-api) →
 [HTTP](../core-concepts/api-fundamentals.mdx#http) →
 [JSON](../core-concepts/api-fundamentals.mdx#json)
 - **Higher-Level Concepts**: category terms that provide context,
-such as [CLI](../tools-techniques/development-essentials.md#cli) →
-[cURL](../tools-techniques/development-essentials.md#curl) →
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing)
+such as [CLI](../tools-techniques/development-essentials.mdx#cli) →
+[cURL](../tools-techniques/development-essentials.mdx#curl) →
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing)
 
 **Related Terms Format and Syntax**:
 
@@ -531,7 +536,7 @@ such as [CLI](../tools-techniques/development-essentials.md#cli) →
 ```markdown
 **Related Terms**: [term name](filename.md#term-name)
 
-**Related Terms**: [Git](tools-techniques/development-essentials.md#git), [GitHub](tools-techniques/development-essentials.md#github)
+**Related Terms**: [Git](tools-techniques/development-essentials.mdx#git), [GitHub](tools-techniques/development-essentials.mdx#github)
 ```
 
 **Best Practices**:
@@ -598,7 +603,7 @@ Example:
 **Source Best Practices**
 
 - be as specific as possible - include authors' names, exact page titles,
-section names, or [RFC numbers](../tools-techniques/documentation-specific.md#rfc)
+section names, or [RFC numbers](../tools-techniques/documentation-specific.mdx#rfc)
 - for official specifications - HTTP, OpenAPI - link to the authoritative
 source
 - for course materials without public URLs, provide enough detail for
@@ -629,7 +634,7 @@ Consider creating a dedicated comparison entry when:
 
 | **Scenario** | **Example** | **Action** |
 | ------------ | ----------- | ---------- |
-| Terms are frequently confused or used interchangeably | [REST vs *REST*ful](../api-types-architectures.md#rest-vs-restful) - often treated as synonyms despite technical distinction | Create a comparison entry that explains both the technical distinction and practical usage |
+| Terms are frequently confused or used interchangeably | [REST vs *REST*ful](../api-types-architectures.mdx#rest-vs-restful) - often treated as synonyms despite technical distinction | Create a comparison entry that explains both the technical distinction and practical usage |
 | The relationship between terms is more important than individual definitions | Understanding that REST is the architectural style while *REST*ful describes implementations | Focus the entry on the relationship and when each term applies |
 | Explaining the difference helps writers make better terminology choices | Knowing both terms are acceptable in API docs reduces terminology anxiety | Document that consistency matters more than picking the "right" term |
 | Common usage differs from technical precision | Practitioners use REST and *REST*ful interchangeably in documentation | Acknowledge both the technical distinction and real-world practice |
@@ -1002,7 +1007,7 @@ heading in `quick-reference.md`
       - project management method
       - traditional, sequential, linear, idealistic
 
-      **Glossary Term Entry Location**: [Workflows & Methodologies - Waterfall](workflows-methodologies.md#waterfall)
+      **Glossary Term Entry Location**: [Workflows & Methodologies - Waterfall](workflows-methodologies.mdx#waterfall)
 
       ---
    ```
@@ -1059,13 +1064,13 @@ the [Add a new glossary term section](#add-a-new-glossary-term):
    1. Identify which category file the term belongs in:
    
    - `quick-reference.md` - common terms, concise definitions
-   - `core-concepts.md` - fundamental API documentation concepts
-   - `api-types-architectures.md` - different architectural patterns and protocols
+   - `/core-concepts` - fundamental API documentation concepts
+   - `api-types-architectures.mdx` - different architectural patterns and protocols
    - `ai-and-apis.mdx` - AI technologies, concepts relevant to API documentation
    <!--> ... continue list-->
    ```
 
-6. Update the `contribution-guide.md` by adding the new term category to any lists
+6. Update the `contribution-guide.mdx` by adding the new term category to any lists
 or descriptions of the glossary structure
 7. Update `get-started.md` by adding the new term category to any lists or
 descriptions of the glossary structure

@@ -1,3 +1,5 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # Frameworks & Strategy
 
 Meta-level frameworks and strategic approaches for API documentation work.
@@ -5,11 +7,14 @@ This section covers evaluation frameworks for API usability, developer
 personas, organizational contexts, and market dynamics - the conceptual
 models that inform how documentation teams plan and execute their work.
 For technical API architectures and implementation
-patterns, see [API Types & Architectures](api-types-architectures.md).
+patterns, see [API Types & Architectures](api-types-architectures.mdx).
 
 **Explore the cognitive dimensions framework**:
 
-![Cognitive Dimensions Framework Flowchart](../static/img/flowchart-cognitive-dimensions-framework.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-cognitive-dimensions-framework.png" 
+  alt="Cognitive dimensions framework in the style of a flowchart, showing usability and design factors"
+/>
 
 ---
 
@@ -57,11 +62,11 @@ readability
 - plain language explanations alongside technical terminology
 
 **Related Terms**: [content strategy](#content-strategy),
-[diagrams-as-code](workflows-methodologies.md#diagrams-as-code),
+[diagrams-as-code](workflows-methodologies.mdx#diagrams-as-code),
 [docs-as-ecosystem](#docs-as-ecosystem), [DX](#dx),
-[guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
+[guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing),
 [information architecture](#information-architecture),
-[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
+[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -108,7 +113,7 @@ burying the comparison deep in reference docs
 **Related terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [API reference topic](./core-concepts/documentation-specific.mdx#api-reference-topic),
 [Diátaxis](#diátaxis), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
-[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
+[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -138,7 +143,7 @@ measure success
 | Versioning | maintain version-specific documentation | ensures backward compatibility |
 | Metrics | track time-to-first-successful-API-call | measures effectiveness of documentation |
 
-**Related Terms**: [accessibility](#accessibility), [content](writing-style.md#content),
+**Related Terms**: [accessibility](#accessibility), [content](writing-style.mdx#content),
 [docs-as-ecosystem](#docs-as-ecosystem), [information architecture](#information-architecture),
 [knowledge management](#knowledge-management), [market](#market), [ontology](#ontology),
 [sales collateral](#sales-collateral), [technical communication](#technical-communication)
@@ -193,7 +198,7 @@ page
 | Explanation | "How payment processing works" | Understanding | Theoretical |
 
 **Related Terms**: [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[content](writing-style.md#content), [domain knowledge](#domain-knowledge),
+[content](writing-style.mdx#content), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
 [explanation guide](./core-concepts/documentation-specific.mdx#explanation-guide),
 [how-to guide](./core-concepts/documentation-specific.mdx#how-to-guide),
@@ -241,14 +246,14 @@ feedback trends, coordinates with product managers on documentation roadmap, and
 integrates contributions from engineers, community members, and customer support to
 create living documentation that evolves with community needs
 
-**Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.md#agile),
-[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.md#dam),
-[docs-as-code](workflows-methodologies.md#docs-as-code),
-[docs-as-tests](workflows-methodologies.md#docs-as-tests), [domain knowledge](#domain-knowledge),
+**Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.mdx#agile),
+[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
+[docs-as-code](workflows-methodologies.mdx#docs-as-code),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
 [knowledge management](#knowledge-management), [ontology](#ontology), [RAG](ai-and-apis.mdx#rag),
 [technical communication](#technical-communication),
-[usability testing](workflows-methodologies.md#usability-testing)
+[usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
@@ -276,7 +281,7 @@ for different account types
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
-[DSL](./tools-techniques/diagramming-visualization.md#dsl),
+[DSL](./tools-techniques/diagramming-visualization.mdx#dsl),
 [end-user software engineer](#end-user-software-engineer),
 [information architecture](#information-architecture),
 [knowledge management](#knowledge-management), [ontology](#ontology),
@@ -319,7 +324,7 @@ experience
 [error handling](./core-concepts/api-fundamentals.mdx#error-handling),
 [getting started](./core-concepts/documentation-specific.mdx#getting-started),
 [SDK](./core-concepts/api-fundamentals.mdx#sdk),
-[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
+[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -358,7 +363,7 @@ first payment" tutorial
 **Related Terms**: [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
 [domain knowledge](#domain-knowledge), [DX](#dx),
 [error handling](./core-concepts/api-fundamentals.mdx#error-handling),
-[usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
+[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -384,16 +389,19 @@ display a navigation hierarchy that organizes content by user need - setup,
 reference, task-based learning - and specifically endpoints by resource
 type, `/pets` and `/shelters`, then by function and/or CRUD operation
 
-![PawFinder Landing Page](../../api-docs-glossary/static/img/pawfinder-landing-page-IA.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/pawfinder-landing-page-IA.png" 
+  alt="Static image of the PawFinder API Documentation homepage, showing the documentation structure in various forms: navigational panel on the left, documentation structure in the content body"
+/>
 
 **Related Terms**: [accessibility](#accessibility),
-[content](writing-style.md#content), [content strategy](#content-strategy),
+[content](writing-style.mdx#content), [content strategy](#content-strategy),
 [CRUD](./core-concepts/api-fundamentals.mdx#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge), [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [knowledge management](#knowledge-management),
-[metadata](./tools-techniques/documentation-specific.md#metadata), [ontology](#ontology),
+[metadata](./tools-techniques/documentation-specific.mdx#metadata), [ontology](#ontology),
 [taxonomy](#taxonomy), [technical communication](#technical-communication),
-[usability testing](workflows-methodologies.md#usability-testing),
+[usability testing](workflows-methodologies.mdx#usability-testing),
 [UX](#ux)
 
 **Sources**:
@@ -455,12 +463,12 @@ who emphasize sales collateral and developer acquisition
 | Marketing | developer acquisition, use cases, sales collateral | landing pages, tutorials, API overviews |
 | Support | troubleshooting, error resolution, FAQs | knowledge bases, search optimization |
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.md#cms),
-[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.md#dam),
-[docs-as-code](./workflows-methodologies.md#docs-as-code),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
+[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
+[docs-as-code](./workflows-methodologies.mdx#docs-as-code),
 [docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
 [information architecture](#information-architecture),
-[market](#market), [metadata](./tools-techniques/documentation-specific.md#metadata),
+[market](#market), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
 ontology, [sales collateral](#sales-collateral), [taxonomy](#taxonomy),
 [technical communication](#technical-communication)
 
@@ -559,7 +567,7 @@ troubleshooting guides -
 [docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
 [information architecture](#information-architecture),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph),
-[metadata](./tools-techniques/documentation-specific.md#metadata),
+[metadata](./tools-techniques/documentation-specific.mdx#metadata),
 [taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Sources**:
@@ -588,7 +596,7 @@ business metrics
 
 **Related Terms**:
 [API overview topic](./core-concepts/documentation-specific.mdx#api-overview-topic),
-[content](./writing-style.md#content), [content strategy](#content-strategy),
+[content](./writing-style.mdx#content), [content strategy](#content-strategy),
 [knowledge management](#knowledge-management), [market](#market)
 
 **Sources**:
@@ -615,7 +623,7 @@ API may need lightweight, frequently updated documentation focused on
 current capabilities rather than comprehensive reference materials,
 with clear disclaimers about experimental status
 
-**Related Terms**: [Agile](workflows-methodologies.md#agile),
+**Related Terms**: [Agile](workflows-methodologies.mdx#agile),
 [project management methodologies](workflows-methodologies#project-management-methodology)
 
 **Sources**:
@@ -638,7 +646,10 @@ other
 
 ### taxonomy scope
 
-![Taxonomy Scope Flowchart](../static/img/flowchart-taxonomy-scope.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-taxonomy-scope.png" 
+  alt="Taxonomy scope in the style of a flowchart, showing the relationships between Tech Comm, content, structured content, taxonomy, metadata, ontology, knowledge graph producing modular/kinetic/liquid content"
+/>
 
 | Build Stage - Layer | Concept | Capability Unlocked |
 | ------------- | --------- | --------------------- |
@@ -656,10 +667,10 @@ hierarchically or categorize error codes:
 | Endpoints | `Authentication` → `OAuth 2.0` → `Token Management` → `Refresh Token Endpoint` |
 | Error Codes | `Client Errors (4xx)` → `Authentication Errors` → `401 Unauthorized`, `403 Forbidden` |
 
-**Related Terms**: [content](writing-style.md#content), [DAM](./tools-techniques/documentation-specific.md#dam),
-[domain knowledge](#domain-knowledge), [DSL](./tools-techniques/diagramming-visualization.md#dsl),
+**Related Terms**: [content](writing-style.mdx#content), [DAM](./tools-techniques/documentation-specific.mdx#dam),
+[domain knowledge](#domain-knowledge), [DSL](./tools-techniques/diagramming-visualization.mdx#dsl),
 [knowledge graph](ai-and-apis.mdx#knowledge-graph), [knowledge management](#knowledge-management),
-[information architecture](#information-architecture), [metadata](./tools-techniques/documentation-specific.md#metadata),
+[information architecture](#information-architecture), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
 [ontology](#ontology), [technical communication](#technical-communication)
 
 **Sources**:
@@ -690,17 +701,20 @@ describing specific API concepts
 
 ### tech comm scope
 
-![Technical Communication Scope Flowchart](../static/img/flowchart-tech-comm-scope.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-tech-comm-scope.png" 
+  alt="Tech Comm scope flowchart showing the relationships between content strategy, information architecture, content creation, structure and navigation; User Experience, Developer Experience, and documentation goals"
+/>
 
 **Example**: API reference documentation, SDK tutorials, developer guides,
 installation instructions, and troubleshooting articles are all forms of
 technical communication created by technical communicators working in the
 API documentation domain
 
-**Related Terms**: [content](writing-style.md#content),
+**Related Terms**: [content](writing-style.mdx#content),
 [content strategy](#content-strategy), [docs-as-ecosystem](#docs-as-ecosystem),
 [domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
-[knowledge management](#knowledge-management), [metadata](./tools-techniques/documentation-specific.md#metadata),
+[knowledge management](#knowledge-management), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
 [ontology](#ontology), [taxonomy](#taxonomy)
 
 **Sources**:
@@ -733,12 +747,12 @@ and supports successful integration
 | Code Samples | Ensure samples work copy-paste without modification | Eliminates guesswork and reduces time-to-first-successful-API-call |
 
 **Related Terms**: [accessibility](#accessibility),
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
 [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [DX](#dx), [end-user software engineer](#end-user-software-engineer),
-[guerilla usability testing](workflows-methodologies.md#guerrilla-usability-testing),
+[guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing),
 [information architecture](#information-architecture),
-[usability testing](workflows-methodologies.md#usability-testing)
+[usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
@@ -765,9 +779,9 @@ displays different branding, custom domain names, client-specific webhook URLs,
 and compliance disclaimers; when an API endpoint changes, updating the shared
 `include` file propagates the change across all three branded documentation sites
 
-**Related Terms**: [monorepo](./tools-techniques/development-essentials.md#monorepo),
-[partials](./tools-techniques/documentation-specific.md#partials),
-[polyrepo](./tools-techniques/development-essentials.md#polyrepo),
+**Related Terms**: [monorepo](./tools-techniques/development-essentials.mdx#monorepo),
+[partials](./tools-techniques/documentation-specific.mdx#partials),
+[polyrepo](./tools-techniques/development-essentials.mdx#polyrepo),
 static site generator
 
 **Sources**:

@@ -63,7 +63,7 @@ I think these terms should go in [FILENAME], in the [SECTION NAME] section,
 do you agree?
 
 Please follow the Style Guide recommendations
-[paste or link to [Style Guide](style-guide.md)] - write in active voice and
+[paste or link to [Style Guide](style-guide.mdx)] - write in active voice and
 generate output in Markdown so that I can copy and paste it easily. Use the
 following sources: 
 
@@ -86,7 +86,7 @@ accurately represent the term._
 
 ```markdown
 Please review these glossary entries against Style Guide recommendations
-[paste or link to [Style Guide](style-guide.md)] and suggest improvements:
+[paste or link to [Style Guide](style-guide.mdx)] and suggest improvements:
 
 Term entries to review:
 * [Term Entry 1]

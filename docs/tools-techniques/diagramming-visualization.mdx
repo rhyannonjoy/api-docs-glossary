@@ -1,3 +1,5 @@
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+
 # Diagramming & Visualization
 
 Tools and techniques for creating visual representations of technical concepts,
@@ -79,8 +81,8 @@ api -> lambda: REST requests
 lambda -> db: Query data
 ```
 
-**Related Terms**: [diagram](#diagram), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code), [DSL](#dsl),
+**Related Terms**: [diagram](#diagram), [diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [DSL](#dsl),
 [Ilograph](#ilograph), [Mermaid](#mermaid), [PlantUML](#plantuml),
 [Structurizr](#structurizr), [UML](#uml)
 
@@ -128,7 +130,7 @@ retries, and fallback behavior
 transaction from client request through auth, processing, and webhook callback
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2),
-[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
 [draw.io](#drawio), [DSL](#dsl), [Excalidraw](#excalidraw),
 [Ilograph](#ilograph), [knowledge graph](../ai-and-apis.mdx#knowledge-graph),
 [Lucidchart](#lucidchart), [Mermaid](#mermaid), [PlantUML](#plantuml),
@@ -201,13 +203,13 @@ that implement their own DSL -
 | PlantUML | Keyword-based text syntax | `@startuml / @enduml` wraps sequence diagram definitions |
 
 **Related Terms**: [Cucumber](testing-validation.md#cucumber), [D2](#d2),
-[diagram](#diagram), [diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
-[domain knowledge](../frameworks-strategy.md#domain-knowledge),
-[graphQL API](../api-types-architectures.md#graphql-api),
-[Markdown](documentation-specific.md#markdown), [Mermaid](#mermaid),
+[diagram](#diagram), [diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[domain knowledge](../frameworks-strategy.mdx#domain-knowledge),
+[graphQL API](../api-types-architectures.mdx#graphql-api),
+[Markdown](documentation-specific.mdx#markdown), [Mermaid](#mermaid),
 [Open API Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[PlantUML](#plantuml), [taxonomy](../frameworks-strategy.md#taxonomy), [UML](#uml)
+[PlantUML](#plantuml), [taxonomy](../frameworks-strategy.mdx#taxonomy), [UML](#uml)
 
 **Sources**:
 
@@ -256,9 +258,9 @@ can click to expand individual services to see their internal components, databa
 connections, and API endpoints
 
 **Related Terms**: [D2](#d2), [diagram](#diagram),
-[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
 [draw.io](#drawio), [Mermaid](#mermaid), [Structurizr](#structurizr),
-[YAML](development-essentials.md#yaml)
+[YAML](development-essentials.mdx#yaml)
 
 **Sources**:
 
@@ -301,7 +303,7 @@ that renders visually in docs platforms supporting Mermaid syntax
 **Example**: Mermaid sequence diagram showing API request flow without requiring
 external image files -
 
-```mermaid
+<ZoomMermaid chart={`
 sequenceDiagram
     participant Client
     participant GW as API Gateway
@@ -328,12 +330,12 @@ sequenceDiagram
         end
         GW-->>Client: Response
     end
-```
+`}/>
 
 **Related Terms**: [D2](#d2), [diagram](#diagram),
-[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code), [Ilograph](#ilograph),
-[Markdown](documentation-specific.md#markdown), [MDX](documentation-specific.md#mdx),
+[diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Ilograph](#ilograph),
+[Markdown](documentation-specific.mdx#markdown), [MDX](documentation-specific.mdx#mdx),
 [PlantUML](#plantuml), [UML](#uml)
 
 **Sources**:
@@ -393,10 +395,10 @@ API --> Client: 200 OK {token}
 ```
 
 **Related Terms**: [C4 model](#c4-model), [D2](#d2), [diagram](#diagram),
-[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
 [DSL](#dsl), [JSON](../core-concepts/api-fundamentals.mdx#json),
 [Mermaid](#mermaid), [Python Diagrams](#python-diagrams), [Structurizr](#structurizr),
-[UML](#uml), [YAML](development-essentials.md#yaml)
+[UML](#uml), [YAML](development-essentials.mdx#yaml)
 
 **Sources**:
 
@@ -431,10 +433,10 @@ with Diagram("API Architecture"):
     APIGateway("API") >> Lambda("Function") >> Dynamodb("Database")
 ```
 
-**Related Terms**: [commit](development-essentials.md#commit), [diagram](#diagram),
-[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
-[PlantUML](#plantuml), [version control](development-essentials.md#version-control)
+**Related Terms**: [commit](development-essentials.mdx#commit), [diagram](#diagram),
+[diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[PlantUML](#plantuml), [version control](development-essentials.mdx#version-control)
 
 **Sources**:
 
@@ -481,7 +483,7 @@ regions or [tooltips](https://en.wikipedia.org/wiki/Tooltip)
 across desktop and mobile documentation views without pixelation
 
 **Related Terms**: [diagram](#diagram), [draw-io](#drawio),
-[Excalidraw](#excalidraw), [XML](development-essentials.md#xml)
+[Excalidraw](#excalidraw), [XML](development-essentials.mdx#xml)
 
 **Sources**:
 
@@ -520,7 +522,7 @@ diagrams to show how an order moves through `pending`, `confirmed`,
 `shipped`, and `delivered` states
 
 **Related Terms**: [C4 model](#c4-model), [diagram](#diagram), [D2](#d2),
-[diagrams-as-code](../workflows-methodologies.md#diagrams-as-code),
+[diagrams-as-code](../workflows-methodologies.mdx#diagrams-as-code),
 [draw.io](#drawio), [DSL](#dsl), [Mermaid](#mermaid), [PlantUML](#plantuml),
 [Structurizr](#structurizr)
 

@@ -1,3 +1,5 @@
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+
 # API Types & Architectures
 
 Different architectural patterns and protocols for building APIs.
@@ -33,7 +35,7 @@ at-most-once, at-least-once, or exactly once
 **Related Terms**:
 [AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [HTTP](./core-concepts/api-fundamentals.mdx#http),
-[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[Kafka](./tools-techniques/infrastructure-platforms.mdx#kafka),
 [MQTT](#mqtt),
 [request-response](./core-concepts/api-fundamentals.mdx#request-response),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
@@ -85,7 +87,7 @@ payment status every few minutes
 **Related Terms**:
 [API](./core-concepts/api-fundamentals.mdx#api),
 [AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
-[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[Kafka](./tools-techniques/infrastructure-platforms.mdx#kafka),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
 [real-time](#real-time), [Server-Sent Events](#server-sent-events),
 [webhook API](#webhook-api), [WebSocket API](#websocket-api)
@@ -153,7 +155,7 @@ messages rather than JSON
 **Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [HTTP versions](./core-concepts/api-fundamentals.mdx#http-versions),
 [Microcks](./tools-techniques/testing-validation.md#microcks),
-[Protocol Buffers](./tools-techniques/development-essentials.md#protocol-buffers),
+[Protocol Buffers](./tools-techniques/development-essentials.mdx#protocol-buffers),
 [RPC API](#rpc-api),
 [serialization](./core-concepts/api-fundamentals.mdx#serialization)
 
@@ -319,7 +321,7 @@ network disconnections and automatic reconnection capabilities
 **Related Terms**: [AMQP](#amqp),
 [AsyncAPI](./core-concepts/documentation-specific.mdx#asyncapi),
 [HTTP](./core-concepts/api-fundamentals.mdx#http),
-[Kafka](./tools-techniques/infrastructure-platforms.md#kafka),
+[Kafka](./tools-techniques/infrastructure-platforms.mdx#kafka),
 [STOMP](#stomp), [WebSocket API](#websocket-api)
 
 **Sources**:
@@ -342,7 +344,7 @@ dashboards
 applications within milliseconds of market movements
 
 **Related Terms**: [event-driven](#event-driven), [JSON-RPC](#json-rpc),
-[kinetic content](writing-style.md#kinetic-content),
+[kinetic content](writing-style.mdx#kinetic-content),
 [liquid content](ai-and-apis.mdx#liquid-content),
 [Server-Sent Events](#server-sent-events), [webhook API](#webhook-api),
 [WebSocket API](#websocket-api)
@@ -396,7 +398,7 @@ Break down this URL:
 - _Where_: From `localhost:3000` server
 - _What_: `users/2` instance of this resource
 
-```mermaid
+<ZoomMermaid chart={`
 sequenceDiagram
     participant Client
     participant API Server
@@ -406,7 +408,7 @@ sequenceDiagram
     API Server->>Database: Query user data
     Database-->>API Server: User record
     API Server-->>Client: 200 OK + JSON response
-```
+`}/>
 
 **Example Response**:
 
@@ -423,8 +425,8 @@ resource formatted as a JSON document:
 ```
 
 **Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
-[API documentation testing](workflows-methodologies.md#api-documentation-testing),
-[CLI](./tools-techniques/development-essentials.md#cli),
+[API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
+[CLI](./tools-techniques/development-essentials.mdx#cli),
 [HTTP](./core-concepts/api-fundamentals.mdx#http),
 [HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes),
 [JSON](./core-concepts/api-fundamentals.mdx#json),
@@ -554,7 +556,7 @@ requirements, and transaction guarantees
 **Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api),
 [error handling](./core-concepts/api-fundamentals.mdx#error-handling),
 [HTTP](./core-concepts/api-fundamentals.mdx#http), [REST API](#rest-api),
-[XML](./tools-techniques/development-essentials.md#xml)
+[XML](./tools-techniques/development-essentials.mdx#xml)
 
 **Source**: [W3C: "SOAP Version 1.2 Part 1: Messaging Framework"](https://www.w3.org/TR/soap12/)
 

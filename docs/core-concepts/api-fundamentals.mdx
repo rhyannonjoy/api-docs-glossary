@@ -1,5 +1,5 @@
-import ZoomMermaid from '@site/src/components/ZoomMermaid';
 import ZoomImage from '@site/src/components/ZoomImage';
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
 
 # API Fundamentals
 
@@ -57,11 +57,11 @@ sequenceDiagram
 `} />
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[API endpoint](#api-endpoint), [API gateway](../api-types-architectures.md#api-gateway),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[API endpoint](#api-endpoint), [API gateway](../api-types-architectures.mdx#api-gateway),
 [API security](#api-security),
-[CLI](../tools-techniques/development-essentials.md#cli),
-[REST API](../api-types-architectures.md#rest-api)
+[CLI](../tools-techniques/development-essentials.mdx#cli),
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -105,10 +105,10 @@ Breaking down this endpoint:
 | `/resource/{id}/subresource` | Related resources | `GET /users/123/orders` |
 
 **Related Terms**: [API](#api),
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [HTTP](#http), [HTTP method](#http-method), [parameters](#parameters),
 [request-response](#request-response), [resource](#resource),
-[REST API](../api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -170,7 +170,7 @@ posts via `PUT /posts/{id}`, and deleting posts via `DELETE /posts/{id}`
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get), [HTTP method](#http-method),
 [`PATCH`](#patch), [`POST`](#post), [`PUT`](#put), [resource](#resource),
-[REST API](../api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Sources**:
 
@@ -213,7 +213,7 @@ credentials stored as environment variables rather than committed
 to version control
 
 **Related Terms**: [API](#api),
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [API security](#api-security), [authentication](#authentication),
 [Bruno](../tools-techniques/testing-validation.md#bruno)
 
@@ -318,7 +318,7 @@ and any relevant data
 **Related Terms**: [API endpoint](#api-endpoint),
 [AsyncAPI](documentation-specific.mdx#asyncapi), [error-handling](#error-handling),
 [HTTPS](#https), [HTTP status codes](#http-status-codes),
-[HTTP versions](#http-versions), [REST API](../api-types-architectures.md#rest-api)
+[HTTP versions](#http-versions), [REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -426,9 +426,9 @@ GET https://api.example.com/users/999
 ```
 
 **Related Terms**:
-[API documentation testing](../workflows-methodologies.md#api-documentation-testing),
+[API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
 [API endpoint](#api-endpoint), [HTTP](#http), [rate limiting](#rate-limiting),
-[request-response](#request-response), [REST API](../api-types-architectures.md#rest-api),
+[request-response](#request-response), [REST API](../api-types-architectures.mdx#rest-api),
 [troubleshooting](documentation-specific.mdx#troubleshooting), [validation](#validation)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
@@ -452,9 +452,9 @@ versions for their performance characteristics
 features like multiplexing and bidirectional streaming that aren't
 available in HTTP/1.1
 
-**Related Terms**: [gRPC API](../api-types-architectures.md#grpc-api),
+**Related Terms**: [gRPC API](../api-types-architectures.mdx#grpc-api),
 [HTTP](#http), [HTTPS](#https),
-[REST API](../api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: [IETF RFC 9110 - HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
 
@@ -537,11 +537,11 @@ with JavaScript
 | Configuration | Storing API settings and options |
 | Error messages | Structured error information |
 
-**Related Terms**: [JSON-RPC](../api-types-architectures.md#json-rpc),
-[payload](#payload), [REST API](../api-types-architectures.md#rest-api),
+**Related Terms**: [JSON-RPC](../api-types-architectures.mdx#json-rpc),
+[payload](#payload), [REST API](../api-types-architectures.mdx#rest-api),
 [serialization](#serialization),
-[XML](../tools-techniques/development-essentials.md#xml),
-[YAML](../tools-techniques/development-essentials.md#yaml)
+[XML](../tools-techniques/development-essentials.mdx#xml),
+[YAML](../tools-techniques/development-essentials.mdx#yaml)
 
 **Source**: [JSON.org: "Introducing JSON"](https://www.json.org/)
 
@@ -574,11 +574,11 @@ decoupling allows independent scaling and evolution of system components
 | **Payment system** | Subscribes to order messages | Processes payment asynchronously |
 | **Shipping system** | Subscribes to order messages | Arranges delivery in parallel |
 
-**Related Terms**: [AMQP](../api-types-architectures.md#amqp), [API](#api),
+**Related Terms**: [AMQP](../api-types-architectures.mdx#amqp), [API](#api),
 [AsyncAPI](documentation-specific.mdx#asyncapi),
-[event-driven](../api-types-architectures.md#event-driven),
-[Kafka](../tools-techniques/infrastructure-platforms.md#kafka),
-[MQTT](../api-types-architectures.md#mqtt)
+[event-driven](../api-types-architectures.mdx#event-driven),
+[Kafka](../tools-techniques/infrastructure-platforms.mdx#kafka),
+[MQTT](../api-types-architectures.mdx#mqtt)
 
 **Sources**:
 
@@ -629,7 +629,7 @@ Authorization: Bearer abc123xyz
 - Description of what it does
 
 **Related Terms**: [API endpoint](#api-endpoint),
-[request-response](#request-response), [REST API](../api-types-architectures.md#rest-api)
+[request-response](#request-response), [REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -667,8 +667,8 @@ required to create a user:
 | Binary | File transfers, images | Raw bytes |
 
 **Related Terms**: [HTTP method](#http-method), [JSON](#json),
-[request-response](#request-response), [REST API](../api-types-architectures.md#rest-api),
-[serialization](#serialization), [XML](../tools-techniques/development-essentials.md#xml)
+[request-response](#request-response), [REST API](../api-types-architectures.mdx#rest-api),
+[serialization](#serialization), [XML](../tools-techniques/development-essentials.mdx#xml)
 
 **Sources**:
 
@@ -714,7 +714,7 @@ new user account
 
 **Related Terms**: [`DELETE`](#delete), [`GET`](#get),
 [HTTP method](#http-method), [`PATCH`](#patch), [`PUT`](#put),
-[webhook API](../api-types-architectures.md#webhook-api)
+[webhook API](../api-types-architectures.mdx#webhook-api)
 
 **Source**: [Mozilla Corporation, MDN: "`POST` request method"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
 
@@ -855,7 +855,7 @@ Content-Type: application/json
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http), [HTTP method](#http-method),
 [HTTP status codes](#http-status-codes), [parameters](#parameters),
-[REST API](../api-types-architectures.md#rest-api)
+[REST API](../api-types-architectures.mdx#rest-api)
 
 **Source**: UW API Docs: Module 5, Lesson 1, "REST API Fundamentals"
 
@@ -893,7 +893,7 @@ orders, and payments; each resource type has its own endpoint structure
 like `/products/456` for a specific product resource
 
 **Related Terms**: [API endpoint](#api-endpoint), [CRUD](#crud),
-[HTTP method](#http-method), [REST API](../api-types-architectures.md#rest-api),
+[HTTP method](#http-method), [REST API](../api-types-architectures.mdx#rest-api),
 [URI](#uri), [URL](#url)
 
 **Sources**:
@@ -918,7 +918,7 @@ requires a request body with string type for email field and integer type
 for age field
 
 **Related Terms**: [API](#api), [API endpoint](#api-endpoint),
-[GraphQL API](../api-types-architectures.md#graphql-api),
+[GraphQL API](../api-types-architectures.mdx#graphql-api),
 [OpenAPI specification](documentation-specific.mdx#openapi-specification),
 [request-response](#request-response), [validation](#validation)
 
@@ -972,10 +972,10 @@ stripe.Charge.create(
 ```
 
 **Related Terms**: [API](#api),
-[cURL](../tools-techniques/development-essentials.md#curl),
-[Fern](../tools-techniques/documentation-specific.md#fern),
+[cURL](../tools-techniques/development-essentials.mdx#curl),
+[Fern](../tools-techniques/documentation-specific.mdx#fern),
 [OpenAPI Specification](documentation-specific.mdx#openapi-specification),
-[REST API](../api-types-architectures.md#rest-api),
+[REST API](../api-types-architectures.mdx#rest-api),
 [Speakeasy](../tools-techniques/testing-validation.md#speakeasy)
 
 **Sources**:
@@ -1001,9 +1001,9 @@ into JSON string `{"name":"Alice", "age":30}` before sending it in an
 API request
 
 **Related Terms**: [JSON](#json), [payload](#payload),
-[Protocol Buffers](../tools-techniques/development-essentials.md#protocol-buffers),
-[XML](../tools-techniques/development-essentials.md#xml),
-[YAML](../tools-techniques/development-essentials.md#yaml)
+[Protocol Buffers](../tools-techniques/development-essentials.mdx#protocol-buffers),
+[XML](../tools-techniques/development-essentials.mdx#xml),
+[YAML](../tools-techniques/development-essentials.mdx#yaml)
 
 **Source**: [Mozilla Corporation, MDN: "Serialization"](https://developer.mozilla.org/en-US/docs/Glossary/Serialization)
 
@@ -1028,7 +1028,7 @@ both identify resources without specifying network locations
 
 **Related Terms**: [API endpoint](#api-endpoint),
 [HTTP](#http), [resource](#resource),
-[REST API](../api-types-architectures.md#rest-api), [URL](#url)
+[REST API](../api-types-architectures.mdx#rest-api), [URL](#url)
 
 **Source**: [IETF RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986.html)
 
@@ -1062,7 +1062,7 @@ https://api.example.com:443/v1/users/123?include=orders
 
 **Related Terms**: [API endpoint](#api-endpoint), [HTTP](#http),
 [parameters](#parameters), [resource](#resource),
-[REST API](api-types-architectures.md#rest-api), [schema](#schema), [URI](#uri)
+[REST API](api-types-architectures.mdx#rest-api), [schema](#schema), [URI](#uri)
 
 **Sources**:
 

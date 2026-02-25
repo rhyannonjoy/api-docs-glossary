@@ -1,3 +1,5 @@
+import ZoomImage from '@site/src/components/ZoomImage';
+
 # Infrastructure & Platforms
 
 Foundational systems that enable API development and documentation workflows.
@@ -6,7 +8,7 @@ message queues, cloud platforms - and organizational infrastructure - project
 management and issue tracking - that teams rely on to build, document, and
 ship APIs.
 
-<!-- TODO: add Confluence, Jira, RabbitMQ, Redis, cloud platforms -->
+/* TODO: add Confluence, Jira, RabbitMQ, Redis, cloud platforms */
 
 ---
 
@@ -25,11 +27,11 @@ combines messaging, storage, and stream processing capabilities
 second for real-time analytics, log aggregation, and change data capture,
 with events persisted to disk for replay and historical analysis
 
-**Related Terms**: [AMQP](../api-types-architectures.md#amqp),
+**Related Terms**: [AMQP](../api-types-architectures.mdx#amqp),
 [AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
-[event-driven](../api-types-architectures.md#event-driven),
+[event-driven](../api-types-architectures.mdx#event-driven),
 [message broker](../core-concepts/api-fundamentals.mdx#message-broker),
-[MQTT](../api-types-architectures.md#mqtt)
+[MQTT](../api-types-architectures.mdx#mqtt)
 
 **Sources**:
 
@@ -54,7 +56,10 @@ engineering and technical writing teams
 
 **Example**: docs tasks tracking with Linear -
 
-![Linear workflow flowchart](../../static/img/flowchart-linear-workflow.png)
+<ZoomImage 
+  src="/api-docs-glossary/img/flowchart-linear-workflow.png" 
+  alt="Flowchart showing steps: docs team uses Linear to track tasks, dev commits changes, Linear moves ticket, docs work stays synced with development"
+/>
 
 ### Linear vs Related Tools
 
@@ -67,12 +72,12 @@ engineering and technical writing teams
 | **Monday.com** | Visual workflow management across departments | Visual boards, automation recipes, status-centric tracking | Via integrations |
 | **Notion** | Knowledge management and lightweight project tracking | Excellent for docs and task databases, flexible content creation | Via third-party integrations |
 
-**Related Terms**: [CI/CD pipeline](development-essentials.md#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.md#docs-as-code),
-[Falconer](documentation-specific.md#falconer),
-[Git](development-essentials.md#git),
-[GitHub](development-essentials.md#github),
-[version control](development-essentials.md#version-control)
+**Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Falconer](documentation-specific.mdx#falconer),
+[Git](development-essentials.mdx#git),
+[GitHub](development-essentials.mdx#github),
+[version control](development-essentials.mdx#version-control)
 
 **Sources**:
 
