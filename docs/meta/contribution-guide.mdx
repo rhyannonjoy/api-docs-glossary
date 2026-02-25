@@ -55,21 +55,25 @@ for more standard open source etiquette guidance.
 [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 and [Vale VS Code](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode).
 5. Install [typos](https://github.com/crate-ci/typos) in the development environment.
-6. Run `typos` from the project root before submitting a pull request.
-7. Test all changes locally before submitting a pull request:
+6. Test all changes locally before submitting a pull request:
 
     ```bash
+      # Review typos
+      typos
+      # Correct typos
+      typos --write-changes
+      typos -w
       # Check for config errors and/or broken links
       npm run build
       # Check that everything looks correct
       npm start
    ```
 
-8. Pull requests should be complete and self-contained. Don't submit
+7. Pull requests should be complete and self-contained. Don't submit
 placeholder content or partial entries.
-9. Ideally, pull requests should address an existing issue,
+8. Ideally, pull requests should address an existing issue,
 but this isn't required.
-10. Don't submit pull requests with lint or Vale errors in
+9. Don't submit pull requests with lint or Vale errors in
 the content or code examples.
 
 ---
