@@ -206,7 +206,7 @@ that implement their own DSL -
 [domain knowledge](../frameworks-strategy.md#domain-knowledge),
 [graphQL API](../api-types-architectures.md#graphql-api),
 [Markdown](documentation-specific.md#markdown), [Mermaid](#mermaid),
-[Open API Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[Open API Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [PlantUML](#plantuml), [taxonomy](../frameworks-strategy.md#taxonomy), [UML](#uml)
 
 **Sources**:

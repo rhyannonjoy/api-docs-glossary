@@ -1,3 +1,5 @@
+import ZoomMermaid from '@site/src/components/ZoomMermaid';
+
 # Documentation-Specific
 
 Standards and frameworks for documenting APIs effectively. This section
@@ -81,7 +83,7 @@ be significant
 
 **API Documentation Stages &harr; User Journeys**:
 
-```mermaid
+<ZoomMermaid chart={`
 sequenceDiagram
     participant User
     participant Docs
@@ -94,7 +96,7 @@ sequenceDiagram
     Docs-->>User: endpoints, parameters
     User->>Docs: Need help → Support
     Docs-->>User: FAQ, troubleshooting
-```
+`} />
 
 **Related Terms**: [API reference topic](#api-reference-topic),
 [getting started](#getting-started), [introduction](#introduction),

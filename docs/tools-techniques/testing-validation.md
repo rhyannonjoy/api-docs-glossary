@@ -188,12 +188,12 @@ for test setup and cleanup
 match OpenAPI examples before deploying documentation updates
 
 **Related Terms**:
-[API Blueprint](../core-concepts/documentation-specific.md#api-blueprint),
+[API Blueprint](../core-concepts/documentation-specific.mdx#api-blueprint),
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [contract testing](../workflows-methodologies.md#contract-testing),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification)
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification)
 
 **Sources**:
 
@@ -281,13 +281,13 @@ synchronous and event-driven APIs
 mock endpoints for parallel development, then run contract tests to
 verify implementations match specifications
 
-**Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.md#asyncapi),
+**Related Terms**: [AsyncAPI](../core-concepts/documentation-specific.mdx#asyncapi),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests),
 [event-driven](../api-types-architectures.md#event-driven),
 [GraphQL API](../api-types-architectures.md#graphql-api),
 [gRPC API](../api-types-architectures.md#grpc-api),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Pact](#pact)
 
 **Sources**:
@@ -435,11 +435,11 @@ renderer_
 
 **Related Terms**:
 [API documentation testing](../workflows-methodologies.md#api-documentation-testing),
-[Arazzo Specification](../core-concepts/documentation-specific.md#arazzo-specification),
+[Arazzo Specification](../core-concepts/documentation-specific.mdx#arazzo-specification),
 [CI/CD pipeline](development-essentials.md#cicd-pipeline),
 [contract testing](../workflows-methodologies.md#contract-testing),
 [docs-as-tests](../workflows-methodologies.md#docs-as-tests), [Dredd](#dredd),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Postman Newman](#postman-newman), [Redocly](documentation-specific.md#redocly),
 [workflow testing](../workflows-methodologies.md#workflow-testing)
 
@@ -504,7 +504,7 @@ when the API changes
 [error handling](../core-concepts/api-fundamentals.mdx#error-handling),
 [Fern](documentation-specific.md#fern),
 [HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
-[OpenAPI Specification](../core-concepts/documentation-specific.md#openapi-specification),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [request-response](../core-concepts/api-fundamentals.mdx#request-response),
 [SDK](../core-concepts/api-fundamentals.mdx#sdk)
 

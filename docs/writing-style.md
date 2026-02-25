@@ -206,7 +206,7 @@ in reference docs, tutorials, and SDK documentation
 [liquid content](ai-and-apis.mdx#liquid-content),
 [metadata](./tools-techniques/documentation-specific.md#metadata),
 [modular content](#modular-content),
-[reference](./core-concepts/documentation-specific.md#reference),
+[reference](./core-concepts/documentation-specific.mdx#reference),
 [SDK](./core-concepts/api-fundamentals.mdx#sdk)
 
 **Sources**:

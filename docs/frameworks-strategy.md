@@ -106,7 +106,7 @@ documentation should provide a clear decision guide upfront rather than
 burying the comparison deep in reference docs
 
 **Related terms**: [API](./core-concepts/api-fundamentals.mdx#api),
-[API reference topic](./core-concepts/documentation-specific.md#api-reference-topic),
+[API reference topic](./core-concepts/documentation-specific.mdx#api-reference-topic),
 [Diátaxis](#diátaxis), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
@@ -195,11 +195,11 @@ page
 **Related Terms**: [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [content](writing-style.md#content), [domain knowledge](#domain-knowledge),
 [end-user software engineer](#end-user-software-engineer),
-[explanation guide](./core-concepts/documentation-specific.md#explanation-guide),
-[how-to guide](./core-concepts/documentation-specific.md#how-to-guide),
+[explanation guide](./core-concepts/documentation-specific.mdx#explanation-guide),
+[how-to guide](./core-concepts/documentation-specific.mdx#how-to-guide),
 [information architecture](#information-architecture),
-[reference](./core-concepts/documentation-specific.md#reference),
-[tutorial](./core-concepts/documentation-specific.md#tutorial)
+[reference](./core-concepts/documentation-specific.mdx#reference),
+[tutorial](./core-concepts/documentation-specific.mdx#tutorial)
 
 **Sources**:
 
@@ -317,7 +317,7 @@ experience
 [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
 [end-user software engineer](#end-user-software-engineer),
 [error handling](./core-concepts/api-fundamentals.mdx#error-handling),
-[getting started](./core-concepts/documentation-specific.md#getting-started),
+[getting started](./core-concepts/documentation-specific.mdx#getting-started),
 [SDK](./core-concepts/api-fundamentals.mdx#sdk),
 [usability testing](workflows-methodologies.md#usability-testing), [UX](#ux)
 
@@ -489,7 +489,7 @@ features and migration guides from competitors, while an established
 API can focus on advanced use cases and optimization
 
 **Related Terms**:
-[API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
+[API overview topic](./core-concepts/documentation-specific.mdx#api-overview-topic),
 [content strategy](#content-strategy), [knowledge management](#knowledge-management),
 [sales collateral](#sales-collateral)
 
@@ -587,7 +587,7 @@ customer support tickets by 40%, using non-technical language and
 business metrics
 
 **Related Terms**:
-[API overview topic](./core-concepts/documentation-specific.md#api-overview-topic),
+[API overview topic](./core-concepts/documentation-specific.mdx#api-overview-topic),
 [content](./writing-style.md#content), [content strategy](#content-strategy),
 [knowledge management](#knowledge-management), [market](#market)
 
