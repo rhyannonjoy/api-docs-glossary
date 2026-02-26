@@ -1297,6 +1297,15 @@ contract testing
 
 ---
 
+### Mintlify
+
+- AI-native, cloud-based documentation platform
+- generates and publishes interactive reference sites from OpenAPI specs and MDX
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Mintlify](./tools-techniques/documentation-specific.mdx#mintlify)
+
+---
+
 ### MkDocs
 
 - abbreviation of _Markdown documentation_
