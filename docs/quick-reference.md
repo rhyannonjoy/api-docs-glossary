@@ -166,6 +166,18 @@ without clients needing to know about backend architecture
 
 ---
 
+### API playground
+
+- interactive environment embedded in API documentation
+- common feature of developer portals
+- enables more experimentation, has less control than an API sandbox
+- lets developers send real requests to endpoints, view live responses
+without setting up a local dev environment
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - API playground](./tools-techniques/documentation-specific.mdx#api-playground)
+
+---
+
 ### API reference topic
 
 - "getting finished topics" that describe aspects of an API
