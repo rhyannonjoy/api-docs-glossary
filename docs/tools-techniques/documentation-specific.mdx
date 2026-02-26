@@ -10,6 +10,48 @@ consistent, and developer-friendly API documentation.
 
 ---
 
+## API playground
+
+**Definition**: interactive environment embedded in API documentation that lets developers
+send real requests to endpoints and view live responses directly in the browser, without
+setting up a local development environment
+
+**Purpose**: lowers the barrier to API adoption by letting developers test endpoints,
+experiment with parameters, and see immediate results from within the documentation itself;
+reduces the feedback loop between reading about an API and understanding how it actually behaves;
+documentation platforms like [Mintlify](https://www.mintlify.com/) and [Zuplo](https://zuplo.com/)
+generate API playgrounds automatically from OpenAPI specifications, keeping the interactive
+environment in sync with the API as it changes
+
+### API playground vs related tools
+
+| | **API playground** | **Developer portal** | **API sandbox** |
+|---|---|---|---|
+| **Scope** | single interactive feature | broad destination with many components | controlled testing environment |
+| **Contains** | live request/response testing | docs, tutorials, forums, analytics, playgrounds | simulated or limited data |
+| **Oversight** | minimal | varies | provider-monitored |
+| **Relationship** | component of a portal | may include a playground | alternative to playground for safer testing |
+
+**Example**: within an API playground, a developer reading about the `POST /charges` endpoint
+can enter test values for `amount`, `currency`, and a test card token directly in the pages,
+submit the request, and see the full JSON response — including headers and status codes — without
+leaving the docs or writing a single line of code
+
+**Related Terms**: [API](../core-concepts/api-fundamentals.mdx#api),
+[API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint),
+[HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
+[JSON](../core-concepts/api-fundamentals.mdx#json), [Mintlify](#mintlify),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[Swagger](#swagger)
+
+**Sources**:
+
+- [Hygraph: "API Playground"](https://hygraph.com/glossary/api-playground)
+- [Mintlify, Document APIs: "Playground"](https://www.mintlify.com/docs/api-playground/overview)
+- [Zuplo: "New API Playground in the Zuplo Developer Portal" by Nate Totten](https://zuplo.com/blog/2023/10/12/new-api-playground)
+
+---
+
 ## CMS
 
 **Definition**: acronym for _content management system_; software platform
@@ -530,7 +572,7 @@ as code
 />
 
 **Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation),
-[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[API playground](#api-playground), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Git](development-essentials.mdx#git),
 [MDX](#mdx), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Swagger](#swagger), [version control](development-essentials.mdx#version-control)
@@ -937,10 +979,9 @@ generates client libraries and server stubs from OAS files
   alt="Flowchart showing steps: devs maintain specs, deploy docs updates, Swagger renders interactive website, devs interact with docs, API consumers experiment in docs"
 />
 
-**Related terms**: [GUI](development-essentials.mdx#gui), [Mintlify](#mintlify),
-[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[Redocly](#redocly), [REST API](../api-types-architectures.mdx#rest-api),
-[Stoplight](#stoplight)
+**Related terms**: [API playground](#api-playground), [GUI](development-essentials.mdx#gui),
+[Mintlify](#mintlify), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[Redocly](#redocly), [REST API](../api-types-architectures.mdx#rest-api), [Stoplight](#stoplight)
 
 **Sources**:
 
