@@ -456,7 +456,7 @@ Our API uses API keys for authentication. Include your key in the header:
 **Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [Docusaurus](#docusaurus), [GUI](development-essentials.mdx#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
-[Mermaid](diagramming-visualization.mdx#mermaid),
+[Mermaid](diagramming-visualization.mdx#mermaid), [Mintlify](#mintlify),
 [partials](#partials), [UI](development-essentials.mdx#ui)
 
 **Sources**:
@@ -505,6 +505,40 @@ different types of metadata about API Docs Glossary's assets -
 
 - [Geeks for Geeks: "What is Metadata?"](https://www.geeksforgeeks.org/software-engineering/what-is-metadata/)
 - [NISO: "Understanding Metadata: What is Metadata, and What is it For?: A Primer" by Jenn Riley](https://www.niso.org/publications/understanding-metadata-2017)
+
+---
+
+## Mintlify
+
+**Definition**: cloud-based documentation platform that generates and
+publishes interactive API reference sites from OpenAPI specifications and MDX files,
+with Git-based version control and AI-assisted writing features
+
+**Purpose**: reduces the overhead of building and maintaining a polished API docs
+site by handling design, hosting, and OpenAPI rendering out of the box; enables tech
+writers and developers to publish interactive API references — including live API
+playgrounds, auto-generated code snippets, and built-in search — without managing
+custom infrastructure; supports a docs-as-code workflow through native GitHub
+integration, allowing docs changes to follow the same review and deployment process
+as code
+
+**Example**: Mintlify detection workflow -
+
+<ZoomImage 
+  src="/api-docs-glossary/img/flowcharts/mintlify-workflow.png" 
+  alt="Flowchart showing steps: team maintains docs, ships new endpoint, engineer updates specs, opens a PR, Mintlify detects change, rebuilds docs, deploys docs with API playground"
+/>
+
+**Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Git](development-essentials.mdx#git),
+[MDX](#mdx), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[Swagger](#swagger), [version control](development-essentials.mdx#version-control)
+
+**Sources**:
+
+- [Apidog, Inc.: "What is Mintlify Docs and How to Use It: A Beginner's Guide" by Ashley Goolam](https://apidog.com/blog/mintlify-docs/)
+- [Mintlify, Inc., Mintlify Homepage: "The Intelligent Documentation Platform"](https://www.mintlify.com/)
 
 ---
 
@@ -903,7 +937,7 @@ generates client libraries and server stubs from OAS files
   alt="Flowchart showing steps: devs maintain specs, deploy docs updates, Swagger renders interactive website, devs interact with docs, API consumers experiment in docs"
 />
 
-**Related terms**: [GUI](development-essentials.mdx#gui),
+**Related terms**: [GUI](development-essentials.mdx#gui), [Mintlify](#mintlify),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Redocly](#redocly), [REST API](../api-types-architectures.mdx#rest-api),
 [Stoplight](#stoplight)
