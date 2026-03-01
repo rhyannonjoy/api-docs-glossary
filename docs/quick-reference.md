@@ -500,6 +500,16 @@ retrieving, and distributing media and/or digital files
 
 ---
 
+### developer portal
+
+- centralized, web-based platform where API providers publish docs, code samples,
+SDKs, tutorials, and support resources
+- designed for developer education and API discovery &rarr; integration
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - developer portal](./tools-techniques/documentation-specific.mdx#developer-portal)
+
+---
+
 ### diagram
 
 - visual representation of a system, process, or concept

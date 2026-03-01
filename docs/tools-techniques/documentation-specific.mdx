@@ -38,7 +38,7 @@ submit the request, and see the full JSON response — including headers and sta
 leaving the docs or writing a single line of code
 
 **Related Terms**: [API](../core-concepts/api-fundamentals.mdx#api),
-[API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint),
+[API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint), [developer portal](#developer-portal),
 [HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
 [JSON](../core-concepts/api-fundamentals.mdx#json), [Mintlify](#mintlify),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
@@ -155,6 +155,61 @@ API Docs Glossary asset organization
 
 - [Cloudinary: "An Overview of Digital Asset Management (DAM) Systems: Basics and Beyond"](https://cloudinary.com/guides/digital-asset-management/digital-asset-management)
 - [IBM: What is Digital Asset Management?](https://www.ibm.com/think/topics/digital-asset-management)
+
+---
+
+## developer portal
+
+**Definition**: centralized, web-based platform where API providers publish
+documentation, code samples, SDKs, tutorials, and support resources for
+developers who want to discover, learn, and integrate with their APIs
+
+**Purpose**: serves as the primary interface between an API provider and
+its developer audience; consolidates everything a developer needs —
+reference docs, getting started guides, authentication instructions, API
+playgrounds, sandbox access, versioning information, and community resources —
+into a single destination; reduces time-to-first-API-call and lowers the
+support burden on the API provider by enabling developer self-service;
+for tech writers, the developer portal is the publishing target and
+organizational framework that shapes how docs are structured and what
+content gets prioritized
+
+**Why this belongs in `Tools & Techniques > Documentation-Specific`**:
+describes a platform that tech writers and developers actively publish to,
+maintain, and design content for — it's a docs infrastructure tool, not an
+abstract API concept; placing it alongside API playground, API sandbox,
+[Mintlify](https://www.mintlify.com/), and OpenAPI Specification keeps the
+cluster of docs publishing and DX tools together; `Core Concepts` covers what
+APIs fundamentally are, while the developer portal is a tooling and workflow
+concern that's about _how teams publish and present_ API docs to the world
+
+### developer portal vs API docs
+
+| Aspect | API Docs | Developer Portal |
+|---|---|---|
+| **Definition** | The content itself — reference material, guides, and examples explaining how an API works | The platform that hosts and organizes that content alongside other resources |
+| **Dependency** | Can exist without a portal | Defined by the docs and tooling it surfaces |
+| **Scope** | The content layer | Contains API docs plus additional tooling |
+
+**Example**: a tech writer adding docs for a new payment method publishes
+directly to the portal, where it immediately becomes discoverable alongside
+authentication guides, error code references, and getting started tutorials —
+devs never need to leave the portal to get from "what is this API?" to a working
+integration
+
+**Related Terms**: [API playground](#api-playground), API sandbox,
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[DX](../frameworks-strategy.mdx#dx),
+[getting started](../core-concepts/documentation-specific.mdx#getting-started),
+[Mintlify](#mintlify), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[reference](../core-concepts/documentation-specific.mdx#reference),
+[SDK](../core-concepts/api-fundamentals.mdx#sdk), [tutorial](../core-concepts/documentation-specific.mdx#tutorial)
+
+**Sources**:
+
+- [Moesif: "What is an API Developer Portal? The Ultimate Guide"](https://www.moesif.com/blog/api-strategy/api-development/What-is-an-API-Developer-Portal-The-Ultimate-Guide/)
+- [Pronovix: "What is the Difference Between API Documentation and a Developer Portal?" by Kathleen De Roo](https://pronovix.com/blog/what-difference-between-api-documentation-and-developer-portal)
+- [Solo.io: "API Developer Portals: Empowering Developers with APIs"](https://www.solo.io/topics/api-management/api-developer-portals-empowering-developers-with-apis)
 
 ---
 
@@ -572,8 +627,8 @@ as code
 />
 
 **Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation),
-[API playground](#api-playground), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Git](development-essentials.mdx#git),
+[API playground](#api-playground), [developer portal](#developer-portal),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Git](development-essentials.mdx#git),
 [MDX](#mdx), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Swagger](#swagger), [version control](development-essentials.mdx#version-control)
 
