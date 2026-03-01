@@ -187,6 +187,15 @@ operation or object
 
 ---
 
+### API sandbox
+
+- isolated testing environment designed for developer experimentation
+- simulates a production API's behavior using mock data and predefined responses
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox)
+
+---
+
 ### API security
 
 - measures taken to protect APIs from unauthorized access, misuse, attacks

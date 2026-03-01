@@ -38,8 +38,8 @@ submit the request, and see the full JSON response — including headers and sta
 leaving the docs or writing a single line of code
 
 **Related Terms**: [API](../core-concepts/api-fundamentals.mdx#api),
-[API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint), [developer portal](#developer-portal),
-[HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
+[API endpoint](../core-concepts/api-fundamentals.mdx#api-endpoint), [API sandbox](#api-sandbox),
+[developer portal](#developer-portal), [HTTP status codes](../core-concepts/api-fundamentals.mdx#http-status-codes),
 [JSON](../core-concepts/api-fundamentals.mdx#json), [Mintlify](#mintlify),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Swagger](#swagger)
@@ -49,6 +49,53 @@ leaving the docs or writing a single line of code
 - [Hygraph: "API Playground"](https://hygraph.com/glossary/api-playground)
 - [Mintlify, Document APIs: "Playground"](https://www.mintlify.com/docs/api-playground/overview)
 - [Zuplo: "New API Playground in the Zuplo Developer Portal" by Nate Totten](https://zuplo.com/blog/2023/10/12/new-api-playground)
+
+---
+
+## API sandbox
+
+**Definition**: isolated testing environment that simulates a production API's
+behavior using mock data and predefined responses, allowing developers to
+experiment with endpoints and test integrations without affecting live systems
+or real user data
+
+**Purpose**: enables developers to safely build, test, and troubleshoot API
+integrations before deployment; reduces the risk of errors reaching production
+by providing a controlled space to validate authentication flows, error handling,
+and edge cases; API docs writers reference sandboxes when writing getting started
+guides and tutorials, directing readers to sandbox credentials and endpoints so
+they can follow along without production access
+
+### API sandbox vs API playground
+
+| Aspect | API Sandbox | API Playground |
+|---|---|---|
+| **Purpose** | Integration development and pre-deployment testing | Quick, exploratory testing of individual endpoints |
+| **Audience** | Developers building integrations | Developers reading and learning from docs |
+| **Environment** | Persistent, isolated environment mirroring production infrastructure | Lightweight, browser-based tool embedded in docs |
+| **Workflow Support** | Full development workflows | Docs comprehension |
+| **Maintainers** | API provider | Typically built into docs platform |
+
+**Example**: a fintech company building on a payments API receives sandbox credentials —
+a test API key and a dedicated sandbox base URL — from the provider; devs use these
+credentials to simulate payment flows, trigger error responses like declined cards or
+insufficient funds, and validate their integration logic against realistic scenarios before
+pointing their app at the production environment; the sandbox explains how to access test
+credentials, which endpoints are available, and how simulated responses differ from live ones
+
+**Related Terms**: [API documentation testing](../workflows-methodologies.mdx#api-documentation-testing),
+[API playground](#api-playground), [developer portal](#developer-portal),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [DX](../frameworks-strategy.mdx#dx),
+[getting started](../core-concepts/documentation-specific.mdx#getting-started),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[reference](../core-concepts/documentation-specific.mdx#reference),
+[tutorial](../core-concepts/documentation-specific.mdx#tutorial)
+
+**Sources**:
+
+- [Katalon: "What is API Sandbox? Definition, Examples, Key Components, Benefits"](https://katalon.com/resources-center/blog/what-is-api-sandbox)
+- [SmartBear Software: "What Is an API Sandbox?"](https://smartbear.com/learn/api-design/what-is-an-api-sandbox/)
+- [WireMock Inc., WireMock Cloud: "API Sandbox: Definition, Core Features, and When to Use Mocks Instead"](https://www.wiremock.io/glossary/api-sandbox)
 
 ---
 
@@ -197,7 +244,7 @@ authentication guides, error code references, and getting started tutorials —
 devs never need to leave the portal to get from "what is this API?" to a working
 integration
 
-**Related Terms**: [API playground](#api-playground), API sandbox,
+**Related Terms**: [API playground](#api-playground), [API sandbox](#api-sandbox),
 [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [DX](../frameworks-strategy.mdx#dx),
 [getting started](../core-concepts/documentation-specific.mdx#getting-started),
