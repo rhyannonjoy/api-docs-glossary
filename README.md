@@ -111,4 +111,4 @@ api-docs-glossary/
 ## License
 
 This project is open source and available under the MIT License,
-visit the [LICENSE](LICENSE) for details.
+visit the [LICENSE](LICENSE.txt) for details.
