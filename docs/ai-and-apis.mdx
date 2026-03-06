@@ -15,6 +15,49 @@ that impact how technical writers create and enhance API documentation.
   alt="Flowchart showing phases plan, draft with AI, human review, refine and verify, publish, maintain"
 />
 
+---
+
+## agent configuration
+
+**Definition**: structured documentation files that define how AI agents
+behave within a project, including workflow rules, role specifications,
+coordination patterns, task procedures, and acceptance criteria; commonly
+written in Markdown
+
+**Purpose**: enables tech writers to govern AI agent behavior using
+docs skills they already possess — progressive disclosure, audience analysis,
+IA, and editorial judgment — applied to an AI audience rather than a human one
+
+### 5 agent config doc types
+
+| **Doc Type** | **Purpose** | **Docs Equivalent** |
+| ------------ | --------------------- | -------------------------- |
+| Project Descriptions | Project-level rules and conventions loaded into every agent conversation - `AGENTS.md`, `CLAUDE.md`; most effective when minimal — research shows verbose files reduce task success rates | Style guides, contributing guidelines |
+| Agent Definitions | An agent's identity, capabilities, constraints, and escalation rules | Job descriptions, reviewer guidelines |
+| Orchestration Patterns | How multiple agents hand off work, including quality gates and routing decisions | Workflow diagrams, RACI charts |
+| Skills | Task-level procedures defining what needs to happen, what inputs are required, and what outputs are expected | SOPs, how-to guides |
+| Plans and Specs | Requirements specifications that define what "done" looks like before work begins | Content briefs, acceptance criteria |
+
+**Key Research Findings**: agents with `AGENTS.md` files completed tasks
+29% faster and used 17% fewer tokens than agents without them; however,
+LLM-generated configuration files increased cost by 20% while reducing
+task success — human-curated, minimal files outperform verbose or
+auto-generated ones
+
+**Related Terms**: [AI agent](#ai-agent), [information architecture](frameworks-strategy.mdx#information-architecture),
+[Large Language Model](#large-language-model), [Markdown](./tools-techniques/documentation-specific.mdx#markdown),
+[orchestration](#orchestration), progressive disclosure, [prompt engineering](#prompt-engineering)
+
+**Sources**:
+
+- [arXiv: 2601.20404 - Lulla et al., "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents"](https://arxiv.org/abs/2601.20404)
+- [arXiv: 2602.11988 - Gloaguen et al., "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?"](https://arxiv.org/abs/2602.11988)
+- [Dachary Carey: Agent-Friendly Documentation Spec](https://agentdocsspec.com/)
+- [Instruction Manuel: "The Most Actionable Docs Around: Agent Configs" by Manny Silva](https://instructionmanuel.com/agent-configs-are-docs)
+- [Vercel Blog: "AGENTS.md outperforms skills in our agent evals" by Jude Gao](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
+
+---
+
 ## AI
 
 **Definition**: acronym for _Artificial Intelligence_; technologies
@@ -78,7 +121,7 @@ positive changes in software systems_
   alt="Flowchart showing stages: adding skill to Claude Code, tech writer asking agent to test, AI agent breaking the task down, reads docs, converts steps, runs tests, reports results"
 />
 
-**Related Terms**: [AI](#ai),
+**Related Terms**: [agent configuration](#agent-configuration), [AI](#ai),
 [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
 [docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [Large Language Model](#large-language-model),
 [MCP server](#mcp-server), [metaprogramming](#metaprogramming), [Natural Language Processing](#natural-language-processing),
@@ -611,9 +654,10 @@ or translating text
 **Example**: LLMs can draft initial OpenAPI specification descriptions
 or generate code examples in many programming languages
 
-**Related Terms**: [AI](#ai), [AI agent](#ai-agent), [genAI](#genai), [liquid content](#liquid-content),
-[metaprogramming](#metaprogramming), [Natural Language Processing](#natural-language-processing),
-[orchestration](#orchestration), [prompt engineering](#prompt-engineering), [RAG](#rag)
+**Related Terms**: [agent configuration](#agent-configuration), [AI](#ai), [AI agent](#ai-agent), 
+[genAI](#genai), [liquid content](#liquid-content), [metaprogramming](#metaprogramming),
+[Natural Language Processing](#natural-language-processing), [orchestration](#orchestration),
+[prompt engineering](#prompt-engineering), [RAG](#rag)
 
 **Sources**:
 
@@ -862,9 +906,9 @@ step runs docs-as-tests against the new endpoints, and a final
 agent opens a pull request with the changes; the writer authored
 the system, not the content
 
-**Related Terms**: [AI agent](#ai-agent), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests),
-[Large Language Model](#large-language-model), [metaprogramming](#metaprogramming),
-[MCP server](#mcp-server), [prompt engineering](#prompt-engineering)
+**Related Terms**: [agent configuration](#agent-configuration), [AI agent](#ai-agent),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [Large Language Model](#large-language-model),
+[metaprogramming](#metaprogramming), [MCP server](#mcp-server), [prompt engineering](#prompt-engineering)
 
 **Sources**:
 
@@ -886,9 +930,9 @@ and expected output formats
 `GET` endpoint that retrieves user profiles, including response codes
 and example JSON" rather than "describe this endpoint"
 
-**Related Terms**: [AI](#ai), [AI agent](#ai-agent), [genAI](#genai),
-[Large Language Model](#large-language-model), [metaprogramming](#metaprogramming),
-[orchestration](#orchestration)
+**Related Terms**: [agent configuration](#agent-configuration), [AI](#ai),
+[AI agent](#ai-agent), [genAI](#genai), [Large Language Model](#large-language-model),
+[metaprogramming](#metaprogramming), [orchestration](#orchestration)
 
 **Sources**:
 
