@@ -415,6 +415,17 @@ introductory level
 
 ---
 
+### content governance
+
+- framework of policies, standards, ownership structures, and
+lifecycle processes
+- defines how docs are created, reviewed, maintained,
+and retired across an org or docs system
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - content governance](frameworks-strategy.mdx#content-governance)
+
+---
+
 ### content strategy
 
 - discipline encompassing the planning, development, and management of content across

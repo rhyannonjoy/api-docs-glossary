@@ -122,6 +122,44 @@ burying the comparison deep in reference docs
 
 ---
 
+## content governance
+
+**Definition**: framework of policies, standards, ownership structures, and
+lifecycle processes that define how docs are created, reviewed, maintained,
+and retired across an org or docs system
+
+**Purpose**: ensures docs remain accurate, consistent, and trustworthy
+at scale — establishes who owns each piece of content, what standards apply, when
+content requires review, and how outdated or conflicting material gets resolved;
+particularly critical in API docs where content spans multiple teams,
+product versions, and external audiences
+
+### content governance vs style guide
+
+| | Style Guide | Content Governance |
+|---|---|---|
+| **Defines** | _How_ to write — tone, formatting, terminology | _Who_ writes what, _when_ it gets reviewed, _what happens_ when content becomes inaccurate or outdated |
+| **Scope** | A single artifact | A system of policies and processes |
+| **Relationship** | One artifact that governance may require and enforce | The framework that can mandate a style guide |
+
+**Example**: an API docs team establishes a governance framework that
+assigns endpoint docs ownership to the engineering team that built the
+endpoint, requires a quarterly accuracy review cycle tied to release milestones,
+and defines a deprecation process for removing docs when endpoints are sunset;
+_writers maintain the standards, but governance determines accountability and
+lifecycle_
+
+**Related Terms**: [content](writing-style.mdx#content), [content strategy](#content-strategy),
+[docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests),
+[information architecture](#information-architecture), [knowledge management](#knowledge-management), [tone](writing-style.mdx#tone)
+
+**Sources**:
+
+- [Content Science Review: "What Is Content Governance?" by Colleen Jones](https://review.content-science.com/what-is-content-governance/)
+- [Templafy: "Content Governance: best practices & tools to build a model that works" by Glen Hagensen](https://www.templafy.com/content-governance/)
+
+---
+
 ## content strategy
 
 **Definition**: discipline encompassing the planning, development,
@@ -144,9 +182,10 @@ measure success
 | Metrics | track time-to-first-successful-API-call | measures effectiveness of documentation |
 
 **Related Terms**: [accessibility](#accessibility), [content](writing-style.mdx#content),
-[docs-as-ecosystem](#docs-as-ecosystem), [information architecture](#information-architecture),
-[knowledge management](#knowledge-management), [market](#market), [ontology](#ontology),
-[sales collateral](#sales-collateral), [technical communication](#technical-communication)
+[content governance](#content-governance), [docs-as-ecosystem](#docs-as-ecosystem),
+[information architecture](#information-architecture), [knowledge management](#knowledge-management),
+[market](#market), [ontology](#ontology), [sales collateral](#sales-collateral),
+[technical communication](#technical-communication)
 
 **Sources**:
 
@@ -397,8 +436,8 @@ type, `/pets` and `/shelters`, then by function and/or CRUD operation
   alt="Static image of the PawFinder API Documentation homepage, showing the documentation structure in various forms: navigational panel on the left, documentation structure in the content body"
 />
 
-**Related Terms**: [accessibility](#accessibility),
-[content](writing-style.mdx#content), [content strategy](#content-strategy),
+**Related Terms**: [accessibility](#accessibility), [content](writing-style.mdx#content),
+[content governance](#content-governance), [content strategy](#content-strategy),
 [CRUD](./core-concepts/api-fundamentals.mdx#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge), [knowledge graph](ai-and-apis.mdx#knowledge-graph),
 [knowledge management](#knowledge-management),
@@ -466,7 +505,7 @@ who emphasize sales collateral and developer acquisition
 | Marketing | developer acquisition, use cases, sales collateral | landing pages, tutorials, API overviews |
 | Support | troubleshooting, error resolution, FAQs | knowledge bases, search optimization |
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms), [content governance](#content-governance),
 [content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
 [docs-as-code](./workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](#docs-as-ecosystem),
 [domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
