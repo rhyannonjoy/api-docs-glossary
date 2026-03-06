@@ -592,6 +592,18 @@ and collaborative growth
 
 ---
 
+### docs theater
+
+- rhetorical and communicative failure mode
+- docs that perform thoroughness or credibility rather than
+serving genuine reader needs
+- the act of creating docs for the sake of it,
+to check a box or mark a project as complete
+
+**Glossary Term Entry Location**: [Writing Style - docs theater](writing-style.mdx#docs-theater)
+
+---
+
 ### Document Development Life Cycle
 
 - also known as DDLC
