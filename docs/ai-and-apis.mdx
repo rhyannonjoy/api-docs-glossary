@@ -81,8 +81,8 @@ positive changes in software systems_
 **Related Terms**: [AI](#ai),
 [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
 [docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [Large Language Model](#large-language-model),
-[MCP server](#mcp-server), [Natural Language Processing](#natural-language-processing),
-[prompt engineering](#prompt-engineering), [RAG](#rag)
+[MCP server](#mcp-server), [metaprogramming](#metaprogramming), [Natural Language Processing](#natural-language-processing),
+[orchestration](#orchestration), [prompt engineering](#prompt-engineering), [RAG](#rag)
 
 **Sources**:
 
@@ -611,10 +611,9 @@ or translating text
 **Example**: LLMs can draft initial OpenAPI specification descriptions
 or generate code examples in many programming languages
 
-**Related Terms**: [AI](#ai), [AI agent](#ai-agent), 
-[genAI](#genai), [liquid content](#liquid-content),
-[Natural Language Processing](#natural-language-processing),
-[prompt engineering](#prompt-engineering), [RAG](#rag)
+**Related Terms**: [AI](#ai), [AI agent](#ai-agent), [genAI](#genai), [liquid content](#liquid-content),
+[metaprogramming](#metaprogramming), [Natural Language Processing](#natural-language-processing),
+[orchestration](#orchestration), [prompt engineering](#prompt-engineering), [RAG](#rag)
 
 **Sources**:
 
@@ -727,7 +726,7 @@ sequenceDiagram
     AI-->>Writer: Updated changelog with new entries
 `}/>
 
-**Common Use Cases for Technical Writers**:
+**Common Use Cases for Tech Writers**:
 
 - searching internal documentation systems - Confluence, SharePoint,
 Google Drive
@@ -738,15 +737,71 @@ Google Drive
 
 **Related Terms**: [AI agent](#ai-agent), 
 [authentication](./core-concepts/api-fundamentals.mdx#authentication),
-[JSON](./core-concepts/api-fundamentals.mdx#json),
-[JSON-RPC](api-types-architectures.mdx#json-rpc),
-[REST API](./api-types-architectures.mdx#rest-api),
-[webhook API](./api-types-architectures.mdx#webhook-api)
+[JSON](./core-concepts/api-fundamentals.mdx#json), [JSON-RPC](api-types-architectures.mdx#json-rpc),
+[metaprogramming](#metaprogramming), [orchestration](#orchestration),
+[REST API](./api-types-architectures.mdx#rest-api), [webhook API](./api-types-architectures.mdx#webhook-api)
 
 **Sources**:
 
 - [GitHub Repository, Anthropic: "Model Context Protocol servers"](https://github.com/modelcontextprotocol/servers)
 - [LF Projects, LLC.: "What is the Model Context Protocol (MCP)?"](https://modelcontextprotocol.io/)
+
+---
+
+## metaprogramming
+
+**Definition**: "writing code that writes code" - programming technique where code
+reads, generates, analyzes, or transforms other programs as data; API docs contexts
+encompass writing LLM skills, automation scripts, agentic workflows, and prompt
+instructions that generate or maintain docs
+
+**Purpose**: enables tech writers to automate repetitive documentation tasks —
+release note generation, table updates, endpoint validation — and build reusable
+instructions that shape how LLMs produce, transform, and surface docs;
+_shifts writer effort from execution to architecture and context curation_
+
+**Historical Context**: has roots in 1970-1980s list-processing languages, particularly
+Lisp, where the ability to treat code as data enabled early AI applications on
+specialized Lisp machine hardware; the paradigm re-emerges in LLM tooling with a
+significant twist — prompt engineering can be understood as
+[pseudocode](https://en.wikipedia.org/wiki/Pseudocode) that gained execution capability;
+like pseudocode, prompts describe intent in natural language rather than formal syntax,
+but unlike pseudocode, they are interpreted and acted upon directly by a model; when
+those instructions shape how a model generates other content, prompt engineering becomes
+metaprogramming — _the distinction between building a system and explaining it collapses_
+
+**Why this belongs in `AI & APIs`**: describes a programming paradigm that has
+taken on new relevance for tech writers specifically through LLM tooling — writing
+[Claude Skills](https://claude.com/skills), [Cursor Rules](https://cursor.com/docs/rules),
+[Copilot Agent Skills](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/),
+and agentic CI/CD pipelines are applied forms of metaprogramming; the traditional software
+engineering definition belongs in `Tools & Techniques`, but the AI docs application belongs
+here, where writers interact with models as programmable systems rather than passive
+generation tools
+
+### metaprogramming vs related terms
+
+| **Term** | **Description** | **Metaprogramming Relationship** |
+| -------- | ---------------- | ----------------------------------- |
+| automation scripting | executes predefined tasks with fixed logic | metaprogramming generates or modifies the logic itself — a script that runs tasks is automation, a script that writes other scripts is metaprogramming |
+| [prompt engineering](#prompt-engineering) | instructs a model how to reason, structure output, or behave | applied metaprogramming for LLMs — instructions that shape how a model generates other content; the distinction blurs when prompts become reusable, parameterized systems |
+| pseudocode | expresses logic in human-readable form, independent of any language or execution environment | the communication counterpart — describes what a program should do without being executable; metaprogramming *is* executable, pseudocode deliberately isn't |
+
+**Example**: a tech writer authors a Claude Skill that instructs an LLM to generate
+consistently structured endpoint descriptions from OpenAPI spec changes on every
+release — the skill itself is a metaprogram: a set of instructions that produces
+documentation code rather than writing each entry manually
+
+**Related Terms**: [AI agent](#ai-agent), [CI/CD pipeline](./tools-techniques/development-essentials.mdx#cicd-pipeline),
+[docs-as-code](workflows-methodologies.mdx#docs-as-code), [LLM](#large-language-model), [MCP server](#mcp-server),
+[OpenAPI Specification](./core-concepts/documentation-specific.mdx#openapi-specification),
+[orchestration](#orchestration), [prompt engineering](#prompt-engineering)
+
+**Sources**:
+
+- [DEV Community: "A Practical Guide to Metaprogramming in Python" by Karishma Shukla](https://dev.to/karishmashukla/a-practical-guide-to-metaprogramming-in-python-691)
+- [passo.uno: "New habits for tech writers in the age of LLMs" by Fabrizio Ferri Benedetti](https://passo.uno/new-habits-tech-writers-ai-age/)
+- [Wikipedia: "Metaprogramming"](https://en.wikipedia.org/wiki/Metaprogramming)
 
 ---
 
@@ -772,6 +827,52 @@ queries like "how to authenticate" and returns relevant authentication endpoints
 
 ---
 
+## orchestration
+
+**Definition**: coordination of multiple AI models, tools, agents,
+or automated processes toward a larger goal; in documentation
+contexts, the design and management of systems where LLMs, APIs,
+and automated workflows operate together to produce, validate,
+or maintain content
+
+**Purpose**: enables tech writers to move from executing individual
+tasks to architecting systems that execute on their behalf —
+release note pipelines, multi-step agentic workflows, and
+LLM-powered validation chains are all orchestration; the writer's
+role shifts from author to system designer and context curator
+
+**Why this belongs in `AI & APIs`**: orchestration as a general
+computing concept - process scheduling, microservices coordination -
+belongs in `Workflows & Methodologies`; the documentation-specific
+application, designing systems where models and tools collaborate
+to generate, transform, and surface content — is an emergent
+practice specific to LLM-era tech writing
+
+### orchestration vs related terms
+
+| **Term** | **Description** | **Distinction** |
+| -------- | ---------------- | ---------------------------------- |
+| automation scripting | executes fixed, predefined logic | orchestration coordinates dynamic, multi-step systems where outputs of one process become inputs to another — often involving models making decisions at runtime |
+| [metaprogramming](#metaprogramming) | instructions that shape how a model or program behaves | operates at the instruction level; orchestration operates at the system level — coordinating *which* models, tools, and agents run, in what order, and with what context; a Claude Skill is metaprogramming, the pipeline that invokes it is orchestration |
+
+**Example**: a tech writer designs an agentic CI/CD pipeline that
+triggers on every API release — an LLM reads the OpenAPI diff,
+a second agent drafts affected reference entries, a validation
+step runs docs-as-tests against the new endpoints, and a final
+agent opens a pull request with the changes; the writer authored
+the system, not the content
+
+**Related Terms**: [AI agent](#ai-agent), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests),
+[Large Language Model](#large-language-model), [metaprogramming](#metaprogramming),
+[MCP server](#mcp-server), [prompt engineering](#prompt-engineering)
+
+**Sources**:
+
+- [LangChain Docs: "LangChain overview"](https://python.langchain.com/docs/introduction/)
+- [passo.uno: "New habits for tech writers in the age of LLMs" by Fabrizio Ferri Benedetti](https://passo.uno/new-habits-tech-writers-ai-age/)
+
+---
+
 ## prompt engineering
 
 **Definition**: practice of crafting effective instructions and
@@ -786,7 +887,8 @@ and expected output formats
 and example JSON" rather than "describe this endpoint"
 
 **Related Terms**: [AI](#ai), [AI agent](#ai-agent), [genAI](#genai),
-[Large Language Model](#large-language-model)
+[Large Language Model](#large-language-model), [metaprogramming](#metaprogramming),
+[orchestration](#orchestration)
 
 **Sources**:
 

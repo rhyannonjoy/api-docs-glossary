@@ -1331,6 +1331,18 @@ otherwise makes it easier to retrieve, use, or manage content
 
 ---
 
+### metaprogramming
+
+- programming technique where code reads, generates, analyzes, or
+transforms other programs as data
+- "writing code that writes code"
+- API docs contexts encompass writing LLM skills, automation scripts,
+agentic workflows, and prompt instructions that generate or maintain docs
+
+**Glossary Term Entry Location**: [AI & APIs - metaprogramming](ai-and-apis.mdx#metaprogramming)
+
+---
+
 ### Microcks
 
 - open source cloud-native tool for API mocking and
@@ -1446,6 +1458,18 @@ what properties they have, and how they relate to each other
 - format: YAML
 
 **Glossary Term Entry Location**: [Core Concepts, Documentation-Specific - OpenAPI Specification](./core-concepts/documentation-specific.mdx#openapi-specification)
+
+---
+
+### orchestration
+
+- coordination of multiple AI models, tools, agents,
+or automated processes toward a larger goal
+- in docs contexts, the design and management of systems where LLMs, APIs,
+and automated workflows operate together to produce, validate,
+or maintain content
+
+**Glossary Term Entry Location**: [AI & APIs - orchestration](ai-and-apis.mdx#orchestration)
 
 ---
 
