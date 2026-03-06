@@ -312,6 +312,16 @@ production environments with minimal manual intervention
 
 ---
 
+### Clayton's Docs
+
+- rhetorical and communicative failure mode
+- failure of intent and substance - docs that exist in place of real docs
+- "the docs you have when you don't have any docs"
+
+**Glossary Term Entry Location**: [Writing Style - Clayton's Docs](writing-style.mdx#claytons-docs)
+
+---
+
 ### CLI
 
 - acronym for _Command Line Interface_
