@@ -154,6 +154,37 @@ docs: changes
 
 ## Troubleshooting
 
+### Build directory not empty
+
+If `npm run build` fails with an `ENOTEMPTY` error, the build directory
+wasn't cleared before the new build started. This happens when a previous
+build process, file watcher, or Finder window is holding files open.
+
+```bash
+# Delete the build directory manually, then rebuild
+rm -rf build/
+npm run build
+```
+
+If the error persists, check for a running dev server in another terminal.
+Kill that process first, then delete the directory and rebuild:
+
+```bash
+# Mac/Linux
+lsof -ti :3000 | xargs kill
+rm -rf build/
+npm run build
+
+# Windows
+netstat -ano | findstr :3000
+# note the PID from the output, then:
+taskkill /PID <pid> /F
+rmdir /s /q build
+npm run build
+```
+
+---
+
 ### Build fails locally
 
 Make sure all software requirements installed correctly.
@@ -162,6 +193,8 @@ and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 are up to date. Run `npm install` in the fork directory,
 then attempt the build again.
 
+---
+
 ### Changes don't appear after pushing to GitHub
 
 GitHub Pages can take a few minutes to rebuild and deploy.
@@ -169,10 +202,14 @@ Wait a few minutes, then refresh the site. Clear the browser cache -
 `Ctrl+Shift+Delete` on Windows/Linux, `Cmd+Shift+Delete` on Mac -
 if changes still don't appear.
 
+---
+
 ### Pull request has lint errors
 
 Run `npm run lint` locally to identify errors before submission.
 Most formatting issues can be auto-fixed with `npm run lint:fix`.
+
+---
 
 ### `typos` flags intentional spelling
 
@@ -180,11 +217,15 @@ Check the `_typos.toml` configuration file in the repository root.
 Add false positives to `[default.extend-words]` to suppress them.
 Run `typos --config _typos.toml` to verify the configuration is loading correctly.
 
+---
+
 ### Vale or markdownlint extensions don't appear in VS Code
 
 Install the extensions from
 [the Visual Studio Code marketplace](https://marketplace.visualstudio.com/VSCode).
 Reload VS Code - `Ctrl+R` on Windows/Linux and `Cmd+R` on Mac -  after installation.
+
+---
 
 ### Vale reports errors, but content appears correct
 
