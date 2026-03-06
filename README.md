@@ -101,11 +101,11 @@ npm run build
 
 ```shell
 api-docs-glossary/
-├── docs/                  # Documentation markdown files
+├── docs/                  # Documentation Markdown/MDX files
 ├── src/                   # Custom React components and pages
-├── static/                # Static assets (images, etc.)
-├── docusaurus.config.js   # Docusaurus configuration
-└── sidebars.js            # Sidebar navigation configuration
+├── static/                # Static visual assets
+├── docusaurus.config.ts   # Docusaurus configuration
+└── sidebars.ts            # Sidebar navigation configuration
 ```
 
 ## License
