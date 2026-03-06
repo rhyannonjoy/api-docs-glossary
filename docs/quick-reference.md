@@ -39,6 +39,16 @@ and experiences for people with diverse abilities and disabilities
 
 ---
 
+### agent configuration
+
+- structured documentation files that define how AI agents
+behave within a project
+- commonly written in Markdown
+
+**Glossary Term Entry Location**: [AI & APIs - agent configuration](ai-and-apis.mdx#agent-configuration)
+
+---
+
 ### Agile
 
 - project management method
