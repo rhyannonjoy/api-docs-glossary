@@ -285,14 +285,10 @@ feedback trends, coordinates with product managers on documentation roadmap, and
 integrates contributions from engineers, community members, and customer support to
 create living documentation that evolves with community needs
 
-**Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.mdx#agile),
-[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
-[docs-as-code](workflows-methodologies.mdx#docs-as-code),
-[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [domain knowledge](#domain-knowledge),
-[end-user software engineer](#end-user-software-engineer),
-[knowledge management](#knowledge-management), [ontology](#ontology), [RAG](ai-and-apis.mdx#rag),
-[technical communication](#technical-communication),
-[usability testing](workflows-methodologies.mdx#usability-testing)
+**Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.mdx#agile), [content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
+[docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [domain knowledge](#domain-knowledge),
+[end-user software engineer](#end-user-software-engineer), [knowledge management](#knowledge-management), [ontology](#ontology), [RAG](ai-and-apis.mdx#rag),
+[Seven-Action Documentation Model](#seven-action-documentation-model), [technical communication](#technical-communication), [usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
@@ -354,15 +350,11 @@ experience
 | Community | Active forums for developer support and discussion | Provides peer-driven support and real-world usage examples |
 | Testing Tools | Webhook testing utilities | Enables developers to verify event-driven integrations locally before deployment |
 
-**Related Terms**: [accessibility](#accessibility),
-[API playground](./tools-techniques/documentation-specific.mdx#api-playground),
-[API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox),
-[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[developer portal](./tools-techniques/documentation-specific.mdx#developer-portal),
-[end-user software engineer](#end-user-software-engineer),
-[error handling](./core-concepts/api-fundamentals.mdx#error-handling),
-[getting started](./core-concepts/documentation-specific.mdx#getting-started),
-[SDK](./core-concepts/api-fundamentals.mdx#sdk),
+**Related Terms**: [accessibility](#accessibility), [API playground](./tools-techniques/documentation-specific.mdx#api-playground),
+[API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox), [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
+[developer portal](./tools-techniques/documentation-specific.mdx#developer-portal), [end-user software engineer](#end-user-software-engineer),
+[error handling](./core-concepts/api-fundamentals.mdx#error-handling), [getting started](./core-concepts/documentation-specific.mdx#getting-started),
+[SDK](./core-concepts/api-fundamentals.mdx#sdk), [Seven-Action Documentation Model](#seven-action-documentation-model),
 [usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
@@ -437,7 +429,8 @@ type, `/pets` and `/shelters`, then by function and/or CRUD operation
 [content strategy](#content-strategy), [CRUD](./core-concepts/api-fundamentals.mdx#crud), [Diátaxis](#diátaxis),
 [domain knowledge](#domain-knowledge), [knowledge graph](ai-and-apis.mdx#knowledge-graph), [knowledge management](#knowledge-management),
 [metadata](./tools-techniques/documentation-specific.mdx#metadata), [ontology](#ontology), [progressive disclosure](writing-style.mdx#progressive-disclosure),
-[taxonomy](#taxonomy), [technical communication](#technical-communication), [usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
+[Seven-Action Documentation Model](#seven-action-documentation-model), [taxonomy](#taxonomy), [technical communication](#technical-communication),
+[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -690,6 +683,59 @@ covers _the strategic thinking that motivates those practices_
 
 ---
 
+## Seven-Action Documentation Model
+
+**Definition**: a model of what user actions docs are meant to
+satisfy, treating docs as a product that someone will use to achieve
+actual goals; identifies seven core actions that cover
+the range of needs a reader brings to docs
+
+**Purpose**: provides a framework for evaluating and planning
+docs through the lens of user needs rather than content types or
+structural templates; helps writers and teams identify
+gaps in their docs by asking which user actions are and aren't
+supported, rather than which content types are present or absent
+
+**Why this belongs in `Frameworks & Strategy`**: describes a
+_strategic and conceptual lens_ for docs planning rather than an
+operational workflow; similar to [docs-as-ecosystem](#docs-as-ecosystem) -
+it reframes _why_ docs are produced rather than _how_; directly addresses the
+strategic failure mode that produces [docs theater](writing-style.mdx#docs-theater) —
+the prescriptive emphasis on what docs _must be produced instead of what user needs
+should be addressed_ 
+
+### the seven actions
+
+| **Action** | **Users Need** | **Doc Types** |
+| ---------- | ------------------- | --------------------- |
+| Appraise (Discern) | Evaluate whether the product fits their needs | Product overview, service description |
+| Understand (Learn) | Grasp core abstractions and concepts | Conceptual guide, explanation |
+| Explore (Discover) | Interact and try things with low barrier to entry | Quick start, sandbox, tutorial |
+| Practice (Train) | Learn how to operate the product in standard use | How-to guide, user guide |
+| Remember (Recall) | Look up parameters, values, and syntax | API reference, command reference |
+| Develop (Integrate) | Build on, extend, or integrate with the product | Integration guide, extension docs |
+| Troubleshoot (Solve) | Diagnose and resolve issues | Troubleshooting guide, error reference |
+
+### Seven-Action vs related terms
+
+| **Term** | **Description** | **Distinction** | **Compatibility** |
+| ---------- | ------------------- | --------------------- | ----------- |
+| DDLC | Document Development Life Cycle describes _how_ docs get produced; Seven-Action Model describes _what_ docs should accomplish for readers | Operate at different levels | Fully compatible |
+| docs theater | docs theater produces content satisfying structural and/or formal requirements without serving readers | Affirmative vs hollow compliance | Seven-Action Model is the antidote to docs theater |
+
+**Example**: a team audits their API docs against the Seven-Actions
+and discovers strong coverage of Remember (reference) and Practice
+(how-to guides) but no Appraise content — readers can't evaluate
+whether the API fits their use case without leaving the docs;
+they add an overview that directly addresses adoption decisions
+
+**Related Terms**: [docs theater](writing-style.mdx#docs-theater), [Document Development Life Cycle](workflows-methodologies.mdx#document-development-life-cycle),
+[docs-as-ecosystem](#docs-as-ecosystem), [DX](#dx), [information architecture](#information-architecture), [UX](#ux)
+
+**Source**: [passo.uno: "The Seven-Action Documentation Model" by Fabrizio Ferri Benedetti](https://passo.uno/seven-action-model/)
+
+---
+
 ## skunkworks
 
 **Definition**: a group within an organization given high autonomy and
@@ -830,13 +876,10 @@ and supports successful integration
 | Content Organization | Surface authentication requirements before first API call | Prevents common blocker where developers attempt calls before authenticating |
 | Code Samples | Ensure samples work copy-paste without modification | Eliminates guesswork and reduces time-to-first-successful-API-call |
 
-**Related Terms**: [accessibility](#accessibility),
-[API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
-[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[DX](#dx), [end-user software engineer](#end-user-software-engineer),
-[guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing),
-[information architecture](#information-architecture),
-[usability testing](workflows-methodologies.mdx#usability-testing)
+**Related Terms**: [accessibility](#accessibility), [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
+[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
+[guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing), [information architecture](#information-architecture),
+[Seven-Action Documentation Model](#seven-action-documentation-model), [usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
