@@ -250,15 +250,42 @@ multiple API endpoint examples, or a standard error response
 description used across reference documentation without manual
 copying
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
-[content](#content), [kinetic content](#kinetic-content),
-[liquid content](ai-and-apis.mdx#liquid-content),
-[structured content](#structured-content)
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms), [content](#content), [kinetic content](#kinetic-content),
+[liquid content](ai-and-apis.mdx#liquid-content), [progressive disclosure](#progressive-disclosure), [structured content](#structured-content)
 
 **Sources**:
 
 - [Crafter Software Corporation, Content Management: "What is Modular Content?" by Amanda Lee](https://craftercms.com/blog/2024/07/what-is-modular-content)
 - [MadCap Software, MadBlog: "What is Modular Writing?" by Una Cogavin](https://www.madcapsoftware.com/blog/what-is-modular-writing/)
+
+---
+
+## progressive disclosure
+
+**Definition**: content design principle of presenting only the minimum
+information needed at each stage of a user's interaction, revealing
+additional detail progressively as the user needs it; structuring
+information in tiers, so the right content loads at the right time
+
+**Purpose**: reduces cognitive load and improves comprehension by
+avoiding information overload; in agent configuration contexts,
+reduces token consumption by loading only relevant context rather
+than exhaustive docs upfront
+
+**Example**: instead of including full style guide content in an
+`AGENTS.md` file, include a compressed reference link — the agent
+loads the full guide only when needed; Vercel applied this to reduce
+their initial agent docs references from 40KB to 8KB,
+an 80% reduction
+
+**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration),
+[domain knowledge](frameworks-strategy.mdx#domain-knowledge), [information architecture](frameworks-strategy.mdx#information-architecture),
+[knowledge management](frameworks-strategy.mdx#knowledge-management), [modular content](#modular-content), [structured content](#structured-content)
+
+**Sources**:
+
+- [Instruction Manuel: "The Most Actionable Docs Around: Agent Configs" by Manny Silva](https://instructionmanuel.com/agent-configs-are-docs)
+- [Nielsen Norman Group: "Progressive Disclosure" by Jakob Nielsen](https://www.nngroup.com/articles/progressive-disclosure/)
 
 ---
 
@@ -304,12 +331,9 @@ method, path, parameters, response codes - in a CMS rather than
 as a single block of text, allowing the same information to appear
 in reference docs, tutorials, and SDK documentation
 
-**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms),
-[content](#content), [kinetic content](#kinetic-content),
-[liquid content](ai-and-apis.mdx#liquid-content),
-[metadata](./tools-techniques/documentation-specific.mdx#metadata),
-[modular content](#modular-content),
-[reference](./core-concepts/documentation-specific.mdx#reference),
+**Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms), [content](#content), [kinetic content](#kinetic-content),
+[liquid content](ai-and-apis.mdx#liquid-content), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
+[modular content](#modular-content), [progressive disclosure](#progressive-disclosure), [reference](./core-concepts/documentation-specific.mdx#reference),
 [SDK](./core-concepts/api-fundamentals.mdx#sdk)
 
 **Sources**:
