@@ -1612,6 +1612,15 @@ workflows
 
 ---
 
+### progressive disclosure
+
+- content design principle
+- structuring information in tiers, so the right content loads at the right time
+
+**Glossary Term Entry Location**: [Writing Style - progressive disclosure](writing-style.mdx#progressive-disclosure)
+
+---
+
 ### project management methodology
 
 - different ways to approach and organize a project
