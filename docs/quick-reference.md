@@ -1969,6 +1969,15 @@ over HTTP through unidirectional event streams from server to client
 
 ---
 
+### Seven-Action Documentation Model
+
+- documentation strategy framework
+- model describing what user actions and/or needs docs should satisfy
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model)
+
+---
+
 ### skunkworks
 
 - used in business, engineering, and technical fields to describe a group
