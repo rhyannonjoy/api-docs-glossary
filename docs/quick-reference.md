@@ -498,6 +498,17 @@ directly to HTTP methods
 
 ---
 
+### curse of knowledge
+
+- also known as curse of expertise and/or expert's curse
+- cognitive bias where a subject matter expert unconsciously
+assumes that others share the same background knowledge,
+preventing clear communication with less-informed audiences
+
+**Glossary Term Entry Location**: [Writing Style - curse of knowledge](writing-style.mdx#curse-of-knowledge)
+
+---
+
 ### Cypress
 
 - open source end-to-end testing framework
