@@ -551,6 +551,15 @@ retrieving, and distributing media and/or digital files
 
 ---
 
+### deterministic testing
+
+- testing approach that produces the same result every time given the same inputs
+- a test either passes or fails based on fixed, objective criteria with no variation between runs
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - deterministic testing](workflows-methodologies.mdx#deterministic-testing)
+
+---
+
 ### developer portal
 
 - centralized, web-based platform where API providers publish docs, code samples,
@@ -1640,6 +1649,16 @@ procedures work as written
 workflows
 
 **Glossary Term Entry Location**: [Tools & Techniques, Testing-Validation - Postman Newman](./tools-techniques/testing-validation.md#postman-newman)
+
+---
+
+### probabilistic testing
+
+- testing approach that may produce different results across runs for the same inputs
+- outcomes vary due to non-deterministic elements such as LLM inference, browser rendering, or model sampling
+- requires multiple trials and result aggregation to produce a reliable signal
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - probabilistic testing](workflows-methodologies.mdx#probabilistic-testing)
 
 ---
 

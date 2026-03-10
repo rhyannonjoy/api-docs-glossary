@@ -95,13 +95,11 @@ accurate:
 />
 
 **Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent), [API](./core-concepts/api-fundamentals.mdx#api),
-[API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox), [BDD](#bdd),
-[Bruno](./tools-techniques/testing-validation.md#bruno), [contract testing](#contract-testing),
-[Cypress](./tools-techniques/testing-validation.md#cypress), [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
-[docs-as-tests](#docs-as-tests), [HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes),
-[Playwright](./tools-techniques/testing-validation.md#playwright), [REST API](api-types-architectures.mdx#rest-api),
-[self-healing system](frameworks-strategy.mdx#self-healing-system), [UX](frameworks-strategy.mdx#ux),
-[workflow testing](#workflow-testing)
+[API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox), [BDD](#bdd), [Bruno](./tools-techniques/testing-validation.md#bruno), [contract testing](#contract-testing),
+[Cypress](./tools-techniques/testing-validation.md#cypress), [deterministic testing](#deterministic-testing), [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
+[docs-as-tests](#docs-as-tests), [HTTP status codes](./core-concepts/api-fundamentals.mdx#http-status-codes), [Playwright](./tools-techniques/testing-validation.md#playwright),
+[probabilistic testing](#probabilistic-testing), [REST API](api-types-architectures.mdx#rest-api), [self-healing system](frameworks-strategy.mdx#self-healing-system),
+[UX](frameworks-strategy.mdx#ux), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -238,6 +236,54 @@ following steps, where delays in any step delay the entire release -
 
 ---
 
+## deterministic testing
+
+**Definition**: testing approach that produces the same result every time
+given the same inputs; a test either passes or fails based on fixed,
+objective criteria with no variation between runs
+
+**Purpose**: provides reliable, repeatable signals in docs workflows — if
+a test fails, something in the environment changed, not the test itself;
+are the foundation of [CI/CD docs pipelines](./tools-techniques/development-essentials.mdx#cicd-pipeline)
+because teams can trust their results without needing to run them multiple
+times or aggregate results
+
+**Why this belongs in `Workflows & Methodologies`**: describes a testing
+methodology and workflow practice applicable across docs contexts, not only
+AI systems; deterministic testing applies to traditional doc testing tools
+like [Doc Detective](./tools-techniques/testing-validation.md#doc-detective)
+verifying [UI](./tools-techniques/development-essentials.mdx#ui) procedures,
+API [contract testing](#contract-testing), and code-based
+[eval graders](ai-and-apis.mdx#eval); it describes _how teams test_, making it
+a methodology concept rather than an AI-specific concept
+
+### deterministic vs probabilistic
+
+| | **Deterministic Testing** | **Probabilistic Testing** |
+| --- | --- | --- |
+| **Consistency** | Same result every run | Output varies between runs |
+| **Signal** | Pass or fail | Requires multiple trials and result aggregation |
+| **Examples** | CI checks, Doc Detective, Vale style rules | Browser-use agents, LLM-as-judge graders |
+| **Upfront Investment** | Higher | Lower |
+| **Scales in CI/CD** | Cost-effectively | Gets expensive fast |
+
+**Example**: a tech writer configures Doc Detective to verify a REST API quickstart
+guide on every pull request; the test opens a browser, navigates to the developer
+portal, runs each documented CLI command, and compares screenshots against baseline
+images; if a UI button moves or an API parameter changes, the CI check fails
+deterministically — the same inputs always produce the same result, so a failure
+means something in the product changed, not that the test ran differently
+
+**Related Terms**: [API documentation testing](#api-documentation-testing), [CI/CD pipeline](./tools-techniques/development-essentials.mdx#cicd-pipeline),
+[contract testing](#contract-testing), [docs-as-tests](#docs-as-tests), [eval](ai-and-apis.mdx#eval), [probabilistic testing](#probabilistic-testing)
+
+**Sources**:
+
+- [Anthropic PBC, Engineering at Anthropic: "Demystifying evals for AI agents"](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+- [I'd Rather Be Writing: "Podcast: Doc testing, skills files, and the guardians of knowledge – with Manny Silva" by Tom Johnson, Fabrizio Ferri-Benedetti](https://idratherbewriting.com/blog/podcast-silva-guardians-of-knowledge)
+
+---
+
 ## diagrams-as-code
 
 **Definition**: documentation approach that represents diagrams as text-based
@@ -366,9 +412,10 @@ rather than specific tools or conceptual frameworks
 />
 
 **Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent), [API documentation testing](#api-documentation-testing), [BDD](#bdd),
-[contract testing](#contract-testing), [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
+[contract testing](#contract-testing), [deterministic testing](#deterministic-testing), [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
 [docs observability](frameworks-strategy.mdx#docs-observability), [docs theater](writing-style.mdx#docs-theater), [eval](ai-and-apis.mdx#eval),
-[self-healing system](frameworks-strategy.mdx#self-healing-system), [snippet testing](#snippet-testing), [usability testing](#usability-testing), [workflow testing](#workflow-testing)
+[probabilistic testing](#probabilistic-testing), [self-healing system](frameworks-strategy.mdx#self-healing-system), [snippet testing](#snippet-testing),
+[usability testing](#usability-testing), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -435,6 +482,56 @@ from target users without formal recruitment processes
 
 - [Usability Geek: "Guerrilla Usability Testing: How To Introduce It In Your Next UX Project" by Emily Grace Adiseshiah](https://usabilitygeek.com/guerrilla-usability-testing-how-to/)
 - UW API Docs: Module 4, Lesson 3, "Review usability testing for API"
+
+---
+
+## probabilistic testing
+
+**Definition**: testing approach that may produce different results across runs for
+the same inputs; outcomes vary due to non-deterministic elements such as
+[LLM](ai-and-apis.mdx#large-language-model) inference, browser rendering, or model
+sampling; requires multiple trials and result aggregation to produce a reliable signal
+
+**Purpose**: enables evaluation of AI-generated content and agentic workflows where
+outputs cannot be reduced to a single correct answer; probabilistic testing tools like
+LLM-as-judge graders and browser-use agents can bootstrap docs test coverage quickly,
+but require ensemble testing — running the same test multiple times and aggregating results —
+to compensate for output variability; teams use probabilistic testing where deterministic
+checks cannot capture nuance, such as evaluating tone, accuracy of a synthesis, or
+instruction-following quality
+
+**Why this belongs in `Workflows & Methodologies`**: describes a testing methodology applicable
+across AI evaluation and docs workflows; probabilistic testing is not exclusive to AI — any test
+relying on network conditions, rendering engines, or sampling introduces variability; the term
+describes _how a type of test behaves_ rather than a specific AI concept, making it a methodology
+classification; its relationship to deterministic testing and docs-as-tests workflows anchors it
+here alongside those terms
+
+### probabilistic vs deterministic
+
+| | **Probabilistic Testing** | **Deterministic Testing** |
+| --- | --- | --- |
+| **Consistency** | Varies between runs | Identical results every run |
+| **CI/CD Scaling** | Gets expensive fast | Cost-effective |
+| **Bootstrap Speed** | Faster to start | Higher upfront investment |
+| **Trust in Isolation** | Can't be trusted alone — requires ensemble testing | Reliable as a standalone signal |
+| **Relationship** | Often used to _generate_ deterministic tests | Used for ongoing validation once established |
+
+**Example**: a docs team evaluates whether an AI writing agent follows their style guide and accurately
+summarizes API changes; because the agent's output varies between runs, the team uses an LLM-as-judge
+grader with a rubric covering tone, accuracy, and completeness; they run each eval task three times and
+treat two out of three passes as a passing result; over time they calibrate the LLM grader against human
+review to confirm it grades consistently — then retire the probabilistic grader for any criteria they can
+express as a deterministic [Vale](./tools-techniques/documentation-specific.mdx#vale) rule instead
+
+**Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent), [API documentation testing](#api-documentation-testing),
+[deterministic testing](#deterministic-testing), [docs-as-tests](#docs-as-tests), [eval](ai-and-apis.mdx#eval).
+[Large Language Model](ai-and-apis.mdx#large-language-model), [Vale](./tools-techniques/documentation-specific.mdx#vale)
+
+**Sources**:
+
+- [Anthropic PBC, Engineering at Anthropic: "Demystifying evals for AI agents"](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+- [I'd Rather Be Writing: "Podcast: Doc testing, skills files, and the guardians of knowledge – with Manny Silva" by Tom Johnson, Fabrizio Ferri-Benedetti](https://idratherbewriting.com/blog/podcast-silva-guardians-of-knowledge)
 
 ---
 
