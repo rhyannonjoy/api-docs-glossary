@@ -141,6 +141,51 @@ and conceptual explanations all constitute content
 
 ---
 
+## curse of knowledge
+
+**Definition**: also known as curse of expertise and/or expert's curse;
+cognitive bias where a subject matter expert unconsciously assumes that
+others share the same background knowledge, making it difficult to
+communicate clearly with less-informed audiences
+
+**Purpose**: explains one of the most common sources of unclear API
+docs — writers who built or deeply understand a system struggle to
+anticipate what a reader encountering it for the first time needs to have
+explained; recognizing the bias is the first step toward writing docs that
+serve the actual audience rather than _the imagined one_; also surfaces in
+user research contexts, where internal users make poor test candidates
+because their existing knowledge contaminates results
+
+**Why this belongs in `Writing Style`**: describes a cognitive pattern
+that directly shapes language and docs decisions at the
+drafting and revision stage; it is most actionable as a writing
+concern — define acronyms on first use, explain context that feels
+obvious, write for the reader with no background — rather than as
+a strategic or architectural framework; `Frameworks & Strategy`
+covers high-level conceptual models, while _the curse of knowledge
+is a bias writers actively write against sentence by sentence_
+
+**Example**: a developer who built an authentication service documents
+the token refresh flow without explaining what a refresh token is or
+why expiry matters — both feel obvious after months of working on the
+system; a tech writer reviewing the doc flags the gap because
+they encountered the same docs as a first-time reader and
+noticed what was missing; the fix isn't more docs, it's writing that _treats
+assumed context as a liability_
+
+**Related Terms**: [cognitive dimensions of API usability](frameworks-strategy.mdx#cognitive-dimensions-of-api-usability),
+[content strategy](frameworks-strategy.mdx#content-strategy), [domain knowledge](frameworks-strategy.mdx#domain-knowledge),
+[DX](frameworks-strategy.mdx#dx), [knowledge management](frameworks-strategy.mdx#knowledge-management),
+[progressive disclosure](#progressive-disclosure), [usability testing](workflows-methodologies.mdx#usability-testing),
+[UX](frameworks-strategy.mdx#ux)
+
+**Sources**:
+
+- [passo.uno: "Do it yourself: User research for technical documentation" by Fabrizio Ferri-Benedetti](https://passo.uno/tech-writing-user-research-howto/)
+- [Wikipedia: "Curse of knowledge"](https://en.wikipedia.org/wiki/Curse_of_knowledge)
+
+---
+
 ## docs theater
 
 **Definition**: the act of creating documentation for the sake of it,
@@ -277,7 +322,7 @@ loads the full guide only when needed; Vercel applied this to reduce
 their initial agent docs references from 40KB to 8KB,
 an 80% reduction
 
-**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration),
+**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration), [curse of knowledge](#curse-of-knowledge),
 [domain knowledge](frameworks-strategy.mdx#domain-knowledge), [information architecture](frameworks-strategy.mdx#information-architecture),
 [knowledge management](frameworks-strategy.mdx#knowledge-management), [modular content](#modular-content), [structured content](#structured-content)
 

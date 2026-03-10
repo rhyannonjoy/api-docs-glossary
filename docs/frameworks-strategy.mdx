@@ -110,9 +110,8 @@ commitment, in which developers must choose OAuth vs. API keys early,
 documentation should provide a clear decision guide upfront rather than
 burying the comparison deep in reference docs
 
-**Related terms**: [API](./core-concepts/api-fundamentals.mdx#api),
-[API reference topic](./core-concepts/documentation-specific.mdx#api-reference-topic),
-[Diátaxis](#diátaxis), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
+**Related terms**: [API](./core-concepts/api-fundamentals.mdx#api), [API reference topic](./core-concepts/documentation-specific.mdx#api-reference-topic),
+[curse of knowledge](writing-style.mdx#curse-of-knowledge), [Diátaxis](#diátaxis), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
 [usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
@@ -181,11 +180,9 @@ measure success
 | Versioning | maintain version-specific documentation | ensures backward compatibility |
 | Metrics | track time-to-first-successful-API-call | measures effectiveness of documentation |
 
-**Related Terms**: [accessibility](#accessibility), [content](writing-style.mdx#content),
-[content governance](#content-governance), [docs-as-ecosystem](#docs-as-ecosystem),
-[information architecture](#information-architecture), [knowledge management](#knowledge-management),
-[market](#market), [ontology](#ontology), [sales collateral](#sales-collateral),
-[technical communication](#technical-communication)
+**Related Terms**: [accessibility](#accessibility), [content](writing-style.mdx#content), [content governance](#content-governance),
+[curse of knowledge](writing-style.mdx#curse-of-knowledge), [docs-as-ecosystem](#docs-as-ecosystem), [information architecture](#information-architecture),
+[knowledge management](#knowledge-management), [market](#market), [ontology](#ontology), [sales collateral](#sales-collateral), [technical communication](#technical-communication)
 
 **Sources**:
 
@@ -371,11 +368,10 @@ and regulatory requirements - allowing them to write clearer explanations
 of rate limiting during market hours or authentication requirements
 for different account types
 
-**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api), [Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem),
-[DSL](./tools-techniques/diagramming-visualization.mdx#dsl), [end-user software engineer](#end-user-software-engineer),
-[information architecture](#information-architecture), [knowledge management](#knowledge-management), [ontology](#ontology),
-[progressive disclosure](writing-style.mdx#progressive-disclosure), [RAG](ai-and-apis.mdx#rag), [taxonomy](#taxonomy),
-[technical communication](#technical-communication)
+**Related Terms**: [API](./core-concepts/api-fundamentals.mdx#api), [curse of knowledge](writing-style.mdx#curse-of-knowledge),
+[Diátaxis](#diátaxis), [docs-as-ecosystem](#docs-as-ecosystem), [DSL](./tools-techniques/diagramming-visualization.mdx#dsl), [end-user software engineer](#end-user-software-engineer),
+[information architecture](#information-architecture), [knowledge management](#knowledge-management), [ontology](#ontology), [progressive disclosure](writing-style.mdx#progressive-disclosure),
+[RAG](ai-and-apis.mdx#rag), [taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Source**: [Parson: "API documentation - What software engineers can teach us" by Stephanie Steinhardt](https://www.parson-europe.com/en/knowledge-base/api-documentation-what-software-engineers-can-teach-us)
 
@@ -409,10 +405,9 @@ experience
 
 **Related Terms**: [accessibility](#accessibility), [API playground](./tools-techniques/documentation-specific.mdx#api-playground),
 [API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox), [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[developer portal](./tools-techniques/documentation-specific.mdx#developer-portal), [docs observability](#docs-observability),
-[end-user software engineer](#end-user-software-engineer), [error handling](./core-concepts/api-fundamentals.mdx#error-handling),
-[getting started](./core-concepts/documentation-specific.mdx#getting-started), [SDK](./core-concepts/api-fundamentals.mdx#sdk),
-[Seven-Action Documentation Model](#seven-action-documentation-model), [usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
+[curse of knowledge](writing-style.mdx#curse-of-knowledge), [developer portal](./tools-techniques/documentation-specific.mdx#developer-portal), [docs observability](#docs-observability),
+[end-user software engineer](#end-user-software-engineer), [error handling](./core-concepts/api-fundamentals.mdx#error-handling), [getting started](./core-concepts/documentation-specific.mdx#getting-started),
+[SDK](./core-concepts/api-fundamentals.mdx#sdk), [Seven-Action Documentation Model](#seven-action-documentation-model), [usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -549,11 +544,10 @@ who emphasize sales collateral and developer acquisition
 | Support | troubleshooting, error resolution, FAQs | knowledge bases, search optimization |
 
 **Related Terms**: [CMS](./tools-techniques/documentation-specific.mdx#cms), [content governance](#content-governance),
-[content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
-[docs-as-code](./workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](#docs-as-ecosystem),
-[domain knowledge](#domain-knowledge), [information architecture](#information-architecture),
-[market](#market), [metadata](./tools-techniques/documentation-specific.mdx#metadata), [ontology](#ontology),
-[progressive disclosure](writing-style.mdx#progressive-disclosure), [sales collateral](#sales-collateral),
+[content strategy](#content-strategy), [curse of knowledge](writing-style.mdx#curse-of-knowledge), [DAM](./tools-techniques/documentation-specific.mdx#dam),
+[docs-as-code](./workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](#docs-as-ecosystem), [domain knowledge](#domain-knowledge),
+[information architecture](#information-architecture), [market](#market), [metadata](./tools-techniques/documentation-specific.mdx#metadata),
+[ontology](#ontology), [progressive disclosure](writing-style.mdx#progressive-disclosure), [sales collateral](#sales-collateral),
 [self-healing system](#self-healing-system), [taxonomy](#taxonomy), [technical communication](#technical-communication)
 
 **Sources**:
@@ -670,7 +664,7 @@ or externally to educate and convert prospective customers
 **Purpose**: bridges the gap between technical documentation and business
 value communication; technical writers often create or contribute to sales
 collateral by translating API capabilities into business benefits, use cases,
-and return on investment (ROI) narratives that sales teams and prospects
+and ROI, _return on investment_, narratives that sales teams and prospects
 can understand without deep technical knowledge
 
 **Example**: a technical writer transforms detailed webhook documentation
@@ -935,10 +929,10 @@ and supports successful integration
 | Code Samples | Ensure samples work copy-paste without modification | Eliminates guesswork and reduces time-to-first-successful-API-call |
 
 **Related Terms**: [accessibility](#accessibility), [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
-[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability), [docs observability](#docs-observability),
-[DX](#dx), [end-user software engineer](#end-user-software-engineer), [guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing),
-[information architecture](#information-architecture), [Seven-Action Documentation Model](#seven-action-documentation-model),
-[usability testing](workflows-methodologies.mdx#usability-testing)
+[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability), [curse of knowledge](writing-style.mdx#curse-of-knowledge),
+[docs observability](#docs-observability), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
+[guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing), [information architecture](#information-architecture),
+[Seven-Action Documentation Model](#seven-action-documentation-model), [usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
