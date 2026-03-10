@@ -760,6 +760,17 @@ occur during API operations
 
 ---
 
+### eval
+
+- abbreviation for "evaluation"
+- automated test for an AI system
+- measures whether the system's output meets defined success criteria
+for a given input
+
+**Glossary Term Entry Location**: [AI & APIs - eval](ai-and-apis.mdx#eval)
+
+---
+
 ### event-driven
 
 - architectural pattern where actions trigger in response to
