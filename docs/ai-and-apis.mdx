@@ -121,11 +121,9 @@ positive changes in software systems_
   alt="Flowchart showing stages: adding skill to Claude Code, tech writer asking agent to test, AI agent breaking the task down, reads docs, converts steps, runs tests, reports results"
 />
 
-**Related Terms**: [agent configuration](#agent-configuration), [AI](#ai),
-[API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
-[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [Large Language Model](#large-language-model),
-[MCP server](#mcp-server), [metaprogramming](#metaprogramming), [Natural Language Processing](#natural-language-processing),
-[orchestration](#orchestration), [prompt engineering](#prompt-engineering), [RAG](#rag)
+**Related Terms**: [agent configuration](#agent-configuration), [AI](#ai), [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [eval](#eval), [Large Language Model](#large-language-model), [MCP server](#mcp-server),
+[metaprogramming](#metaprogramming), [Natural Language Processing](#natural-language-processing), [orchestration](#orchestration), [prompt engineering](#prompt-engineering), [RAG](#rag)
 
 **Sources**:
 
@@ -217,6 +215,52 @@ particularly for examples involving people, places, or cultural contexts
 
 - [University of Washington: "AI + Teaching"](https://teaching.washington.edu/course-design/ai/)
 - UW API Docs: Module 1, Lesson 4, "Intro to AI and API docs"
+
+---
+
+## eval
+
+**Definition**: abbreviation for "evaluation"; automated test for an AI
+system that measures whether the system's output meets defined success
+criteria for a given input
+
+**Purpose**: enables API docs teams to validate AI agent behavior before
+deployment, catch regressions when models or prompts change, and define
+measurable success criteria that replace guesswork; evals compound in
+value over an agent's lifecycle — early evals force teams to specify what
+"done" looks like, while later evals protect against quality drift
+
+**Why this belongs in `AI & APIs`**: describes a concept specific to AI
+system development and evaluation; while testing broadly belongs in
+`Workflows & Methodologies`, evals are a distinct AI-specific practice with
+their own grader types, metrics, and infrastructure that differ meaningfully
+from traditional software testing — the term appears primarily in AI engineering
+contexts and addresses challenges unique to non-deterministic model behavior
+
+### eval vs API docs testing
+
+| | **eval** | **API docs testing** |
+| --- | --- | --- |
+| **Validates** | AI system output meets defined criteria | Documented procedures work as written |
+| **Nature** | Probabilistic | Deterministic |
+| **Measures** | Model behavior | Content accuracy |
+| **Graded By** | Criteria-driven rubrics, LLM judges, human review | Pass/fail test execution |
+| **Used When** | Testing the AI layer of a docs workflow | Verifying the outputs that layer produces |
+
+**Example**: a docs team using an AI agent to generate release notes builds
+an eval suite with three grader types — a deterministic style guide check using Vale,
+an LLM-as-judge rubric scoring accuracy and tone, and periodic human review to calibrate
+the LLM grader; when the team upgrades to a new model, the eval suite runs automatically
+and reveals that the new model over-summarizes breaking changes, giving the team a concrete
+regression to fix before shipping
+
+**Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent), deterministic testing,
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), probabilistic testing
+
+**Sources**:
+
+- [Anthropic PBC, Engineering at Anthropic: "Demystifying evals for AI agents"](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+- [I'd Rather Be Writing: "Podcast: Doc testing, skills files, and the guardians of knowledge – with Manny Silva" by Tom Johnson, Fabrizio Ferri-Benedetti](https://idratherbewriting.com/blog/podcast-silva-guardians-of-knowledge)
 
 ---
 
