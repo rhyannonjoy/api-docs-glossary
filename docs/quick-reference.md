@@ -623,6 +623,15 @@ and collaborative growth
 
 ---
 
+### docs observability
+
+- also known as do11y
+- practice of treating docs as an instrumented, observable component of a product system
+
+**Glossary Term Entry Location**: [Frameworks & Strategy - docs observability](frameworks-strategy.mdx#docs-observability)
+
+---
+
 ### docs theater
 
 - rhetorical and communicative failure mode
