@@ -286,14 +286,71 @@ integrates contributions from engineers, community members, and customer support
 create living documentation that evolves with community needs
 
 **Related Terms**: [accessibility](#accessibility), [Agile](workflows-methodologies.mdx#agile), [content strategy](#content-strategy), [DAM](./tools-techniques/documentation-specific.mdx#dam),
-[docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [domain knowledge](#domain-knowledge),
-[end-user software engineer](#end-user-software-engineer), [knowledge management](#knowledge-management), [ontology](#ontology), [RAG](ai-and-apis.mdx#rag),
-[Seven-Action Documentation Model](#seven-action-documentation-model), [technical communication](#technical-communication), [usability testing](workflows-methodologies.mdx#usability-testing)
+[docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests),
+[docs observability](#docs-observability), [domain knowledge](#domain-knowledge), [end-user software engineer](#end-user-software-engineer),
+[knowledge management](#knowledge-management), [ontology](#ontology), [RAG](ai-and-apis.mdx#rag), [Seven-Action Documentation Model](#seven-action-documentation-model),
+[technical communication](#technical-communication), [usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
 - [Docs-as-Ecosystem: "The Community Approach to Engineering Documentation" by Alejandra Quetzalli](https://www.docsasecosystem.com/)
 - [GovFresh: "Docs-as-Ecosystem" Review by Luke Fretwell](https://govfresh.com/books/docs-as-ecosystem)
+
+---
+
+## docs observability
+
+**Definition**: also known as do11y; practice of treating docs
+as an instrumented, observable component of a product system —
+tracking how users move between docs and product to measure whether
+the docs are achieving its goals
+
+**Purpose**: connects docs success directly to product metrics
+rather than relying on indirect signals like page views or support
+ticket volume; treats docs are part of a distributed system rather
+than an ancillary element, enabling tech writers to answer questions
+such as:
+
+- _At which point during product usage were docs consumed?_
+- _Was consumption of docs followed by normal operation?_
+- _Did docs help in setting up or configuring a feature?_
+
+**Why this belongs in `Frameworks & Strategy`**: _describes a strategic
+frame for how_ docs teams plan, design, and measure content
+infrastructure — not a specific workflow or tool; similar to
+[docs-as-ecosystem](#docs-as-ecosystem), it reframes the relationship between
+docs and product rather than prescribing how docs get made; the technical
+implementation - instrumentation, session tracking,
+[RUM, _real user monitoring_](https://en.wikipedia.org/wiki/Real_user_monitoring),
+is secondary to the mindset shift
+
+### docs observability vs related terms
+
+| **Term** | **Description** | **Distinction** |
+| -------- | ---------------- | --------------------------------------- |
+| web analytics | measures activity on docs in isolation — page views, time on page, bounce rate | docs observability correlates that activity with product behavior, tracking the user journey across both docs and product to determine whether reading a doc preceded successful product usage |
+| [usability testing](workflows-methodologies.mdx#usability-testing) | captures qualitative feedback from representative users in controlled conditions | docs observability instruments real user behavior at scale, trading depth of insight for breadth and continuity |
+| [docs-as-tests](workflows-methodologies.mdx#docs-as-tests) | validates that docs content is accurate relative to the product | docs observability measures whether accurate docs are actually helping users succeed — complementary practices operating at different layers of the same problem |
+
+**Example**: check whether your company uses an observability
+solution and request access, involve engineers in a proof of concept
+scoped to a handful of docs and a specific feature, verify that the
+docs tooling supports instrumentation to emulate and/or implement
+the following scenario -
+
+> _An API returns an error response with a link embedded
+in the payload pointing to the relevant doc; the user follows it,
+realizes their mistake, modifies a parameter, and successfully
+completes the call; a dashboard tracks how many users made a
+successful API call after reading that doc — connecting docs
+consumption directly to product success_
+
+**Related Terms**: [docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](#docs-as-ecosystem),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [DX](#dx), [Seven-Action Documentation Model](#seven-action-documentation-model),
+[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
+
+**Source**: [passo.uno: "Docs observability, or measuring
+docs inside a product-docs system" by Fabrizio Ferri Benedetti](https://passo.uno/docs-observability-do11y/)
 
 ---
 
@@ -352,10 +409,10 @@ experience
 
 **Related Terms**: [accessibility](#accessibility), [API playground](./tools-techniques/documentation-specific.mdx#api-playground),
 [API sandbox](./tools-techniques/documentation-specific.mdx#api-sandbox), [cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability),
-[developer portal](./tools-techniques/documentation-specific.mdx#developer-portal), [end-user software engineer](#end-user-software-engineer),
-[error handling](./core-concepts/api-fundamentals.mdx#error-handling), [getting started](./core-concepts/documentation-specific.mdx#getting-started),
-[SDK](./core-concepts/api-fundamentals.mdx#sdk), [Seven-Action Documentation Model](#seven-action-documentation-model),
-[usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
+[developer portal](./tools-techniques/documentation-specific.mdx#developer-portal), [docs observability](#docs-observability),
+[end-user software engineer](#end-user-software-engineer), [error handling](./core-concepts/api-fundamentals.mdx#error-handling),
+[getting started](./core-concepts/documentation-specific.mdx#getting-started), [SDK](./core-concepts/api-fundamentals.mdx#sdk),
+[Seven-Action Documentation Model](#seven-action-documentation-model), [usability testing](workflows-methodologies.mdx#usability-testing), [UX](#ux)
 
 **Sources**:
 
@@ -729,7 +786,8 @@ and discovers strong coverage of Remember (reference) and Practice
 whether the API fits their use case without leaving the docs;
 they add an overview that directly addresses adoption decisions
 
-**Related Terms**: [docs theater](writing-style.mdx#docs-theater), [Document Development Life Cycle](workflows-methodologies.mdx#document-development-life-cycle),
+**Related Terms**: [docs observability](#docs-observability), [docs theater](writing-style.mdx#docs-theater),
+[Document Development Life Cycle](workflows-methodologies.mdx#document-development-life-cycle),
 [docs-as-ecosystem](#docs-as-ecosystem), [DX](#dx), [information architecture](#information-architecture), [UX](#ux)
 
 **Source**: [passo.uno: "The Seven-Action Documentation Model" by Fabrizio Ferri Benedetti](https://passo.uno/seven-action-model/)
@@ -877,9 +935,10 @@ and supports successful integration
 | Code Samples | Ensure samples work copy-paste without modification | Eliminates guesswork and reduces time-to-first-successful-API-call |
 
 **Related Terms**: [accessibility](#accessibility), [API documentation testing](workflows-methodologies.mdx#api-documentation-testing),
-[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability), [DX](#dx), [end-user software engineer](#end-user-software-engineer),
-[guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing), [information architecture](#information-architecture),
-[Seven-Action Documentation Model](#seven-action-documentation-model), [usability testing](workflows-methodologies.mdx#usability-testing)
+[cognitive dimensions of API usability](#cognitive-dimensions-of-api-usability), [docs observability](#docs-observability),
+[DX](#dx), [end-user software engineer](#end-user-software-engineer), [guerilla usability testing](workflows-methodologies.mdx#guerrilla-usability-testing),
+[information architecture](#information-architecture), [Seven-Action Documentation Model](#seven-action-documentation-model),
+[usability testing](workflows-methodologies.mdx#usability-testing)
 
 **Sources**:
 
