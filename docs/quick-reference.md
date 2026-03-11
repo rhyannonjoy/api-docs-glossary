@@ -675,6 +675,16 @@ of documentation
 
 ---
 
+### documentation audit
+
+- also known as content retention and maintenance
+- structured review process that evaluates existing docs for
+accuracy, relevance, quality, and completeness
+
+**Glossary Term Entry Location**: [Workflows & Methodologies - documentation audit](workflows-methodologies.mdx#documentation-audit)
+
+---
+
 ### Docusaurus
 
 - open source static site generator by Meta

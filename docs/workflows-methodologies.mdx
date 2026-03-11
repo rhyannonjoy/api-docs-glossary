@@ -371,12 +371,10 @@ or [Swagger](./tools-techniques/documentation-specific.mdx#swagger)
 | **Efficiency** — eliminates context-switching, reduces time searching email or chat | **Comm Standards** - demands clear communication standards for asynchronous, distributed teams |
 | **Integration** — documentation stays synchronized with code through the same review process | **Standardization Balance** - success requires balancing standardization with space for informal discussion |
 
-**Related Terms**: [Agile](#agile), [CMS](./tools-techniques/documentation-specific.mdx#cms),
-[diagrams-as-code](#diagrams-as-code), [docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
-[docs observability](frameworks-strategy.mdx#docs-observability), [Git](./tools-techniques/development-essentials.mdx#git),
-[GitHub](./tools-techniques/development-essentials.mdx#github), [`main` branch](./tools-techniques/development-essentials.mdx#main-branch),
-[MDX](./tools-techniques/documentation-specific.mdx#mdx), [metaprogramming](ai-and-apis.mdx#metaprogramming),
-[pull request](./tools-techniques/development-essentials.mdx#pull-request), [self-healing system](frameworks-strategy.mdx#self-healing-system),
+**Related Terms**: [Agile](#agile), [CMS](./tools-techniques/documentation-specific.mdx#cms), [diagrams-as-code](#diagrams-as-code), [docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
+[docs observability](frameworks-strategy.mdx#docs-observability), [documentation audit](#documentation-audit), [Git](./tools-techniques/development-essentials.mdx#git),
+[GitHub](./tools-techniques/development-essentials.mdx#github), [`main` branch](./tools-techniques/development-essentials.mdx#main-branch), [MDX](./tools-techniques/documentation-specific.mdx#mdx),
+[metaprogramming](ai-and-apis.mdx#metaprogramming), [pull request](./tools-techniques/development-essentials.mdx#pull-request), [self-healing system](frameworks-strategy.mdx#self-healing-system),
 [version control](./tools-techniques/development-essentials.mdx#version-control)
 
 **Sources**:
@@ -413,9 +411,9 @@ rather than specific tools or conceptual frameworks
 
 **Related Terms**: [AI agent](ai-and-apis.mdx#ai-agent), [API documentation testing](#api-documentation-testing), [BDD](#bdd),
 [contract testing](#contract-testing), [deterministic testing](#deterministic-testing), [Doc Detective](./tools-techniques/testing-validation.md#doc-detective),
-[docs observability](frameworks-strategy.mdx#docs-observability), [docs theater](writing-style.mdx#docs-theater), [eval](ai-and-apis.mdx#eval),
-[probabilistic testing](#probabilistic-testing), [self-healing system](frameworks-strategy.mdx#self-healing-system), [snippet testing](#snippet-testing),
-[usability testing](#usability-testing), [workflow testing](#workflow-testing)
+[docs observability](frameworks-strategy.mdx#docs-observability), [docs theater](writing-style.mdx#docs-theater), [documentation audit](#documentation-audit),
+[eval](ai-and-apis.mdx#eval), [probabilistic testing](#probabilistic-testing), [self-healing system](frameworks-strategy.mdx#self-healing-system),
+[snippet testing](#snippet-testing), [usability testing](#usability-testing), [workflow testing](#workflow-testing)
 
 **Sources**:
 
@@ -449,6 +447,48 @@ with well-defined phases that ensure content meets user needs
 
 - [Geeks for Geeks: "Document Development Life Cycle"](https://www.geeksforgeeks.org/software-engineering/document-development-life-cycle-ddlc/)
 - UW API Docs: Module 2, Lesson 3, "Introduction to Project Scheduling"
+
+---
+
+## documentation audit
+
+**Definition**: structured review process that evaluates existing docs
+for accuracy, relevance, quality, and completeness; results in a prioritized
+list of content to update, consolidate, unpublish, or delete
+
+**Purpose**: prevents docs debt from accumulating silently — outdated
+or low-quality content erodes user trust and increases support load; audits give
+docs teams a systematic way to make maintenance decisions based on evidence - 
+traffic data, age, accuracy checks - rather than intuition; for API docs
+specifically, audits surface outdated endpoint references, broken
+code examples, and deprecated parameters before users encounter them
+
+### docs audit vs content retention
+
+_Both are acceptable; consistency matters more than the choice_ -
+
+| | **Documentation Audit** | **Content Retention and Maintenance** |
+| --- | --- | --- |
+| **Framing** | Bounded, periodic review event | Ongoing, continuous practice |
+| **Implies** | Episodic inspection | Sustained care |
+| **Used By** | Practitioners preferring discrete milestones | Practitioners preferring lifecycle language |
+| **Activities** | Overlapping — both cover review, update, unpublish, delete | Overlapping — both cover review, update, unpublish, delete |
+
+**Example**: a lone technical writer pulls a list of the top ten most-viewed
+API docs from their analytics platform; any doc that hasn't been reviewed in
+the past six months gets flagged for review that month; separately, a link
+checker runs daily to catch dead references, and articles with low traffic
+after six months are tagged for deprecation and archived or fully deleted after
+twelve months if no longer needed — making audit a continuous practice rather than
+a once-a-year project
+
+**Related Terms**: [content](writing-style.mdx#content), [content governance](frameworks-strategy.mdx#content-governance), [content strategy](frameworks-strategy.mdx#content-strategy),
+[docs-as-code](#docs-as-code), [docs-as-tests](#docs-as-tests), [version control](./tools-techniques/development-essentials.mdx#version-control)
+
+**Sources**:
+
+- [Write the Docs Newsletter: "Strategies for successful documentation audits" - July 2025](https://www.writethedocs.org/blog/newsletter-july-2025/#strategies-for-successful-documentation-audits)
+- Write the Docs Slack: #general thread on documentation audit practices, March 2026
 
 ---
 
