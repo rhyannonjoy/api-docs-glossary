@@ -61,6 +61,65 @@ technical writing by using correct grammar
 
 ---
 
+## banner blindness
+
+**Definition**: also known as ad blindness and/or banner noise;
+cognitive phenomenon where readers automatically filter out and
+ignore page elements that resemble advertisements or interruptive
+UI patterns — banners, callout boxes, and mid-content CTAs —
+regardless of their actual content or relevance
+
+**Purpose**: explains why interruptive UI elements placed within
+documentation — download CTAs, promotional banners, large callout
+boxes — often fail to achieve their intended goal and may
+actively reduce reader trust; readers trained by ad-heavy web
+experiences apply the same filtering behavior to docs, making
+visual prominence a poor proxy for reader attention; understanding
+banner blindness helps writers advocate for content placement
+decisions grounded in reader behavior rather than assumed visibility
+
+**Why this belongs in `Writing Style`**: describes a perceptual
+and rhetorical constraint that operates at the content design and
+page level — directly shaping decisions about how to present
+warnings, callouts, and CTAs so they are actually perceived;
+_most actionable as a writing and layout concern rather than a
+strategic or organizational framework_; `Frameworks & Strategy`
+covers meta-level planning models, while banner blindness
+is a bias writers write and design against element by element
+
+### banner blindness vs docs theater
+
+| | **Banner Blindness** | **Docs Theater** |
+|---|---|---|
+| **Mechanism** | Readers filter elements that _look_ like ads or interruptions | Writers produce elements that _perform_ thoroughness without delivering substance |
+| **Problem Origin** | Reader behavior shaped by web conventions | Writer or organizational incentives |
+| **Result** | Important content goes unseen | Present but untrustworthy content |
+| **Overlap** | Banners used for docs theater are doubly ineffective | Performing thoroughness to an audience that has already stopped looking |
+
+**Example**: a team adds a large mid-page CTA banner linking
+to a product download on several user manual pages, reasoning
+that high-traffic doc pages are good real estate for driving
+downloads; in practice, _readers already using the manual likely
+have the product_ — and readers who don't have trained themselves
+to scroll past anything that resembles an ad banner; placing
+a download link in the page chrome — global header, footer,
+or navigation — reaches the same audience without interrupting
+the task that brought them to the page; if the CTA is
+implemented, tailoring it to page context such as  - "want to try
+this specific feature? Sign up for a free trial" - _may reduce
+the generic ad signal_
+
+**Related Terms**: [accessibility](frameworks-strategy.mdx#accessibility), CTA, [docs theater](#docs-theater), [DX](frameworks-strategy.mdx#dx),
+[progressive disclosure](#progressive-disclosure), [rhetorical approach](#rhetorical-approach), [Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model),
+[UI](./tools-techniques/development-essentials.mdx#ui), [UX](frameworks-strategy.mdx#ux)
+
+**Sources**:
+
+- [Wikipedia: "Banner blindness"](https://en.wikipedia.org/wiki/Banner_blindness)
+- Write the Docs #general channel discussion, March 2026
+
+---
+
 ## Clayton's Docs
 
 **Definition**: rhetorical and communicative failure mode;
@@ -226,10 +285,9 @@ covering a system still under active design; a reader familiar with
 the system notices the gaps the docs don't acknowledge,
 and trusts it less than a rougher draft would have
 
-**Related Terms**: [AI-assisted documentation](ai-and-apis.mdx#ai-assisted-documentation),
-[Clayton's Docs](#claytons-docs), [docs-as-code](workflows-methodologies.mdx#docs-as-code),
-[docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem), [docs-as-tests](workflows-methodologies.mdx#docs-as-tests),
-[RFC](./tools-techniques/documentation-specific.mdx#rfc), [Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model)
+**Related Terms**: [AI-assisted documentation](ai-and-apis.mdx#ai-assisted-documentation), [banner blindness](#banner-blindness),
+[Clayton's Docs](#claytons-docs), [docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
+[docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [RFC](./tools-techniques/documentation-specific.mdx#rfc), [Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model)
 
 **Sources**:
 
@@ -321,8 +379,8 @@ loads the full guide only when needed; Vercel applied this to reduce
 their initial agent docs references from 40KB to 8KB,
 an 80% reduction
 
-**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration), [curse of knowledge](#curse-of-knowledge),
-[domain knowledge](frameworks-strategy.mdx#domain-knowledge), [information architecture](frameworks-strategy.mdx#information-architecture),
+**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration), [banner blindness](#banner-blindness),
+[curse of knowledge](#curse-of-knowledge), [domain knowledge](frameworks-strategy.mdx#domain-knowledge), [information architecture](frameworks-strategy.mdx#information-architecture),
 [knowledge management](frameworks-strategy.mdx#knowledge-management), [modular content](#modular-content), [structured content](#structured-content)
 
 **Sources**:
@@ -347,8 +405,8 @@ one-size-fits-all solutions
 experienced developers versus conversational tutorials for beginners
 demonstrates rhetorical awareness
 
-**Related Terms**: [active voice](#active-voice), [content](#content),
-[tone](#tone)
+**Related Terms**: [active voice](#active-voice), [banner blindness](#banner-blindness),
+[content](#content), [tone](#tone)
 
 **Sources**:
 
