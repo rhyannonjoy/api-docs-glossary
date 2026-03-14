@@ -66,7 +66,7 @@ technical writing by using correct grammar
 **Definition**: also known as ad blindness and/or banner noise;
 cognitive phenomenon where readers automatically filter out and
 ignore page elements that resemble advertisements or interruptive
-UI patterns — banners, callout boxes, and mid-content CTAs —
+UI patterns — banners, callout boxes, and mid-content [CTAs](#cta) —
 regardless of their actual content or relevance
 
 **Purpose**: explains why interruptive UI elements placed within
@@ -109,7 +109,7 @@ implemented, tailoring it to page context such as  - "want to try
 this specific feature? Sign up for a free trial" - _may reduce
 the generic ad signal_
 
-**Related Terms**: [accessibility](frameworks-strategy.mdx#accessibility), CTA, [docs theater](#docs-theater), [DX](frameworks-strategy.mdx#dx),
+**Related Terms**: [accessibility](frameworks-strategy.mdx#accessibility), [CTA](#cta), [docs theater](#docs-theater), [DX](frameworks-strategy.mdx#dx),
 [progressive disclosure](#progressive-disclosure), [rhetorical approach](#rhetorical-approach), [Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model),
 [UI](./tools-techniques/development-essentials.mdx#ui), [UX](frameworks-strategy.mdx#ux)
 
@@ -199,6 +199,60 @@ and conceptual explanations all constitute content
 
 ---
 
+## CTA
+
+**Definition**: acronym for _call to action_; content element that prompts
+a reader to take a specific next step — sign up, download, try a feature,
+contact sales — typically expressed as a button, banner, link, or inline
+prompt
+
+**Purpose**: directs reader behavior toward a desired outcome; in API
+docs contexts, CTAs often serve competing goals — product and
+marketing teams use them to drive trial signups or downloads, while
+_docs goals center on helping readers complete the task that brought them to
+the page_; understanding this tension informs placement and framing decisions
+that serve both goals without undermining either
+
+**Why this belongs in `Writing Style`**: describes a rhetorical device
+and content design decision rather than a tool or platform; CTA
+effectiveness depends on language, placement, and reader context —
+_writing concerns rather than infrastructure concerns_; most actionable
+as a question of _how_ and _where_ to prompt action without interrupting the
+reader's task
+
+**CTA Considerations**:
+
+| Placement | Effect | Risk |
+|---|---|---|
+| **Page Chrome** — header, footer, nav | Reaches readers without interrupting content | Lower visual prominence |
+| **End of Page** | Catches readers who completed the task | Readers who left early don't see it |
+| **Mid-content Banner** | High visual prominence | [Banner blindness](#banner-blindness) — Readers filter it as an ad; slight annoyance guaranteed |
+| **Contextual Inline Link** | Directly relevant to reader's current task | Requires tailoring per page — "Want to try _this specific feature_?" rather than generic copy |
+
+**Example**: a team adds a large mid-page download CTA to
+high-traffic user manual pages to drive free trial signups;
+readers who are already using the manual likely have the product,
+and readers who don't have trained themselves to scroll past
+anything resembling an ad banner; a contextual inline CTA
+tailored to the page — "Want to try _this feature_? Sign up
+for a free trial" — reduces the generic ad signal and targets
+readers who haven't converted; placing a download link in the
+page chrome reaches the same audience without interrupting
+the task that brought them to the page
+
+**Related Terms**: [API overview topic](./core-concepts/documentation-specific.mdx#api-overview-topic),
+[banner blindness](#banner-blindness), [docs theater](#docs-theater), [DX](frameworks-strategy.mdx#dx),
+[progressive disclosure](#progressive-disclosure), [rhetorical approach](#rhetorical-approach),
+[Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model), [tone](#tone),
+[UX](frameworks-strategy.mdx#ux)
+
+**Sources**:
+
+- [Wikipedia: "Call to action (marketing)"](https://en.wikipedia.org/wiki/Call_to_action_(marketing))
+- Write the Docs #general channel discussion, March 2026
+
+---
+
 ## curse of knowledge
 
 **Definition**: also known as curse of expertise and/or expert's curse;
@@ -285,8 +339,8 @@ covering a system still under active design; a reader familiar with
 the system notices the gaps the docs don't acknowledge,
 and trusts it less than a rougher draft would have
 
-**Related Terms**: [AI-assisted documentation](ai-and-apis.mdx#ai-assisted-documentation), [banner blindness](#banner-blindness),
-[Clayton's Docs](#claytons-docs), [docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
+**Related Terms**: [AI-assisted documentation](ai-and-apis.mdx#ai-assisted-documentation), [banner blindness](#banner-blindness), [Clayton's Docs](#claytons-docs),
+[CTA](#cta), [docs-as-code](workflows-methodologies.mdx#docs-as-code), [docs-as-ecosystem](frameworks-strategy.mdx#docs-as-ecosystem),
 [docs-as-tests](workflows-methodologies.mdx#docs-as-tests), [RFC](./tools-techniques/documentation-specific.mdx#rfc), [Seven-Action Documentation Model](frameworks-strategy.mdx#seven-action-documentation-model)
 
 **Sources**:
@@ -379,7 +433,7 @@ loads the full guide only when needed; Vercel applied this to reduce
 their initial agent docs references from 40KB to 8KB,
 an 80% reduction
 
-**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration), [banner blindness](#banner-blindness),
+**Related Terms**: [agent configuration](ai-and-apis.mdx#agent-configuration), [banner blindness](#banner-blindness), [CTA](#cta),
 [curse of knowledge](#curse-of-knowledge), [domain knowledge](frameworks-strategy.mdx#domain-knowledge), [information architecture](frameworks-strategy.mdx#information-architecture),
 [knowledge management](frameworks-strategy.mdx#knowledge-management), [modular content](#modular-content), [structured content](#structured-content)
 
@@ -406,7 +460,7 @@ experienced developers versus conversational tutorials for beginners
 demonstrates rhetorical awareness
 
 **Related Terms**: [active voice](#active-voice), [banner blindness](#banner-blindness),
-[content](#content), [tone](#tone)
+[content](#content), [CTA](#cta), [tone](#tone)
 
 **Sources**:
 
@@ -458,7 +512,7 @@ address - "you'll need to authenticate," while formal tone avoids
 both - "authentication is required"
 
 **Related Terms**: [active voice](#active-voice), [content](#content),
-[rhetorical approach](#rhetorical-approach), [voice](#voice)
+[CTA](#cta), [rhetorical approach](#rhetorical-approach), [voice](#voice)
 
 **Source**: [API Docs Glossary: Style Guide](../docs/meta/style-guide.mdx)
 
