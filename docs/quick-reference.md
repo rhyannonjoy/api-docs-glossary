@@ -489,6 +489,16 @@ directly to HTTP methods
 
 ---
 
+### CTA
+
+- acronym for _call to action_
+- content element that prompts a reader to take a specific next step - sign up, download, try a feature,
+contact sales
+
+**Glossary Term Entry Location**: [Writing Style - CTA](writing-style.mdx#cta)
+
+---
+
 ### Cucumber
 
 - BDD - _behavior-driven development_ - testing framework
