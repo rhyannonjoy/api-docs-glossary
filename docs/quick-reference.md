@@ -257,6 +257,16 @@ many different protocols
 
 ---
 
+### banner blindness
+
+- also known as ad blindness and/or banner noise
+- cognitive phenomenon in which readers automatically filter out and ignore page elements that resemble
+advertisements or interruptive UI patterns regardless of their actual content or relevance
+
+**Glossary Term Entry Location**: [Writing Style - banner blindness](writing-style.mdx#banner-blindness)
+
+---
+
 ### BDD
 
 - acronym for _behavior-driven development_
