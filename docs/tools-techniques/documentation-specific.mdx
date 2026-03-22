@@ -528,7 +528,7 @@ links, lists, and tables
 **Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration),
 [Git](development-essentials.mdx#git), [Git Bash](development-essentials.mdx#git-bash),
 [GitHub](development-essentials.mdx#github), [MDX](#mdx), [Mermaid](diagramming-visualization.mdx#mermaid),
-[MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
+[MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Vale](#vale)
 
 **Sources**:
 
@@ -538,10 +538,9 @@ links, lists, and tables
 ---
 ```
 
-**Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration),
-[Git](development-essentials.mdx#git), [Git Bash](development-essentials.mdx#git-bash),
-[GitHub](development-essentials.mdx#github), [MDX](#mdx), [Mermaid](diagramming-visualization.mdx#mermaid),
-[MkDocs](#mkdocs), [partials](#partials), [Vale](#vale)
+**Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration), [Git](development-essentials.mdx#git),
+[Git Bash](development-essentials.mdx#git-bash), [GitHub](development-essentials.mdx#github), [MDX](#mdx),
+[Mermaid](diagramming-visualization.mdx#mermaid), [MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Vale](#vale)
 
 **Sources**:
 
@@ -599,7 +598,7 @@ Our API uses API keys for authentication. Include your key in the header:
 [Docusaurus](#docusaurus), [GUI](development-essentials.mdx#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
 [Mermaid](diagramming-visualization.mdx#mermaid), [Mintlify](#mintlify),
-[partials](#partials), [UI](development-essentials.mdx#ui)
+[partials](#partials), [rST](#rst), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -704,9 +703,8 @@ used for code examples in multiple languages
   alt="Flowchart showing steps: write in Markdown, organize in /docs, configure mkdocs.yaml, MkDocs builds, generates static HTML, deploys to GitHub Pages, available features searchable, tabbed code examples"
 />
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown),
-[static site generator](#static-site-generator)
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [GitHub Pages](#github-pages),
+[Markdown](#markdown), [rST](#rst), [static site generator](#static-site-generator)
 
 **Sources**:
 
@@ -919,6 +917,49 @@ platform where developers can explore endpoints interactively
 
 ---
 
+## rST
+
+**Definition**: acronym for _reStructuredText_; markup language designed for tech docs;
+default format for Python docs tooling
+
+**Purpose**: provides semantic markup capabilities beyond Markdown, enabling complex
+docs structures with cross-references, directives, and extensibility; powers Python API
+docs through [Sphinx](https://www.sphinx-doc.org/en/master/index.html) and
+[Read the Docs](https://about.readthedocs.com/); supports tech writing needs like automatic
+API reference generation, table of contents, and index creation
+
+### reStructuredText vs Markdown
+
+| **Aspect** | **reStructuredText** | **Markdown** |
+|---|---|---|
+| **Complexity** | More features, steeper learning curve | Straightforward syntax, faster onboarding |
+| **Extensibility** | Directive system supports custom extensions | Limited extensibility without custom processors |
+| **Semantic Markup** | Built-in support for admonitions, citations, cross-references | Requires extensions or HTML |
+| **Python Ecosystem** | Standard for Python docs | Requires additional tooling |
+| **Cross-References** | Native automatic linking between docs sections | Manual or plugin-dependent |
+| **Adoption** | Dominant in Python projects | Dominant across many languages and platforms |
+
+**Example**: a developer documents a Python REST API client library that enables consistent
+formatting between inline code docs and standalone guide pages -
+
+```markdown
+1. Writes docstring in Python code using rST formatting
+2. Creates `.rst` files for guides, tutorials, and architecture docs
+3. Uses Sphinx to generate HTML docs automatically from docstring and `.rst` files
+4. Deploys to Read the Docs for versioned, searchable API docs
+```
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Markdown](#markdown), [MDX](#mdx),
+[MkDocs](#mkdocs), [static site generator](#static-site-generator)
+
+**Sources**:
+
+- [Docutils: "reStructuredText: Markup Syntax and Parser Component of Docutils"](https://docutils.sourceforge.io/rst.html)
+- [Sphinx Documentation: "reStructuredText Primer"](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+- [Write the Docs: "Introduction to reStructuredText"](https://www.writethedocs.org/guide/writing/reStructuredText/)
+
+---
+
 ## Spectral
 
 **Definition**: open source JSON/YAML linter for creating automated
@@ -1003,10 +1044,8 @@ sequenceDiagram
 | 8 | Related Terms Links | Structured metadata generates cross‑links between glossary entries |
 | 9 | Search Bar| SSG features like search enhance the generated docs site |
 
-**Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline),
-[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown),
-[MkDocs](#mkdocs)
+**Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs), [rST](#rst)
 
 **Sources**:
 

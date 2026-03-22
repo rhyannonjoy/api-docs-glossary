@@ -1953,6 +1953,16 @@ as if calling local functions
 
 ---
 
+### rST
+
+- acronym for _reStructuredText_
+- markup language designed for tech docs
+- default format for Python docs tooling
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - rST](./tools-techniques/documentation-specific.mdx#rst)
+
+---
+
 ### runbook
 
 - documentation topic type
