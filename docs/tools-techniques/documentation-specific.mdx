@@ -99,6 +99,41 @@ credentials, which endpoints are available, and how simulated responses differ f
 
 ---
 
+## Astro
+
+**Definition**: open source web framework that uses
+[islands architecture](https://www.patterns.dev/vanilla/islands-architecture/)
+to deliver fast, content-focused websites by rendering pages to static HTML and
+selectively hydrating interactive components with JavaScript only where needed
+
+**Purpose**: enables API docs teams to build performant docs sites with
+minimal JavaScript overhead; supports multiple UI frameworks
+[React](https://react.dev/), [Vue](https://vuejs.org/), [Svelte](https://svelte.dev/)
+within the same project, allowing teams to use familiar tools while maintaining
+excellent performance; [Starlight theme](https://starlight.astro.build/resources/themes/)
+provides docs-specific features like automatic navigation, search, and
+internationalization out of the box
+
+**Example**: A technical writing team builds a developer portal using Astro with Starlight;
+
+```markdown
+1. Write docs in Markdown with frontmatter for metadata
+2. Creates interactive API examples using React components - code playgrounds, response visualizers
+3. Adds Vue-based configuration builders for complex endpoint customization
+4. Astro renders everything to static HTML, only loading framework code for interactive islands
+5. Deploys to a CDN with sub-second page loads despite rich interactivity
+```
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus),
+[Markdown](#markdown), [MDX](#mdx), [MkDocs](#mkdocs), [static site generator](#static-site-generator)
+
+**Sources**:
+
+- [Astro Homepage: "The web framework for content-driven websites"](https://astro.build/)
+- [Astro, Starlight: "Make your docs shine with Starlight"](https://starlight.astro.build/)
+
+---
+
 ## CMS
 
 **Definition**: acronym for _content management system_; software platform
@@ -287,8 +322,8 @@ components
   alt="Flowchart showing steps: organize docs in Markdown, install plugin, plugin generates interactive docs, devs test endpoints in docs, maintain version-specific docs"
 />
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Fumadocs](#fumadocs),
-[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](#mdx), [MkDocs](#mkdocs),
+**Related Terms**: [Astro](#astro), [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Fumadocs](#fumadocs),
+[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](#mdx), [MkDocs](#mkdocs), [Nextra](#nextra),
 [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification), [static site generator](#static-site-generator)
 
 **Sources**:
@@ -607,10 +642,10 @@ links, lists, and tables
 
 ...
 
-**Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration),
+**Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration), [Astro](#astro),
 [Git](development-essentials.mdx#git), [Git Bash](development-essentials.mdx#git-bash),
 [GitHub](development-essentials.mdx#github), [MDX](#mdx), [Mermaid](diagramming-visualization.mdx#mermaid),
-[MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Tome](#tome), [Vale](#vale)
+[MkDocs](#mkdocs), [Nextra](#nextra), [partials](#partials), [rST](#rst), [Tome](#tome), [Vale](#vale)
 
 **Sources**:
 
@@ -620,9 +655,9 @@ links, lists, and tables
 ---
 ```
 
-**Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration), [Git](development-essentials.mdx#git),
+**Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration), [Astro](#astro), [Git](development-essentials.mdx#git),
 [Git Bash](development-essentials.mdx#git-bash), [GitHub](development-essentials.mdx#github), [MDX](#mdx),
-[Mermaid](diagramming-visualization.mdx#mermaid), [MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Tome](#tome), [Vale](#vale)
+[Mermaid](diagramming-visualization.mdx#mermaid), [MkDocs](#mkdocs), [Nextra](#nextra), [partials](#partials), [rST](#rst), [Tome](#tome), [Vale](#vale)
 
 **Sources**:
 
@@ -676,9 +711,9 @@ Our API uses API keys for authentication. Include your key in the header:
 | **Capabilities** | Formatting, links, images, code blocks | Everything Markdown does + embedded UI components, live code editors, API calls, user input handling |
 | **Use Case** | Documentation that doesn't need interactivity | Documentation with live demos, interactive examples, dynamic content |
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GUI](development-essentials.mdx#gui),
-[knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown), [Mermaid](diagramming-visualization.mdx#mermaid), [Mintlify](#mintlify),
-[partials](#partials), [rST](#rst), [Tome](#tome), [UI](development-essentials.mdx#ui)
+**Related Terms**: [Astro](#astro), [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs),
+[GUI](development-essentials.mdx#gui), [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown), [Mermaid](diagramming-visualization.mdx#mermaid),
+[Mintlify](#mintlify), [Nextra](#nextra), [partials](#partials), [rST](#rst), [Tome](#tome), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -782,14 +817,45 @@ used for code examples in multiple languages
   alt="Flowchart showing steps: write in Markdown, organize in /docs, configure mkdocs.yaml, MkDocs builds, generates static HTML, deploys to GitHub Pages, available features searchable, tabbed code examples"
 />
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages),
-[Markdown](#markdown), [rST](#rst), [static site generator](#static-site-generator)
+**Related Terms**: [Astro](#astro), [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs),
+[GitHub Pages](#github-pages), [Markdown](#markdown), [rST](#rst), [static site generator](#static-site-generator)
 
 **Sources**:
 
 - [Martin Donath: Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
 - [Tom Christie, MkDocs: "Getting Started with MkDocs"](https://www.mkdocs.org/getting-started/)
 - [Wikipedia: "MkDocs"](https://en.wikipedia.org/wiki/MkDocs)
+
+---
+
+## Nextra
+
+**Definition**: [Next.js](https://nextjs.org/)-based documentation framework that combines
+[React](https://react.dev/), MDX, and static site generation to create interactive docs
+sites with minimal configuration
+
+**Purpose**: streamlines API docs creation for teams already using Next.js or React by
+providing docs-specific features like automatic sidebar generation, full-text search,
+and syntax highlighting; integrates seamlessly with Next.js deployment workflows and
+supports dynamic content generation alongside static pages; commonly used for developer
+portals, API references, and technical docs requiring custom interactive components
+
+**Example**: SaaS company documents their API using Nextra; the shared tech stack
+enables docs to stay synchronized with product releases and reuse existing components -
+
+```markdown
+1. Engineering team already deploys their product on Vercel using Next.js
+2. Tech writers create docs site with Nextra in the same monorepo
+3. Writers use MDX to embed custom React components - API key generators, live request builders
+4. Nextra generates static pages with automatic navigation and search
+5. Deploys alongside the product with shared authentication and styling
+```
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus),
+[Markdown](#markdown), [MDX](#mdx), [monorepo](development-essentials.mdx#monorepo), [static site generator](#static-site-generator)
+
+**Source**: [Vercel, The Nextra Project: "Make beautiful websites with Next.js & MDX](https://nextra.site/)
+
 
 ---
 
@@ -1123,8 +1189,9 @@ sequenceDiagram
 | 8 | Related Terms Links | Structured metadata generates cross‑links between glossary entries |
 | 9 | Search Bar| SSG features like search enhance the generated docs site |
 
-**Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs), [rST](#rst), [Tome](#tome)
+**Related Terms**: [Astro](#astro), [CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs),
+[Nextra](#nextra), [rST](#rst), [Tome](#tome)
 
 **Sources**:
 
