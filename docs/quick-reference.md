@@ -895,6 +895,16 @@ in one's GitHub account
 
 ---
 
+### Fumadocs
+
+- open source React.js docs framework built by Fuma Nama
+- generates docs sites with MDX support, built-in search, OpenAPI playground, and
+composable UI components
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Fumadocs](./tools-techniques/documentation-specific.mdx#fumadocs)
+
+---
+
 ## G
 
 ---

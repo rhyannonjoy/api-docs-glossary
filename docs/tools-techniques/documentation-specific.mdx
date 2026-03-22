@@ -286,10 +286,9 @@ components
   alt="Flowchart showing steps: organize docs in Markdown, install plugin, plugin generates interactive docs, devs test endpoints in docs, maintain version-specific docs"
 />
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](#mdx),
-[MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[static site generator](#static-site-generator)
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Fumadocs](#fumadocs),
+[GitHub Pages](#github-pages), [Markdown](#markdown), [MDX](#mdx), [MkDocs](#mkdocs),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification), [static site generator](#static-site-generator)
 
 **Sources**:
 
@@ -396,6 +395,50 @@ API key?"_ using answers from their API docs
 
 - [Intercom, Fin Homepage: "The #1 AI Agent for all your customer service"](https://www.intercom.com/fin)
 - [PixieBrix, Inc.: "What is Intercom Fin? Benefits, use cases, and alternatives"](https://www.pixiebrix.com/tool/intercom-fin)
+
+---
+
+## Fumadocs
+
+**Definition**: open source React.js docs framework built by Fuma Nama;
+generates docs sites with MDX support, built-in search, OpenAPI playground, and
+composable UI components; works with [Next.js](https://nextjs.org/),
+[TanStack Start](https://tanstack.com/start/latest), [React Router](https://reactrouter.com/),
+and [Waku](https://waku.gg/)
+
+**Purpose**: gives engineering-leaning docs teams a headless, composable alternative
+to opinionated platforms like [Docusaurus](https://docusaurus.io/); separates
+content - `fumadocs-mdx`, core logic - `fumadocs-core`, and UI - `fumadocs-ui`, into distinct
+layers so teams can adopt the pieces they need without committing to the full framework;
+`fumadocs-openapi` extends the framework to render OpenAPI specifications as interactive
+API reference docs; supports MDX content with
+[TypeScript Twoslash](https://www.typescriptlang.org/dev/twoslash/) for inline type
+information in code blocks, making it well-suited for documenting SDKs and typed APIs
+
+### Fumadocs vs Docusaurus
+
+| **Aspect** | **Fumadocs** | **Docusaurus** |
+|---|---|---|
+| **Framework Dependency** | React.js framework-agnostic — Next.js, TanStack Start, Waku | React-based SSG built and maintained by Meta |
+| **Architecture** | Headless, composable — use content, core, and UI layers independently | Opinionated, batteries-included |
+| **Setup Approach** | Compose from packages; requires React/Next.js familiarity | Preconfigured; lower barrier for non-engineers |
+| **Customization** | High — swap UI layer entirely, integrate any CMS | Moderate — theme swizzling, plugin system |
+| **OpenAPI Support** | `fumadocs-openapi` plugin | `docusaurus-plugin-openapi-docs` by Palo Alto Networks |
+| **Best For** | Engineering teams with React/Next.js workflows | Broader teams including non-engineer contributors |
+
+**Example**: a developer tools company building on Next.js initializes a Fumadocs
+project with `pnpm create fumadocs-app`, adds `fumadocs-openapi` to render their
+OpenAPI spec as an interactive reference, and extends the UI layer with custom
+components without modifying the core content pipeline
+
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [MDX](#mdx),
+[MkDocs](#mkdocs), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[static site generator](documentation-specific.mdx#static-site-generator)
+
+**Sources**:
+
+- [Fumadocs Homepage: "Build excellent documentations, your style"](https://www.fumadocs.dev/)
+- [GitHub Repository: fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs)
 
 ---
 
@@ -632,10 +675,8 @@ Our API uses API keys for authentication. Include your key in the header:
 | **Capabilities** | Formatting, links, images, code blocks | Everything Markdown does + embedded UI components, live code editors, API calls, user input handling |
 | **Use Case** | Documentation that doesn't need interactivity | Documentation with live demos, interactive examples, dynamic content |
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Docusaurus](#docusaurus), [GUI](development-essentials.mdx#gui),
-[knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown),
-[Mermaid](diagramming-visualization.mdx#mermaid), [Mintlify](#mintlify),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GUI](development-essentials.mdx#gui),
+[knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown), [Mermaid](diagramming-visualization.mdx#mermaid), [Mintlify](#mintlify),
 [partials](#partials), [rST](#rst), [UI](development-essentials.mdx#ui)
 
 **Sources**:
@@ -740,7 +781,7 @@ used for code examples in multiple languages
   alt="Flowchart showing steps: write in Markdown, organize in /docs, configure mkdocs.yaml, MkDocs builds, generates static HTML, deploys to GitHub Pages, available features searchable, tabbed code examples"
 />
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [GitHub Pages](#github-pages),
+**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages),
 [Markdown](#markdown), [rST](#rst), [static site generator](#static-site-generator)
 
 **Sources**:
@@ -1082,7 +1123,7 @@ sequenceDiagram
 | 9 | Search Bar| SSG features like search enhance the generated docs site |
 
 **Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Docusaurus](#docusaurus), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs), [rST](#rst)
+[Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs), [rST](#rst)
 
 **Sources**:
 
