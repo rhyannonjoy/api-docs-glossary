@@ -949,6 +949,16 @@ first meaningful interaction with a product or feature
 
 ---
 
+### GitBook
+
+- cloud-based docs platform
+- supports Git-based workflows and visual editor, bridges gap
+between technical and non-technical contributors
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - GitBook](./tools-techniques/documentation-specific.mdx#gitbook)
+
+---
+
 ### GitHub
 
 - web-based platform

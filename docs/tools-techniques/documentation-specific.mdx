@@ -244,13 +244,10 @@ authentication guides, error code references, and getting started tutorials —
 devs never need to leave the portal to get from "what is this API?" to a working
 integration
 
-**Related Terms**: [API playground](#api-playground), [API sandbox](#api-sandbox),
-[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[DX](../frameworks-strategy.mdx#dx),
-[getting started](../core-concepts/documentation-specific.mdx#getting-started),
+**Related Terms**: [API playground](#api-playground), [API sandbox](#api-sandbox), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[DX](../frameworks-strategy.mdx#dx), [getting started](../core-concepts/documentation-specific.mdx#getting-started), [GitBook](#gitbook),
 [Mintlify](#mintlify), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[reference](../core-concepts/documentation-specific.mdx#reference),
-[SDK](../core-concepts/api-fundamentals.mdx#sdk), [tutorial](../core-concepts/documentation-specific.mdx#tutorial)
+[reference](../core-concepts/documentation-specific.mdx#reference), [SDK](../core-concepts/api-fundamentals.mdx#sdk), [tutorial](../core-concepts/documentation-specific.mdx#tutorial)
 
 **Sources**:
 
@@ -399,6 +396,47 @@ API key?"_ using answers from their API docs
 
 - [Intercom, Fin Homepage: "The #1 AI Agent for all your customer service"](https://www.intercom.com/fin)
 - [PixieBrix, Inc.: "What is Intercom Fin? Benefits, use cases, and alternatives"](https://www.pixiebrix.com/tool/intercom-fin)
+
+---
+
+## GitBook
+
+**Definition**: cloud-based docs platform that combines a
+[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor with GitHub and GitLab sync,
+publishing polished docs sites for public developer portals, API references, help
+centers, and internal knowledge bases
+
+**Purpose**: bridges the gap between technical and non-technical contributors by
+supporting both Git-based workflows and a visual editor on the same platform;
+engineers commit docs changes through GitHub or GitLab sync while writers and
+product managers use the WYSIWYG interface — both workflows publish to the same
+destination; GitBook Agent proactively surfaces improvement suggestions to keep
+docs aligned with product changes; the built-in AI Assistant answers reader questions
+using the published docs content; positions itself explicitly as the buy-vs-build
+alternative for teams that have outgrown custom docs infrastructure
+
+### GitBook vs Mintlify
+
+| **Aspect** | **GitBook** | **Mintlify** |
+|---|---|---|
+| **Primary Audience** | Mixed teams — technical and non-technical contributors | Devs and API-first teams |
+| **Editor Experience** | WYSIWYG + Git sync — contributors choose their preferred workflow | Docs-as-code first — MDX and OpenAPI in Git |
+| **OpenAPI Rendering** | Supported | Core feature — auto-generates playground from spec |
+| **AI Features** | GitBook Agent - maintenance suggestions + AI Assistant - reader Q&A | AI-assisted writing |
+| **Hosting** | Managed cloud | Managed cloud |
+| **Best For** | Teams with mixed tech audiences - help centers, internal knowledge bases | Teams publishing interactive API references |
+
+**Example**: a small docs team uses GitBook to publish an external developer portal —
+engineers push API reference updates through GitHub sync, while a customer success
+writer updates the help center through the WYSIWYG editor; both workflows publish to
+the same GitBook site without requiring writers to learn Git
+
+**Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation), [developer portal](#developer-portal),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [DX](../frameworks-strategy.mdx#dx), [Git](development-essentials.mdx#git),
+[knowledge management](../frameworks-strategy.mdx#knowledge-management), [Mintlify](#mintlify),
+[OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification)
+
+**Source**: [GitBook Inc.: "Buy vs Build: Don't build a docs platform. Just create great docs."](https://www.gitbook.com/buy-vs-build)
 
 ---
 
@@ -670,10 +708,9 @@ as code
   alt="Flowchart showing steps: team maintains docs, ships new endpoint, engineer updates specs, opens a PR, Mintlify detects change, rebuilds docs, deploys docs with API playground"
 />
 
-**Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation),
-[API playground](#api-playground), [developer portal](#developer-portal),
-[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Git](development-essentials.mdx#git),
-[MDX](#mdx), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+**Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation), [API playground](#api-playground),
+[developer portal](#developer-portal), [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Git](development-essentials.mdx#git),
+[GitBook](#gitbook), [MDX](#mdx), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
 [Swagger](#swagger), [version control](development-essentials.mdx#version-control)
 
 **Sources**:
