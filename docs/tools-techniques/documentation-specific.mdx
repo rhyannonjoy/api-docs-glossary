@@ -247,7 +247,8 @@ integration
 **Related Terms**: [API playground](#api-playground), [API sandbox](#api-sandbox), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
 [DX](../frameworks-strategy.mdx#dx), [getting started](../core-concepts/documentation-specific.mdx#getting-started), [GitBook](#gitbook),
 [Mintlify](#mintlify), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[reference](../core-concepts/documentation-specific.mdx#reference), [SDK](../core-concepts/api-fundamentals.mdx#sdk), [tutorial](../core-concepts/documentation-specific.mdx#tutorial)
+[reference](../core-concepts/documentation-specific.mdx#reference), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
+[Tome](#tome), [tutorial](../core-concepts/documentation-specific.mdx#tutorial)
 
 **Sources**:
 
@@ -609,7 +610,7 @@ links, lists, and tables
 **Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration),
 [Git](development-essentials.mdx#git), [Git Bash](development-essentials.mdx#git-bash),
 [GitHub](development-essentials.mdx#github), [MDX](#mdx), [Mermaid](diagramming-visualization.mdx#mermaid),
-[MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Vale](#vale)
+[MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Tome](#tome), [Vale](#vale)
 
 **Sources**:
 
@@ -621,7 +622,7 @@ links, lists, and tables
 
 **Related Terms**: [agent configuration](../ai-and-apis.mdx#agent-configuration), [Git](development-essentials.mdx#git),
 [Git Bash](development-essentials.mdx#git-bash), [GitHub](development-essentials.mdx#github), [MDX](#mdx),
-[Mermaid](diagramming-visualization.mdx#mermaid), [MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Vale](#vale)
+[Mermaid](diagramming-visualization.mdx#mermaid), [MkDocs](#mkdocs), [partials](#partials), [rST](#rst), [Tome](#tome), [Vale](#vale)
 
 **Sources**:
 
@@ -677,7 +678,7 @@ Our API uses API keys for authentication. Include your key in the header:
 
 **Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GUI](development-essentials.mdx#gui),
 [knowledge graph](../ai-and-apis.mdx#knowledge-graph), [Markdown](#markdown), [Mermaid](diagramming-visualization.mdx#mermaid), [Mintlify](#mintlify),
-[partials](#partials), [rST](#rst), [UI](development-essentials.mdx#ui)
+[partials](#partials), [rST](#rst), [Tome](#tome), [UI](development-essentials.mdx#ui)
 
 **Sources**:
 
@@ -752,7 +753,7 @@ as code
 **Related Terms**: [AI-assisted documentation](../ai-and-apis.mdx#ai-assisted-documentation), [API playground](#api-playground),
 [developer portal](#developer-portal), [docs-as-code](../workflows-methodologies.mdx#docs-as-code), [Git](development-essentials.mdx#git),
 [GitBook](#gitbook), [MDX](#mdx), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
-[Swagger](#swagger), [version control](development-essentials.mdx#version-control)
+[Swagger](#swagger), [Tome](#tome), [version control](development-essentials.mdx#version-control)
 
 **Sources**:
 
@@ -1123,7 +1124,7 @@ sequenceDiagram
 | 9 | Search Bar| SSG features like search enhance the generated docs site |
 
 **Related Terms**: [CI/CD pipeline](development-essentials.mdx#cicd-pipeline), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs), [rST](#rst)
+[Docusaurus](#docusaurus), [Fumadocs](#fumadocs), [GitHub Pages](#github-pages), [Markdown](#markdown), [MkDocs](#mkdocs), [rST](#rst), [Tome](#tome)
 
 **Sources**:
 
@@ -1204,6 +1205,41 @@ generates client libraries and server stubs from OAS files
 
 - [Kovai.co, Document360: "Swagger API: How They Work & What You Need to Know" by Shakeer Hussain](https://document360.com/blog/swagger-api/)
 - [SmartBear Software: "What is Swagger"](https://swagger.io/docs/specification/v2_0/what-is-swagger/)
+
+---
+
+## Tome
+
+**Definition**: open source docs platform that generates docs sites from
+Markdown and MDX files with built-in full-text search, API reference support,
+and AI chat; available as a self-hosted deployment or through Tome Cloud
+
+**Purpose**: provides a [Mintlify](https://www.mintlify.com/)-alternative docs
+publishing workflow at no licensing cost for teams that want managed-platform
+aesthetics without the SaaS pricing; self-hosted deployment gives teams full
+control over infrastructure and data; Tome Cloud offers a hosted path for teams
+that want managed deployment without building custom infrastructure
+
+**Maturity**: Tome is an early-stage project;
+[the GitHub repository](https://github.com/vxcozy/tome) has limited adoption
+signals compared to Mintlify, [GitBook](https://www.gitbook.com/),
+[Docusaurus](https://docusaurus.io/), and [MkDocs](https://www.mkdocs.org/) as
+of early 2026; evaluate project activity before adopting for production use
+
+**Example**: a startup with privacy requirements self-hosts Tome on their own
+infrastructure to publish an API reference and developer portal, avoiding SaaS
+licensing costs and keeping docs traffic off third-party servers; teams with
+fewer infrastructure constraints deploy to Tome Cloud using the same Markdown
+and MDX source files
+
+**Related Terms**: [developer portal](#developer-portal), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Markdown](#markdown), [MDX](#mdx), [Mintlify](#mintlify), [OpenAPI Specification](../core-concepts/documentation-specific.mdx#openapi-specification),
+[static site generator](documentation-specific.mdx#static-site-generator)
+
+**Sources**:
+
+- [Tome Homepage: "Beautiful docs, zero friction."](https://www.tome.center/)
+- [GitHub Repository: vxcozy/tome](https://github.com/vxcozy/tome)
 
 ---
 

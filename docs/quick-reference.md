@@ -2255,6 +2255,16 @@ or understand technical concepts
 
 ---
 
+### Tome
+
+- open source documentation platform
+- generates docs sites from Markdown and MDX files with built-in full-text search,
+API reference support, and AI chat
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Tome](./tools-techniques/documentation-specific.mdx#tome)
+
+---
+
 ### tone
 
 - attitude and/or emotional quality of the content
