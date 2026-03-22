@@ -224,6 +224,15 @@ multiple API operations connect to accomplish multi-step tasks
 
 ---
 
+### Astro
+
+- open source web framework
+- uses islands architecture to deliver fast, content-focused websites
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Astro](./tools-techniques/documentation-specific.mdx#astro)
+
+---
+
 ### AsyncAPI
 
 - documentation standard
@@ -1535,6 +1544,16 @@ devices and networks with limited bandwidth or unreliable connections
 that mimic humans’ use of language
 
 **Glossary Term Entry Location**: [AI & APIs - Natural Language Processing](ai-and-apis.mdx#natural-language-processing)
+
+---
+
+### Nextra
+
+- Next.js-based documentation framework
+- combines React, MDX, and static site generation to create interactive docs
+sites with minimal configuration
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - Nextra](./tools-techniques/documentation-specific.mdx#nextra)
 
 ---
 
