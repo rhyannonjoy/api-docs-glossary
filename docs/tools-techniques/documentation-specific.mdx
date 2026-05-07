@@ -134,6 +134,61 @@ internationalization out of the box
 
 ---
 
+## CCMS
+
+**Definition**: acronym for _component content management system_; platform that manages
+documentation at the component level with individual topics, procedures, parameters,
+warnings, or assets, rather than at the document level; each component is stored once and
+reused by reference across multiple documents and outputs; commonly built on XML-based
+structured authoring standards, most often
+[DITA](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) —
+_Darwin Information Typing Architecture_ — or [DocBook](https://en.wikipedia.org/wiki/DocBook)
+
+**Purpose**: enables API docs teams managing large, multi-product,
+or multi-audience content sets to maintain a single source of truth for
+shared components, as in parameter descriptions, authentication procedures,
+error code tables, and publish them across reference docs, getting started
+guides, SDK documentation, and localized outputs simultaneously; when a
+shared component changes, the update propagates automatically to every
+document that references it, eliminating the copy-paste drift that
+degrades accuracy across large documentation sets; supports structured
+authoring workflows, granular version control at the component level, and
+conditional publishing for audience- or product-specific output variants
+
+### CCMS vs CMS
+
+| **Aspect** | **CCMS** | **CMS** |
+| -------- | ----- | ----- |
+| **Content Unit** | Individual Components: topics, paragraphs, assets | Full pages or documents |
+| **Reuse Model** | Reference-based: one source, many outputs | Copy-based: content duplicated across pages |
+| **Structure** | Requires structured authoring: DITA, DocBook XML | Supports unstructured or lightly structured content |
+| **Version Tracking** | Per-component lifecycle: owner, version, approval tracked individually | Per-page, per-document versioning |
+| **Publishing** | Multi-channel output, single component set: print, web, PDF, e-reader | Primarily web publishing |
+| **Primary Users** | Technical writers managing complex, multi-product docs | Content creators, marketers, web managers |
+| **API Docs Use Case** | Managing shared parameter definitions, procedures, error references across many docs | Managing endpoint reference pages, tutorials, guides as discrete pages |
+| **Tools** | [Heretto](https://www.heretto.com/), [MadCap IXIA CCMS](https://www.madcapsoftware.com/), [Componize](https://www.componize.com/), [XDocs](https://xdocs.net/) | [Contentful](https://www.contentful.com/), [Strapi](https://strapi.io/), [WordPress](https://wordpress.com/) |
+
+**Example**: an API doc team maintains a shared `auth-flow` component describing
+the OAuth 2.0 authentication flow; the component is referenced in the getting
+started guide, the API reference, the SDK docs for three languages, and the
+localized Japanese output. When the auth flow changes, a writer updates the single
+component and the CCMS automatically propagates the update to all seven outputs;
+the same team uses a CCMS to conditionally publish product-tier variants, filtering
+components by metadata so Enterprise and Developer plan docs render from the same
+component library with different content visible per audience
+
+**Related Terms**: [CMS](#cms), [content](../writing-style.mdx#content), [DAM](#dam),
+[docs-as-code](../workflows-methodologies.mdx#docs-as-code), [information architecture](../frameworks-strategy.mdx#information-architecture),
+[knowledge management](../frameworks-strategy.mdx#knowledge-management), [metadata](#metadata), [partials](#partials),
+[structured content](../writing-style.mdx#structured-content), [taxonomy](../frameworks-strategy.mdx#taxonomy), [version control](development-essentials.mdx#version-control)
+
+**Sources**:
+
+- [Heretto Intellectual Property, Content Ops: "What Is a Component Content Management System (CCMS)?" by Ren Taylor](https://www.heretto.com/blog/component-content-management-system)
+- [Wikipedia: "Component content management system"](https://en.wikipedia.org/wiki/Component_content_management_system)
+
+---
+
 ## CMS
 
 **Definition**: acronym for _content management system_; software platform
@@ -155,7 +210,7 @@ control under the hood, abstracted away for user-friendliness
 | **Key Features** | Page templates, content workflows, publishing controls | Advanced metadata, version control, usage rights management |
 | **Common Users** | Technical writers, content creators, web managers | Creative teams, marketing teams, asset managers |
 | **API Docs Use Case** | Managing endpoint reference pages, tutorials, guides | Managing architecture diagrams, video tutorials, screenshots |
-| **Example Tools** | [Contentful](https://www.contentful.com/), [Strapi](https://strapi.io/), [WordPress](https://wordpress.com/), [Docusaurus](https://docusaurus.io/) | [Bynder](https://www.bynder.com/en/), [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html), [Cloudinary](https://cloudinary.com/) |
+| **Tools** | [Contentful](https://www.contentful.com/), [Strapi](https://strapi.io/), [WordPress](https://wordpress.com/), [Docusaurus](https://docusaurus.io/) | [Bynder](https://www.bynder.com/en/), [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html), [Cloudinary](https://cloudinary.com/) |
 
 ### CMS vs version control
 
@@ -176,14 +231,10 @@ meanwhile, engineers can access the same content via API for integration into SD
 documentation, and the CMS handles publishing to production without requiring writers
 to use Git commands
 
-**Related Terms**: [content](../writing-style.mdx#content), [DAM](#dam),
-[docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-[Git](../tools-techniques/development-essentials.mdx#git),
-[GUI](../tools-techniques/development-essentials.mdx#gui),
-[knowledge management](../frameworks-strategy.mdx#knowledge-management),
-[metadata](#metadata), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
-[structured content](../writing-style.mdx#structured-content),
-[version control](development-essentials.mdx#version-control)
+**Related Terms**: [CCMS](#ccms), [content](../writing-style.mdx#content), [DAM](#dam), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Git](../tools-techniques/development-essentials.mdx#git), [GUI](../tools-techniques/development-essentials.mdx#gui),
+[knowledge management](../frameworks-strategy.mdx#knowledge-management), [metadata](#metadata), [SDK](../core-concepts/api-fundamentals.mdx#sdk),
+[structured content](../writing-style.mdx#structured-content), [version control](development-essentials.mdx#version-control)
 
 **Sources**:
 
@@ -228,9 +279,8 @@ API Docs Glossary asset organization
 | 5 | Architecture Diagrams | Reusable Assets - single source referenced across multiple docs pages |
 | 6 | Dark/Light Logos | Asset Variants - theme variants managed as a set |
 
-**Related Terms**: [content](../writing-style.mdx#content), [CMS](#cms),
-[docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem),
-[knowledge management](../frameworks-strategy.mdx#knowledge-management),
+**Related Terms**: [CCMS](#ccms), [content](../writing-style.mdx#content), [CMS](#cms),
+[docs-as-ecosystem](../frameworks-strategy.mdx#docs-as-ecosystem), [knowledge management](../frameworks-strategy.mdx#knowledge-management),
 [metadata](#metadata), [taxonomy](../frameworks-strategy.mdx#taxonomy)
 
 **Sources**:
@@ -750,10 +800,9 @@ different types of metadata about API Docs Glossary's assets -
 | 5 | Last Uploaded | Temporal Metadata - tracks date/time of content changes |
 | 6 | Shared With | Permission Metadata - controls access |
 
-**Related Terms**: [CMS](#cms), [content](../writing-style.mdx#content),
+**Related Terms**: [CCMS](#ccms), [CMS](#cms), [content](../writing-style.mdx#content),
 [DAM](#dam), [information architecture](../frameworks-strategy.mdx#information-architecture),
-[knowledge graph](../ai-and-apis.mdx#knowledge-graph),
-[knowledge management](../frameworks-strategy.mdx#knowledge-management),
+[knowledge graph](../ai-and-apis.mdx#knowledge-graph), [knowledge management](../frameworks-strategy.mdx#knowledge-management),
 [ontology](../frameworks-strategy.mdx#ontology), [structured content](../writing-style.mdx#structured-content),
 [taxonomy](../frameworks-strategy.mdx#taxonomy), [technical communication](../frameworks-strategy.mdx#technical-communication)
 
@@ -907,11 +956,9 @@ api-docs-monorepo/
 | MkDocs Material | `--8<-- "auth-flow.md"` |
 | Docusaurus | `import AuthFlow from './auth-flow.md';` then `<AuthFlow />` |
 
-**Related Terms**: [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
-Docusaurus, [Markdown](#markdown), [MDX](#mdx), MkDocs,
-[monorepo](development-essentials.mdx#monorepo),
-[static site generator](#static-site-generator),
-[white-labeling](../frameworks-strategy.mdx#white-labeling)
+**Related Terms**: [CCMS](#ccms), [docs-as-code](../workflows-methodologies.mdx#docs-as-code),
+[Docusaurus](#docusaurus), [Markdown](#markdown), [MDX](#mdx), [MkDocs](#mkdocs), [monorepo](development-essentials.mdx#monorepo),
+[static site generator](#static-site-generator), [white-labeling](../frameworks-strategy.mdx#white-labeling)
 
 **Sources**:
 
