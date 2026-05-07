@@ -321,6 +321,16 @@ in a repository
 
 ---
 
+### CCMS
+
+- acronym for _component content management system_
+- manages documentation at the component level rather than the docs level
+- commonly build on XML-based structured authoring standards, most often DITA
+
+**Glossary Term Entry Location**: [Tools & Techniques, Documentation-Specific - CCMS](./tools-techniques/documentation-specific.mdx#ccms)
+
+---
+
 ### cherry-pick
 
 - version control concept
